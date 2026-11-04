@@ -30,6 +30,20 @@ $ python 01/scripts/verify_all.py --daily --cache --no-ref-hard → 31/31 通过
 - 门禁今日 31/31（`--no-ref-hard` 降级）：03 线 vic20 在制包反链未回填（REF-02），
   03 回填后恢复硬判。
 
+## 5. CI 首跑与修复迭代（最终全绿）
+
+| 轮 | head | 结果 | 根因与修复 |
+|---|---|---|---|
+| 1 | cc0d8a7 | failure（步骤4） | `working-directory: 01` 被 YAML 解析成八进制 1（目录变 /…/1）→ 加引号 `"01"` |
+| 2 | 4954fb7 | failure（步骤6 m1b） | m1b 包定位硬编码 `D:\work\03…`，runner 无共享盘 → 改为"镜像优先、D:\work 回退" `_pkg_root()` |
+| 3 | 0e0a631 | failure（步骤4） | 我编辑时漏掉 docstring 闭合三引号（提交前未编译）→ 补闭合并 py_compile 复验 |
+| 4 | 29b62f9 | **success** | 五步全绿：compileall + m0 + m1b + slots + gd |
+| 5 | 本报告推送 | 预期 success | 报告属 01/** 触发范围，CI 再跑一次 |
+
+教训入册：CI 侧 push 前先本地 `py_compile`；YAML 数字键/目录一律加引号。
+
+查看运行：https://github.com/Luctw007/diorama-museum/actions
+
 ## 4. 开放问题
 
 - CI 在 ubuntu 上未实跑过（首次 Actions 待 workflow 推送后验证）——m0/m1b 涉及
