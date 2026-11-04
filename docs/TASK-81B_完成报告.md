@@ -10,13 +10,20 @@
 | `.gitignore` | 缓存产物（__pycache__/*.pyc）+ 自动生成物（verify_last/verify_history/PROJECT_STATS）+ 红线（third_party/、slots/_drill/）+ 临时产物（demo_out、doctor_log） |
 | `docs/git_workflow.md` | 各线照做操作卡：前置（安装/身份）、初始化三段式提交、每日 message 约定、git status/check-ignore 检查、五条禁入清单 |
 
-## 2. 未执行部分（原因与接续）
+## 2. 收尾执行（2026-11-05，用户自装 git 后）
 
-- **git init + 三段式首次提交未执行**：本机未安装 git（winget 因网络超时安装失败；
-  镜像便携包已下载但用户决定自行安装，临时包 `%TEMP%\mingit.zip` 已清理）。
-- 接续方式（二选一，装好 git 后任选）：
-  1. 用户喊"01 执行 81-B 收尾"，本线 1 分钟内完成 init + 三段提交并贴 `git log --oneline`；
-  2. 用户按 `docs/git_workflow.md` §1-2 自己执行（命令块已写全）。
+- 用户自装 Git 2.56.0.windows.4（`C:\Program Files\Git\cmd\git.exe`；新终端 PATH 未刷新，
+  本线用完整路径执行）；
+- `git init` + 三段式提交（全局身份未配置，按指引用 `-c user.name/user.email` 临时身份，
+  未改动任何 git config）：
+  ```text
+  aa4aa30 chore(01): 首次提交-代码与工具链（.gitignore / scripts / gw）
+  beba0c4 chore(01): 首次提交-文档与槽位声明（docs / slots / licenses / tools）
+  6c809dd chore(01): 首次提交-内容树（godot 及剩余）
+  ```
+- 验证：`git status --short` 为空（工作区干净）；`git check-ignore` 命中红线
+  `third_party/mame/mame`、`slots/_drill/mame/mame_drill.bat` 与生成物
+  `docs/verify_last.json`、`docs/verify_history.jsonl`；已跟踪文件 378 个。
 
 ## 3. 开放问题
 
