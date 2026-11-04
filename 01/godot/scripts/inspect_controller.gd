@@ -144,10 +144,14 @@ func _set_selected(node: Node3D) -> void:
 	_selected = node
 	if _selected != null:
 		var mi := _first_mesh(_selected)
-		if mi != null and mi.material_override is StandardMaterial3D:
-			(mi.material_override as StandardMaterial3D).emission_enabled = true
-			(mi.material_override as StandardMaterial3D).emission = Color(1.0, 0.6, 0.1)
-			(mi.material_override as StandardMaterial3D).emission_energy_multiplier = 0.6
+		if mi != null:
+			var mat := mi.material_override as StandardMaterial3D
+			if mat == null:   # 白模无材质 → 现建 override，保证高亮可见
+				mat = StandardMaterial3D.new()
+				mi.material_override = mat
+			mat.emission_enabled = true
+			mat.emission = Color(1.0, 0.6, 0.1)
+			mat.emission_energy_multiplier = 0.6
 		if _hud_label != null:
 			var role: String = device_loader_hint.get_node_role(_selected) if device_loader_hint != null else ""
 			_hud_label.text = "[选中] %s\n%s" % [_selected.name, role if role != "" else "（无 role 标注）"]
@@ -200,3 +204,10 @@ func _ready() -> void:
 	if parent_node != null and parent_node.has_method("get_node_role"):
 		device_loader_hint = parent_node
 		set_target(parent_node as Node3D)
+	# 选中 HUD：历史上 set_hud_label 无人调用——这里自建标签挂 HUD（与 gateway_client 同模式）
+	var hud := get_node_or_null("/root/Main/HUD") as CanvasLayer
+	if hud != null and _hud_label == null:
+		_hud_label = Label.new()
+		_hud_label.position = Vector2(16, 40)
+		_hud_label.add_theme_font_size_override("font_size", 16)
+		hud.add_child(_hud_label)
