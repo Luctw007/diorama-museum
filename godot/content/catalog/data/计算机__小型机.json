@@ -1,0 +1,1658 @@
+[
+ {
+  "id": "C-MC-000001",
+  "name": "PDP-1",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1959,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "influence": "DEC 首台小型机，催生首个视频游戏 Spacewar!。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1959,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "reason": "DEC 首台小型机，催生首个视频游戏 Spacewar!。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ]
+ },
+ {
+  "id": "C-MC-000002",
+  "name": "PDP-4",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1962,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "influence": "PDP-1 的低成本后继。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1962,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "reason": "PDP-1 的低成本后继。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ]
+ },
+ {
+  "id": "C-MC-000003",
+  "name": "PDP-5",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1963,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "influence": "PDP-8 前身，12 位架构。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1963,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "reason": "PDP-8 前身，12 位架构。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ]
+ },
+ {
+  "id": "C-MC-000004",
+  "name": "PDP-7",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1965,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "influence": "Unix 最初在 PDP-7 上诞生。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1965,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "reason": "Unix 最初在 PDP-7 上诞生。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ]
+ },
+ {
+  "id": "C-MC-000005",
+  "name": "PDP-8",
+  "aliases": [
+   "小型计算机"
+  ],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1965,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "influence": "首台成功商用小型机，带进实验室与产线。",
+  "status": "done",
+  "device_id": "pdp8",
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1965,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "reason": "首台成功商用小型机，带进实验室与产线。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ]
+ },
+ {
+  "id": "C-MC-000006",
+  "name": "PDP-8/I",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1968,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "influence": "PDP-8 集成电路版本。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1968,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "reason": "PDP-8 集成电路版本。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ]
+ },
+ {
+  "id": "C-MC-000007",
+  "name": "PDP-9",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1966,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "influence": "PDP-7 增强版。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1966,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "reason": "PDP-7 增强版。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ]
+ },
+ {
+  "id": "C-MC-000008",
+  "name": "PDP-10",
+  "aliases": [
+   "DECsystem-10"
+  ],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1967,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "influence": "36 位分时小型机，ARPANET 早期节点。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1967,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "reason": "36 位分时小型机，ARPANET 早期节点。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ]
+ },
+ {
+  "id": "C-MC-000009",
+  "name": "PDP-12",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1969,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "influence": "面向实验室的图形与实时处理。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1969,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "reason": "面向实验室的图形与实时处理。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ]
+ },
+ {
+  "id": "C-MC-000010",
+  "name": "PDP-11/20",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1970,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "influence": "PDP-11 首款，Unibus 与正交架构开端。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1970,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "reason": "PDP-11 首款，Unibus 与正交架构开端。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ]
+ },
+ {
+  "id": "C-MC-000011",
+  "name": "PDP-11/45",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1972,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "influence": "PDP-11 中高端，Unix 广泛部署。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1972,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "reason": "PDP-11 中高端，Unix 广泛部署。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ]
+ },
+ {
+  "id": "C-MC-000012",
+  "name": "PDP-11/70",
+  "aliases": [
+   "PDP-11 旗舰"
+  ],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1975,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "influence": "PDP-11 性能巅峰，Unix 与 C 语言孵化平台。",
+  "status": "done",
+  "device_id": "pdp11",
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1975,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "reason": "PDP-11 性能巅峰，Unix 与 C 语言孵化平台。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ]
+ },
+ {
+  "id": "C-MC-000013",
+  "name": "PDP-11/34",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1976,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "influence": "PDP-11 中端普及型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1976,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "reason": "PDP-11 中端普及型号。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ]
+ },
+ {
+  "id": "C-MC-000014",
+  "name": "PDP-11/40",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1973,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "influence": "PDP-11 中端普及型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1973,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "reason": "PDP-11 中端普及型号。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ]
+ },
+ {
+  "id": "C-MC-000015",
+  "name": "PDP-11/03",
+  "aliases": [
+   "LSI-11"
+  ],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1975,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "influence": "单板 LSI-11 处理器，PDP-11 入门。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1975,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "reason": "单板 LSI-11 处理器，PDP-11 入门。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ]
+ },
+ {
+  "id": "C-MC-000016",
+  "name": "PDP-11/60",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1977,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "influence": "PDP-11 后期高端型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1977,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ],
+  "reason": "PDP-11 后期高端型号。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC PDP 系"
+  ]
+ },
+ {
+  "id": "C-MC-000017",
+  "name": "VAX-11/780",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1977,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "influence": "32 位虚拟寻址小型机，VAX MIPS 成行业标尺。",
+  "status": "done",
+  "device_id": "vax11",
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1977,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "reason": "32 位虚拟寻址小型机，VAX MIPS 成行业标尺。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ]
+ },
+ {
+  "id": "C-MC-000018",
+  "name": "VAX-11/750",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1980,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "influence": "VAX 中端型号，高性价比。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1980,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "reason": "VAX 中端型号，高性价比。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ]
+ },
+ {
+  "id": "C-MC-000019",
+  "name": "VAX-11/730",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "influence": "VAX 入门级型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "reason": "VAX 入门级型号。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ]
+ },
+ {
+  "id": "C-MC-000020",
+  "name": "VAX-11/782",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "influence": "双处理器 VAX 中端型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "reason": "双处理器 VAX 中端型号。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ]
+ },
+ {
+  "id": "C-MC-000021",
+  "name": "MicroVAX II",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "influence": "单芯片 VAX，大幅降低 VAX 门槛。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "reason": "单芯片 VAX，大幅降低 VAX 门槛。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ]
+ },
+ {
+  "id": "C-MC-000022",
+  "name": "MicroVAX 3100",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "influence": "低成本 VAX，桌面化。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "reason": "低成本 VAX，桌面化。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ]
+ },
+ {
+  "id": "C-MC-000023",
+  "name": "VAX 8200",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "influence": "紧凑型 VAX 服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "reason": "紧凑型 VAX 服务器。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ]
+ },
+ {
+  "id": "C-MC-000024",
+  "name": "VAXstation",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "influence": "VAX 工作站系列，Unix/VMS 图形桌面。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "reason": "VAX 工作站系列，Unix/VMS 图形桌面。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ]
+ },
+ {
+  "id": "C-MC-000025",
+  "name": "VAX 8600",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "influence": "VAX 高端大型小型机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "reason": "VAX 高端大型小型机。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ]
+ },
+ {
+  "id": "C-MC-000026",
+  "name": "VAX 9000",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "influence": "VAX 系列最后的旗舰大型机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ],
+  "reason": "VAX 系列最后的旗舰大型机。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "DEC VAX 系"
+  ]
+ },
+ {
+  "id": "C-MC-000027",
+  "name": "Data General Nova",
+  "aliases": [
+   "Nova"
+  ],
+  "manufacturer": "Data General",
+  "origin": "美国",
+  "era": 1969,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "低价小型机，与 PDP 系列激烈竞争。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Data General",
+  "year": 1969,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "低价小型机，与 PDP 系列激烈竞争。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000028",
+  "name": "Data General SuperNova",
+  "aliases": [
+   "SuperNova"
+  ],
+  "manufacturer": "Data General",
+  "origin": "美国",
+  "era": 1970,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "Nova 高速增强版。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Data General",
+  "year": 1970,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "Nova 高速增强版。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000029",
+  "name": "Data General Nova 2",
+  "aliases": [
+   "Nova 2"
+  ],
+  "manufacturer": "Data General",
+  "origin": "美国",
+  "era": 1973,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "Nova 系列主力，性能提升。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Data General",
+  "year": 1973,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "Nova 系列主力，性能提升。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000030",
+  "name": "Data General Nova 3",
+  "aliases": [
+   "Nova 3"
+  ],
+  "manufacturer": "Data General",
+  "origin": "美国",
+  "era": 1975,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "Nova 普及型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Data General",
+  "year": 1975,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "Nova 普及型号。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000031",
+  "name": "Data General Eclipse",
+  "aliases": [
+   "Eclipse"
+  ],
+  "manufacturer": "Data General",
+  "origin": "美国",
+  "era": 1974,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "DG 高端小型机系列。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Data General",
+  "year": 1974,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "DG 高端小型机系列。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000032",
+  "name": "Data General Eclipse S/130",
+  "aliases": [],
+  "manufacturer": "Data General",
+  "origin": "美国",
+  "era": 1979,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "Eclipse 入门型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Data General",
+  "year": 1979,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "Eclipse 入门型号。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000033",
+  "name": "Data General MV/8000",
+  "aliases": [
+   "Eagle"
+  ],
+  "manufacturer": "Data General",
+  "origin": "美国",
+  "era": 1980,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "32 位小型机，兼容 Eclipse 软件。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Data General",
+  "year": 1980,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "32 位小型机，兼容 Eclipse 软件。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000034",
+  "name": "Prime 300",
+  "aliases": [],
+  "manufacturer": "Prime Computer",
+  "origin": "美国",
+  "era": 1973,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "Prime 32 位小型机，CAD 与科研应用。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Prime Computer",
+  "year": 1973,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "Prime 32 位小型机，CAD 与科研应用。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000035",
+  "name": "Prime 750",
+  "aliases": [],
+  "manufacturer": "Prime Computer",
+  "origin": "美国",
+  "era": 1979,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "Prime 32 位小型机普及型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Prime Computer",
+  "year": 1979,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "Prime 32 位小型机普及型号。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000036",
+  "name": "Wang 2200",
+  "aliases": [],
+  "manufacturer": "Wang Laboratories",
+  "origin": "美国",
+  "era": 1973,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "王安小型机，面向文字处理。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Wang Laboratories",
+  "year": 1973,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "王安小型机，面向文字处理。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000037",
+  "name": "Wang VS",
+  "aliases": [],
+  "manufacturer": "Wang Laboratories",
+  "origin": "美国",
+  "era": 1977,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "王安虚拟存储小型机，商用主力。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Wang Laboratories",
+  "year": 1977,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "王安虚拟存储小型机，商用主力。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000038",
+  "name": "Interdata 7/32",
+  "aliases": [],
+  "manufacturer": "Interdata",
+  "origin": "美国",
+  "era": 1974,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "Unix 首台商用移植的 32 位小型机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Interdata",
+  "year": 1974,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "Unix 首台商用移植的 32 位小型机。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000039",
+  "name": "Honeywell DPS-6",
+  "aliases": [],
+  "manufacturer": "Honeywell",
+  "origin": "美国",
+  "era": 1979,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "16 位小型机，商用普及。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Honeywell",
+  "year": 1979,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "16 位小型机，商用普及。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000040",
+  "name": "SEL 32",
+  "aliases": [],
+  "manufacturer": "Systems Engineering Labs",
+  "origin": "美国",
+  "era": 1975,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "实时小型机，工业与军工应用。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Systems Engineering Labs",
+  "year": 1975,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "实时小型机，工业与军工应用。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000041",
+  "name": "Texas Instruments 990",
+  "aliases": [],
+  "manufacturer": "德州仪器",
+  "origin": "美国",
+  "era": 1975,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "TI 16 位小型机，9900 微处理器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "德州仪器",
+  "year": 1975,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "TI 16 位小型机，9900 微处理器。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000042",
+  "name": "Modular One",
+  "aliases": [],
+  "manufacturer": "Computer Technology Ltd.",
+  "origin": "英国",
+  "era": 1973,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "英国模块化小型机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Computer Technology Ltd.",
+  "year": 1973,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "英国模块化小型机。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000043",
+  "name": "DJS-130",
+  "aliases": [
+   "130 计算机"
+  ],
+  "manufacturer": "中国（多家仿制）",
+  "origin": "中国",
+  "era": 1974,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "国产小型机，Data General Nova 兼容。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "中国（多家仿制）",
+  "year": 1974,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "国产小型机，Data General Nova 兼容。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000044",
+  "name": "DJS-100",
+  "aliases": [
+   "100 系列机"
+  ],
+  "manufacturer": "中国（多家）",
+  "origin": "中国",
+  "era": 1974,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "influence": "中国小型机系列开端。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "中国（多家）",
+  "year": 1974,
+  "path": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ],
+  "reason": "中国小型机系列开端。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "Data General"
+  ]
+ },
+ {
+  "id": "C-MC-000045",
+  "name": "HP 2116",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 1966,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "HP"
+  ],
+  "influence": "HP 首台计算机，用于仪器控制。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 1966,
+  "path": [
+   "计算机",
+   "小型机",
+   "HP"
+  ],
+  "reason": "HP 首台计算机，用于仪器控制。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-MC-000046",
+  "name": "HP 2100",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 1971,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "HP"
+  ],
+  "influence": "HP 小型机主力，实时控制。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 1971,
+  "path": [
+   "计算机",
+   "小型机",
+   "HP"
+  ],
+  "reason": "HP 小型机主力，实时控制。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-MC-000047",
+  "name": "HP 1000",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 1974,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "HP"
+  ],
+  "influence": "HP 实时小型机系列，工业控制广泛。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 1974,
+  "path": [
+   "计算机",
+   "小型机",
+   "HP"
+  ],
+  "reason": "HP 实时小型机系列，工业控制广泛。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-MC-000048",
+  "name": "HP 3000",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 1972,
+  "taxonomy_path": [
+   "计算机",
+   "小型机",
+   "HP"
+  ],
+  "influence": "HP 商用小型机，MPE 操作系统。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 1972,
+  "path": [
+   "计算机",
+   "小型机",
+   "HP"
+  ],
+  "reason": "HP 商用小型机，MPE 操作系统。",
+  "_taxonomy": [
+   "计算机",
+   "小型机",
+   "HP"
+  ]
+ }
+]

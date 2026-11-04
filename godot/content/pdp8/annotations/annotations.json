@@ -1,0 +1,268 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "DEC PDP-8 整机，第一台成功的小型计算机，以 12 位字长、磁芯内存与前面板开关完成程序的手动加载与运行。"
+    },
+    {
+      "id": "sw_data_00_role",
+      "type": "role",
+      "target": "sw_data_00",
+      "text": "数据拨动开关第 0 位在整机中设定开关寄存器的第 0 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+    },
+    {
+      "id": "sw_data_01_role",
+      "type": "role",
+      "target": "sw_data_01",
+      "text": "数据拨动开关第 1 位在整机中设定开关寄存器的第 1 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+    },
+    {
+      "id": "sw_data_02_role",
+      "type": "role",
+      "target": "sw_data_02",
+      "text": "数据拨动开关第 2 位在整机中设定开关寄存器的第 2 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+    },
+    {
+      "id": "sw_data_03_role",
+      "type": "role",
+      "target": "sw_data_03",
+      "text": "数据拨动开关第 3 位在整机中设定开关寄存器的第 3 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+    },
+    {
+      "id": "sw_data_04_role",
+      "type": "role",
+      "target": "sw_data_04",
+      "text": "数据拨动开关第 4 位在整机中设定开关寄存器的第 4 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+    },
+    {
+      "id": "sw_data_05_role",
+      "type": "role",
+      "target": "sw_data_05",
+      "text": "数据拨动开关第 5 位在整机中设定开关寄存器的第 5 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+    },
+    {
+      "id": "sw_data_06_role",
+      "type": "role",
+      "target": "sw_data_06",
+      "text": "数据拨动开关第 6 位在整机中设定开关寄存器的第 6 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+    },
+    {
+      "id": "sw_data_07_role",
+      "type": "role",
+      "target": "sw_data_07",
+      "text": "数据拨动开关第 7 位在整机中设定开关寄存器的第 7 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+    },
+    {
+      "id": "sw_data_08_role",
+      "type": "role",
+      "target": "sw_data_08",
+      "text": "数据拨动开关第 8 位在整机中设定开关寄存器的第 8 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+    },
+    {
+      "id": "sw_data_09_role",
+      "type": "role",
+      "target": "sw_data_09",
+      "text": "数据拨动开关第 9 位在整机中设定开关寄存器的第 9 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+    },
+    {
+      "id": "sw_data_10_role",
+      "type": "role",
+      "target": "sw_data_10",
+      "text": "数据拨动开关第 10 位在整机中设定开关寄存器的第 10 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+    },
+    {
+      "id": "sw_data_11_role",
+      "type": "role",
+      "target": "sw_data_11",
+      "text": "数据拨动开关第 11 位在整机中设定开关寄存器的第 11 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+    },
+    {
+      "id": "sw_load_addr_role",
+      "type": "role",
+      "target": "sw_load_addr",
+      "text": "装载地址开关在整机中把开关寄存器的 12 位内容送入程序计数器，定位要检视或写入的内存地址。"
+    },
+    {
+      "id": "sw_exam_role",
+      "type": "role",
+      "target": "sw_exam",
+      "text": "检视开关在整机中把当前地址的内容读入存储器缓冲，并显示在累加器指示灯上供操作员查看。"
+    },
+    {
+      "id": "sw_dep_role",
+      "type": "role",
+      "target": "sw_dep",
+      "text": "写入开关在整机中把开关寄存器的内容写入当前地址，完成一次手动存数操作。"
+    },
+    {
+      "id": "sw_start_role",
+      "type": "role",
+      "target": "sw_start",
+      "text": "启动开关在整机中使处理器从程序计数器当前地址开始执行程序。"
+    },
+    {
+      "id": "sw_stop_role",
+      "type": "role",
+      "target": "sw_stop",
+      "text": "停机开关在整机中暂停处理器的执行，使机器回到手动控制状态。"
+    },
+    {
+      "id": "sw_cont_role",
+      "type": "role",
+      "target": "sw_cont",
+      "text": "继续开关在整机中使处理器从暂停处继续执行程序，用于单步调试后的恢复运行。"
+    },
+    {
+      "id": "sw_clear_role",
+      "type": "role",
+      "target": "sw_clear",
+      "text": "清除开关在整机中复位累加器与各状态标志，使机器回到初始状态。"
+    },
+    {
+      "id": "lamp_ac_00_role",
+      "type": "role",
+      "target": "lamp_ac_00",
+      "text": "累加器指示灯第 0 位在整机中点亮表示累加器第 0 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+    },
+    {
+      "id": "lamp_ac_01_role",
+      "type": "role",
+      "target": "lamp_ac_01",
+      "text": "累加器指示灯第 1 位在整机中点亮表示累加器第 1 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+    },
+    {
+      "id": "lamp_ac_02_role",
+      "type": "role",
+      "target": "lamp_ac_02",
+      "text": "累加器指示灯第 2 位在整机中点亮表示累加器第 2 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+    },
+    {
+      "id": "lamp_ac_03_role",
+      "type": "role",
+      "target": "lamp_ac_03",
+      "text": "累加器指示灯第 3 位在整机中点亮表示累加器第 3 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+    },
+    {
+      "id": "lamp_ac_04_role",
+      "type": "role",
+      "target": "lamp_ac_04",
+      "text": "累加器指示灯第 4 位在整机中点亮表示累加器第 4 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+    },
+    {
+      "id": "lamp_ac_05_role",
+      "type": "role",
+      "target": "lamp_ac_05",
+      "text": "累加器指示灯第 5 位在整机中点亮表示累加器第 5 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+    },
+    {
+      "id": "lamp_ac_06_role",
+      "type": "role",
+      "target": "lamp_ac_06",
+      "text": "累加器指示灯第 6 位在整机中点亮表示累加器第 6 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+    },
+    {
+      "id": "lamp_ac_07_role",
+      "type": "role",
+      "target": "lamp_ac_07",
+      "text": "累加器指示灯第 7 位在整机中点亮表示累加器第 7 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+    },
+    {
+      "id": "lamp_ac_08_role",
+      "type": "role",
+      "target": "lamp_ac_08",
+      "text": "累加器指示灯第 8 位在整机中点亮表示累加器第 8 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+    },
+    {
+      "id": "lamp_ac_09_role",
+      "type": "role",
+      "target": "lamp_ac_09",
+      "text": "累加器指示灯第 9 位在整机中点亮表示累加器第 9 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+    },
+    {
+      "id": "lamp_ac_10_role",
+      "type": "role",
+      "target": "lamp_ac_10",
+      "text": "累加器指示灯第 10 位在整机中点亮表示累加器第 10 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+    },
+    {
+      "id": "lamp_ac_11_role",
+      "type": "role",
+      "target": "lamp_ac_11",
+      "text": "累加器指示灯第 11 位在整机中点亮表示累加器第 11 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+    },
+    {
+      "id": "lamp_link_role",
+      "type": "role",
+      "target": "lamp_link",
+      "text": "链接指示灯在整机中显示累加器链接位（进位）的当前状态，点亮表示有进位产生。"
+    },
+    {
+      "id": "lamp_run_role",
+      "type": "role",
+      "target": "lamp_run",
+      "text": "运行指示灯在整机中于处理器执行程序期间持续点亮，是判断机器是否在运行的状态指示。"
+    },
+    {
+      "id": "core_stack_role",
+      "type": "role",
+      "target": "core_stack",
+      "text": "磁芯存储阵列在整机中作为主存，用数千个磁芯环保存 4096 个 12 位字，断电不丢失。"
+    },
+    {
+      "id": "core_driver_role",
+      "type": "role",
+      "target": "core_driver",
+      "text": "磁芯驱动电路在整机中向磁芯阵列的 X/Y 选通线提供读写电流脉冲，驱动磁芯翻转。"
+    },
+    {
+      "id": "sense_amp_role",
+      "type": "role",
+      "target": "sense_amp",
+      "text": "读出放大器在整机中检测磁芯翻转产生的微弱感应脉冲，并整形为数字信号供累加器读取。"
+    },
+    {
+      "id": "tape_reader_role",
+      "type": "role",
+      "target": "tape_reader",
+      "text": "纸带读入机在整机中读取穿孔纸带上的程序与数据，是程序进入内存的主要入口。"
+    },
+    {
+      "id": "teleprinter_role",
+      "type": "role",
+      "target": "teleprinter",
+      "text": "电传打字机在整机中打印运算结果并输入操作命令，是主要的人机交互终端。"
+    },
+    {
+      "id": "manual_program_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "手动编程流程：拨动数据开关设定地址或数据 → 按装载地址键送入程序计数器 → 按写入键存入磁芯 → 按启动键从当前地址执行程序。"
+    },
+    {
+      "id": "panel_role",
+      "type": "role",
+      "target": "panel",
+      "text": "前面板在整机中提供拨动开关与指示灯，是操作员手动检视、写入与启动程序的直接接口。"
+    },
+    {
+      "id": "chassis_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "机体在整机中作为机械骨架，承载电源与处理器板组，提供结构支撑与散热通道。"
+    },
+    {
+      "id": "core_memory_rack_role",
+      "type": "role",
+      "target": "core_memory_rack",
+      "text": "核心内存机架在整机中承载磁芯存储阵列及其读写电路，是 12 位主存的物理载体。"
+    },
+    {
+      "id": "io_expansion_rack_role",
+      "type": "role",
+      "target": "io_expansion_rack",
+      "text": "I/O 扩展架在整机中挂载纸带读入机与电传打字机等外设接口，负责程序与数据的进出。"
+    }
+  ]
+}

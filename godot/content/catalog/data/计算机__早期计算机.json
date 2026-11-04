@@ -1,0 +1,472 @@
+[
+ {
+  "id": "C-EC-000001",
+  "name": "ENIAC",
+  "aliases": [
+   "埃尼阿克"
+  ],
+  "manufacturer": "宾夕法尼亚大学",
+  "origin": "美国",
+  "era": 1945,
+  "taxonomy_path": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ],
+  "influence": "公认首台通用电子数字计算机，开启电子计算时代。",
+  "status": "done",
+  "device_id": "eniac",
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "宾夕法尼亚大学",
+  "year": 1945,
+  "path": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ],
+  "reason": "公认首台通用电子数字计算机，开启电子计算时代。",
+  "_taxonomy": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ]
+ },
+ {
+  "id": "C-EC-000005",
+  "name": "Colossus",
+  "aliases": [
+   "巨人机"
+  ],
+  "manufacturer": "英国邮政研究站",
+  "origin": "英国",
+  "era": 1943,
+  "taxonomy_path": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ],
+  "influence": "二战密码破译专用电子计算机，可编程电子设备先驱。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "英国邮政研究站",
+  "year": 1943,
+  "path": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ],
+  "reason": "二战密码破译专用电子计算机，可编程电子设备先驱。",
+  "_taxonomy": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ]
+ },
+ {
+  "id": "C-EC-000006",
+  "name": "Z3",
+  "aliases": [
+   "祖斯 Z3"
+  ],
+  "manufacturer": "Konrad Zuse",
+  "origin": "德国",
+  "era": 1941,
+  "taxonomy_path": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ],
+  "influence": "世界首台可编程自动计算机，机电继电器实现。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Konrad Zuse",
+  "year": 1941,
+  "path": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ],
+  "reason": "世界首台可编程自动计算机，机电继电器实现。",
+  "_taxonomy": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ]
+ },
+ {
+  "id": "C-EC-000007",
+  "name": "Z4",
+  "aliases": [
+   "祖斯 Z4"
+  ],
+  "manufacturer": "Konrad Zuse",
+  "origin": "德国",
+  "era": 1945,
+  "taxonomy_path": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ],
+  "influence": "Z3 后继，战后欧洲首台运行的计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Konrad Zuse",
+  "year": 1945,
+  "path": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ],
+  "reason": "Z3 后继，战后欧洲首台运行的计算机。",
+  "_taxonomy": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ]
+ },
+ {
+  "id": "C-EC-000008",
+  "name": "Harvard Mark I",
+  "aliases": [
+   "哈佛 Mark I",
+   "ASCC"
+  ],
+  "manufacturer": "IBM / 哈佛大学",
+  "origin": "美国",
+  "era": 1944,
+  "taxonomy_path": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ],
+  "influence": "大型机电计算机，验证自动顺序控制可行性。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM / 哈佛大学",
+  "year": 1944,
+  "path": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ],
+  "reason": "大型机电计算机，验证自动顺序控制可行性。",
+  "_taxonomy": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ]
+ },
+ {
+  "id": "C-EC-000009",
+  "name": "ABC",
+  "aliases": [
+   "阿塔纳索夫-贝里计算机"
+  ],
+  "manufacturer": "爱荷华州立大学",
+  "origin": "美国",
+  "era": 1942,
+  "taxonomy_path": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ],
+  "influence": "首台电子数字计算机雏形，专利诉讼中获认可。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "爱荷华州立大学",
+  "year": 1942,
+  "path": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ],
+  "reason": "首台电子数字计算机雏形，专利诉讼中获认可。",
+  "_taxonomy": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ]
+ },
+ {
+  "id": "C-EC-000010",
+  "name": "IBM SSEC",
+  "aliases": [
+   "选择顺序电子计算机"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1948,
+  "taxonomy_path": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ],
+  "influence": "大型机电-电子混合计算机，公开演示。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1948,
+  "path": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ],
+  "reason": "大型机电-电子混合计算机，公开演示。",
+  "_taxonomy": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ]
+ },
+ {
+  "id": "C-EC-000013",
+  "name": "Whirlwind",
+  "aliases": [
+   "旋风计算机"
+  ],
+  "manufacturer": "MIT",
+  "origin": "美国",
+  "era": 1951,
+  "taxonomy_path": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ],
+  "influence": "首台实时计算机，磁芯存储与实时控制先驱。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "MIT",
+  "year": 1951,
+  "path": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ],
+  "reason": "首台实时计算机，磁芯存储与实时控制先驱。",
+  "_taxonomy": [
+   "计算机",
+   "早期计算机",
+   "电子管"
+  ]
+ },
+ {
+  "id": "C-EC-000002",
+  "name": "EDVAC",
+  "aliases": [
+   "埃德瓦克"
+  ],
+  "manufacturer": "宾夕法尼亚大学",
+  "origin": "美国",
+  "era": 1951,
+  "taxonomy_path": [
+   "计算机",
+   "早期计算机",
+   "存储程序"
+  ],
+  "influence": "首台按存储程序思想设计的计算机，奠定现代架构。",
+  "status": "done",
+  "device_id": "edvac",
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "宾夕法尼亚大学",
+  "year": 1951,
+  "path": [
+   "计算机",
+   "早期计算机",
+   "存储程序"
+  ],
+  "reason": "首台按存储程序思想设计的计算机，奠定现代架构。",
+  "_taxonomy": [
+   "计算机",
+   "早期计算机",
+   "存储程序"
+  ]
+ },
+ {
+  "id": "C-EC-000003",
+  "name": "EDSAC",
+  "aliases": [
+   "埃德萨克"
+  ],
+  "manufacturer": "剑桥大学",
+  "origin": "英国",
+  "era": 1949,
+  "taxonomy_path": [
+   "计算机",
+   "早期计算机",
+   "存储程序"
+  ],
+  "influence": "首台实用存储程序电子计算机，运行首个计算机游戏。",
+  "status": "done",
+  "device_id": "edsac",
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "剑桥大学",
+  "year": 1949,
+  "path": [
+   "计算机",
+   "早期计算机",
+   "存储程序"
+  ],
+  "reason": "首台实用存储程序电子计算机，运行首个计算机游戏。",
+  "_taxonomy": [
+   "计算机",
+   "早期计算机",
+   "存储程序"
+  ]
+ },
+ {
+  "id": "C-EC-000004",
+  "name": "Manchester Baby",
+  "aliases": [
+   "曼彻斯特 Baby",
+   "SSEM"
+  ],
+  "manufacturer": "曼彻斯特大学",
+  "origin": "英国",
+  "era": 1948,
+  "taxonomy_path": [
+   "计算机",
+   "早期计算机",
+   "存储程序"
+  ],
+  "influence": "首台存储程序电子计算机，成功运行存储程序。",
+  "status": "done",
+  "device_id": "manchester-baby",
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "曼彻斯特大学",
+  "year": 1948,
+  "path": [
+   "计算机",
+   "早期计算机",
+   "存储程序"
+  ],
+  "reason": "首台存储程序电子计算机，成功运行存储程序。",
+  "_taxonomy": [
+   "计算机",
+   "早期计算机",
+   "存储程序"
+  ]
+ },
+ {
+  "id": "C-EC-000011",
+  "name": "Manchester Mark 1",
+  "aliases": [
+   "曼彻斯特 Mark 1"
+  ],
+  "manufacturer": "曼彻斯特大学",
+  "origin": "英国",
+  "era": 1949,
+  "taxonomy_path": [
+   "计算机",
+   "早期计算机",
+   "存储程序"
+  ],
+  "influence": "Baby 完整版，后续授权 Ferranti 量产。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "曼彻斯特大学",
+  "year": 1949,
+  "path": [
+   "计算机",
+   "早期计算机",
+   "存储程序"
+  ],
+  "reason": "Baby 完整版，后续授权 Ferranti 量产。",
+  "_taxonomy": [
+   "计算机",
+   "早期计算机",
+   "存储程序"
+  ]
+ },
+ {
+  "id": "C-EC-000012",
+  "name": "IAS Machine",
+  "aliases": [
+   "普林斯顿 IAS 机"
+  ],
+  "manufacturer": "普林斯顿高等研究院",
+  "origin": "美国",
+  "era": 1952,
+  "taxonomy_path": [
+   "计算机",
+   "早期计算机",
+   "存储程序"
+  ],
+  "influence": "冯·诺依曼原型机，衍生多台同类机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "普林斯顿高等研究院",
+  "year": 1952,
+  "path": [
+   "计算机",
+   "早期计算机",
+   "存储程序"
+  ],
+  "reason": "冯·诺依曼原型机，衍生多台同类机。",
+  "_taxonomy": [
+   "计算机",
+   "早期计算机",
+   "存储程序"
+  ]
+ }
+]

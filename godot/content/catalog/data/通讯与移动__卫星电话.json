@@ -1,0 +1,332 @@
+[
+ {
+  "id": "iridium-9500",
+  "name": "Iridium 9500",
+  "alias": [],
+  "manufacturer": "Motorola / Iridium",
+  "era": 2001,
+  "taxonomy_path": [
+   "通讯与移动",
+   "卫星电话",
+   "Iridium 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "铱星系统手持卫星电话。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Motorola / Iridium",
+  "origin": "",
+  "year": 2001,
+  "path": [
+   "通讯与移动",
+   "卫星电话",
+   "Iridium 系"
+  ],
+  "reason": "铱星系统手持卫星电话。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "卫星电话",
+   "Iridium 系"
+  ]
+ },
+ {
+  "id": "iridium-9505",
+  "name": "Iridium 9505",
+  "alias": [],
+  "manufacturer": "Iridium",
+  "era": 2003,
+  "taxonomy_path": [
+   "通讯与移动",
+   "卫星电话",
+   "Iridium 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "铱星卫星电话，全球覆盖。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Iridium",
+  "origin": "",
+  "year": 2003,
+  "path": [
+   "通讯与移动",
+   "卫星电话",
+   "Iridium 系"
+  ],
+  "reason": "铱星卫星电话，全球覆盖。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "卫星电话",
+   "Iridium 系"
+  ]
+ },
+ {
+  "id": "iridium-9555",
+  "name": "Iridium 9555",
+  "alias": [],
+  "manufacturer": "Iridium",
+  "era": 2008,
+  "taxonomy_path": [
+   "通讯与移动",
+   "卫星电话",
+   "Iridium 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "铱星卫星电话主力。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Iridium",
+  "origin": "",
+  "year": 2008,
+  "path": [
+   "通讯与移动",
+   "卫星电话",
+   "Iridium 系"
+  ],
+  "reason": "铱星卫星电话主力。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "卫星电话",
+   "Iridium 系"
+  ]
+ },
+ {
+  "id": "iridium-9575-extreme",
+  "name": "Iridium 9575 Extreme",
+  "alias": [],
+  "manufacturer": "Iridium",
+  "era": 2011,
+  "taxonomy_path": [
+   "通讯与移动",
+   "卫星电话",
+   "Iridium 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "加固型卫星电话，野外应急。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Iridium",
+  "origin": "",
+  "year": 2011,
+  "path": [
+   "通讯与移动",
+   "卫星电话",
+   "Iridium 系"
+  ],
+  "reason": "加固型卫星电话，野外应急。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "卫星电话",
+   "Iridium 系"
+  ]
+ },
+ {
+  "id": "inmarsat-isatphone",
+  "name": "Inmarsat IsatPhone",
+  "alias": [],
+  "manufacturer": "Inmarsat",
+  "era": 2010,
+  "taxonomy_path": [
+   "通讯与移动",
+   "卫星电话",
+   "Inmarsat 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "海事卫星手持电话。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Inmarsat",
+  "origin": "",
+  "year": 2010,
+  "path": [
+   "通讯与移动",
+   "卫星电话",
+   "Inmarsat 系"
+  ],
+  "reason": "海事卫星手持电话。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "卫星电话",
+   "Inmarsat 系"
+  ]
+ },
+ {
+  "id": "inmarsat-isatphone-2",
+  "name": "Inmarsat IsatPhone 2",
+  "alias": [],
+  "manufacturer": "Inmarsat",
+  "era": 2014,
+  "taxonomy_path": [
+   "通讯与移动",
+   "卫星电话",
+   "Inmarsat 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "海事卫星电话第二代。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Inmarsat",
+  "origin": "",
+  "year": 2014,
+  "path": [
+   "通讯与移动",
+   "卫星电话",
+   "Inmarsat 系"
+  ],
+  "reason": "海事卫星电话第二代。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "卫星电话",
+   "Inmarsat 系"
+  ]
+ },
+ {
+  "id": "globalstar-gsp-1600",
+  "name": "Globalstar GSP-1600",
+  "alias": [],
+  "manufacturer": "Globalstar",
+  "era": 2000,
+  "taxonomy_path": [
+   "通讯与移动",
+   "卫星电话",
+   "Globalstar 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "全球星系统卫星电话。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Globalstar",
+  "origin": "",
+  "year": 2000,
+  "path": [
+   "通讯与移动",
+   "卫星电话",
+   "Globalstar 系"
+  ],
+  "reason": "全球星系统卫星电话。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "卫星电话",
+   "Globalstar 系"
+  ]
+ },
+ {
+  "id": "globalstar-gsp-1700",
+  "name": "Globalstar GSP-1700",
+  "alias": [],
+  "manufacturer": "Globalstar",
+  "era": 2005,
+  "taxonomy_path": [
+   "通讯与移动",
+   "卫星电话",
+   "Globalstar 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "全球星卫星电话后续。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Globalstar",
+  "origin": "",
+  "year": 2005,
+  "path": [
+   "通讯与移动",
+   "卫星电话",
+   "Globalstar 系"
+  ],
+  "reason": "全球星卫星电话后续。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "卫星电话",
+   "Globalstar 系"
+  ]
+ },
+ {
+  "id": "thuraya-so-2510",
+  "name": "Thuraya SO-2510",
+  "alias": [],
+  "manufacturer": "Thuraya",
+  "era": 2006,
+  "taxonomy_path": [
+   "通讯与移动",
+   "卫星电话",
+   "Thuraya 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "舒拉亚卫星电话。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Thuraya",
+  "origin": "",
+  "year": 2006,
+  "path": [
+   "通讯与移动",
+   "卫星电话",
+   "Thuraya 系"
+  ],
+  "reason": "舒拉亚卫星电话。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "卫星电话",
+   "Thuraya 系"
+  ]
+ },
+ {
+  "id": "thuraya-xt",
+  "name": "Thuraya XT",
+  "alias": [],
+  "manufacturer": "Thuraya",
+  "era": 2010,
+  "taxonomy_path": [
+   "通讯与移动",
+   "卫星电话",
+   "Thuraya 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "舒拉亚卫星电话主力。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Thuraya",
+  "origin": "",
+  "year": 2010,
+  "path": [
+   "通讯与移动",
+   "卫星电话",
+   "Thuraya 系"
+  ],
+  "reason": "舒拉亚卫星电话主力。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "卫星电话",
+   "Thuraya 系"
+  ]
+ }
+]

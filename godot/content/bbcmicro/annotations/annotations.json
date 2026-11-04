@@ -1,0 +1,214 @@
+{
+  "annotations": [
+    {
+      "id": "cpu_6502_role",
+      "type": "role",
+      "target": "cpu_6502",
+      "text": "6502 处理器在整机中作为主控芯片，以 2 MHz 执行 BBC BASIC 程序与系统逻辑。"
+    },
+    {
+      "id": "video_ula_role",
+      "type": "role",
+      "target": "video_ula",
+      "text": "Video ULA 图形芯片在整机中支持 MODE 0–7 多种显示模式，从高分辨率单色到 Teletext 彩色文本。"
+    },
+    {
+      "id": "rom_role",
+      "type": "role",
+      "target": "rom",
+      "text": "BBC BASIC + MOS ROM 在整机中固化先进的结构化 BASIC 解释器与操作系统，实现开机即编程。"
+    },
+    {
+      "id": "ram_role",
+      "type": "role",
+      "target": "ram",
+      "text": "内存在整机中存放程序与数据，是系统运行时的主存储。"
+    },
+    {
+      "id": "via_6522_role",
+      "type": "role",
+      "target": "via_6522",
+      "text": "6522 VIA 接口芯片在整机中处理用户端口、打印机端口与系统定时器，是外围接口枢纽。"
+    },
+    {
+      "id": "acia_6850_role",
+      "type": "role",
+      "target": "acia_6850",
+      "text": "6850 ACIA 串口芯片在整机中处理串行通信，是系统与外部设备的数据通道。"
+    },
+    {
+      "id": "disk_controller_role",
+      "type": "role",
+      "target": "disk_controller",
+      "text": "磁盘控制器在整机中管理软驱的读写，是磁盘文件系统的硬件基础。"
+    },
+    {
+      "id": "speaker_driver_role",
+      "type": "role",
+      "target": "speaker_driver",
+      "text": "扬声器驱动在整机中把声音信号放大后驱动扬声器，输出系统提示音与游戏音效。"
+    },
+    {
+      "id": "video_output_role",
+      "type": "role",
+      "target": "video_output",
+      "text": "视频输出电路在整机中把 Video ULA 的画面信号转换为可接监视器或电视的视频信号。"
+    },
+    {
+      "id": "keyboard_matrix_role",
+      "type": "role",
+      "target": "keyboard_matrix",
+      "text": "键盘矩阵在整机中把按键扫描为行列信号，供系统读取，是文字输入的核心。"
+    },
+    {
+      "id": "red_function_keys_role",
+      "type": "role",
+      "target": "red_function_keys",
+      "text": "红色功能键排在整机中提供 f0–f9 功能键，是 BBC Micro 的标志性键盘设计。"
+    },
+    {
+      "id": "cursor_keys_role",
+      "type": "role",
+      "target": "cursor_keys",
+      "text": "光标键组在整机中控制光标移动，用于编辑与游戏操作。"
+    },
+    {
+      "id": "break_key_role",
+      "type": "role",
+      "target": "break_key",
+      "text": "BREAK 键在整机中触发系统复位，使机器回到开机提示符状态。"
+    },
+    {
+      "id": "caps_lock_led_role",
+      "type": "role",
+      "target": "caps_lock_led",
+      "text": "大写锁定指示灯在整机中点亮表示键盘处于大写锁定状态。"
+    },
+    {
+      "id": "shift_lock_led_role",
+      "type": "role",
+      "target": "shift_lock_led",
+      "text": "上档锁定指示灯在整机中点亮表示键盘处于上档锁定状态。"
+    },
+    {
+      "id": "power_led_role",
+      "type": "role",
+      "target": "power_led",
+      "text": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的状态指示。"
+    },
+    {
+      "id": "tube_port_role",
+      "type": "role",
+      "target": "tube_port",
+      "text": "Tube 接口在整机中连接第二处理器协处理器，为系统提供扩展算力，是 ARM 架构诞生的技术伏笔。"
+    },
+    {
+      "id": "econet_port_role",
+      "type": "role",
+      "target": "econet_port",
+      "text": "Econet 网络接口在整机中连接多台机器组成教室网络，是早期计算机网络的代表。"
+    },
+    {
+      "id": "user_port_role",
+      "type": "role",
+      "target": "user_port",
+      "text": "用户端口在整机中连接传感器、控制电路等自定义外设，是实验与控制的接口。"
+    },
+    {
+      "id": "printer_port_role",
+      "type": "role",
+      "target": "printer_port",
+      "text": "打印机端口在整机中连接并行打印机，输出文字与图形结果。"
+    },
+    {
+      "id": "cassette_port_role",
+      "type": "role",
+      "target": "cassette_port",
+      "text": "磁带接口在整机中连接普通磁带机，用于程序的保存与加载。"
+    },
+    {
+      "id": "video_port_role",
+      "type": "role",
+      "target": "video_port",
+      "text": "视频端口在整机中输出 RGB 或复合视频信号，把画面送到监视器或电视。"
+    },
+    {
+      "id": "tube_connector_role",
+      "type": "role",
+      "target": "tube_connector",
+      "text": "Tube 连接器在整机中把主机与第二处理器高速连接，是协处理器通信的物理通道。"
+    },
+    {
+      "id": "second_processor_slot_role",
+      "type": "role",
+      "target": "second_processor_slot",
+      "text": "第二处理器插槽在整机中安装 6502 第二处理器、Z80 等协处理器，为系统扩展算力。"
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "power_switch",
+      "text": "电源开关在整机中控制整机供电的通断，是启动与关闭机器的总开关。"
+    },
+    {
+      "id": "transformer_role",
+      "type": "role",
+      "target": "transformer",
+      "text": "电源变压器在整机中把市电转换为机器所需的多种电压，为各芯片供电。"
+    },
+    {
+      "id": "regulator_role",
+      "type": "role",
+      "target": "regulator",
+      "text": "稳压电路在整机中把电压稳定到芯片所需的精确值，保障系统稳定运行。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "BBC Micro 整机，1981 年推出的英国国民教育电脑，以先进的 BBC BASIC 与 Tube 接口成为 ARM 架构的摇篮。"
+    },
+    {
+      "id": "computer_literacy_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "计算机素养计划：BBC 电视节目与配套教材配合 BBC Micro 教学，观众在家即可跟着节目敲入 BBC BASIC 程序学习编程。"
+    },
+    {
+      "id": "tube_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "Tube 第二处理器流程：主机 6502 经 Tube 接口与第二处理器高速通信，把重计算任务交给协处理器分担，提升系统算力。"
+    },
+    {
+      "id": "case_role",
+      "type": "role",
+      "target": "case",
+      "text": "主机壳在整机中作为斜角键盘台造型的机身外壳，承载主板、键盘与各端口，是整机的结构骨架。"
+    },
+    {
+      "id": "keyboard_role",
+      "type": "role",
+      "target": "keyboard",
+      "text": "键盘在整机中作为文字与命令输入界面，其红色功能键排是 BBC Micro 的标志性设计。"
+    },
+    {
+      "id": "motherboard_role",
+      "type": "role",
+      "target": "motherboard",
+      "text": "主板在整机中承载 6502 处理器与 Video ULA 图形芯片，是系统的核心电路板。"
+    },
+    {
+      "id": "power_role",
+      "type": "role",
+      "target": "power",
+      "text": "电源在整机中把市电转换为各芯片所需电压，是系统的供电单元。"
+    },
+    {
+      "id": "external_box_role",
+      "type": "role",
+      "target": "external_box",
+      "text": "外接盒在整机中提供 Tube 接口预留位，用于连接第二处理器协处理器，扩展系统算力。"
+    }
+  ]
+}

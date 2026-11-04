@@ -1,0 +1,48 @@
+{
+  "emulator": "none",
+  "version": "1.0.0",
+  "system": "DEC VAX-11/780",
+  "media_hint": "disk",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {
+      "id": "terminal_0",
+      "surface": "terminal",
+      "type": "video",
+      "format": "text"
+    },
+    {
+      "id": "indicator_lamps_0",
+      "surface": "indicator_lamps",
+      "type": "video",
+      "format": "mono1"
+    }
+  ],
+  "input_map": {
+    "power": {
+      "map": "keyboard",
+      "key": "KEY_POWER"
+    },
+    "reset": {
+      "map": "keyboard",
+      "key": "KEY_RESET"
+    },
+    "boot": {
+      "map": "keyboard",
+      "key": "KEY_B"
+    },
+    "start": {
+      "map": "keyboard",
+      "key": "KEY_ENTER"
+    },
+    "stop": {
+      "map": "keyboard",
+      "key": "KEY_STOP"
+    },
+    "continue": {
+      "map": "keyboard",
+      "key": "KEY_C"
+    }
+  }
+}

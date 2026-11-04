@@ -1,0 +1,2925 @@
+[
+ {
+  "id": "C-MF-000001",
+  "name": "IBM 701",
+  "aliases": [
+   "Defense Calculator"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1952,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "IBM 首台量产科学计算机，奠定大型机地位。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1952,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "IBM 首台量产科学计算机，奠定大型机地位。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000002",
+  "name": "IBM 650",
+  "aliases": [
+   "磁鼓计算机"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1954,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "首台大批量生产的计算机，磁鼓存储商用。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1954,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "首台大批量生产的计算机，磁鼓存储商用。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000003",
+  "name": "IBM 704",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1954,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "首台浮点硬件与磁芯存储量产机，催生 FORTRAN。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1954,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "首台浮点硬件与磁芯存储量产机，催生 FORTRAN。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000004",
+  "name": "IBM 709",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1958,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "科学计算主力机型，7090 直系前身。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1958,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "科学计算主力机型，7090 直系前身。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000005",
+  "name": "IBM 1401",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1959,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "史上最畅销小型商用计算机之一。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1959,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "史上最畅销小型商用计算机之一。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000006",
+  "name": "IBM 1620",
+  "aliases": [
+   "CADET"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1959,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "面向科学的小型机，十进制运算。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1959,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "面向科学的小型机，十进制运算。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000007",
+  "name": "IBM 7090",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1959,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "晶体管化科学计算机，NASA 太空计划主力。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1959,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "晶体管化科学计算机，NASA 太空计划主力。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000008",
+  "name": "IBM 7094",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1962,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "7090 增强型，早期大型机性能标杆。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1962,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "7090 增强型，早期大型机性能标杆。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000009",
+  "name": "IBM 7030 Stretch",
+  "aliases": [
+   "Stretch"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1961,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "IBM 首台超级计算机尝试，引入超前技术。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1961,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "IBM 首台超级计算机尝试，引入超前技术。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000010",
+  "name": "IBM 7070",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1960,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "商用晶体管计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1960,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "商用晶体管计算机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000011",
+  "name": "IBM 7080",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1961,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "7070 高端商用型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1961,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "7070 高端商用型号。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000012",
+  "name": "IBM 1410",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1960,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "1401 高端商用型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1960,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "1401 高端商用型号。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000013",
+  "name": "IBM 1440",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1962,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "面向中小企业的低端商用机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1962,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "面向中小企业的低端商用机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000014",
+  "name": "IBM 305 RAMAC",
+  "aliases": [
+   "RAMAC"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1956,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "首台磁盘存储计算机，开创随机存取时代。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1956,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "首台磁盘存储计算机，开创随机存取时代。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000015",
+  "name": "IBM System/360 Model 30",
+  "aliases": [
+   "S/360 Model 30"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1964,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "兼容机家族入门型号，开创软件兼容时代。",
+  "status": "done",
+  "device_id": "system360",
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1964,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "兼容机家族入门型号，开创软件兼容时代。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000016",
+  "name": "IBM System/360 Model 40",
+  "aliases": [
+   "S/360 Model 40"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1964,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "S/360 中端主力，微程序实现兼容。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1964,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "S/360 中端主力，微程序实现兼容。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000017",
+  "name": "IBM System/360 Model 50",
+  "aliases": [
+   "S/360 Model 50"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1964,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "S/360 中高端，商用与科学兼顾。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1964,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "S/360 中高端，商用与科学兼顾。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000018",
+  "name": "IBM System/360 Model 65",
+  "aliases": [
+   "S/360 Model 65"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1965,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "S/360 高端，支持虚拟内存雏形。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1965,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "S/360 高端，支持虚拟内存雏形。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000019",
+  "name": "IBM System/360 Model 91",
+  "aliases": [
+   "S/360 Model 91"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1967,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "S/360 科学巨兽，流水线与乱序执行先驱。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1967,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "S/360 科学巨兽，流水线与乱序执行先驱。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000020",
+  "name": "IBM System/360 Model 20",
+  "aliases": [
+   "S/360 Model 20"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1966,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "S/360 最低端型号，商用普及。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1966,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "S/360 最低端型号，商用普及。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000021",
+  "name": "IBM System/360 Model 67",
+  "aliases": [
+   "S/360 Model 67"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1966,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "支持分时与动态地址转换，CP-67 平台。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1966,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "支持分时与动态地址转换，CP-67 平台。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000022",
+  "name": "IBM System/370 Model 145",
+  "aliases": [
+   "S/370 Model 145"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1970,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "S/370 首代，全面兼容 S/360。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1970,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "S/370 首代，全面兼容 S/360。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000023",
+  "name": "IBM System/370 Model 168",
+  "aliases": [
+   "S/370 Model 168"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1973,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "S/370 高端，虚拟存储普及。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1973,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "S/370 高端，虚拟存储普及。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000024",
+  "name": "IBM System/370 Model 115",
+  "aliases": [
+   "S/370 Model 115"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1973,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "S/370 入门型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1973,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "S/370 入门型号。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000025",
+  "name": "IBM 3033",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1977,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "大型机性能翻番代表机型。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1977,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "大型机性能翻番代表机型。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000026",
+  "name": "IBM 3031",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1978,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "303X 系列入门，性能价格比提升。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1978,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "303X 系列入门，性能价格比提升。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000027",
+  "name": "IBM 3081",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "双处理器大型机，热传导模块封装。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "双处理器大型机，热传导模块封装。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000028",
+  "name": "IBM 4341",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1979,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "中端大型机，逻辑电路集成化。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1979,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "中端大型机，逻辑电路集成化。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000029",
+  "name": "IBM 4381",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "4341 后继中端大型机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "4341 后继中端大型机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000030",
+  "name": "IBM 3090",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "向量处理器大型机，大型机黄金年代代表。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "向量处理器大型机，大型机黄金年代代表。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000031",
+  "name": "IBM System/390",
+  "aliases": [
+   "S/390",
+   "ES/9000"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "ESA/390 架构，向开放与 CMOS 转型。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "ESA/390 架构，向开放与 CMOS 转型。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000032",
+  "name": "IBM 9020",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1964,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "空中交通管制专用多处理器系统。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1964,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "空中交通管制专用多处理器系统。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000033",
+  "name": "IBM zSeries z900",
+  "aliases": [
+   "z900"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 2000,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "首台 64 位 z/Architecture 大型机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 2000,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "首台 64 位 z/Architecture 大型机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000034",
+  "name": "Amdahl 470V/6",
+  "aliases": [],
+  "manufacturer": "Amdahl",
+  "origin": "美国",
+  "era": 1975,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "IBM 兼容大型机，开辟兼容机市场。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Amdahl",
+  "year": 1975,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "IBM 兼容大型机，开辟兼容机市场。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000035",
+  "name": "Hitachi M-180",
+  "aliases": [
+   "日立 M 系列"
+  ],
+  "manufacturer": "日立",
+  "origin": "日本",
+  "era": 1972,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "日立大型机，兼容 IBM 体系。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "日立",
+  "year": 1972,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "日立大型机，兼容 IBM 体系。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000036",
+  "name": "Fujitsu FACOM M-190",
+  "aliases": [
+   "FACOM M 系列"
+  ],
+  "manufacturer": "富士通",
+  "origin": "日本",
+  "era": 1974,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "日本自研大型机，兼容 IBM。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "富士通",
+  "year": 1974,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "日本自研大型机，兼容 IBM。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000037",
+  "name": "EC 1030",
+  "aliases": [
+   "苏联 EC 系列"
+  ],
+  "manufacturer": "明斯克计算机厂",
+  "origin": "苏联",
+  "era": 1970,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "苏联 IBM 兼容大型机，经互会统一系列。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "明斯克计算机厂",
+  "year": 1970,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "苏联 IBM 兼容大型机，经互会统一系列。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000038",
+  "name": "EC 1045",
+  "aliases": [],
+  "manufacturer": "明斯克计算机厂",
+  "origin": "苏联",
+  "era": 1975,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "EC 系列后续型号，华约阵营主力。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "明斯克计算机厂",
+  "year": 1975,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "EC 系列后续型号，华约阵营主力。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000039",
+  "name": "EC 1060",
+  "aliases": [],
+  "manufacturer": "苏联电子工业部",
+  "origin": "苏联",
+  "era": 1978,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "influence": "EC 系列高端大型机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "苏联电子工业部",
+  "year": 1978,
+  "path": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ],
+  "reason": "EC 系列高端大型机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "IBM 系"
+  ]
+ },
+ {
+  "id": "C-MF-000040",
+  "name": "CDC 1604",
+  "aliases": [],
+  "manufacturer": "Control Data Corporation",
+  "origin": "美国",
+  "era": 1960,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "influence": "CDC 首台计算机，Seymour Cray 设计。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Control Data Corporation",
+  "year": 1960,
+  "path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "reason": "CDC 首台计算机，Seymour Cray 设计。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ]
+ },
+ {
+  "id": "C-MF-000041",
+  "name": "CDC 160",
+  "aliases": [],
+  "manufacturer": "Control Data Corporation",
+  "origin": "美国",
+  "era": 1960,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "influence": "低成本小型机，用于数据采集。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Control Data Corporation",
+  "year": 1960,
+  "path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "reason": "低成本小型机，用于数据采集。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ]
+ },
+ {
+  "id": "C-MF-000042",
+  "name": "CDC 3600",
+  "aliases": [],
+  "manufacturer": "Control Data Corporation",
+  "origin": "美国",
+  "era": 1963,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "influence": "48 位科学计算机，6600 前的旗舰。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Control Data Corporation",
+  "year": 1963,
+  "path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "reason": "48 位科学计算机，6600 前的旗舰。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ]
+ },
+ {
+  "id": "C-MF-000043",
+  "name": "CDC 6600",
+  "aliases": [],
+  "manufacturer": "Control Data Corporation",
+  "origin": "美国",
+  "era": 1964,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "influence": "公认世界首台超级计算机，RISC 思想先驱。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Control Data Corporation",
+  "year": 1964,
+  "path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "reason": "公认世界首台超级计算机，RISC 思想先驱。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ]
+ },
+ {
+  "id": "C-MF-000044",
+  "name": "CDC 6400",
+  "aliases": [],
+  "manufacturer": "Control Data Corporation",
+  "origin": "美国",
+  "era": 1965,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "influence": "6600 兼容低端型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Control Data Corporation",
+  "year": 1965,
+  "path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "reason": "6600 兼容低端型号。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ]
+ },
+ {
+  "id": "C-MF-000045",
+  "name": "CDC 7600",
+  "aliases": [],
+  "manufacturer": "Control Data Corporation",
+  "origin": "美国",
+  "era": 1969,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "influence": "6600 后继超级计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Control Data Corporation",
+  "year": 1969,
+  "path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "reason": "6600 后继超级计算机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ]
+ },
+ {
+  "id": "C-MF-000046",
+  "name": "CDC CYBER 70",
+  "aliases": [],
+  "manufacturer": "Control Data Corporation",
+  "origin": "美国",
+  "era": 1971,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "influence": "CYBER 系列首代，兼容 6000 系列。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Control Data Corporation",
+  "year": 1971,
+  "path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "reason": "CYBER 系列首代，兼容 6000 系列。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ]
+ },
+ {
+  "id": "C-MF-000047",
+  "name": "CDC CYBER 170",
+  "aliases": [],
+  "manufacturer": "Control Data Corporation",
+  "origin": "美国",
+  "era": 1974,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "influence": "CYBER 主流大型机，全球广泛部署。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Control Data Corporation",
+  "year": 1974,
+  "path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "reason": "CYBER 主流大型机，全球广泛部署。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ]
+ },
+ {
+  "id": "C-MF-000048",
+  "name": "CDC 3400",
+  "aliases": [],
+  "manufacturer": "Control Data Corporation",
+  "origin": "美国",
+  "era": 1964,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "influence": "CDC 中端商用计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Control Data Corporation",
+  "year": 1964,
+  "path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "reason": "CDC 中端商用计算机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ]
+ },
+ {
+  "id": "C-MF-000049",
+  "name": "CDC 3300",
+  "aliases": [],
+  "manufacturer": "Control Data Corporation",
+  "origin": "美国",
+  "era": 1964,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "influence": "CDC 低端商用机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Control Data Corporation",
+  "year": 1964,
+  "path": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ],
+  "reason": "CDC 低端商用机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "CDC 系"
+  ]
+ },
+ {
+  "id": "C-MF-000050",
+  "name": "UNIVAC I",
+  "aliases": [
+   "通用自动计算机一号"
+  ],
+  "manufacturer": "Eckert-Mauchly / Remington Rand",
+  "origin": "美国",
+  "era": 1951,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "influence": "美国首台量产商用计算机，因预测大选闻名。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Eckert-Mauchly / Remington Rand",
+  "year": 1951,
+  "path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "reason": "美国首台量产商用计算机，因预测大选闻名。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ]
+ },
+ {
+  "id": "C-MF-000051",
+  "name": "UNIVAC 1101",
+  "aliases": [],
+  "manufacturer": "Eckert-Mauchly / Remington Rand",
+  "origin": "美国",
+  "era": 1951,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "influence": "早期商用计算机，磁鼓存储。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Eckert-Mauchly / Remington Rand",
+  "year": 1951,
+  "path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "reason": "早期商用计算机，磁鼓存储。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ]
+ },
+ {
+  "id": "C-MF-000052",
+  "name": "UNIVAC 1103",
+  "aliases": [],
+  "manufacturer": "Remington Rand / Univac",
+  "origin": "美国",
+  "era": 1953,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "influence": "首台使用磁芯存储的商用计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Remington Rand / Univac",
+  "year": 1953,
+  "path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "reason": "首台使用磁芯存储的商用计算机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ]
+ },
+ {
+  "id": "C-MF-000053",
+  "name": "UNIVAC 1107",
+  "aliases": [],
+  "manufacturer": "Univac",
+  "origin": "美国",
+  "era": 1962,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "influence": "1100 系列开端，晶体管化。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Univac",
+  "year": 1962,
+  "path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "reason": "1100 系列开端，晶体管化。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ]
+ },
+ {
+  "id": "C-MF-000054",
+  "name": "UNIVAC 1108",
+  "aliases": [],
+  "manufacturer": "Univac",
+  "origin": "美国",
+  "era": 1964,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "influence": "多处理器大型机，商业科学兼顾。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Univac",
+  "year": 1964,
+  "path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "reason": "多处理器大型机，商业科学兼顾。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ]
+ },
+ {
+  "id": "C-MF-000055",
+  "name": "UNIVAC 494",
+  "aliases": [],
+  "manufacturer": "Univac",
+  "origin": "美国",
+  "era": 1966,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "influence": "实时通信处理大型机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Univac",
+  "year": 1966,
+  "path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "reason": "实时通信处理大型机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ]
+ },
+ {
+  "id": "C-MF-000056",
+  "name": "UNIVAC 1110",
+  "aliases": [],
+  "manufacturer": "Univac",
+  "origin": "美国",
+  "era": 1972,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "influence": "1100 系列高端，多处理器扩展。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Univac",
+  "year": 1972,
+  "path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "reason": "1100 系列高端，多处理器扩展。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ]
+ },
+ {
+  "id": "C-MF-000057",
+  "name": "UNIVAC 1100/80",
+  "aliases": [],
+  "manufacturer": "Sperry Univac",
+  "origin": "美国",
+  "era": 1977,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "influence": "Sperry 时代 1100 系列主力。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sperry Univac",
+  "year": 1977,
+  "path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "reason": "Sperry 时代 1100 系列主力。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ]
+ },
+ {
+  "id": "C-MF-000058",
+  "name": "UNIVAC 90/70",
+  "aliases": [],
+  "manufacturer": "Sperry Univac",
+  "origin": "美国",
+  "era": 1973,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "influence": "吸收 RCA Spectra 70 技术的大型机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sperry Univac",
+  "year": 1973,
+  "path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "reason": "吸收 RCA Spectra 70 技术的大型机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ]
+ },
+ {
+  "id": "C-MF-000059",
+  "name": "UNIVAC 90/60",
+  "aliases": [],
+  "manufacturer": "Sperry Univac",
+  "origin": "美国",
+  "era": 1975,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "influence": "RCA 技术吸收后的中端大型机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sperry Univac",
+  "year": 1975,
+  "path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "reason": "RCA 技术吸收后的中端大型机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ]
+ },
+ {
+  "id": "C-MF-000060",
+  "name": "UNIVAC LARC",
+  "aliases": [],
+  "manufacturer": "Univac",
+  "origin": "美国",
+  "era": 1960,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "influence": "早期超级计算机，双处理器设计。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Univac",
+  "year": 1960,
+  "path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "reason": "早期超级计算机，双处理器设计。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ]
+ },
+ {
+  "id": "C-MF-000061",
+  "name": "RCA 501",
+  "aliases": [],
+  "manufacturer": "RCA",
+  "origin": "美国",
+  "era": 1959,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "influence": "RCA 首台晶体管商用计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "RCA",
+  "year": 1959,
+  "path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "reason": "RCA 首台晶体管商用计算机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ]
+ },
+ {
+  "id": "C-MF-000062",
+  "name": "RCA 301",
+  "aliases": [],
+  "manufacturer": "RCA",
+  "origin": "美国",
+  "era": 1961,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "influence": "RCA 商用计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "RCA",
+  "year": 1961,
+  "path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "reason": "RCA 商用计算机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ]
+ },
+ {
+  "id": "C-MF-000063",
+  "name": "RCA Spectra 70",
+  "aliases": [],
+  "manufacturer": "RCA",
+  "origin": "美国",
+  "era": 1965,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "influence": "IBM 360 兼容机，后并入 Univac。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "RCA",
+  "year": 1965,
+  "path": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ],
+  "reason": "IBM 360 兼容机，后并入 Univac。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Univac 系"
+  ]
+ },
+ {
+  "id": "C-MF-000064",
+  "name": "Burroughs B5000",
+  "aliases": [
+   "B 5000"
+  ],
+  "manufacturer": "Burroughs",
+  "origin": "美国",
+  "era": 1961,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "栈式架构与 ALGOL 语言设计，软件工程先驱。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Burroughs",
+  "year": 1961,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "栈式架构与 ALGOL 语言设计，软件工程先驱。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000065",
+  "name": "Burroughs B5500",
+  "aliases": [
+   "B 5500"
+  ],
+  "manufacturer": "Burroughs",
+  "origin": "美国",
+  "era": 1964,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "B5000 增强，延续栈式架构。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Burroughs",
+  "year": 1964,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "B5000 增强，延续栈式架构。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000066",
+  "name": "Burroughs B2500",
+  "aliases": [
+   "B 2500"
+  ],
+  "manufacturer": "Burroughs",
+  "origin": "美国",
+  "era": 1966,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "面向商用的中小型主机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Burroughs",
+  "year": 1966,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "面向商用的中小型主机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000067",
+  "name": "Burroughs B3500",
+  "aliases": [
+   "B 3500"
+  ],
+  "manufacturer": "Burroughs",
+  "origin": "美国",
+  "era": 1967,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "商用数据处理大型机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Burroughs",
+  "year": 1967,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "商用数据处理大型机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000068",
+  "name": "Burroughs B6500",
+  "aliases": [
+   "B 6500"
+  ],
+  "manufacturer": "Burroughs",
+  "origin": "美国",
+  "era": 1969,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "大型栈式架构主机，高级语言直跑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Burroughs",
+  "year": 1969,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "大型栈式架构主机，高级语言直跑。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000069",
+  "name": "Burroughs B6700",
+  "aliases": [
+   "B 6700"
+  ],
+  "manufacturer": "Burroughs",
+  "origin": "美国",
+  "era": 1971,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "B6500 增强，多处理器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Burroughs",
+  "year": 1971,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "B6500 增强，多处理器。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000070",
+  "name": "Burroughs B1700",
+  "aliases": [
+   "B 1700"
+  ],
+  "manufacturer": "Burroughs",
+  "origin": "美国",
+  "era": 1972,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "微程序可定义指令集的创新主机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Burroughs",
+  "year": 1972,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "微程序可定义指令集的创新主机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000071",
+  "name": "Burroughs B7700",
+  "aliases": [
+   "B 7700"
+  ],
+  "manufacturer": "Burroughs",
+  "origin": "美国",
+  "era": 1977,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "高端大型主机，先进系统架构。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Burroughs",
+  "year": 1977,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "高端大型主机，先进系统架构。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000072",
+  "name": "Burroughs B7900",
+  "aliases": [
+   "B 7900"
+  ],
+  "manufacturer": "Burroughs",
+  "origin": "美国",
+  "era": 1977,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "大系统系列旗舰，商用主力。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Burroughs",
+  "year": 1977,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "大系统系列旗舰，商用主力。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000073",
+  "name": "GE-645",
+  "aliases": [],
+  "manufacturer": "General Electric",
+  "origin": "美国",
+  "era": 1965,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "Multics 操作系统平台，Unix 灵感来源。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "General Electric",
+  "year": 1965,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "Multics 操作系统平台，Unix 灵感来源。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000074",
+  "name": "GE-635",
+  "aliases": [],
+  "manufacturer": "General Electric",
+  "origin": "美国",
+  "era": 1965,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "GE-600 系列，后被 Honeywell 收购。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "General Electric",
+  "year": 1965,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "GE-600 系列，后被 Honeywell 收购。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000075",
+  "name": "GE-225",
+  "aliases": [],
+  "manufacturer": "General Electric",
+  "origin": "美国",
+  "era": 1961,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "GE 早期商用计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "General Electric",
+  "year": 1961,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "GE 早期商用计算机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000076",
+  "name": "Honeywell 200",
+  "aliases": [
+   "H-200"
+  ],
+  "manufacturer": "Honeywell",
+  "origin": "美国",
+  "era": 1964,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "IBM 1401 兼容机，抢占二手市场。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Honeywell",
+  "year": 1964,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "IBM 1401 兼容机，抢占二手市场。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000077",
+  "name": "Honeywell 800",
+  "aliases": [
+   "H-800"
+  ],
+  "manufacturer": "Honeywell",
+  "origin": "美国",
+  "era": 1960,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "Honeywell 早期大型机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Honeywell",
+  "year": 1960,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "Honeywell 早期大型机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000078",
+  "name": "Honeywell 6000",
+  "aliases": [
+   "H-6000"
+  ],
+  "manufacturer": "Honeywell",
+  "origin": "美国",
+  "era": 1972,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "继承 GE-600 系列，支持 Multics。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Honeywell",
+  "year": 1972,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "继承 GE-600 系列，支持 Multics。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000079",
+  "name": "NCR 304",
+  "aliases": [],
+  "manufacturer": "NCR",
+  "origin": "美国",
+  "era": 1957,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "NCR 首台晶体管计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NCR",
+  "year": 1957,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "NCR 首台晶体管计算机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000080",
+  "name": "NCR 315",
+  "aliases": [],
+  "manufacturer": "NCR",
+  "origin": "美国",
+  "era": 1962,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "商用账务处理主力机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NCR",
+  "year": 1962,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "商用账务处理主力机。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000081",
+  "name": "ICL 1900",
+  "aliases": [],
+  "manufacturer": "International Computers Ltd.",
+  "origin": "英国",
+  "era": 1964,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "英国 ICL 主力大型机系列。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "International Computers Ltd.",
+  "year": 1964,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "英国 ICL 主力大型机系列。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000082",
+  "name": "ICL 2900",
+  "aliases": [],
+  "manufacturer": "International Computers Ltd.",
+  "origin": "英国",
+  "era": 1974,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "ICL 新一代大型机，VME 操作系统。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "International Computers Ltd.",
+  "year": 1974,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "ICL 新一代大型机，VME 操作系统。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000083",
+  "name": "ICL System 4",
+  "aliases": [],
+  "manufacturer": "International Computers Ltd.",
+  "origin": "英国",
+  "era": 1968,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "英国商用大型机，兼容 RCA 体系。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "International Computers Ltd.",
+  "year": 1968,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "英国商用大型机，兼容 RCA 体系。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ },
+ {
+  "id": "C-MF-000084",
+  "name": "Ferranti Atlas",
+  "aliases": [],
+  "manufacturer": "Ferranti / 曼彻斯特大学",
+  "origin": "英国",
+  "era": 1962,
+  "taxonomy_path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "influence": "英国首台超级计算机，引入虚拟内存。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Ferranti / 曼彻斯特大学",
+  "year": 1962,
+  "path": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ],
+  "reason": "英国首台超级计算机，引入虚拟内存。",
+  "_taxonomy": [
+   "计算机",
+   "大型机",
+   "Burroughs 系"
+  ]
+ }
+]

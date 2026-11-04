@@ -1,0 +1,6359 @@
+[
+ {
+  "id": "G-HOME-000001",
+  "名称": "Atari 2600",
+  "别名": [
+   "Video Computer System",
+   "VCS"
+  ],
+  "厂商": "Atari, Inc.",
+  "产地": "美国",
+  "年代": 1977,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ],
+  "影响力理由": "首台把游戏程序装进可换 ROM 卡带并做成大众商品的机器，确立了主机与卡带分离的产业模式。",
+  "状态": "done",
+  "关联包": "atari-2600",
+  "来源编号": [
+   "S24"
+  ],
+  "name": "Atari 2600",
+  "aliases": [
+   "Video Computer System",
+   "VCS"
+  ],
+  "maker": "Atari, Inc.",
+  "origin": "美国",
+  "year": 1977,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ],
+  "reason": "首台把游戏程序装进可换 ROM 卡带并做成大众商品的机器，确立了主机与卡带分离的产业模式。",
+  "status": "done",
+  "device_id": "atari-2600",
+  "sources": [
+   "S24"
+  ],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ]
+ },
+ {
+  "id": "G-HOME-000002",
+  "名称": "Atari 5200",
+  "别名": [
+   "Atari 5200 SuperSystem"
+  ],
+  "厂商": "Atari, Inc.",
+  "产地": "美国",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ],
+  "影响力理由": "基于 Atari 400 计算机架构的后续机，首次用模拟摇杆，但兼容性差未获成功。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Atari 5200",
+  "aliases": [
+   "Atari 5200 SuperSystem"
+  ],
+  "maker": "Atari, Inc.",
+  "origin": "美国",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ],
+  "reason": "基于 Atari 400 计算机架构的后续机，首次用模拟摇杆，但兼容性差未获成功。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ]
+ },
+ {
+  "id": "G-HOME-000003",
+  "名称": "Atari 7800",
+  "别名": [
+   "Atari 7800 ProSystem"
+  ],
+  "厂商": "Atari Corporation",
+  "产地": "美国",
+  "年代": 1986,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ],
+  "影响力理由": "向后兼容 2600 的最后一台 Atari 8 位主机，内置图形协处理器。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Atari 7800",
+  "aliases": [
+   "Atari 7800 ProSystem"
+  ],
+  "maker": "Atari Corporation",
+  "origin": "美国",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ],
+  "reason": "向后兼容 2600 的最后一台 Atari 8 位主机，内置图形协处理器。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ]
+ },
+ {
+  "id": "G-HOME-000004",
+  "名称": "Atari Jaguar",
+  "别名": [],
+  "厂商": "Atari Corporation",
+  "产地": "美国",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ],
+  "影响力理由": "营销自称 64 位的主机，Atari 最后一台家用机，商业失败之作。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Atari Jaguar",
+  "aliases": [],
+  "maker": "Atari Corporation",
+  "origin": "美国",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ],
+  "reason": "营销自称 64 位的主机，Atari 最后一台家用机，商业失败之作。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ]
+ },
+ {
+  "id": "G-HOME-000005",
+  "名称": "Atari XEGS",
+  "别名": [
+   "XE Game System"
+  ],
+  "厂商": "Atari Corporation",
+  "产地": "美国",
+  "年代": 1987,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ],
+  "影响力理由": "把 Atari 8 位电脑改造成家用游戏机的混合机。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Atari XEGS",
+  "aliases": [
+   "XE Game System"
+  ],
+  "maker": "Atari Corporation",
+  "origin": "美国",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ],
+  "reason": "把 Atari 8 位电脑改造成家用游戏机的混合机。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ]
+ },
+ {
+  "id": "G-HOME-000006",
+  "名称": "Pong（家用专用机）",
+  "别名": [],
+  "厂商": "Atari, Inc.",
+  "产地": "美国",
+  "年代": 1975,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ],
+  "影响力理由": "第一台成功的家用乒乓球专用机，点燃了第一代家用游戏机热潮。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Pong（家用专用机）",
+  "aliases": [],
+  "maker": "Atari, Inc.",
+  "origin": "美国",
+  "year": 1975,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ],
+  "reason": "第一台成功的家用乒乓球专用机，点燃了第一代家用游戏机热潮。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ]
+ },
+ {
+  "id": "G-HOME-000007",
+  "名称": "Atari 2800",
+  "别名": [
+   "Atari 2600 日版"
+  ],
+  "厂商": "Atari, Inc.",
+  "产地": "日本",
+  "年代": 1983,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ],
+  "影响力理由": "2600 的日本版，楔形机身与一体化手柄，因 FC 竞争未获成功。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Atari 2800",
+  "aliases": [
+   "Atari 2600 日版"
+  ],
+  "maker": "Atari, Inc.",
+  "origin": "日本",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ],
+  "reason": "2600 的日本版，楔形机身与一体化手柄，因 FC 竞争未获成功。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Atari系"
+  ]
+ },
+ {
+  "id": "G-HOME-000008",
+  "名称": "ColecoVision",
+  "别名": [],
+  "厂商": "Coleco",
+  "产地": "美国",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Coleco系"
+  ],
+  "影响力理由": "以接近街机画面的移植能力著称，是 2600 之后最强的二代机之一。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "ColecoVision",
+  "aliases": [],
+  "maker": "Coleco",
+  "origin": "美国",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Coleco系"
+  ],
+  "reason": "以接近街机画面的移植能力著称，是 2600 之后最强的二代机之一。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Coleco系"
+  ]
+ },
+ {
+  "id": "G-HOME-000009",
+  "名称": "Coleco Telstar",
+  "别名": [],
+  "厂商": "Coleco",
+  "产地": "美国",
+  "年代": 1976,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Coleco系"
+  ],
+  "影响力理由": "首台采用 AY-3-8500 芯片的 Pong 式专用机，第一代热潮代表。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Coleco Telstar",
+  "aliases": [],
+  "maker": "Coleco",
+  "origin": "美国",
+  "year": 1976,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Coleco系"
+  ],
+  "reason": "首台采用 AY-3-8500 芯片的 Pong 式专用机，第一代热潮代表。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Coleco系"
+  ]
+ },
+ {
+  "id": "G-HOME-000010",
+  "名称": "Coleco Gemini",
+  "别名": [],
+  "厂商": "Coleco",
+  "产地": "美国",
+  "年代": 1983,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Coleco系"
+  ],
+  "影响力理由": "授权兼容 Atari 2600 的克隆机，附赠摇杆与 paddle。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Coleco Gemini",
+  "aliases": [],
+  "maker": "Coleco",
+  "origin": "美国",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Coleco系"
+  ],
+  "reason": "授权兼容 Atari 2600 的克隆机，附赠摇杆与 paddle。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Coleco系"
+  ]
+ },
+ {
+  "id": "G-HOME-000011",
+  "名称": "Intellivision",
+  "别名": [],
+  "厂商": "Mattel",
+  "产地": "美国",
+  "年代": 1979,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Mattel系"
+  ],
+  "影响力理由": "以 16 位图形与运动游戏见长的二代机，曾是 2600 最有力的对手。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Intellivision",
+  "aliases": [],
+  "maker": "Mattel",
+  "origin": "美国",
+  "year": 1979,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Mattel系"
+  ],
+  "reason": "以 16 位图形与运动游戏见长的二代机，曾是 2600 最有力的对手。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Mattel系"
+  ]
+ },
+ {
+  "id": "G-HOME-000012",
+  "名称": "HyperScan",
+  "别名": [],
+  "厂商": "Mattel",
+  "产地": "美国",
+  "年代": 2006,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Mattel系"
+  ],
+  "影响力理由": "用 RFID 卡片增强的低成本主机，商业失败，Mattel 最后一台主机。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "HyperScan",
+  "aliases": [],
+  "maker": "Mattel",
+  "origin": "美国",
+  "year": 2006,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Mattel系"
+  ],
+  "reason": "用 RFID 卡片增强的低成本主机，商业失败，Mattel 最后一台主机。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Mattel系"
+  ]
+ },
+ {
+  "id": "G-HOME-000013",
+  "名称": "Magnavox Odyssey",
+  "别名": [],
+  "厂商": "Magnavox",
+  "产地": "美国",
+  "年代": 1972,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Magnavox系"
+  ],
+  "影响力理由": "史上第一台家用视频游戏机，由 Ralph Baer 发明，奠定了整个行业。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Magnavox Odyssey",
+  "aliases": [],
+  "maker": "Magnavox",
+  "origin": "美国",
+  "year": 1972,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Magnavox系"
+  ],
+  "reason": "史上第一台家用视频游戏机，由 Ralph Baer 发明，奠定了整个行业。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Magnavox系"
+  ]
+ },
+ {
+  "id": "G-HOME-000014",
+  "名称": "Magnavox Odyssey²",
+  "别名": [
+   "Philips Videopac G7000"
+  ],
+  "厂商": "Magnavox/Philips",
+  "产地": "美国",
+  "年代": 1978,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Magnavox系"
+  ],
+  "影响力理由": "Odyssey 后继机，带键盘与卡带，在欧洲以 Videopac 之名流行。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Magnavox Odyssey²",
+  "aliases": [
+   "Philips Videopac G7000"
+  ],
+  "maker": "Magnavox/Philips",
+  "origin": "美国",
+  "year": 1978,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Magnavox系"
+  ],
+  "reason": "Odyssey 后继机，带键盘与卡带，在欧洲以 Videopac 之名流行。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Magnavox系"
+  ]
+ },
+ {
+  "id": "G-HOME-000015",
+  "名称": "Philips CD-i",
+  "别名": [
+   "Compact Disc Interactive"
+  ],
+  "厂商": "Philips",
+  "产地": "荷兰",
+  "年代": 1991,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Magnavox/Philips系"
+  ],
+  "影响力理由": "以 CD 交互多媒体为卖点的机器，因《塞尔达》授权作而知名。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Philips CD-i",
+  "aliases": [
+   "Compact Disc Interactive"
+  ],
+  "maker": "Philips",
+  "origin": "荷兰",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Magnavox/Philips系"
+  ],
+  "reason": "以 CD 交互多媒体为卖点的机器，因《塞尔达》授权作而知名。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Magnavox/Philips系"
+  ]
+ },
+ {
+  "id": "G-HOME-000085",
+  "名称": "Philips Videopac+ G7400",
+  "别名": [],
+  "厂商": "Philips",
+  "产地": "荷兰",
+  "年代": 1983,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Magnavox/Philips系"
+  ],
+  "影响力理由": "Odyssey² 增强版，更高分辨率。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Philips Videopac+ G7400",
+  "aliases": [],
+  "maker": "Philips",
+  "origin": "荷兰",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Magnavox/Philips系"
+  ],
+  "reason": "Odyssey² 增强版，更高分辨率。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Magnavox/Philips系"
+  ]
+ },
+ {
+  "id": "G-HOME-000016",
+  "名称": "Color TV-Game 6",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1977,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "影响力理由": "任天堂首台家用游戏机，内置六种乒乓球玩法。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Color TV-Game 6",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1977,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "reason": "任天堂首台家用游戏机，内置六种乒乓球玩法。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ]
+ },
+ {
+  "id": "G-HOME-000017",
+  "名称": "Famicom",
+  "别名": [
+   "NES",
+   "Family Computer",
+   "红白机"
+  ],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1983,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "影响力理由": "复苏了 1983 年崩溃后的北美游戏业，确立了现代主机授权商业模式。",
+  "状态": "done",
+  "关联包": "famicom",
+  "来源编号": [
+   "S30"
+  ],
+  "name": "Famicom",
+  "aliases": [
+   "NES",
+   "Family Computer",
+   "红白机"
+  ],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "reason": "复苏了 1983 年崩溃后的北美游戏业，确立了现代主机授权商业模式。",
+  "status": "done",
+  "device_id": "famicom",
+  "sources": [
+   "S30"
+  ],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ]
+ },
+ {
+  "id": "G-HOME-000018",
+  "名称": "Famicom Disk System",
+  "别名": [
+   "FDS"
+  ],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1986,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "影响力理由": "FC 的软盘外设，用可擦写磁盘支持存档与更大容量。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Famicom Disk System",
+  "aliases": [
+   "FDS"
+  ],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "reason": "FC 的软盘外设，用可擦写磁盘支持存档与更大容量。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ]
+ },
+ {
+  "id": "G-HOME-000019",
+  "名称": "Super Famicom",
+  "别名": [
+   "SNES",
+   "Super NES"
+  ],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1990,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "影响力理由": "16 位时代巅峰，Mode 7 旋转缩放与 S-SMP 采样音源定义了一代画面与音乐。",
+  "状态": "researching",
+  "关联包": null,
+  "来源编号": [
+   "S41"
+  ],
+  "name": "Super Famicom",
+  "aliases": [
+   "SNES",
+   "Super NES"
+  ],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "reason": "16 位时代巅峰，Mode 7 旋转缩放与 S-SMP 采样音源定义了一代画面与音乐。",
+  "status": "researching",
+  "device_id": null,
+  "sources": [
+   "S41"
+  ],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ]
+ },
+ {
+  "id": "G-HOME-000020",
+  "名称": "Nintendo 64",
+  "别名": [
+   "N64"
+  ],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1996,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "影响力理由": "以《超级马力欧 64》确立 3D 平台游戏范式，首次用模拟摇杆。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Nintendo 64",
+  "aliases": [
+   "N64"
+  ],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "reason": "以《超级马力欧 64》确立 3D 平台游戏范式，首次用模拟摇杆。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ]
+ },
+ {
+  "id": "G-HOME-000021",
+  "名称": "GameCube",
+  "别名": [
+   "NGC"
+  ],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2001,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "影响力理由": "任天堂首台用光盘的主机，迷你 DVD 介质。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "GameCube",
+  "aliases": [
+   "NGC"
+  ],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "reason": "任天堂首台用光盘的主机，迷你 DVD 介质。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ]
+ },
+ {
+  "id": "G-HOME-000022",
+  "名称": "Wii",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2006,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "影响力理由": "体感遥控器把游戏带进大众家庭，销量破亿的现象级主机。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Wii",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2006,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "reason": "体感遥控器把游戏带进大众家庭，销量破亿的现象级主机。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ]
+ },
+ {
+  "id": "G-HOME-000023",
+  "名称": "Wii U",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2012,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "影响力理由": "带触屏手柄的 Wii 后继，商业失败但孕育了 Switch。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Wii U",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2012,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "reason": "带触屏手柄的 Wii 后继，商业失败但孕育了 Switch。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ]
+ },
+ {
+  "id": "G-HOME-000024",
+  "名称": "Nintendo Switch",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2017,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "影响力理由": "主机掌机二合一，任天堂史上最畅销主机之一。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Nintendo Switch",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2017,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "reason": "主机掌机二合一，任天堂史上最畅销主机之一。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ]
+ },
+ {
+  "id": "G-HOME-000025",
+  "名称": "Virtual Boy",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1995,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "影响力理由": "横井军平的立体显示实验机，红黑单色，商业失败。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Virtual Boy",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "reason": "横井军平的立体显示实验机，红黑单色，商业失败。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ]
+ },
+ {
+  "id": "G-HOME-000066",
+  "名称": "Nintendo Switch OLED",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2021,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "影响力理由": "Switch 的 OLED 屏幕升级版。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Nintendo Switch OLED",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2021,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "reason": "Switch 的 OLED 屏幕升级版。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ]
+ },
+ {
+  "id": "G-HOME-000068",
+  "名称": "NES Classic Edition",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2016,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "影响力理由": "NES 的迷你复刻机，带动复古迷你机风潮。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "NES Classic Edition",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2016,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "reason": "NES 的迷你复刻机，带动复古迷你机风潮。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ]
+ },
+ {
+  "id": "G-HOME-000071",
+  "名称": "Family Computer AV",
+  "别名": [
+   "AV Famicom"
+  ],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "影响力理由": "FC 的 AV 输出版改款，回归红白配色。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Family Computer AV",
+  "aliases": [
+   "AV Famicom"
+  ],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "reason": "FC 的 AV 输出版改款，回归红白配色。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ]
+ },
+ {
+  "id": "G-HOME-000072",
+  "名称": "SNES Classic Edition",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2017,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "影响力理由": "SFC 迷你复刻机，内置二十一款经典。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "SNES Classic Edition",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2017,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "reason": "SFC 迷你复刻机，内置二十一款经典。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ]
+ },
+ {
+  "id": "G-HOME-000091",
+  "名称": "Wii Mini",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2012,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "影响力理由": "Wii 的低价简化版，去掉联网。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Wii Mini",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2012,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ],
+  "reason": "Wii 的低价简化版，去掉联网。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Nintendo系"
+  ]
+ },
+ {
+  "id": "G-HOME-000026",
+  "名称": "SG-1000",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1983,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "影响力理由": "世嘉首台家用机，与 FC 同日发售但被彻底压制。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "SG-1000",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "reason": "世嘉首台家用机，与 FC 同日发售但被彻底压制。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ]
+ },
+ {
+  "id": "G-HOME-000027",
+  "名称": "Sega Master System",
+  "别名": [
+   "SMS",
+   "Mark III"
+  ],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1985,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "影响力理由": "世嘉 8 位机，在欧洲与巴西大获成功，孕育了索尼克前身。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega Master System",
+  "aliases": [
+   "SMS",
+   "Mark III"
+  ],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "reason": "世嘉 8 位机，在欧洲与巴西大获成功，孕育了索尼克前身。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ]
+ },
+ {
+  "id": "G-HOME-000028",
+  "名称": "Sega Mega Drive",
+  "别名": [
+   "Genesis",
+   "MD"
+  ],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1988,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "影响力理由": "68000+Z80 双 CPU 与 YM2612 FM 音源定义街机味家用机，掀起主机战争。",
+  "状态": "done",
+  "关联包": "sega-md",
+  "来源编号": [
+   "S38"
+  ],
+  "name": "Sega Mega Drive",
+  "aliases": [
+   "Genesis",
+   "MD"
+  ],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "reason": "68000+Z80 双 CPU 与 YM2612 FM 音源定义街机味家用机，掀起主机战争。",
+  "status": "done",
+  "device_id": "sega-md",
+  "sources": [
+   "S38"
+  ],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ]
+ },
+ {
+  "id": "G-HOME-000029",
+  "名称": "Sega Mega-CD",
+  "别名": [
+   "Sega CD"
+  ],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1991,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "影响力理由": "MD 的 CD 扩展，引入更大容量与 CD 音源。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega Mega-CD",
+  "aliases": [
+   "Sega CD"
+  ],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "reason": "MD 的 CD 扩展，引入更大容量与 CD 音源。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ]
+ },
+ {
+  "id": "G-HOME-000030",
+  "名称": "Sega 32X",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1994,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "影响力理由": "MD 的 32 位扩展，硬件碎片化的代表，商业失败。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega 32X",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "reason": "MD 的 32 位扩展，硬件碎片化的代表，商业失败。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ]
+ },
+ {
+  "id": "G-HOME-000031",
+  "名称": "Sega Saturn",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1994,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "影响力理由": "世嘉 32 位机，双 CPU 架构复杂，日本成功欧美失败。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega Saturn",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "reason": "世嘉 32 位机，双 CPU 架构复杂，日本成功欧美失败。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ]
+ },
+ {
+  "id": "G-HOME-000032",
+  "名称": "Sega Dreamcast",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1998,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "影响力理由": "世嘉最后一台主机，首台内置调制解调器，因市场环境而谢幕。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega Dreamcast",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "reason": "世嘉最后一台主机，首台内置调制解调器，因市场环境而谢幕。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ]
+ },
+ {
+  "id": "G-HOME-000033",
+  "名称": "Sega Pico",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "影响力理由": "面向幼儿的绘本主机，用书页与触控笔交互。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega Pico",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "reason": "面向幼儿的绘本主机，用书页与触控笔交互。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ]
+ },
+ {
+  "id": "G-HOME-000069",
+  "名称": "Sega Master System II",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1990,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "影响力理由": "Master System 的低成本改版。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega Master System II",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "reason": "Master System 的低成本改版。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ]
+ },
+ {
+  "id": "G-HOME-000070",
+  "名称": "Sega SG-1000 II",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1984,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "影响力理由": "SG-1000 改版，机身改为家用机造型。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega SG-1000 II",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "reason": "SG-1000 改版，机身改为家用机造型。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ]
+ },
+ {
+  "id": "G-HOME-000073",
+  "名称": "Sega Genesis Mini",
+  "别名": [
+   "Mega Drive Mini"
+  ],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 2019,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "影响力理由": "MD 迷你复刻机，内置四十款游戏。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega Genesis Mini",
+  "aliases": [
+   "Mega Drive Mini"
+  ],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 2019,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ],
+  "reason": "MD 迷你复刻机，内置四十款游戏。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sega系"
+  ]
+ },
+ {
+  "id": "G-HOME-000034",
+  "名称": "PC Engine",
+  "别名": [
+   "TurboGrafx-16"
+  ],
+  "厂商": "NEC/Hudson",
+  "产地": "日本",
+  "年代": 1987,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "NEC系"
+  ],
+  "影响力理由": "8 位 CPU 配 16 位显卡的巧妙设计，日本一度压制 FC。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PC Engine",
+  "aliases": [
+   "TurboGrafx-16"
+  ],
+  "maker": "NEC/Hudson",
+  "origin": "日本",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "家用机",
+   "NEC系"
+  ],
+  "reason": "8 位 CPU 配 16 位显卡的巧妙设计，日本一度压制 FC。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "NEC系"
+  ]
+ },
+ {
+  "id": "G-HOME-000035",
+  "名称": "PC Engine CD-ROM²",
+  "别名": [
+   "TurboGrafx-CD"
+  ],
+  "厂商": "NEC/Hudson",
+  "产地": "日本",
+  "年代": 1988,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "NEC系"
+  ],
+  "影响力理由": "首台 CD-ROM 家用机扩展，引入 CD 音源与大容量。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PC Engine CD-ROM²",
+  "aliases": [
+   "TurboGrafx-CD"
+  ],
+  "maker": "NEC/Hudson",
+  "origin": "日本",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "家用机",
+   "NEC系"
+  ],
+  "reason": "首台 CD-ROM 家用机扩展，引入 CD 音源与大容量。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "NEC系"
+  ]
+ },
+ {
+  "id": "G-HOME-000036",
+  "名称": "SuperGrafx",
+  "别名": [],
+  "厂商": "NEC/Hudson",
+  "产地": "日本",
+  "年代": 1989,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "NEC系"
+  ],
+  "影响力理由": "PC Engine 增强版，商业失败，仅数款游戏。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "SuperGrafx",
+  "aliases": [],
+  "maker": "NEC/Hudson",
+  "origin": "日本",
+  "year": 1989,
+  "path": [
+   "游戏机",
+   "家用机",
+   "NEC系"
+  ],
+  "reason": "PC Engine 增强版，商业失败，仅数款游戏。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "NEC系"
+  ]
+ },
+ {
+  "id": "G-HOME-000037",
+  "名称": "PC-FX",
+  "别名": [],
+  "厂商": "NEC/Hudson",
+  "产地": "日本",
+  "年代": 1994,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "NEC系"
+  ],
+  "影响力理由": "NEC 最后一台主机，主打 FMV 动画，商业失败。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PC-FX",
+  "aliases": [],
+  "maker": "NEC/Hudson",
+  "origin": "日本",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "家用机",
+   "NEC系"
+  ],
+  "reason": "NEC 最后一台主机，主打 FMV 动画，商业失败。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "NEC系"
+  ]
+ },
+ {
+  "id": "G-HOME-000038",
+  "名称": "Neo Geo AES",
+  "别名": [
+   "Advanced Entertainment System"
+  ],
+  "厂商": "SNK",
+  "产地": "日本",
+  "年代": 1990,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "SNK系"
+  ],
+  "影响力理由": "把街机 MVS 硬件原样搬进客厅，天价主机与天价卡带的象征。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Neo Geo AES",
+  "aliases": [
+   "Advanced Entertainment System"
+  ],
+  "maker": "SNK",
+  "origin": "日本",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "家用机",
+   "SNK系"
+  ],
+  "reason": "把街机 MVS 硬件原样搬进客厅，天价主机与天价卡带的象征。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "SNK系"
+  ]
+ },
+ {
+  "id": "G-HOME-000039",
+  "名称": "Neo Geo CD",
+  "别名": [],
+  "厂商": "SNK",
+  "产地": "日本",
+  "年代": 1994,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "SNK系"
+  ],
+  "影响力理由": "Neo Geo 的 CD 版，降低门槛但读盘漫长。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Neo Geo CD",
+  "aliases": [],
+  "maker": "SNK",
+  "origin": "日本",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "家用机",
+   "SNK系"
+  ],
+  "reason": "Neo Geo 的 CD 版，降低门槛但读盘漫长。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "SNK系"
+  ]
+ },
+ {
+  "id": "G-HOME-000074",
+  "名称": "Neo Geo X",
+  "别名": [],
+  "厂商": "SNK Playmore",
+  "产地": "美国",
+  "年代": 2012,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "SNK系"
+  ],
+  "影响力理由": "Neo Geo 复刻掌机与底座套装，争议性授权产品。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Neo Geo X",
+  "aliases": [],
+  "maker": "SNK Playmore",
+  "origin": "美国",
+  "year": 2012,
+  "path": [
+   "游戏机",
+   "家用机",
+   "SNK系"
+  ],
+  "reason": "Neo Geo 复刻掌机与底座套装，争议性授权产品。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "SNK系"
+  ]
+ },
+ {
+  "id": "G-HOME-000040",
+  "名称": "Fairchild Channel F",
+  "别名": [],
+  "厂商": "Fairchild",
+  "产地": "美国",
+  "年代": 1976,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "史上首台可换卡带的游戏机，先于 2600 一年。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Fairchild Channel F",
+  "aliases": [],
+  "maker": "Fairchild",
+  "origin": "美国",
+  "year": 1976,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "史上首台可换卡带的游戏机，先于 2600 一年。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000041",
+  "名称": "RCA Studio II",
+  "别名": [],
+  "厂商": "RCA",
+  "产地": "美国",
+  "年代": 1977,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "黑白画面、内置小键盘的早期主机，商业失败。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "RCA Studio II",
+  "aliases": [],
+  "maker": "RCA",
+  "origin": "美国",
+  "year": 1977,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "黑白画面、内置小键盘的早期主机，商业失败。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000042",
+  "名称": "Bally Astrocade",
+  "别名": [],
+  "厂商": "Bally",
+  "产地": "美国",
+  "年代": 1977,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "以高分辨率与 BASIC 编程卡为卖点的早期主机。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Bally Astrocade",
+  "aliases": [],
+  "maker": "Bally",
+  "origin": "美国",
+  "year": 1977,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "以高分辨率与 BASIC 编程卡为卖点的早期主机。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000043",
+  "名称": "Vectrex",
+  "别名": [],
+  "厂商": "General Consumer Electric",
+  "产地": "美国",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "唯一带矢量显示器的家用机，独特线框画面。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Vectrex",
+  "aliases": [],
+  "maker": "General Consumer Electric",
+  "origin": "美国",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "唯一带矢量显示器的家用机，独特线框画面。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000044",
+  "名称": "3DO Interactive Multiplayer",
+  "别名": [
+   "3DO"
+  ],
+  "厂商": "3DO Company",
+  "产地": "美国",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "开放授权的 32 位主机，由 Panasonic 等多家生产，商业模式失败。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "3DO Interactive Multiplayer",
+  "aliases": [
+   "3DO"
+  ],
+  "maker": "3DO Company",
+  "origin": "美国",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "开放授权的 32 位主机，由 Panasonic 等多家生产，商业模式失败。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000045",
+  "名称": "Amiga CD32",
+  "别名": [],
+  "厂商": "Commodore",
+  "产地": "美国",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "Commodore 的 CD 游戏机，基于 Amiga 架构。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Amiga CD32",
+  "aliases": [],
+  "maker": "Commodore",
+  "origin": "美国",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "Commodore 的 CD 游戏机，基于 Amiga 架构。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000046",
+  "名称": "Commodore CDTV",
+  "别名": [],
+  "厂商": "Commodore",
+  "产地": "美国",
+  "年代": 1991,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "把 Amiga 做成客厅多媒体机的尝试，商业失败。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Commodore CDTV",
+  "aliases": [],
+  "maker": "Commodore",
+  "origin": "美国",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "把 Amiga 做成客厅多媒体机的尝试，商业失败。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000047",
+  "名称": "Apple Pippin",
+  "别名": [
+   "Pippin"
+  ],
+  "厂商": "Apple/Bandai",
+  "产地": "美国",
+  "年代": 1996,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "苹果授权的多媒体游戏机，商业惨败的著名案例。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Apple Pippin",
+  "aliases": [
+   "Pippin"
+  ],
+  "maker": "Apple/Bandai",
+  "origin": "美国",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "苹果授权的多媒体游戏机，商业惨败的著名案例。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000048",
+  "名称": "FM Towns Marty",
+  "别名": [],
+  "厂商": "Fujitsu",
+  "产地": "日本",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "首台 32 位家用机，基于 FM Towns 电脑，主打 CD。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "FM Towns Marty",
+  "aliases": [],
+  "maker": "Fujitsu",
+  "origin": "日本",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "首台 32 位家用机，基于 FM Towns 电脑，主打 CD。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000049",
+  "名称": "Amstrad GX4000",
+  "别名": [],
+  "厂商": "Amstrad",
+  "产地": "英国",
+  "年代": 1990,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "Amstrad CPC 电脑的游戏机化，商业失败。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Amstrad GX4000",
+  "aliases": [],
+  "maker": "Amstrad",
+  "origin": "英国",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "Amstrad CPC 电脑的游戏机化，商业失败。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000050",
+  "名称": "Emerson Arcadia 2001",
+  "别名": [],
+  "厂商": "Emerson Radio",
+  "产地": "美国",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "短命的二代机，因授权纠纷迅速退场。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Emerson Arcadia 2001",
+  "aliases": [],
+  "maker": "Emerson Radio",
+  "origin": "美国",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "短命的二代机，因授权纠纷迅速退场。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000051",
+  "名称": "Epoch Cassette Vision",
+  "别名": [],
+  "厂商": "Epoch",
+  "产地": "日本",
+  "年代": 1981,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "日本首台成功的卡带式家用机，先于 FC。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Epoch Cassette Vision",
+  "aliases": [],
+  "maker": "Epoch",
+  "origin": "日本",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "日本首台成功的卡带式家用机，先于 FC。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000052",
+  "名称": "Bandai Playdia",
+  "别名": [],
+  "厂商": "Bandai",
+  "产地": "日本",
+  "年代": 1994,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "面向低龄的 CD 交互机，靠简单 FMV 游戏维持。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Bandai Playdia",
+  "aliases": [],
+  "maker": "Bandai",
+  "origin": "日本",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "面向低龄的 CD 交互机，靠简单 FMV 游戏维持。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000053",
+  "名称": "Casio Loopy",
+  "别名": [],
+  "厂商": "Casio",
+  "产地": "日本",
+  "年代": 1995,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "面向少女的主机，带贴纸打印机，商业失败。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Casio Loopy",
+  "aliases": [],
+  "maker": "Casio",
+  "origin": "日本",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "面向少女的主机，带贴纸打印机，商业失败。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000054",
+  "名称": "Pioneer LaserActive",
+  "别名": [],
+  "厂商": "Pioneer",
+  "产地": "日本",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "激光影碟与游戏合一的豪华机，可插 Mega-LD/LD-ROM 模块。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Pioneer LaserActive",
+  "aliases": [],
+  "maker": "Pioneer",
+  "origin": "日本",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "激光影碟与游戏合一的豪华机，可插 Mega-LD/LD-ROM 模块。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000075",
+  "名称": "Atari Flashback",
+  "别名": [],
+  "厂商": "AtGames",
+  "产地": "美国",
+  "年代": 2004,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "Atari 2600 的复刻机系列，内置经典游戏。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Atari Flashback",
+  "aliases": [],
+  "maker": "AtGames",
+  "origin": "美国",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "Atari 2600 的复刻机系列，内置经典游戏。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000076",
+  "名称": "Panasonic Q",
+  "别名": [
+   "GameCube Q"
+  ],
+  "厂商": "Panasonic/Nintendo",
+  "产地": "日本",
+  "年代": 2001,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "GameCube 与 DVD 播放器合一的豪华机，仅日本发售。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Panasonic Q",
+  "aliases": [
+   "GameCube Q"
+  ],
+  "maker": "Panasonic/Nintendo",
+  "origin": "日本",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "GameCube 与 DVD 播放器合一的豪华机，仅日本发售。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000077",
+  "名称": "Bandai Super Vision 8000",
+  "别名": [],
+  "厂商": "Bandai",
+  "产地": "日本",
+  "年代": 1979,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "Bandai 早期家用机，日本市场罕见。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Bandai Super Vision 8000",
+  "aliases": [],
+  "maker": "Bandai",
+  "origin": "日本",
+  "year": 1979,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "Bandai 早期家用机，日本市场罕见。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000078",
+  "名称": "Casio PV-1000",
+  "别名": [],
+  "厂商": "Casio",
+  "产地": "日本",
+  "年代": 1983,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "Casio 家用机，短命产品。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Casio PV-1000",
+  "aliases": [],
+  "maker": "Casio",
+  "origin": "日本",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "Casio 家用机，短命产品。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000079",
+  "名称": "Sord M5",
+  "别名": [],
+  "厂商": "Sord",
+  "产地": "日本",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "日本早期家用机，带键盘设计。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sord M5",
+  "aliases": [],
+  "maker": "Sord",
+  "origin": "日本",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "日本早期家用机，带键盘设计。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000080",
+  "名称": "Nichibutsu My Vision",
+  "别名": [],
+  "厂商": "Nichibutsu",
+  "产地": "日本",
+  "年代": 1983,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "日本家用机，商业失败。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Nichibutsu My Vision",
+  "aliases": [],
+  "maker": "Nichibutsu",
+  "origin": "日本",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "日本家用机，商业失败。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000081",
+  "名称": "Epoch Super Cassette Vision",
+  "别名": [],
+  "厂商": "Epoch",
+  "产地": "日本",
+  "年代": 1984,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "Cassette Vision 后继机，日本末期 8 位机。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Epoch Super Cassette Vision",
+  "aliases": [],
+  "maker": "Epoch",
+  "origin": "日本",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "Cassette Vision 后继机，日本末期 8 位机。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000082",
+  "名称": "Tomy Tutor",
+  "别名": [
+   "Pyūta"
+  ],
+  "厂商": "Tomy",
+  "产地": "日本",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "Tomy 家用机兼电脑，教育定位。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Tomy Tutor",
+  "aliases": [
+   "Pyūta"
+  ],
+  "maker": "Tomy",
+  "origin": "日本",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "Tomy 家用机兼电脑，教育定位。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000083",
+  "名称": "VTech V.Smile",
+  "别名": [],
+  "厂商": "VTech",
+  "产地": "香港",
+  "年代": 2004,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "面向幼儿的学习游戏机，教育定位。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "VTech V.Smile",
+  "aliases": [],
+  "maker": "VTech",
+  "origin": "香港",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "面向幼儿的学习游戏机，教育定位。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000084",
+  "名称": "Gakken TV Boy",
+  "别名": [
+   "Compact Vision"
+  ],
+  "厂商": "Gakken",
+  "产地": "日本",
+  "年代": 1983,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "日本掌上家用机，短命产品。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Gakken TV Boy",
+  "aliases": [
+   "Compact Vision"
+  ],
+  "maker": "Gakken",
+  "origin": "日本",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "日本掌上家用机，短命产品。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000086",
+  "名称": "Interton VC 4000",
+  "别名": [],
+  "厂商": "Interton",
+  "产地": "德国",
+  "年代": 1978,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "德国早期家用机，欧洲市场小众。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Interton VC 4000",
+  "aliases": [],
+  "maker": "Interton",
+  "origin": "德国",
+  "year": 1978,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "德国早期家用机，欧洲市场小众。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000087",
+  "名称": "APF Imagination Machine",
+  "别名": [],
+  "厂商": "APF",
+  "产地": "美国",
+  "年代": 1979,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "带键盘与编程卡的早期主机。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "APF Imagination Machine",
+  "aliases": [],
+  "maker": "APF",
+  "origin": "美国",
+  "year": 1979,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "带键盘与编程卡的早期主机。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000088",
+  "名称": "Bally Professional Arcade",
+  "别名": [],
+  "厂商": "Bally",
+  "产地": "美国",
+  "年代": 1978,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "影响力理由": "Astrocade 的原名，早期主机。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Bally Professional Arcade",
+  "aliases": [],
+  "maker": "Bally",
+  "origin": "美国",
+  "year": 1978,
+  "path": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ],
+  "reason": "Astrocade 的原名，早期主机。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "非主流美奇观"
+  ]
+ },
+ {
+  "id": "G-HOME-000055",
+  "名称": "PlayStation",
+  "别名": [
+   "PS",
+   "PS1"
+  ],
+  "厂商": "Sony",
+  "产地": "日本",
+  "年代": 1994,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ],
+  "影响力理由": "索尼首台主机，CD 介质与 3D 图形重新定义了游戏，销量破亿。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PlayStation",
+  "aliases": [
+   "PS",
+   "PS1"
+  ],
+  "maker": "Sony",
+  "origin": "日本",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ],
+  "reason": "索尼首台主机，CD 介质与 3D 图形重新定义了游戏，销量破亿。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ]
+ },
+ {
+  "id": "G-HOME-000056",
+  "名称": "PlayStation 2",
+  "别名": [
+   "PS2"
+  ],
+  "厂商": "Sony",
+  "产地": "日本",
+  "年代": 2000,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ],
+  "影响力理由": "史上最畅销游戏机，DVD 播放功能助推普及。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PlayStation 2",
+  "aliases": [
+   "PS2"
+  ],
+  "maker": "Sony",
+  "origin": "日本",
+  "year": 2000,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ],
+  "reason": "史上最畅销游戏机，DVD 播放功能助推普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ]
+ },
+ {
+  "id": "G-HOME-000057",
+  "名称": "PlayStation 3",
+  "别名": [
+   "PS3"
+  ],
+  "厂商": "Sony",
+  "产地": "日本",
+  "年代": 2006,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ],
+  "影响力理由": "CELL 处理器与蓝光驱动，首发价过高经历艰难开局。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PlayStation 3",
+  "aliases": [
+   "PS3"
+  ],
+  "maker": "Sony",
+  "origin": "日本",
+  "year": 2006,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ],
+  "reason": "CELL 处理器与蓝光驱动，首发价过高经历艰难开局。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ]
+ },
+ {
+  "id": "G-HOME-000058",
+  "名称": "PlayStation 4",
+  "别名": [
+   "PS4"
+  ],
+  "厂商": "Sony",
+  "产地": "日本",
+  "年代": 2013,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ],
+  "影响力理由": "以 x86 架构回归易开发路线，销量破亿。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PlayStation 4",
+  "aliases": [
+   "PS4"
+  ],
+  "maker": "Sony",
+  "origin": "日本",
+  "year": 2013,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ],
+  "reason": "以 x86 架构回归易开发路线，销量破亿。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ]
+ },
+ {
+  "id": "G-HOME-000059",
+  "名称": "PlayStation 5",
+  "别名": [
+   "PS5"
+  ],
+  "厂商": "Sony",
+  "产地": "日本",
+  "年代": 2020,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ],
+  "影响力理由": "SSD 加载与触觉反馈手柄的次世代主机。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PlayStation 5",
+  "aliases": [
+   "PS5"
+  ],
+  "maker": "Sony",
+  "origin": "日本",
+  "year": 2020,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ],
+  "reason": "SSD 加载与触觉反馈手柄的次世代主机。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ]
+ },
+ {
+  "id": "G-HOME-000060",
+  "名称": "PSX",
+  "别名": [
+   "PSX DVR"
+  ],
+  "厂商": "Sony",
+  "产地": "日本",
+  "年代": 2003,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ],
+  "影响力理由": "PS2 与 DVD 录像机合一的影音设备，仅日本发售。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PSX",
+  "aliases": [
+   "PSX DVR"
+  ],
+  "maker": "Sony",
+  "origin": "日本",
+  "year": 2003,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ],
+  "reason": "PS2 与 DVD 录像机合一的影音设备，仅日本发售。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ]
+ },
+ {
+  "id": "G-HOME-000067",
+  "名称": "PlayStation Classic",
+  "别名": [],
+  "厂商": "Sony",
+  "产地": "日本",
+  "年代": 2018,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ],
+  "影响力理由": "PS1 的迷你复刻机，内置二十款经典游戏。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PlayStation Classic",
+  "aliases": [],
+  "maker": "Sony",
+  "origin": "日本",
+  "year": 2018,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ],
+  "reason": "PS1 的迷你复刻机，内置二十款经典游戏。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ]
+ },
+ {
+  "id": "G-HOME-000089",
+  "名称": "PlayStation 2 Slim",
+  "别名": [],
+  "厂商": "Sony",
+  "产地": "日本",
+  "年代": 2004,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ],
+  "影响力理由": "PS2 的轻薄改版，销量主力之一。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PlayStation 2 Slim",
+  "aliases": [],
+  "maker": "Sony",
+  "origin": "日本",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ],
+  "reason": "PS2 的轻薄改版，销量主力之一。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Sony系"
+  ]
+ },
+ {
+  "id": "G-HOME-000061",
+  "名称": "Xbox",
+  "别名": [],
+  "厂商": "Microsoft",
+  "产地": "美国",
+  "年代": 2001,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ],
+  "影响力理由": "微软首台主机，内置硬盘与以太网，确立欧美主机三足鼎立。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Xbox",
+  "aliases": [],
+  "maker": "Microsoft",
+  "origin": "美国",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ],
+  "reason": "微软首台主机，内置硬盘与以太网，确立欧美主机三足鼎立。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ]
+ },
+ {
+  "id": "G-HOME-000062",
+  "名称": "Xbox 360",
+  "别名": [],
+  "厂商": "Microsoft",
+  "产地": "美国",
+  "年代": 2005,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ],
+  "影响力理由": "以 Xbox Live 在线服务重塑主机生态，三红问题知名。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Xbox 360",
+  "aliases": [],
+  "maker": "Microsoft",
+  "origin": "美国",
+  "year": 2005,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ],
+  "reason": "以 Xbox Live 在线服务重塑主机生态，三红问题知名。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ]
+ },
+ {
+  "id": "G-HOME-000063",
+  "名称": "Xbox One",
+  "别名": [],
+  "厂商": "Microsoft",
+  "产地": "美国",
+  "年代": 2013,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ],
+  "影响力理由": "微软第三代主机，初期强制联网政策引发争议后调整。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Xbox One",
+  "aliases": [],
+  "maker": "Microsoft",
+  "origin": "美国",
+  "year": 2013,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ],
+  "reason": "微软第三代主机，初期强制联网政策引发争议后调整。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ]
+ },
+ {
+  "id": "G-HOME-000064",
+  "名称": "Xbox Series X",
+  "别名": [],
+  "厂商": "Microsoft",
+  "产地": "美国",
+  "年代": 2020,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ],
+  "影响力理由": "微软次世代主机，强调向下兼容与性能。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Xbox Series X",
+  "aliases": [],
+  "maker": "Microsoft",
+  "origin": "美国",
+  "year": 2020,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ],
+  "reason": "微软次世代主机，强调向下兼容与性能。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ]
+ },
+ {
+  "id": "G-HOME-000065",
+  "名称": "Xbox Series S",
+  "别名": [],
+  "厂商": "Microsoft",
+  "产地": "美国",
+  "年代": 2020,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ],
+  "影响力理由": "无光驱的低价次世代主机。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Xbox Series S",
+  "aliases": [],
+  "maker": "Microsoft",
+  "origin": "美国",
+  "year": 2020,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ],
+  "reason": "无光驱的低价次世代主机。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ]
+ },
+ {
+  "id": "G-HOME-000090",
+  "名称": "Xbox 360 S",
+  "别名": [],
+  "厂商": "Microsoft",
+  "产地": "美国",
+  "年代": 2010,
+  "分类路径": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ],
+  "影响力理由": "Xbox 360 的轻薄改版，改善散热。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Xbox 360 S",
+  "aliases": [],
+  "maker": "Microsoft",
+  "origin": "美国",
+  "year": 2010,
+  "path": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ],
+  "reason": "Xbox 360 的轻薄改版，改善散热。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "Microsoft系"
+  ]
+ },
+ {
+  "id": "G-HC-000001",
+  "name": "Magnavox Odyssey",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Magnavox",
+  "era": 1972,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "史上第一台家用视频游戏机，由 Ralph Baer 发明，奠定整个行业。",
+  "maker": "Magnavox",
+  "year": 1972,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "史上第一台家用视频游戏机，由 Ralph Baer 发明，奠定整个行业。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000002",
+  "name": "Pong（家用专用机）",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari, Inc.",
+  "era": 1975,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "首台成功的家用乒乓球专用机，点燃第一代家用游戏机热潮。",
+  "maker": "Atari, Inc.",
+  "year": 1975,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "首台成功的家用乒乓球专用机，点燃第一代家用游戏机热潮。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000003",
+  "name": "Coleco Telstar",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Coleco",
+  "era": 1976,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "首台采用 AY-3-8500 芯片的 Pong 式专用机，第一代热潮代表。",
+  "maker": "Coleco",
+  "year": 1976,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "首台采用 AY-3-8500 芯片的 Pong 式专用机，第一代热潮代表。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000004",
+  "name": "Fairchild Channel F",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Fairchild",
+  "era": 1976,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "史上首台可换卡带游戏机，先于 2600 一年。",
+  "maker": "Fairchild",
+  "year": 1976,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "史上首台可换卡带游戏机，先于 2600 一年。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000005",
+  "name": "RCA Studio II",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "RCA",
+  "era": 1977,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "黑白画面、内置小键盘的早期主机，商业失败。",
+  "maker": "RCA",
+  "year": 1977,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "黑白画面、内置小键盘的早期主机，商业失败。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000006",
+  "name": "Atari 2600",
+  "aliases": [
+   "Video Computer System",
+   "VCS"
+  ],
+  "origin": "美国",
+  "status": "done",
+  "device_id": "atari-2600",
+  "sources": [
+   "S24"
+  ],
+  "manufacturer": "Atari, Inc.",
+  "era": 1977,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "首台把游戏装进可换 ROM 卡带并做成大众商品的机器，确立主机卡带分离模式。",
+  "maker": "Atari, Inc.",
+  "year": 1977,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "首台把游戏装进可换 ROM 卡带并做成大众商品的机器，确立主机卡带分离模式。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000007",
+  "name": "Bally Astrocade",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Bally",
+  "era": 1977,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "以高分辨率与 BASIC 编程卡为卖点的早期主机。",
+  "maker": "Bally",
+  "year": 1977,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "以高分辨率与 BASIC 编程卡为卖点的早期主机。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000008",
+  "name": "Interton VC 4000",
+  "aliases": [],
+  "origin": "德国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Interton",
+  "era": 1978,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "德国早期家用机，欧洲市场小众。",
+  "maker": "Interton",
+  "year": 1978,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "德国早期家用机，欧洲市场小众。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000009",
+  "name": "Magnavox Odyssey²",
+  "aliases": [
+   "Philips Videopac G7000"
+  ],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Magnavox/Philips",
+  "era": 1978,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "Odyssey 后继机，带键盘与卡带，欧洲以 Videopac 之名流行。",
+  "maker": "Magnavox/Philips",
+  "year": 1978,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "Odyssey 后继机，带键盘与卡带，欧洲以 Videopac 之名流行。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000010",
+  "name": "APF Imagination Machine",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "APF",
+  "era": 1979,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "带键盘与编程卡的早期主机。",
+  "maker": "APF",
+  "year": 1979,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "带键盘与编程卡的早期主机。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000011",
+  "name": "Intellivision",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Mattel",
+  "era": 1979,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "以 16 位图形与运动游戏见长的二代机，曾是 2600 最有力的对手。",
+  "maker": "Mattel",
+  "year": 1979,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "以 16 位图形与运动游戏见长的二代机，曾是 2600 最有力的对手。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000012",
+  "name": "Epoch Cassette Vision",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Epoch",
+  "era": 1981,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "日本首台成功的卡带式家用机，先于 FC。",
+  "maker": "Epoch",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "日本首台成功的卡带式家用机，先于 FC。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000013",
+  "name": "ColecoVision",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Coleco",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "以接近街机画面的移植能力著称，2600 之后最强的二代机之一。",
+  "maker": "Coleco",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "以接近街机画面的移植能力著称，2600 之后最强的二代机之一。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000014",
+  "name": "Atari 5200",
+  "aliases": [
+   "SuperSystem"
+  ],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari, Inc.",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "基于 Atari 400 架构的后续机，首次用模拟摇杆，兼容性差。",
+  "maker": "Atari, Inc.",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "基于 Atari 400 架构的后续机，首次用模拟摇杆，兼容性差。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000015",
+  "name": "Vectrex",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "General Consumer Electric",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "唯一带矢量显示器的家用机，独特线框画面。",
+  "maker": "General Consumer Electric",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "唯一带矢量显示器的家用机，独特线框画面。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000016",
+  "name": "Emerson Arcadia 2001",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Emerson Radio",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "短命二代机，因授权纠纷迅速退场。",
+  "maker": "Emerson Radio",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "短命二代机，因授权纠纷迅速退场。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000017",
+  "name": "Sord M5",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sord",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "日本早期家用机，带键盘设计。",
+  "maker": "Sord",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "日本早期家用机，带键盘设计。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000018",
+  "name": "Tomy Tutor",
+  "aliases": [
+   "Pyūta"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Tomy",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "Tomy 家用机兼电脑，教育定位。",
+  "maker": "Tomy",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "Tomy 家用机兼电脑，教育定位。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000019",
+  "name": "Bandai Super Vision 8000",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Bandai",
+  "era": 1979,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "Bandai 早期家用机，日本市场罕见。",
+  "maker": "Bandai",
+  "year": 1979,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "Bandai 早期家用机，日本市场罕见。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000020",
+  "name": "Coleco Gemini",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Coleco",
+  "era": 1983,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "授权兼容 Atari 2600 的克隆机，附赠摇杆与 paddle。",
+  "maker": "Coleco",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "授权兼容 Atari 2600 的克隆机，附赠摇杆与 paddle。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000021",
+  "name": "Casio PV-1000",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Casio",
+  "era": 1983,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "Casio 家用机，短命产品。",
+  "maker": "Casio",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "Casio 家用机，短命产品。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000022",
+  "name": "Nichibutsu My Vision",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nichibutsu",
+  "era": 1983,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "日本家用机，商业失败。",
+  "maker": "Nichibutsu",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "日本家用机，商业失败。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000023",
+  "name": "Gakken TV Boy",
+  "aliases": [
+   "Compact Vision"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Gakken",
+  "era": 1983,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "日本掌上家用机，短命产品。",
+  "maker": "Gakken",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "日本掌上家用机，短命产品。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000024",
+  "name": "Atari 2800",
+  "aliases": [
+   "Atari 2600 日版"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari, Inc.",
+  "era": 1983,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "2600 日本版，楔形机身与一体化手柄，因 FC 竞争未获成功。",
+  "maker": "Atari, Inc.",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "2600 日本版，楔形机身与一体化手柄，因 FC 竞争未获成功。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000025",
+  "name": "Color TV-Game 6",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1977,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "任天堂首台家用游戏机，内置六种乒乓球玩法。",
+  "maker": "Nintendo",
+  "year": 1977,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "任天堂首台家用游戏机，内置六种乒乓球玩法。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000026",
+  "name": "Color TV-Game 15",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1978,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "Color TV-Game 6 的后继，十五种玩法。",
+  "maker": "Nintendo",
+  "year": 1978,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "Color TV-Game 6 的后继，十五种玩法。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000027",
+  "name": "Famicom",
+  "aliases": [
+   "NES",
+   "Family Computer",
+   "红白机"
+  ],
+  "origin": "日本",
+  "status": "done",
+  "device_id": "famicom",
+  "sources": [
+   "S30"
+  ],
+  "manufacturer": "Nintendo",
+  "era": 1983,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "复苏 1983 年崩溃后的北美游戏业，确立现代主机授权商业模式。",
+  "maker": "Nintendo",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "复苏 1983 年崩溃后的北美游戏业，确立现代主机授权商业模式。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000028",
+  "name": "SG-1000",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1983,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "世嘉首台家用机，与 FC 同日发售但被彻底压制。",
+  "maker": "Sega",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "世嘉首台家用机，与 FC 同日发售但被彻底压制。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000029",
+  "name": "Sega SG-1000 II",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1984,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "SG-1000 改版，机身改为家用机造型。",
+  "maker": "Sega",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "SG-1000 改版，机身改为家用机造型。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000030",
+  "name": "Epoch Super Cassette Vision",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Epoch",
+  "era": 1984,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "Cassette Vision 后继机，日本末期 8 位机。",
+  "maker": "Epoch",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "Cassette Vision 后继机，日本末期 8 位机。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000031",
+  "name": "Sega Master System",
+  "aliases": [
+   "SMS",
+   "Mark III"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1985,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "世嘉 8 位机，欧洲与巴西大获成功，孕育索尼克前身。",
+  "maker": "Sega",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "世嘉 8 位机，欧洲与巴西大获成功，孕育索尼克前身。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000032",
+  "name": "Atari 7800",
+  "aliases": [
+   "ProSystem"
+  ],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari Corporation",
+  "era": 1986,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "向后兼容 2600 的最后一台 Atari 8 位主机，内置图形协处理器。",
+  "maker": "Atari Corporation",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "向后兼容 2600 的最后一台 Atari 8 位主机，内置图形协处理器。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000033",
+  "name": "Famicom Disk System",
+  "aliases": [
+   "FDS"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1986,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "FC 软盘外设，用可擦写磁盘支持存档与更大容量。",
+  "maker": "Nintendo",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "FC 软盘外设，用可擦写磁盘支持存档与更大容量。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000034",
+  "name": "Atari XEGS",
+  "aliases": [
+   "XE Game System"
+  ],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari Corporation",
+  "era": 1987,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "把 Atari 8 位电脑改造成家用游戏机的混合机。",
+  "maker": "Atari Corporation",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "把 Atari 8 位电脑改造成家用游戏机的混合机。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000035",
+  "name": "PC Engine",
+  "aliases": [
+   "TurboGrafx-16"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "NEC/Hudson",
+  "era": 1987,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "8 位 CPU 配 16 位显卡的巧妙设计，日本一度压制 FC。",
+  "maker": "NEC/Hudson",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "8 位 CPU 配 16 位显卡的巧妙设计，日本一度压制 FC。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000036",
+  "name": "PC Engine CD-ROM²",
+  "aliases": [
+   "TurboGrafx-CD"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "NEC/Hudson",
+  "era": 1988,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "首台 CD-ROM 家用机扩展，引入 CD 音源与大容量。",
+  "maker": "NEC/Hudson",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "首台 CD-ROM 家用机扩展，引入 CD 音源与大容量。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000037",
+  "name": "Sega Mega Drive",
+  "aliases": [
+   "Genesis",
+   "MD"
+  ],
+  "origin": "日本",
+  "status": "done",
+  "device_id": "sega-md",
+  "sources": [
+   "S38"
+  ],
+  "manufacturer": "Sega",
+  "era": 1988,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "68000+Z80 双 CPU 与 YM2612 FM 音源定义街机味家用机，掀起主机战争。",
+  "maker": "Sega",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "68000+Z80 双 CPU 与 YM2612 FM 音源定义街机味家用机，掀起主机战争。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000038",
+  "name": "SuperGrafx",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "NEC/Hudson",
+  "era": 1989,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "PC Engine 增强版，商业失败，仅数款游戏。",
+  "maker": "NEC/Hudson",
+  "year": 1989,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "PC Engine 增强版，商业失败，仅数款游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000039",
+  "name": "Super Famicom",
+  "aliases": [
+   "SNES",
+   "Super NES"
+  ],
+  "origin": "日本",
+  "status": "researching",
+  "device_id": null,
+  "sources": [
+   "S41"
+  ],
+  "manufacturer": "Nintendo",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "16 位时代巅峰，Mode 7 旋转缩放与采样音源定义一代画面与音乐。",
+  "maker": "Nintendo",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "16 位时代巅峰，Mode 7 旋转缩放与采样音源定义一代画面与音乐。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000040",
+  "name": "Neo Geo AES",
+  "aliases": [
+   "Advanced Entertainment System"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "SNK",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "把街机 MVS 硬件原样搬进客厅，天价主机与卡带的象征。",
+  "maker": "SNK",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "把街机 MVS 硬件原样搬进客厅，天价主机与卡带的象征。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000041",
+  "name": "Amstrad GX4000",
+  "aliases": [],
+  "origin": "英国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Amstrad",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "Amstrad CPC 电脑的游戏机化，商业失败。",
+  "maker": "Amstrad",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "Amstrad CPC 电脑的游戏机化，商业失败。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000042",
+  "name": "Commodore 64 Games System",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Commodore",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "C64 改造成的游戏机，商业失败。",
+  "maker": "Commodore",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "C64 改造成的游戏机，商业失败。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000043",
+  "name": "Sega Master System II",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "Master System 低成本改版。",
+  "maker": "Sega",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "Master System 低成本改版。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000044",
+  "name": "Sega Mega-CD",
+  "aliases": [
+   "Sega CD"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1991,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "MD 的 CD 扩展，引入更大容量与 CD 音源。",
+  "maker": "Sega",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "MD 的 CD 扩展，引入更大容量与 CD 音源。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000045",
+  "name": "Philips CD-i",
+  "aliases": [
+   "Compact Disc Interactive"
+  ],
+  "origin": "荷兰",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Philips",
+  "era": 1991,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "以 CD 交互多媒体为卖点，因《塞尔达》授权作而知名。",
+  "maker": "Philips",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "以 CD 交互多媒体为卖点，因《塞尔达》授权作而知名。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000046",
+  "name": "Commodore CDTV",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Commodore",
+  "era": 1991,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "把 Amiga 做成客厅多媒体机的尝试，商业失败。",
+  "maker": "Commodore",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "把 Amiga 做成客厅多媒体机的尝试，商业失败。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000047",
+  "name": "FM Towns Marty",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Fujitsu",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "首台 32 位家用机，基于 FM Towns 电脑，主打 CD。",
+  "maker": "Fujitsu",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "首台 32 位家用机，基于 FM Towns 电脑，主打 CD。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000048",
+  "name": "Sega Pico",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "面向幼儿的绘本主机，用书页与触控笔交互。",
+  "maker": "Sega",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "面向幼儿的绘本主机，用书页与触控笔交互。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000049",
+  "name": "3DO Interactive Multiplayer",
+  "aliases": [
+   "3DO"
+  ],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "3DO Company",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "开放授权的 32 位主机，多家生产，商业模式失败。",
+  "maker": "3DO Company",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "开放授权的 32 位主机，多家生产，商业模式失败。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000050",
+  "name": "Atari Jaguar",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari Corporation",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "营销自称 64 位的主机，Atari 最后一台家用机。",
+  "maker": "Atari Corporation",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "营销自称 64 位的主机，Atari 最后一台家用机。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000051",
+  "name": "Amiga CD32",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Commodore",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "Commodore 的 CD 游戏机，基于 Amiga 架构。",
+  "maker": "Commodore",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "Commodore 的 CD 游戏机，基于 Amiga 架构。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000052",
+  "name": "Pioneer LaserActive",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Pioneer",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "激光影碟与游戏合一的豪华机，可插游戏模块。",
+  "maker": "Pioneer",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "激光影碟与游戏合一的豪华机，可插游戏模块。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000053",
+  "name": "Family Computer AV",
+  "aliases": [
+   "AV Famicom"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "FC 的 AV 输出版改款，回归红白配色。",
+  "maker": "Nintendo",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "FC 的 AV 输出版改款，回归红白配色。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000054",
+  "name": "Sega 32X",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "MD 的 32 位扩展，硬件碎片化的代表，商业失败。",
+  "maker": "Sega",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "MD 的 32 位扩展，硬件碎片化的代表，商业失败。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000055",
+  "name": "Sega Saturn",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "世嘉 32 位机，双 CPU 架构复杂，日本成功欧美失败。",
+  "maker": "Sega",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "世嘉 32 位机，双 CPU 架构复杂，日本成功欧美失败。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000056",
+  "name": "PlayStation",
+  "aliases": [
+   "PS",
+   "PS1"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sony",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "索尼首台主机，CD 介质与 3D 图形重新定义游戏，销量破亿。",
+  "maker": "Sony",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "索尼首台主机，CD 介质与 3D 图形重新定义游戏，销量破亿。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000057",
+  "name": "Neo Geo CD",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "SNK",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "Neo Geo 的 CD 版，降低门槛但读盘漫长。",
+  "maker": "SNK",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "Neo Geo 的 CD 版，降低门槛但读盘漫长。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000058",
+  "name": "PC-FX",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "NEC/Hudson",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "NEC 最后一台主机，主打 FMV 动画，商业失败。",
+  "maker": "NEC/Hudson",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "NEC 最后一台主机，主打 FMV 动画，商业失败。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000059",
+  "name": "Bandai Playdia",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Bandai",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "面向低龄的 CD 交互机，靠简单 FMV 游戏维持。",
+  "maker": "Bandai",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "面向低龄的 CD 交互机，靠简单 FMV 游戏维持。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000060",
+  "name": "Casio Loopy",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Casio",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "面向少女的主机，带贴纸打印机，商业失败。",
+  "maker": "Casio",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "面向少女的主机，带贴纸打印机，商业失败。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000061",
+  "name": "Virtual Boy",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "横井军平的立体显示实验机，红黑单色，商业失败。",
+  "maker": "Nintendo",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "横井军平的立体显示实验机，红黑单色，商业失败。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000062",
+  "name": "Nintendo 64",
+  "aliases": [
+   "N64"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1996,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "以《超级马力欧 64》确立 3D 平台游戏范式，首次用模拟摇杆。",
+  "maker": "Nintendo",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "以《超级马力欧 64》确立 3D 平台游戏范式，首次用模拟摇杆。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000063",
+  "name": "Apple Pippin",
+  "aliases": [
+   "Pippin"
+  ],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Apple/Bandai",
+  "era": 1996,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "苹果授权的多媒体游戏机，商业惨败的著名案例。",
+  "maker": "Apple/Bandai",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "苹果授权的多媒体游戏机，商业惨败的著名案例。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000064",
+  "name": "Sega Dreamcast",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1998,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "世嘉最后一台主机，首台内置调制解调器，因市场环境谢幕。",
+  "maker": "Sega",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "世嘉最后一台主机，首台内置调制解调器，因市场环境谢幕。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000065",
+  "name": "PlayStation 2",
+  "aliases": [
+   "PS2"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sony",
+  "era": 2000,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "史上最畅销游戏机，DVD 播放功能助推普及。",
+  "maker": "Sony",
+  "year": 2000,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "史上最畅销游戏机，DVD 播放功能助推普及。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000066",
+  "name": "GameCube",
+  "aliases": [
+   "NGC"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2001,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "任天堂首台用光盘的主机，迷你 DVD 介质。",
+  "maker": "Nintendo",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "任天堂首台用光盘的主机，迷你 DVD 介质。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000067",
+  "name": "Xbox",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Microsoft",
+  "era": 2001,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "微软首台主机，内置硬盘与以太网，确立欧美三足鼎立。",
+  "maker": "Microsoft",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "微软首台主机，内置硬盘与以太网，确立欧美三足鼎立。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000068",
+  "name": "Panasonic Q",
+  "aliases": [
+   "GameCube Q"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Panasonic/Nintendo",
+  "era": 2001,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "GameCube 与 DVD 播放器合一的豪华机，仅日本发售。",
+  "maker": "Panasonic/Nintendo",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "GameCube 与 DVD 播放器合一的豪华机，仅日本发售。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000069",
+  "name": "PSX",
+  "aliases": [
+   "PSX DVR"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sony",
+  "era": 2003,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "PS2 与 DVD 录像机合一的影音设备，仅日本发售。",
+  "maker": "Sony",
+  "year": 2003,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "PS2 与 DVD 录像机合一的影音设备，仅日本发售。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000070",
+  "name": "PlayStation 2 Slim",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sony",
+  "era": 2004,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "PS2 轻薄改版，销量主力之一。",
+  "maker": "Sony",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "PS2 轻薄改版，销量主力之一。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000071",
+  "name": "VTech V.Smile",
+  "aliases": [],
+  "origin": "香港",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "VTech",
+  "era": 2004,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "面向幼儿的学习游戏机，教育定位。",
+  "maker": "VTech",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "面向幼儿的学习游戏机，教育定位。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000072",
+  "name": "Atari Flashback",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "AtGames",
+  "era": 2004,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "Atari 2600 的复刻机系列，内置经典游戏。",
+  "maker": "AtGames",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "Atari 2600 的复刻机系列，内置经典游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000073",
+  "name": "Xbox 360",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Microsoft",
+  "era": 2005,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "以 Xbox Live 在线服务重塑主机生态，三红问题知名。",
+  "maker": "Microsoft",
+  "year": 2005,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "以 Xbox Live 在线服务重塑主机生态，三红问题知名。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000074",
+  "name": "Wii",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2006,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "体感遥控器把游戏带进大众家庭，销量破亿的现象级主机。",
+  "maker": "Nintendo",
+  "year": 2006,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "体感遥控器把游戏带进大众家庭，销量破亿的现象级主机。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000075",
+  "name": "PlayStation 3",
+  "aliases": [
+   "PS3"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sony",
+  "era": 2006,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "CELL 处理器与蓝光驱动，首发价过高经历艰难开局。",
+  "maker": "Sony",
+  "year": 2006,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "CELL 处理器与蓝光驱动，首发价过高经历艰难开局。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000076",
+  "name": "HyperScan",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Mattel",
+  "era": 2006,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "用 RFID 卡片增强的低成本主机，商业失败。",
+  "maker": "Mattel",
+  "year": 2006,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "用 RFID 卡片增强的低成本主机，商业失败。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000077",
+  "name": "Xbox 360 S",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Microsoft",
+  "era": 2010,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "Xbox 360 轻薄改版，改善散热。",
+  "maker": "Microsoft",
+  "year": 2010,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "Xbox 360 轻薄改版，改善散热。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000078",
+  "name": "Wii U",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2012,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "带触屏手柄的 Wii 后继，商业失败但孕育 Switch。",
+  "maker": "Nintendo",
+  "year": 2012,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "带触屏手柄的 Wii 后继，商业失败但孕育 Switch。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000079",
+  "name": "Wii Mini",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2012,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "Wii 低价简化版，去掉联网。",
+  "maker": "Nintendo",
+  "year": 2012,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "Wii 低价简化版，去掉联网。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000080",
+  "name": "Neo Geo X",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "SNK Playmore",
+  "era": 2012,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "Neo Geo 复刻掌机与底座套装，争议性授权产品。",
+  "maker": "SNK Playmore",
+  "year": 2012,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "Neo Geo 复刻掌机与底座套装，争议性授权产品。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000081",
+  "name": "PlayStation 4",
+  "aliases": [
+   "PS4"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sony",
+  "era": 2013,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "以 x86 架构回归易开发路线，销量破亿。",
+  "maker": "Sony",
+  "year": 2013,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "以 x86 架构回归易开发路线，销量破亿。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000082",
+  "name": "Xbox One",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Microsoft",
+  "era": 2013,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "微软第三代主机，初期强制联网政策引发争议后调整。",
+  "maker": "Microsoft",
+  "year": 2013,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "微软第三代主机，初期强制联网政策引发争议后调整。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000083",
+  "name": "NES Classic Edition",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2016,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "NES 迷你复刻机，带动复古迷你机风潮。",
+  "maker": "Nintendo",
+  "year": 2016,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "NES 迷你复刻机，带动复古迷你机风潮。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000084",
+  "name": "Nintendo Switch",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2017,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "主机掌机二合一，任天堂史上最畅销主机之一。",
+  "maker": "Nintendo",
+  "year": 2017,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "主机掌机二合一，任天堂史上最畅销主机之一。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000085",
+  "name": "SNES Classic Edition",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2017,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "SFC 迷你复刻机，内置二十一款经典。",
+  "maker": "Nintendo",
+  "year": 2017,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "SFC 迷你复刻机，内置二十一款经典。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000086",
+  "name": "PlayStation Classic",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sony",
+  "era": 2018,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "PS1 迷你复刻机，内置二十款经典游戏。",
+  "maker": "Sony",
+  "year": 2018,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "PS1 迷你复刻机，内置二十款经典游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000087",
+  "name": "Sega Genesis Mini",
+  "aliases": [
+   "Mega Drive Mini"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 2019,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "MD 迷你复刻机，内置四十款游戏。",
+  "maker": "Sega",
+  "year": 2019,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "MD 迷你复刻机，内置四十款游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000088",
+  "name": "PlayStation 5",
+  "aliases": [
+   "PS5"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sony",
+  "era": 2020,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "SSD 加载与触觉反馈手柄的次世代主机。",
+  "maker": "Sony",
+  "year": 2020,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "SSD 加载与触觉反馈手柄的次世代主机。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000089",
+  "name": "Xbox Series X",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Microsoft",
+  "era": 2020,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "微软次世代主机，强调向下兼容与性能。",
+  "maker": "Microsoft",
+  "year": 2020,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "微软次世代主机，强调向下兼容与性能。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000090",
+  "name": "Xbox Series S",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Microsoft",
+  "era": 2020,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "无光驱的低价次世代主机。",
+  "maker": "Microsoft",
+  "year": 2020,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "无光驱的低价次世代主机。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000091",
+  "name": "Nintendo Switch OLED",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2021,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "Switch 的 OLED 屏幕升级版。",
+  "maker": "Nintendo",
+  "year": 2021,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "Switch 的 OLED 屏幕升级版。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000092",
+  "name": "Sega TeraDrive",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega/IBM",
+  "era": 1991,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "MD 与 PC 一体机，办公与游戏合一。",
+  "maker": "Sega/IBM",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "MD 与 PC 一体机，办公与游戏合一。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000093",
+  "name": "Atari 2600 Jr.",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari Corporation",
+  "era": 1986,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "2600 的小型化改款，彩虹条纹。",
+  "maker": "Atari Corporation",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "2600 的小型化改款，彩虹条纹。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000094",
+  "name": "SC-3000",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1983,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "SG-1000 的电脑版，Sega 早期家用电脑。",
+  "maker": "Sega",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "SG-1000 的电脑版，Sega 早期家用电脑。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ },
+ {
+  "id": "G-HC-000095",
+  "name": "Sega Master System（游戏电脑版）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1986,
+  "taxonomy_path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "influence": "Master System 的电脑化衍生。",
+  "maker": "Sega",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ],
+  "reason": "Master System 的电脑化衍生。",
+  "_taxonomy": [
+   "游戏机",
+   "家用机",
+   "第 1~9 世代"
+  ]
+ }
+]

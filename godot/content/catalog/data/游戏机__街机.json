@@ -1,0 +1,12070 @@
+[
+ {
+  "id": "G-ARC-000001",
+  "名称": "Pong（街机）",
+  "别名": [],
+  "厂商": "Atari",
+  "产地": "美国",
+  "年代": 1972,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "首款成功的商用街机，奠定街机产业。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Pong（街机）",
+  "aliases": [],
+  "maker": "Atari",
+  "origin": "美国",
+  "year": 1972,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "首款成功的商用街机，奠定街机产业。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000002",
+  "名称": "Space Invaders",
+  "别名": [],
+  "厂商": "Taito",
+  "产地": "日本",
+  "年代": 1978,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "引发街机热潮的现象级作品，日本一度硬币短缺。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Space Invaders",
+  "aliases": [],
+  "maker": "Taito",
+  "origin": "日本",
+  "year": 1978,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "引发街机热潮的现象级作品，日本一度硬币短缺。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000003",
+  "名称": "Pac-Man",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1980,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "史上最知名街机之一，开辟了角色 IP 与迷宫追逐类型。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Pac-Man",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1980,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "史上最知名街机之一，开辟了角色 IP 与迷宫追逐类型。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000004",
+  "名称": "Donkey Kong",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1981,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "马里奥首秀，平台跳跃类型奠基之作。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Donkey Kong",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "马里奥首秀，平台跳跃类型奠基之作。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000005",
+  "名称": "Galaga",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1981,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "太空射击经典，固定画面射击标杆。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Galaga",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "太空射击经典，固定画面射击标杆。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000006",
+  "名称": "Centipede",
+  "别名": [],
+  "厂商": "Atari",
+  "产地": "美国",
+  "年代": 1980,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "轨迹球操作的经典射击，女性玩家群体突出。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Centipede",
+  "aliases": [],
+  "maker": "Atari",
+  "origin": "美国",
+  "year": 1980,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "轨迹球操作的经典射击，女性玩家群体突出。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000007",
+  "名称": "Asteroids",
+  "别名": [],
+  "厂商": "Atari",
+  "产地": "美国",
+  "年代": 1979,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "矢量图形射击，Atari 最畅销街机之一。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Asteroids",
+  "aliases": [],
+  "maker": "Atari",
+  "origin": "美国",
+  "year": 1979,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "矢量图形射击，Atari 最畅销街机之一。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000008",
+  "名称": "Defender",
+  "别名": [],
+  "厂商": "Williams",
+  "产地": "美国",
+  "年代": 1981,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "横向卷轴射击，操作复杂的高难度经典。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Defender",
+  "aliases": [],
+  "maker": "Williams",
+  "origin": "美国",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "横向卷轴射击，操作复杂的高难度经典。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000009",
+  "名称": "Missile Command",
+  "别名": [],
+  "厂商": "Atari",
+  "产地": "美国",
+  "年代": 1980,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "轨迹球防守射击，冷战背景叙事。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Missile Command",
+  "aliases": [],
+  "maker": "Atari",
+  "origin": "美国",
+  "year": 1980,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "轨迹球防守射击，冷战背景叙事。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000010",
+  "名称": "Galaxian",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1979,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "首款彩色街机射击，太空侵略者后继。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Galaxian",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1979,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "首款彩色街机射击，太空侵略者后继。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000011",
+  "名称": "Frogger",
+  "别名": [],
+  "厂商": "Konami",
+  "产地": "日本",
+  "年代": 1981,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "过马路与河流的经典动作游戏。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Frogger",
+  "aliases": [],
+  "maker": "Konami",
+  "origin": "日本",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "过马路与河流的经典动作游戏。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000012",
+  "名称": "Dig Dug",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "地下挖掘与充气消灭敌人的经典。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Dig Dug",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "地下挖掘与充气消灭敌人的经典。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000013",
+  "名称": "Ms. Pac-Man",
+  "别名": [],
+  "厂商": "Midway",
+  "产地": "美国",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Pac-Man 的改进续作，加入随机迷宫。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Ms. Pac-Man",
+  "aliases": [],
+  "maker": "Midway",
+  "origin": "美国",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Pac-Man 的改进续作，加入随机迷宫。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000014",
+  "名称": "Joust",
+  "别名": [],
+  "厂商": "Williams",
+  "产地": "美国",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "鸵鸟骑士对战，双人协作经典。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Joust",
+  "aliases": [],
+  "maker": "Williams",
+  "origin": "美国",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "鸵鸟骑士对战，双人协作经典。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000015",
+  "名称": "Robotron: 2084",
+  "别名": [],
+  "厂商": "Williams",
+  "产地": "美国",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "双摇杆射击，快节奏街机射击代表作。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Robotron: 2084",
+  "aliases": [],
+  "maker": "Williams",
+  "origin": "美国",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "双摇杆射击，快节奏街机射击代表作。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000016",
+  "名称": "Tempest",
+  "别名": [],
+  "厂商": "Atari",
+  "产地": "美国",
+  "年代": 1981,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "彩色矢量图形，旋转射击经典。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Tempest",
+  "aliases": [],
+  "maker": "Atari",
+  "origin": "美国",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "彩色矢量图形，旋转射击经典。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000017",
+  "名称": "Q*bert",
+  "别名": [],
+  "厂商": "Gottlieb",
+  "产地": "美国",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "等距视角跳跃，独特主角形象。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Q*bert",
+  "aliases": [],
+  "maker": "Gottlieb",
+  "origin": "美国",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "等距视角跳跃，独特主角形象。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000018",
+  "名称": "BurgerTime",
+  "别名": [],
+  "厂商": "Data East",
+  "产地": "日本",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "制作汉堡的平台游戏，多层结构。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "BurgerTime",
+  "aliases": [],
+  "maker": "Data East",
+  "origin": "日本",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "制作汉堡的平台游戏，多层结构。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000019",
+  "名称": "Zaxxon",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "首款等距轴测卷轴射击。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Zaxxon",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "首款等距轴测卷轴射击。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000020",
+  "名称": "Donkey Kong Jr.",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "大金刚续作，马里奥首现反派。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Donkey Kong Jr.",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "大金刚续作，马里奥首现反派。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000021",
+  "名称": "Mario Bros.",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1983,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "马里奥兄弟平台动作，奠定系列。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Mario Bros.",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "马里奥兄弟平台动作，奠定系列。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000022",
+  "名称": "Popeye",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "大力水手授权游戏，早期卷轴平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Popeye",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "大力水手授权游戏，早期卷轴平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000023",
+  "名称": "Dragon's Lair",
+  "别名": [],
+  "厂商": "Cinematronics",
+  "产地": "美国",
+  "年代": 1983,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "激光影碟动画冒险，全动态影像的里程碑。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Dragon's Lair",
+  "aliases": [],
+  "maker": "Cinematronics",
+  "origin": "美国",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "激光影碟动画冒险，全动态影像的里程碑。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000024",
+  "名称": "Track & Field",
+  "别名": [],
+  "厂商": "Konami",
+  "产地": "日本",
+  "年代": 1983,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "体育竞技按钮连打，奥运题材。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Track & Field",
+  "aliases": [],
+  "maker": "Konami",
+  "origin": "日本",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "体育竞技按钮连打，奥运题材。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000025",
+  "名称": "Punch-Out!!",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1984,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "拳击游戏，独特屏幕外对手设计。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Punch-Out!!",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "拳击游戏，独特屏幕外对手设计。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000026",
+  "名称": "Gauntlet",
+  "别名": [],
+  "厂商": "Atari Games",
+  "产地": "美国",
+  "年代": 1985,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "四人合作地牢清版，语音提示知名。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Gauntlet",
+  "aliases": [],
+  "maker": "Atari Games",
+  "origin": "美国",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "四人合作地牢清版，语音提示知名。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000027",
+  "名称": "Out Run",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1986,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "拟 3D 赛车，音乐选择开创街机文化。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Out Run",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "拟 3D 赛车，音乐选择开创街机文化。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000028",
+  "名称": "After Burner",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1987,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "液压框体空战射击，拟 3D 卷轴。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "After Burner",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "液压框体空战射击，拟 3D 卷轴。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000029",
+  "名称": "Space Harrier",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1985,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "伪 3D 轨道射击，铃木裕代表作。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Space Harrier",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "伪 3D 轨道射击，铃木裕代表作。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000030",
+  "名称": "Double Dragon",
+  "别名": [],
+  "厂商": "Technos",
+  "产地": "日本",
+  "年代": 1987,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "清版动作奠基作，双人合作与武器系统。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Double Dragon",
+  "aliases": [],
+  "maker": "Technos",
+  "origin": "日本",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "清版动作奠基作，双人合作与武器系统。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000031",
+  "名称": "Neo Geo MVS",
+  "别名": [
+   "Multi Video System"
+  ],
+  "厂商": "SNK",
+  "产地": "日本",
+  "年代": 1990,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "可换多卡带的街机基板，格斗游戏黄金平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Neo Geo MVS",
+  "aliases": [
+   "Multi Video System"
+  ],
+  "maker": "SNK",
+  "origin": "日本",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "可换多卡带的街机基板，格斗游戏黄金平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000032",
+  "名称": "Capcom CPS-1",
+  "别名": [
+   "CP System"
+  ],
+  "厂商": "Capcom",
+  "产地": "日本",
+  "年代": 1988,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "街霸 II 等格斗名作的基板，Capcom 街机黄金时代。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Capcom CPS-1",
+  "aliases": [
+   "CP System"
+  ],
+  "maker": "Capcom",
+  "origin": "日本",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "街霸 II 等格斗名作的基板，Capcom 街机黄金时代。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000033",
+  "名称": "Capcom CPS-2",
+  "别名": [
+   "CP System II"
+  ],
+  "厂商": "Capcom",
+  "产地": "日本",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "CPS-1 后继，街霸 Alpha 与恶魔战士平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Capcom CPS-2",
+  "aliases": [
+   "CP System II"
+  ],
+  "maker": "Capcom",
+  "origin": "日本",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "CPS-1 后继，街霸 Alpha 与恶魔战士平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000034",
+  "名称": "Capcom CPS-3",
+  "别名": [
+   "CP System III"
+  ],
+  "厂商": "Capcom",
+  "产地": "日本",
+  "年代": 1996,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "街霸 III 专用基板，光盘介质。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Capcom CPS-3",
+  "aliases": [
+   "CP System III"
+  ],
+  "maker": "Capcom",
+  "origin": "日本",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "街霸 III 专用基板，光盘介质。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000035",
+  "名称": "Sega System 16",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1985,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "世嘉 16 位基板，孕育了 MD 架构。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega System 16",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "世嘉 16 位基板，孕育了 MD 架构。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000036",
+  "名称": "Sega System 18",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1989,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "System 16 的强化基板。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega System 18",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1989,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "System 16 的强化基板。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000037",
+  "名称": "Sega System 24",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1988,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "世嘉高分辨率基板。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega System 24",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "世嘉高分辨率基板。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000038",
+  "名称": "Sega System 32",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1990,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "世嘉 32 位基板，3D 街机代表作。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega System 32",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "世嘉 32 位基板，3D 街机代表作。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000039",
+  "名称": "Sega Model 1",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1992,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "世嘉 3D 基板，Virtua Fighter 与 Virtua Racing 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega Model 1",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "世嘉 3D 基板，Virtua Fighter 与 Virtua Racing 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000040",
+  "名称": "Sega Model 2",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1994,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "3D 街机基板，Daytona 与 VF2 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega Model 2",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "3D 街机基板，Daytona 与 VF2 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000041",
+  "名称": "Sega Model 3",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1996,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Model 2 后继，街机 3D 巅峰。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega Model 3",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Model 2 后继，街机 3D 巅峰。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000042",
+  "名称": "Sega Naomi",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1998,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Dreamcast 同源基板，街机与家用互通。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega Naomi",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Dreamcast 同源基板，街机与家用互通。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000043",
+  "名称": "Sega Naomi 2",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 2001,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Naomi 强化版，双 GPU。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega Naomi 2",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Naomi 强化版，双 GPU。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000044",
+  "名称": "Sega Atomiswave",
+  "别名": [],
+  "厂商": "Sammy/Sega",
+  "产地": "日本",
+  "年代": 2003,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Dreamcast 架构基板，Neo Geo 后继。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega Atomiswave",
+  "aliases": [],
+  "maker": "Sammy/Sega",
+  "origin": "日本",
+  "year": 2003,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Dreamcast 架构基板，Neo Geo 后继。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000045",
+  "名称": "Sega System 1",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1983,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "世嘉早期基板，Z80 架构。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega System 1",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "世嘉早期基板，Z80 架构。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000046",
+  "名称": "Sega System 2",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1985,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "System 1 后继基板。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega System 2",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "System 1 后继基板。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000047",
+  "名称": "Namco System 1",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1987,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Namco 基板，多款经典动作游戏。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Namco System 1",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Namco 基板，多款经典动作游戏。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000048",
+  "名称": "Namco System 2",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1987,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Namco 高性能基板。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Namco System 2",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Namco 高性能基板。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000049",
+  "名称": "Namco System 11",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1994,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "PlayStation 同源基板，铁拳平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Namco System 11",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "PlayStation 同源基板，铁拳平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000050",
+  "名称": "Namco System 12",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1997,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "System 11 强化基板，铁拳 3 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Namco System 12",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "System 11 强化基板，铁拳 3 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000051",
+  "名称": "Namco System 21",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1988,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Namco 3D 基板，多边形街机先驱。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Namco System 21",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Namco 3D 基板，多边形街机先驱。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000052",
+  "名称": "Namco System 22",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Namco 3D 赛车基板，山脊赛车平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Namco System 22",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Namco 3D 赛车基板，山脊赛车平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000053",
+  "名称": "Namco System 23",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1997,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "System 22 后继 3D 基板。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Namco System 23",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "System 22 后继 3D 基板。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000054",
+  "名称": "Taito F3 System",
+  "别名": [],
+  "厂商": "Taito",
+  "产地": "日本",
+  "年代": 1992,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Taito 基板，泡泡龙等名作平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Taito F3 System",
+  "aliases": [],
+  "maker": "Taito",
+  "origin": "日本",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Taito 基板，泡泡龙等名作平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000055",
+  "名称": "Taito Type X",
+  "别名": [],
+  "厂商": "Taito",
+  "产地": "日本",
+  "年代": 2004,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "x86 PC 架构基板，现代街机标准化的代表。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Taito Type X",
+  "aliases": [],
+  "maker": "Taito",
+  "origin": "日本",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "x86 PC 架构基板，现代街机标准化的代表。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000056",
+  "名称": "Midway Y Unit",
+  "别名": [],
+  "厂商": "Midway",
+  "产地": "美国",
+  "年代": 1991,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Midway 基板，真人快打平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Midway Y Unit",
+  "aliases": [],
+  "maker": "Midway",
+  "origin": "美国",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Midway 基板，真人快打平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000057",
+  "名称": "Midway T Unit",
+  "别名": [],
+  "厂商": "Midway",
+  "产地": "美国",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Midway 基板，真人快打 II 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Midway T Unit",
+  "aliases": [],
+  "maker": "Midway",
+  "origin": "美国",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Midway 基板，真人快打 II 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000058",
+  "名称": "Irem M72",
+  "别名": [],
+  "厂商": "Irem",
+  "产地": "日本",
+  "年代": 1987,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Irem 基板，R-Type 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Irem M72",
+  "aliases": [],
+  "maker": "Irem",
+  "origin": "日本",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Irem 基板，R-Type 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000059",
+  "名称": "Irem M92",
+  "别名": [],
+  "厂商": "Irem",
+  "产地": "日本",
+  "年代": 1991,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Irem 基板，多种射击游戏平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Irem M92",
+  "aliases": [],
+  "maker": "Irem",
+  "origin": "日本",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Irem 基板，多种射击游戏平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000060",
+  "名称": "Konami GX",
+  "别名": [],
+  "厂商": "Konami",
+  "产地": "日本",
+  "年代": 1994,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Konami 基板，多种街机名作。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Konami GX",
+  "aliases": [],
+  "maker": "Konami",
+  "origin": "日本",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Konami 基板，多种街机名作。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000061",
+  "名称": "Konami System 573",
+  "别名": [],
+  "厂商": "Konami",
+  "产地": "日本",
+  "年代": 1998,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Konami 基板，DDR 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Konami System 573",
+  "aliases": [],
+  "maker": "Konami",
+  "origin": "日本",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Konami 基板，DDR 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000062",
+  "名称": "Capcom ZN-1",
+  "别名": [],
+  "厂商": "Capcom",
+  "产地": "日本",
+  "年代": 1995,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "PlayStation 同源基板，街霸 EX 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Capcom ZN-1",
+  "aliases": [],
+  "maker": "Capcom",
+  "origin": "日本",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "PlayStation 同源基板，街霸 EX 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000063",
+  "名称": "SNK Neo Geo 64",
+  "别名": [],
+  "厂商": "SNK",
+  "产地": "日本",
+  "年代": 1997,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "SNK 3D 基板，商业失败。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "SNK Neo Geo 64",
+  "aliases": [],
+  "maker": "SNK",
+  "origin": "日本",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "SNK 3D 基板，商业失败。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000064",
+  "名称": "Cave CV1000",
+  "别名": [],
+  "厂商": "Cave",
+  "产地": "日本",
+  "年代": 2004,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "弹幕射击专用基板，怒首领蜂平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Cave CV1000",
+  "aliases": [],
+  "maker": "Cave",
+  "origin": "日本",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "弹幕射击专用基板，怒首领蜂平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000065",
+  "名称": "PGM",
+  "别名": [
+   "PolyGame Master"
+  ],
+  "厂商": "IGS",
+  "产地": "台湾",
+  "年代": 1997,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "华人街机基板，西游释厄传等平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PGM",
+  "aliases": [
+   "PolyGame Master"
+  ],
+  "maker": "IGS",
+  "origin": "台湾",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "华人街机基板，西游释厄传等平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000066",
+  "名称": "Vs. System",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1984,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "任天堂红白机街机化基板，双屏对战。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Vs. System",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "任天堂红白机街机化基板，双屏对战。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000067",
+  "名称": "PlayChoice-10",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "美国",
+  "年代": 1986,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "任天堂多游戏街机，可换 10 款 NES 游戏。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PlayChoice-10",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "美国",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "任天堂多游戏街机，可换 10 款 NES 游戏。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000068",
+  "名称": "Namco System 86",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1986,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Namco 早期基板。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Namco System 86",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Namco 早期基板。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000069",
+  "名称": "Super System",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1984,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "任天堂早期基板。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Super System",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "任天堂早期基板。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000070",
+  "名称": "Street Fighter II",
+  "别名": [],
+  "厂商": "Capcom",
+  "产地": "日本",
+  "年代": 1991,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "定义格斗游戏类型的现象级街机，掀起了格斗热潮。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Street Fighter II",
+  "aliases": [],
+  "maker": "Capcom",
+  "origin": "日本",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "定义格斗游戏类型的现象级街机，掀起了格斗热潮。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000071",
+  "名称": "Street Fighter II Turbo",
+  "别名": [],
+  "厂商": "Capcom",
+  "产地": "日本",
+  "年代": 1992,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "街霸 II 的加速改版，加入速度选项。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Street Fighter II Turbo",
+  "aliases": [],
+  "maker": "Capcom",
+  "origin": "日本",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "街霸 II 的加速改版，加入速度选项。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000072",
+  "名称": "Super Street Fighter II",
+  "别名": [],
+  "厂商": "Capcom",
+  "产地": "日本",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "街霸 II 加角色与系统，CPS-2 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Super Street Fighter II",
+  "aliases": [],
+  "maker": "Capcom",
+  "origin": "日本",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "街霸 II 加角色与系统，CPS-2 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000073",
+  "名称": "Mortal Kombat",
+  "别名": [],
+  "厂商": "Midway",
+  "产地": "美国",
+  "年代": 1992,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "真人影像格斗，引发游戏分级制度。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Mortal Kombat",
+  "aliases": [],
+  "maker": "Midway",
+  "origin": "美国",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "真人影像格斗，引发游戏分级制度。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000074",
+  "名称": "Mortal Kombat II",
+  "别名": [],
+  "厂商": "Midway",
+  "产地": "美国",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "真人快打续作，更血腥更精细。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Mortal Kombat II",
+  "aliases": [],
+  "maker": "Midway",
+  "origin": "美国",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "真人快打续作，更血腥更精细。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000075",
+  "名称": "Virtua Fighter",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "首款 3D 格斗游戏，Model 1 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Virtua Fighter",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "首款 3D 格斗游戏，Model 1 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000076",
+  "名称": "Tekken",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1994,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "3D 格斗代表作，System 11 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Tekken",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "3D 格斗代表作，System 11 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000077",
+  "名称": "Daytona USA",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1994,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "3D 赛车街机代表作，Model 2 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Daytona USA",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "3D 赛车街机代表作，Model 2 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000078",
+  "名称": "Virtua Racing",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1992,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "首款全多边形 3D 赛车，Model 1 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Virtua Racing",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "首款全多边形 3D 赛车，Model 1 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000079",
+  "名称": "Sonic the Hedgehog（街机）",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "索尼克街机版，跑道轨道框体。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sonic the Hedgehog（街机）",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "索尼克街机版，跑道轨道框体。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000080",
+  "名称": "House of the Dead",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1996,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "光枪射击街机，僵尸题材。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "House of the Dead",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "光枪射击街机，僵尸题材。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000081",
+  "名称": "Time Crisis",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1995,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "踏板掩护光枪射击，标志性玩法。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Time Crisis",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "踏板掩护光枪射击，标志性玩法。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000082",
+  "名称": "Dance Dance Revolution",
+  "别名": [],
+  "厂商": "Konami",
+  "产地": "日本",
+  "年代": 1998,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "跳舞毯街机，音乐游戏里程碑。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Dance Dance Revolution",
+  "aliases": [],
+  "maker": "Konami",
+  "origin": "日本",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "跳舞毯街机，音乐游戏里程碑。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000083",
+  "名称": "Guitar Freaks",
+  "别名": [],
+  "厂商": "Konami",
+  "产地": "日本",
+  "年代": 1999,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "吉他音乐游戏，音乐街机浪潮。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Guitar Freaks",
+  "aliases": [],
+  "maker": "Konami",
+  "origin": "日本",
+  "year": 1999,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "吉他音乐游戏，音乐街机浪潮。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000084",
+  "名称": "Beatmania",
+  "别名": [],
+  "厂商": "Konami",
+  "产地": "日本",
+  "年代": 1997,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "DJ 音乐游戏，音乐街机先驱。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Beatmania",
+  "aliases": [],
+  "maker": "Konami",
+  "origin": "日本",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "DJ 音乐游戏，音乐街机先驱。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000085",
+  "名称": "Pump It Up",
+  "别名": [],
+  "厂商": "Andamiro",
+  "产地": "韩国",
+  "年代": 1999,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "韩国跳舞机，DDR 的竞争者。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Pump It Up",
+  "aliases": [],
+  "maker": "Andamiro",
+  "origin": "韩国",
+  "year": 1999,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "韩国跳舞机，DDR 的竞争者。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000086",
+  "名称": "Initial D Arcade Stage",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 2002,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "头文字 D 赛车街机，卡片存档系统。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Initial D Arcade Stage",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 2002,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "头文字 D 赛车街机，卡片存档系统。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000087",
+  "名称": "Mario Kart Arcade GP",
+  "别名": [],
+  "厂商": "Namco/Nintendo",
+  "产地": "日本",
+  "年代": 2005,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "马力欧赛车街机版，Triforce 基板。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Mario Kart Arcade GP",
+  "aliases": [],
+  "maker": "Namco/Nintendo",
+  "origin": "日本",
+  "year": 2005,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "马力欧赛车街机版，Triforce 基板。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000088",
+  "名称": "Street Fighter Alpha",
+  "别名": [],
+  "厂商": "Capcom",
+  "产地": "日本",
+  "年代": 1995,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "街霸前传系列，CPS-2 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Street Fighter Alpha",
+  "aliases": [],
+  "maker": "Capcom",
+  "origin": "日本",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "街霸前传系列，CPS-2 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000089",
+  "名称": "The King of Fighters '94",
+  "别名": [],
+  "厂商": "SNK",
+  "产地": "日本",
+  "年代": 1994,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "拳皇系列首作，MVS 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "The King of Fighters '94",
+  "aliases": [],
+  "maker": "SNK",
+  "origin": "日本",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "拳皇系列首作，MVS 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000090",
+  "名称": "Metal Slug",
+  "别名": [],
+  "厂商": "SNK",
+  "产地": "日本",
+  "年代": 1996,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "合金弹头，MVS 清版射击巅峰。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Metal Slug",
+  "aliases": [],
+  "maker": "SNK",
+  "origin": "日本",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "合金弹头，MVS 清版射击巅峰。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000091",
+  "名称": "Fatal Fury",
+  "别名": [],
+  "厂商": "SNK",
+  "产地": "日本",
+  "年代": 1991,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "饿狼传说，MVS 格斗代表作。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Fatal Fury",
+  "aliases": [],
+  "maker": "SNK",
+  "origin": "日本",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "饿狼传说，MVS 格斗代表作。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000092",
+  "名称": "Samurai Shodown",
+  "别名": [],
+  "厂商": "SNK",
+  "产地": "日本",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "侍魂，MVS 刀剑格斗。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Samurai Shodown",
+  "aliases": [],
+  "maker": "SNK",
+  "origin": "日本",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "侍魂，MVS 刀剑格斗。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000093",
+  "名称": "R-Type",
+  "别名": [],
+  "厂商": "Irem",
+  "产地": "日本",
+  "年代": 1987,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "横版射击巅峰，M72 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "R-Type",
+  "aliases": [],
+  "maker": "Irem",
+  "origin": "日本",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "横版射击巅峰，M72 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000094",
+  "名称": "Gradius",
+  "别名": [],
+  "厂商": "Konami",
+  "产地": "日本",
+  "年代": 1985,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "横版射击经典，武器升级系统。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Gradius",
+  "aliases": [],
+  "maker": "Konami",
+  "origin": "日本",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "横版射击经典，武器升级系统。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000095",
+  "名称": "Salamander",
+  "别名": [],
+  "厂商": "Konami",
+  "产地": "日本",
+  "年代": 1986,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Gradius 衍生作，横纵卷轴结合。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Salamander",
+  "aliases": [],
+  "maker": "Konami",
+  "origin": "日本",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Gradius 衍生作，横纵卷轴结合。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000096",
+  "名称": "TwinBee",
+  "别名": [],
+  "厂商": "Konami",
+  "产地": "日本",
+  "年代": 1985,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "可爱风射击游戏，铃铛道具系统。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "TwinBee",
+  "aliases": [],
+  "maker": "Konami",
+  "origin": "日本",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "可爱风射击游戏，铃铛道具系统。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000097",
+  "名称": "Xevious",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1983,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "纵版射击经典，对地对空双层。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Xevious",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "纵版射击经典，对地对空双层。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000098",
+  "名称": "1942",
+  "别名": [],
+  "厂商": "Capcom",
+  "产地": "日本",
+  "年代": 1984,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "二战题材纵版射击。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "1942",
+  "aliases": [],
+  "maker": "Capcom",
+  "origin": "日本",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "二战题材纵版射击。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000099",
+  "名称": "1943: The Battle of Midway",
+  "别名": [],
+  "厂商": "Capcom",
+  "产地": "日本",
+  "年代": 1987,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "1942 续作，加能量系统。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "1943: The Battle of Midway",
+  "aliases": [],
+  "maker": "Capcom",
+  "origin": "日本",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "1942 续作，加能量系统。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000100",
+  "名称": "Ghosts 'n Goblins",
+  "别名": [],
+  "厂商": "Capcom",
+  "产地": "日本",
+  "年代": 1985,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "高难度横版动作，魔界村系列。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Ghosts 'n Goblins",
+  "aliases": [],
+  "maker": "Capcom",
+  "origin": "日本",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "高难度横版动作，魔界村系列。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000101",
+  "名称": "Ghouls 'n Ghosts",
+  "别名": [],
+  "厂商": "Capcom",
+  "产地": "日本",
+  "年代": 1988,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "魔界村续作，更精细。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Ghouls 'n Ghosts",
+  "aliases": [],
+  "maker": "Capcom",
+  "origin": "日本",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "魔界村续作，更精细。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000102",
+  "名称": "Golden Axe",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1989,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "奇幻清版动作，System 16 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Golden Axe",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1989,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "奇幻清版动作，System 16 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000103",
+  "名称": "Altered Beast",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1988,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "变身清版动作，System 16 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Altered Beast",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "变身清版动作，System 16 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000104",
+  "名称": "Shinobi",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1987,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "忍者动作，忍系列开端。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Shinobi",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "忍者动作，忍系列开端。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000105",
+  "名称": "Wonder Boy",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1986,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "横版动作，多平台移植。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Wonder Boy",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "横版动作，多平台移植。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000106",
+  "名称": "Bubble Bobble",
+  "别名": [],
+  "厂商": "Taito",
+  "产地": "日本",
+  "年代": 1986,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "双人合作吹泡泡，泡泡龙系列。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Bubble Bobble",
+  "aliases": [],
+  "maker": "Taito",
+  "origin": "日本",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "双人合作吹泡泡，泡泡龙系列。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000107",
+  "名称": "Arkanoid",
+  "别名": [],
+  "厂商": "Taito",
+  "产地": "日本",
+  "年代": 1986,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "打砖块革新，旋钮控制器。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Arkanoid",
+  "aliases": [],
+  "maker": "Taito",
+  "origin": "日本",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "打砖块革新，旋钮控制器。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000108",
+  "名称": "Puzzle Bobble",
+  "别名": [],
+  "厂商": "Taito",
+  "产地": "日本",
+  "年代": 1994,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "泡泡龙消除，F3 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Puzzle Bobble",
+  "aliases": [],
+  "maker": "Taito",
+  "origin": "日本",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "泡泡龙消除，F3 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000109",
+  "名称": "Elevator Action",
+  "别名": [],
+  "厂商": "Taito",
+  "产地": "日本",
+  "年代": 1983,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "电梯谍战动作，多层结构。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Elevator Action",
+  "aliases": [],
+  "maker": "Taito",
+  "origin": "日本",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "电梯谍战动作，多层结构。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000110",
+  "名称": "Space Ace",
+  "别名": [],
+  "厂商": "Cinematronics",
+  "产地": "美国",
+  "年代": 1984,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "激光影碟动画，Dragon's Lair 后继。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Space Ace",
+  "aliases": [],
+  "maker": "Cinematronics",
+  "origin": "美国",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "激光影碟动画，Dragon's Lair 后继。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000111",
+  "名称": "Galaxian3",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1990,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "多人剧场框体射击，全景投影。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Galaxian3",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "多人剧场框体射击，全景投影。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000112",
+  "名称": "Ridge Racer",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "3D 赛车，System 22 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Ridge Racer",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "3D 赛车，System 22 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000113",
+  "名称": "Cyber Troopers Virtual-On",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1995,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "双摇杆机器人对战，Model 2 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Cyber Troopers Virtual-On",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "双摇杆机器人对战，Model 2 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000114",
+  "名称": "F-Zero AX",
+  "别名": [],
+  "厂商": "Sega/Nintendo",
+  "产地": "日本",
+  "年代": 2003,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "F-Zero 街机版，Triforce 基板。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "F-Zero AX",
+  "aliases": [],
+  "maker": "Sega/Nintendo",
+  "origin": "日本",
+  "year": 2003,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "F-Zero 街机版，Triforce 基板。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000115",
+  "名称": "Sega System 14",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1988,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "System 16 的衍生基板。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega System 14",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "System 16 的衍生基板。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000116",
+  "名称": "Sega System C",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1989,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "世嘉家用机化街机基板。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega System C",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1989,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "世嘉家用机化街机基板。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000117",
+  "名称": "Namco NA-1",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1992,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Namco 基板，多款街机游戏。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Namco NA-1",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Namco 基板，多款街机游戏。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000118",
+  "名称": "Namco NB-1",
+  "别名": [],
+  "厂商": "Namco",
+  "产地": "日本",
+  "年代": 1993,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Namco 基板，铁拳前身。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Namco NB-1",
+  "aliases": [],
+  "maker": "Namco",
+  "origin": "日本",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Namco 基板，铁拳前身。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000119",
+  "名称": "Taito Z System",
+  "别名": [],
+  "厂商": "Taito",
+  "产地": "日本",
+  "年代": 1987,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Taito 早期基板。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Taito Z System",
+  "aliases": [],
+  "maker": "Taito",
+  "origin": "日本",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Taito 早期基板。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000120",
+  "名称": "Taito B System",
+  "别名": [],
+  "厂商": "Taito",
+  "产地": "日本",
+  "年代": 1988,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Taito 基板，多款名作。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Taito B System",
+  "aliases": [],
+  "maker": "Taito",
+  "origin": "日本",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Taito 基板，多款名作。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000121",
+  "名称": "Toaplan V1",
+  "别名": [],
+  "厂商": "Toaplan",
+  "产地": "日本",
+  "年代": 1988,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Toaplan 基板，纵版射击。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Toaplan V1",
+  "aliases": [],
+  "maker": "Toaplan",
+  "origin": "日本",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Toaplan 基板，纵版射击。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000122",
+  "名称": "Raizing CP System",
+  "别名": [],
+  "厂商": "Raizing/Eighting",
+  "产地": "日本",
+  "年代": 1995,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Raizing 基板，弹幕射击。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Raizing CP System",
+  "aliases": [],
+  "maker": "Raizing/Eighting",
+  "origin": "日本",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Raizing 基板，弹幕射击。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000123",
+  "名称": "Psikyo SH-2",
+  "别名": [],
+  "厂商": "Psikyo",
+  "产地": "日本",
+  "年代": 1995,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "Psikyo 基板，射击游戏。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Psikyo SH-2",
+  "aliases": [],
+  "maker": "Psikyo",
+  "origin": "日本",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "Psikyo 基板，射击游戏。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000124",
+  "名称": "Capcom CPS Changer",
+  "别名": [],
+  "厂商": "Capcom",
+  "产地": "日本",
+  "年代": 1994,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "CPS-1 家用化基板，稀少收藏品。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Capcom CPS Changer",
+  "aliases": [],
+  "maker": "Capcom",
+  "origin": "日本",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "CPS-1 家用化基板，稀少收藏品。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000125",
+  "名称": "PlayStation-based System 246",
+  "别名": [],
+  "厂商": "Namco/Sony",
+  "产地": "日本",
+  "年代": 2001,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "PS2 同源街机基板，铁拳 4 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PlayStation-based System 246",
+  "aliases": [],
+  "maker": "Namco/Sony",
+  "origin": "日本",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "PS2 同源街机基板，铁拳 4 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-ARC-000126",
+  "名称": "System 256",
+  "别名": [],
+  "厂商": "Namco/Sony",
+  "产地": "日本",
+  "年代": 2004,
+  "分类路径": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "影响力理由": "System 246 后继，铁拳 5 平台。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "System 256",
+  "aliases": [],
+  "maker": "Namco/Sony",
+  "origin": "日本",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ],
+  "reason": "System 246 后继，铁拳 5 平台。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "经典框体与基板"
+  ]
+ },
+ {
+  "id": "G-AC-000001",
+  "name": "Pong（街机）",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari",
+  "era": 1972,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "首款成功的商用街机，奠定街机产业。",
+  "maker": "Atari",
+  "year": 1972,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "首款成功的商用街机，奠定街机产业。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000002",
+  "name": "Space Invaders",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 1978,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "引发街机热潮的现象级作品，日本一度硬币短缺。",
+  "maker": "Taito",
+  "year": 1978,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "引发街机热潮的现象级作品，日本一度硬币短缺。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000003",
+  "name": "Galaxian",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1979,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "首款彩色街机射击，太空侵略者后继。",
+  "maker": "Namco",
+  "year": 1979,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "首款彩色街机射击，太空侵略者后继。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000004",
+  "name": "Asteroids",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari",
+  "era": 1979,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "矢量图形射击，Atari 最畅销街机之一。",
+  "maker": "Atari",
+  "year": 1979,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "矢量图形射击，Atari 最畅销街机之一。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000005",
+  "name": "Pac-Man",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1980,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "史上最知名街机之一，开辟角色 IP 与迷宫追逐类型。",
+  "maker": "Namco",
+  "year": 1980,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "史上最知名街机之一，开辟角色 IP 与迷宫追逐类型。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000006",
+  "name": "Centipede",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari",
+  "era": 1980,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "轨迹球操作经典射击，女性玩家群体突出。",
+  "maker": "Atari",
+  "year": 1980,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "轨迹球操作经典射击，女性玩家群体突出。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000007",
+  "name": "Missile Command",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari",
+  "era": 1980,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "轨迹球防守射击，冷战背景叙事。",
+  "maker": "Atari",
+  "year": 1980,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "轨迹球防守射击，冷战背景叙事。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000008",
+  "name": "Defender",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Williams",
+  "era": 1981,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "横向卷轴射击，操作复杂的高难度经典。",
+  "maker": "Williams",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "横向卷轴射击，操作复杂的高难度经典。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000009",
+  "name": "Donkey Kong",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1981,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "马里奥首秀，平台跳跃类型奠基之作。",
+  "maker": "Nintendo",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "马里奥首秀，平台跳跃类型奠基之作。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000010",
+  "name": "Frogger",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1981,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "过马路与河流的经典动作游戏。",
+  "maker": "Konami",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "过马路与河流的经典动作游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000011",
+  "name": "Tempest",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari",
+  "era": 1981,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "彩色矢量图形，旋转射击经典。",
+  "maker": "Atari",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "彩色矢量图形，旋转射击经典。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000012",
+  "name": "Galaga",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1981,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "太空射击经典，固定画面射击标杆。",
+  "maker": "Namco",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "太空射击经典，固定画面射击标杆。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000013",
+  "name": "Joust",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Williams",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "鸵鸟骑士对战，双人协作经典。",
+  "maker": "Williams",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "鸵鸟骑士对战，双人协作经典。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000014",
+  "name": "Robotron: 2084",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Williams",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "双摇杆射击，快节奏街机射击代表作。",
+  "maker": "Williams",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "双摇杆射击，快节奏街机射击代表作。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000015",
+  "name": "Dig Dug",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "地下挖掘与充气消灭敌人的经典。",
+  "maker": "Namco",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "地下挖掘与充气消灭敌人的经典。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000016",
+  "name": "Ms. Pac-Man",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Midway",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "Pac-Man 改进续作，加入随机迷宫。",
+  "maker": "Midway",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "Pac-Man 改进续作，加入随机迷宫。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000017",
+  "name": "Q*bert",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Gottlieb",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "等距视角跳跃，独特主角形象。",
+  "maker": "Gottlieb",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "等距视角跳跃，独特主角形象。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000018",
+  "name": "BurgerTime",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Data East",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "制作汉堡的平台游戏，多层结构。",
+  "maker": "Data East",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "制作汉堡的平台游戏，多层结构。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000019",
+  "name": "Zaxxon",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "首款等距轴测卷轴射击。",
+  "maker": "Sega",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "首款等距轴测卷轴射击。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000020",
+  "name": "Donkey Kong Jr.",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "大金刚续作，马里奥首现反派。",
+  "maker": "Nintendo",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "大金刚续作，马里奥首现反派。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000021",
+  "name": "Popeye",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "大力水手授权游戏，早期卷轴平台。",
+  "maker": "Nintendo",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "大力水手授权游戏，早期卷轴平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000022",
+  "name": "Dragon's Lair",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Cinematronics",
+  "era": 1983,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "激光影碟动画冒险，全动态影像里程碑。",
+  "maker": "Cinematronics",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "激光影碟动画冒险，全动态影像里程碑。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000023",
+  "name": "Mario Bros.",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1983,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "马里奥兄弟平台动作，奠定系列。",
+  "maker": "Nintendo",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "马里奥兄弟平台动作，奠定系列。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000024",
+  "name": "Elevator Action",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 1983,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "电梯谍战动作，多层结构。",
+  "maker": "Taito",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "电梯谍战动作，多层结构。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000025",
+  "name": "Track & Field",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1983,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "体育竞技按钮连打，奥运题材。",
+  "maker": "Konami",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "体育竞技按钮连打，奥运题材。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000026",
+  "name": "Xevious",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1983,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "纵版射击经典，对地对空双层。",
+  "maker": "Namco",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "纵版射击经典，对地对空双层。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000027",
+  "name": "1942",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1984,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "二战题材纵版射击。",
+  "maker": "Capcom",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "二战题材纵版射击。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000028",
+  "name": "Punch-Out!!",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1984,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "拳击游戏，独特屏幕外对手设计。",
+  "maker": "Nintendo",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "拳击游戏，独特屏幕外对手设计。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000029",
+  "name": "Space Ace",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Cinematronics",
+  "era": 1984,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "激光影碟动画，Dragon's Lair 后继。",
+  "maker": "Cinematronics",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "激光影碟动画，Dragon's Lair 后继。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000030",
+  "name": "Gauntlet",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari Games",
+  "era": 1985,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "四人合作地牢清版，语音提示知名。",
+  "maker": "Atari Games",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "四人合作地牢清版，语音提示知名。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000031",
+  "name": "Gradius",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1985,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "横版射击经典，武器升级系统。",
+  "maker": "Konami",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "横版射击经典，武器升级系统。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000032",
+  "name": "Space Harrier",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1985,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "伪 3D 轨道射击，铃木裕代表作。",
+  "maker": "Sega",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "伪 3D 轨道射击，铃木裕代表作。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000033",
+  "name": "TwinBee",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1985,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "可爱风射击游戏，铃铛道具系统。",
+  "maker": "Konami",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "可爱风射击游戏，铃铛道具系统。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000034",
+  "name": "Ghosts 'n Goblins",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1985,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "高难度横版动作，魔界村系列。",
+  "maker": "Capcom",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "高难度横版动作，魔界村系列。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000035",
+  "name": "Out Run",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1986,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "拟 3D 赛车，音乐选择开创街机文化。",
+  "maker": "Sega",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "拟 3D 赛车，音乐选择开创街机文化。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000036",
+  "name": "Bubble Bobble",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 1986,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "双人合作吹泡泡，泡泡龙系列。",
+  "maker": "Taito",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "双人合作吹泡泡，泡泡龙系列。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000037",
+  "name": "Arkanoid",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 1986,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "打砖块革新，旋钮控制器。",
+  "maker": "Taito",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "打砖块革新，旋钮控制器。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000038",
+  "name": "Salamander",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1986,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "Gradius 衍生作，横纵卷轴结合。",
+  "maker": "Konami",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "Gradius 衍生作，横纵卷轴结合。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000039",
+  "name": "Wonder Boy",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1986,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "横版动作，多平台移植。",
+  "maker": "Sega",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "横版动作，多平台移植。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000040",
+  "name": "After Burner",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1987,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "液压框体空战射击，拟 3D 卷轴。",
+  "maker": "Sega",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "液压框体空战射击，拟 3D 卷轴。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000041",
+  "name": "Double Dragon",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Technos",
+  "era": 1987,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "清版动作奠基作，双人合作与武器系统。",
+  "maker": "Technos",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "清版动作奠基作，双人合作与武器系统。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000042",
+  "name": "R-Type",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Irem",
+  "era": 1987,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "横版射击巅峰，M72 平台。",
+  "maker": "Irem",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "横版射击巅峰，M72 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000043",
+  "name": "Shinobi",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1987,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "忍者动作，忍系列开端。",
+  "maker": "Sega",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "忍者动作，忍系列开端。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000044",
+  "name": "1943: The Battle of Midway",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1987,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "1942 续作，加能量系统。",
+  "maker": "Capcom",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "1942 续作，加能量系统。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000045",
+  "name": "Altered Beast",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1988,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "变身清版动作，System 16 平台。",
+  "maker": "Sega",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "变身清版动作，System 16 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000046",
+  "name": "Ghouls 'n Ghosts",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1988,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "魔界村续作，更精细。",
+  "maker": "Capcom",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "魔界村续作，更精细。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000047",
+  "name": "Golden Axe",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1989,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "奇幻清版动作，System 16 平台。",
+  "maker": "Sega",
+  "year": 1989,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "奇幻清版动作，System 16 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000048",
+  "name": "Galaxian3",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "多人剧场框体射击，全景投影。",
+  "maker": "Namco",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "多人剧场框体射击，全景投影。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000049",
+  "name": "Street Fighter II",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1991,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "定义格斗游戏类型的现象级街机，掀起格斗热潮。",
+  "maker": "Capcom",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "定义格斗游戏类型的现象级街机，掀起格斗热潮。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000050",
+  "name": "Fatal Fury",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "SNK",
+  "era": 1991,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "饿狼传说，MVS 格斗代表作。",
+  "maker": "SNK",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "饿狼传说，MVS 格斗代表作。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000051",
+  "name": "Mortal Kombat",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Midway",
+  "era": 1992,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "真人影像格斗，引发游戏分级制度。",
+  "maker": "Midway",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "真人影像格斗，引发游戏分级制度。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000052",
+  "name": "Street Fighter II Turbo",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1992,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "街霸 II 加速改版，加入速度选项。",
+  "maker": "Capcom",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "街霸 II 加速改版，加入速度选项。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000053",
+  "name": "Virtua Racing",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1992,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "首款全多边形 3D 赛车，Model 1 平台。",
+  "maker": "Sega",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "首款全多边形 3D 赛车，Model 1 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000054",
+  "name": "Virtua Fighter",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "首款 3D 格斗游戏，Model 1 平台。",
+  "maker": "Sega",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "首款 3D 格斗游戏，Model 1 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000055",
+  "name": "Samurai Shodown",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "SNK",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "侍魂，MVS 刀剑格斗。",
+  "maker": "SNK",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "侍魂，MVS 刀剑格斗。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000056",
+  "name": "Super Street Fighter II",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "街霸 II 加角色与系统，CPS-2 平台。",
+  "maker": "Capcom",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "街霸 II 加角色与系统，CPS-2 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000057",
+  "name": "Mortal Kombat II",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Midway",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "真人快打续作，更血腥更精细。",
+  "maker": "Midway",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "真人快打续作，更血腥更精细。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000058",
+  "name": "Ridge Racer",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "3D 赛车，System 22 平台。",
+  "maker": "Namco",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "3D 赛车，System 22 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000059",
+  "name": "Sonic the Hedgehog（街机）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "索尼克街机版，跑道轨道框体。",
+  "maker": "Sega",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "索尼克街机版，跑道轨道框体。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000060",
+  "name": "Daytona USA",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "3D 赛车街机代表作，Model 2 平台。",
+  "maker": "Sega",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "3D 赛车街机代表作，Model 2 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000061",
+  "name": "Tekken",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "3D 格斗代表作，System 11 平台。",
+  "maker": "Namco",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "3D 格斗代表作，System 11 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000062",
+  "name": "The King of Fighters '94",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "SNK",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "拳皇系列首作，MVS 平台。",
+  "maker": "SNK",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "拳皇系列首作，MVS 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000063",
+  "name": "Puzzle Bobble",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "泡泡龙消除，F3 平台。",
+  "maker": "Taito",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "泡泡龙消除，F3 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000064",
+  "name": "Street Fighter Alpha",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "街霸前传系列，CPS-2 平台。",
+  "maker": "Capcom",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "街霸前传系列，CPS-2 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000065",
+  "name": "Time Crisis",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "踏板掩护光枪射击，标志性玩法。",
+  "maker": "Namco",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "踏板掩护光枪射击，标志性玩法。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000066",
+  "name": "Cyber Troopers Virtual-On",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "双摇杆机器人对战，Model 2 平台。",
+  "maker": "Sega",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "双摇杆机器人对战，Model 2 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000067",
+  "name": "Metal Slug",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "SNK",
+  "era": 1996,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "合金弹头，MVS 清版射击巅峰。",
+  "maker": "SNK",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "合金弹头，MVS 清版射击巅峰。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000068",
+  "name": "House of the Dead",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1996,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "光枪射击街机，僵尸题材。",
+  "maker": "Sega",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "光枪射击街机，僵尸题材。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000069",
+  "name": "Beatmania",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1997,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "DJ 音乐游戏，音乐街机先驱。",
+  "maker": "Konami",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "DJ 音乐游戏，音乐街机先驱。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000070",
+  "name": "Dance Dance Revolution",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1998,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "跳舞毯街机，音乐游戏里程碑。",
+  "maker": "Konami",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "跳舞毯街机，音乐游戏里程碑。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000071",
+  "name": "Guitar Freaks",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1999,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "吉他音乐游戏，音乐街机浪潮。",
+  "maker": "Konami",
+  "year": 1999,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "吉他音乐游戏，音乐街机浪潮。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000072",
+  "name": "Pump It Up",
+  "aliases": [],
+  "origin": "韩国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Andamiro",
+  "era": 1999,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "韩国跳舞机，DDR 的竞争者。",
+  "maker": "Andamiro",
+  "year": 1999,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "韩国跳舞机，DDR 的竞争者。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000073",
+  "name": "Initial D Arcade Stage",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 2002,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "头文字 D 赛车街机，卡片存档系统。",
+  "maker": "Sega",
+  "year": 2002,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "头文字 D 赛车街机，卡片存档系统。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000074",
+  "name": "F-Zero AX",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega/Nintendo",
+  "era": 2003,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "F-Zero 街机版，Triforce 基板。",
+  "maker": "Sega/Nintendo",
+  "year": 2003,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "F-Zero 街机版，Triforce 基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000075",
+  "name": "Mario Kart Arcade GP",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco/Nintendo",
+  "era": 2005,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "马力欧赛车街机版，Triforce 基板。",
+  "maker": "Namco/Nintendo",
+  "year": 2005,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "马力欧赛车街机版，Triforce 基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000227",
+  "name": "光枪框体（Time Crisis）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "踏板掩护光枪框体，体感射击代表。",
+  "maker": "Namco",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "踏板掩护光枪框体，体感射击代表。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000228",
+  "name": "光枪框体（House of the Dead）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1996,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "光枪射击框体，僵尸题材。",
+  "maker": "Sega",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "光枪射击框体，僵尸题材。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000229",
+  "name": "体感框体（DDR 跳舞机）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1998,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "跳舞毯体感框体，音乐游戏里程碑。",
+  "maker": "Konami",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "跳舞毯体感框体，音乐游戏里程碑。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000230",
+  "name": "体感框体（Virtual-On）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "双摇杆体感框体，机器人对战。",
+  "maker": "Sega",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "双摇杆体感框体，机器人对战。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000231",
+  "name": "体感框体（Sega R360）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "360 度旋转体感框体，拟真驾驶。",
+  "maker": "Sega",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "360 度旋转体感框体，拟真驾驶。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000232",
+  "name": "体感框体（After Burner 液压）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1987,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "液压体感框体，空战模拟。",
+  "maker": "Sega",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "液压体感框体，空战模拟。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000233",
+  "name": "体感框体（Galaxian3）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "全景投影剧场体感框体。",
+  "maker": "Namco",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "全景投影剧场体感框体。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000234",
+  "name": "体感框体（Sega G-LOC）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "360 度空战体感框体。",
+  "maker": "Sega",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "360 度空战体感框体。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000235",
+  "name": "体感框体（Namco Starblade）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1991,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "全景轨道射击体感框体。",
+  "maker": "Namco",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "全景轨道射击体感框体。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000236",
+  "name": "体感框体（Sega Virtua Cop）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "光枪射击体感框体。",
+  "maker": "Sega",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "光枪射击体感框体。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000237",
+  "name": "体感框体（Konami Police 911）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 2000,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "体感光枪射击框体。",
+  "maker": "Konami",
+  "year": 2000,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "体感光枪射击框体。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000238",
+  "name": "体感框体（Sega OutRun 液压）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1986,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "液压体感赛车框体。",
+  "maker": "Sega",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "液压体感赛车框体。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000239",
+  "name": "体感框体（Namco Ridge Racer 框体）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "大型体感赛车框体。",
+  "maker": "Namco",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "大型体感赛车框体。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000240",
+  "name": "体感框体（Sega Daytona 框体）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "多人联机体感赛车框体。",
+  "maker": "Sega",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "多人联机体感赛车框体。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000241",
+  "name": "体感框体（Konami Beatmania 台）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1997,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "DJ 体感音乐台。",
+  "maker": "Konami",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "DJ 体感音乐台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000242",
+  "name": "体感框体（Guitar Freaks 台）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1999,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "吉他体感音乐台。",
+  "maker": "Konami",
+  "year": 1999,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "吉他体感音乐台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000243",
+  "name": "体感框体（DrumMania 台）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1999,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "架子鼓体感音乐台。",
+  "maker": "Konami",
+  "year": 1999,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "架子鼓体感音乐台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000244",
+  "name": "体感框体（Sega Samba De Amigo）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1999,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "沙锤体感音乐框体。",
+  "maker": "Sega",
+  "year": 1999,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "沙锤体感音乐框体。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000245",
+  "name": "体感框体（Namco Taiko no Tatsujin）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 2001,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "太鼓体感音乐框体。",
+  "maker": "Namco",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "太鼓体感音乐框体。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000246",
+  "name": "体感框体（Konami Dance Evolution）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 2010,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "体感舞蹈框体。",
+  "maker": "Konami",
+  "year": 2010,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "体感舞蹈框体。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000247",
+  "name": "体感框体（Sega Initial D 框体）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 2002,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "卡片存档体感赛车框体。",
+  "maker": "Sega",
+  "year": 2002,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "卡片存档体感赛车框体。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000248",
+  "name": "体感框体（Sega Wangan Midnight）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 2001,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "高速体感赛车框体。",
+  "maker": "Sega",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "高速体感赛车框体。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000249",
+  "name": "体感框体（Namco Mario Kart Arcade）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco/Nintendo",
+  "era": 2005,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "体感赛车框体。",
+  "maker": "Namco/Nintendo",
+  "year": 2005,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "体感赛车框体。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000250",
+  "name": "体感框体（Sega Sega Racing Classic）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 2009,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "influence": "复古体感赛车框体。",
+  "maker": "Sega",
+  "year": 2009,
+  "path": [
+   "游戏机",
+   "街机",
+   "框体"
+  ],
+  "reason": "复古体感赛车框体。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "框体"
+  ]
+ },
+ {
+  "id": "G-AC-000076",
+  "name": "Neo Geo MVS",
+  "aliases": [
+   "Multi Video System"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "SNK",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "可换多卡带的街机基板，格斗游戏黄金平台。",
+  "maker": "SNK",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "可换多卡带的街机基板，格斗游戏黄金平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000077",
+  "name": "Capcom CPS-1",
+  "aliases": [
+   "CP System"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1988,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "街霸 II 等格斗名作的基板，Capcom 街机黄金时代。",
+  "maker": "Capcom",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "街霸 II 等格斗名作的基板，Capcom 街机黄金时代。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000078",
+  "name": "Capcom CPS-2",
+  "aliases": [
+   "CP System II"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "CPS-1 后继，街霸 Alpha 与恶魔战士平台。",
+  "maker": "Capcom",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "CPS-1 后继，街霸 Alpha 与恶魔战士平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000079",
+  "name": "Capcom CPS-3",
+  "aliases": [
+   "CP System III"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1996,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "街霸 III 专用基板，光盘介质。",
+  "maker": "Capcom",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "街霸 III 专用基板，光盘介质。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000080",
+  "name": "Sega System 16",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1985,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "世嘉 16 位基板，孕育了 MD 架构。",
+  "maker": "Sega",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "世嘉 16 位基板，孕育了 MD 架构。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000081",
+  "name": "Sega System 18",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1989,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "System 16 的强化基板。",
+  "maker": "Sega",
+  "year": 1989,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "System 16 的强化基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000082",
+  "name": "Sega System 24",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1988,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "世嘉高分辨率基板。",
+  "maker": "Sega",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "世嘉高分辨率基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000083",
+  "name": "Sega System 32",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "世嘉 32 位基板，3D 街机代表作。",
+  "maker": "Sega",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "世嘉 32 位基板，3D 街机代表作。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000084",
+  "name": "Sega Model 1",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1992,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "世嘉 3D 基板，Virtua Fighter 与 Virtua Racing 平台。",
+  "maker": "Sega",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "世嘉 3D 基板，Virtua Fighter 与 Virtua Racing 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000085",
+  "name": "Sega Model 2",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "3D 街机基板，Daytona 与 VF2 平台。",
+  "maker": "Sega",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "3D 街机基板，Daytona 与 VF2 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000086",
+  "name": "Sega Model 3",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1996,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Model 2 后继，街机 3D 巅峰。",
+  "maker": "Sega",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Model 2 后继，街机 3D 巅峰。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000087",
+  "name": "Sega Naomi",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1998,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Dreamcast 同源基板，街机与家用互通。",
+  "maker": "Sega",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Dreamcast 同源基板，街机与家用互通。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000088",
+  "name": "Sega Naomi 2",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 2001,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Naomi 强化版，双 GPU。",
+  "maker": "Sega",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Naomi 强化版，双 GPU。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000089",
+  "name": "Sega Atomiswave",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sammy/Sega",
+  "era": 2003,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Dreamcast 架构基板，Neo Geo 后继。",
+  "maker": "Sammy/Sega",
+  "year": 2003,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Dreamcast 架构基板，Neo Geo 后继。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000090",
+  "name": "Sega System 1",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1983,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "世嘉早期基板，Z80 架构。",
+  "maker": "Sega",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "世嘉早期基板，Z80 架构。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000091",
+  "name": "Sega System 2",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1985,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "System 1 后继基板。",
+  "maker": "Sega",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "System 1 后继基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000092",
+  "name": "Sega System 14",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1988,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "System 16 的衍生基板。",
+  "maker": "Sega",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "System 16 的衍生基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000093",
+  "name": "Sega System C",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1989,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "世嘉家用机化街机基板。",
+  "maker": "Sega",
+  "year": 1989,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "世嘉家用机化街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000094",
+  "name": "Namco System 1",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1987,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Namco 基板，多款经典动作游戏。",
+  "maker": "Namco",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Namco 基板，多款经典动作游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000095",
+  "name": "Namco System 2",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1987,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Namco 高性能基板。",
+  "maker": "Namco",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Namco 高性能基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000096",
+  "name": "Namco System 21",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1988,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Namco 3D 基板，多边形街机先驱。",
+  "maker": "Namco",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Namco 3D 基板，多边形街机先驱。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000097",
+  "name": "Namco System 86",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1986,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Namco 早期基板。",
+  "maker": "Namco",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Namco 早期基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000098",
+  "name": "Namco System 11",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "PlayStation 同源基板，铁拳平台。",
+  "maker": "Namco",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "PlayStation 同源基板，铁拳平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000099",
+  "name": "Namco System 12",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1997,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "System 11 强化基板，铁拳 3 平台。",
+  "maker": "Namco",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "System 11 强化基板，铁拳 3 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000100",
+  "name": "Namco System 22",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Namco 3D 赛车基板，山脊赛车平台。",
+  "maker": "Namco",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Namco 3D 赛车基板，山脊赛车平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000101",
+  "name": "Namco System 23",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1997,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "System 22 后继 3D 基板。",
+  "maker": "Namco",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "System 22 后继 3D 基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000102",
+  "name": "Namco NA-1",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1992,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Namco 基板，多款街机游戏。",
+  "maker": "Namco",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Namco 基板，多款街机游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000103",
+  "name": "Namco NB-1",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Namco 基板，铁拳前身。",
+  "maker": "Namco",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Namco 基板，铁拳前身。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000104",
+  "name": "Taito F3 System",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 1992,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Taito 基板，泡泡龙等名作平台。",
+  "maker": "Taito",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Taito 基板，泡泡龙等名作平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000105",
+  "name": "Taito Z System",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 1987,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Taito 早期基板。",
+  "maker": "Taito",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Taito 早期基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000106",
+  "name": "Taito B System",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 1988,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Taito 基板，多款名作。",
+  "maker": "Taito",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Taito 基板，多款名作。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000107",
+  "name": "Taito Type X",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 2004,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "x86 PC 架构基板，现代街机标准化代表。",
+  "maker": "Taito",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "x86 PC 架构基板，现代街机标准化代表。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000108",
+  "name": "Midway Y Unit",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Midway",
+  "era": 1991,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Midway 基板，真人快打平台。",
+  "maker": "Midway",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Midway 基板，真人快打平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000109",
+  "name": "Midway T Unit",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Midway",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Midway 基板，真人快打 II 平台。",
+  "maker": "Midway",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Midway 基板，真人快打 II 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000110",
+  "name": "Irem M72",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Irem",
+  "era": 1987,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Irem 基板，R-Type 平台。",
+  "maker": "Irem",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Irem 基板，R-Type 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000111",
+  "name": "Irem M92",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Irem",
+  "era": 1991,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Irem 基板，多种射击游戏平台。",
+  "maker": "Irem",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Irem 基板，多种射击游戏平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000112",
+  "name": "Konami GX",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Konami 基板，多种街机名作。",
+  "maker": "Konami",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Konami 基板，多种街机名作。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000113",
+  "name": "Konami System 573",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1998,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Konami 基板，DDR 平台。",
+  "maker": "Konami",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Konami 基板，DDR 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000114",
+  "name": "Capcom ZN-1",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "PlayStation 同源基板，街霸 EX 平台。",
+  "maker": "Capcom",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "PlayStation 同源基板，街霸 EX 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000115",
+  "name": "Capcom ZN-2",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1997,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "ZN-1 后继基板，街霸 EX2 平台。",
+  "maker": "Capcom",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "ZN-1 后继基板，街霸 EX2 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000116",
+  "name": "Capcom CPS Changer",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "CPS-1 家用化基板，稀少收藏品。",
+  "maker": "Capcom",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "CPS-1 家用化基板，稀少收藏品。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000117",
+  "name": "SNK Neo Geo 64",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "SNK",
+  "era": 1997,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "SNK 3D 基板，商业失败。",
+  "maker": "SNK",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "SNK 3D 基板，商业失败。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000118",
+  "name": "Cave CV1000",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Cave",
+  "era": 2004,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "弹幕射击专用基板，怒首领蜂平台。",
+  "maker": "Cave",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "弹幕射击专用基板，怒首领蜂平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000119",
+  "name": "PGM",
+  "aliases": [
+   "PolyGame Master"
+  ],
+  "origin": "台湾",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "IGS",
+  "era": 1997,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "华人街机基板，西游释厄传等平台。",
+  "maker": "IGS",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "华人街机基板，西游释厄传等平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000120",
+  "name": "Vs. System",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1984,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "任天堂红白机街机化基板，双屏对战。",
+  "maker": "Nintendo",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "任天堂红白机街机化基板，双屏对战。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000121",
+  "name": "PlayChoice-10",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1986,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "任天堂多游戏街机，可换 10 款 NES 游戏。",
+  "maker": "Nintendo",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "任天堂多游戏街机，可换 10 款 NES 游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000122",
+  "name": "Super System",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1984,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "任天堂早期基板。",
+  "maker": "Nintendo",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "任天堂早期基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000123",
+  "name": "Toaplan V1",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Toaplan",
+  "era": 1988,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Toaplan 基板，纵版射击。",
+  "maker": "Toaplan",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Toaplan 基板，纵版射击。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000124",
+  "name": "Raizing CP System",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Raizing/Eighting",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Raizing 基板，弹幕射击。",
+  "maker": "Raizing/Eighting",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Raizing 基板，弹幕射击。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000125",
+  "name": "Psikyo SH-2",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Psikyo",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Psikyo 基板，射击游戏。",
+  "maker": "Psikyo",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Psikyo 基板，射击游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000126",
+  "name": "Namco System 246",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco/Sony",
+  "era": 2001,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "PS2 同源街机基板，铁拳 4 平台。",
+  "maker": "Namco/Sony",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "PS2 同源街机基板，铁拳 4 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000127",
+  "name": "System 256",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco/Sony",
+  "era": 2004,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "System 246 后继，铁拳 5 平台。",
+  "maker": "Namco/Sony",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "System 246 后继，铁拳 5 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000128",
+  "name": "Triforce",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco/Sega/Nintendo",
+  "era": 2002,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "三家合研 GameCube 同源基板，F-Zero AX 平台。",
+  "maker": "Namco/Sega/Nintendo",
+  "year": 2002,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "三家合研 GameCube 同源基板，F-Zero AX 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000129",
+  "name": "Sega Lindbergh",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 2006,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "世嘉 x86 基板，VR 战士 5 平台。",
+  "maker": "Sega",
+  "year": 2006,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "世嘉 x86 基板，VR 战士 5 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000130",
+  "name": "Taito Type X2",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 2007,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Type X 后继，多种街机游戏平台。",
+  "maker": "Taito",
+  "year": 2007,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Type X 后继，多种街机游戏平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000131",
+  "name": "Cave CV1000B",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Cave",
+  "era": 2006,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "CV1000 后继，更多弹幕射击。",
+  "maker": "Cave",
+  "year": 2006,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "CV1000 后继，更多弹幕射击。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000132",
+  "name": "Seibu SPI System",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Seibu Kaihatsu",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Seibu 基板，雷电系列平台。",
+  "maker": "Seibu Kaihatsu",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Seibu 基板，雷电系列平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000133",
+  "name": "Kaneko Super Nova",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Kaneko",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Kaneko 基板，商业罕见。",
+  "maker": "Kaneko",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Kaneko 基板，商业罕见。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000134",
+  "name": "Jaleco Mega System 32",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Jaleco",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Jaleco 32 位基板。",
+  "maker": "Jaleco",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Jaleco 32 位基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000135",
+  "name": "Data East MEC-M1",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Data East",
+  "era": 1992,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Data East 基板，多种动作游戏。",
+  "maker": "Data East",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Data East 基板，多种动作游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000136",
+  "name": "Seta Aleck64",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Seta",
+  "era": 1998,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "N64 同源基板，街机 N64 游戏。",
+  "maker": "Seta",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "N64 同源基板，街机 N64 游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000137",
+  "name": "Atomiswave 强化",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sammy",
+  "era": 2004,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Atomiswave 后续，多款格斗。",
+  "maker": "Sammy",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Atomiswave 后续，多款格斗。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000138",
+  "name": "Cave PGM2",
+  "aliases": [],
+  "origin": "台湾",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "IGS/Cave",
+  "era": 2008,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "PGM 后继，弹幕射击。",
+  "maker": "IGS/Cave",
+  "year": 2008,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "PGM 后继，弹幕射击。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000139",
+  "name": "Konami e-Amusement",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 2002,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Konami 联网街机平台。",
+  "maker": "Konami",
+  "year": 2002,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Konami 联网街机平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000140",
+  "name": "Sega Chihiro",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 2002,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Xbox 同源基板，街机游戏平台。",
+  "maker": "Sega",
+  "year": 2002,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Xbox 同源基板，街机游戏平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000141",
+  "name": "Neo Geo MVS MV-1",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "SNK",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "MVS 单槽基板，早期家用街机。",
+  "maker": "SNK",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "MVS 单槽基板，早期家用街机。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000142",
+  "name": "Neo Geo MVS MV-4",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "SNK",
+  "era": 1992,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "MVS 四槽基板，换卡不停机的多槽设计。",
+  "maker": "SNK",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "MVS 四槽基板，换卡不停机的多槽设计。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000143",
+  "name": "Neo Geo Pocket Color 基板",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "SNK",
+  "era": 1999,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "NGPC 掌机基板（掌机架构，供对照）。",
+  "maker": "SNK",
+  "year": 1999,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "NGPC 掌机基板（掌机架构，供对照）。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000144",
+  "name": "Capcom CPS-1.5",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1992,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "CPS-1 强化版，快打旋风等平台。",
+  "maker": "Capcom",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "CPS-1 强化版，快打旋风等平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000145",
+  "name": "Capcom Mitchell",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1989,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Capcom 街机基板，多款经典。",
+  "maker": "Capcom",
+  "year": 1989,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Capcom 街机基板，多款经典。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000146",
+  "name": "Sega System E",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1985,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "世嘉 Master System 同源基板。",
+  "maker": "Sega",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "世嘉 Master System 同源基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000147",
+  "name": "Sega System 16B",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1986,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "System 16 的 B 版基板。",
+  "maker": "Sega",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "System 16 的 B 版基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000148",
+  "name": "Sega Mega-Tech",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1989,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "MD 街机化基板，多游戏切换。",
+  "maker": "Sega",
+  "year": 1989,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "MD 街机化基板，多游戏切换。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000149",
+  "name": "Sega Mega-Play",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "MD 街机化基板，投币制。",
+  "maker": "Sega",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "MD 街机化基板，投币制。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000150",
+  "name": "Sega Titan Video",
+  "aliases": [
+   "ST-V"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Saturn 同源基板，街机游戏平台。",
+  "maker": "Sega",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Saturn 同源基板，街机游戏平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000151",
+  "name": "Sega Hikaru",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1999,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Naomi 后继 3D 基板。",
+  "maker": "Sega",
+  "year": 1999,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Naomi 后继 3D 基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000152",
+  "name": "Sega Aurora",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 2004,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "世嘉 3D 街机基板。",
+  "maker": "Sega",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "世嘉 3D 街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000153",
+  "name": "Namco System FL",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1996,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Namco 3D 基板，铁拳系列平台。",
+  "maker": "Namco",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Namco 3D 基板，铁拳系列平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000154",
+  "name": "Namco System 10",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 1999,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Namco 低成本基板。",
+  "maker": "Namco",
+  "year": 1999,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Namco 低成本基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000155",
+  "name": "Namco System 147",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 2003,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Namco 基板，多种游戏。",
+  "maker": "Namco",
+  "year": 2003,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Namco 基板，多种游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000156",
+  "name": "Namco System 357",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 2007,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "PS3 同源基板，铁拳 6 平台。",
+  "maker": "Namco",
+  "year": 2007,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "PS3 同源基板，铁拳 6 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000157",
+  "name": "Taito F2 System",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 1988,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Taito 基板，多款街机名作。",
+  "maker": "Taito",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Taito 基板，多款街机名作。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000158",
+  "name": "Taito H System",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 1988,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Taito 基板，多种动作游戏。",
+  "maker": "Taito",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Taito 基板，多种动作游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000159",
+  "name": "Taito L System",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 1988,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Taito 基板。",
+  "maker": "Taito",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Taito 基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000160",
+  "name": "Taito FX-1A System",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Taito 3D 基板。",
+  "maker": "Taito",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Taito 3D 基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000161",
+  "name": "Taito G-NET",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 1998,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Taito 可换游戏基板。",
+  "maker": "Taito",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Taito 可换游戏基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000162",
+  "name": "Konami Nemesis",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1985,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Konami 早期基板，宇宙巡航机平台。",
+  "maker": "Konami",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Konami 早期基板，宇宙巡航机平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000163",
+  "name": "Konami Twin 16",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1987,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Konami 16 位基板。",
+  "maker": "Konami",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Konami 16 位基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000164",
+  "name": "Konami System GX",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Konami 基板，多款街机。",
+  "maker": "Konami",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Konami 基板，多款街机。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000165",
+  "name": "Konami Viper",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 2000,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Konami 3D 基板，多种游戏。",
+  "maker": "Konami",
+  "year": 2000,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Konami 3D 基板，多种游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000166",
+  "name": "Konami Bemani PC",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 2003,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Bemani 音乐游戏 PC 基板。",
+  "maker": "Konami",
+  "year": 2003,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Bemani 音乐游戏 PC 基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000167",
+  "name": "Konami FireBeat",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 2004,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "音乐游戏基板，街机节拍。",
+  "maker": "Konami",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "音乐游戏基板，街机节拍。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000168",
+  "name": "Irem M62",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Irem",
+  "era": 1984,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Irem 早期基板。",
+  "maker": "Irem",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Irem 早期基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000169",
+  "name": "Irem M82",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Irem",
+  "era": 1985,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Irem 基板，多种射击。",
+  "maker": "Irem",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Irem 基板，多种射击。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000170",
+  "name": "Irem M107",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Irem",
+  "era": 1992,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Irem 后期基板。",
+  "maker": "Irem",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Irem 后期基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000171",
+  "name": "Data East DECO Cassette",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Data East",
+  "era": 1980,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "磁带介质基板，早期换游戏方案。",
+  "maker": "Data East",
+  "year": 1980,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "磁带介质基板，早期换游戏方案。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000172",
+  "name": "Data East MEC-M1（复）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Data East",
+  "era": 1992,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Data East 基板。",
+  "maker": "Data East",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Data East 基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000173",
+  "name": "Technos System",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Technos",
+  "era": 1986,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Technos 基板，热血系列平台。",
+  "maker": "Technos",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Technos 基板，热血系列平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000174",
+  "name": "Jaleco Mega System 1",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Jaleco",
+  "era": 1988,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Jaleco 基板，多种动作游戏。",
+  "maker": "Jaleco",
+  "year": 1988,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Jaleco 基板，多种动作游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000175",
+  "name": "Seibu SPI",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Seibu Kaihatsu",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Seibu 基板，雷电系列平台。",
+  "maker": "Seibu Kaihatsu",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Seibu 基板，雷电系列平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000176",
+  "name": "Toaplan Version 2",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Toaplan",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Toaplan 基板，多种射击。",
+  "maker": "Toaplan",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Toaplan 基板，多种射击。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000177",
+  "name": "Raizing Battle Garegga 基板",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Raizing/Eighting",
+  "era": 1996,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Raizing 基板，弹幕射击经典。",
+  "maker": "Raizing/Eighting",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Raizing 基板，弹幕射击经典。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000178",
+  "name": "Psikyo SH-1",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Psikyo",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Psikyo 早期基板。",
+  "maker": "Psikyo",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Psikyo 早期基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000179",
+  "name": "Cave 68000",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Cave",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Cave 早期基板，弹幕射击。",
+  "maker": "Cave",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Cave 早期基板，弹幕射击。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000180",
+  "name": "Kaneko AX System",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Kaneko",
+  "era": 1991,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Kaneko 基板。",
+  "maker": "Kaneko",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Kaneko 基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000181",
+  "name": "Nichibutsu 基板",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nichibutsu",
+  "era": 1983,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Nichibutsu 街机基板。",
+  "maker": "Nichibutsu",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Nichibutsu 街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000182",
+  "name": "UPL 基板",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "UPL",
+  "era": 1987,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "UPL 街机基板。",
+  "maker": "UPL",
+  "year": 1987,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "UPL 街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000183",
+  "name": "Atari System 1",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari Games",
+  "era": 1984,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Atari 可换游戏街机基板。",
+  "maker": "Atari Games",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Atari 可换游戏街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000184",
+  "name": "Atari System 2",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari Games",
+  "era": 1985,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Atari 街机基板。",
+  "maker": "Atari Games",
+  "year": 1985,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Atari 街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000185",
+  "name": "Atari G1",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari Games",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Atari 街机基板。",
+  "maker": "Atari Games",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Atari 街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000186",
+  "name": "Atari GT",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari Games",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Atari 3D 街机基板。",
+  "maker": "Atari Games",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Atari 3D 街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000187",
+  "name": "Midway Wolf Unit",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Midway",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Midway 3D 基板，真人快打 3 平台。",
+  "maker": "Midway",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Midway 3D 基板，真人快打 3 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000188",
+  "name": "Midway Seattle",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Midway",
+  "era": 1997,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Midway 基板，多种 3D 游戏。",
+  "maker": "Midway",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Midway 基板，多种 3D 游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000189",
+  "name": "Midway Zeus",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Midway",
+  "era": 1996,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Midway 3D 基板。",
+  "maker": "Midway",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Midway 3D 基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000190",
+  "name": "Williams 基板",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Williams",
+  "era": 1981,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Williams 街机基板。",
+  "maker": "Williams",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Williams 街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000191",
+  "name": "Cinematronics 基板",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Cinematronics",
+  "era": 1980,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "矢量图形街机基板。",
+  "maker": "Cinematronics",
+  "year": 1980,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "矢量图形街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000192",
+  "name": "Gottlieb 基板",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Gottlieb",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Gottlieb 街机基板，Q*bert 平台。",
+  "maker": "Gottlieb",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Gottlieb 街机基板，Q*bert 平台。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000193",
+  "name": "Exidy 基板",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Exidy",
+  "era": 1980,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Exidy 街机基板。",
+  "maker": "Exidy",
+  "year": 1980,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Exidy 街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000194",
+  "name": "Universal 基板",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Universal",
+  "era": 1981,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Universal 街机基板。",
+  "maker": "Universal",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Universal 街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000195",
+  "name": "Stern 基板",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Stern",
+  "era": 1980,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Stern 街机基板。",
+  "maker": "Stern",
+  "year": 1980,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Stern 街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000196",
+  "name": "Nintendo Vs. 复基",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1984,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "任天堂 Vs. System 复基板。",
+  "maker": "Nintendo",
+  "year": 1984,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "任天堂 Vs. System 复基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000197",
+  "name": "Nintendo PlayChoice 复基",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1986,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "PlayChoice-10 复基板。",
+  "maker": "Nintendo",
+  "year": 1986,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "PlayChoice-10 复基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000198",
+  "name": "Sammy System 32",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sammy",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Sammy 街机基板。",
+  "maker": "Sammy",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Sammy 街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000199",
+  "name": "Sammy Atomiswave 复基",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sammy",
+  "era": 2003,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Atomiswave 复基板。",
+  "maker": "Sammy",
+  "year": 2003,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Atomiswave 复基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000200",
+  "name": "Seta ST-0016",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Seta",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Seta 街机基板。",
+  "maker": "Seta",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Seta 街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000201",
+  "name": "Banpresto 基板",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Banpresto",
+  "era": 1993,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Banpresto 街机基板。",
+  "maker": "Banpresto",
+  "year": 1993,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Banpresto 街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000202",
+  "name": "Video System 基板",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Video System",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Video System 街机基板。",
+  "maker": "Video System",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Video System 街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000203",
+  "name": "NMK 基板",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "NMK",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "NMK 街机基板，射击游戏。",
+  "maker": "NMK",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "NMK 街机基板，射击游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000204",
+  "name": "Allumer 基板",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Allumer",
+  "era": 1991,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Allumer 街机基板。",
+  "maker": "Allumer",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Allumer 街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000205",
+  "name": "Arika 基板",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Arika",
+  "era": 1999,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Arika 街机基板。",
+  "maker": "Arika",
+  "year": 1999,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Arika 街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000206",
+  "name": "Triangle Service 基板",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Triangle Service",
+  "era": 1998,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "弹幕射击基板。",
+  "maker": "Triangle Service",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "弹幕射击基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000207",
+  "name": "G-mode 基板",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "G-mode",
+  "era": 2000,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "街机基板。",
+  "maker": "G-mode",
+  "year": 2000,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000208",
+  "name": "Milestone 基板",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Milestone",
+  "era": 2001,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "弹幕射击基板。",
+  "maker": "Milestone",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "弹幕射击基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000209",
+  "name": "Warashi 基板",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Warashi",
+  "era": 1998,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "街机基板。",
+  "maker": "Warashi",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000210",
+  "name": "Eighting Raizing 复基",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Raizing/Eighting",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Raizing 基板复称。",
+  "maker": "Raizing/Eighting",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Raizing 基板复称。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000211",
+  "name": "SemiCom 基板",
+  "aliases": [],
+  "origin": "韩国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "SemiCom",
+  "era": 2000,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "韩国街机基板。",
+  "maker": "SemiCom",
+  "year": 2000,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "韩国街机基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000212",
+  "name": "Andamiro 基板",
+  "aliases": [],
+  "origin": "韩国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Andamiro",
+  "era": 1999,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "韩国跳舞机基板，Pump It Up。",
+  "maker": "Andamiro",
+  "year": 1999,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "韩国跳舞机基板，Pump It Up。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000213",
+  "name": "IGS PGM2",
+  "aliases": [],
+  "origin": "台湾",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "IGS",
+  "era": 2008,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "PGM 后继，华人街机。",
+  "maker": "IGS",
+  "year": 2008,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "PGM 后继，华人街机。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000214",
+  "name": "IGS PGM3",
+  "aliases": [],
+  "origin": "台湾",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "IGS",
+  "era": 2012,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "PGM2 后继，华人街机。",
+  "maker": "IGS",
+  "year": 2012,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "PGM2 后继，华人街机。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000215",
+  "name": "Nintendo Triforce 复基",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco/Sega/Nintendo",
+  "era": 2002,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Triforce 复基板。",
+  "maker": "Namco/Sega/Nintendo",
+  "year": 2002,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Triforce 复基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000216",
+  "name": "Sega Lindbergh 复基",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 2006,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Lindbergh 复基板。",
+  "maker": "Sega",
+  "year": 2006,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Lindbergh 复基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000217",
+  "name": "Sega RingEdge",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 2009,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "世嘉 x86 基板，街机游戏。",
+  "maker": "Sega",
+  "year": 2009,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "世嘉 x86 基板，街机游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000218",
+  "name": "Sega RingWide",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 2009,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "世嘉低成本 x86 基板。",
+  "maker": "Sega",
+  "year": 2009,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "世嘉低成本 x86 基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000219",
+  "name": "Sega Nu",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 2013,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "世嘉 PC 架构基板。",
+  "maker": "Sega",
+  "year": 2013,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "世嘉 PC 架构基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000220",
+  "name": "Taito Type X Zero",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 2011,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Taito x86 基板。",
+  "maker": "Taito",
+  "year": 2011,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Taito x86 基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000221",
+  "name": "Taito Type X3",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Taito",
+  "era": 2013,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Taito 次世代 x86 基板。",
+  "maker": "Taito",
+  "year": 2013,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Taito 次世代 x86 基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000222",
+  "name": "Namco System ES1",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 2010,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Namco 基板。",
+  "maker": "Namco",
+  "year": 2010,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Namco 基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000223",
+  "name": "Namco System ES3",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Namco",
+  "era": 2013,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Namco 次世代基板。",
+  "maker": "Namco",
+  "year": 2013,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Namco 次世代基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000224",
+  "name": "Konami PC 基板",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Konami",
+  "era": 2010,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "Konami x86 基板。",
+  "maker": "Konami",
+  "year": 2010,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "Konami x86 基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000225",
+  "name": "SNK NEOGEO 复基",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "SNK",
+  "era": 2019,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "SNK 复刻基板。",
+  "maker": "SNK",
+  "year": 2019,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "SNK 复刻基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ },
+ {
+  "id": "G-AC-000226",
+  "name": "Capcom CPS 复基",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Capcom",
+  "era": 1994,
+  "taxonomy_path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "influence": "CPS 复基板。",
+  "maker": "Capcom",
+  "year": 1994,
+  "path": [
+   "游戏机",
+   "街机",
+   "主板"
+  ],
+  "reason": "CPS 复基板。",
+  "_taxonomy": [
+   "游戏机",
+   "街机",
+   "主板"
+  ]
+ }
+]

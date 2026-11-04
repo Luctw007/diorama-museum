@@ -1,0 +1,304 @@
+{
+  "annotations": [
+    {
+      "id": "crt_0_role",
+      "type": "role",
+      "target": "crt_0",
+      "text": "控制台 CRT 0 在整机中作为主显示屏，呈现操作员与系统的交互画面与状态信息。"
+    },
+    {
+      "id": "crt_1_role",
+      "type": "role",
+      "target": "crt_1",
+      "text": "控制台 CRT 1 在整机中作为辅助显示屏，与 CRT 0 构成双屏操作台，用于同时查看作业与系统日志。"
+    },
+    {
+      "id": "lamp_power_role",
+      "type": "role",
+      "target": "lamp_power",
+      "text": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的首要状态指示。"
+    },
+    {
+      "id": "lamp_run_role",
+      "type": "role",
+      "target": "lamp_run",
+      "text": "运行指示灯在整机中于中央处理器执行程序期间点亮，表示系统处于运行状态。"
+    },
+    {
+      "id": "lamp_wait_role",
+      "type": "role",
+      "target": "lamp_wait",
+      "text": "等待指示灯在整机中点亮表示处理器处于等待状态，等待外部事件或操作员指令。"
+    },
+    {
+      "id": "lamp_attention_role",
+      "type": "role",
+      "target": "lamp_attention",
+      "text": "注意指示灯在整机中点亮以提示操作员有需要人工处理的事件，需查看控制台。"
+    },
+    {
+      "id": "lamp_interrupt_role",
+      "type": "role",
+      "target": "lamp_interrupt",
+      "text": "中断指示灯在整机中点亮表示有外部设备中断请求正在被处理。"
+    },
+    {
+      "id": "lamp_io_activity_role",
+      "type": "role",
+      "target": "lamp_io_activity",
+      "text": "I/O 活动指示灯在整机中闪烁表示通道正在执行输入输出操作，是观察通道繁忙程度的状态灯。"
+    },
+    {
+      "id": "lamp_channel_a_role",
+      "type": "role",
+      "target": "lamp_channel_a",
+      "text": "通道 A 指示灯在整机中点亮表示 A 通道当前处于活动状态。"
+    },
+    {
+      "id": "lamp_channel_b_role",
+      "type": "role",
+      "target": "lamp_channel_b",
+      "text": "通道 B 指示灯在整机中点亮表示 B 通道当前处于活动状态。"
+    },
+    {
+      "id": "lamp_parity_error_role",
+      "type": "role",
+      "target": "lamp_parity_error",
+      "text": "奇偶校验错误灯在整机中点亮表示存储或传输中检测到奇偶校验错误，需停机排查。"
+    },
+    {
+      "id": "lamp_machine_check_role",
+      "type": "role",
+      "target": "lamp_machine_check",
+      "text": "机器检查灯在整机中点亮表示发生机器检查异常，处理器进入错误处理流程。"
+    },
+    {
+      "id": "lamp_storage_protect_role",
+      "type": "role",
+      "target": "lamp_storage_protect",
+      "text": "存储保护灯在整机中点亮表示发生存储保护违例，程序试图访问无权访问的存储区域。"
+    },
+    {
+      "id": "lamp_manual_role",
+      "type": "role",
+      "target": "lamp_manual",
+      "text": "手动模式灯在整机中点亮表示系统处于手动控制模式，操作员可直接干预机器运行。"
+    },
+    {
+      "id": "sw_power_role",
+      "type": "role",
+      "target": "sw_power",
+      "text": "电源开关在整机中控制整机供电的通断，是启动与关闭机器的总开关。"
+    },
+    {
+      "id": "sw_reset_role",
+      "type": "role",
+      "target": "sw_reset",
+      "text": "复位开关在整机中复位处理器与各寄存器，使机器回到初始状态。"
+    },
+    {
+      "id": "sw_ipl_role",
+      "type": "role",
+      "target": "sw_ipl",
+      "text": "初始程序装载开关在整机中触发 IPL 流程，从指定设备读入引导程序并启动系统。"
+    },
+    {
+      "id": "sw_stop_role",
+      "type": "role",
+      "target": "sw_stop",
+      "text": "停机开关在整机中暂停处理器的执行，使机器进入停止状态等待操作员干预。"
+    },
+    {
+      "id": "sw_start_role",
+      "type": "role",
+      "target": "sw_start",
+      "text": "启动开关在整机中使处理器从当前程序状态开始或恢复执行。"
+    },
+    {
+      "id": "sw_load_role",
+      "type": "role",
+      "target": "sw_load",
+      "text": "装载开关在整机中把操作员在控制台设定的数据装载进指定寄存器或存储单元。"
+    },
+    {
+      "id": "sw_clear_role",
+      "type": "role",
+      "target": "sw_clear",
+      "text": "清除开关在整机中清除控制台寄存器与显示，回到空白状态。"
+    },
+    {
+      "id": "sw_single_step_role",
+      "type": "role",
+      "target": "sw_single_step",
+      "text": "单步开关在整机中使处理器每次只执行一条指令，用于程序调试。"
+    },
+    {
+      "id": "sw_check_role",
+      "type": "role",
+      "target": "sw_check",
+      "text": "检查开关在整机中触发硬件自检，验证各子系统是否工作正常。"
+    },
+    {
+      "id": "sw_display_select_role",
+      "type": "role",
+      "target": "sw_display_select",
+      "text": "显示选择开关在整机中切换控制台 CRT 显示的内容来源，如寄存器或存储单元。"
+    },
+    {
+      "id": "sw_storage_select_role",
+      "type": "role",
+      "target": "sw_storage_select",
+      "text": "存储选择开关在整机中选择要检视或修改的存储单元地址。"
+    },
+    {
+      "id": "sw_register_select_role",
+      "type": "role",
+      "target": "sw_register_select",
+      "text": "寄存器选择开关在整机中选择要显示或装载的通用寄存器。"
+    },
+    {
+      "id": "knob_brightness_role",
+      "type": "role",
+      "target": "knob_brightness",
+      "text": "亮度旋钮在整机中调节控制台 CRT 显示画面的亮度，便于在不同光照下阅读。"
+    },
+    {
+      "id": "knob_contrast_role",
+      "type": "role",
+      "target": "knob_contrast",
+      "text": "对比度旋钮在整机中调节控制台 CRT 显示画面的对比度，改善字符可读性。"
+    },
+    {
+      "id": "sw_address_compare_role",
+      "type": "role",
+      "target": "sw_address_compare",
+      "text": "地址比较开关在整机中设定一个地址断点，当程序访问到该地址时暂停执行。"
+    },
+    {
+      "id": "sw_emergency_pull_role",
+      "type": "role",
+      "target": "sw_emergency_pull",
+      "text": "紧急断电开关在整机中用于紧急情况下立即切断整机电源，保障设备与人员安全。"
+    },
+    {
+      "id": "microprogram_rom_role",
+      "type": "role",
+      "target": "microprogram_rom",
+      "text": "微程序只读存储器在整机中存放微指令序列，把每条机器指令译码展开为微操作，是 Model 30 微程序控制的核心。"
+    },
+    {
+      "id": "alu_role",
+      "type": "role",
+      "target": "alu",
+      "text": "算术逻辑单元在整机中执行算术与逻辑运算，是中央处理器完成计算的核心部件。"
+    },
+    {
+      "id": "register_bank_role",
+      "type": "role",
+      "target": "register_bank",
+      "text": "通用寄存器组在整机中提供 16 个 32 位通用寄存器，用于暂存运算数据与地址。"
+    },
+    {
+      "id": "tape_reel_role",
+      "type": "role",
+      "target": "tape_reel",
+      "text": "磁带卷轴在整机中承载一盘磁带，供读写头沿磁带表面读写数据。"
+    },
+    {
+      "id": "tape_head_role",
+      "type": "role",
+      "target": "tape_head",
+      "text": "磁带读写头在整机中贴着磁带表面读写磁记录，是磁带机与数据交互的核心部件。"
+    },
+    {
+      "id": "card_hopper_role",
+      "type": "role",
+      "target": "card_hopper",
+      "text": "送卡斗在整机中容纳待读入的穿孔卡片，并按顺序把卡片送入读卡机构。"
+    },
+    {
+      "id": "card_stacker_role",
+      "type": "role",
+      "target": "card_stacker",
+      "text": "接卡斗在整机中接收已读完的穿孔卡片，并按顺序堆叠存放。"
+    },
+    {
+      "id": "card_feed_flow",
+      "type": "flow",
+      "target": "card_reader",
+      "text": "送卡动作：卡片从送卡斗逐张送入读卡机构，读卡机构读取 80 列穿孔后把卡片送入接卡斗，完成一次数据读入。"
+    },
+    {
+      "id": "print_head_role",
+      "type": "role",
+      "target": "print_head",
+      "text": "打印头在整机中把字符逐行打印到连续打印纸上，是行式打印机输出结果的执行部件。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "IBM System/360 Model 30 整机，1964 年发布的兼容计算机家族中的入门商用机型，以微程序控制实现一套指令集覆盖商用与科学应用。"
+    },
+    {
+      "id": "ipl_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "初始程序装载流程：操作员按 IPL 开关 → 系统从指定设备（读卡机/磁带机）读入引导程序 → 引导程序装入内存并启动操作系统。"
+    },
+    {
+      "id": "console_role",
+      "type": "role",
+      "target": "console",
+      "text": "双 CRT 操作台在整机中作为操作员与系统交互的主界面，集成显示屏、状态灯组与各类控制开关旋钮。"
+    },
+    {
+      "id": "cpu_cabinet_role",
+      "type": "role",
+      "target": "cpu_cabinet",
+      "text": "CPU 机柜在整机中承载中央处理器、微程序只读存储器与寄存器组，是执行指令的核心单元。"
+    },
+    {
+      "id": "tape_drive_role",
+      "type": "role",
+      "target": "tape_drive",
+      "text": "磁带机阵列在整机中以两台 IBM 2415 磁带机成组配置，用于海量数据的磁记录存储与顺序读写。"
+    },
+    {
+      "id": "card_reader_role",
+      "type": "role",
+      "target": "card_reader",
+      "text": "读卡机在整机中读取 80 列穿孔卡片，是程序与数据进入系统的重要输入设备。"
+    },
+    {
+      "id": "printer_role",
+      "type": "role",
+      "target": "printer",
+      "text": "行式打印机在整机中把计算结果与报表逐行打印输出，是系统输出结果的主要设备。"
+    },
+    {
+      "id": "lamp_ready_role",
+      "type": "role",
+      "target": "lamp_ready",
+      "text": "就绪指示灯在整机中点亮表示系统已完成初始化、可以接受作业或操作员指令。"
+    },
+    {
+      "id": "lamp_busy_role",
+      "type": "role",
+      "target": "lamp_busy",
+      "text": "忙碌指示灯在整机中点亮表示处理器正忙于执行作业，无法立即响应新的请求。"
+    },
+    {
+      "id": "sw_timer_role",
+      "type": "role",
+      "target": "sw_timer",
+      "text": "定时器开关在整机中设置定时中断的间隔，用于产生周期性的定时中断信号。"
+    },
+    {
+      "id": "sw_keyboard_lock_role",
+      "type": "role",
+      "target": "sw_keyboard_lock",
+      "text": "键盘锁开关在整机中锁定控制台键盘，防止未经授权的操作员输入。"
+    }
+  ]
+}

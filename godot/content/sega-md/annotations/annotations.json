@@ -1,0 +1,214 @@
+{
+  "annotations": [
+    {
+      "id": "sega_md_role",
+      "type": "role",
+      "target": "sega_md",
+      "text": "Sega Mega Drive 整机，1988 年世嘉推出的 16 位家用游戏机，由上壳、下壳、主板、卡带仓、卡带与手柄组成，是游戏机厅第三台设备。",
+      "sources": []
+    },
+    {
+      "id": "top_shell_role",
+      "type": "role",
+      "target": "top_shell",
+      "text": "上壳在整机中作为机箱顶部壳体，黑色圆润造型，带 16-BIT 铭牌位与顶部卡带仓开口，构成 MD 最具辨识度的外观。",
+      "sources": []
+    },
+    {
+      "id": "bottom_shell_role",
+      "type": "role",
+      "target": "bottom_shell",
+      "text": "下壳在整机中作为机箱底部壳体，固定主板并承载铭牌与散热孔，与上壳扣合构成完整外壳。",
+      "sources": []
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中承载 68000 主处理器与 Z80 副处理器两颗 CPU 及 VDP、FM 音源芯片，是整机的核心电路板。",
+      "sources": []
+    },
+    {
+      "id": "cart_bay_role",
+      "type": "role",
+      "target": "cart_bay",
+      "text": "卡带仓在整机中位于机身顶部，提供 64 针卡带插口，供插入游戏卡带建立程序与主机的总线连接。",
+      "sources": []
+    },
+    {
+      "id": "controller_ports_role",
+      "type": "role",
+      "target": "controller_ports",
+      "text": "手柄接口在整机中提供两个 9 针插座，供连接手柄输入方向与按键信号。",
+      "sources": []
+    },
+    {
+      "id": "controller_role",
+      "type": "role",
+      "target": "controller",
+      "text": "六键手柄在整机中提供十字键与 A/B/C/X/Y/Z 六键输入，是为格斗游戏推出的扩展手柄。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_role",
+      "type": "role",
+      "target": "cartridge",
+      "text": "游戏卡带在整机中存放游戏程序与数据，通过 64 针接口插入卡带仓，即更换整机运行的游戏内容。",
+      "sources": []
+    },
+    {
+      "id": "cart_shell_role",
+      "type": "role",
+      "target": "cart_shell",
+      "text": "卡带外壳在整机中包覆卡带电路板与 ROM 芯片，是卡带的塑料保护壳体与插拔把手。",
+      "sources": []
+    },
+    {
+      "id": "cart_pcb_role",
+      "type": "role",
+      "target": "cart_pcb",
+      "text": "卡带电路板在整机中承载 ROM 芯片并通过 64 针金手指连接卡带仓，是卡带与主机交换数据的桥梁。",
+      "sources": []
+    },
+    {
+      "id": "cpu_68k_role",
+      "type": "role",
+      "target": "cpu_68k",
+      "text": "Motorola 68000 处理器在整机中负责取指、译码与执行游戏程序，是整机的主运算核心。",
+      "sources": []
+    },
+    {
+      "id": "cpu_z80_role",
+      "type": "role",
+      "target": "cpu_z80",
+      "text": "Zilog Z80 处理器在整机中负责驱动声音芯片并兼任上一代主机兼容，是整机的副处理器。",
+      "sources": []
+    },
+    {
+      "id": "vdp_role",
+      "type": "role",
+      "target": "vdp",
+      "text": "VDP 视频处理器在整机中合成多层卷轴与精灵画面，是整机的图形核心。",
+      "sources": []
+    },
+    {
+      "id": "ym2612_role",
+      "type": "role",
+      "target": "ym2612",
+      "text": "YM2612 FM 音源在整机中提供六通道 FM 合成声音，是整机标志性金属音色的来源。",
+      "sources": []
+    },
+    {
+      "id": "sn76489_role",
+      "type": "role",
+      "target": "sn76489",
+      "text": "SN76489 PSG 音源在整机中提供四通道方波与噪声，是整机 FM 之外的第二音源。",
+      "sources": []
+    },
+    {
+      "id": "rom_chip_role",
+      "type": "role",
+      "target": "rom_chip",
+      "text": "ROM 芯片在整机中固化游戏程序与数据，是卡带为整机提供可更换游戏内容的存储器件。",
+      "sources": []
+    },
+    {
+      "id": "boot_flow",
+      "type": "flow",
+      "target": "sega_md",
+      "text": "开机流程：接通电源后，68000 从卡带程序入口启动，初始化 VDP 与声音系统，进入游戏主循环。",
+      "sources": []
+    },
+    {
+      "id": "dual_cpu_flow",
+      "type": "flow",
+      "target": "cpu_68k",
+      "text": "双 CPU 声画分工流程：68000 主处理器执行游戏逻辑并生成画面数据，Z80 副处理器接收音乐数据并驱动 YM2612 与 SN76489 发声，主算副响分工协作。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_flow",
+      "type": "flow",
+      "target": "cartridge",
+      "text": "卡带数据流：68000 经 64 针接口读取卡带程序 ROM，程序与数据流进入主机内存供处理器执行。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_insert_anim",
+      "type": "anim",
+      "target": "cartridge",
+      "text": "卡带插拔动画：玩家将卡带对准顶部卡带仓下压插入触发；卡带沿竖直方向滑入仓内，64 针金手指啮合；拔出时反向提起，单次全程约 1 秒。",
+      "sources": []
+    },
+    {
+      "id": "controller_press_anim",
+      "type": "anim",
+      "target": "controller",
+      "text": "按键动画：玩家按下十字键或 ABC 键触发；键帽下压，导电橡胶触点闭合；松开后弹回，单次约 0.2 秒。",
+      "sources": []
+    },
+    {
+      "id": "power_switch_anim",
+      "type": "anim",
+      "target": "sega_md",
+      "text": "电源开关动画：玩家拨动电源开关触发；拨杆从 OFF 摆到 ON，整机上电，电源指示灯亮起。",
+      "sources": []
+    },
+    {
+      "id": "cpu_68k_dual_role",
+      "type": "role",
+      "target": "cpu_68k",
+      "text": "双 CPU 分工在整机中是 MD 的架构特色：68000 主算、Z80 副响，两颗处理器各司其职，是 MD 声画风格的技术根基。",
+      "sources": []
+    },
+    {
+      "id": "blast_processing_role",
+      "type": "role",
+      "target": "sega_md",
+      "text": "Blast Processing 是世嘉北美的营销口号，强调 MD 的速度感，虽非严格技术术语，却成为主机战争时代的文化符号。",
+      "sources": []
+    },
+    {
+      "id": "six_button_role",
+      "type": "role",
+      "target": "controller",
+      "text": "六键手柄在整机中为格斗游戏推出，新增 X/Y/Z 三键，支持《街头霸王 II》等游戏的复杂搓招，是手柄向格斗友好演进的标志。",
+      "sources": []
+    },
+    {
+      "id": "badge_16bit_role",
+      "type": "role",
+      "target": "top_shell",
+      "text": "16-BIT 铭牌在整机中是 MD 的身份标识，金色字样标注其 16 位主机定位，是识别 MD 初代的关键特征。",
+      "sources": []
+    },
+    {
+      "id": "ym2612_fm_role",
+      "type": "role",
+      "target": "ym2612",
+      "text": "FM 音源在整机中是 MD 声音的灵魂，六通道 FM 合成出尖锐金属感的音色，是 MD 区别于 SFC 采样音源的声音风格。",
+      "sources": []
+    },
+    {
+      "id": "us_jp_diff_role",
+      "type": "role",
+      "target": "sega_md",
+      "text": "美日版本差异在整机中体现为命名之别（日版 Mega Drive / 美版 Genesis）与营销定位之别，美版以 Blast Processing 强调速度，日版以街机移植见长。",
+      "sources": []
+    },
+    {
+      "id": "headphone_role",
+      "type": "role",
+      "target": "sega_md",
+      "text": "耳机孔在整机中是 MD 初代特有的设计，位于机身前部，带音量滑杆，是当时家用机少见的音频发烧配置。",
+      "sources": []
+    },
+    {
+      "id": "model1_role",
+      "type": "role",
+      "target": "sega_md",
+      "text": "Model 1 造型在整机中是 MD 初代的标志，机身圆润、带耳机孔与音量滑杆、金色 16-BIT 铭牌，icon 性最强。",
+      "sources": []
+    }
+  ]
+}

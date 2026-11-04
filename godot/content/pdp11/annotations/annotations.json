@@ -1,0 +1,238 @@
+{
+  "annotations": [
+    {
+      "id": "terminal_role",
+      "type": "role",
+      "target": "terminal",
+      "text": "操作终端在整机中作为操作员与系统交互的输入输出界面，用于键入命令与查看输出。"
+    },
+    {
+      "id": "lamp_run_role",
+      "type": "role",
+      "target": "lamp_run",
+      "text": "运行指示灯在整机中点亮表示处理器正在执行程序，是判断系统是否运行的状态指示。"
+    },
+    {
+      "id": "lamp_power_role",
+      "type": "role",
+      "target": "lamp_power",
+      "text": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的首要状态指示。"
+    },
+    {
+      "id": "lamp_halt_role",
+      "type": "role",
+      "target": "lamp_halt",
+      "text": "停机指示灯在整机中点亮表示处理器已停机，等待操作员干预。"
+    },
+    {
+      "id": "lamp_battery_role",
+      "type": "role",
+      "target": "lamp_battery",
+      "text": "电池指示灯在整机中点亮表示系统由后备电池供电，提示检查交流电源。"
+    },
+    {
+      "id": "lamp_io_activity_role",
+      "type": "role",
+      "target": "lamp_io_activity",
+      "text": "I/O 活动指示灯在整机中闪烁表示 Unibus 上有设备正在进行输入输出操作。"
+    },
+    {
+      "id": "lamp_cache_role",
+      "type": "role",
+      "target": "lamp_cache",
+      "text": "缓存指示灯在整机中点亮表示处理器缓存处于活动状态，加速内存访问。"
+    },
+    {
+      "id": "sw_boot_role",
+      "type": "role",
+      "target": "sw_boot",
+      "text": "引导开关在整机中触发引导程序，从指定设备读入并启动操作系统。"
+    },
+    {
+      "id": "sw_halt_role",
+      "type": "role",
+      "target": "sw_halt",
+      "text": "停机开关在整机中使处理器停机，机器进入等待操作员干预的状态。"
+    },
+    {
+      "id": "sw_start_role",
+      "type": "role",
+      "target": "sw_start",
+      "text": "启动开关在整机中使处理器从当前地址开始或恢复执行程序。"
+    },
+    {
+      "id": "sw_cont_role",
+      "type": "role",
+      "target": "sw_cont",
+      "text": "继续开关在整机中使处理器从暂停处继续执行程序，用于调试后的恢复运行。"
+    },
+    {
+      "id": "sw_load_addr_role",
+      "type": "role",
+      "target": "sw_load_addr",
+      "text": "装载地址开关在整机中把操作员设定的地址送入程序计数器，定位要检视或写入的存储单元。"
+    },
+    {
+      "id": "sw_exam_role",
+      "type": "role",
+      "target": "sw_exam",
+      "text": "检视开关在整机中把当前地址的内容读出并显示，供操作员查看存储单元的值。"
+    },
+    {
+      "id": "sw_dep_role",
+      "type": "role",
+      "target": "sw_dep",
+      "text": "写入开关在整机中把操作员设定的数据写入当前地址，完成一次手动存数。"
+    },
+    {
+      "id": "sw_enable_halt_role",
+      "type": "role",
+      "target": "sw_enable_halt",
+      "text": "停机使能开关在整机中启用或禁用停机指令，用于程序调试控制。"
+    },
+    {
+      "id": "sw_clear_role",
+      "type": "role",
+      "target": "sw_clear",
+      "text": "清除开关在整机中清除寄存器和显示，使机器回到空白状态。"
+    },
+    {
+      "id": "sw_power_role",
+      "type": "role",
+      "target": "sw_power",
+      "text": "电源开关在整机中控制整机供电的通断，是启动与关闭机器的总开关。"
+    },
+    {
+      "id": "lamp_addr_group_role",
+      "type": "role",
+      "target": "lamp_addr_group",
+      "text": "地址灯组在整机中以一排指示灯显示当前地址总线的值，供操作员观察程序执行位置。"
+    },
+    {
+      "id": "lamp_data_group_role",
+      "type": "role",
+      "target": "lamp_data_group",
+      "text": "数据灯组在整机中以一排指示灯显示当前数据总线的值，供操作员观察数据流动。"
+    },
+    {
+      "id": "processor_role",
+      "type": "role",
+      "target": "processor",
+      "text": "处理器在整机中执行 PDP-11 指令集的取指、译码与执行，是系统的计算核心。"
+    },
+    {
+      "id": "cache_role",
+      "type": "role",
+      "target": "cache",
+      "text": "高速缓存在整机中暂存近期访问的内存数据，减少处理器等待内存的时间，提升性能。"
+    },
+    {
+      "id": "mmu_role",
+      "type": "role",
+      "target": "mmu",
+      "text": "内存管理单元在整机中把 16 位逻辑地址映射为 22 位物理地址，扩展寻址空间并支持内存保护。"
+    },
+    {
+      "id": "unibus_adapter_role",
+      "type": "role",
+      "target": "unibus_adapter",
+      "text": "Unibus 适配器在整机中把处理器与内存连接到 Unibus 总线，是总线通信的接口。"
+    },
+    {
+      "id": "disk_platter_role",
+      "type": "role",
+      "target": "disk_platter",
+      "text": "磁盘盘片在整机中作为 RK05 磁盘的存储介质，以磁性涂层表面保存数据。"
+    },
+    {
+      "id": "disk_head_role",
+      "type": "role",
+      "target": "disk_head",
+      "text": "磁盘读写头在整机中贴着旋转的盘片表面读写数据，是磁盘存储的核心部件。"
+    },
+    {
+      "id": "disk_controller_role",
+      "type": "role",
+      "target": "disk_controller",
+      "text": "磁盘控制器在整机中管理 RK05 磁盘组的数据读写，把块地址转换为磁头寻道与扇区定位。"
+    },
+    {
+      "id": "tape_reel_role",
+      "type": "role",
+      "target": "tape_reel",
+      "text": "磁带卷轴在整机中承载一盘磁带，供读写头沿磁带表面顺序读写数据。"
+    },
+    {
+      "id": "tape_head_role",
+      "type": "role",
+      "target": "tape_head",
+      "text": "磁带读写头在整机中贴着磁带表面读写磁记录，是磁带机与数据交互的核心部件。"
+    },
+    {
+      "id": "tape_controller_role",
+      "type": "role",
+      "target": "tape_controller",
+      "text": "磁带控制器在整机中管理 TU10/TS11 磁带机的走带与读写操作。"
+    },
+    {
+      "id": "unibus_backplane_role",
+      "type": "role",
+      "target": "unibus_backplane",
+      "text": "Unibus 背板在整机中提供统一总线，把 CPU、内存与各设备控制器互联，是 PDP-11 架构的灵魂。"
+    },
+    {
+      "id": "device_controller_role",
+      "type": "role",
+      "target": "device_controller",
+      "text": "设备控制器插卡在整机中挂载于 Unibus 背板，把外设寄存器和内存统一编址，供 CPU 直接读写。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "DEC PDP-11/70 整机，1975 年推出的 PDP-11 家族高端机型，以 Unibus 统一总线与内存管理单元定义 16 位小型机的性能标杆。"
+    },
+    {
+      "id": "unibus_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "Unibus 数据流：CPU 或外设经 Unibus 访问内存或设备寄存器，内存与设备统一编址，支持 DMA 直接内存访问。"
+    },
+    {
+      "id": "boot_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "引导流程：操作员按引导开关 → 系统从指定设备（RK05 磁盘或磁带）读入引导程序 → 引导程序装入内存并启动操作系统。"
+    },
+    {
+      "id": "console_role",
+      "type": "role",
+      "target": "console",
+      "text": "操作台在整机中作为操作员与系统交互的界面，集成终端、状态灯组与控制开关。"
+    },
+    {
+      "id": "cpu_cabinet_role",
+      "type": "role",
+      "target": "cpu_cabinet",
+      "text": "CPU 柜在整机中承载处理器、高速缓存与内存管理单元，是执行指令与地址映射的核心单元。"
+    },
+    {
+      "id": "disk_rk05_role",
+      "type": "role",
+      "target": "disk_rk05",
+      "text": "RK05 磁盘组在整机中提供可换盘式磁盘存储，是程序与数据的主要随机存取介质。"
+    },
+    {
+      "id": "tape_tu10_role",
+      "type": "role",
+      "target": "tape_tu10",
+      "text": "TU10/TS11 磁带机在整机中提供磁带的顺序存取，用于数据备份与批量加载。"
+    },
+    {
+      "id": "unibus_rack_role",
+      "type": "role",
+      "target": "unibus_rack",
+      "text": "Unibus 扩展架在整机中提供统一总线背板与设备控制器插槽，是内存与设备统一编址的物理载体。"
+    }
+  ]
+}

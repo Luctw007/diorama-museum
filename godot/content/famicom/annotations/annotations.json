@@ -1,0 +1,214 @@
+{
+  "annotations": [
+    {
+      "id": "famicom_role",
+      "type": "role",
+      "target": "famicom",
+      "text": "Famicom 整机，1983 年任天堂推出的红白配色家用游戏机，由上壳、下壳、主板、卡带仓、卡带与手柄组成，是游戏机厅第二台设备。",
+      "sources": []
+    },
+    {
+      "id": "top_shell_role",
+      "type": "role",
+      "target": "top_shell",
+      "text": "上壳在整机中作为机箱顶部壳体，采用红白两段配色，覆盖卡带仓与主板，构成红白机最具辨识度的外观。",
+      "sources": []
+    },
+    {
+      "id": "bottom_shell_role",
+      "type": "role",
+      "target": "bottom_shell",
+      "text": "下壳在整机中作为机箱底部壳体，固定主板并承载铭牌与散热孔，与上壳扣合构成完整外壳。",
+      "sources": []
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中承载 2A03 处理器与 2C02 图像处理单元两颗核心芯片及工作内存，是整机的核心电路板。",
+      "sources": []
+    },
+    {
+      "id": "cart_bay_role",
+      "type": "role",
+      "target": "cart_bay",
+      "text": "卡带仓在整机中位于机身顶部，提供 60 针卡带插口，供插入游戏卡带建立程序与主机的总线连接。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_role",
+      "type": "role",
+      "target": "cartridge",
+      "text": "游戏卡带在整机中存放游戏程序与图形数据，通过 60 针接口插入卡带仓，即更换整机运行的游戏内容。",
+      "sources": []
+    },
+    {
+      "id": "cart_shell_role",
+      "type": "role",
+      "target": "cart_shell",
+      "text": "卡带外壳在整机中包覆卡带电路板与 ROM 芯片，是卡带的塑料保护壳体与插拔把手。",
+      "sources": []
+    },
+    {
+      "id": "cart_pcb_role",
+      "type": "role",
+      "target": "cart_pcb",
+      "text": "卡带电路板在整机中承载 ROM 芯片并通过 60 针金手指连接卡带仓，是卡带与主机交换数据的桥梁。",
+      "sources": []
+    },
+    {
+      "id": "controllers_role",
+      "type": "role",
+      "target": "controllers",
+      "text": "手柄在整机中提供十字键与 AB 键的输入，两个手柄固定于主机两侧，是整机的主要输入设备。",
+      "sources": []
+    },
+    {
+      "id": "pad_1_role",
+      "type": "role",
+      "target": "pad_1",
+      "text": "1P 手柄在整机中提供十字键、A、B、开始与选择键，是第一名玩家的主输入设备。",
+      "sources": []
+    },
+    {
+      "id": "pad_2_role",
+      "type": "role",
+      "target": "pad_2",
+      "text": "2P 手柄在整机中提供十字键与 AB 键，并内置麦克风，是第二名玩家的输入设备。",
+      "sources": []
+    },
+    {
+      "id": "cpu_2a03_role",
+      "type": "role",
+      "target": "cpu_2a03",
+      "text": "Ricoh 2A03 处理器在整机中负责取指、译码与执行游戏程序，片内还集成了五通道音频处理单元。",
+      "sources": []
+    },
+    {
+      "id": "ppu_2c02_role",
+      "type": "role",
+      "target": "ppu_2c02",
+      "text": "Ricoh 2C02 图像处理单元在整机中独立渲染 256×240 的背景与精灵画面，是整机的图形核心。",
+      "sources": []
+    },
+    {
+      "id": "wram_role",
+      "type": "role",
+      "target": "wram",
+      "text": "2KB 工作内存芯片在整机中为处理器提供运行时的工作空间，存放程序变量与游戏状态。",
+      "sources": []
+    },
+    {
+      "id": "vram_role",
+      "type": "role",
+      "target": "vram",
+      "text": "2KB 显存芯片在整机中为图像处理单元提供画面缓冲，存放背景图与精灵属性。",
+      "sources": []
+    },
+    {
+      "id": "rom_chip_role",
+      "type": "role",
+      "target": "rom_chip",
+      "text": "ROM 芯片在整机中固化游戏程序与图形数据，是卡带为整机提供可更换游戏内容的存储器件。",
+      "sources": []
+    },
+    {
+      "id": "boot_flow",
+      "type": "flow",
+      "target": "famicom",
+      "text": "开机流程：接通电源后，2A03 从复位向量读取卡带程序入口，初始化图像处理单元与画面，进入游戏主循环。",
+      "sources": []
+    },
+    {
+      "id": "ppu_render_flow",
+      "type": "flow",
+      "target": "ppu_2c02",
+      "text": "PPU 渲染流程：图像处理单元读显存中的背景图与精灵属性，从卡带字符 ROM 取瓦片图形，合成 256×240 一帧后输出到电视。",
+      "sources": []
+    },
+    {
+      "id": "input_flow",
+      "type": "flow",
+      "target": "controllers",
+      "text": "手柄输入流程：玩家按动十字键或 AB 键，开关通断经移位寄存器串行读入，2A03 读取判定方向与按键。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_flow",
+      "type": "flow",
+      "target": "cartridge",
+      "text": "卡带数据流：处理器经 60 针接口读取卡带程序 ROM，图像处理单元经同一接口读取字符 ROM，程序与图形两条数据流并行进入主机。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_insert_anim",
+      "type": "anim",
+      "target": "cartridge",
+      "text": "卡带插拔动画：玩家将卡带对准顶部卡带仓下压插入触发；卡带沿竖直方向滑入仓内，60 针金手指啮合；拔出时反向提起，单次全程约 1 秒。",
+      "sources": []
+    },
+    {
+      "id": "pad_press_anim",
+      "type": "anim",
+      "target": "pad_1",
+      "text": "按键动画：玩家按下十字键或 AB 键触发；键帽下压，导电橡胶触点闭合；松开后弹回，单次约 0.2 秒。",
+      "sources": []
+    },
+    {
+      "id": "pad_mic_anim",
+      "type": "anim",
+      "target": "pad_2",
+      "text": "麦克风动画：玩家对着 2P 手柄麦克风发声触发；声波引起拾音器振动，游戏程序读取音量作为输入信号。",
+      "sources": []
+    },
+    {
+      "id": "expand_port_anim",
+      "type": "anim",
+      "target": "controllers",
+      "text": "扩展端口动画：玩家接入外设到 15 针扩展端口触发；外设插头插入端口，主机识别外设并切换输入模式。",
+      "sources": []
+    },
+    {
+      "id": "pad_2_mic_role",
+      "type": "role",
+      "target": "pad_2",
+      "text": "2P 手柄麦克风在整机中是红白机的独特设计，玩家对着麦克风说话可触发游戏中的特定反应，是家用机手柄早期少见的语音输入尝试。",
+      "sources": []
+    },
+    {
+      "id": "expand_port_role",
+      "type": "role",
+      "target": "controllers",
+      "text": "可扩展端口在整机中位于机身正面，提供 15 针外设接口，可接入光枪、键盘、磁盘系统等外设，扩展整机的输入与存储能力。",
+      "sources": []
+    },
+    {
+      "id": "redwhite_role",
+      "type": "role",
+      "target": "top_shell",
+      "text": "红白配色在整机中是 Famicom 日版的标志性外观，上壳分为酒红与米白两段，与 NES 的灰白配色形成对比，是识别日版与美版的关键特征。",
+      "sources": []
+    },
+    {
+      "id": "nes_diff_role",
+      "type": "role",
+      "target": "cartridge",
+      "text": "版本差异在整机中体现为 Famicom 60 针顶部插卡与 NES 72 针前装卡匣之别，本包以日版红白机为本体，美版差异仅作百科说明。",
+      "sources": []
+    },
+    {
+      "id": "top_loader_role",
+      "type": "role",
+      "target": "cart_bay",
+      "text": "顶部插卡在整机中是 Famicom 的结构特征，卡带从机身顶部垂直插入，与 NES 的前装式插卡形成对比，是拆解与插拔讲解的趣点。",
+      "sources": []
+    },
+    {
+      "id": "cart_60pin_role",
+      "type": "role",
+      "target": "cartridge",
+      "text": "60 针接口在整机中连接卡带与主机，比 NES 的 72 针少 12 针，是日版卡带与美版卡带不可互换的物理原因。",
+      "sources": []
+    }
+  ]
+}

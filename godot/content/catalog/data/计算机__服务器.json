@@ -1,0 +1,1886 @@
+[
+ {
+  "id": "C-SV-000001",
+  "name": "IBM AS/400",
+  "aliases": [
+   "System/38 后继"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1988,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "中型商用服务器，一体化软硬件。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1988,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "中型商用服务器，一体化软硬件。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000002",
+  "name": "IBM System/3",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1969,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "面向中小企业的商用系统。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1969,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "面向中小企业的商用系统。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000003",
+  "name": "IBM System/32",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1975,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "一体化小型商用系统。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1975,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "一体化小型商用系统。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000004",
+  "name": "IBM System/34",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1977,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "System/3 后继商用系统。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1977,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "System/3 后继商用系统。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000005",
+  "name": "IBM System/36",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "System/34 后继商用系统。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "System/34 后继商用系统。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000006",
+  "name": "IBM System/38",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1979,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "关系数据库一体化商用系统。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1979,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "关系数据库一体化商用系统。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000007",
+  "name": "Compaq SystemPro",
+  "aliases": [],
+  "manufacturer": "Compaq",
+  "origin": "美国",
+  "era": 1989,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "首台 x86 服务器，进军企业市场。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Compaq",
+  "year": 1989,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "首台 x86 服务器，进军企业市场。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000008",
+  "name": "IBM PC Server 500",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "IBM 早期 x86 服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1994,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "IBM 早期 x86 服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000009",
+  "name": "HP NetServer LH",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 1995,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "HP x86 服务器系列。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 1995,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "HP x86 服务器系列。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000010",
+  "name": "Sun Enterprise 450",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1998,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "Unix 服务器，互联网时代主力。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1998,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "Unix 服务器，互联网时代主力。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000011",
+  "name": "Dell PowerEdge 2100",
+  "aliases": [],
+  "manufacturer": "Dell",
+  "origin": "美国",
+  "era": 1996,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "戴尔早期 x86 服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Dell",
+  "year": 1996,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "戴尔早期 x86 服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000012",
+  "name": "IBM Netfinity 3000",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1998,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "IBM x86 入门服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1998,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "IBM x86 入门服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000040",
+  "name": "IBM iSeries 400",
+  "aliases": [
+   "iSeries"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 2000,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "AS/400 后继，中型商用服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 2000,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "AS/400 后继，中型商用服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000041",
+  "name": "Compaq ProLiant ML370",
+  "aliases": [],
+  "manufacturer": "Compaq",
+  "origin": "美国",
+  "era": 2000,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "塔式 x86 服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Compaq",
+  "year": 2000,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "塔式 x86 服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000042",
+  "name": "Dell PowerEdge 1300",
+  "aliases": [],
+  "manufacturer": "Dell",
+  "origin": "美国",
+  "era": 1998,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "戴尔塔式 x86 服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Dell",
+  "year": 1998,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "戴尔塔式 x86 服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000043",
+  "name": "Acer Altos",
+  "aliases": [],
+  "manufacturer": "宏碁",
+  "origin": "台湾地区",
+  "era": 2000,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "宏碁 x86 服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "宏碁",
+  "year": 2000,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "宏碁 x86 服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000044",
+  "name": "HP ProLiant ML150",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 2004,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "HP 塔式 x86 服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 2004,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "HP 塔式 x86 服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000055",
+  "name": "HP 9000 E 系列",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 1996,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "influence": "HP 入门 Unix 服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 1996,
+  "path": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ],
+  "reason": "HP 入门 Unix 服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "塔式"
+  ]
+ },
+ {
+  "id": "C-SV-000013",
+  "name": "Compaq ProLiant",
+  "aliases": [],
+  "manufacturer": "Compaq",
+  "origin": "美国",
+  "era": 1993,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "x86 服务器标杆，机架化先驱。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Compaq",
+  "year": 1993,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "x86 服务器标杆，机架化先驱。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000014",
+  "name": "Compaq ProLiant 1500",
+  "aliases": [],
+  "manufacturer": "Compaq",
+  "origin": "美国",
+  "era": 1996,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "部门级 x86 服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Compaq",
+  "year": 1996,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "部门级 x86 服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000015",
+  "name": "Compaq ProLiant DL380",
+  "aliases": [],
+  "manufacturer": "Compaq",
+  "origin": "美国",
+  "era": 2000,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "机架式 x86 服务器标配。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Compaq",
+  "year": 2000,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "机架式 x86 服务器标配。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000016",
+  "name": "Dell PowerEdge",
+  "aliases": [],
+  "manufacturer": "Dell",
+  "origin": "美国",
+  "era": 1996,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "x86 服务器普及主力。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Dell",
+  "year": 1996,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "x86 服务器普及主力。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000017",
+  "name": "Dell PowerEdge 4100",
+  "aliases": [],
+  "manufacturer": "Dell",
+  "origin": "美国",
+  "era": 1997,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "戴尔 x86 服务器普及型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Dell",
+  "year": 1997,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "戴尔 x86 服务器普及型号。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000018",
+  "name": "Dell PowerEdge 1950",
+  "aliases": [],
+  "manufacturer": "Dell",
+  "origin": "美国",
+  "era": 2006,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "1U 机架服务器经典。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Dell",
+  "year": 2006,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "1U 机架服务器经典。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000019",
+  "name": "Dell PowerEdge 2950",
+  "aliases": [],
+  "manufacturer": "Dell",
+  "origin": "美国",
+  "era": 2006,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "2U 机架服务器经典。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Dell",
+  "year": 2006,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "2U 机架服务器经典。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000020",
+  "name": "IBM Netfinity",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1998,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "IBM x86 服务器系列。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1998,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "IBM x86 服务器系列。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000021",
+  "name": "IBM xSeries",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 2001,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "IBM x86 服务器品牌。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 2001,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "IBM x86 服务器品牌。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000022",
+  "name": "HP ProLiant DL360",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 2001,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "机架式 x86 服务器，数据中心标配。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 2001,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "机架式 x86 服务器，数据中心标配。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000023",
+  "name": "HP ProLiant DL380",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 2001,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "2U 机架服务器主力。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 2001,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "2U 机架服务器主力。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000024",
+  "name": "Sun Fire V880",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 2001,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "Unix 数据中心服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 2001,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "Unix 数据中心服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000025",
+  "name": "Sun SPARCserver 1000",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1993,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "对称多处理 Unix 服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1993,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "对称多处理 Unix 服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000026",
+  "name": "Sun Enterprise 4500",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1997,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "中端 Unix 服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1997,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "中端 Unix 服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000027",
+  "name": "IBM RS/6000 SP",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1993,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "可扩展 POWER 服务器，深蓝底层。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1993,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "可扩展 POWER 服务器，深蓝底层。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000028",
+  "name": "SGI Challenge",
+  "aliases": [],
+  "manufacturer": "Silicon Graphics",
+  "origin": "美国",
+  "era": 1993,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "多处理器图形服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Silicon Graphics",
+  "year": 1993,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "多处理器图形服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000029",
+  "name": "DEC AlphaServer 8400",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "64 位 Alpha 服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1994,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "64 位 Alpha 服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000030",
+  "name": "HP Superdome",
+  "aliases": [
+   "HP 9000 Superdome"
+  ],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 2000,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "高端 Unix 服务器，企业关键业务。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 2000,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "高端 Unix 服务器，企业关键业务。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000031",
+  "name": "IBM pSeries p690",
+  "aliases": [
+   "Regatta"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 2001,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "POWER4 高端服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 2001,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "POWER4 高端服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000032",
+  "name": "Google Server",
+  "aliases": [
+   "定制服务器"
+  ],
+  "manufacturer": "Google",
+  "origin": "美国",
+  "era": 1999,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "互联网公司自研服务器，催生数据中心经济。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Google",
+  "year": 1999,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "互联网公司自研服务器，催生数据中心经济。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000045",
+  "name": "HP 9000 K系列",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "HP 高端 Unix 服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 1994,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "HP 高端 Unix 服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000046",
+  "name": "Sun Fire V210",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 2003,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "入门 Unix 机架服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 2003,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "入门 Unix 机架服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000047",
+  "name": "Sun Netra",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 2001,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "电信级机架服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 2001,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "电信级机架服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000048",
+  "name": "IBM xSeries 346",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 2005,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "IBM 机架 x86 服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 2005,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "IBM 机架 x86 服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000049",
+  "name": "HP ProLiant DL580",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 2004,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "四路机架服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 2004,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "四路机架服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000050",
+  "name": "Dell PowerEdge R710",
+  "aliases": [],
+  "manufacturer": "Dell",
+  "origin": "美国",
+  "era": 2009,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "2U 机架服务器经典。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Dell",
+  "year": 2009,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "2U 机架服务器经典。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000051",
+  "name": "曙光一号",
+  "aliases": [
+   "Dawning 1"
+  ],
+  "manufacturer": "中科院计算所",
+  "origin": "中国",
+  "era": 1993,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "中国首台对称多处理服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "中科院计算所",
+  "year": 1993,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "中国首台对称多处理服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000054",
+  "name": "IBM pSeries 690",
+  "aliases": [
+   "p690 后继"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 2001,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "influence": "POWER4 高端 Unix 服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 2001,
+  "path": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ],
+  "reason": "POWER4 高端 Unix 服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "机架式"
+  ]
+ },
+ {
+  "id": "C-SV-000033",
+  "name": "IBM BladeCenter HS20",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 2003,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "influence": "IBM 刀片服务器代表。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 2003,
+  "path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "reason": "IBM 刀片服务器代表。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ]
+ },
+ {
+  "id": "C-SV-000034",
+  "name": "IBM BladeCenter H",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 2006,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "influence": "IBM 刀片机箱。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 2006,
+  "path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "reason": "IBM 刀片机箱。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ]
+ },
+ {
+  "id": "C-SV-000035",
+  "name": "HP ProLiant BL20p",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 2003,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "influence": "HP 刀片服务器代表。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 2003,
+  "path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "reason": "HP 刀片服务器代表。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ]
+ },
+ {
+  "id": "C-SV-000036",
+  "name": "HP BladeSystem c7000",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 2006,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "influence": "HP 刀片机箱。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 2006,
+  "path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "reason": "HP 刀片机箱。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ]
+ },
+ {
+  "id": "C-SV-000037",
+  "name": "Dell PowerEdge M600",
+  "aliases": [],
+  "manufacturer": "Dell",
+  "origin": "美国",
+  "era": 2007,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "influence": "戴尔刀片服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Dell",
+  "year": 2007,
+  "path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "reason": "戴尔刀片服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ]
+ },
+ {
+  "id": "C-SV-000038",
+  "name": "Dell PowerEdge M1000e",
+  "aliases": [],
+  "manufacturer": "Dell",
+  "origin": "美国",
+  "era": 2007,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "influence": "戴尔刀片机箱。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Dell",
+  "year": 2007,
+  "path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "reason": "戴尔刀片机箱。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ]
+ },
+ {
+  "id": "C-SV-000039",
+  "name": "Cisco UCS B200",
+  "aliases": [],
+  "manufacturer": "思科",
+  "origin": "美国",
+  "era": 2009,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "influence": "思科统一计算刀片服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "思科",
+  "year": 2009,
+  "path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "reason": "思科统一计算刀片服务器。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ]
+ },
+ {
+  "id": "C-SV-000052",
+  "name": "HP ProLiant BL460c",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 2007,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "influence": "HP 刀片服务器主流型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 2007,
+  "path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "reason": "HP 刀片服务器主流型号。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ]
+ },
+ {
+  "id": "C-SV-000053",
+  "name": "IBM BladeCenter HS21",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 2007,
+  "taxonomy_path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "influence": "IBM 刀片服务器型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 2007,
+  "path": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ],
+  "reason": "IBM 刀片服务器型号。",
+  "_taxonomy": [
+   "计算机",
+   "服务器",
+   "刀片式"
+  ]
+ }
+]

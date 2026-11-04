@@ -1,0 +1,583 @@
+{
+  "meta": {
+    "id": "macintosh128k",
+    "name": {
+      "zh": "Macintosh 128K",
+      "en": "Macintosh 128K"
+    },
+    "intro": {
+      "zh": "Macintosh 128K 是 1984 年苹果推出的首台面向大众的图形界面个人计算机，以 68000 处理器、9 英寸黑白屏、鼠标与位图 GUI 把图形界面带进千家万户。",
+      "en": "The Macintosh 128K, introduced by Apple in 1984, brought the graphical user interface and mouse to the mass market."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1984,
+    "manufacturer": "Apple",
+    "category": "personal-computer",
+    "description": "Macintosh 128K（1984），苹果首台大众图形界面个人计算机：68000 CPU、128KB 内存、9 英寸单显（512×342）、3.5 英寸 400KB 软驱、单键鼠标。",
+    "authors": [
+      {
+        "name": "TASK-58B 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Macintosh 128K",
+        "url": "https://en.wikipedia.org/wiki/Macintosh_128K",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Motorola 68000",
+        "url": "https://en.wikipedia.org/wiki/Motorola_68000",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "Mini vMac — early Macintosh emulator",
+        "url": "https://www.gryphel.com/c/minivmac/",
+        "license": "licensed",
+        "accessed_at": "2026-11-04"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Macintosh 128K 整机，1984 年推出的首台大众图形界面个人计算机。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "case",
+        "crt_display",
+        "motherboard",
+        "floppy_drive",
+        "keyboard",
+        "mouse"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "ad_1984",
+        "gui_demo",
+        "mouse_intro"
+      ]
+    },
+    {
+      "id": "case",
+      "name": "一体机壳",
+      "role": {
+        "zh": "一体机壳在整机中作为米色外壳，集成了提手凹槽、签名内壁与散热口，是整机的结构骨架。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "handle_recess",
+        "signature_wall",
+        "vent_slots"
+      ],
+      "annotations": [
+        "case_role",
+        "signature_wall_story"
+      ],
+      "mesh_ref": "assemblies/case.gltf"
+    },
+    {
+      "id": "crt_display",
+      "name": "9 英寸单显模组",
+      "role": {
+        "zh": "9 英寸单显模组在整机中显示 512×342 黑白位图画面，是系统的主要显示设备。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "crt_tube",
+        "brightness_knob"
+      ],
+      "annotations": [
+        "crt_display_role"
+      ],
+      "mesh_ref": "assemblies/crt_display.gltf"
+    },
+    {
+      "id": "motherboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 68000 处理器、128KB 内存与 ROM，是系统的核心电路板。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cpu_68000",
+        "ram",
+        "rom",
+        "keyboard_port",
+        "mouse_port",
+        "serial_port"
+      ],
+      "annotations": [
+        "motherboard_role"
+      ],
+      "mesh_ref": "assemblies/motherboard.gltf"
+    },
+    {
+      "id": "floppy_drive",
+      "name": "3.5 英寸软驱",
+      "role": {
+        "zh": "3.5 英寸软驱在整机中读写 400KB 软盘，是程序与文档的唯一存储介质。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "disk_slot",
+        "eject_mechanism"
+      ],
+      "annotations": [
+        "floppy_drive_role",
+        "floppy_400k"
+      ],
+      "mesh_ref": "assemblies/floppy_drive.gltf"
+    },
+    {
+      "id": "keyboard",
+      "name": "键盘（无方向键）",
+      "role": {
+        "zh": "键盘在整机中作为文字输入界面，刻意省去方向键以引导用户使用鼠标。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "key_matrix",
+        "keyboard_cable"
+      ],
+      "annotations": [
+        "keyboard_role",
+        "no_arrow_keys"
+      ],
+      "mesh_ref": "assemblies/keyboard.gltf"
+    },
+    {
+      "id": "mouse",
+      "name": "单键鼠标",
+      "role": {
+        "zh": "鼠标在整机中作为指点输入设备，单键设计让操作简单直观。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "mouse_button",
+        "tracking_ball"
+      ],
+      "annotations": [
+        "mouse_role"
+      ],
+      "mesh_ref": "assemblies/mouse.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "handle_recess",
+      "name": "顶部提手凹槽",
+      "type": "handle",
+      "role": {
+        "zh": "顶部提手凹槽在整机中内凹于机壳顶部，便于单手搬运整机。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "handle_recess_role"
+      ]
+    },
+    {
+      "id": "signature_wall",
+      "name": "工程师签名内壁",
+      "type": "panel",
+      "role": {
+        "zh": "签名内壁在整机中铸有 1982 年 Macintosh 团队成员的签名，是机壳内侧的纪念性细节。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "signature_wall_role"
+      ]
+    },
+    {
+      "id": "vent_slots",
+      "name": "散热通风口",
+      "type": "vent",
+      "role": {
+        "zh": "散热通风口在整机中为无风扇的对流散热提供空气通道。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "vent_slots_role"
+      ]
+    },
+    {
+      "id": "crt_tube",
+      "name": "9 英寸显像管",
+      "type": "crt",
+      "role": {
+        "zh": "9 英寸显像管在整机中显示 512×342 黑白位图，是系统输出的核心显示部件。"
+      },
+      "assembly": "crt_display",
+      "annotations": [
+        "crt_tube_role"
+      ]
+    },
+    {
+      "id": "brightness_knob",
+      "name": "亮度旋钮",
+      "type": "knob",
+      "role": {
+        "zh": "亮度旋钮在整机中调节画面亮度，便于在不同光照下阅读。"
+      },
+      "assembly": "crt_display",
+      "annotations": [
+        "brightness_knob_role"
+      ]
+    },
+    {
+      "id": "cpu_68000",
+      "name": "68000 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "68000 处理器在整机中作为计算核心，32 位内部、16 位外部，主频 7.8336 MHz。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "cpu_68000_role"
+      ]
+    },
+    {
+      "id": "ram",
+      "name": "内存（128KB）",
+      "type": "ram",
+      "role": {
+        "zh": "128KB 内存在整机中存放程序与数据，是系统运行时的主存储。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ram_role"
+      ]
+    },
+    {
+      "id": "rom",
+      "name": "系统 ROM（64KB）",
+      "type": "rom",
+      "role": {
+        "zh": "系统 ROM 在整机中固化图形工具箱与操作系统例程，是 GUI 快速运行的基础。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "rom_role"
+      ]
+    },
+    {
+      "id": "keyboard_port",
+      "name": "键盘接口",
+      "type": "connector",
+      "role": {
+        "zh": "键盘接口在整机中连接键盘，把按键信号送入系统。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "keyboard_port_role"
+      ]
+    },
+    {
+      "id": "mouse_port",
+      "name": "鼠标接口",
+      "type": "connector",
+      "role": {
+        "zh": "鼠标接口在整机中连接单键鼠标，把指点输入送入系统。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "mouse_port_role"
+      ]
+    },
+    {
+      "id": "serial_port",
+      "name": "串行接口",
+      "type": "connector",
+      "role": {
+        "zh": "串行接口在整机中提供 RS-422 串行通信，用于连接打印机与外设。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "serial_port_role"
+      ]
+    },
+    {
+      "id": "disk_slot",
+      "name": "软盘插槽",
+      "type": "bay",
+      "role": {
+        "zh": "软盘插槽在整机中接纳 3.5 英寸 400KB 软盘，是系统加载程序的入口。"
+      },
+      "assembly": "floppy_drive",
+      "annotations": [
+        "disk_slot_role"
+      ]
+    },
+    {
+      "id": "eject_mechanism",
+      "name": "软盘弹出机构",
+      "type": "mechanism",
+      "role": {
+        "zh": "软盘弹出机构在整机中推出软盘，机械式无电源弹出。"
+      },
+      "assembly": "floppy_drive",
+      "annotations": [
+        "eject_mechanism_role"
+      ]
+    },
+    {
+      "id": "key_matrix",
+      "name": "键盘矩阵（无方向键）",
+      "type": "keyboard",
+      "role": {
+        "zh": "键盘矩阵在整机中承载字母与功能键，刻意不含方向键以推广鼠标操作。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "key_matrix_role"
+      ]
+    },
+    {
+      "id": "keyboard_cable",
+      "name": "键盘连接线",
+      "type": "cable",
+      "role": {
+        "zh": "键盘连接线在整机中连接键盘与主机，传输按键信号。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "keyboard_cable_role"
+      ]
+    },
+    {
+      "id": "mouse_button",
+      "name": "单键鼠标按键",
+      "type": "button",
+      "role": {
+        "zh": "单键鼠标按键在整机中提供唯一点击操作，让指点选择简单直观。"
+      },
+      "assembly": "mouse",
+      "annotations": [
+        "mouse_button_role"
+      ]
+    },
+    {
+      "id": "tracking_ball",
+      "name": "鼠标滚球",
+      "type": "mechanism",
+      "role": {
+        "zh": "鼠标滚球在整机中通过滚动感知位移，驱动屏幕光标移动。"
+      },
+      "assembly": "mouse",
+      "annotations": [
+        "tracking_ball_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Macintosh 128K",
+    "media_hint": "floppy",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "internal_crt_0",
+        "surface": "internal_crt",
+        "type": "video",
+        "format": "mono1"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      },
+      {
+        "id": "led_0",
+        "surface": "led",
+        "type": "video",
+        "format": "mono1"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "enter": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "escape": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      },
+      "space": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      },
+      "ctrl": {
+        "map": "keyboard",
+        "key": "KEY_CTRL"
+      },
+      "alt": {
+        "map": "keyboard",
+        "key": "KEY_ALT"
+      },
+      "mouse_move": {
+        "map": "mouse",
+        "key": "motion"
+      },
+      "mouse_click": {
+        "map": "mouse",
+        "key": "btn_left"
+      }
+    }
+  }
+}

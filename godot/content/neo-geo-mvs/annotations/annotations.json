@@ -1,0 +1,256 @@
+{
+  "annotations": [
+    {
+      "id": "neo_geo_mvs_role",
+      "type": "role",
+      "target": "neo_geo_mvs",
+      "text": "Neo Geo MVS 街机柜整机，1990 年 SNK 推出的多视频系统街机，由框体、CRT 屏、控制台、MVS 基板、卡带、投币机构与电源组成，是街机厅首台设备。",
+      "sources": []
+    },
+    {
+      "id": "cabinet_role",
+      "type": "role",
+      "target": "cabinet",
+      "text": "框体在整机中作为立式木板机柜，承载全部内部部件，顶部带灯箱，是街机厅的物理主体。",
+      "sources": []
+    },
+    {
+      "id": "crt_module_role",
+      "type": "role",
+      "target": "crt_module",
+      "text": "CRT 屏模组在整机中显示游戏画面，是街机厅大屏体验的核心显示部件。",
+      "sources": []
+    },
+    {
+      "id": "control_panel_role",
+      "type": "role",
+      "target": "control_panel",
+      "text": "控制台在整机中提供摇杆与按键输入，是玩家操作游戏的面板，带 4 键（A/B/C/D）布局。",
+      "sources": []
+    },
+    {
+      "id": "mvs_board_role",
+      "type": "role",
+      "target": "mvs_board",
+      "text": "MVS 基板在整机中承载 68000 主处理器与图形音源芯片，带双卡带槽位，是街机的主机核心。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_role",
+      "type": "role",
+      "target": "cartridge",
+      "text": "卡带在整机中存放游戏程序，MVS 大卡尺寸，插入基板槽位即更换游戏。",
+      "sources": []
+    },
+    {
+      "id": "coin_mechanism_role",
+      "type": "role",
+      "target": "coin_mechanism",
+      "text": "投币机构在整机中检测投币并触发游戏开始，是街机投币文化的物理载体。",
+      "sources": []
+    },
+    {
+      "id": "power_supply_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源在整机中为框体各部件供电，是街机稳定运行的电力基础。",
+      "sources": []
+    },
+    {
+      "id": "cpu_68k_role",
+      "type": "role",
+      "target": "cpu_68k",
+      "text": "Motorola 68000 处理器在整机中执行游戏程序，是 MVS 基板的主运算核心。",
+      "sources": []
+    },
+    {
+      "id": "cpu_z80_role",
+      "type": "role",
+      "target": "cpu_z80",
+      "text": "Zilog Z80 处理器在整机中驱动声音芯片，是 MVS 基板的副处理器。",
+      "sources": []
+    },
+    {
+      "id": "ym2610_role",
+      "type": "role",
+      "target": "ym2610",
+      "text": "YM2610 FM 音源在整机中提供 FM 合成与采样声音，是 Neo Geo 标志性音色的来源。",
+      "sources": []
+    },
+    {
+      "id": "boot_flow",
+      "type": "flow",
+      "target": "neo_geo_mvs",
+      "text": "开机流程：投币后 68000 从卡带程序入口启动，初始化图形与音源，进入游戏主循环；框体电源经电源模块分配到各部件。",
+      "sources": []
+    },
+    {
+      "id": "coin_flow",
+      "type": "flow",
+      "target": "coin_mechanism",
+      "text": "投币流程：硬币投入投币口，经轨道触发微动开关，投币机构输出信号，MVS 基板检测到投币后进入可开始游戏状态。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_swap_flow",
+      "type": "flow",
+      "target": "cartridge",
+      "text": "换卡流程：MVS 基板带双卡带槽位，玩家可在不停机状态下插入第二张卡带，通过切换槽位更换游戏，实现换卡不停机。",
+      "sources": []
+    },
+    {
+      "id": "coin_insert_anim",
+      "type": "anim",
+      "target": "coin_mechanism",
+      "text": "投币动画：硬币投入投币口触发，硬币沿轨道滚落，触发微动开关，投币机构回馈一声投币音，游戏进入可开始状态，全程约 1 秒。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_insert_anim",
+      "type": "anim",
+      "target": "cartridge",
+      "text": "卡带插拔动画：玩家将 MVS 大卡对准基板槽位插入触发，卡带沿水平方向滑入槽位，金手指啮合，拔出时反向抽出，单次约 1 秒。",
+      "sources": []
+    },
+    {
+      "id": "joystick_anim",
+      "type": "anim",
+      "target": "control_panel",
+      "text": "摇杆动画：玩家拨动摇杆触发，摇杆绕中心摆动，驱动方向触点通断，松开回中，是格斗游戏搓招的输入基础。",
+      "sources": []
+    },
+    {
+      "id": "coin_culture_role",
+      "type": "role",
+      "target": "coin_mechanism",
+      "text": "投币文化在整机中是街机厅的独特体验，投币启动游戏的仪式感，是街机区别于家用机的核心交互，也是街机厅氛围的灵魂。",
+      "sources": []
+    },
+    {
+      "id": "multi_slot_role",
+      "type": "role",
+      "target": "mvs_board",
+      "text": "双卡带槽位在整机中是 MVS 的多视频系统特色，支持多卡带同时安装与切换，实现换卡不停机，是街机运营效率的关键设计。",
+      "sources": []
+    },
+    {
+      "id": "snk_decade_role",
+      "type": "role",
+      "target": "neo_geo_mvs",
+      "text": "SNK 十年基板在整机中体现为 MVS 自 1990 年起持续十年的生命周期，孕育了拳皇、侍魂、合金弹头等格斗与射击名作，是街机黄金年代的见证。",
+      "sources": []
+    },
+    {
+      "id": "fighting_era_role",
+      "type": "role",
+      "target": "neo_geo_mvs",
+      "text": "格斗年代在整机中体现为 90 年代街机格斗游戏热潮，拳皇与侍魂等 Neo Geo 格斗游戏是街机厅对战文化的代表。",
+      "sources": []
+    },
+    {
+      "id": "aes_dual_role",
+      "type": "role",
+      "target": "neo_geo_mvs",
+      "text": "MVS 街机与 AES 家用双轨在整机中体现为 Neo Geo 的双线战略，MVS 面向街机厅、AES 面向高端家用，两者共享同一卡带规格，是街机家用同源的典范。",
+      "sources": []
+    },
+    {
+      "id": "marquee_role",
+      "type": "role",
+      "target": "cabinet",
+      "text": "灯箱在整机中位于框体顶部，展示游戏标题与插画，是街机框体的招牌，也是街机厅视觉氛围的标志。",
+      "sources": []
+    },
+    {
+      "id": "six_button_role",
+      "type": "role",
+      "target": "control_panel",
+      "text": "控制台按键布局在整机中提供 4 键（A/B/C/D）标准布局，Neo Geo 的 4 键是格斗游戏的标准，部分框体扩展为 6 键以兼容更多游戏。",
+      "sources": []
+    },
+    {
+      "id": "big_cart_role",
+      "type": "role",
+      "target": "cartridge",
+      "text": "MVS 大卡在整机中是 Neo Geo 标志性的大尺寸卡带，比家用机卡带大数倍，是街机基板卡带的视觉符号。",
+      "sources": []
+    },
+    {
+      "id": "crt_arcade_role",
+      "type": "role",
+      "target": "crt_module",
+      "text": "街机 CRT 在整机中是街机厅大屏体验的核心，25 至 29 英寸大屏配扫描线，是街机画面质感的关键。",
+      "sources": []
+    },
+    {
+      "id": "joystick_role",
+      "type": "role",
+      "target": "control_panel",
+      "text": "摇杆手感在整机中是格斗游戏的核心，Neo Geo 框体的摇杆以回中快、行程清晰著称，是街机格斗玩家的操作基石。",
+      "sources": []
+    },
+    {
+      "id": "coin_mech_role",
+      "type": "role",
+      "target": "coin_mechanism",
+      "text": "投币机构机械在整机中由投币口、轨道、微动开关与退币口组成，是街机最精密的机械部件之一。",
+      "sources": []
+    },
+    {
+      "id": "power_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "街机电源在整机中为框体、CRT、基板与投币机构供电，是街机长时间稳定运行的保障。",
+      "sources": []
+    },
+    {
+      "id": "cabinet_wood_role",
+      "type": "role",
+      "target": "cabinet",
+      "text": "木板柜体在整机中体现为街机的立式木制机柜，是街机厅的经典形态，与家用机的塑料机身形成鲜明对比。",
+      "sources": []
+    },
+    {
+      "id": "neogeo_badge_role",
+      "type": "role",
+      "target": "cabinet",
+      "text": "Neo Geo 铭牌在整机中是 SNK 的品牌标识，位于框体与控制台，是识别 Neo Geo 街机的关键。",
+      "sources": []
+    },
+    {
+      "id": "dual_cpu_role",
+      "type": "role",
+      "target": "mvs_board",
+      "text": "双 CPU 架构在整机中体现为 68000 主算与 Z80 声响的分工，与家用机 MD 同源的街机架构。",
+      "sources": []
+    },
+    {
+      "id": "cart_swap_anim",
+      "type": "anim",
+      "target": "cartridge",
+      "text": "换卡不停机动画：MVS 双槽位支持在游戏运行中切换卡带，玩家按切换键，基板切换到第二槽位卡带，游戏画面切换，体现街机运营的高效。",
+      "sources": []
+    },
+    {
+      "id": "aes_cart_role",
+      "type": "role",
+      "target": "cartridge",
+      "text": "卡带共用规格在整机中体现为 MVS 街机卡与 AES 家用卡同一尺寸，玩家买一张 Neo Geo 卡带即可在家与街机厅通用，是街机家用同源的体现。",
+      "sources": []
+    },
+    {
+      "id": "fighting_game_role",
+      "type": "role",
+      "target": "control_panel",
+      "text": "格斗游戏搓招在整机中是摇杆的核心用途，Neo Geo 框体的摇杆与 4 键专为格斗游戏设计，是拳皇与侍魂玩家的操作利器。",
+      "sources": []
+    },
+    {
+      "id": "arcade_culture_role",
+      "type": "role",
+      "target": "neo_geo_mvs",
+      "text": "街机厅文化在整机中体现为投币、对战、围观与呐喊的社交体验，Neo Geo MVS 街机柜是这一文化的物理载体，也是游戏机厅街机区的叙事核心。",
+      "sources": []
+    }
+  ]
+}

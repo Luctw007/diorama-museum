@@ -1,0 +1,77 @@
+{
+  "emulator": "stella",
+  "version": "7.0",
+  "system": "a2600",
+  "media_hint": "cartridge",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {
+      "id": "crt_external",
+      "surface": "external_crt",
+      "type": "video",
+      "format": "rgba8"
+    },
+    {
+      "id": "speaker_0",
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16"
+    },
+    {
+      "id": "led_power",
+      "surface": "led",
+      "type": "hid"
+    }
+  ],
+  "input_map": {
+    "joy_up": {
+      "map": "joystick",
+      "key": "axis_y"
+    },
+    "joy_down": {
+      "map": "joystick",
+      "key": "axis_y"
+    },
+    "joy_left": {
+      "map": "joystick",
+      "key": "axis_x"
+    },
+    "joy_right": {
+      "map": "joystick",
+      "key": "axis_x"
+    },
+    "fire": {
+      "map": "joystick",
+      "key": "btn0"
+    },
+    "paddle_axis": {
+      "map": "joystick",
+      "key": "axis_x"
+    },
+    "power": {
+      "map": "keyboard",
+      "key": "KEY_POWER"
+    },
+    "reset": {
+      "map": "keyboard",
+      "key": "KEY_RESET"
+    },
+    "select": {
+      "map": "keyboard",
+      "key": "KEY_F1"
+    },
+    "difficulty_l": {
+      "map": "keyboard",
+      "key": "KEY_F2"
+    },
+    "difficulty_r": {
+      "map": "keyboard",
+      "key": "KEY_F3"
+    },
+    "tv_type": {
+      "map": "keyboard",
+      "key": "KEY_F4"
+    }
+  }
+}

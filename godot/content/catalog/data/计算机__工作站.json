@@ -1,0 +1,1840 @@
+[
+ {
+  "id": "C-WS-000001",
+  "name": "Sun-1",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "influence": "Sun 首台工作站，面向 Unix 与网络。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "reason": "Sun 首台工作站，面向 Unix 与网络。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ]
+ },
+ {
+  "id": "C-WS-000002",
+  "name": "Sun-2",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "influence": "早期 Unix 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "reason": "早期 Unix 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ]
+ },
+ {
+  "id": "C-WS-000003",
+  "name": "Sun-3",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "influence": "68k 工作站成熟型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "reason": "68k 工作站成熟型号。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ]
+ },
+ {
+  "id": "C-WS-000004",
+  "name": "Sun-4",
+  "aliases": [
+   "Sun-4/260"
+  ],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "influence": "SPARC 架构首代工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "reason": "SPARC 架构首代工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ]
+ },
+ {
+  "id": "C-WS-000005",
+  "name": "SPARCstation 1",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1989,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "influence": "RISC 工作站，SPARC 架构普及。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1989,
+  "path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "reason": "RISC 工作站，SPARC 架构普及。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ]
+ },
+ {
+  "id": "C-WS-000006",
+  "name": "SPARCstation 1+",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "influence": "SPARCstation 1 增强。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "reason": "SPARCstation 1 增强。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ]
+ },
+ {
+  "id": "C-WS-000007",
+  "name": "SPARCstation 2",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "influence": "SPARC 工作站普及型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "reason": "SPARC 工作站普及型号。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ]
+ },
+ {
+  "id": "C-WS-000008",
+  "name": "SPARCstation 5",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "influence": "低价 SPARC 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1994,
+  "path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "reason": "低价 SPARC 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ]
+ },
+ {
+  "id": "C-WS-000009",
+  "name": "SPARCstation 10",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1992,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "influence": "多处理器工作站，工程与科学。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1992,
+  "path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "reason": "多处理器工作站，工程与科学。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ]
+ },
+ {
+  "id": "C-WS-000010",
+  "name": "SPARCstation 20",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "influence": "多处理器 SPARC 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1994,
+  "path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "reason": "多处理器 SPARC 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ]
+ },
+ {
+  "id": "C-WS-000011",
+  "name": "Sun Ultra 1",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1995,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "influence": "64 位 UltraSPARC，工作站黄金期。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1995,
+  "path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "reason": "64 位 UltraSPARC，工作站黄金期。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ]
+ },
+ {
+  "id": "C-WS-000012",
+  "name": "Sun Ultra 2",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1996,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "influence": "UltraSPARC 工作站，Creator 3D 图形。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1996,
+  "path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "reason": "UltraSPARC 工作站，Creator 3D 图形。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ]
+ },
+ {
+  "id": "C-WS-000013",
+  "name": "Sun Ultra 5",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1998,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "influence": "低价 UltraSPARC 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1998,
+  "path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "reason": "低价 UltraSPARC 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ]
+ },
+ {
+  "id": "C-WS-000014",
+  "name": "Sun Ultra 10",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1999,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "influence": "主流 UltraSPARC 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1999,
+  "path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "reason": "主流 UltraSPARC 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ]
+ },
+ {
+  "id": "C-WS-000051",
+  "name": "SPARCstation 4",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1995,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "influence": "低价 SPARC 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1995,
+  "path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "reason": "低价 SPARC 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ]
+ },
+ {
+  "id": "C-WS-000052",
+  "name": "Sun Ultra 30",
+  "aliases": [],
+  "manufacturer": "Sun Microsystems",
+  "origin": "美国",
+  "era": 1997,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "influence": "主流 UltraSPARC 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sun Microsystems",
+  "year": 1997,
+  "path": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ],
+  "reason": "主流 UltraSPARC 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Sun"
+  ]
+ },
+ {
+  "id": "C-WS-000015",
+  "name": "SGI IRIS 1000",
+  "aliases": [],
+  "manufacturer": "Silicon Graphics",
+  "origin": "美国",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "influence": "SGI 首台图形工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Silicon Graphics",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "reason": "SGI 首台图形工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ]
+ },
+ {
+  "id": "C-WS-000016",
+  "name": "SGI IRIS 4D",
+  "aliases": [],
+  "manufacturer": "Silicon Graphics",
+  "origin": "美国",
+  "era": 1988,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "influence": "RISC 图形工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Silicon Graphics",
+  "year": 1988,
+  "path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "reason": "RISC 图形工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ]
+ },
+ {
+  "id": "C-WS-000017",
+  "name": "SGI Indigo",
+  "aliases": [],
+  "manufacturer": "Silicon Graphics",
+  "origin": "美国",
+  "era": 1991,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "influence": "多媒体工作站，图形界标志。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Silicon Graphics",
+  "year": 1991,
+  "path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "reason": "多媒体工作站，图形界标志。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ]
+ },
+ {
+  "id": "C-WS-000018",
+  "name": "SGI Indigo2",
+  "aliases": [],
+  "manufacturer": "Silicon Graphics",
+  "origin": "美国",
+  "era": 1993,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "influence": "高端图形工作站，特效行业标配。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Silicon Graphics",
+  "year": 1993,
+  "path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "reason": "高端图形工作站，特效行业标配。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ]
+ },
+ {
+  "id": "C-WS-000019",
+  "name": "SGI Indy",
+  "aliases": [],
+  "manufacturer": "Silicon Graphics",
+  "origin": "美国",
+  "era": 1993,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "influence": "低价图形工作站，数字影像普及。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Silicon Graphics",
+  "year": 1993,
+  "path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "reason": "低价图形工作站，数字影像普及。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ]
+ },
+ {
+  "id": "C-WS-000020",
+  "name": "SGI O2",
+  "aliases": [],
+  "manufacturer": "Silicon Graphics",
+  "origin": "美国",
+  "era": 1996,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "influence": "一体化图形工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Silicon Graphics",
+  "year": 1996,
+  "path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "reason": "一体化图形工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ]
+ },
+ {
+  "id": "C-WS-000021",
+  "name": "SGI Octane",
+  "aliases": [],
+  "manufacturer": "Silicon Graphics",
+  "origin": "美国",
+  "era": 1997,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "influence": "桌面图形工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Silicon Graphics",
+  "year": 1997,
+  "path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "reason": "桌面图形工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ]
+ },
+ {
+  "id": "C-WS-000022",
+  "name": "SGI Octane2",
+  "aliases": [],
+  "manufacturer": "Silicon Graphics",
+  "origin": "美国",
+  "era": 2000,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "influence": "Octane 增强型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Silicon Graphics",
+  "year": 2000,
+  "path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "reason": "Octane 增强型号。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ]
+ },
+ {
+  "id": "C-WS-000023",
+  "name": "SGI Onyx",
+  "aliases": [],
+  "manufacturer": "Silicon Graphics",
+  "origin": "美国",
+  "era": 1993,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "influence": "图形超级工作站，特效渲染主力。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Silicon Graphics",
+  "year": 1993,
+  "path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "reason": "图形超级工作站，特效渲染主力。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ]
+ },
+ {
+  "id": "C-WS-000024",
+  "name": "SGI Onyx2",
+  "aliases": [],
+  "manufacturer": "Silicon Graphics",
+  "origin": "美国",
+  "era": 1996,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "influence": "高端图形超级工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Silicon Graphics",
+  "year": 1996,
+  "path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "reason": "高端图形超级工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ]
+ },
+ {
+  "id": "C-WS-000025",
+  "name": "SGI Crimson",
+  "aliases": [],
+  "manufacturer": "Silicon Graphics",
+  "origin": "美国",
+  "era": 1992,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "influence": "高性能图形工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Silicon Graphics",
+  "year": 1992,
+  "path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "reason": "高性能图形工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ]
+ },
+ {
+  "id": "C-WS-000026",
+  "name": "SGI Fuel",
+  "aliases": [],
+  "manufacturer": "Silicon Graphics",
+  "origin": "美国",
+  "era": 2002,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "influence": "SGI 末代工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Silicon Graphics",
+  "year": 2002,
+  "path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "reason": "SGI 末代工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ]
+ },
+ {
+  "id": "C-WS-000054",
+  "name": "SGI Iris Indigo R4000",
+  "aliases": [],
+  "manufacturer": "Silicon Graphics",
+  "origin": "美国",
+  "era": 1992,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "influence": "Indigo R4000 版本。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Silicon Graphics",
+  "year": 1992,
+  "path": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ],
+  "reason": "Indigo R4000 版本。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "SGI"
+  ]
+ },
+ {
+  "id": "C-WS-000027",
+  "name": "Apollo DN100",
+  "aliases": [],
+  "manufacturer": "Apollo Computer",
+  "origin": "美国",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Apollo"
+  ],
+  "influence": "首台图形工作站，定义品类。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apollo Computer",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "工作站",
+   "Apollo"
+  ],
+  "reason": "首台图形工作站，定义品类。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Apollo"
+  ]
+ },
+ {
+  "id": "C-WS-000028",
+  "name": "Apollo DN300",
+  "aliases": [],
+  "manufacturer": "Apollo Computer",
+  "origin": "美国",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Apollo"
+  ],
+  "influence": "早期工作站普及型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apollo Computer",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "工作站",
+   "Apollo"
+  ],
+  "reason": "早期工作站普及型号。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Apollo"
+  ]
+ },
+ {
+  "id": "C-WS-000029",
+  "name": "Apollo DN4000",
+  "aliases": [],
+  "manufacturer": "Apollo Computer",
+  "origin": "美国",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Apollo"
+  ],
+  "influence": "高性能工作站，后被 HP 收购。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apollo Computer",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "工作站",
+   "Apollo"
+  ],
+  "reason": "高性能工作站，后被 HP 收购。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Apollo"
+  ]
+ },
+ {
+  "id": "C-WS-000030",
+  "name": "Apollo DN5500",
+  "aliases": [],
+  "manufacturer": "Apollo Computer",
+  "origin": "美国",
+  "era": 1988,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Apollo"
+  ],
+  "influence": "Apollo 中高端工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apollo Computer",
+  "year": 1988,
+  "path": [
+   "计算机",
+   "工作站",
+   "Apollo"
+  ],
+  "reason": "Apollo 中高端工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Apollo"
+  ]
+ },
+ {
+  "id": "C-WS-000031",
+  "name": "Apollo DN10000",
+  "aliases": [],
+  "manufacturer": "Apollo Computer",
+  "origin": "美国",
+  "era": 1988,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "Apollo"
+  ],
+  "influence": "多处理器高端工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apollo Computer",
+  "year": 1988,
+  "path": [
+   "计算机",
+   "工作站",
+   "Apollo"
+  ],
+  "reason": "多处理器高端工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "Apollo"
+  ]
+ },
+ {
+  "id": "C-WS-000032",
+  "name": "NeXT Computer",
+  "aliases": [],
+  "manufacturer": "NeXT",
+  "origin": "美国",
+  "era": 1988,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "NeXT"
+  ],
+  "influence": "乔布斯创立 NeXT 的首台电脑，黑立方经典。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NeXT",
+  "year": 1988,
+  "path": [
+   "计算机",
+   "工作站",
+   "NeXT"
+  ],
+  "reason": "乔布斯创立 NeXT 的首台电脑，黑立方经典。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "NeXT"
+  ]
+ },
+ {
+  "id": "C-WS-000033",
+  "name": "NeXTcube",
+  "aliases": [],
+  "manufacturer": "NeXT",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "NeXT"
+  ],
+  "influence": "NeXT 图形工作站，孕育万维网。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NeXT",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "工作站",
+   "NeXT"
+  ],
+  "reason": "NeXT 图形工作站，孕育万维网。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "NeXT"
+  ]
+ },
+ {
+  "id": "C-WS-000034",
+  "name": "NeXTstation",
+  "aliases": [],
+  "manufacturer": "NeXT",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "NeXT"
+  ],
+  "influence": "NeXT 桌面工作站，NeXTSTEP 系统。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NeXT",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "工作站",
+   "NeXT"
+  ],
+  "reason": "NeXT 桌面工作站，NeXTSTEP 系统。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "NeXT"
+  ]
+ },
+ {
+  "id": "C-WS-000035",
+  "name": "HP 9000 Series 300",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "HP 68k 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "HP 68k 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-WS-000036",
+  "name": "HP 9000 Series 400",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 1988,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "HP 68k 工作站后续。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 1988,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "HP 68k 工作站后续。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-WS-000037",
+  "name": "HP 9000 Series 700",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 1991,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "PA-RISC 工作站，性能出众。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 1991,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "PA-RISC 工作站，性能出众。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-WS-000038",
+  "name": "HP 9000 715",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "HP 低价 PA-RISC 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 1994,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "HP 低价 PA-RISC 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-WS-000039",
+  "name": "HP 9000 735",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 1992,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "HP 高端 PA-RISC 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 1992,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "HP 高端 PA-RISC 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-WS-000040",
+  "name": "DECstation 3100",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1989,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "MIPS 架构 Unix 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1989,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "MIPS 架构 Unix 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-WS-000041",
+  "name": "DECstation 5000",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "MIPS 架构 Unix 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "MIPS 架构 Unix 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-WS-000042",
+  "name": "VAXstation 2000",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "低价 VAX 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "低价 VAX 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-WS-000043",
+  "name": "VAXstation 3100",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1988,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "VAX 工作站普及型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1988,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "VAX 工作站普及型号。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-WS-000044",
+  "name": "AlphaStation",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "Alpha 64 位工作站，性能巅峰。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1994,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "Alpha 64 位工作站，性能巅峰。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-WS-000045",
+  "name": "AlphaStation 500",
+  "aliases": [],
+  "manufacturer": "DEC",
+  "origin": "美国",
+  "era": 1995,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "Alpha 工作站主力。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "DEC",
+  "year": 1995,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "Alpha 工作站主力。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-WS-000046",
+  "name": "IBM RT PC",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "IBM 首台 RISC 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "IBM 首台 RISC 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-WS-000047",
+  "name": "IBM RS/6000",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "POWER 架构工作站，性能领先。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "POWER 架构工作站，性能领先。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-WS-000048",
+  "name": "Sony NEWS",
+  "aliases": [],
+  "manufacturer": "索尼",
+  "origin": "日本",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "日本 Unix 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "索尼",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "日本 Unix 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-WS-000049",
+  "name": "Intergraph Clipper",
+  "aliases": [],
+  "manufacturer": "Intergraph",
+  "origin": "美国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "CAD 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Intergraph",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "CAD 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-WS-000050",
+  "name": "Tadpole SPARCbook",
+  "aliases": [],
+  "manufacturer": "Tadpole",
+  "origin": "英国",
+  "era": 1994,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "便携 SPARC 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Tadpole",
+  "year": 1994,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "便携 SPARC 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ },
+ {
+  "id": "C-WS-000053",
+  "name": "HP 9000 712",
+  "aliases": [],
+  "manufacturer": "Hewlett-Packard",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "influence": "HP 低价 PA-RISC 工作站。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Hewlett-Packard",
+  "year": 1994,
+  "path": [
+   "计算机",
+   "工作站",
+   "HP"
+  ],
+  "reason": "HP 低价 PA-RISC 工作站。",
+  "_taxonomy": [
+   "计算机",
+   "工作站",
+   "HP"
+  ]
+ }
+]

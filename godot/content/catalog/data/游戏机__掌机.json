@@ -1,0 +1,3821 @@
+[
+ {
+  "id": "G-HAND-000001",
+  "名称": "Game & Watch Ball",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1980,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "G&W 系列首款，横井军平枯萎技术思考的起点。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game & Watch Ball",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1980,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "G&W 系列首款，横井军平枯萎技术思考的起点。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000002",
+  "名称": "Game & Watch Donkey Kong",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "G&W 双屏代表作，首现十字键，金色壳最经典。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game & Watch Donkey Kong",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "G&W 双屏代表作，首现十字键，金色壳最经典。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000003",
+  "名称": "Game & Watch Fire",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1980,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "G&W 银系列代表作，接住跳楼小人的经典玩法。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game & Watch Fire",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1980,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "G&W 银系列代表作，接住跳楼小人的经典玩法。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000004",
+  "名称": "Game & Watch Octopus",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1981,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "G&W 宽屏代表作，潜水捞宝玩法。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game & Watch Octopus",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "G&W 宽屏代表作，潜水捞宝玩法。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000005",
+  "名称": "Game & Watch Oil Panic",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "G&W 双屏代表作，接漏油的玩法。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game & Watch Oil Panic",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "G&W 双屏代表作，接漏油的玩法。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000006",
+  "名称": "Game & Watch Mario Bros",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1983,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "G&W 宽屏代表作，马力欧兄弟首次登场掌机。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game & Watch Mario Bros",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "G&W 宽屏代表作，马力欧兄弟首次登场掌机。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000007",
+  "名称": "Game Boy",
+  "别名": [
+   "GB",
+   "DMG-01"
+  ],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1989,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "以够用硬件与《俄罗斯方块》捆绑开辟手提机品类，史上最畅销掌机之一。",
+  "状态": "researching",
+  "关联包": null,
+  "来源编号": [
+   "S44"
+  ],
+  "name": "Game Boy",
+  "aliases": [
+   "GB",
+   "DMG-01"
+  ],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1989,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "以够用硬件与《俄罗斯方块》捆绑开辟手提机品类，史上最畅销掌机之一。",
+  "status": "researching",
+  "device_id": null,
+  "sources": [
+   "S44"
+  ],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000008",
+  "名称": "Game Boy Pocket",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1996,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "GB 的小型化改版，屏幕更清晰。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game Boy Pocket",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "GB 的小型化改版，屏幕更清晰。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000009",
+  "名称": "Game Boy Light",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1998,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "GB 的背光版，仅日本发售。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game Boy Light",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "GB 的背光版，仅日本发售。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000010",
+  "名称": "Game Boy Color",
+  "别名": [
+   "GBC"
+  ],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1998,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "GB 的彩色升级版，向下兼容。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game Boy Color",
+  "aliases": [
+   "GBC"
+  ],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "GB 的彩色升级版，向下兼容。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000011",
+  "名称": "Game Boy Advance",
+  "别名": [
+   "GBA"
+  ],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2001,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "32 位掌机，横版造型，游戏库庞大。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game Boy Advance",
+  "aliases": [
+   "GBA"
+  ],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "32 位掌机，横版造型，游戏库庞大。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000012",
+  "名称": "Game Boy Advance SP",
+  "别名": [
+   "GBA SP"
+  ],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2003,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "翻盖造型 + 前光屏的 GBA 改版。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game Boy Advance SP",
+  "aliases": [
+   "GBA SP"
+  ],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2003,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "翻盖造型 + 前光屏的 GBA 改版。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000013",
+  "名称": "Game Boy Micro",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2005,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "GBA 的超小型改版，仅支持 GBA 卡带。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game Boy Micro",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2005,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "GBA 的超小型改版，仅支持 GBA 卡带。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000014",
+  "名称": "Game Gear",
+  "别名": [
+   "GG"
+  ],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1990,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "世嘉彩色掌机，硬件强于 GB 但耗电快，续航短板。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game Gear",
+  "aliases": [
+   "GG"
+  ],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "世嘉彩色掌机，硬件强于 GB 但耗电快，续航短板。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000015",
+  "名称": "Atari Lynx",
+  "别名": [],
+  "厂商": "Atari Corporation",
+  "产地": "美国",
+  "年代": 1989,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "首台彩色掌机，含背光与网联，技术超前但商业失败。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Atari Lynx",
+  "aliases": [],
+  "maker": "Atari Corporation",
+  "origin": "美国",
+  "year": 1989,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "首台彩色掌机，含背光与网联，技术超前但商业失败。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000016",
+  "名称": "Neo Geo Pocket",
+  "别名": [],
+  "厂商": "SNK",
+  "产地": "日本",
+  "年代": 1998,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "SNK 黑白掌机，摇杆手感极佳。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Neo Geo Pocket",
+  "aliases": [],
+  "maker": "SNK",
+  "origin": "日本",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "SNK 黑白掌机，摇杆手感极佳。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000017",
+  "名称": "Neo Geo Pocket Color",
+  "别名": [
+   "NGPC"
+  ],
+  "厂商": "SNK",
+  "产地": "日本",
+  "年代": 1999,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "彩色掌机，格斗游戏阵容强，SNK 破产前绝唱。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Neo Geo Pocket Color",
+  "aliases": [
+   "NGPC"
+  ],
+  "maker": "SNK",
+  "origin": "日本",
+  "year": 1999,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "彩色掌机，格斗游戏阵容强，SNK 破产前绝唱。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000018",
+  "名称": "WonderSwan",
+  "别名": [],
+  "厂商": "Bandai",
+  "产地": "日本",
+  "年代": 1999,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "横井军平晚年设计，廉价长续航，日本市场表现亮眼。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "WonderSwan",
+  "aliases": [],
+  "maker": "Bandai",
+  "origin": "日本",
+  "year": 1999,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "横井军平晚年设计，廉价长续航，日本市场表现亮眼。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000019",
+  "名称": "WonderSwan Color",
+  "别名": [],
+  "厂商": "Bandai",
+  "产地": "日本",
+  "年代": 2000,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "WonderSwan 彩色版，向下兼容。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "WonderSwan Color",
+  "aliases": [],
+  "maker": "Bandai",
+  "origin": "日本",
+  "year": 2000,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "WonderSwan 彩色版，向下兼容。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000020",
+  "名称": "SwanCrystal",
+  "别名": [],
+  "厂商": "Bandai",
+  "产地": "日本",
+  "年代": 2002,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "WonderSwan Color 的屏幕升级版。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "SwanCrystal",
+  "aliases": [],
+  "maker": "Bandai",
+  "origin": "日本",
+  "year": 2002,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "WonderSwan Color 的屏幕升级版。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000021",
+  "名称": "PC Engine GT",
+  "别名": [
+   "TurboExpress"
+  ],
+  "厂商": "NEC/Hudson",
+  "产地": "日本",
+  "年代": 1990,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "掌上 PC Engine，可玩全部 HuCard 游戏。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PC Engine GT",
+  "aliases": [
+   "TurboExpress"
+  ],
+  "maker": "NEC/Hudson",
+  "origin": "日本",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "掌上 PC Engine，可玩全部 HuCard 游戏。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000022",
+  "名称": "Sega Nomad",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "美国",
+  "年代": 1995,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "掌上 Mega Drive，可直接插 MD 卡带。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega Nomad",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "美国",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "掌上 Mega Drive，可直接插 MD 卡带。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000023",
+  "名称": "Pokémon Mini",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2001,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "任天堂最小掌机，专门运行宝可梦主题游戏。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Pokémon Mini",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "任天堂最小掌机，专门运行宝可梦主题游戏。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000024",
+  "名称": "Game.com",
+  "别名": [],
+  "厂商": "Tiger Electronics",
+  "产地": "美国",
+  "年代": 1997,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "Tiger 的多功能掌机，含触屏与联网，商业失败。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game.com",
+  "aliases": [],
+  "maker": "Tiger Electronics",
+  "origin": "美国",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "Tiger 的多功能掌机，含触屏与联网，商业失败。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000025",
+  "名称": "N-Gage",
+  "别名": [],
+  "厂商": "Nokia",
+  "产地": "芬兰",
+  "年代": 2003,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "把手机与掌机合一的尝试，横插卡带设计被讥为墨西哥卷饼。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "N-Gage",
+  "aliases": [],
+  "maker": "Nokia",
+  "origin": "芬兰",
+  "year": 2003,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "把手机与掌机合一的尝试，横插卡带设计被讥为墨西哥卷饼。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000026",
+  "名称": "Tamagotchi",
+  "别名": [],
+  "厂商": "Bandai",
+  "产地": "日本",
+  "年代": 1996,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "电子宠物现象级产品，掀起了虚拟养成玩具热潮。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Tamagotchi",
+  "aliases": [],
+  "maker": "Bandai",
+  "origin": "日本",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "电子宠物现象级产品，掀起了虚拟养成玩具热潮。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000027",
+  "名称": "Digimon",
+  "别名": [],
+  "厂商": "Bandai",
+  "产地": "日本",
+  "年代": 1997,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "面向男生的电子宠物对战产品。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Digimon",
+  "aliases": [],
+  "maker": "Bandai",
+  "origin": "日本",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "面向男生的电子宠物对战产品。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000028",
+  "名称": "PlayStation Portable",
+  "别名": [
+   "PSP"
+  ],
+  "厂商": "Sony",
+  "产地": "日本",
+  "年代": 2004,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "索尼首台掌机，多媒体能力强，全球销量可观。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PlayStation Portable",
+  "aliases": [
+   "PSP"
+  ],
+  "maker": "Sony",
+  "origin": "日本",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "索尼首台掌机，多媒体能力强，全球销量可观。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000029",
+  "名称": "PlayStation Vita",
+  "别名": [
+   "PS Vita"
+  ],
+  "厂商": "Sony",
+  "产地": "日本",
+  "年代": 2011,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "索尼末代掌机，双摇杆与 OLED 屏，商业未达预期。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PlayStation Vita",
+  "aliases": [
+   "PS Vita"
+  ],
+  "maker": "Sony",
+  "origin": "日本",
+  "year": 2011,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "索尼末代掌机，双摇杆与 OLED 屏，商业未达预期。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000030",
+  "名称": "Nintendo DS",
+  "别名": [
+   "DS"
+  ],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2004,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "双屏 + 触控 + 麦克风，史上最畅销掌机，销量超 1.5 亿。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Nintendo DS",
+  "aliases": [
+   "DS"
+  ],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "双屏 + 触控 + 麦克风，史上最畅销掌机，销量超 1.5 亿。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000031",
+  "名称": "Nintendo DS Lite",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2006,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "DS 的轻薄改版，销量主力。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Nintendo DS Lite",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2006,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "DS 的轻薄改版，销量主力。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000032",
+  "名称": "Nintendo DSi",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2008,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "DS 加摄像头与在线商店的改版。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Nintendo DSi",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2008,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "DS 加摄像头与在线商店的改版。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000033",
+  "名称": "Nintendo 3DS",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2011,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "裸眼 3D 掌机，向下兼容 DS。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Nintendo 3DS",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2011,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "裸眼 3D 掌机，向下兼容 DS。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000034",
+  "名称": "Nintendo 2DS",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2013,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "去掉 3D 与翻盖的低价 3DS 改版。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Nintendo 2DS",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2013,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "去掉 3D 与翻盖的低价 3DS 改版。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000035",
+  "名称": "New Nintendo 3DS",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2014,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "3DS 的性能升级版，加右摇杆。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "New Nintendo 3DS",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2014,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "3DS 的性能升级版，加右摇杆。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000036",
+  "名称": "PDP-8 手持计算（对比）",
+  "别名": [],
+  "厂商": "DEC",
+  "产地": "美国",
+  "年代": 1965,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "（非掌机，供分类对照）",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PDP-8 手持计算（对比）",
+  "aliases": [],
+  "maker": "DEC",
+  "origin": "美国",
+  "year": 1965,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "（非掌机，供分类对照）",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000037",
+  "名称": "Game & Watch Multi Screen",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "G&W 双屏系列总称，含 Donkey Kong、Oil Panic 等。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game & Watch Multi Screen",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "G&W 双屏系列总称，含 Donkey Kong、Oil Panic 等。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000038",
+  "名称": "Game & Watch Donkey Kong Jr.",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1982,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "G&W 宽屏代表作，大金刚小金刚玩法。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game & Watch Donkey Kong Jr.",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "G&W 宽屏代表作，大金刚小金刚玩法。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000039",
+  "名称": "Game & Watch Manhole",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1981,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "G&W 代表作，为行人搭桥的玩法。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game & Watch Manhole",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "G&W 代表作，为行人搭桥的玩法。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000040",
+  "名称": "Game & Watch Mickey Mouse",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1981,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "G&W 代表作，米老鼠接鸡蛋玩法。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game & Watch Mickey Mouse",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "G&W 代表作，米老鼠接鸡蛋玩法。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000041",
+  "名称": "Game Boy Color（透明紫）",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 1998,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "GBC 的透明紫版本，彩色透明壳风潮。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game Boy Color（透明紫）",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "GBC 的透明紫版本，彩色透明壳风潮。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000042",
+  "名称": "Game Boy Advance SP（AGS-101）",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2005,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "GBA SP 的背光改进版。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Game Boy Advance SP（AGS-101）",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2005,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "GBA SP 的背光改进版。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000043",
+  "名称": "Nintendo DS XL",
+  "别名": [
+   "DSi XL"
+  ],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2009,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "DSi 的大屏版，更大尺寸。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Nintendo DS XL",
+  "aliases": [
+   "DSi XL"
+  ],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2009,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "DSi 的大屏版，更大尺寸。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000044",
+  "名称": "Nintendo 3DS XL",
+  "别名": [
+   "3DS LL"
+  ],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2012,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "3DS 的大屏版。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Nintendo 3DS XL",
+  "aliases": [
+   "3DS LL"
+  ],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2012,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "3DS 的大屏版。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000045",
+  "名称": "New Nintendo 3DS XL",
+  "别名": [],
+  "厂商": "Nintendo",
+  "产地": "日本",
+  "年代": 2015,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "New 3DS 的大屏版。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "New Nintendo 3DS XL",
+  "aliases": [],
+  "maker": "Nintendo",
+  "origin": "日本",
+  "year": 2015,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "New 3DS 的大屏版。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000046",
+  "名称": "PSP-2000",
+  "别名": [
+   "PSP Slim"
+  ],
+  "厂商": "Sony",
+  "产地": "日本",
+  "年代": 2007,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "PSP 的轻薄改版，销量主力。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PSP-2000",
+  "aliases": [
+   "PSP Slim"
+  ],
+  "maker": "Sony",
+  "origin": "日本",
+  "year": 2007,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "PSP 的轻薄改版，销量主力。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000047",
+  "名称": "PSP-3000",
+  "别名": [],
+  "厂商": "Sony",
+  "产地": "日本",
+  "年代": 2008,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "PSP 屏幕改进版。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PSP-3000",
+  "aliases": [],
+  "maker": "Sony",
+  "origin": "日本",
+  "year": 2008,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "PSP 屏幕改进版。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000048",
+  "名称": "PSP Go",
+  "别名": [],
+  "厂商": "Sony",
+  "产地": "日本",
+  "年代": 2009,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "滑盖 PSP，纯数字下载，商业失败。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PSP Go",
+  "aliases": [],
+  "maker": "Sony",
+  "origin": "日本",
+  "year": 2009,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "滑盖 PSP，纯数字下载，商业失败。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000049",
+  "名称": "PS Vita Slim",
+  "别名": [],
+  "厂商": "Sony",
+  "产地": "日本",
+  "年代": 2013,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "PS Vita 的轻薄改版，LCD 屏。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "PS Vita Slim",
+  "aliases": [],
+  "maker": "Sony",
+  "origin": "日本",
+  "year": 2013,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "PS Vita 的轻薄改版，LCD 屏。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000050",
+  "名称": "Atari Lynx II",
+  "别名": [],
+  "厂商": "Atari Corporation",
+  "产地": "美国",
+  "年代": 1991,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "Lynx 的改进版，更小更省电。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Atari Lynx II",
+  "aliases": [],
+  "maker": "Atari Corporation",
+  "origin": "美国",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "Lynx 的改进版，更小更省电。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000051",
+  "名称": "Sega Game Gear（Kids Gear）",
+  "别名": [],
+  "厂商": "Sega",
+  "产地": "日本",
+  "年代": 1992,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "Game Gear 面向儿童的红白配色版。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Sega Game Gear（Kids Gear）",
+  "aliases": [],
+  "maker": "Sega",
+  "origin": "日本",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "Game Gear 面向儿童的红白配色版。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000052",
+  "名称": "Watara Supervision",
+  "别名": [],
+  "厂商": "Watara",
+  "产地": "香港",
+  "年代": 1992,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "低成本掌机，屏幕可旋转，商业失败。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Watara Supervision",
+  "aliases": [],
+  "maker": "Watara",
+  "origin": "香港",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "低成本掌机，屏幕可旋转，商业失败。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000053",
+  "名称": "Tiger R-Zone",
+  "别名": [],
+  "厂商": "Tiger Electronics",
+  "产地": "美国",
+  "年代": 1995,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "红黑单色头戴掌机，商业失败。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Tiger R-Zone",
+  "aliases": [],
+  "maker": "Tiger Electronics",
+  "origin": "美国",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "红黑单色头戴掌机，商业失败。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000054",
+  "名称": "Cybiko",
+  "别名": [],
+  "厂商": "Cybiko Inc.",
+  "产地": "美国",
+  "年代": 2000,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "面向青少年的无线掌上通讯游戏机，昙花一现。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Cybiko",
+  "aliases": [],
+  "maker": "Cybiko Inc.",
+  "origin": "美国",
+  "year": 2000,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "面向青少年的无线掌上通讯游戏机，昙花一现。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000055",
+  "名称": "GP32",
+  "别名": [],
+  "厂商": "Game Park",
+  "产地": "韩国",
+  "年代": 2001,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "韩国开源掌机，homebrew 生态活跃。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "GP32",
+  "aliases": [],
+  "maker": "Game Park",
+  "origin": "韩国",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "韩国开源掌机，homebrew 生态活跃。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000056",
+  "名称": "GP2X",
+  "别名": [],
+  "厂商": "Game Park Holdings",
+  "产地": "韩国",
+  "年代": 2005,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "开源掌机，强调自制软件。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "GP2X",
+  "aliases": [],
+  "maker": "Game Park Holdings",
+  "origin": "韩国",
+  "year": 2005,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "开源掌机，强调自制软件。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HAND-000057",
+  "名称": "Pandora",
+  "别名": [],
+  "厂商": "OpenPandora",
+  "产地": "德国",
+  "年代": 2010,
+  "分类路径": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "影响力理由": "开源掌机，Linux 系统，社区小众。",
+  "状态": "planned",
+  "关联包": null,
+  "来源编号": [],
+  "name": "Pandora",
+  "aliases": [],
+  "maker": "OpenPandora",
+  "origin": "德国",
+  "year": 2010,
+  "path": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ],
+  "reason": "开源掌机，Linux 系统，社区小众。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "掌上游戏机"
+  ]
+ },
+ {
+  "id": "G-HH-000001",
+  "name": "Game & Watch Ball",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1980,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "G&W 系列首款，横井军平枯萎技术思考的起点。",
+  "maker": "Nintendo",
+  "year": 1980,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "G&W 系列首款，横井军平枯萎技术思考的起点。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000002",
+  "name": "Game & Watch Donkey Kong",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "G&W 双屏代表作，首现十字键，金色壳最经典。",
+  "maker": "Nintendo",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "G&W 双屏代表作，首现十字键，金色壳最经典。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000003",
+  "name": "Game & Watch Fire",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1980,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "G&W 银系列代表作，接住跳楼小人的经典玩法。",
+  "maker": "Nintendo",
+  "year": 1980,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "G&W 银系列代表作，接住跳楼小人的经典玩法。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000004",
+  "name": "Game & Watch Octopus",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1981,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "G&W 宽屏代表作，潜水捞宝玩法。",
+  "maker": "Nintendo",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "G&W 宽屏代表作，潜水捞宝玩法。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000005",
+  "name": "Game & Watch Oil Panic",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "G&W 双屏代表作，接漏油的玩法。",
+  "maker": "Nintendo",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "G&W 双屏代表作，接漏油的玩法。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000006",
+  "name": "Game & Watch Mario Bros",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1983,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "G&W 宽屏代表作，马力欧兄弟首次登场掌机。",
+  "maker": "Nintendo",
+  "year": 1983,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "G&W 宽屏代表作，马力欧兄弟首次登场掌机。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000008",
+  "name": "Atari Lynx",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari Corporation",
+  "era": 1989,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "首台彩色掌机，含背光与网联，技术超前但商业失败。",
+  "maker": "Atari Corporation",
+  "year": 1989,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "首台彩色掌机，含背光与网联，技术超前但商业失败。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000009",
+  "name": "Game Gear",
+  "aliases": [
+   "GG"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "世嘉彩色掌机，硬件强于 GB 但耗电快，续航短板。",
+  "maker": "Sega",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "世嘉彩色掌机，硬件强于 GB 但耗电快，续航短板。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000010",
+  "name": "PC Engine GT",
+  "aliases": [
+   "TurboExpress"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "NEC/Hudson",
+  "era": 1990,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "掌上 PC Engine，可玩全部 HuCard 游戏。",
+  "maker": "NEC/Hudson",
+  "year": 1990,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "掌上 PC Engine，可玩全部 HuCard 游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000011",
+  "name": "Atari Lynx II",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Atari Corporation",
+  "era": 1991,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "Lynx 的改进版，更小更省电。",
+  "maker": "Atari Corporation",
+  "year": 1991,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "Lynx 的改进版，更小更省电。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000012",
+  "name": "Watara Supervision",
+  "aliases": [],
+  "origin": "香港",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Watara",
+  "era": 1992,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "低成本掌机，屏幕可旋转，商业失败。",
+  "maker": "Watara",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "低成本掌机，屏幕可旋转，商业失败。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000013",
+  "name": "Sega Game Gear（Kids Gear）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1992,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "Game Gear 面向儿童的红白配色版。",
+  "maker": "Sega",
+  "year": 1992,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "Game Gear 面向儿童的红白配色版。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000014",
+  "name": "Tiger R-Zone",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Tiger Electronics",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "红黑单色头戴掌机，商业失败。",
+  "maker": "Tiger Electronics",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "红黑单色头戴掌机，商业失败。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000015",
+  "name": "Sega Nomad",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sega",
+  "era": 1995,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "掌上 Mega Drive，可直接插 MD 卡带。",
+  "maker": "Sega",
+  "year": 1995,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "掌上 Mega Drive，可直接插 MD 卡带。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000017",
+  "name": "Tamagotchi",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Bandai",
+  "era": 1996,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "电子宠物现象级产品，掀起虚拟养成玩具热潮。",
+  "maker": "Bandai",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "电子宠物现象级产品，掀起虚拟养成玩具热潮。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000018",
+  "name": "Digimon",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Bandai",
+  "era": 1997,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "面向男生的电子宠物对战产品。",
+  "maker": "Bandai",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "面向男生的电子宠物对战产品。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000019",
+  "name": "Game.com",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Tiger Electronics",
+  "era": 1997,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "Tiger 多功能掌机，含触屏与联网，商业失败。",
+  "maker": "Tiger Electronics",
+  "year": 1997,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "Tiger 多功能掌机，含触屏与联网，商业失败。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000022",
+  "name": "Neo Geo Pocket",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "SNK",
+  "era": 1998,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "SNK 黑白掌机，摇杆手感极佳。",
+  "maker": "SNK",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "SNK 黑白掌机，摇杆手感极佳。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000023",
+  "name": "Neo Geo Pocket Color",
+  "aliases": [
+   "NGPC"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "SNK",
+  "era": 1999,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "彩色掌机，格斗游戏阵容强，SNK 破产前绝唱。",
+  "maker": "SNK",
+  "year": 1999,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "彩色掌机，格斗游戏阵容强，SNK 破产前绝唱。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000024",
+  "name": "WonderSwan",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Bandai",
+  "era": 1999,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "横井军平晚年设计，廉价长续航，日本市场表现亮眼。",
+  "maker": "Bandai",
+  "year": 1999,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "横井军平晚年设计，廉价长续航，日本市场表现亮眼。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000025",
+  "name": "WonderSwan Color",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Bandai",
+  "era": 2000,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "WonderSwan 彩色版，向下兼容。",
+  "maker": "Bandai",
+  "year": 2000,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "WonderSwan 彩色版，向下兼容。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000026",
+  "name": "Cybiko",
+  "aliases": [],
+  "origin": "美国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Cybiko Inc.",
+  "era": 2000,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "面向青少年的无线掌上通讯游戏机，昙花一现。",
+  "maker": "Cybiko Inc.",
+  "year": 2000,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "面向青少年的无线掌上通讯游戏机，昙花一现。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000028",
+  "name": "GP32",
+  "aliases": [],
+  "origin": "韩国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Game Park",
+  "era": 2001,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "韩国开源掌机，homebrew 生态活跃。",
+  "maker": "Game Park",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "韩国开源掌机，homebrew 生态活跃。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000029",
+  "name": "Pokémon Mini",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2001,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "任天堂最小掌机，专门运行宝可梦主题游戏。",
+  "maker": "Nintendo",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "任天堂最小掌机，专门运行宝可梦主题游戏。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000030",
+  "name": "SwanCrystal",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Bandai",
+  "era": 2002,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "WonderSwan Color 屏幕升级版。",
+  "maker": "Bandai",
+  "year": 2002,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "WonderSwan Color 屏幕升级版。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000032",
+  "name": "N-Gage",
+  "aliases": [],
+  "origin": "芬兰",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nokia",
+  "era": 2003,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "手机与掌机合一的尝试，横插卡带设计被讥为墨西哥卷饼。",
+  "maker": "Nokia",
+  "year": 2003,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "手机与掌机合一的尝试，横插卡带设计被讥为墨西哥卷饼。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000033",
+  "name": "Nintendo DS",
+  "aliases": [
+   "DS"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2004,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "双屏加触控加麦克风，史上最畅销掌机，销量超 1.5 亿。",
+  "maker": "Nintendo",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "双屏加触控加麦克风，史上最畅销掌机，销量超 1.5 亿。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000034",
+  "name": "PlayStation Portable",
+  "aliases": [
+   "PSP"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sony",
+  "era": 2004,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "索尼首台掌机，多媒体能力强，全球销量可观。",
+  "maker": "Sony",
+  "year": 2004,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "索尼首台掌机，多媒体能力强，全球销量可观。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000035",
+  "name": "GP2X",
+  "aliases": [],
+  "origin": "韩国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Game Park Holdings",
+  "era": 2005,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "开源掌机，强调自制软件。",
+  "maker": "Game Park Holdings",
+  "year": 2005,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "开源掌机，强调自制软件。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000038",
+  "name": "Nintendo DS Lite",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2006,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "DS 轻薄改版，销量主力。",
+  "maker": "Nintendo",
+  "year": 2006,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "DS 轻薄改版，销量主力。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000039",
+  "name": "PSP-2000",
+  "aliases": [
+   "PSP Slim"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sony",
+  "era": 2007,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "PSP 轻薄改版，销量主力。",
+  "maker": "Sony",
+  "year": 2007,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "PSP 轻薄改版，销量主力。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000040",
+  "name": "Nintendo DSi",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2008,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "DS 加摄像头与在线商店的改版。",
+  "maker": "Nintendo",
+  "year": 2008,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "DS 加摄像头与在线商店的改版。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000041",
+  "name": "PSP-3000",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sony",
+  "era": 2008,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "PSP 屏幕改进版。",
+  "maker": "Sony",
+  "year": 2008,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "PSP 屏幕改进版。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000042",
+  "name": "Nintendo DS XL",
+  "aliases": [
+   "DSi XL"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2009,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "DSi 大屏版。",
+  "maker": "Nintendo",
+  "year": 2009,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "DSi 大屏版。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000043",
+  "name": "PSP Go",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sony",
+  "era": 2009,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "滑盖 PSP，纯数字下载，商业失败。",
+  "maker": "Sony",
+  "year": 2009,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "滑盖 PSP，纯数字下载，商业失败。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000044",
+  "name": "Pandora",
+  "aliases": [],
+  "origin": "德国",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "OpenPandora",
+  "era": 2010,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "开源掌机，Linux 系统，社区小众。",
+  "maker": "OpenPandora",
+  "year": 2010,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "开源掌机，Linux 系统，社区小众。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000045",
+  "name": "Nintendo 3DS",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2011,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "裸眼 3D 掌机，向下兼容 DS。",
+  "maker": "Nintendo",
+  "year": 2011,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "裸眼 3D 掌机，向下兼容 DS。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000046",
+  "name": "PlayStation Vita",
+  "aliases": [
+   "PS Vita"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sony",
+  "era": 2011,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "索尼末代掌机，双摇杆与 OLED 屏，商业未达预期。",
+  "maker": "Sony",
+  "year": 2011,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "索尼末代掌机，双摇杆与 OLED 屏，商业未达预期。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000047",
+  "name": "Nintendo 3DS XL",
+  "aliases": [
+   "3DS LL"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2012,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "3DS 大屏版。",
+  "maker": "Nintendo",
+  "year": 2012,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "3DS 大屏版。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000048",
+  "name": "Nintendo 2DS",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2013,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "去掉 3D 与翻盖的低价 3DS 改版。",
+  "maker": "Nintendo",
+  "year": 2013,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "去掉 3D 与翻盖的低价 3DS 改版。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000049",
+  "name": "PS Vita Slim",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Sony",
+  "era": 2013,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "PS Vita 轻薄改版，LCD 屏。",
+  "maker": "Sony",
+  "year": 2013,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "PS Vita 轻薄改版，LCD 屏。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000050",
+  "name": "New Nintendo 3DS",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2014,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "3DS 性能升级版，加右摇杆。",
+  "maker": "Nintendo",
+  "year": 2014,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "3DS 性能升级版，加右摇杆。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000051",
+  "name": "New Nintendo 3DS XL",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2015,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "New 3DS 大屏版。",
+  "maker": "Nintendo",
+  "year": 2015,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "New 3DS 大屏版。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000053",
+  "name": "Game & Watch Multi Screen",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "G&W 双屏系列总称，含 Donkey Kong、Oil Panic 等。",
+  "maker": "Nintendo",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "G&W 双屏系列总称，含 Donkey Kong、Oil Panic 等。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000054",
+  "name": "Game & Watch Donkey Kong Jr.",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1982,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "G&W 宽屏代表作，大金刚小金刚玩法。",
+  "maker": "Nintendo",
+  "year": 1982,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "G&W 宽屏代表作，大金刚小金刚玩法。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000055",
+  "name": "Game & Watch Manhole",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1981,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "G&W 代表作，为行人搭桥的玩法。",
+  "maker": "Nintendo",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "G&W 代表作，为行人搭桥的玩法。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000056",
+  "name": "Game & Watch Mickey Mouse",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1981,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "influence": "G&W 代表作，米老鼠接鸡蛋玩法。",
+  "maker": "Nintendo",
+  "year": 1981,
+  "path": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ],
+  "reason": "G&W 代表作，米老鼠接鸡蛋玩法。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "其他掌机"
+  ]
+ },
+ {
+  "id": "G-HH-000007",
+  "name": "Game Boy",
+  "aliases": [
+   "GB",
+   "DMG-01"
+  ],
+  "origin": "日本",
+  "status": "researching",
+  "device_id": null,
+  "sources": [
+   "S44"
+  ],
+  "manufacturer": "Nintendo",
+  "era": 1989,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "influence": "以够用硬件与俄罗斯方块捆绑开辟手提机品类，最畅销掌机之一。",
+  "maker": "Nintendo",
+  "year": 1989,
+  "path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "reason": "以够用硬件与俄罗斯方块捆绑开辟手提机品类，最畅销掌机之一。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ]
+ },
+ {
+  "id": "G-HH-000016",
+  "name": "Game Boy Pocket",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1996,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "influence": "GB 小型化改版，屏幕更清晰。",
+  "maker": "Nintendo",
+  "year": 1996,
+  "path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "reason": "GB 小型化改版，屏幕更清晰。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ]
+ },
+ {
+  "id": "G-HH-000020",
+  "name": "Game Boy Light",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1998,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "influence": "GB 背光版，仅日本发售。",
+  "maker": "Nintendo",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "reason": "GB 背光版，仅日本发售。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ]
+ },
+ {
+  "id": "G-HH-000021",
+  "name": "Game Boy Color",
+  "aliases": [
+   "GBC"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1998,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "influence": "GB 彩色升级版，向下兼容。",
+  "maker": "Nintendo",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "reason": "GB 彩色升级版，向下兼容。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ]
+ },
+ {
+  "id": "G-HH-000027",
+  "name": "Game Boy Advance",
+  "aliases": [
+   "GBA"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2001,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "influence": "32 位掌机，横版造型，游戏库庞大。",
+  "maker": "Nintendo",
+  "year": 2001,
+  "path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "reason": "32 位掌机，横版造型，游戏库庞大。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ]
+ },
+ {
+  "id": "G-HH-000031",
+  "name": "Game Boy Advance SP",
+  "aliases": [
+   "GBA SP"
+  ],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2003,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "influence": "翻盖造型加前光屏的 GBA 改版。",
+  "maker": "Nintendo",
+  "year": 2003,
+  "path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "reason": "翻盖造型加前光屏的 GBA 改版。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ]
+ },
+ {
+  "id": "G-HH-000036",
+  "name": "Game Boy Micro",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2005,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "influence": "GBA 超小型改版，仅支持 GBA 卡带。",
+  "maker": "Nintendo",
+  "year": 2005,
+  "path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "reason": "GBA 超小型改版，仅支持 GBA 卡带。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ]
+ },
+ {
+  "id": "G-HH-000037",
+  "name": "Game Boy Advance SP（AGS-101）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 2005,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "influence": "GBA SP 背光改进版。",
+  "maker": "Nintendo",
+  "year": 2005,
+  "path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "reason": "GBA SP 背光改进版。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ]
+ },
+ {
+  "id": "G-HH-000052",
+  "name": "Game Boy Color（透明紫）",
+  "aliases": [],
+  "origin": "日本",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "manufacturer": "Nintendo",
+  "era": 1998,
+  "taxonomy_path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "influence": "GBC 透明紫版本，彩色透明壳风潮。",
+  "maker": "Nintendo",
+  "year": 1998,
+  "path": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ],
+  "reason": "GBC 透明紫版本，彩色透明壳风潮。",
+  "_taxonomy": [
+   "游戏机",
+   "掌机",
+   "Game Boy 系"
+  ]
+ }
+]

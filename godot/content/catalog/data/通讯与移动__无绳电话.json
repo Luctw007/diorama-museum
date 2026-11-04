@@ -1,0 +1,332 @@
+[
+ {
+  "id": "49mhz",
+  "name": "早期 49MHz 无绳电话",
+  "alias": [],
+  "manufacturer": "多家",
+  "era": 1980,
+  "taxonomy_path": [
+   "通讯与移动",
+   "无绳电话",
+   "模拟无绳"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "首代模拟无绳电话，家用普及。",
+  "verify": true,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "多家",
+  "origin": "",
+  "year": 1980,
+  "path": [
+   "通讯与移动",
+   "无绳电话",
+   "模拟无绳"
+  ],
+  "reason": "首代模拟无绳电话，家用普及。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "无绳电话",
+   "模拟无绳"
+  ]
+ },
+ {
+  "id": "sony-spp",
+  "name": "Sony SPP 系列无绳电话",
+  "alias": [],
+  "manufacturer": "索尼",
+  "era": 1985,
+  "taxonomy_path": [
+   "通讯与移动",
+   "无绳电话",
+   "模拟无绳"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "家用模拟无绳电话。",
+  "verify": true,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "索尼",
+  "origin": "",
+  "year": 1985,
+  "path": [
+   "通讯与移动",
+   "无绳电话",
+   "模拟无绳"
+  ],
+  "reason": "家用模拟无绳电话。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "无绳电话",
+   "模拟无绳"
+  ]
+ },
+ {
+  "id": "panasonic-kx-t",
+  "name": "Panasonic KX-T 系列无绳电话",
+  "alias": [],
+  "manufacturer": "松下",
+  "era": 1985,
+  "taxonomy_path": [
+   "通讯与移动",
+   "无绳电话",
+   "模拟无绳"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "家用无绳电话代表。",
+  "verify": true,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "松下",
+  "origin": "",
+  "year": 1985,
+  "path": [
+   "通讯与移动",
+   "无绳电话",
+   "模拟无绳"
+  ],
+  "reason": "家用无绳电话代表。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "无绳电话",
+   "模拟无绳"
+  ]
+ },
+ {
+  "id": "att",
+  "name": "AT&T 无绳电话",
+  "alias": [],
+  "manufacturer": "AT&T",
+  "era": 1983,
+  "taxonomy_path": [
+   "通讯与移动",
+   "无绳电话",
+   "模拟无绳"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "美国家用无绳电话。",
+  "verify": true,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "AT&T",
+  "origin": "",
+  "year": 1983,
+  "path": [
+   "通讯与移动",
+   "无绳电话",
+   "模拟无绳"
+  ],
+  "reason": "美国家用无绳电话。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "无绳电话",
+   "模拟无绳"
+  ]
+ },
+ {
+  "id": "ge",
+  "name": "GE 无绳电话",
+  "alias": [],
+  "manufacturer": "通用电气",
+  "era": 1985,
+  "taxonomy_path": [
+   "通讯与移动",
+   "无绳电话",
+   "模拟无绳"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "美国家用无绳电话。",
+  "verify": true,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "通用电气",
+  "origin": "",
+  "year": 1985,
+  "path": [
+   "通讯与移动",
+   "无绳电话",
+   "模拟无绳"
+  ],
+  "reason": "美国家用无绳电话。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "无绳电话",
+   "模拟无绳"
+  ]
+ },
+ {
+  "id": "dect",
+  "name": "DECT 标准无绳电话",
+  "alias": [],
+  "manufacturer": "多家（ETSI 标准）",
+  "era": 1993,
+  "taxonomy_path": [
+   "通讯与移动",
+   "无绳电话",
+   "数字无绳"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "数字增强无绳通信标准，取代模拟。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "多家（ETSI 标准）",
+  "origin": "",
+  "year": 1993,
+  "path": [
+   "通讯与移动",
+   "无绳电话",
+   "数字无绳"
+  ],
+  "reason": "数字增强无绳通信标准，取代模拟。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "无绳电话",
+   "数字无绳"
+  ]
+ },
+ {
+  "id": "siemens-gigaset",
+  "name": "Siemens Gigaset",
+  "alias": [],
+  "manufacturer": "西门子",
+  "era": 1995,
+  "taxonomy_path": [
+   "通讯与移动",
+   "无绳电话",
+   "数字无绳"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "DECT 无绳电话代表品牌。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "西门子",
+  "origin": "",
+  "year": 1995,
+  "path": [
+   "通讯与移动",
+   "无绳电话",
+   "数字无绳"
+  ],
+  "reason": "DECT 无绳电话代表品牌。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "无绳电话",
+   "数字无绳"
+  ]
+ },
+ {
+  "id": "panasonic-dect",
+  "name": "Panasonic DECT 无绳电话",
+  "alias": [],
+  "manufacturer": "松下",
+  "era": 1995,
+  "taxonomy_path": [
+   "通讯与移动",
+   "无绳电话",
+   "数字无绳"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "DECT 家用无绳电话。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "松下",
+  "origin": "",
+  "year": 1995,
+  "path": [
+   "通讯与移动",
+   "无绳电话",
+   "数字无绳"
+  ],
+  "reason": "DECT 家用无绳电话。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "无绳电话",
+   "数字无绳"
+  ]
+ },
+ {
+  "id": "uniden-dect",
+  "name": "Uniden DECT 无绳电话",
+  "alias": [],
+  "manufacturer": "Uniden",
+  "era": 1996,
+  "taxonomy_path": [
+   "通讯与移动",
+   "无绳电话",
+   "数字无绳"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "DECT 无绳电话厂商。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Uniden",
+  "origin": "",
+  "year": 1996,
+  "path": [
+   "通讯与移动",
+   "无绳电话",
+   "数字无绳"
+  ],
+  "reason": "DECT 无绳电话厂商。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "无绳电话",
+   "数字无绳"
+  ]
+ },
+ {
+  "id": "philips-dect",
+  "name": "Philips DECT 无绳电话",
+  "alias": [],
+  "manufacturer": "飞利浦",
+  "era": 1996,
+  "taxonomy_path": [
+   "通讯与移动",
+   "无绳电话",
+   "数字无绳"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "欧洲 DECT 无绳电话。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "飞利浦",
+  "origin": "",
+  "year": 1996,
+  "path": [
+   "通讯与移动",
+   "无绳电话",
+   "数字无绳"
+  ],
+  "reason": "欧洲 DECT 无绳电话。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "无绳电话",
+   "数字无绳"
+  ]
+ }
+]

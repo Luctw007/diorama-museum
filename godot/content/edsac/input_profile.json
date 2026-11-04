@@ -1,0 +1,41 @@
+{
+  "actions": {
+    "power": "",
+    "reset": "",
+    "start": "",
+    "stop": "",
+    "clear": "",
+    "single_step": "",
+    "tape_load": "",
+    "tape_rewind": "",
+    "tape_punch": "",
+    "initial_orders": "",
+    "print": "",
+    "clock_slow": "",
+    "clock_fast": "",
+    "display_crt": "",
+    "aux_a": "",
+    "aux_b": ""
+  },
+  "keyboard": {},
+  "mouse": {},
+  "unbound": [
+    "power",
+    "reset",
+    "start",
+    "stop",
+    "clear",
+    "single_step",
+    "tape_load",
+    "tape_rewind",
+    "tape_punch",
+    "initial_orders",
+    "print",
+    "clock_slow",
+    "clock_fast",
+    "display_crt",
+    "aux_a",
+    "aux_b"
+  ],
+  "note": "由 gen_input_profile.py 生成：默认宿主绑定骨架，待玩家自定义；unbound 为无法自动推导的设备逻辑动作"
+}

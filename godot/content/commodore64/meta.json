@@ -1,0 +1,622 @@
+{
+  "meta": {
+    "id": "commodore64",
+    "name": {
+      "zh": "Commodore 64",
+      "en": "Commodore 64"
+    },
+    "intro": {
+      "zh": "Commodore 64 是 1982 年推出的史上最畅销单一计算机型号，以 6510 处理器、VIC-II 图形与 SID 声音三芯片架构，把个人计算机带进千家万户。",
+      "en": "The Commodore 64, released in 1982, is the best-selling single computer model of all time."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1982,
+    "manufacturer": "Commodore International",
+    "category": "personal-computer",
+    "description": "Commodore 64（1982），史上最畅销单机型：6510 CPU、64KB 内存、VIC-II 图形、SID 声音，约 595 美元。",
+    "authors": [
+      {
+        "name": "TASK-38A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Commodore 64",
+        "url": "https://en.wikipedia.org/wiki/Commodore_64",
+        "license": "cc",
+        "accessed_at": "2026-11-03"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — MOS Technology 6510",
+        "url": "https://en.wikipedia.org/wiki/MOS_Technology_6510",
+        "license": "cc",
+        "accessed_at": "2026-11-03"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — MOS Technology VIC-II",
+        "url": "https://en.wikipedia.org/wiki/MOS_Technology_VIC-II",
+        "license": "cc",
+        "accessed_at": "2026-11-03"
+      },
+      {
+        "type": "documentation",
+        "title": "VICE — Versatile Commodore Emulator",
+        "url": "http://vice-emu.sourceforge.io",
+        "license": "licensed",
+        "accessed_at": "2026-11-03"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Commodore 64 整机，1982 年推出的史上最畅销单一计算机型号。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "case",
+        "keyboard",
+        "motherboard",
+        "power",
+        "datasette"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "tape_load_flow",
+        "sid_sound_flow"
+      ]
+    },
+    {
+      "id": "case",
+      "name": "主机壳",
+      "role": {
+        "zh": "主机壳在整机中作为一体式键盘机身的外壳，承载主板、键盘与各端口，是整机的结构骨架。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "power_led",
+        "joystick_port",
+        "serial_port",
+        "video_port",
+        "rf_port"
+      ],
+      "annotations": [
+        "case_role"
+      ],
+      "mesh_ref": "assemblies/case.gltf"
+    },
+    {
+      "id": "keyboard",
+      "name": "键盘",
+      "role": {
+        "zh": "键盘在整机中作为文字与命令输入界面，把按键转换为字符送入系统。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.12,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "keyboard_matrix",
+        "key_restore",
+        "function_keys",
+        "cursor_keys"
+      ],
+      "annotations": [
+        "keyboard_role"
+      ],
+      "mesh_ref": "assemblies/keyboard.gltf"
+    },
+    {
+      "id": "motherboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 6510/VIC-II/SID 三芯片与内存、ROM，是系统的核心电路板。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.06,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cpu_6510",
+        "vic_ii",
+        "sid",
+        "cia",
+        "ram",
+        "rom",
+        "cartridge_port",
+        "expansion_port"
+      ],
+      "annotations": [
+        "motherboard_role"
+      ],
+      "mesh_ref": "assemblies/motherboard.gltf"
+    },
+    {
+      "id": "power",
+      "name": "电源",
+      "role": {
+        "zh": "电源在整机中把市电转换为各芯片所需的多种电压，是系统的供电单元。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.12,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "power_switch",
+        "transformer",
+        "regulator"
+      ],
+      "annotations": [
+        "power_role"
+      ],
+      "mesh_ref": "assemblies/power.gltf"
+    },
+    {
+      "id": "datasette",
+      "name": "Datasette 磁带机",
+      "role": {
+        "zh": "Datasette 磁带机在整机中以普通磁带作为存储介质，用于程序的保存与加载。"
+      },
+      "transform": {
+        "translation": [
+          0.5,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "tape_mechanism",
+        "tape_head",
+        "tape_motor"
+      ],
+      "annotations": [
+        "datasette_role"
+      ],
+      "mesh_ref": "assemblies/datasette.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "cpu_6510",
+      "name": "6510 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "6510 处理器在整机中作为主控芯片，执行 BASIC 程序与系统逻辑，管理内存映射与磁带电机。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "cpu_6510_role"
+      ]
+    },
+    {
+      "id": "vic_ii",
+      "name": "VIC-II 图形芯片",
+      "type": "gpu",
+      "role": {
+        "zh": "VIC-II 图形芯片在整机中负责生成画面，支持 16 色、8 个硬件子画面与多种显示模式。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "vic_ii_role"
+      ]
+    },
+    {
+      "id": "sid",
+      "name": "SID 声音芯片",
+      "type": "sound",
+      "role": {
+        "zh": "SID 声音芯片在整机中作为 3 声道可编程合成器，发出方波、锯齿波与噪声，是芯片音乐文化的源头。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "sid_role"
+      ]
+    },
+    {
+      "id": "cia",
+      "name": "CIA 接口芯片",
+      "type": "interface",
+      "role": {
+        "zh": "CIA 接口芯片在整机中处理键盘扫描、磁带读写与定时器，是系统与外围设备的接口枢纽。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "cia_role"
+      ]
+    },
+    {
+      "id": "ram",
+      "name": "64KB 内存",
+      "type": "ram",
+      "role": {
+        "zh": "64KB 内存在整机中存放程序与数据，是系统运行时的主存储。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ram_role"
+      ]
+    },
+    {
+      "id": "rom",
+      "name": "BASIC/KERNAL ROM",
+      "type": "rom",
+      "role": {
+        "zh": "BASIC/KERNAL ROM 在整机中固化开机自检与 BASIC 解释器，实现开机即编程。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "rom_role"
+      ]
+    },
+    {
+      "id": "cartridge_port",
+      "name": "卡带端口",
+      "type": "port",
+      "role": {
+        "zh": "卡带端口在整机中插入游戏卡带，使程序可免加载直接运行。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "cartridge_port_role"
+      ]
+    },
+    {
+      "id": "expansion_port",
+      "name": "扩展端口",
+      "type": "port",
+      "role": {
+        "zh": "扩展端口在整机中连接调制解调器、打印机等外设，扩展系统能力。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "expansion_port_role"
+      ]
+    },
+    {
+      "id": "keyboard_matrix",
+      "name": "键盘矩阵",
+      "type": "keyboard",
+      "role": {
+        "zh": "键盘矩阵在整机中把按键扫描为行列信号，供 CIA 芯片读取，是文字输入的核心。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "keyboard_matrix_role"
+      ]
+    },
+    {
+      "id": "key_restore",
+      "name": "RESTORE 键",
+      "type": "key",
+      "role": {
+        "zh": "RESTORE 键在整机中触发一次中断，常用于从程序卡死中恢复。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "key_restore_role"
+      ]
+    },
+    {
+      "id": "function_keys",
+      "name": "功能键组",
+      "type": "key",
+      "role": {
+        "zh": "功能键组在整机中提供 F1–F8 等功能键，供程序定义快捷操作。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "function_keys_role"
+      ]
+    },
+    {
+      "id": "cursor_keys",
+      "name": "光标键组",
+      "type": "key",
+      "role": {
+        "zh": "光标键组在整机中控制光标上下左右移动，用于编辑与游戏操作。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "cursor_keys_role"
+      ]
+    },
+    {
+      "id": "power_led",
+      "name": "电源指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的状态指示。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "power_led_role"
+      ]
+    },
+    {
+      "id": "joystick_port",
+      "name": "手柄端口",
+      "type": "port",
+      "role": {
+        "zh": "手柄端口在整机中连接游戏手柄，是 C64 游戏操控的主要输入接口。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "joystick_port_role"
+      ]
+    },
+    {
+      "id": "serial_port",
+      "name": "串行端口",
+      "type": "port",
+      "role": {
+        "zh": "串行端口在整机中连接软驱、打印机等串行外设，是系统与磁盘设备的通信通道。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "serial_port_role"
+      ]
+    },
+    {
+      "id": "video_port",
+      "name": "视频端口",
+      "type": "port",
+      "role": {
+        "zh": "视频端口在整机中输出复合视频信号，把画面送到电视机或监视器。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "video_port_role"
+      ]
+    },
+    {
+      "id": "rf_port",
+      "name": "射频端口",
+      "type": "port",
+      "role": {
+        "zh": "射频端口在整机中把视频信号调制为射频，供无视频输入的老式电视机接收。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "rf_port_role"
+      ]
+    },
+    {
+      "id": "power_switch",
+      "name": "电源开关",
+      "type": "switch",
+      "role": {
+        "zh": "电源开关在整机中控制整机供电的通断，是启动与关闭机器的总开关。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "power_switch_role"
+      ]
+    },
+    {
+      "id": "transformer",
+      "name": "电源变压器",
+      "type": "transformer",
+      "role": {
+        "zh": "电源变压器在整机中把市电转换为机器所需的多种电压，为各芯片供电。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "transformer_role"
+      ]
+    },
+    {
+      "id": "regulator",
+      "name": "稳压电路",
+      "type": "regulator",
+      "role": {
+        "zh": "稳压电路在整机中把电压稳定到芯片所需的精确值，保障系统稳定运行。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "regulator_role"
+      ]
+    },
+    {
+      "id": "tape_mechanism",
+      "name": "磁带机械",
+      "type": "mechanism",
+      "role": {
+        "zh": "磁带机械在整机中驱动磁带匀速走带，是数据磁带读写的机械载体。"
+      },
+      "assembly": "datasette",
+      "annotations": [
+        "tape_mechanism_role"
+      ]
+    },
+    {
+      "id": "tape_head",
+      "name": "磁带读写头",
+      "type": "head",
+      "role": {
+        "zh": "磁带读写头在整机中贴着磁带表面读写磁记录，是 Datasette 与数据交互的核心部件。"
+      },
+      "assembly": "datasette",
+      "annotations": [
+        "tape_head_role"
+      ]
+    },
+    {
+      "id": "tape_motor",
+      "name": "磁带电机",
+      "type": "motor",
+      "role": {
+        "zh": "磁带电机在整机中驱动磁带卷轴转动，由 6510 处理器控制启停。"
+      },
+      "assembly": "datasette",
+      "annotations": [
+        "tape_motor_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "vice",
+    "version": "3.8.0",
+    "system": "Commodore 64",
+    "media_hint": "tape",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "external_crt_0",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "rgba8"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      },
+      {
+        "id": "led_0",
+        "surface": "led",
+        "type": "video",
+        "format": "mono1"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "run_stop": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      },
+      "return": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "space": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      },
+      "joystick_up": {
+        "map": "joystick",
+        "key": "axis_y"
+      },
+      "joystick_fire": {
+        "map": "joystick",
+        "key": "btn0"
+      }
+    }
+  }
+}

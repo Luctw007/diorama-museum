@@ -1,0 +1,93 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "TASK-60B placeholder box (real size)"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "cabinet"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "cabinet_mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "indices": 1,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "cabinet_mat",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.3,
+          0.1,
+          0.1,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8
+      }
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "min": [
+        -0.3,
+        -0.3,
+        -0.3
+      ],
+      "max": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 96,
+      "byteLength": 72,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "data:application/octet-stream;base64,mpmZvpqZWb8zM7O+mpmZPpqZWb8zM7O+mpmZPpqZWT8zM7O+mpmZvpqZWT8zM7O+mpmZvpqZWb8zM7M+mpmZPpqZWb8zM7M+mpmZPpqZWT8zM7M+mpmZvpqZWT8zM7M+AAABAAIAAAACAAMABAAGAAUABAAHAAYAAAADAAcAAAAHAAQAAQAFAAYAAQAGAAIAAAAEAAUAAAAFAAEAAwACAAYAAwAGAAcA",
+      "byteLength": 168
+    }
+  ]
+}

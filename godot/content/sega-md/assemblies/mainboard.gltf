@@ -1,0 +1,93 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "TASK-45A placeholder box (real size)"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "mainboard"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "mainboard_mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "indices": 1,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "mainboard_mat",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.08,
+          0.08,
+          0.09,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.7
+      }
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "min": [
+        -0.125,
+        -0.125,
+        -0.125
+      ],
+      "max": [
+        0.125,
+        0.125,
+        0.125
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 96,
+      "byteLength": 72,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "data:application/octet-stream;base64,AAAAvo/C9bvsUbi9AAAAPo/C9bvsUbi9AAAAPo/C9TvsUbi9AAAAvo/C9TvsUbi9AAAAvo/C9bvsUbg9AAAAPo/C9bvsUbg9AAAAPo/C9TvsUbg9AAAAvo/C9TvsUbg9AAABAAIAAAACAAMABAAGAAUABAAHAAYAAAADAAcAAAAHAAQAAQAFAAYAAQAGAAIAAAAEAAUAAAAFAAEAAwACAAYAAwAGAAcA",
+      "byteLength": 168
+    }
+  ]
+}

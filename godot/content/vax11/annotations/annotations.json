@@ -1,0 +1,232 @@
+{
+  "annotations": [
+    {
+      "id": "terminal_role",
+      "type": "role",
+      "target": "terminal",
+      "text": "VT100 操作终端在整机中作为操作员与系统交互的字符终端，用于键入命令与查看输出。"
+    },
+    {
+      "id": "keyboard_role",
+      "type": "role",
+      "target": "keyboard",
+      "text": "终端键盘在整机中用于向系统输入命令与数据，是操作员与 VMS 交互的输入设备。"
+    },
+    {
+      "id": "lamp_power_role",
+      "type": "role",
+      "target": "lamp_power",
+      "text": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的首要状态指示。"
+    },
+    {
+      "id": "lamp_run_role",
+      "type": "role",
+      "target": "lamp_run",
+      "text": "运行指示灯在整机中于处理器执行程序期间点亮，表示系统处于运行状态。"
+    },
+    {
+      "id": "lamp_halt_role",
+      "type": "role",
+      "target": "lamp_halt",
+      "text": "停机指示灯在整机中点亮表示处理器已停机，等待操作员干预。"
+    },
+    {
+      "id": "lamp_boot_role",
+      "type": "role",
+      "target": "lamp_boot",
+      "text": "引导指示灯在整机中于引导程序执行期间点亮，表示系统正在启动。"
+    },
+    {
+      "id": "lamp_machine_check_role",
+      "type": "role",
+      "target": "lamp_machine_check",
+      "text": "机器检查灯在整机中点亮表示发生机器检查异常，处理器进入错误处理流程。"
+    },
+    {
+      "id": "lamp_attention_role",
+      "type": "role",
+      "target": "lamp_attention",
+      "text": "注意指示灯在整机中点亮以提示操作员有需要人工处理的事件，需查看控制台。"
+    },
+    {
+      "id": "sw_power_role",
+      "type": "role",
+      "target": "sw_power",
+      "text": "电源开关在整机中控制整机供电的通断，是启动与关闭机器的总开关。"
+    },
+    {
+      "id": "sw_boot_role",
+      "type": "role",
+      "target": "sw_boot",
+      "text": "引导开关在整机中触发引导程序，从指定设备读入并启动操作系统。"
+    },
+    {
+      "id": "sw_halt_role",
+      "type": "role",
+      "target": "sw_halt",
+      "text": "停机开关在整机中使处理器停机，机器进入等待操作员干预的状态。"
+    },
+    {
+      "id": "sw_start_role",
+      "type": "role",
+      "target": "sw_start",
+      "text": "启动开关在整机中使处理器从当前地址开始或恢复执行程序。"
+    },
+    {
+      "id": "sw_continue_role",
+      "type": "role",
+      "target": "sw_continue",
+      "text": "继续开关在整机中使处理器从暂停处继续执行程序，用于调试后的恢复运行。"
+    },
+    {
+      "id": "sw_clear_role",
+      "type": "role",
+      "target": "sw_clear",
+      "text": "清除开关在整机中清除寄存器和显示，使机器回到空白状态。"
+    },
+    {
+      "id": "sw_deposit_role",
+      "type": "role",
+      "target": "sw_deposit",
+      "text": "写入开关在整机中把操作员设定的数据写入指定地址，完成一次手动存数。"
+    },
+    {
+      "id": "sw_examine_role",
+      "type": "role",
+      "target": "sw_examine",
+      "text": "检视开关在整机中把指定地址的内容读出并显示，供操作员查看存储单元的值。"
+    },
+    {
+      "id": "processor_role",
+      "type": "role",
+      "target": "processor",
+      "text": "处理器在整机中执行 VAX 指令集的取指、译码与执行，是系统的计算核心。"
+    },
+    {
+      "id": "mmu_role",
+      "type": "role",
+      "target": "mmu",
+      "text": "内存管理单元在整机中把 32 位虚拟地址转换为物理地址，支持分页与保护，是虚拟内存的硬件核心。"
+    },
+    {
+      "id": "tlb_role",
+      "type": "role",
+      "target": "tlb",
+      "text": "页表快存在整机中缓存最近使用的页表项，加速虚拟地址到物理地址的转换。"
+    },
+    {
+      "id": "cache_role",
+      "type": "role",
+      "target": "cache",
+      "text": "高速缓存在整机中暂存近期访问的内存数据，减少处理器等待内存的时间。"
+    },
+    {
+      "id": "microcode_rom_role",
+      "type": "role",
+      "target": "microcode_rom",
+      "text": "微程序只读存储器在整机中存放微指令序列，把每条 VAX 指令译码展开为微操作。"
+    },
+    {
+      "id": "protection_unit_role",
+      "type": "role",
+      "target": "protection_unit",
+      "text": "保护单元在整机中实现 4 级保护环，隔离系统核心与用户程序，保障系统可靠性与多用户隔离。"
+    },
+    {
+      "id": "tape_reel_role",
+      "type": "role",
+      "target": "tape_reel",
+      "text": "磁带卷轴在整机中承载一盘磁带，供读写头沿磁带表面顺序读写数据。"
+    },
+    {
+      "id": "tape_head_role",
+      "type": "role",
+      "target": "tape_head",
+      "text": "磁带读写头在整机中贴着磁带表面读写磁记录，是磁带机与数据交互的核心部件。"
+    },
+    {
+      "id": "tape_controller_role",
+      "type": "role",
+      "target": "tape_controller",
+      "text": "磁带控制器在整机中管理 TU78 磁带机的走带与读写操作。"
+    },
+    {
+      "id": "disk_platter_role",
+      "type": "role",
+      "target": "disk_platter",
+      "text": "磁盘盘片在整机中作为 RA81 磁盘的存储介质，以磁性涂层表面保存数据。"
+    },
+    {
+      "id": "disk_head_role",
+      "type": "role",
+      "target": "disk_head",
+      "text": "磁盘读写头在整机中贴着旋转的盘片表面读写数据，是磁盘存储的核心部件。"
+    },
+    {
+      "id": "disk_controller_role",
+      "type": "role",
+      "target": "disk_controller",
+      "text": "磁盘控制器在整机中管理 RA81 磁盘组的数据读写，把块地址转换为磁头寻道与扇区定位。"
+    },
+    {
+      "id": "light_panel_lamps_role",
+      "type": "role",
+      "target": "light_panel_lamps",
+      "text": "控制台灯板灯组在整机中以一排指示灯显示系统状态与寄存器内容，供操作员观察运行。"
+    },
+    {
+      "id": "console_serial_port_role",
+      "type": "role",
+      "target": "console_serial_port",
+      "text": "控制台串口在整机中连接 VT100 终端与主机，是操作员与系统交互的通信接口。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "DEC VAX-11/780 整机，1977 年发布的 32 位虚拟寻址小型机，以分页内存管理把虚拟内存推向主流。"
+    },
+    {
+      "id": "virtual_address_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "虚拟寻址流程：处理器发出 32 位虚拟地址 → 内存管理单元查页表/TLB 转换为物理地址 → 缺页则触发缺页中断由操作系统换页 → 访问物理内存。"
+    },
+    {
+      "id": "boot_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "开机引导流程：操作员按引导开关 → 系统从指定设备（RA81 磁盘或 TU78 磁带）读入引导程序 → 引导程序装入内存并启动 VMS/UNIX 操作系统。"
+    },
+    {
+      "id": "console_role",
+      "type": "role",
+      "target": "console",
+      "text": "操作台在整机中作为操作员与系统交互的界面，集成 VT100 终端、状态灯组与控制开关。"
+    },
+    {
+      "id": "cpu_cabinet_role",
+      "type": "role",
+      "target": "cpu_cabinet",
+      "text": "CPU 柜在整机中承载处理器、内存管理单元与微程序只读存储器，是执行指令与虚拟地址映射的核心单元。"
+    },
+    {
+      "id": "tape_tu78_role",
+      "type": "role",
+      "target": "tape_tu78",
+      "text": "TU78 磁带机在整机中提供磁带的顺序存取，用于数据备份与批量加载。"
+    },
+    {
+      "id": "disk_ra81_role",
+      "type": "role",
+      "target": "disk_ra81",
+      "text": "RA81 磁盘组在整机中提供大容量磁盘存储，是程序与数据的主要随机存取介质。"
+    },
+    {
+      "id": "unibus_light_panel_role",
+      "type": "role",
+      "target": "unibus_light_panel",
+      "text": "Unibus/控制台灯板在整机中提供总线状态显示与控制台串口，是操作员观察系统运行状态的窗口。"
+    }
+  ]
+}

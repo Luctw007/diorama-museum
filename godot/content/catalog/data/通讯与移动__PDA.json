@@ -1,0 +1,1198 @@
+[
+ {
+  "id": "palm-pilot-1000",
+  "name": "Palm Pilot 1000",
+  "alias": [
+   "PalmPilot"
+  ],
+  "manufacturer": "Palm / U.S. Robotics",
+  "era": 1996,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "status": "researching",
+  "device_id": null,
+  "influence": "首台成功的掌上电脑，定义 PDA 品类。",
+  "verify": false,
+  "research_doc": "docs/research/hall-generic/04_PalmPilot.md",
+  "aliases": [
+   "PalmPilot"
+  ],
+  "maker": "Palm / U.S. Robotics",
+  "origin": "",
+  "year": 1996,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "reason": "首台成功的掌上电脑，定义 PDA 品类。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ]
+ },
+ {
+  "id": "palm-pilot-5000",
+  "name": "Palm Pilot 5000",
+  "alias": [],
+  "manufacturer": "Palm / U.S. Robotics",
+  "era": 1996,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "Palm Pilot 高配型号。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Palm / U.S. Robotics",
+  "origin": "",
+  "year": 1996,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "reason": "Palm Pilot 高配型号。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ]
+ },
+ {
+  "id": "palmpilot-personal",
+  "name": "PalmPilot Personal",
+  "alias": [],
+  "manufacturer": "Palm",
+  "era": 1997,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "Palm Pilot 普及型号。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Palm",
+  "origin": "",
+  "year": 1997,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "reason": "Palm Pilot 普及型号。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ]
+ },
+ {
+  "id": "palmpilot-professional",
+  "name": "PalmPilot Professional",
+  "alias": [],
+  "manufacturer": "Palm",
+  "era": 1997,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "Palm Pilot 商务型号。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Palm",
+  "origin": "",
+  "year": 1997,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "reason": "Palm Pilot 商务型号。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ]
+ },
+ {
+  "id": "palm-iii",
+  "name": "Palm III",
+  "alias": [],
+  "manufacturer": "Palm",
+  "era": 1998,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "Palm 经典机型，红外与扩展。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Palm",
+  "origin": "",
+  "year": 1998,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "reason": "Palm 经典机型，红外与扩展。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ]
+ },
+ {
+  "id": "palm-v",
+  "name": "Palm V",
+  "alias": [],
+  "manufacturer": "Palm",
+  "era": 1999,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "超薄金属机身，PDA 时尚化。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Palm",
+  "origin": "",
+  "year": 1999,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "reason": "超薄金属机身，PDA 时尚化。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ]
+ },
+ {
+  "id": "palm-vii",
+  "name": "Palm VII",
+  "alias": [],
+  "manufacturer": "Palm",
+  "era": 1999,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "内置无线联网的 PDA。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Palm",
+  "origin": "",
+  "year": 1999,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "reason": "内置无线联网的 PDA。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ]
+ },
+ {
+  "id": "palm-iiixe",
+  "name": "Palm IIIxe",
+  "alias": [],
+  "manufacturer": "Palm",
+  "era": 2000,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "Palm III 增强型号。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Palm",
+  "origin": "",
+  "year": 2000,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "reason": "Palm III 增强型号。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ]
+ },
+ {
+  "id": "palm-m100",
+  "name": "Palm m100",
+  "alias": [],
+  "manufacturer": "Palm",
+  "era": 2000,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "入门级 PDA，可换壳。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Palm",
+  "origin": "",
+  "year": 2000,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "reason": "入门级 PDA，可换壳。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ]
+ },
+ {
+  "id": "palm-m500",
+  "name": "Palm m500",
+  "alias": [],
+  "manufacturer": "Palm",
+  "era": 2001,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "SD 卡扩展 PDA。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Palm",
+  "origin": "",
+  "year": 2001,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "reason": "SD 卡扩展 PDA。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ]
+ },
+ {
+  "id": "palm-tungsten-t",
+  "name": "Palm Tungsten T",
+  "alias": [],
+  "manufacturer": "Palm",
+  "era": 2002,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "滑盖式 PDA，ARM 处理器。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Palm",
+  "origin": "",
+  "year": 2002,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "reason": "滑盖式 PDA，ARM 处理器。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ]
+ },
+ {
+  "id": "palm-tungsten-e",
+  "name": "Palm Tungsten E",
+  "alias": [],
+  "manufacturer": "Palm",
+  "era": 2003,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "商务普及 PDA。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Palm",
+  "origin": "",
+  "year": 2003,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "reason": "商务普及 PDA。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ]
+ },
+ {
+  "id": "palm-zire",
+  "name": "Palm Zire",
+  "alias": [],
+  "manufacturer": "Palm",
+  "era": 2002,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "低价入门 PDA。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Palm",
+  "origin": "",
+  "year": 2002,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "reason": "低价入门 PDA。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ]
+ },
+ {
+  "id": "palm-zire-72",
+  "name": "Palm Zire 72",
+  "alias": [],
+  "manufacturer": "Palm",
+  "era": 2004,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "内置摄像头 PDA。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Palm",
+  "origin": "",
+  "year": 2004,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "reason": "内置摄像头 PDA。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ]
+ },
+ {
+  "id": "palm-m515",
+  "name": "Palm m515",
+  "alias": [],
+  "manufacturer": "Palm",
+  "era": 2002,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "彩色屏 Palm，扩展兼容。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Palm",
+  "origin": "",
+  "year": 2002,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ],
+  "reason": "彩色屏 Palm，扩展兼容。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Palm 系"
+  ]
+ },
+ {
+  "id": "hp-ipaq-2210",
+  "name": "HP iPAQ 2210",
+  "alias": [],
+  "manufacturer": "Hewlett-Packard",
+  "era": 2003,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "双扩展槽 Windows CE PDA。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Hewlett-Packard",
+  "origin": "",
+  "year": 2003,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ],
+  "reason": "双扩展槽 Windows CE PDA。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ]
+ },
+ {
+  "id": "compaq-ipaq-h3600",
+  "name": "Compaq iPAQ H3600",
+  "alias": [],
+  "manufacturer": "Compaq",
+  "era": 2000,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "Windows CE PDA，口袋 PC 标杆。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Compaq",
+  "origin": "",
+  "year": 2000,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ],
+  "reason": "Windows CE PDA，口袋 PC 标杆。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ]
+ },
+ {
+  "id": "compaq-ipaq-h3100",
+  "name": "Compaq iPAQ H3100",
+  "alias": [],
+  "manufacturer": "Compaq",
+  "era": 2000,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "iPAQ 入门型号。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Compaq",
+  "origin": "",
+  "year": 2000,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ],
+  "reason": "iPAQ 入门型号。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ]
+ },
+ {
+  "id": "compaq-ipaq-h3900",
+  "name": "Compaq iPAQ H3900",
+  "alias": [],
+  "manufacturer": "Compaq",
+  "era": 2002,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "iPAQ 扩展型号。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Compaq",
+  "origin": "",
+  "year": 2002,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ],
+  "reason": "iPAQ 扩展型号。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ]
+ },
+ {
+  "id": "hp-ipaq-h5400",
+  "name": "HP iPAQ h5400",
+  "alias": [],
+  "manufacturer": "Hewlett-Packard",
+  "era": 2003,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "蓝牙与无线 PDA。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Hewlett-Packard",
+  "origin": "",
+  "year": 2003,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ],
+  "reason": "蓝牙与无线 PDA。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ]
+ },
+ {
+  "id": "hp-ipaq-hx4700",
+  "name": "HP iPAQ hx4700",
+  "alias": [],
+  "manufacturer": "Hewlett-Packard",
+  "era": 2004,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "VGA 屏高端 PDA。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Hewlett-Packard",
+  "origin": "",
+  "year": 2004,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ],
+  "reason": "VGA 屏高端 PDA。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "HP iPAQ 系"
+  ]
+ },
+ {
+  "id": "sharp-zaurus-pi-3000",
+  "name": "Sharp Zaurus PI-3000",
+  "alias": [],
+  "manufacturer": "夏普",
+  "era": 1993,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Sharp Zaurus 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "早期 PDA，日文输入。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "夏普",
+  "origin": "",
+  "year": 1993,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Sharp Zaurus 系"
+  ],
+  "reason": "早期 PDA，日文输入。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Sharp Zaurus 系"
+  ]
+ },
+ {
+  "id": "sharp-zaurus-mi-10",
+  "name": "Sharp Zaurus MI-10",
+  "alias": [],
+  "manufacturer": "夏普",
+  "era": 1995,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Sharp Zaurus 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "早期 Zaurus 型号。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "夏普",
+  "origin": "",
+  "year": 1995,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Sharp Zaurus 系"
+  ],
+  "reason": "早期 Zaurus 型号。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Sharp Zaurus 系"
+  ]
+ },
+ {
+  "id": "sharp-zaurus-sl-5500",
+  "name": "Sharp Zaurus SL-5500",
+  "alias": [],
+  "manufacturer": "夏普",
+  "era": 2002,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Sharp Zaurus 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "Linux 掌上电脑，开源先驱。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "夏普",
+  "origin": "",
+  "year": 2002,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Sharp Zaurus 系"
+  ],
+  "reason": "Linux 掌上电脑，开源先驱。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Sharp Zaurus 系"
+  ]
+ },
+ {
+  "id": "sharp-zaurus-sl-c750",
+  "name": "Sharp Zaurus SL-C750",
+  "alias": [],
+  "manufacturer": "夏普",
+  "era": 2003,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "Sharp Zaurus 系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "翻盖 Linux PDA。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "夏普",
+  "origin": "",
+  "year": 2003,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "Sharp Zaurus 系"
+  ],
+  "reason": "翻盖 Linux PDA。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "Sharp Zaurus 系"
+  ]
+ },
+ {
+  "id": "apple-newton-messagepad",
+  "name": "Apple Newton MessagePad",
+  "alias": [
+   "牛顿"
+  ],
+  "manufacturer": "Apple",
+  "era": 1993,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "首台 PDA，手写识别先驱。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [
+   "牛顿"
+  ],
+  "maker": "Apple",
+  "origin": "",
+  "year": 1993,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "reason": "首台 PDA，手写识别先驱。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ]
+ },
+ {
+  "id": "apple-newton-messagepad-120",
+  "name": "Apple Newton MessagePad 120",
+  "alias": [],
+  "manufacturer": "Apple",
+  "era": 1994,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "Newton 改进型号。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Apple",
+  "origin": "",
+  "year": 1994,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "reason": "Newton 改进型号。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ]
+ },
+ {
+  "id": "apple-newton-messagepad-2000",
+  "name": "Apple Newton MessagePad 2000",
+  "alias": [],
+  "manufacturer": "Apple",
+  "era": 1997,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "Newton 末代旗舰。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Apple",
+  "origin": "",
+  "year": 1997,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "reason": "Newton 末代旗舰。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ]
+ },
+ {
+  "id": "handspring-visor",
+  "name": "Handspring Visor",
+  "alias": [],
+  "manufacturer": "Handspring",
+  "era": 1999,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "Springboard 扩展 PDA。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Handspring",
+  "origin": "",
+  "year": 1999,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "reason": "Springboard 扩展 PDA。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ]
+ },
+ {
+  "id": "handspring-visor-edge",
+  "name": "Handspring Visor Edge",
+  "alias": [],
+  "manufacturer": "Handspring",
+  "era": 2001,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "超薄扩展 PDA。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Handspring",
+  "origin": "",
+  "year": 2001,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "reason": "超薄扩展 PDA。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ]
+ },
+ {
+  "id": "sony-cli-peg-s300",
+  "name": "Sony CLIÉ PEG-S300",
+  "alias": [],
+  "manufacturer": "索尼",
+  "era": 2000,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "索尼 Palm OS PDA，多媒体。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "索尼",
+  "origin": "",
+  "year": 2000,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "reason": "索尼 Palm OS PDA，多媒体。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ]
+ },
+ {
+  "id": "sony-cli-peg-nr70",
+  "name": "Sony CLIÉ PEG-NR70",
+  "alias": [],
+  "manufacturer": "索尼",
+  "era": 2002,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "折叠键盘 Palm PDA。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "索尼",
+  "origin": "",
+  "year": 2002,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "reason": "折叠键盘 Palm PDA。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ]
+ },
+ {
+  "id": "casio-cassiopeia",
+  "name": "Casio Cassiopeia",
+  "alias": [],
+  "manufacturer": "卡西欧",
+  "era": 1997,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "首台 Windows CE 掌上电脑。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "卡西欧",
+  "origin": "",
+  "year": 1997,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "reason": "首台 Windows CE 掌上电脑。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ]
+ },
+ {
+  "id": "compaq-aero-1500",
+  "name": "Compaq Aero 1500",
+  "alias": [],
+  "manufacturer": "Compaq",
+  "era": 1998,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "Windows CE 掌上电脑。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Compaq",
+  "origin": "",
+  "year": 1998,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "reason": "Windows CE 掌上电脑。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ]
+ },
+ {
+  "id": "hp-jornada-720",
+  "name": "HP Jornada 720",
+  "alias": [],
+  "manufacturer": "Hewlett-Packard",
+  "era": 2000,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "亚笔记本 PDA，全键盘。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Hewlett-Packard",
+  "origin": "",
+  "year": 2000,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "reason": "亚笔记本 PDA，全键盘。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ]
+ },
+ {
+  "id": "psion-netbook",
+  "name": "Psion netBook",
+  "alias": [],
+  "manufacturer": "Psion",
+  "era": 1999,
+  "taxonomy_path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "亚笔记本 PDA，长续航。",
+  "verify": false,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Psion",
+  "origin": "",
+  "year": 1999,
+  "path": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ],
+  "reason": "亚笔记本 PDA，长续航。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "PDA",
+   "其它 PDA"
+  ]
+ }
+]

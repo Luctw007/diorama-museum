@@ -1,0 +1,11 @@
+{
+  "hall_name": "黎明厅（Dawn Hall）",
+  "width": 20.0,
+  "depth": 12.0,
+  "devices": [
+    { "id": "eniac",            "position": [-7.0, 0.0, 2.0],  "scale": [1.0, 1.0, 1.0], "slot": 1 },
+    { "id": "edvac",            "position": [-2.5, 0.0, 3.5],  "scale": [1.0, 1.0, 1.0], "slot": 2 },
+    { "id": "edsac",            "position": [2.5, 0.0, 3.0],   "scale": [1.0, 1.0, 1.0], "slot": 3 },
+    { "id": "manchester-baby",  "position": [6.5, 0.0, 1.5],   "scale": [1.0, 1.0, 1.0], "slot": 4 }
+  ]
+}

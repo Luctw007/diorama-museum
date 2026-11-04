@@ -1,0 +1,11 @@
+{
+  "hall_name": "大型机与小型机厅（Mainframe Hall）",
+  "width": 22.0,
+  "depth": 14.0,
+  "devices": [
+    { "id": "system360", "position": [-9.0, 0.0, 2.5], "scale": [1.0, 1.0, 1.0], "slot": 1 },
+    { "id": "pdp8",      "position": [-4.0, 0.0, 4.0], "scale": [1.0, 1.0, 1.0], "slot": 2 },
+    { "id": "pdp11",     "position": [2.0, 0.0, 3.0],  "scale": [1.0, 1.0, 1.0], "slot": 3 },
+    { "id": "vax11",     "position": [7.5, 0.0, 1.5],  "scale": [1.0, 1.0, 1.0], "slot": 4 }
+  ]
+}

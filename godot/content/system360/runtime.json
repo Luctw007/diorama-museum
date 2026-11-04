@@ -1,0 +1,52 @@
+{
+  "emulator": "none",
+  "version": "1.0.0",
+  "system": "IBM System/360 Model 30",
+  "media_hint": "tape",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {
+      "id": "indicator_lamps_0",
+      "surface": "indicator_lamps",
+      "type": "video",
+      "format": "mono1"
+    },
+    {
+      "id": "internal_crt_0",
+      "surface": "internal_crt",
+      "type": "video",
+      "format": "mono1"
+    }
+  ],
+  "input_map": {
+    "power": {
+      "map": "keyboard",
+      "key": "KEY_POWER"
+    },
+    "reset": {
+      "map": "keyboard",
+      "key": "KEY_RESET"
+    },
+    "ipl": {
+      "map": "keyboard",
+      "key": "KEY_I"
+    },
+    "start": {
+      "map": "keyboard",
+      "key": "KEY_ENTER"
+    },
+    "stop": {
+      "map": "keyboard",
+      "key": "KEY_STOP"
+    },
+    "load": {
+      "map": "keyboard",
+      "key": "KEY_L"
+    },
+    "clear": {
+      "map": "keyboard",
+      "key": "KEY_CLEAR"
+    }
+  }
+}

@@ -1,0 +1,7122 @@
+[
+ {
+  "id": "C-PC-000001",
+  "name": "Apple I",
+  "aliases": [
+   "苹果一号"
+  ],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1976,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "苹果首款产品，个人计算机手工时代象征。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apple",
+  "year": 1976,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "苹果首款产品，个人计算机手工时代象征。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000013",
+  "name": "PowerBook 100",
+  "aliases": [],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1991,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "奠定现代笔记本形态。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apple",
+  "year": 1991,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "奠定现代笔记本形态。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000014",
+  "name": "Macintosh Portable",
+  "aliases": [],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1989,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "苹果首台便携电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apple",
+  "year": 1989,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "苹果首台便携电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000038",
+  "name": "TRS-80 Model 100",
+  "aliases": [],
+  "manufacturer": "Tandy / RadioShack",
+  "origin": "美国",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "早期便携电脑，记者青睐。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Tandy / RadioShack",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "早期便携电脑，记者青睐。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000115",
+  "name": "Osborne 1",
+  "aliases": [],
+  "manufacturer": "Osborne Computer",
+  "origin": "美国",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "首台成功的便携计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Osborne Computer",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "首台成功的便携计算机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000116",
+  "name": "Kaypro II",
+  "aliases": [],
+  "manufacturer": "Kaypro",
+  "origin": "美国",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "CP/M 便携电脑，低价实用。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Kaypro",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "CP/M 便携电脑，低价实用。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000117",
+  "name": "GRiD Compass 1101",
+  "aliases": [],
+  "manufacturer": "GRiD Systems",
+  "origin": "美国",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "首台翻盖式笔记本形态电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "GRiD Systems",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "首台翻盖式笔记本形态电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000118",
+  "name": "Epson HX-20",
+  "aliases": [],
+  "manufacturer": "爱普生",
+  "origin": "日本",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "首台便携计算机之一，内置打印机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "爱普生",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "首台便携计算机之一，内置打印机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000119",
+  "name": "Toshiba T1100",
+  "aliases": [],
+  "manufacturer": "东芝",
+  "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "首台大众市场笔记本电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "东芝",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "首台大众市场笔记本电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000120",
+  "name": "Toshiba T1000",
+  "aliases": [],
+  "manufacturer": "东芝",
+  "origin": "日本",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "低价便携 PC，内置 DOS。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "东芝",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "低价便携 PC，内置 DOS。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000121",
+  "name": "Compaq SLT/286",
+  "aliases": [],
+  "manufacturer": "Compaq",
+  "origin": "美国",
+  "era": 1988,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "早期笔记本电脑，便携性提升。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Compaq",
+  "year": 1988,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "早期笔记本电脑，便携性提升。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000122",
+  "name": "Altair 8800",
+  "aliases": [
+   "牵牛星"
+  ],
+  "manufacturer": "MITS",
+  "origin": "美国",
+  "era": 1975,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "首台成功的个人电脑套件，点燃革命。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "MITS",
+  "year": 1975,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "首台成功的个人电脑套件，点燃革命。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000123",
+  "name": "Altair 8800b",
+  "aliases": [],
+  "manufacturer": "MITS",
+  "origin": "美国",
+  "era": 1976,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "Altair 8800 改进型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "MITS",
+  "year": 1976,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "Altair 8800 改进型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000124",
+  "name": "IMSAI 8080",
+  "aliases": [],
+  "manufacturer": "IMSAI",
+  "origin": "美国",
+  "era": 1975,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "Altair 竞争套件，早期个人电脑代表。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IMSAI",
+  "year": 1975,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "Altair 竞争套件，早期个人电脑代表。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000125",
+  "name": "Processor Technology Sol-20",
+  "aliases": [
+   "Sol-20"
+  ],
+  "manufacturer": "Processor Technology",
+  "origin": "美国",
+  "era": 1976,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "首台一体化套件电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Processor Technology",
+  "year": 1976,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "首台一体化套件电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000126",
+  "name": "NorthStar Horizon",
+  "aliases": [],
+  "manufacturer": "NorthStar",
+  "origin": "美国",
+  "era": 1977,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "内置软驱的 S-100 电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NorthStar",
+  "year": 1977,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "内置软驱的 S-100 电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000127",
+  "name": "Cromemco Z-1",
+  "aliases": [],
+  "manufacturer": "Cromemco",
+  "origin": "美国",
+  "era": 1976,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "S-100 总线电脑，Z80 处理器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Cromemco",
+  "year": 1976,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "S-100 总线电脑，Z80 处理器。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000128",
+  "name": "SWTPC 6800",
+  "aliases": [],
+  "manufacturer": "Southwest Technical Products",
+  "origin": "美国",
+  "era": 1975,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "6800 处理器套件电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Southwest Technical Products",
+  "year": 1975,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "6800 处理器套件电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000129",
+  "name": "Ohio Scientific Challenger",
+  "aliases": [],
+  "manufacturer": "Ohio Scientific",
+  "origin": "美国",
+  "era": 1977,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "早期个人电脑套件。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Ohio Scientific",
+  "year": 1977,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "早期个人电脑套件。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000132",
+  "name": "联想汉卡",
+  "aliases": [
+   "联想式汉卡"
+  ],
+  "manufacturer": "联想",
+  "origin": "中国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "汉字输入硬件，联想集团起家产品。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "联想",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "汉字输入硬件，联想集团起家产品。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000133",
+  "name": "四通打字机",
+  "aliases": [
+   "MS-2401"
+  ],
+  "manufacturer": "四通",
+  "origin": "中国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "中英文电子打字机，办公自动化先驱。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "四通",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "中英文电子打字机，办公自动化先驱。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000134",
+  "name": "紫金-II",
+  "aliases": [],
+  "manufacturer": "南京有线电厂",
+  "origin": "中国",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "国产个人电脑，Apple II 兼容。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "南京有线电厂",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "国产个人电脑，Apple II 兼容。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000135",
+  "name": "Agat",
+  "aliases": [
+   "阿加特"
+  ],
+  "manufacturer": "苏联",
+  "origin": "苏联",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "苏联 Apple II 克隆电脑，教育用。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "苏联",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "苏联 Apple II 克隆电脑，教育用。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000136",
+  "name": "Pravetz 82",
+  "aliases": [],
+  "manufacturer": "保加利亚 Pravetz",
+  "origin": "保加利亚",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "保加利亚 Apple II 克隆电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "保加利亚 Pravetz",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "保加利亚 Apple II 克隆电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000137",
+  "name": "Pravetz 8M",
+  "aliases": [],
+  "manufacturer": "保加利亚 Pravetz",
+  "origin": "保加利亚",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "保加利亚家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "保加利亚 Pravetz",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "保加利亚家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000138",
+  "name": "Homelab 2",
+  "aliases": [],
+  "manufacturer": "匈牙利",
+  "origin": "匈牙利",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "匈牙利自制家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "匈牙利",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "匈牙利自制家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000167",
+  "name": "Agat-7",
+  "aliases": [],
+  "manufacturer": "苏联",
+  "origin": "苏联",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "苏联 Apple II 克隆电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "苏联",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "苏联 Apple II 克隆电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000168",
+  "name": "Iskra 1030",
+  "aliases": [],
+  "manufacturer": "苏联",
+  "origin": "苏联",
+  "era": 1989,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "苏联 IBM PC 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "苏联",
+  "year": 1989,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "苏联 IBM PC 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000169",
+  "name": "Pravetz 8A",
+  "aliases": [],
+  "manufacturer": "保加利亚 Pravetz",
+  "origin": "保加利亚",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "保加利亚家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "保加利亚 Pravetz",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "保加利亚家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000170",
+  "name": "Pravetz 16",
+  "aliases": [],
+  "manufacturer": "保加利亚 Pravetz",
+  "origin": "保加利亚",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "保加利亚 IBM PC 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "保加利亚 Pravetz",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "保加利亚 IBM PC 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000171",
+  "name": "Videoton TVC",
+  "aliases": [],
+  "manufacturer": "匈牙利 Videoton",
+  "origin": "匈牙利",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "匈牙利家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "匈牙利 Videoton",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "匈牙利家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000172",
+  "name": "Robotron KC 85",
+  "aliases": [],
+  "manufacturer": "东德 Robotron",
+  "origin": "东德",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "东德家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "东德 Robotron",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "东德家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000173",
+  "name": "Robotron KC 87",
+  "aliases": [],
+  "manufacturer": "东德 Robotron",
+  "origin": "东德",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "东德家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "东德 Robotron",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "东德家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000174",
+  "name": "Didaktik Gama",
+  "aliases": [],
+  "manufacturer": "捷克斯洛伐克 Didaktik",
+  "origin": "捷克斯洛伐克",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "ZX Spectrum 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "捷克斯洛伐克 Didaktik",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "ZX Spectrum 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000175",
+  "name": "Elwro 800 Junior",
+  "aliases": [],
+  "manufacturer": "波兰 Elwro",
+  "origin": "波兰",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "波兰家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "波兰 Elwro",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "波兰家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000180",
+  "name": "四通 MS-2403",
+  "aliases": [],
+  "manufacturer": "四通",
+  "origin": "中国",
+  "era": 1988,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "中英文电子打字机后续型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "四通",
+  "year": 1988,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "中英文电子打字机后续型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000183",
+  "name": "MITS Altair 680",
+  "aliases": [],
+  "manufacturer": "MITS",
+  "origin": "美国",
+  "era": 1976,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "6800 处理器套件电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "MITS",
+  "year": 1976,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "6800 处理器套件电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000184",
+  "name": "Sphere 1",
+  "aliases": [],
+  "manufacturer": "Sphere Corporation",
+  "origin": "美国",
+  "era": 1975,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "早期集成个人电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sphere Corporation",
+  "year": 1975,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "早期集成个人电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000185",
+  "name": "Poly-88",
+  "aliases": [
+   "PolyMorphic 88"
+  ],
+  "manufacturer": "PolyMorphic Systems",
+  "origin": "美国",
+  "era": 1976,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "S-100 总线套件电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "PolyMorphic Systems",
+  "year": 1976,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "S-100 总线套件电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000186",
+  "name": "Ohio Scientific Superboard II",
+  "aliases": [],
+  "manufacturer": "Ohio Scientific",
+  "origin": "美国",
+  "era": 1978,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "单板家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Ohio Scientific",
+  "year": 1978,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "单板家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000187",
+  "name": "Exidy Sorcerer",
+  "aliases": [],
+  "manufacturer": "Exidy",
+  "origin": "美国",
+  "era": 1978,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "家用电脑，游戏机厂商转型。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Exidy",
+  "year": 1978,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "家用电脑，游戏机厂商转型。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000188",
+  "name": "Zenith Z-89",
+  "aliases": [],
+  "manufacturer": "Zenith Data Systems",
+  "origin": "美国",
+  "era": 1979,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "一体化 CP/M 电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Zenith Data Systems",
+  "year": 1979,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "一体化 CP/M 电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000202",
+  "name": "IBM PC Convertible",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "IBM 首台笔记本，3.5 英寸软驱标准。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "IBM 首台笔记本，3.5 英寸软驱标准。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000203",
+  "name": "Toshiba T3200",
+  "aliases": [],
+  "manufacturer": "东芝",
+  "origin": "日本",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "东芝便携电脑，等离子屏。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "东芝",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "东芝便携电脑，等离子屏。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000206",
+  "name": "Amstrad PCW 8256",
+  "aliases": [
+   "PCW"
+  ],
+  "manufacturer": "Amstrad",
+  "origin": "英国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "influence": "文字处理专用电脑，欧洲普及。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Amstrad",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "其他"
+  ],
+  "reason": "文字处理专用电脑，欧洲普及。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "其他"
+  ]
+ },
+ {
+  "id": "C-PC-000002",
+  "name": "Apple II",
+  "aliases": [
+   "苹果二号"
+  ],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1977,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "首台大规模成功的个人计算机，定义品类。",
+  "status": "done",
+  "device_id": "apple-ii",
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apple",
+  "year": 1977,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "首台大规模成功的个人计算机，定义品类。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000003",
+  "name": "Apple II Plus",
+  "aliases": [
+   "Apple II+"
+  ],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1979,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "Apple II 增强，普及教育市场。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apple",
+  "year": 1979,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "Apple II 增强，普及教育市场。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000004",
+  "name": "Apple IIc",
+  "aliases": [
+   "Apple IIc"
+  ],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "便携式 Apple II，一体化设计。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apple",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "便携式 Apple II，一体化设计。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000015",
+  "name": "Commodore PET 2001",
+  "aliases": [
+   "PET"
+  ],
+  "manufacturer": "Commodore",
+  "origin": "美国",
+  "era": 1977,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "首台一体化个人计算机，面向教育。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Commodore",
+  "year": 1977,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "首台一体化个人计算机，面向教育。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000016",
+  "name": "Commodore VIC-20",
+  "aliases": [
+   "VIC-20"
+  ],
+  "manufacturer": "Commodore",
+  "origin": "美国",
+  "era": 1980,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "首台销量破百万的计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Commodore",
+  "year": 1980,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "首台销量破百万的计算机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000017",
+  "name": "Commodore 64",
+  "aliases": [
+   "C64"
+  ],
+  "manufacturer": "Commodore",
+  "origin": "美国",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "史上最畅销单一计算机型号，芯片音乐源头。",
+  "status": "done",
+  "device_id": "commodore64",
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Commodore",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "史上最畅销单一计算机型号，芯片音乐源头。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000018",
+  "name": "Commodore 128",
+  "aliases": [
+   "C128"
+  ],
+  "manufacturer": "Commodore",
+  "origin": "美国",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "C64 兼容升级，128KB 内存。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Commodore",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "C64 兼容升级，128KB 内存。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000019",
+  "name": "Commodore 16",
+  "aliases": [],
+  "manufacturer": "Commodore",
+  "origin": "美国",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "低价家用电脑，抢占低端市场。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Commodore",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "低价家用电脑，抢占低端市场。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000020",
+  "name": "Commodore Plus/4",
+  "aliases": [],
+  "manufacturer": "Commodore",
+  "origin": "美国",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "面向办公的 8 位机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Commodore",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "面向办公的 8 位机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000026",
+  "name": "Atari 400",
+  "aliases": [],
+  "manufacturer": "Atari",
+  "origin": "美国",
+  "era": 1979,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "面向游戏与家庭的入门电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Atari",
+  "year": 1979,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "面向游戏与家庭的入门电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000027",
+  "name": "Atari 800",
+  "aliases": [],
+  "manufacturer": "Atari",
+  "origin": "美国",
+  "era": 1979,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "Atari 8 位电脑主力，图形音频出色。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Atari",
+  "year": 1979,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "Atari 8 位电脑主力，图形音频出色。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000028",
+  "name": "Atari 600XL",
+  "aliases": [],
+  "manufacturer": "Atari",
+  "origin": "美国",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "Atari 8 位电脑入门型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Atari",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "Atari 8 位电脑入门型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000029",
+  "name": "Atari 800XL",
+  "aliases": [],
+  "manufacturer": "Atari",
+  "origin": "美国",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "Atari 8 位电脑普及型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Atari",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "Atari 8 位电脑普及型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000033",
+  "name": "TRS-80 Model I",
+  "aliases": [],
+  "manufacturer": "Tandy / RadioShack",
+  "origin": "美国",
+  "era": 1977,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "大众零售渠道首台个人电脑，销量破纪录。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Tandy / RadioShack",
+  "year": 1977,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "大众零售渠道首台个人电脑，销量破纪录。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000034",
+  "name": "TRS-80 Model III",
+  "aliases": [],
+  "manufacturer": "Tandy / RadioShack",
+  "origin": "美国",
+  "era": 1980,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "一体化设计，商用与教育普及。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Tandy / RadioShack",
+  "year": 1980,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "一体化设计，商用与教育普及。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000035",
+  "name": "TRS-80 Model 4",
+  "aliases": [],
+  "manufacturer": "Tandy / RadioShack",
+  "origin": "美国",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "TRS-80 末代桌面机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Tandy / RadioShack",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "TRS-80 末代桌面机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000036",
+  "name": "TRS-80 Color Computer",
+  "aliases": [
+   "CoCo"
+  ],
+  "manufacturer": "Tandy / RadioShack",
+  "origin": "美国",
+  "era": 1980,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "彩色家用电脑，游戏与教育。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Tandy / RadioShack",
+  "year": 1980,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "彩色家用电脑，游戏与教育。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000037",
+  "name": "TRS-80 Model II",
+  "aliases": [],
+  "manufacturer": "Tandy / RadioShack",
+  "origin": "美国",
+  "era": 1979,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "面向商用的 TRS-80。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Tandy / RadioShack",
+  "year": 1979,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "面向商用的 TRS-80。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000040",
+  "name": "Sinclair ZX80",
+  "aliases": [
+   "ZX80"
+  ],
+  "manufacturer": "Sinclair Research",
+  "origin": "英国",
+  "era": 1980,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "低价入门电脑，让编程走进普通家庭。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sinclair Research",
+  "year": 1980,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "低价入门电脑，让编程走进普通家庭。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000041",
+  "name": "Sinclair ZX81",
+  "aliases": [
+   "ZX81"
+  ],
+  "manufacturer": "Sinclair Research",
+  "origin": "英国",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "价格亲民，英国销量巨大。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sinclair Research",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "价格亲民，英国销量巨大。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000042",
+  "name": "ZX Spectrum",
+  "aliases": [],
+  "manufacturer": "Sinclair Research",
+  "origin": "英国",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "英国国民电脑，催生独立游戏产业。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sinclair Research",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "英国国民电脑，催生独立游戏产业。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000044",
+  "name": "Acorn Atom",
+  "aliases": [],
+  "manufacturer": "Acorn",
+  "origin": "英国",
+  "era": 1980,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "Acorn 早期家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Acorn",
+  "year": 1980,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "Acorn 早期家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000045",
+  "name": "BBC Micro",
+  "aliases": [],
+  "manufacturer": "Acorn",
+  "origin": "英国",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "英国国民教育电脑，ARM 架构摇篮。",
+  "status": "done",
+  "device_id": "bbcmicro",
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Acorn",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "英国国民教育电脑，ARM 架构摇篮。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000046",
+  "name": "Acorn Electron",
+  "aliases": [],
+  "manufacturer": "Acorn",
+  "origin": "英国",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "BBC Micro 低价家庭版。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Acorn",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "BBC Micro 低价家庭版。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000049",
+  "name": "Acorn BBC Master",
+  "aliases": [],
+  "manufacturer": "Acorn",
+  "origin": "英国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "BBC Micro 增强后继。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Acorn",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "BBC Micro 增强后继。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000059",
+  "name": "Amstrad CPC 464",
+  "aliases": [
+   "CPC"
+  ],
+  "manufacturer": "Amstrad",
+  "origin": "英国",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "低价欧洲家用电脑，一体化设计。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Amstrad",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "低价欧洲家用电脑，一体化设计。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000060",
+  "name": "Amstrad CPC 6128",
+  "aliases": [],
+  "manufacturer": "Amstrad",
+  "origin": "英国",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "内置软驱的 CPC 高端型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Amstrad",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "内置软驱的 CPC 高端型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000061",
+  "name": "Dragon 32",
+  "aliases": [],
+  "manufacturer": "Dragon Data",
+  "origin": "英国",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "英国家用电脑，CoCo 衍生。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Dragon Data",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "英国家用电脑，CoCo 衍生。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000062",
+  "name": "Oric-1",
+  "aliases": [],
+  "manufacturer": "Oric",
+  "origin": "英国",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "英国低价家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Oric",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "英国低价家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000063",
+  "name": "TI-99/4A",
+  "aliases": [],
+  "manufacturer": "德州仪器",
+  "origin": "美国",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "16 位家用电脑，价格战惨烈。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "德州仪器",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "16 位家用电脑，价格战惨烈。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000139",
+  "name": "ZX Spectrum 128K",
+  "aliases": [],
+  "manufacturer": "Sinclair Research",
+  "origin": "英国",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "Spectrum 增强型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sinclair Research",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "Spectrum 增强型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000140",
+  "name": "ZX Spectrum +2",
+  "aliases": [],
+  "manufacturer": "Sinclair Research",
+  "origin": "英国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "集成磁带机的 Spectrum。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sinclair Research",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "集成磁带机的 Spectrum。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000141",
+  "name": "Dragon 64",
+  "aliases": [],
+  "manufacturer": "Dragon Data",
+  "origin": "英国",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "Dragon 32 升级型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Dragon Data",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "Dragon 32 升级型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000142",
+  "name": "Jupiter Ace",
+  "aliases": [],
+  "manufacturer": "Jupiter Cantab",
+  "origin": "英国",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "FORTH 语言家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Jupiter Cantab",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "FORTH 语言家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000143",
+  "name": "Memotech MTX512",
+  "aliases": [],
+  "manufacturer": "Memotech",
+  "origin": "英国",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "英国 Z80 家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Memotech",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "英国 Z80 家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000144",
+  "name": "Oric Atmos",
+  "aliases": [],
+  "manufacturer": "Oric",
+  "origin": "英国",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "Oric-1 升级型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Oric",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "Oric-1 升级型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000145",
+  "name": "Grundy NewBrain",
+  "aliases": [],
+  "manufacturer": "Grundy",
+  "origin": "英国",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "英国便携家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Grundy",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "英国便携家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000146",
+  "name": "Camputers Lynx",
+  "aliases": [],
+  "manufacturer": "Camputers",
+  "origin": "英国",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "英国家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Camputers",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "英国家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000181",
+  "name": "中华学习机",
+  "aliases": [
+   "CEC-I"
+  ],
+  "manufacturer": "中国（多家）",
+  "origin": "中国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "国产教育电脑，Apple II 兼容。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "中国（多家）",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "国产教育电脑，Apple II 兼容。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000205",
+  "name": "Atari XEGS",
+  "aliases": [],
+  "manufacturer": "Atari",
+  "origin": "美国",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "游戏与电脑二合一家用机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Atari",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "游戏与电脑二合一家用机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
+  "id": "C-PC-000005",
+  "name": "Apple III",
+  "aliases": [
+   "苹果三号"
+  ],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1980,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "面向商用，因散热问题声名受损。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apple",
+  "year": 1980,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "面向商用，因散热问题声名受损。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000006",
+  "name": "Apple Lisa",
+  "aliases": [
+   "丽萨"
+  ],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "首台图形界面个人计算机，Mac 前身。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apple",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "首台图形界面个人计算机，Mac 前身。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000007",
+  "name": "Macintosh 128K",
+  "aliases": [
+   "麦金塔"
+  ],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "普及图形界面与鼠标，个人计算革命。",
+  "status": "done",
+  "device_id": "macintosh128k",
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apple",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "普及图形界面与鼠标，个人计算革命。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000008",
+  "name": "Macintosh Plus",
+  "aliases": [],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "Mac 早期普及机型，支持 SCSI。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apple",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "Mac 早期普及机型，支持 SCSI。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000009",
+  "name": "Macintosh SE",
+  "aliases": [],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "Mac 经典机型，扩展槽回归。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apple",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "Mac 经典机型，扩展槽回归。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000010",
+  "name": "Macintosh II",
+  "aliases": [],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "首台彩色 Mac，模块化设计。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apple",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "首台彩色 Mac，模块化设计。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000011",
+  "name": "Macintosh Classic",
+  "aliases": [],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "低价 Mac，教育市场普及。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apple",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "低价 Mac，教育市场普及。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000012",
+  "name": "Macintosh LC",
+  "aliases": [],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "彩色低价 Mac。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apple",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "彩色低价 Mac。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000021",
+  "name": "Commodore Amiga 1000",
+  "aliases": [
+   "A1000"
+  ],
+  "manufacturer": "Commodore",
+  "origin": "美国",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "Amiga 系列开端，协处理器多媒体架构。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Commodore",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "Amiga 系列开端，协处理器多媒体架构。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000022",
+  "name": "Commodore Amiga 500",
+  "aliases": [
+   "A500"
+  ],
+  "manufacturer": "Commodore",
+  "origin": "美国",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "多媒体个人计算机，游戏图形能力强。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Commodore",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "多媒体个人计算机，游戏图形能力强。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000023",
+  "name": "Commodore Amiga 2000",
+  "aliases": [
+   "A2000"
+  ],
+  "manufacturer": "Commodore",
+  "origin": "美国",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "Amiga 扩展机型，视频制作青睐。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Commodore",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "Amiga 扩展机型，视频制作青睐。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000024",
+  "name": "Commodore Amiga 3000",
+  "aliases": [
+   "A3000"
+  ],
+  "manufacturer": "Commodore",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "高端 Amiga，面向专业视频。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Commodore",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "高端 Amiga，面向专业视频。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000025",
+  "name": "Commodore Amiga 600",
+  "aliases": [
+   "A600"
+  ],
+  "manufacturer": "Commodore",
+  "origin": "美国",
+  "era": 1992,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "紧凑型 Amiga。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Commodore",
+  "year": 1992,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "紧凑型 Amiga。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000030",
+  "name": "Atari ST",
+  "aliases": [
+   "Atari 520ST"
+  ],
+  "manufacturer": "Atari",
+  "origin": "美国",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "16 位电脑，MIDI 音乐制作首选。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Atari",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "16 位电脑，MIDI 音乐制作首选。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000031",
+  "name": "Atari 1040ST",
+  "aliases": [
+   "STf"
+  ],
+  "manufacturer": "Atari",
+  "origin": "美国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "1MB 内存 ST，音乐与桌面出版。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Atari",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "1MB 内存 ST，音乐与桌面出版。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000032",
+  "name": "Atari Falcon",
+  "aliases": [],
+  "manufacturer": "Atari",
+  "origin": "美国",
+  "era": 1992,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "Atari 末代旗舰，集成 DSP。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Atari",
+  "year": 1992,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "Atari 末代旗舰，集成 DSP。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000043",
+  "name": "Sinclair QL",
+  "aliases": [],
+  "manufacturer": "Sinclair Research",
+  "origin": "英国",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "面向商用的 32 位机，未获成功。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sinclair Research",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "面向商用的 32 位机，未获成功。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000047",
+  "name": "Acorn Archimedes",
+  "aliases": [],
+  "manufacturer": "Acorn",
+  "origin": "英国",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "首台 ARM 处理器个人电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Acorn",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "首台 ARM 处理器个人电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000048",
+  "name": "Acorn Risc PC",
+  "aliases": [],
+  "manufacturer": "Acorn",
+  "origin": "英国",
+  "era": 1994,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "RISC OS 高端电脑，ARM 生态延续。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Acorn",
+  "year": 1994,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "RISC OS 高端电脑，ARM 生态延续。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000204",
+  "name": "Apple IIGS",
+  "aliases": [
+   "II GS"
+  ],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "influence": "Apple II 末代，16 位图形音效。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Apple",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ],
+  "reason": "Apple II 末代，16 位图形音效。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "16 位"
+  ]
+ },
+ {
+  "id": "C-PC-000039",
+  "name": "Tandy 1000",
+  "aliases": [],
+  "manufacturer": "Tandy / RadioShack",
+  "origin": "美国",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "PC 兼容家用电脑，Tandy 图形音效。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Tandy / RadioShack",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "PC 兼容家用电脑，Tandy 图形音效。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000050",
+  "name": "IBM PC 5150",
+  "aliases": [
+   "IBM Personal Computer"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "开放架构开山之作，确立个人计算机标准。",
+  "status": "done",
+  "device_id": "ibm5150",
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "开放架构开山之作，确立个人计算机标准。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000051",
+  "name": "IBM PC XT 5160",
+  "aliases": [
+   "IBM PC/XT"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "内置硬盘，PC 商用化标志。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "内置硬盘，PC 商用化标志。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000052",
+  "name": "IBM PC AT 5170",
+  "aliases": [
+   "IBM PC/AT"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "80286 平台，AT 总线成为标准。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "80286 平台，AT 总线成为标准。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000053",
+  "name": "IBM PCjr",
+  "aliases": [
+   "PCjr"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "面向家庭的低价 PC，未获成功。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "面向家庭的低价 PC，未获成功。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000054",
+  "name": "IBM PS/2",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "引入 VGA 与 PS/2 接口，封闭路线受挫。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "引入 VGA 与 PS/2 接口，封闭路线受挫。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000055",
+  "name": "Compaq Portable",
+  "aliases": [],
+  "manufacturer": "Compaq",
+  "origin": "美国",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "首台 IBM PC 兼容便携机，克隆机时代开端。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Compaq",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "首台 IBM PC 兼容便携机，克隆机时代开端。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000056",
+  "name": "Compaq Deskpro 386",
+  "aliases": [],
+  "manufacturer": "Compaq",
+  "origin": "美国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "首台 386 PC，克隆机反超 IBM。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Compaq",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "首台 386 PC，克隆机反超 IBM。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000057",
+  "name": "Compaq Portable II",
+  "aliases": [],
+  "manufacturer": "Compaq",
+  "origin": "美国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "286 便携兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Compaq",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "286 便携兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000058",
+  "name": "Dell 210",
+  "aliases": [
+   "Dell Turbo PC"
+  ],
+  "manufacturer": "Dell",
+  "origin": "美国",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "直销模式 PC，开启戴尔崛起。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Dell",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "直销模式 PC，开启戴尔崛起。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000130",
+  "name": "长城 0520",
+  "aliases": [
+   "Great Wall 0520"
+  ],
+  "manufacturer": "长城集团",
+  "origin": "中国",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "中国首台 IBM PC 兼容机，国产化里程碑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "长城集团",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "中国首台 IBM PC 兼容机，国产化里程碑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000131",
+  "name": "浪潮 0520",
+  "aliases": [],
+  "manufacturer": "浪潮",
+  "origin": "中国",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "中国早期 IBM PC 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "浪潮",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "中国早期 IBM PC 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000166",
+  "name": "ES-1840",
+  "aliases": [
+   "苏联 IBM PC 兼容"
+  ],
+  "manufacturer": "苏联",
+  "origin": "苏联",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "苏联 IBM PC 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "苏联",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "苏联 IBM PC 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000176",
+  "name": "长城 0520CH",
+  "aliases": [],
+  "manufacturer": "长城集团",
+  "origin": "中国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "长城 0520 中文版，国产 PC 主力。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "长城集团",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "长城 0520 中文版，国产 PC 主力。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000177",
+  "name": "长城 286",
+  "aliases": [],
+  "manufacturer": "长城集团",
+  "origin": "中国",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "长城 286 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "长城集团",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "长城 286 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000178",
+  "name": "浪潮 0530",
+  "aliases": [],
+  "manufacturer": "浪潮",
+  "origin": "中国",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "浪潮国产 PC 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "浪潮",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "浪潮国产 PC 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000179",
+  "name": "联想 1+1",
+  "aliases": [],
+  "manufacturer": "联想",
+  "origin": "中国",
+  "era": 1992,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "联想家用电脑，走进家庭。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "联想",
+  "year": 1992,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "联想家用电脑，走进家庭。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000182",
+  "name": "长江 0520",
+  "aliases": [],
+  "manufacturer": "长江计算机集团",
+  "origin": "中国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "国产 IBM PC 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "长江计算机集团",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "国产 IBM PC 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000189",
+  "name": "IBM PS/2 Model 30",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "PS/2 入门型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "PS/2 入门型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000190",
+  "name": "IBM PS/1",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "面向家庭的 IBM PC。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "面向家庭的 IBM PC。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000191",
+  "name": "Compaq Deskpro",
+  "aliases": [],
+  "manufacturer": "Compaq",
+  "origin": "美国",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "Compaq 桌面 PC 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Compaq",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "Compaq 桌面 PC 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000192",
+  "name": "Compaq Portable III",
+  "aliases": [],
+  "manufacturer": "Compaq",
+  "origin": "美国",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "286 便携兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Compaq",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "286 便携兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000193",
+  "name": "Compaq LTE",
+  "aliases": [],
+  "manufacturer": "Compaq",
+  "origin": "美国",
+  "era": 1989,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "早期笔记本 PC。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Compaq",
+  "year": 1989,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "早期笔记本 PC。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000194",
+  "name": "Gateway 2000",
+  "aliases": [],
+  "manufacturer": "Gateway",
+  "origin": "美国",
+  "era": 1989,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "直销 PC 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Gateway",
+  "year": 1989,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "直销 PC 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000195",
+  "name": "Packard Bell",
+  "aliases": [],
+  "manufacturer": "Packard Bell",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "家用 PC 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Packard Bell",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "家用 PC 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000196",
+  "name": "Dell 486",
+  "aliases": [],
+  "manufacturer": "Dell",
+  "origin": "美国",
+  "era": 1992,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "戴尔 486 PC 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Dell",
+  "year": 1992,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "戴尔 486 PC 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000197",
+  "name": "AST Bravo",
+  "aliases": [],
+  "manufacturer": "AST Research",
+  "origin": "美国",
+  "era": 1992,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "主流 PC 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "AST Research",
+  "year": 1992,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "主流 PC 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000198",
+  "name": "Acer 1000",
+  "aliases": [],
+  "manufacturer": "宏碁",
+  "origin": "台湾地区",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "宏碁 PC 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "宏碁",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "宏碁 PC 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000199",
+  "name": "Zenith Data Systems",
+  "aliases": [],
+  "manufacturer": "Zenith",
+  "origin": "美国",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "IBM PC 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Zenith",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "IBM PC 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000200",
+  "name": "Leading Edge Model D",
+  "aliases": [],
+  "manufacturer": "Leading Edge",
+  "origin": "美国",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "低价 IBM PC 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Leading Edge",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "低价 IBM PC 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000201",
+  "name": "Epson Equity",
+  "aliases": [],
+  "manufacturer": "爱普生",
+  "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "influence": "IBM PC 兼容机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "爱普生",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ],
+  "reason": "IBM PC 兼容机。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "PC 兼容"
+  ]
+ },
+ {
+  "id": "C-PC-000064",
+  "name": "Sharp MZ-80K",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1978,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "日本早期个人电脑代表。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1978,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "日本早期个人电脑代表。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000065",
+  "name": "Sharp MZ-700",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "日本普及家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "日本普及家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000066",
+  "name": "Sharp MZ-800",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "MZ 系列升级机型。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "MZ 系列升级机型。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000067",
+  "name": "Sharp MZ-80B",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "MZ-80K 增强型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "MZ-80K 增强型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000068",
+  "name": "Sharp MZ-2000",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "彩色 MZ 系列机型。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "彩色 MZ 系列机型。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000069",
+  "name": "Sharp MZ-2500",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "MZ 系列高端机型。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "MZ 系列高端机型。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000070",
+  "name": "Sharp X1",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "图形与电视输出出色，游戏机跨界。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "图形与电视输出出色，游戏机跨界。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000071",
+  "name": "Sharp X1 turbo",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "X1 增强机型。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "X1 增强机型。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000072",
+  "name": "Sharp X1 turbo Z",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "X1 系列高端机型。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "X1 系列高端机型。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000073",
+  "name": "Sharp X68000",
+  "aliases": [
+   "X68k"
+  ],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "16 位高性能电脑，街机移植能力强。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "16 位高性能电脑，街机移植能力强。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000074",
+  "name": "Sharp X68000 Expert",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1989,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "X68000 升级型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1989,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "X68000 升级型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000075",
+  "name": "Sharp X68000 XVI",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1991,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "X68000 后期型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1991,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "X68000 后期型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000076",
+  "name": "Sharp X68030",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1993,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "X68000 系列末代旗舰。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1993,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "X68000 系列末代旗舰。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000077",
+  "name": "Sharp PC-6000",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "夏普早期个人电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "夏普早期个人电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000078",
+  "name": "Sharp PC-7000",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "夏普 16 位个人电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "夏普 16 位个人电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000079",
+  "name": "NEC PC-8001",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1979,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "日本 PC 普及的重要机型。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1979,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "日本 PC 普及的重要机型。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000080",
+  "name": "NEC PC-6001",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "日本入门家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "日本入门家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000081",
+  "name": "NEC PC-8801",
+  "aliases": [
+   "PC-88"
+  ],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "日本国民级 8 位电脑，游戏文化繁荣。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "日本国民级 8 位电脑，游戏文化繁荣。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000082",
+  "name": "NEC PC-8801mkII",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "PC-88 系列升级。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "PC-88 系列升级。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000083",
+  "name": "NEC PC-8801FA",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "PC-88 后期高端。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "PC-88 后期高端。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000084",
+  "name": "NEC PC-9801",
+  "aliases": [
+   "PC-98"
+  ],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "日本国民电脑，统治市场十余年。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "日本国民电脑，统治市场十余年。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000085",
+  "name": "NEC PC-9801VM",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "PC-98 主流型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "PC-98 主流型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000086",
+  "name": "NEC PC-9801VX",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "PC-98 高端型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "PC-98 高端型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000087",
+  "name": "NEC PC-9801RA",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1988,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "PC-98 后期主流。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1988,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "PC-98 后期主流。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000088",
+  "name": "NEC PC-6601",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "NEC 家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "NEC 家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000089",
+  "name": "NEC PC-100",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "NEC 便携电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "NEC 便携电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000090",
+  "name": "NEC PC-9821",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1992,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "PC-98 系列 32 位后继。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1992,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "PC-98 系列 32 位后继。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000091",
+  "name": "Fujitsu FM-8",
+  "aliases": [],
+  "manufacturer": "富士通",
+  "origin": "日本",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "富士通早期个人电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "富士通",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "富士通早期个人电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000092",
+  "name": "Fujitsu FM-7",
+  "aliases": [],
+  "manufacturer": "富士通",
+  "origin": "日本",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "日本早期个人电脑主力。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "富士通",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "日本早期个人电脑主力。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000093",
+  "name": "Fujitsu FM-77",
+  "aliases": [],
+  "manufacturer": "富士通",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "FM-7 升级机型。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "富士通",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "FM-7 升级机型。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000094",
+  "name": "Fujitsu FM-77AV",
+  "aliases": [],
+  "manufacturer": "富士通",
+  "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "FM 系列多媒体机型。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "富士通",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "FM 系列多媒体机型。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000095",
+  "name": "Fujitsu FM-16β",
+  "aliases": [],
+  "manufacturer": "富士通",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "富士通 16 位电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "富士通",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "富士通 16 位电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000096",
+  "name": "Fujitsu FM Towns",
+  "aliases": [],
+  "manufacturer": "富士通",
+  "origin": "日本",
+  "era": 1989,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "多媒体个人电脑，CD-ROM 内置。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "富士通",
+  "year": 1989,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "多媒体个人电脑，CD-ROM 内置。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000097",
+  "name": "Fujitsu FM-11",
+  "aliases": [],
+  "manufacturer": "富士通",
+  "origin": "日本",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "富士通商用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "富士通",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "富士通商用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000098",
+  "name": "MSX",
+  "aliases": [],
+  "manufacturer": "多家（微软主导标准）",
+  "origin": "日本",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "统一标准家用电脑，日欧广泛流行。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "多家（微软主导标准）",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "统一标准家用电脑，日欧广泛流行。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000099",
+  "name": "Sony HB-75",
+  "aliases": [],
+  "manufacturer": "索尼",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "MSX 家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "索尼",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "MSX 家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000100",
+  "name": "Sony HB-101",
+  "aliases": [],
+  "manufacturer": "索尼",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "MSX 家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "索尼",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "MSX 家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000101",
+  "name": "Toshiba HX-10",
+  "aliases": [],
+  "manufacturer": "东芝",
+  "origin": "日本",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "MSX 家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "东芝",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "MSX 家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000102",
+  "name": "Hitachi MB-H1",
+  "aliases": [],
+  "manufacturer": "日立",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "MSX 家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "日立",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "MSX 家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000103",
+  "name": "Sanyo MPC-100",
+  "aliases": [],
+  "manufacturer": "三洋",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "MSX 家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "三洋",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "MSX 家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000104",
+  "name": "Panasonic CF-2000",
+  "aliases": [],
+  "manufacturer": "松下",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "MSX 家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "松下",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "MSX 家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000105",
+  "name": "Yashica YC-64",
+  "aliases": [],
+  "manufacturer": "雅西卡",
+  "origin": "日本",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "MSX 家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "雅西卡",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "MSX 家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000106",
+  "name": "Canon V-20",
+  "aliases": [],
+  "manufacturer": "佳能",
+  "origin": "日本",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "MSX 家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "佳能",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "MSX 家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000107",
+  "name": "Toshiba Pasopia",
+  "aliases": [],
+  "manufacturer": "东芝",
+  "origin": "日本",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "东芝早期个人电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "东芝",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "东芝早期个人电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000108",
+  "name": "Toshiba Pasopia 5",
+  "aliases": [],
+  "manufacturer": "东芝",
+  "origin": "日本",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "东芝家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "东芝",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "东芝家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000109",
+  "name": "Sony SMC-70",
+  "aliases": [],
+  "manufacturer": "索尼",
+  "origin": "日本",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "索尼 CP/M 电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "索尼",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "索尼 CP/M 电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000110",
+  "name": "Hitachi S1",
+  "aliases": [],
+  "manufacturer": "日立",
+  "origin": "日本",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "日立早期个人电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "日立",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "日立早期个人电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000111",
+  "name": "Sord M23",
+  "aliases": [],
+  "manufacturer": "Sord",
+  "origin": "日本",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "日本早期商用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sord",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "日本早期商用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000112",
+  "name": "Seiko 9500",
+  "aliases": [],
+  "manufacturer": "精工",
+  "origin": "日本",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "精工早期个人电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "精工",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "精工早期个人电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000113",
+  "name": "Mitsubishi MULTI8",
+  "aliases": [],
+  "manufacturer": "三菱",
+  "origin": "日本",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "三菱 8 位电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "三菱",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "三菱 8 位电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000114",
+  "name": "Casio FP-1000",
+  "aliases": [],
+  "manufacturer": "卡西欧",
+  "origin": "日本",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "卡西欧家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "卡西欧",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "卡西欧家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000147",
+  "name": "NEC PC-8801mkII SR",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "PC-88 系列增强型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "PC-88 系列增强型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000148",
+  "name": "NEC PC-9801UV",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1989,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "PC-98 后期型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1989,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "PC-98 后期型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000149",
+  "name": "NEC PC-9801BX",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "PC-98 主流型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "PC-98 主流型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000150",
+  "name": "NEC PC-9801DA",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "PC-98 高性能型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "PC-98 高性能型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000151",
+  "name": "NEC PC-9821Ce",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1994,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "PC-9821 系列普及型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1994,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "PC-9821 系列普及型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000152",
+  "name": "Sharp X68000 ACE",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1988,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "X68000 系列型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1988,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "X68000 系列型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000153",
+  "name": "Sharp X68000 Pro",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1989,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "X68000 增强型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1989,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "X68000 增强型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000154",
+  "name": "Fujitsu FM Towns II",
+  "aliases": [],
+  "manufacturer": "富士通",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "FM Towns 后继型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "富士通",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "FM Towns 后继型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000155",
+  "name": "Fujitsu FM-7 II",
+  "aliases": [],
+  "manufacturer": "富士通",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "FM-7 增强型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "富士通",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "FM-7 增强型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000156",
+  "name": "Sharp MZ-1200",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "MZ 系列普及型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "MZ 系列普及型号。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000157",
+  "name": "Sony MSX2 HB-F1",
+  "aliases": [],
+  "manufacturer": "索尼",
+  "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "MSX2 标准家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "索尼",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "MSX2 标准家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000158",
+  "name": "Panasonic MSX2 FS-A1",
+  "aliases": [],
+  "manufacturer": "松下",
+  "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "MSX2 家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "松下",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "MSX2 家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000159",
+  "name": "Toshiba Pasopia 7",
+  "aliases": [],
+  "manufacturer": "东芝",
+  "origin": "日本",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "东芝家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "东芝",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "东芝家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000160",
+  "name": "NEC PC-8201",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "NEC 便携电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "NEC 便携电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000161",
+  "name": "Sharp PC-1500",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "夏普袖珍 BASIC 电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "夏普袖珍 BASIC 电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000162",
+  "name": "Casio FP-1100",
+  "aliases": [],
+  "manufacturer": "卡西欧",
+  "origin": "日本",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "卡西欧家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "卡西欧",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "卡西欧家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000163",
+  "name": "Sord M5",
+  "aliases": [],
+  "manufacturer": "Sord",
+  "origin": "日本",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "Sord 家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Sord",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "Sord 家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000164",
+  "name": "Hitachi MB-6890",
+  "aliases": [],
+  "manufacturer": "日立",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "日立家用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "日立",
+  "year": 1984,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "日立家用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000165",
+  "name": "Epson QX-10",
+  "aliases": [],
+  "manufacturer": "爱普生",
+  "origin": "日本",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "CP/M 商用电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "爱普生",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "CP/M 商用电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ },
+ {
+  "id": "C-PC-000207",
+  "name": "Sharp PC-8801",
+  "aliases": [],
+  "manufacturer": "夏普",
+  "origin": "日本",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "influence": "夏普早期个人电脑。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "夏普",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ],
+  "reason": "夏普早期个人电脑。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "日本国产"
+  ]
+ }
+]

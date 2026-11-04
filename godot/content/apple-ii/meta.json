@@ -1,0 +1,2316 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "apple-ii",
+    "name": {
+      "zh": "Apple II",
+      "en": "Apple II"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "1977 年苹果公司发布的 8 位个人计算机。",
+    "category": "computer",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "S01 Wikipedia: Apple II",
+        "url": "https://en.wikipedia.org/wiki/Apple_II",
+        "license": "cc",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "manual",
+        "title": "S02 Apple II Reference Manual (1979)",
+        "url": "https://archive.org/details/Apple_II_Reference_Manual_1979_Apple",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "S05 CHM: The Apple II",
+        "url": "https://www.computerhistory.org/revolution/personal-computers/17/300",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "S06 CHM: Apple II DOS Source Code",
+        "url": "https://www.computerhistory.org/software-gems/apple-ii-dos-source-code/",
+        "license": "licensed",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "S07 MAME Driver:Apple II",
+        "url": "https://wiki.mamedev.org/index.php/Driver:Apple_II",
+        "license": "licensed",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "S08 MAME apple2 source",
+        "url": "https://github.com/mamedev/mame",
+        "license": "licensed",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "S09 AppleWin GitHub",
+        "url": "https://github.com/AppleWin/AppleWin",
+        "license": "licensed",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "S11 Apple v. Franklin Computer Corp.",
+        "url": "https://en.wikipedia.org/wiki/Apple_Computer,_Inc._v._Franklin_Computer_Corp.",
+        "license": "public_domain",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "S12 RetroTechCollection: Apple II",
+        "url": "https://wiki.retrotechcollection.com/index.php?title=Apple_II",
+        "license": "cc",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "S13 MacDB.cn: Apple II",
+        "url": "https://macdb.cn/device/apple-ii",
+        "license": "cc",
+        "accessed_at": "2026-10-31"
+      }
+    ],
+    "intro": {
+      "zh": "Apple II 是苹果公司第一台面向普通家庭与学校的大规模量产个人电脑，1977 年 4 月在西岸计算机展发布。设计师沃兹尼亚克把彩色图形、集成键盘、内置 BASIC、开关电源和八个开放扩展槽装进一个塑料机箱，让个人电脑第一次成为开箱即用的家用电器。它与 Commodore PET 2001、TRS-80 Model I 并称 1977 三巨头；1978 年的 Disk II 软驱与 1979 年的 VisiCalc 电子表格让它在商业与教育市场大获成功，成为个人电脑史上最具影响力的机型之一。",
+      "en": "The Apple II is Apple Computer's first mass-produced personal computer aimed at home and school, released in April 1977 at the West Coast Computer Faire. Designed by Steve Wozniak, it combined colour graphics, an integrated keyboard, BASIC in ROM, a switching power supply and eight open expansion slots in a single plastic case, making the personal computer a consumer appliance for the first time."
+    },
+    "era": 1977,
+    "manufacturer": "Apple Computer, Inc."
+  },
+  "assemblies": [
+    {
+      "id": "apple_ii",
+      "name": "整机",
+      "role": {
+        "zh": "Apple II 整机，一台 1977 年发布的 8 位个人计算机，由机箱、电源、键盘、主板、扬声器与 Disk II 软驱组成，是博物馆垂直切片展示的核心设备。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "case",
+        "power_supply",
+        "keyboard",
+        "mainboard",
+        "speaker",
+        "disk_ii"
+      ],
+      "components": [],
+      "annotations": [
+        "apple_ii_role",
+        "boot_flow"
+      ]
+    },
+    {
+      "id": "case",
+      "name": "机箱",
+      "role": {
+        "zh": "机箱在整机中负责包覆并保护内部电路与机械部件，同时承载键盘、铭牌与提手，构成整机的外观壳体。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "apple_ii",
+      "children": [
+        "lid",
+        "bottom",
+        "badge",
+        "handle",
+        "vent_grille"
+      ],
+      "components": [],
+      "annotations": [
+        "case_role"
+      ],
+      "mesh_ref": "meshes/case.gltf"
+    },
+    {
+      "id": "lid",
+      "name": "上盖",
+      "role": {
+        "zh": "上盖在整机中作为机箱的顶盖，可向后掀起开盖，暴露整机内部结构供观察与拆解。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.045,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "case",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "lid_role"
+      ]
+    },
+    {
+      "id": "bottom",
+      "name": "底壳",
+      "role": {
+        "zh": "底壳在整机中作为机箱底座，固定主板、电源与键盘，并承载机脚与序列号铭牌。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          -0.02,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "case",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "bottom_role"
+      ]
+    },
+    {
+      "id": "badge",
+      "name": "铭牌",
+      "role": {
+        "zh": "铭牌在整机中展示彩虹苹果标志与 Apple II 字样，标识整机的品牌与型号。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.06,
+          -0.17
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "case",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "badge_role"
+      ]
+    },
+    {
+      "id": "handle",
+      "name": "提手",
+      "role": {
+        "zh": "提手在整机中位于顶盖后方，供使用者提起与搬运整机。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.09,
+          -0.05
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "case",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "handle_role"
+      ]
+    },
+    {
+      "id": "vent_grille",
+      "name": "通风栅格",
+      "role": {
+        "zh": "通风栅格在整机中位于机箱后部，为整机内部提供散热通风的气流通道。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.04,
+          0.2
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "case",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "vent_grille_role"
+      ]
+    },
+    {
+      "id": "power_supply",
+      "name": "电源模块",
+      "role": {
+        "zh": "开关电源模块在整机中负责把市电转换为 +5V、-5.2V、+11.8V、-12V 多路直流电，为整机各部件稳定供电。"
+      },
+      "transform": {
+        "translation": [
+          -0.13,
+          0.04,
+          0.1
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "apple_ii",
+      "children": [
+        "psu_case",
+        "power_switch",
+        "psu_board",
+        "power_cord"
+      ],
+      "components": [],
+      "annotations": [
+        "power_supply_role"
+      ]
+    },
+    {
+      "id": "psu_case",
+      "name": "电源屏蔽盒",
+      "role": {
+        "zh": "金属屏蔽盒在整机中包覆电源电路，隔离高频开关噪声并保护内部高压部件。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "power_supply",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "psu_case_role"
+      ]
+    },
+    {
+      "id": "power_switch",
+      "name": "电源开关",
+      "role": {
+        "zh": "电源开关在整机中控制整机的通断电，位于电源后板，由用户拨动操作。"
+      },
+      "transform": {
+        "translation": [
+          -0.02,
+          0.04,
+          0.18
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "power_supply",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "power_switch_role"
+      ]
+    },
+    {
+      "id": "psu_board",
+      "name": "电源板",
+      "role": {
+        "zh": "电源板在整机中承载变压器、整流与稳压器件，完成市电到多路直流的变换。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "power_supply",
+      "children": [
+        "transformer",
+        "rectifier",
+        "regulator",
+        "output_harness"
+      ],
+      "components": [],
+      "annotations": [
+        "psu_board_role"
+      ]
+    },
+    {
+      "id": "power_cord",
+      "name": "电源线",
+      "role": {
+        "zh": "电源线在整机中把市电引入电源模块，为整机供电提供外部接口。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.04,
+          0.2
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "power_supply",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "power_cord_role"
+      ]
+    },
+    {
+      "id": "transformer",
+      "name": "变压器",
+      "role": {
+        "zh": "变压器在整机中实现输入电压的隔离与变换，是开关电源的能量转换核心。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "psu_board",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "transformer_role"
+      ]
+    },
+    {
+      "id": "rectifier",
+      "name": "整流器件",
+      "role": {
+        "zh": "整流器件在整机中把交流电压转换为脉动直流，为后续稳压提供基础。"
+      },
+      "transform": {
+        "translation": [
+          0.03,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "psu_board",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "rectifier_role"
+      ]
+    },
+    {
+      "id": "regulator",
+      "name": "稳压器件",
+      "role": {
+        "zh": "稳压器件在整机中把脉动直流稳定为多路精确电压，保障整机供电质量。"
+      },
+      "transform": {
+        "translation": [
+          0.06,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "psu_board",
+      "children": [],
+      "components": [
+        "regulator_ic"
+      ],
+      "annotations": [
+        "regulator_role"
+      ]
+    },
+    {
+      "id": "output_harness",
+      "name": "输出线束",
+      "role": {
+        "zh": "输出线束在整机中把电源板的各路电压引到主板与驱动器，完成整机内部的供电分配。"
+      },
+      "transform": {
+        "translation": [
+          0.02,
+          0.0,
+          0.08
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "psu_board",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "output_harness_role"
+      ]
+    },
+    {
+      "id": "keyboard",
+      "name": "键盘组件",
+      "role": {
+        "zh": "键盘组件在整机中负责把用户的按键动作编码为数据，经主板送入处理器，是整机的主要输入设备。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.005,
+          -0.16
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "apple_ii",
+      "children": [
+        "keycap_array",
+        "keyswitch_array",
+        "keyboard_pcb"
+      ],
+      "components": [],
+      "annotations": [
+        "keyboard_role",
+        "keyboard_flow"
+      ],
+      "mesh_ref": "meshes/keyboard.gltf"
+    },
+    {
+      "id": "keycap_array",
+      "name": "键帽矩阵",
+      "role": {
+        "zh": "键帽矩阵在整机中覆盖在键开关之上，标注字符并供用户按压，是键盘的触按表面。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.005,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "keyboard",
+      "children": [],
+      "components": [
+        "keycap"
+      ],
+      "annotations": [
+        "keycap_array_role"
+      ]
+    },
+    {
+      "id": "keyswitch_array",
+      "name": "键开关阵列",
+      "role": {
+        "zh": "键开关阵列在整机中把每次按压转换为通断信号，是键盘产生按键事件的核心机构。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.002,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "keyboard",
+      "children": [],
+      "components": [
+        "key_switch"
+      ],
+      "annotations": [
+        "keyswitch_array_role"
+      ]
+    },
+    {
+      "id": "keyboard_pcb",
+      "name": "键盘电路板",
+      "role": {
+        "zh": "键盘电路板在整机中承载键开关与编码器，把开关通断转换为处理器可读的数据。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          -0.004,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "keyboard",
+      "children": [
+        "key_encoder"
+      ],
+      "components": [],
+      "annotations": [
+        "keyboard_pcb_role"
+      ]
+    },
+    {
+      "id": "key_encoder",
+      "name": "键盘编码器",
+      "role": {
+        "zh": "键盘编码器在整机中把键开关矩阵的扫描结果编码为按键数据，供处理器读取。"
+      },
+      "transform": {
+        "translation": [
+          0.05,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "keyboard_pcb",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "key_encoder_role"
+      ]
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载处理器、内存、只读存储器、视频电路与八个扩展槽，是整机的核心电路板。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.02,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "apple_ii",
+      "children": [
+        "rom_section",
+        "ram_section",
+        "clock_circuit",
+        "video_section",
+        "io_section",
+        "slot_array",
+        "bus_logic",
+        "decoupling_group"
+      ],
+      "components": [
+        "cpu"
+      ],
+      "annotations": [
+        "mainboard_role"
+      ],
+      "mesh_ref": "meshes/mainboard.gltf"
+    },
+    {
+      "id": "rom_section",
+      "name": "ROM 区",
+      "role": {
+        "zh": "ROM 区在整机中存放开机即用的固件程序，包括系统监控、BASIC 解释器与字符字形。"
+      },
+      "transform": {
+        "translation": [
+          0.06,
+          0.0,
+          0.06
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "mainboard",
+      "children": [],
+      "components": [
+        "rom_monitor",
+        "rom_basic",
+        "chargen"
+      ],
+      "annotations": [
+        "rom_section_role"
+      ]
+    },
+    {
+      "id": "ram_section",
+      "name": "RAM 区",
+      "role": {
+        "zh": "RAM 区在整机中暂存运行时的程序与数据，是处理器高速读写的工作内存。"
+      },
+      "transform": {
+        "translation": [
+          0.03,
+          0.0,
+          -0.03
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "mainboard",
+      "children": [
+        "ram_row_c",
+        "ram_row_d",
+        "ram_row_e"
+      ],
+      "components": [],
+      "annotations": [
+        "ram_section_role"
+      ]
+    },
+    {
+      "id": "ram_row_c",
+      "name": "内存行 C",
+      "role": {
+        "zh": "内存行 C 在整机中是 RAM 区第一行内存插座，安装动态内存芯片以扩充工作内存容量。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "ram_section",
+      "children": [],
+      "components": [
+        "ram_chip"
+      ],
+      "annotations": [
+        "ram_row_c_role"
+      ]
+    },
+    {
+      "id": "ram_row_d",
+      "name": "内存行 D",
+      "role": {
+        "zh": "内存行 D 在整机中是 RAM 区第二行内存插座，与其余两行共同构成工作内存阵列。"
+      },
+      "transform": {
+        "translation": [
+          0.02,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "ram_section",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "ram_row_d_role"
+      ]
+    },
+    {
+      "id": "ram_row_e",
+      "name": "内存行 E",
+      "role": {
+        "zh": "内存行 E 在整机中是 RAM 区第三行内存插座，与其余两行共同构成工作内存阵列。"
+      },
+      "transform": {
+        "translation": [
+          0.04,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "ram_section",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "ram_row_e_role"
+      ]
+    },
+    {
+      "id": "clock_circuit",
+      "name": "时钟电路",
+      "role": {
+        "zh": "时钟电路在整机中由晶体分频产生 1.023 MHz 处理器时钟与视频时序基准。"
+      },
+      "transform": {
+        "translation": [
+          -0.06,
+          0.0,
+          -0.06
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "mainboard",
+      "children": [],
+      "components": [
+        "crystal"
+      ],
+      "annotations": [
+        "clock_circuit_role"
+      ]
+    },
+    {
+      "id": "video_section",
+      "name": "视频电路",
+      "role": {
+        "zh": "视频电路在整机中把显存内容合成为 NTSC 复合视频信号，供外接监视器或电视显示。"
+      },
+      "transform": {
+        "translation": [
+          0.06,
+          0.0,
+          -0.09
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "mainboard",
+      "children": [
+        "video_ttl_group",
+        "video_connector"
+      ],
+      "components": [],
+      "annotations": [
+        "video_section_role",
+        "display_flow",
+        "video_scan_anim"
+      ]
+    },
+    {
+      "id": "video_ttl_group",
+      "name": "视频 TTL 芯片组",
+      "role": {
+        "zh": "视频 TTL 芯片组在整机中执行视频时序与字符生成逻辑，驱动显存到画面的转换。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "video_section",
+      "children": [],
+      "components": [
+        "video_ttl_chip"
+      ],
+      "annotations": [
+        "video_ttl_group_role"
+      ]
+    },
+    {
+      "id": "video_connector",
+      "name": "视频输出座",
+      "role": {
+        "zh": "视频输出座在整机中提供 RCA 复合视频接口，把画面信号送往外接显示设备。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          -0.18
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "video_section",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "video_connector_role"
+      ]
+    },
+    {
+      "id": "io_section",
+      "name": "I/O 接口区",
+      "role": {
+        "zh": "I/O 接口区在整机中提供磁带、游戏手柄与电源等外部接口，连接整机与外部设备。"
+      },
+      "transform": {
+        "translation": [
+          -0.12,
+          0.0,
+          0.13
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "mainboard",
+      "children": [
+        "cassette_ports",
+        "game_port",
+        "power_connector"
+      ],
+      "components": [],
+      "annotations": [
+        "io_section_role"
+      ]
+    },
+    {
+      "id": "cassette_ports",
+      "name": "磁带接口",
+      "role": {
+        "zh": "磁带接口在整机中提供 1200 波特磁带输入输出，支持程序与数据的音频式存取。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.05
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "io_section",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "cassette_ports_role"
+      ]
+    },
+    {
+      "id": "game_port",
+      "name": "游戏接口",
+      "role": {
+        "zh": "游戏接口在整机中连接摇杆与手柄，接收模拟轴与按钮的输入信号。"
+      },
+      "transform": {
+        "translation": [
+          -0.05,
+          0.0,
+          0.05
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "io_section",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "game_port_role"
+      ]
+    },
+    {
+      "id": "power_connector",
+      "name": "电源连接器",
+      "role": {
+        "zh": "电源连接器在整机中把电源模块的直流输出引入主板，为电路板供电。"
+      },
+      "transform": {
+        "translation": [
+          -0.1,
+          0.0,
+          0.05
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "io_section",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "power_connector_role"
+      ]
+    },
+    {
+      "id": "slot_array",
+      "name": "扩展槽阵列",
+      "role": {
+        "zh": "扩展槽阵列在整机中提供八个 50 针开放式外设插槽，是整机可扩展性的根基。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.13
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "mainboard",
+      "children": [
+        "slot_0",
+        "slot_1",
+        "slot_2",
+        "slot_3",
+        "slot_4",
+        "slot_5",
+        "slot_6",
+        "slot_7"
+      ],
+      "components": [],
+      "annotations": [
+        "slot_array_role"
+      ]
+    },
+    {
+      "id": "bus_logic",
+      "name": "总线逻辑",
+      "role": {
+        "zh": "总线逻辑在整机中负责地址译码与数据总线控制，协调处理器与各部件之间的数据交换。"
+      },
+      "transform": {
+        "translation": [
+          0.04,
+          0.0,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "mainboard",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "bus_logic_role"
+      ]
+    },
+    {
+      "id": "decoupling_group",
+      "name": "去耦元件组",
+      "role": {
+        "zh": "去耦元件组在整机中由电容与电阻组成，平滑电源纹波并抑制高频噪声，稳定整机供电。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "mainboard",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "decoupling_group_role"
+      ]
+    },
+    {
+      "id": "speaker",
+      "name": "扬声器",
+      "role": {
+        "zh": "扬声器在整机中负责把 1 位音频信号转换为声音，是整机发出提示音与游戏音效的发声部件。"
+      },
+      "transform": {
+        "translation": [
+          0.03,
+          0.07,
+          -0.18
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "apple_ii",
+      "children": [],
+      "components": [
+        "speaker_driver"
+      ],
+      "annotations": [
+        "speaker_role"
+      ]
+    },
+    {
+      "id": "disk_ii",
+      "name": "Disk II 软驱",
+      "role": {
+        "zh": "Disk II 软驱在整机中负责读写 5.25 英寸软盘，为整机提供 140 KB 的磁介质存储能力。"
+      },
+      "transform": {
+        "translation": [
+          0.16,
+          0.04,
+          -0.05
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "apple_ii",
+      "children": [
+        "disk_mech",
+        "drive_motor",
+        "disk_door"
+      ],
+      "components": [],
+      "annotations": [
+        "disk_ii_role",
+        "disk_read_anim"
+      ],
+      "mesh_ref": "meshes/disk_ii.gltf"
+    },
+    {
+      "id": "disk_mech",
+      "name": "盘体机构",
+      "role": {
+        "zh": "盘体机构在整机中固定并旋转软盘盘片，是软驱读写数据的主体机械结构。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "disk_ii",
+      "children": [
+        "disk_platter",
+        "spindle",
+        "read_write_head"
+      ],
+      "components": [],
+      "annotations": [
+        "disk_mech_role"
+      ]
+    },
+    {
+      "id": "disk_platter",
+      "name": "盘片",
+      "role": {
+        "zh": "盘片在整机中是存储数据的磁介质圆片，由驱动电机带动旋转供磁头读写。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "disk_mech",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "disk_platter_role"
+      ]
+    },
+    {
+      "id": "spindle",
+      "name": "主轴",
+      "role": {
+        "zh": "主轴在整机中夹持并驱动盘片旋转，保证盘片与磁头之间的稳定相对运动。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "disk_mech",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "spindle_role"
+      ]
+    },
+    {
+      "id": "read_write_head",
+      "name": "磁头组件",
+      "role": {
+        "zh": "磁头组件在整机中执行软盘的读取与写入，通过电磁感应读写盘片上的数据。"
+      },
+      "transform": {
+        "translation": [
+          0.02,
+          0.0,
+          0.01
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "disk_mech",
+      "children": [
+        "head_coil"
+      ],
+      "components": [],
+      "annotations": [
+        "read_write_head_role"
+      ]
+    },
+    {
+      "id": "head_coil",
+      "name": "磁头线圈",
+      "role": {
+        "zh": "磁头线圈在整机中是磁头组件的电磁换能器，实现电信号与磁信号之间的相互转换。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "read_write_head",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "head_coil_role"
+      ]
+    },
+    {
+      "id": "drive_motor",
+      "name": "驱动电机",
+      "role": {
+        "zh": "驱动电机在整机中带动软盘盘片匀速旋转，为磁头读写提供恒定的转速。"
+      },
+      "transform": {
+        "translation": [
+          -0.04,
+          0.0,
+          -0.01
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "disk_ii",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "drive_motor_role"
+      ]
+    },
+    {
+      "id": "disk_door",
+      "name": "软驱门开关",
+      "role": {
+        "zh": "软驱门开关在整机中检测磁盘是否插入到位，并把状态告知磁盘控制器。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.015,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "disk_ii",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "disk_door_role"
+      ]
+    },
+    {
+      "id": "slot_0",
+      "name": "扩展槽 0",
+      "role": {
+        "zh": "扩展槽 0 在整机中是第 0 号 50 针外设插槽，可插入磁盘控制器、语言卡等扩展卡，扩展整机功能。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "slot_array",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "slot_0_role"
+      ]
+    },
+    {
+      "id": "slot_1",
+      "name": "扩展槽 1",
+      "role": {
+        "zh": "扩展槽 1 在整机中是第 1 号 50 针外设插槽，可插入磁盘控制器、语言卡等扩展卡，扩展整机功能。"
+      },
+      "transform": {
+        "translation": [
+          0.018,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "slot_array",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "slot_1_role"
+      ]
+    },
+    {
+      "id": "slot_2",
+      "name": "扩展槽 2",
+      "role": {
+        "zh": "扩展槽 2 在整机中是第 2 号 50 针外设插槽，可插入磁盘控制器、语言卡等扩展卡，扩展整机功能。"
+      },
+      "transform": {
+        "translation": [
+          0.036,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "slot_array",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "slot_2_role"
+      ]
+    },
+    {
+      "id": "slot_3",
+      "name": "扩展槽 3",
+      "role": {
+        "zh": "扩展槽 3 在整机中是第 3 号 50 针外设插槽，可插入磁盘控制器、语言卡等扩展卡，扩展整机功能。"
+      },
+      "transform": {
+        "translation": [
+          0.054,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "slot_array",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "slot_3_role"
+      ]
+    },
+    {
+      "id": "slot_4",
+      "name": "扩展槽 4",
+      "role": {
+        "zh": "扩展槽 4 在整机中是第 4 号 50 针外设插槽，可插入磁盘控制器、语言卡等扩展卡，扩展整机功能。"
+      },
+      "transform": {
+        "translation": [
+          0.072,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "slot_array",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "slot_4_role"
+      ]
+    },
+    {
+      "id": "slot_5",
+      "name": "扩展槽 5",
+      "role": {
+        "zh": "扩展槽 5 在整机中是第 5 号 50 针外设插槽，可插入磁盘控制器、语言卡等扩展卡，扩展整机功能。"
+      },
+      "transform": {
+        "translation": [
+          0.09,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "slot_array",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "slot_5_role"
+      ]
+    },
+    {
+      "id": "slot_6",
+      "name": "扩展槽 6",
+      "role": {
+        "zh": "扩展槽 6 在整机中是第 6 号 50 针外设插槽，可插入磁盘控制器、语言卡等扩展卡，扩展整机功能。"
+      },
+      "transform": {
+        "translation": [
+          0.108,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "slot_array",
+      "children": [],
+      "components": [
+        "disk_controller"
+      ],
+      "annotations": [
+        "slot_6_role"
+      ]
+    },
+    {
+      "id": "slot_7",
+      "name": "扩展槽 7",
+      "role": {
+        "zh": "扩展槽 7 在整机中是第 7 号 50 针外设插槽，可插入磁盘控制器、语言卡等扩展卡，扩展整机功能。"
+      },
+      "transform": {
+        "translation": [
+          0.126,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "slot_array",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "slot_7_role"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "cpu",
+      "name": "6502 中央处理器",
+      "type": "ic",
+      "role": {
+        "zh": "6502 中央处理器在整机中负责取指、译码与执行指令，是整机的运算与控制核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": [
+        "cpu_role"
+      ],
+      "part_no": "6502"
+    },
+    {
+      "id": "rom_monitor",
+      "name": "监控 ROM",
+      "type": "ic",
+      "role": {
+        "zh": "监控 ROM 在整机中提供系统监控程序，负责开机复位后的自检与命令行交互。"
+      },
+      "assembly": "rom_section",
+      "annotations": [
+        "rom_monitor_role"
+      ],
+      "part_no": "9316B"
+    },
+    {
+      "id": "rom_basic",
+      "name": "Integer BASIC ROM",
+      "type": "ic",
+      "role": {
+        "zh": "Integer BASIC ROM 在整机中存放整数 BASIC 解释器，是开机即可编程的语言环境。"
+      },
+      "assembly": "rom_section",
+      "annotations": [
+        "rom_basic_role"
+      ],
+      "part_no": "9316B"
+    },
+    {
+      "id": "chargen",
+      "name": "字符发生器 ROM",
+      "type": "ic",
+      "role": {
+        "zh": "字符发生器 ROM 在整机中存放字符点阵字形，供视频电路把字符码转换为显示图案。"
+      },
+      "assembly": "rom_section",
+      "annotations": [
+        "chargen_role"
+      ],
+      "part_no": "341-0036"
+    },
+    {
+      "id": "crystal",
+      "name": "14.318 MHz 晶振",
+      "type": "oscillator",
+      "role": {
+        "zh": "14.318 MHz 晶振在整机中产生基准频率，经分频得到处理器与视频所需的时钟信号。"
+      },
+      "assembly": "clock_circuit",
+      "annotations": [
+        "crystal_role"
+      ],
+      "part_no": "14.31818 MHz"
+    },
+    {
+      "id": "video_ttl_chip",
+      "name": "视频逻辑芯片",
+      "type": "ic",
+      "role": {
+        "zh": "视频逻辑芯片在整机中执行视频时序逻辑，是视频 TTL 芯片组中的代表芯片。"
+      },
+      "assembly": "video_ttl_group",
+      "annotations": [
+        "video_ttl_chip_role"
+      ]
+    },
+    {
+      "id": "ram_chip",
+      "name": "4116 动态内存芯片",
+      "type": "ic",
+      "role": {
+        "zh": "4116 动态内存芯片在整机中提供 16 Kbit 存储单元，是构成工作内存的基本器件。"
+      },
+      "assembly": "ram_row_c",
+      "annotations": [
+        "ram_chip_role"
+      ],
+      "part_no": "4116"
+    },
+    {
+      "id": "disk_controller",
+      "name": "Disk II 控制器",
+      "type": "ic",
+      "role": {
+        "zh": "Disk II 控制器在整机中连接软驱与主板，解释磁盘读写命令并控制盘片操作。"
+      },
+      "assembly": "slot_6",
+      "annotations": [
+        "disk_controller_role"
+      ],
+      "part_no": "341-0027"
+    },
+    {
+      "id": "regulator_ic",
+      "name": "稳压集成电路",
+      "type": "ic",
+      "role": {
+        "zh": "稳压集成电路在整机中稳定输出各路直流电压，抑制电压波动对整机的干扰。"
+      },
+      "assembly": "regulator",
+      "annotations": [
+        "regulator_ic_role"
+      ]
+    },
+    {
+      "id": "key_switch",
+      "name": "键开关",
+      "type": "switch",
+      "role": {
+        "zh": "键开关在整机中把一次按键按压转换为电信号通断，是键盘产生输入的基础器件。"
+      },
+      "assembly": "keyswitch_array",
+      "annotations": [
+        "key_switch_role"
+      ]
+    },
+    {
+      "id": "keycap",
+      "name": "键帽",
+      "type": "plastic",
+      "role": {
+        "zh": "键帽在整机中覆盖于键开关顶部并标注字符，是用户手指接触的按键盘面。"
+      },
+      "assembly": "keycap_array",
+      "annotations": [
+        "keycap_role"
+      ]
+    },
+    {
+      "id": "speaker_driver",
+      "name": "扬声器驱动",
+      "type": "ic",
+      "role": {
+        "zh": "扬声器驱动在整机中放大 1 位音频信号并推动扬声器发声，完成整机的音频输出。"
+      },
+      "assembly": "speaker",
+      "annotations": [
+        "speaker_driver_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "mame",
+    "version": "0.287",
+    "system": "apple2",
+    "media_hint": "floppy",
+    "bios_required": true,
+    "bios_guide_url": "https://wiki.mamedev.org/index.php/Driver:Apple_II",
+    "output_sinks": [
+      {
+        "id": "crt_internal",
+        "surface": "internal_crt",
+        "type": "video",
+        "format": "rgba8"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      },
+      {
+        "id": "led_power",
+        "surface": "led",
+        "type": "hid"
+      }
+    ],
+    "input_map": {
+      "key_a": {
+        "map": "keyboard",
+        "key": "KEY_A"
+      },
+      "key_b": {
+        "map": "keyboard",
+        "key": "KEY_B"
+      },
+      "key_c": {
+        "map": "keyboard",
+        "key": "KEY_C"
+      },
+      "key_d": {
+        "map": "keyboard",
+        "key": "KEY_D"
+      },
+      "key_e": {
+        "map": "keyboard",
+        "key": "KEY_E"
+      },
+      "key_f": {
+        "map": "keyboard",
+        "key": "KEY_F"
+      },
+      "key_g": {
+        "map": "keyboard",
+        "key": "KEY_G"
+      },
+      "key_h": {
+        "map": "keyboard",
+        "key": "KEY_H"
+      },
+      "key_i": {
+        "map": "keyboard",
+        "key": "KEY_I"
+      },
+      "key_j": {
+        "map": "keyboard",
+        "key": "KEY_J"
+      },
+      "key_k": {
+        "map": "keyboard",
+        "key": "KEY_K"
+      },
+      "key_l": {
+        "map": "keyboard",
+        "key": "KEY_L"
+      },
+      "key_m": {
+        "map": "keyboard",
+        "key": "KEY_M"
+      },
+      "key_n": {
+        "map": "keyboard",
+        "key": "KEY_N"
+      },
+      "key_o": {
+        "map": "keyboard",
+        "key": "KEY_O"
+      },
+      "key_p": {
+        "map": "keyboard",
+        "key": "KEY_P"
+      },
+      "key_q": {
+        "map": "keyboard",
+        "key": "KEY_Q"
+      },
+      "key_r": {
+        "map": "keyboard",
+        "key": "KEY_R"
+      },
+      "key_s": {
+        "map": "keyboard",
+        "key": "KEY_S"
+      },
+      "key_t": {
+        "map": "keyboard",
+        "key": "KEY_T"
+      },
+      "key_u": {
+        "map": "keyboard",
+        "key": "KEY_U"
+      },
+      "key_v": {
+        "map": "keyboard",
+        "key": "KEY_V"
+      },
+      "key_w": {
+        "map": "keyboard",
+        "key": "KEY_W"
+      },
+      "key_x": {
+        "map": "keyboard",
+        "key": "KEY_X"
+      },
+      "key_y": {
+        "map": "keyboard",
+        "key": "KEY_Y"
+      },
+      "key_z": {
+        "map": "keyboard",
+        "key": "KEY_Z"
+      },
+      "key_0": {
+        "map": "keyboard",
+        "key": "KEY_0"
+      },
+      "key_1": {
+        "map": "keyboard",
+        "key": "KEY_1"
+      },
+      "key_2": {
+        "map": "keyboard",
+        "key": "KEY_2"
+      },
+      "key_3": {
+        "map": "keyboard",
+        "key": "KEY_3"
+      },
+      "key_4": {
+        "map": "keyboard",
+        "key": "KEY_4"
+      },
+      "key_5": {
+        "map": "keyboard",
+        "key": "KEY_5"
+      },
+      "key_6": {
+        "map": "keyboard",
+        "key": "KEY_6"
+      },
+      "key_7": {
+        "map": "keyboard",
+        "key": "KEY_7"
+      },
+      "key_8": {
+        "map": "keyboard",
+        "key": "KEY_8"
+      },
+      "key_9": {
+        "map": "keyboard",
+        "key": "KEY_9"
+      },
+      "key_space": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      },
+      "key_return": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "key_escape": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      },
+      "key_ctrl": {
+        "map": "keyboard",
+        "key": "KEY_CTRL"
+      },
+      "key_shift": {
+        "map": "keyboard",
+        "key": "KEY_SHIFT"
+      },
+      "key_repeat": {
+        "map": "keyboard",
+        "key": "KEY_REPEAT"
+      },
+      "key_caps_lock": {
+        "map": "keyboard",
+        "key": "KEY_CAPSLOCK"
+      },
+      "key_left": {
+        "map": "keyboard",
+        "key": "KEY_LEFT"
+      },
+      "key_right": {
+        "map": "keyboard",
+        "key": "KEY_RIGHT"
+      },
+      "key_up": {
+        "map": "keyboard",
+        "key": "KEY_UP"
+      },
+      "key_down": {
+        "map": "keyboard",
+        "key": "KEY_DOWN"
+      },
+      "key_reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "paddle_axis_0": {
+        "map": "joystick",
+        "key": "axis_x"
+      },
+      "paddle_axis_1": {
+        "map": "joystick",
+        "key": "axis_y"
+      },
+      "paddle_axis_2": {
+        "map": "joystick",
+        "key": "axis_x"
+      },
+      "paddle_axis_3": {
+        "map": "joystick",
+        "key": "axis_y"
+      },
+      "paddle_btn_0": {
+        "map": "joystick",
+        "key": "btn0"
+      },
+      "paddle_btn_1": {
+        "map": "joystick",
+        "key": "btn1"
+      },
+      "paddle_btn_2": {
+        "map": "joystick",
+        "key": "btn2"
+      },
+      "floppy_door": {
+        "map": "keyboard",
+        "key": "KEY_INSERT"
+      },
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      }
+    }
+  }
+}

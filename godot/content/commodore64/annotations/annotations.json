@@ -1,0 +1,190 @@
+{
+  "annotations": [
+    {
+      "id": "cpu_6510_role",
+      "type": "role",
+      "target": "cpu_6510",
+      "text": "6510 处理器在整机中作为主控芯片，执行 BASIC 程序与系统逻辑，管理内存映射与磁带电机。"
+    },
+    {
+      "id": "vic_ii_role",
+      "type": "role",
+      "target": "vic_ii",
+      "text": "VIC-II 图形芯片在整机中负责生成画面，支持 16 色、8 个硬件子画面与多种显示模式。"
+    },
+    {
+      "id": "sid_role",
+      "type": "role",
+      "target": "sid",
+      "text": "SID 声音芯片在整机中作为 3 声道可编程合成器，发出方波、锯齿波与噪声，是芯片音乐文化的源头。"
+    },
+    {
+      "id": "cia_role",
+      "type": "role",
+      "target": "cia",
+      "text": "CIA 接口芯片在整机中处理键盘扫描、磁带读写与定时器，是系统与外围设备的接口枢纽。"
+    },
+    {
+      "id": "ram_role",
+      "type": "role",
+      "target": "ram",
+      "text": "64KB 内存在整机中存放程序与数据，是系统运行时的主存储。"
+    },
+    {
+      "id": "rom_role",
+      "type": "role",
+      "target": "rom",
+      "text": "BASIC/KERNAL ROM 在整机中固化开机自检与 BASIC 解释器，实现开机即编程。"
+    },
+    {
+      "id": "cartridge_port_role",
+      "type": "role",
+      "target": "cartridge_port",
+      "text": "卡带端口在整机中插入游戏卡带，使程序可免加载直接运行。"
+    },
+    {
+      "id": "expansion_port_role",
+      "type": "role",
+      "target": "expansion_port",
+      "text": "扩展端口在整机中连接调制解调器、打印机等外设，扩展系统能力。"
+    },
+    {
+      "id": "keyboard_matrix_role",
+      "type": "role",
+      "target": "keyboard_matrix",
+      "text": "键盘矩阵在整机中把按键扫描为行列信号，供 CIA 芯片读取，是文字输入的核心。"
+    },
+    {
+      "id": "key_restore_role",
+      "type": "role",
+      "target": "key_restore",
+      "text": "RESTORE 键在整机中触发一次中断，常用于从程序卡死中恢复。"
+    },
+    {
+      "id": "function_keys_role",
+      "type": "role",
+      "target": "function_keys",
+      "text": "功能键组在整机中提供 F1–F8 等功能键，供程序定义快捷操作。"
+    },
+    {
+      "id": "cursor_keys_role",
+      "type": "role",
+      "target": "cursor_keys",
+      "text": "光标键组在整机中控制光标上下左右移动，用于编辑与游戏操作。"
+    },
+    {
+      "id": "power_led_role",
+      "type": "role",
+      "target": "power_led",
+      "text": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的状态指示。"
+    },
+    {
+      "id": "joystick_port_role",
+      "type": "role",
+      "target": "joystick_port",
+      "text": "手柄端口在整机中连接游戏手柄，是 C64 游戏操控的主要输入接口。"
+    },
+    {
+      "id": "serial_port_role",
+      "type": "role",
+      "target": "serial_port",
+      "text": "串行端口在整机中连接软驱、打印机等串行外设，是系统与磁盘设备的通信通道。"
+    },
+    {
+      "id": "video_port_role",
+      "type": "role",
+      "target": "video_port",
+      "text": "视频端口在整机中输出复合视频信号，把画面送到电视机或监视器。"
+    },
+    {
+      "id": "rf_port_role",
+      "type": "role",
+      "target": "rf_port",
+      "text": "射频端口在整机中把视频信号调制为射频，供无视频输入的老式电视机接收。"
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "power_switch",
+      "text": "电源开关在整机中控制整机供电的通断，是启动与关闭机器的总开关。"
+    },
+    {
+      "id": "transformer_role",
+      "type": "role",
+      "target": "transformer",
+      "text": "电源变压器在整机中把市电转换为机器所需的多种电压，为各芯片供电。"
+    },
+    {
+      "id": "regulator_role",
+      "type": "role",
+      "target": "regulator",
+      "text": "稳压电路在整机中把电压稳定到芯片所需的精确值，保障系统稳定运行。"
+    },
+    {
+      "id": "tape_mechanism_role",
+      "type": "role",
+      "target": "tape_mechanism",
+      "text": "磁带机械在整机中驱动磁带匀速走带，是数据磁带读写的机械载体。"
+    },
+    {
+      "id": "tape_head_role",
+      "type": "role",
+      "target": "tape_head",
+      "text": "磁带读写头在整机中贴着磁带表面读写磁记录，是 Datasette 与数据交互的核心部件。"
+    },
+    {
+      "id": "tape_motor_role",
+      "type": "role",
+      "target": "tape_motor",
+      "text": "磁带电机在整机中驱动磁带卷轴转动，由 6510 处理器控制启停。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "Commodore 64 整机，1982 年推出的史上最畅销单一计算机型号，以三芯片架构与低价策略让电脑走进千家万户。"
+    },
+    {
+      "id": "tape_load_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "磁带装载流程：用户键入 LOAD 命令 → 6510 处理器经 CIA 芯片启动磁带电机 → 磁带走带经读写头读入数据 → 数据载入内存后返回 READY 提示。"
+    },
+    {
+      "id": "sid_sound_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "SID 发声流程：程序把音符参数写入 SID 芯片寄存器 → SID 独立合成波形 → 波形经音频端口输出到扬声器或电视。"
+    },
+    {
+      "id": "case_role",
+      "type": "role",
+      "target": "case",
+      "text": "主机壳在整机中作为一体式键盘机身的外壳，承载主板、键盘与各端口，是整机的结构骨架。"
+    },
+    {
+      "id": "keyboard_role",
+      "type": "role",
+      "target": "keyboard",
+      "text": "键盘在整机中作为文字与命令输入界面，把按键转换为字符送入系统。"
+    },
+    {
+      "id": "motherboard_role",
+      "type": "role",
+      "target": "motherboard",
+      "text": "主板在整机中承载 6510/VIC-II/SID 三芯片与内存、ROM，是系统的核心电路板。"
+    },
+    {
+      "id": "power_role",
+      "type": "role",
+      "target": "power",
+      "text": "电源在整机中把市电转换为各芯片所需的多种电压，是系统的供电单元。"
+    },
+    {
+      "id": "datasette_role",
+      "type": "role",
+      "target": "datasette",
+      "text": "Datasette 磁带机在整机中以普通磁带作为存储介质，用于程序的保存与加载。"
+    }
+  ]
+}

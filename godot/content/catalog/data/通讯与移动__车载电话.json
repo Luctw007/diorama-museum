@@ -1,0 +1,282 @@
+[
+ {
+  "id": "motorola-imts",
+  "name": "Motorola IMTS 车载电话",
+  "alias": [],
+  "manufacturer": "Motorola",
+  "era": 1964,
+  "taxonomy_path": [
+   "通讯与移动",
+   "车载电话",
+   "摩托罗拉系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "早期车载移动电话系统。",
+  "verify": true,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Motorola",
+  "origin": "",
+  "year": 1964,
+  "path": [
+   "通讯与移动",
+   "车载电话",
+   "摩托罗拉系"
+  ],
+  "reason": "早期车载移动电话系统。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "车载电话",
+   "摩托罗拉系"
+  ]
+ },
+ {
+  "id": "motorola-tld-1100",
+  "name": "Motorola TLD-1100",
+  "alias": [],
+  "manufacturer": "Motorola",
+  "era": 1980,
+  "taxonomy_path": [
+   "通讯与移动",
+   "车载电话",
+   "摩托罗拉系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "车载蜂窝电话。",
+  "verify": true,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Motorola",
+  "origin": "",
+  "year": 1980,
+  "path": [
+   "通讯与移动",
+   "车载电话",
+   "摩托罗拉系"
+  ],
+  "reason": "车载蜂窝电话。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "车载电话",
+   "摩托罗拉系"
+  ]
+ },
+ {
+  "id": "nokia-actionman-320",
+  "name": "Nokia Actionman 320",
+  "alias": [],
+  "manufacturer": "Nokia",
+  "era": 1984,
+  "taxonomy_path": [
+   "通讯与移动",
+   "车载电话",
+   "诺基亚系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "诺基亚车载移动电话。",
+  "verify": true,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Nokia",
+  "origin": "",
+  "year": 1984,
+  "path": [
+   "通讯与移动",
+   "车载电话",
+   "诺基亚系"
+  ],
+  "reason": "诺基亚车载移动电话。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "车载电话",
+   "诺基亚系"
+  ]
+ },
+ {
+  "id": "nokia-talkman-320f",
+  "name": "Nokia Talkman 320F",
+  "alias": [],
+  "manufacturer": "Nokia",
+  "era": 1984,
+  "taxonomy_path": [
+   "通讯与移动",
+   "车载电话",
+   "诺基亚系"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "诺基亚车载电话。",
+  "verify": true,
+  "research_doc": null,
+  "aliases": [],
+  "maker": "Nokia",
+  "origin": "",
+  "year": 1984,
+  "path": [
+   "通讯与移动",
+   "车载电话",
+   "诺基亚系"
+  ],
+  "reason": "诺基亚车载电话。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "车载电话",
+   "诺基亚系"
+  ]
+ },
+ {
+  "id": "ericsson-car-phone",
+  "name": "Ericsson Car Phone",
+  "alias": [
+   "爱立信车载电话"
+  ],
+  "manufacturer": "爱立信",
+  "era": 1985,
+  "taxonomy_path": [
+   "通讯与移动",
+   "车载电话",
+   "其它"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "爱立信车载移动电话。",
+  "verify": true,
+  "research_doc": null,
+  "aliases": [
+   "爱立信车载电话"
+  ],
+  "maker": "爱立信",
+  "origin": "",
+  "year": 1985,
+  "path": [
+   "通讯与移动",
+   "车载电话",
+   "其它"
+  ],
+  "reason": "爱立信车载移动电话。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "车载电话",
+   "其它"
+  ]
+ },
+ {
+  "id": "nec-car-phone",
+  "name": "NEC Car Phone",
+  "alias": [
+   "NEC 车载电话"
+  ],
+  "manufacturer": "NEC",
+  "era": 1985,
+  "taxonomy_path": [
+   "通讯与移动",
+   "车载电话",
+   "其它"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "日本车载移动电话。",
+  "verify": true,
+  "research_doc": null,
+  "aliases": [
+   "NEC 车载电话"
+  ],
+  "maker": "NEC",
+  "origin": "",
+  "year": 1985,
+  "path": [
+   "通讯与移动",
+   "车载电话",
+   "其它"
+  ],
+  "reason": "日本车载移动电话。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "车载电话",
+   "其它"
+  ]
+ },
+ {
+  "id": "panasonic-car-phone",
+  "name": "Panasonic Car Phone",
+  "alias": [
+   "松下车载电话"
+  ],
+  "manufacturer": "松下",
+  "era": 1985,
+  "taxonomy_path": [
+   "通讯与移动",
+   "车载电话",
+   "其它"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "日本车载移动电话。",
+  "verify": true,
+  "research_doc": null,
+  "aliases": [
+   "松下车载电话"
+  ],
+  "maker": "松下",
+  "origin": "",
+  "year": 1985,
+  "path": [
+   "通讯与移动",
+   "车载电话",
+   "其它"
+  ],
+  "reason": "日本车载移动电话。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "车载电话",
+   "其它"
+  ]
+ },
+ {
+  "id": "siemens-car-phone",
+  "name": "Siemens Car Phone",
+  "alias": [
+   "西门子车载电话"
+  ],
+  "manufacturer": "西门子",
+  "era": 1985,
+  "taxonomy_path": [
+   "通讯与移动",
+   "车载电话",
+   "其它"
+  ],
+  "status": "planned",
+  "device_id": null,
+  "influence": "欧洲车载移动电话。",
+  "verify": true,
+  "research_doc": null,
+  "aliases": [
+   "西门子车载电话"
+  ],
+  "maker": "西门子",
+  "origin": "",
+  "year": 1985,
+  "path": [
+   "通讯与移动",
+   "车载电话",
+   "其它"
+  ],
+  "reason": "欧洲车载移动电话。",
+  "sources": [],
+  "_taxonomy": [
+   "通讯与移动",
+   "车载电话",
+   "其它"
+  ]
+ }
+]

@@ -1,0 +1,99 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "test-device",
+    "name": "验证方块机",
+    "name_en": "Verification Block Machine",
+    "spec_version": "0.1",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      { "name": "TASK-02 示例", "contact": "example@example.com", "role": "author" }
+    ],
+    "description": "用于验证《内容包规范 v0.1》与校验工具链的最小假想设备（明确非真实设备）。",
+    "category": "placeholder",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "示例公开占位来源",
+        "url": "https://example.com/placeholder-doc",
+        "license": "public_domain",
+        "accessed_at": "2026-10-31"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": "验证方块机整体，一台仅用于验证内容包规范与校验工具链的假想方块形电子设备。",
+      "transform": { "translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0] },
+      "parent": null,
+      "children": ["mainboard"],
+      "components": [],
+      "annotations": ["whole_role"]
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": "主板在整机中负责承载各元器件，为它们提供机械固定、电源分配与信号互连。",
+      "transform": { "translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0] },
+      "parent": "whole",
+      "children": [],
+      "components": ["chip_cpu", "chip_ram", "capacitor_c1"],
+      "annotations": ["mainboard_role", "power_flow"],
+      "mesh_ref": "meshes/mainboard.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "chip_cpu",
+      "name": "中央处理器",
+      "type": "ic",
+      "role": "在整机中负责执行程序指令，并进行算术与逻辑运算。",
+      "assembly": "mainboard",
+      "annotations": ["chip_cpu_role"]
+    },
+    {
+      "id": "chip_ram",
+      "name": "内存芯片",
+      "type": "ic",
+      "role": "在整机中负责临时存储运行时数据，供处理器快速读写。",
+      "assembly": "mainboard",
+      "annotations": ["chip_ram_role"]
+    },
+    {
+      "id": "capacitor_c1",
+      "name": "滤波电容",
+      "type": "capacitor",
+      "role": "在整机中负责平滑电源纹波、抑制高频噪声，稳定供电电压。",
+      "assembly": "mainboard",
+      "annotations": ["capacitor_c1_role"]
+    }
+  ],
+  "runtime": {
+    "emulator": "fake",
+    "version": "0.1.0",
+    "system": "fake-os",
+    "media_hint": "cartridge",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      { "id": "screen_0", "surface": "screen", "type": "video", "format": "rgba8" },
+      { "id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16" }
+    ],
+    "input_map": {
+      "power": "joypad.power",
+      "reset": "joypad.reset",
+      "start": "joypad.start",
+      "select": "joypad.select",
+      "dpad_up": "joypad.dpad_up",
+      "dpad_down": "joypad.dpad_down",
+      "dpad_left": "joypad.dpad_left",
+      "dpad_right": "joypad.dpad_right",
+      "a": "joypad.a",
+      "b": "joypad.b"
+    }
+  }
+}

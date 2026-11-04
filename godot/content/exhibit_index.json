@@ -1,0 +1,150 @@
+{
+  "generated": "2026-11-03T23:49:09",
+  "halls": [
+    {
+      "hall": "黎明厅（Dawn Hall）",
+      "devices": [
+        {
+          "id": "edsac",
+          "name": "EDSAC（电子延迟存储自动计算器）",
+          "era": null,
+          "category": "early-computer",
+          "emulator": "qedsac",
+          "demo_mode": false,
+          "annotation_count": 32,
+          "meshes": 4
+        },
+        {
+          "id": "edvac",
+          "name": "EDVAC（离散变量自动电子计算机）",
+          "era": null,
+          "category": "early-computer",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 27,
+          "meshes": 3
+        },
+        {
+          "id": "eniac",
+          "name": "ENIAC（电子数值积分与计算机）",
+          "era": null,
+          "category": "early-computer",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 17,
+          "meshes": 4
+        },
+        {
+          "id": "manchester-baby",
+          "name": "曼彻斯特 Baby（SSEM）",
+          "era": null,
+          "category": "early-computer",
+          "emulator": "davidpsharp-baby",
+          "demo_mode": false,
+          "annotation_count": 33,
+          "meshes": 4
+        }
+      ]
+    },
+    {
+      "hall": "大型机与小型机厅（Mainframe Hall）",
+      "devices": [
+        {
+          "id": "pdp11",
+          "name": "DEC PDP-11/70",
+          "era": 1975,
+          "category": "minicomputer",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 39,
+          "meshes": 0
+        },
+        {
+          "id": "pdp8",
+          "name": "DEC PDP-8（小型计算机）",
+          "era": 1965,
+          "category": "minicomputer",
+          "emulator": "simh-pdp8",
+          "demo_mode": false,
+          "annotation_count": 44,
+          "meshes": 0
+        },
+        {
+          "id": "system360",
+          "name": "IBM System/360 Model 30",
+          "era": 1964,
+          "category": "mainframe",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 50,
+          "meshes": 0
+        },
+        {
+          "id": "vax11",
+          "name": "DEC VAX-11/780",
+          "era": 1977,
+          "category": "minicomputer",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 38,
+          "meshes": 0
+        }
+      ]
+    },
+    {
+      "hall": "个人计算机厅（Personal Computer Hall）",
+      "devices": [
+        {
+          "id": "apple-ii",
+          "name": "Apple II",
+          "era": 1977,
+          "category": "computer",
+          "emulator": "mame",
+          "demo_mode": false,
+          "annotation_count": 72,
+          "meshes": 4
+        }
+      ]
+    },
+    {
+      "hall": "游戏机厅（Console Hall）",
+      "devices": [
+        {
+          "id": "atari-2600",
+          "name": "Atari 2600（Video Computer System）",
+          "era": 1977,
+          "category": "game-console",
+          "emulator": "stella",
+          "demo_mode": false,
+          "annotation_count": 28,
+          "meshes": 0
+        },
+        {
+          "id": "famicom",
+          "name": "Famicom（红白机）",
+          "era": 1983,
+          "category": "game-console",
+          "emulator": "mesen",
+          "demo_mode": false,
+          "annotation_count": 30,
+          "meshes": 0
+        }
+      ]
+    },
+    {
+      "hall": "示例（Samples）",
+      "devices": [
+        {
+          "id": "test-device",
+          "name": "验证方块机",
+          "era": null,
+          "category": "placeholder",
+          "emulator": "fake",
+          "demo_mode": false,
+          "annotation_count": 6,
+          "meshes": 1
+        }
+      ]
+    }
+  ]
+}

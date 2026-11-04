@@ -1,0 +1,960 @@
+[
+ {
+  "id": "C-SC-000001",
+  "name": "CDC STAR-100",
+  "aliases": [],
+  "manufacturer": "Control Data Corporation",
+  "origin": "美国",
+  "era": 1974,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "influence": "世界首台向量超级计算机之一。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Control Data Corporation",
+  "year": 1974,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "reason": "世界首台向量超级计算机之一。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ]
+ },
+ {
+  "id": "C-SC-000002",
+  "name": "CDC CYBER 205",
+  "aliases": [],
+  "manufacturer": "Control Data Corporation",
+  "origin": "美国",
+  "era": 1981,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "influence": "STAR-100 后继向量超级计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Control Data Corporation",
+  "year": 1981,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "reason": "STAR-100 后继向量超级计算机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ]
+ },
+ {
+  "id": "C-SC-000003",
+  "name": "Cray-1",
+  "aliases": [],
+  "manufacturer": "Cray Research",
+  "origin": "美国",
+  "era": 1976,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "influence": "标志性向量超级计算机，C 形机柜名垂青史。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Cray Research",
+  "year": 1976,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "reason": "标志性向量超级计算机，C 形机柜名垂青史。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ]
+ },
+ {
+  "id": "C-SC-000004",
+  "name": "Cray-1S",
+  "aliases": [],
+  "manufacturer": "Cray Research",
+  "origin": "美国",
+  "era": 1979,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "influence": "Cray-1 增强型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Cray Research",
+  "year": 1979,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "reason": "Cray-1 增强型号。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ]
+ },
+ {
+  "id": "C-SC-000005",
+  "name": "Cray X-MP",
+  "aliases": [],
+  "manufacturer": "Cray Research",
+  "origin": "美国",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "influence": "多处理器向量超级计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Cray Research",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "reason": "多处理器向量超级计算机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ]
+ },
+ {
+  "id": "C-SC-000006",
+  "name": "Cray-2",
+  "aliases": [],
+  "manufacturer": "Cray Research",
+  "origin": "美国",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "influence": "沉浸式液冷超级计算机，一度世界最快。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Cray Research",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "reason": "沉浸式液冷超级计算机，一度世界最快。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ]
+ },
+ {
+  "id": "C-SC-000007",
+  "name": "Cray Y-MP",
+  "aliases": [],
+  "manufacturer": "Cray Research",
+  "origin": "美国",
+  "era": 1988,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "influence": "X-MP 后继，多处理器向量机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Cray Research",
+  "year": 1988,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "reason": "X-MP 后继，多处理器向量机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ]
+ },
+ {
+  "id": "C-SC-000008",
+  "name": "Cray C90",
+  "aliases": [],
+  "manufacturer": "Cray Research",
+  "origin": "美国",
+  "era": 1991,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "influence": "Cray 向量超级计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Cray Research",
+  "year": 1991,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "reason": "Cray 向量超级计算机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ]
+ },
+ {
+  "id": "C-SC-000009",
+  "name": "Cray T90",
+  "aliases": [],
+  "manufacturer": "Cray Research",
+  "origin": "美国",
+  "era": 1995,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "influence": "Cray 末代大型向量机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Cray Research",
+  "year": 1995,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "reason": "Cray 末代大型向量机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ]
+ },
+ {
+  "id": "C-SC-000010",
+  "name": "NEC SX-2",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "influence": "日本首台向量超级计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "reason": "日本首台向量超级计算机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ]
+ },
+ {
+  "id": "C-SC-000011",
+  "name": "NEC SX-3",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "influence": "日本向量超级计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "reason": "日本向量超级计算机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ]
+ },
+ {
+  "id": "C-SC-000012",
+  "name": "Fujitsu VP-200",
+  "aliases": [],
+  "manufacturer": "富士通",
+  "origin": "日本",
+  "era": 1982,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "influence": "日本向量超级计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "富士通",
+  "year": 1982,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "reason": "日本向量超级计算机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ]
+ },
+ {
+  "id": "C-SC-000026",
+  "name": "Cray J90",
+  "aliases": [],
+  "manufacturer": "Cray Research",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "influence": "Cray 入门向量超级计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Cray Research",
+  "year": 1994,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "reason": "Cray 入门向量超级计算机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ]
+ },
+ {
+  "id": "C-SC-000027",
+  "name": "Hitachi S-820",
+  "aliases": [],
+  "manufacturer": "日立",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "influence": "日本向量超级计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "日立",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ],
+  "reason": "日本向量超级计算机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "向量机"
+  ]
+ },
+ {
+  "id": "C-SC-000013",
+  "name": "Thinking Machines CM-1",
+  "aliases": [
+   "Connection Machine"
+  ],
+  "manufacturer": "Thinking Machines",
+  "origin": "美国",
+  "era": 1986,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "influence": "大规模并行连接机，AI 研究平台。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Thinking Machines",
+  "year": 1986,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "reason": "大规模并行连接机，AI 研究平台。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ]
+ },
+ {
+  "id": "C-SC-000014",
+  "name": "Thinking Machines CM-2",
+  "aliases": [],
+  "manufacturer": "Thinking Machines",
+  "origin": "美国",
+  "era": 1987,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "influence": "CM-1 增强，大规模并行。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Thinking Machines",
+  "year": 1987,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "reason": "CM-1 增强，大规模并行。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ]
+ },
+ {
+  "id": "C-SC-000015",
+  "name": "Thinking Machines CM-5",
+  "aliases": [],
+  "manufacturer": "Thinking Machines",
+  "origin": "美国",
+  "era": 1991,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "influence": "大规模并行超级计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Thinking Machines",
+  "year": 1991,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "reason": "大规模并行超级计算机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ]
+ },
+ {
+  "id": "C-SC-000016",
+  "name": "Cray T3D",
+  "aliases": [],
+  "manufacturer": "Cray Research",
+  "origin": "美国",
+  "era": 1993,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "influence": "Cray 首台大规模并行机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Cray Research",
+  "year": 1993,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "reason": "Cray 首台大规模并行机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ]
+ },
+ {
+  "id": "C-SC-000017",
+  "name": "Cray T3E",
+  "aliases": [],
+  "manufacturer": "Cray Research",
+  "origin": "美国",
+  "era": 1995,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "influence": "大规模并行超级计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Cray Research",
+  "year": 1995,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "reason": "大规模并行超级计算机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ]
+ },
+ {
+  "id": "C-SC-000018",
+  "name": "IBM Blue Gene/L",
+  "aliases": [
+   "Blue Gene"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 2004,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "influence": "低功耗大规模并行超级计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 2004,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "reason": "低功耗大规模并行超级计算机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ]
+ },
+ {
+  "id": "C-SC-000019",
+  "name": "SGI Origin 2000",
+  "aliases": [],
+  "manufacturer": "Silicon Graphics",
+  "origin": "美国",
+  "era": 1996,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "influence": "ccNUMA 架构超级服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Silicon Graphics",
+  "year": 1996,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "reason": "ccNUMA 架构超级服务器。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ]
+ },
+ {
+  "id": "C-SC-000020",
+  "name": "nCUBE 2",
+  "aliases": [],
+  "manufacturer": "nCUBE",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "influence": "超立方体并行计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "nCUBE",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "reason": "超立方体并行计算机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ]
+ },
+ {
+  "id": "C-SC-000021",
+  "name": "Intel Paragon",
+  "aliases": [],
+  "manufacturer": "Intel",
+  "origin": "美国",
+  "era": 1992,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "influence": "Intel 大规模并行超级计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "Intel",
+  "year": 1992,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "reason": "Intel 大规模并行超级计算机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ]
+ },
+ {
+  "id": "C-SC-000022",
+  "name": "IBM SP2",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "influence": "IBM 可扩展并行服务器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "IBM",
+  "year": 1994,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "reason": "IBM 可扩展并行服务器。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ]
+ },
+ {
+  "id": "C-SC-000023",
+  "name": "MasPar MP-1",
+  "aliases": [],
+  "manufacturer": "MasPar",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "influence": "SIMD 大规模并行计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "MasPar",
+  "year": 1990,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "reason": "SIMD 大规模并行计算机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ]
+ },
+ {
+  "id": "C-SC-000024",
+  "name": "Elbrus-1",
+  "aliases": [
+   "厄尔布鲁士"
+  ],
+  "manufacturer": "苏联 Lebedev 研究所",
+  "origin": "苏联",
+  "era": 1980,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "influence": "苏联超级计算机，多处理器设计。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "苏联 Lebedev 研究所",
+  "year": 1980,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "reason": "苏联超级计算机，多处理器设计。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ]
+ },
+ {
+  "id": "C-SC-000025",
+  "name": "Elbrus-2",
+  "aliases": [],
+  "manufacturer": "苏联 Lebedev 研究所",
+  "origin": "苏联",
+  "era": 1985,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "influence": "苏联超级计算机，10 处理器。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "苏联 Lebedev 研究所",
+  "year": 1985,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "reason": "苏联超级计算机，10 处理器。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ]
+ },
+ {
+  "id": "C-SC-000028",
+  "name": "Fujitsu VPP500",
+  "aliases": [],
+  "manufacturer": "富士通",
+  "origin": "日本",
+  "era": 1993,
+  "taxonomy_path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "influence": "日本并行向量超级计算机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": null,
+  "maker": "富士通",
+  "year": 1993,
+  "path": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ],
+  "reason": "日本并行向量超级计算机。",
+  "_taxonomy": [
+   "计算机",
+   "超级计算机",
+   "并行机"
+  ]
+ }
+]
