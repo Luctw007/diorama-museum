@@ -146,7 +146,7 @@ func _set_selected(node: Node3D) -> void:
 			(mi.material_override as StandardMaterial3D).emission = Color(1.0, 0.6, 0.1)
 			(mi.material_override as StandardMaterial3D).emission_energy_multiplier = 0.6
 		if _hud_label != null:
-			var role := device_loader_hint.get_node_role(_selected) if device_loader_hint != null else ""
+			var role: String = device_loader_hint.get_node_role(_selected) if device_loader_hint != null else ""
 			_hud_label.text = "[选中] %s\n%s" % [_selected.name, role if role != "" else "（无 role 标注）"]
 	node_picked.emit(_selected)
 
