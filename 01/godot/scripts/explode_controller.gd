@@ -90,13 +90,15 @@ func _compute_depth(nodes: Dictionary, aid: String, acc: int) -> int:
 func _guess_axis(nodes: Dictionary, aid: String) -> Vector3:
 	# 推拉主轴：读取该装配体相对父级的平移方向；无父级 → +X
 	var entry: Dictionary = nodes[aid].get_meta("asmb_entry", {})
-	var t: Array = entry.get("transform", {}).get("translation", [0, 0, 0]) \
-		if entry.get("transform") is Dictionary else []
+	var tr: Variant = entry.get("transform")
+	var t: Array = tr.get("translation", [0, 0, 0]) if tr is Dictionary else []
 	if not t.is_empty():
 		var v := Vector3(float(t[0]), float(t[1]), float(t[2]))
 		if v.length() > 0.001:
 			return v.normalized()
-	var parent_id := str(entry.get("parent", ""))
+	var parent_id: String = str(entry.get("parent", ""))
+	if parent_id == "" or not nodes.has(parent_id):
+		return _axis.get(nodes[aid], Vector3.RIGHT)
 	return _axis.get(nodes[parent_id], Vector3.RIGHT)
 
 
