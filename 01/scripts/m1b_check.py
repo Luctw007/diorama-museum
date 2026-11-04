@@ -27,13 +27,23 @@ import time
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WORK_ROOT = r"D:\work"  # 锚定共享盘根（monorepo 重组后不再上溯推导）
+MONO_ROOT = os.path.dirname(REPO_ROOT)  # monorepo 根（本地镜像与 CI checkout 均为 /…/diorama-museum）
+
+
+def _pkg_root(line: str, sid: str) -> str:
+    """内容包定位：镜像目录（monorepo 根下 NN/content/<id>）优先，回退共享盘 D:/work。
+    mirror = os.path.join(MONO_ROOT, line, "content", sid)
+    if os.path.isdir(mirror):
+        return mirror
+    return os.path.join(WORK_ROOT, line, "repo", "content", sid)
+
 
 DEFAULT_PORT = 17334
 
 PKGS = {
-    "baby": os.path.join(WORK_ROOT, "03", "repo", "content", "manchester-baby"),
-    "eniac": os.path.join(WORK_ROOT, "03", "repo", "content", "eniac"),
-    "apple-ii": os.path.join(WORK_ROOT, "05", "repo", "content", "apple-ii"),
+    "baby": _pkg_root("03", "manchester-baby"),
+    "eniac": _pkg_root("03", "eniac"),
+    "apple-ii": _pkg_root("05", "apple-ii"),
 }
 
 PASSED = 0
