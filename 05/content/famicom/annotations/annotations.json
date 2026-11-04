@@ -244,6 +244,20 @@
       "target": "top_shell",
       "text": "红白配色在整机中是 FC 的昵称由来，上壳前部酒红后部米白，这一撞色让红白机成为一代人的共同记忆，也是识别日版与美版的关键。",
       "sources": []
+    },
+    {
+      "id": "game_fc_speedrun_z1",
+      "type": "role",
+      "target": "famicom",
+      "text": "FC 的 PPU 整帧渲染让横版卷轴成为可能，《超级马力欧兄弟》的跑跳手感至今仍是速度通关竞技的经典对象，无数玩家在 FC 上练就了肌肉记忆。",
+      "sources": []
+    },
+    {
+      "id": "game_fc_save_z2",
+      "type": "role",
+      "target": "famicom",
+      "text": "FC 卡带早期没有存档功能，玩到一半只能靠密码续关，《勇者斗恶龙》的复活咒文就是没有电池存档时代的产物。",
+      "sources": []
     }
   ]
 }

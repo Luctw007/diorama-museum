@@ -244,6 +244,20 @@
       "target": "controller",
       "text": "六键手柄在整机中是 MD 后期为格斗游戏推出的扩展，A/B/C/X/Y/Z 六键支持复杂搓招，是手柄向格斗友好演进的重要一步。",
       "sources": []
+    },
+    {
+      "id": "game_md_6btn_z1",
+      "type": "role",
+      "target": "sega_md",
+      "text": "MD 后期推出的 6 键手柄专为格斗游戏设计，A/B/C/X/Y/Z 六键让《街头霸王 II》的复杂搓招第一次能在家用机手柄上完整施展。",
+      "sources": []
+    },
+    {
+      "id": "game_md_fm_z2",
+      "type": "role",
+      "target": "sega_md",
+      "text": "MD 的 YM2612 FM 音源能合成尖锐金属感的贝斯与鼓点，插上耳机听《怒之铁拳》的配乐，是 MD 玩家独有的听觉记忆。",
+      "sources": []
     }
   ]
 }

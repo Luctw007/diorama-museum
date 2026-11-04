@@ -43,3 +43,13 @@ jobs:
 
       - name: Godot 符号自检
         run: python scripts/gd_symbol_check.py
+
+      # TASK-96B：镜像已在仓库内——目录类步骤升级为全门禁（镜像优先、共享盘回退）
+      - name: 目录摄取门禁
+        run: python scripts/catalog_ingest.py --gate --gate-verify
+
+      - name: 目录引用一致性
+        run: python scripts/catalog_ref_ci.py
+
+      - name: 全部内容包校验
+        run: python scripts/verify_all.py --only pkg

@@ -279,6 +279,20 @@
       "target": "controllers",
       "text": "四键菱形手柄在整机中是 SFC 的创新，ABXY 四键菱形布局加 LR 肩键，成了此后所有手柄的标配，是现代手柄的鼻祖。",
       "sources": []
+    },
+    {
+      "id": "game_sfc_mode7_z1",
+      "type": "role",
+      "target": "super_famicom",
+      "text": "SFC 的 Mode 7 让《超级马力欧赛车》实现了伪 3D 赛道，玩家在旋转缩放的赛道上漂移过弯，是 16 位时代最惊艳的玩法体验之一。",
+      "sources": []
+    },
+    {
+      "id": "game_sfc_rpg_z2",
+      "type": "role",
+      "target": "super_famicom",
+      "text": "SFC 是日式 RPG 的黄金平台，《最终幻想 VI》的歌剧院、《时空之轮》的时空穿梭，用采样音源把 RPG 的叙事与配乐推到了艺术高度。",
+      "sources": []
     }
   ]
 }

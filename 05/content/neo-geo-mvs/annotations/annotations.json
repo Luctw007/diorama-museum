@@ -286,6 +286,20 @@
       "target": "cabinet",
       "text": "灯箱在整机中位于框体顶部，展示游戏标题与插画，是街机框体的招牌，也是街机厅视觉氛围的标志，是自由选题的展示亮点。",
       "sources": []
+    },
+    {
+      "id": "game_mvs_credit_z1",
+      "type": "role",
+      "target": "neo_geo_mvs",
+      "text": "MVS 框体的投币文化让一币通关成为街机玩家的终极追求，输一局就再投一币，币就是命，这种玩法紧张感是家用机永远无法复制的。",
+      "sources": []
+    },
+    {
+      "id": "game_mvs_swap_z2",
+      "type": "role",
+      "target": "neo_geo_mvs",
+      "text": "MVS 多槽位支持换卡不停机，玩家在一台框体上就能轮流打拳皇、侍魂、合金弹头，一台机器就是一个迷你街机厅。",
+      "sources": []
     }
   ]
 }

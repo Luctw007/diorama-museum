@@ -538,6 +538,20 @@
       "target": "keyboard",
       "text": "键盘在整机中是 Apple II 的主要输入，52 键大写布局、键帽内凹弧面，是 1977 年少见的完整键盘，打字手感是当时个人电脑里的标杆。",
       "sources": []
+    },
+    {
+      "id": "apple_ii_games_z1",
+      "type": "role",
+      "target": "apple_ii",
+      "text": "Apple II 是 70 年代末玩游戏的个人电脑，游戏与办公软件共存的生态让它成为一代人的第一台电脑，也是很多游戏开发者的起点。",
+      "sources": []
+    },
+    {
+      "id": "apple_ii_basic_z2",
+      "type": "role",
+      "target": "apple_ii",
+      "text": "Apple II 开机即进 BASIC，用户可直接键入程序运行，这种上手即编程的体验是 1977 年个人电脑可玩性的一部分。",
+      "sources": []
     }
   ]
 }

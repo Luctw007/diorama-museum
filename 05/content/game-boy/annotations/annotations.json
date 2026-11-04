@@ -258,6 +258,20 @@
       "target": "game_boy",
       "text": "Game Link 联机线在整机中是 GB 的社交创新，两台 GB 用一根线相连即可对战交换，宝可梦的联机对战由此开启，是掌机社交的开端。",
       "sources": []
+    },
+    {
+      "id": "game_gb_tetris_z1",
+      "type": "role",
+      "target": "game_boy",
+      "text": "俄罗斯方块是 GB 的杀手级玩法，规则极简却越玩越上头，碎片时间消一局的体验让 GB 成了通勤与午休的随身伴侣。",
+      "sources": []
+    },
+    {
+      "id": "game_gb_link_z2",
+      "type": "role",
+      "target": "game_boy",
+      "text": "Game Link 联机线让两台 GB 能对战交换，《宝可梦》必须交换才能集齐图鉴，这种面对面联机是 GB 独有的社交玩法。",
+      "sources": []
     }
   ]
 }

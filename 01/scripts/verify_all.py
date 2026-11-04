@@ -31,6 +31,10 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PY = sys.executable
 
 VALIDATOR = r"D:\work\02\repo\tools\validate\validate.py"
+# TASK-96B：共享盘不存在（CI runner）时改用 monorepo 镜像内校验器
+_MONO = os.path.dirname(REPO)
+if os.environ.get("DCM_FORCE_MIRROR") == "1" or not os.path.isfile(VALIDATOR):
+    VALIDATOR = os.path.join(_MONO, "02", "tools", "validate", "validate.py")
 READY, WIP = pkg_registry.discover_packages_full()
 PKGS = READY   # 完工包进失败判定；WIP 只提示（生产中）
 
@@ -103,8 +107,12 @@ def main(argv: list[str] | None = None) -> int:
     slot_step = ("slots", ["scripts/slot_consistency_check.py"])
     catalog_step = ("catalog", ["scripts/catalog_ingest.py", "--gate", "--gate-verify"])
     # TASK-81A：目录↔内容包引用一致性（02 线 catalog_ref_check 挂入门禁）
-    catalog_ref_step = ("catalog_ref",
-                        [r"D:\work\02\repo\tools\validate\catalog_ref_check.py"])
+    if os.environ.get("DCM_FORCE_MIRROR") == "1" or not os.path.isdir(r"D:\work"):
+        # TASK-96B：镜像模式经 01 侧适配器运行（不改 02 线文件）
+        catalog_ref_step = ("catalog_ref", ["scripts/catalog_ref_ci.py"])
+    else:
+        catalog_ref_step = ("catalog_ref",
+                            [r"D:\work\02\repo\tools\validate\catalog_ref_check.py"])
     gd_step = ("gd", ["scripts/gd_symbol_check.py"])
     pkg_defs = [("pkg:%s" % pid, [VALIDATOR, path]) for pid, path in PKGS]
     wip_defs = [("wip:%s" % pid, [VALIDATOR, path]) for pid, path in WIP]

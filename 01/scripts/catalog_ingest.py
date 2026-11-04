@@ -31,6 +31,13 @@ CATALOG_ROOTS = [
     os.path.join(WORK_ROOT, "03", "repo", "docs", "catalog"),
     os.path.join(WORK_ROOT, "05", "repo", "docs", "catalog"),
 ]
+if os.environ.get("DCM_FORCE_MIRROR") == "1" or not os.path.isdir(CATALOG_ROOTS[0]):
+    # TASK-96B：共享盘不存在时（CI runner 等）改用 monorepo 镜像目录
+    _MONO = os.path.dirname(REPO)   # monorepo 根
+    CATALOG_ROOTS = [
+        os.path.join(_MONO, "03", "docs", "catalog"),
+        os.path.join(_MONO, "05", "docs", "catalog"),
+    ]
 INDEX_DIR = os.path.join(REPO, "catalog_index")
 SHARD_MAX = 5000
 

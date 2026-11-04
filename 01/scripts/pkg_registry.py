@@ -28,6 +28,13 @@ SCAN_ROOTS = [
     os.path.join(WORK_ROOT, "03", "repo", "content"),
     os.path.join(WORK_ROOT, "05", "repo", "content"),
 ]
+if os.environ.get("DCM_FORCE_MIRROR") == "1" or not os.path.isdir(SCAN_ROOTS[0]):
+    # TASK-96B：共享盘不存在时（CI runner 等）改用 monorepo 镜像目录
+    _MONO = os.path.dirname(REPO)   # monorepo 根
+    SCAN_ROOTS = [
+        os.path.join(_MONO, "03", "content"),
+        os.path.join(_MONO, "05", "content"),
+    ]
 
 # fixture/示例：不参与量产门禁与同步
 EXCLUDES = {"test-device", "manchester-baby-scaffold"}
