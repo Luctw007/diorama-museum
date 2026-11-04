@@ -1,0 +1,25 @@
+# 01 线仓库忽略清单（TASK-81B）
+# 红线：二进制与 ROM 永不进版本库；本清单即机器化防线。
+
+# 缓存与编译产物
+__pycache__/
+*.pyc
+
+# 自动生成的门禁/统计产物（由脚本再生，不入版本库）
+docs/verify_last.json
+docs/verify_history.jsonl
+docs/PROJECT_STATS.md
+
+# 用户自备的模拟器二进制 / 介质 / ROM（红线 FR-E3）
+third_party/
+
+# 演习用假二进制（71-B 演示件，仅本地）
+slots/_drill/
+
+# 演示帧与临时产物
+demo_out/
+docs/drill_demo_out/
+docs/doctor_log_*.txt
+
+# 各账号本地工作状态
+.workbuddy/

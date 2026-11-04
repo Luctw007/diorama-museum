@@ -1,0 +1,133 @@
+{
+  "entries": {
+    "pad_up": {
+      "mame_field": {
+        "tag": "pad0",
+        "field": "hat_0",
+        "kind": "dpad"
+      },
+      "direction": "up",
+      "verify": true
+    },
+    "pad_down": {
+      "mame_field": {
+        "tag": "pad0",
+        "field": "hat_0",
+        "kind": "dpad"
+      },
+      "direction": "down",
+      "verify": true
+    },
+    "pad_left": {
+      "mame_field": {
+        "tag": "pad0",
+        "field": "hat_0",
+        "kind": "dpad"
+      },
+      "direction": "left",
+      "verify": true
+    },
+    "pad_right": {
+      "mame_field": {
+        "tag": "pad0",
+        "field": "hat_0",
+        "kind": "dpad"
+      },
+      "direction": "right",
+      "verify": true
+    },
+    "btn_a": {
+      "mame_field": {
+        "tag": "pad0",
+        "field": "btn0",
+        "kind": "button"
+      },
+      "verify": true
+    },
+    "btn_b": {
+      "mame_field": {
+        "tag": "pad0",
+        "field": "btn1",
+        "kind": "button"
+      },
+      "verify": true
+    },
+    "btn_start": {
+      "mame_code": "ENTER",
+      "verify": true
+    },
+    "btn_select": {
+      "mame_code": "RSHIFT",
+      "verify": true
+    },
+    "p2_pad_up": {
+      "mame_field": {
+        "tag": "pad1",
+        "field": "hat_1",
+        "kind": "dpad"
+      },
+      "direction": "up",
+      "verify": true
+    },
+    "p2_pad_down": {
+      "mame_field": {
+        "tag": "pad1",
+        "field": "hat_1",
+        "kind": "dpad"
+      },
+      "direction": "down",
+      "verify": true
+    },
+    "p2_pad_left": {
+      "mame_field": {
+        "tag": "pad1",
+        "field": "hat_1",
+        "kind": "dpad"
+      },
+      "direction": "left",
+      "verify": true
+    },
+    "p2_pad_right": {
+      "mame_field": {
+        "tag": "pad1",
+        "field": "hat_1",
+        "kind": "dpad"
+      },
+      "direction": "right",
+      "verify": true
+    },
+    "p2_btn_a": {
+      "mame_field": {
+        "tag": "pad1",
+        "field": "btn2",
+        "kind": "button"
+      },
+      "verify": true
+    },
+    "p2_btn_b": {
+      "mame_field": {
+        "tag": "pad1",
+        "field": "btn3",
+        "kind": "button"
+      },
+      "verify": true
+    },
+    "p2_start": {
+      "mame_code": "INSERT",
+      "verify": true
+    },
+    "p2_select": {
+      "mame_code": "DEL",
+      "verify": true
+    },
+    "power": {
+      "mame_code": "POWER",
+      "verify": true
+    },
+    "reset": {
+      "mame_code": "RESET",
+      "verify": true
+    }
+  },
+  "unmapped": []
+}

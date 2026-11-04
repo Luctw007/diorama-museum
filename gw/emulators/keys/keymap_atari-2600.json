@@ -1,0 +1,91 @@
+{
+  "entries": {
+    "joy_up": {
+      "mame_field": {
+        "tag": "joy0",
+        "field": "analog_y",
+        "kind": "axis"
+      },
+      "direction": "up",
+      "verify": true,
+      "note": "2600 方向键两动作共享同一轴（取值正负区分）"
+    },
+    "joy_down": {
+      "mame_field": {
+        "tag": "joy0",
+        "field": "analog_y",
+        "kind": "axis"
+      },
+      "direction": "down",
+      "verify": true,
+      "note": "2600 方向键两动作共享同一轴（取值正负区分）"
+    },
+    "joy_left": {
+      "mame_field": {
+        "tag": "joy0",
+        "field": "analog_x",
+        "kind": "axis"
+      },
+      "direction": "left",
+      "verify": true,
+      "note": "2600 方向键两动作共享同一轴（取值正负区分）"
+    },
+    "joy_right": {
+      "mame_field": {
+        "tag": "joy0",
+        "field": "analog_x",
+        "kind": "axis"
+      },
+      "direction": "right",
+      "verify": true,
+      "note": "2600 方向键两动作共享同一轴（取值正负区分）"
+    },
+    "fire": {
+      "mame_field": {
+        "tag": "joy0",
+        "field": "btn0",
+        "kind": "button"
+      },
+      "verify": true
+    },
+    "paddle_axis": {
+      "mame_field": {
+        "tag": "joy0",
+        "field": "analog_x",
+        "kind": "axis"
+      },
+      "direction": null,
+      "verify": true,
+      "note": "2600 方向键两动作共享同一轴（取值正负区分）"
+    },
+    "power": {
+      "mame_code": "POWER",
+      "verify": true
+    },
+    "reset": {
+      "mame_code": "RESET",
+      "verify": true
+    },
+    "select": {
+      "mame_code": "F1",
+      "verify": true,
+      "note": "系统拨档开关（difficulty/tv_type 等）经 MAME 键位/端口映射，[需核实]"
+    },
+    "difficulty_l": {
+      "mame_code": "F2",
+      "verify": true,
+      "note": "系统拨档开关（difficulty/tv_type 等）经 MAME 键位/端口映射，[需核实]"
+    },
+    "difficulty_r": {
+      "mame_code": "F3",
+      "verify": true,
+      "note": "系统拨档开关（difficulty/tv_type 等）经 MAME 键位/端口映射，[需核实]"
+    },
+    "tv_type": {
+      "mame_code": "F4",
+      "verify": true,
+      "note": "系统拨档开关（difficulty/tv_type 等）经 MAME 键位/端口映射，[需核实]"
+    }
+  },
+  "unmapped": []
+}
