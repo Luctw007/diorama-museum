@@ -32,6 +32,7 @@ MONO_ROOT = os.path.dirname(REPO_ROOT)  # monorepo 根（本地镜像与 CI chec
 
 def _pkg_root(line: str, sid: str) -> str:
     """内容包定位：镜像目录（monorepo 根下 NN/content/<id>）优先，回退共享盘 D:/work。
+    本地镜像与共享盘双重可用；CI runner 无共享盘，只依赖镜像。"""
     mirror = os.path.join(MONO_ROOT, line, "content", sid)
     if os.path.isdir(mirror):
         return mirror
