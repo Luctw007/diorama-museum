@@ -25,7 +25,10 @@
       ]
     },
     "module": "gw.emulators.fake_emulator",
-    "backend_status": "已实现"
+    "backend_status": "已实现",
+    "gateway_key": "fake",
+    "slot_manifest": true,
+    "ci_involved": true
   },
   {
     "sim_id": "mame-apple2",
@@ -58,7 +61,10 @@
       ]
     },
     "module": "gw.emulators.mame_apple2",
-    "backend_status": "骨架"
+    "backend_status": "骨架",
+    "gateway_key": "mame-apple2",
+    "slot_manifest": true,
+    "ci_involved": true
   },
   {
     "sim_id": "mame-handheld",
@@ -88,7 +94,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "simh-pdp8",
@@ -120,7 +129,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": "simh-pdp8",
+    "slot_manifest": true,
+    "ci_involved": true
   },
   {
     "sim_id": "simh-pdp11",
@@ -152,7 +164,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "simh-vax11",
@@ -182,7 +197,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "stella",
@@ -213,7 +231,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "mesen",
@@ -244,7 +265,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "vice",
@@ -277,7 +301,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "beebem",
@@ -308,7 +335,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "blastem",
@@ -339,7 +369,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "pc86box",
@@ -370,7 +403,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "qedsac",
@@ -400,7 +436,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "davidpsharp-baby",
@@ -426,7 +465,10 @@
       "manchester-baby": []
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "sameboy",
@@ -457,7 +499,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "eka2l1",
@@ -495,7 +540,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "cloudpilotemu",
@@ -526,7 +574,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "madrigal",
@@ -557,7 +608,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "qemu",
@@ -587,7 +641,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "system360-emulator",
@@ -617,7 +674,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "hercules",
@@ -650,7 +710,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "86box",
@@ -680,7 +743,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "mini-vmac",
@@ -710,7 +776,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "fuse",
@@ -740,7 +809,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "snes9x",
@@ -770,7 +842,10 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   },
   {
     "sim_id": "mame-neogeo",
@@ -800,6 +875,9 @@
       ]
     },
     "module": null,
-    "backend_status": "预留"
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   }
 ]

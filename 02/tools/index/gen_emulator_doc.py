@@ -43,6 +43,9 @@ def render_registry_md(data) -> str:
         lines.append("- 后端类型：" + e["backend_type"] + "　|　状态：" + e["status"] + "　|　后端：" + e.get("backend_status", "预留"))
         if e.get("module"):
             lines.append("- 模块：" + e["module"])
+        lines.append("- 网关登记键：" + (e.get("gateway_key") or "（未内置）")
+                       + "　|　槽位 manifest：" + ("齐" if e.get("slot_manifest") else "无")
+                       + "　|　CI 涉及：" + ("是" if e.get("ci_involved") else "否"))
         lines.append("- 目标设备：" + "、".join(e["target_devices"]))
         lines.append("- 许可：" + str(lic.get("spdx") or "需核实") + "　|　URL：" + str(lic.get("source_url") or "（需核实）"))
         lines.append("- 介质类目：" + ("、".join(e["media_classes"]) if e["media_classes"] else "（无）"))

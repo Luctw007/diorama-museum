@@ -1,7 +1,7 @@
 {
-  "time": "2026-11-05 02:18:19",
-  "total": 31,
-  "passed": 31,
+  "time": "2026-11-05 02:30:50",
+  "total": 32,
+  "passed": 32,
   "steps": [
     {
       "name": "m0",
@@ -16,7 +16,7 @@
     {
       "name": "slots",
       "ok": true,
-      "note": "汇总：完工包 25，声明 slot 0，SC-01 违规 0"
+      "note": "汇总：完工包 26，声明 slot 0，SC-01 违规 0"
     },
     {
       "name": "catalog",
@@ -60,6 +60,11 @@
     },
     {
       "name": "pkg:commodore64",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:dynatac-8000x",
       "ok": true,
       "note": "FAIL 0"
     },

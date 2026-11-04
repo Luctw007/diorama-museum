@@ -1,0 +1,196 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "Motorola DynaTAC 8000X 整机，1983 年获 FCC 批准的首台商用便携式蜂窝移动电话。"
+    },
+    {
+      "id": "body_role",
+      "type": "role",
+      "target": "body",
+      "text": "机身外壳在整机中作为黑色塑料上下两半结构，承载显示屏、麦克风与全部内部组件。"
+    },
+    {
+      "id": "antenna_role",
+      "type": "role",
+      "target": "antenna",
+      "text": "天线在整机中作为可伸缩鞭状天线，负责收发射频信号，是蜂窝通信的空中接口。"
+    },
+    {
+      "id": "earpiece_role",
+      "type": "role",
+      "target": "earpiece",
+      "text": "听筒在整机中位于机身顶部靠近耳朵处，通过内置扬声器输出对方语音。"
+    },
+    {
+      "id": "keypad_role",
+      "type": "role",
+      "target": "keypad",
+      "text": "键盘在整机中承载 12 键拨号矩阵与发送、结束键，是用户拨号与通话操作界面。"
+    },
+    {
+      "id": "pcb_role",
+      "type": "role",
+      "target": "pcb",
+      "text": "PCB 主板在整机中承载射频前端、基带芯片、微处理器与频率合成器，是通话与协议控制核心。"
+    },
+    {
+      "id": "battery_role",
+      "type": "role",
+      "target": "battery",
+      "text": "电池组在整机中作为可拆卸镍镉电池，占据机身下半部约三分之一体积，为整机供电。"
+    },
+    {
+      "id": "brand_badge_role",
+      "type": "role",
+      "target": "brand_badge",
+      "text": "品牌徽标在整机中标明 Motorola 品牌与 DynaTAC 型号。"
+    },
+    {
+      "id": "lcd_display_role",
+      "type": "role",
+      "target": "lcd_display",
+      "text": "LED 显示屏在整机中单行显示拨号数字与通话状态，是早期手机的简易人机界面。"
+    },
+    {
+      "id": "mic_hole_role",
+      "type": "role",
+      "target": "mic_hole",
+      "text": "麦克风孔在整机中位于机身底部靠近嘴处，采集用户语音传给基带芯片。"
+    },
+    {
+      "id": "antenna_rod_role",
+      "type": "role",
+      "target": "antenna_rod",
+      "text": "鞭状天线在整机中可伸缩，拉出后用于增强射频信号的收发效率。"
+    },
+    {
+      "id": "speaker_role",
+      "type": "role",
+      "target": "speaker",
+      "text": "扬声器在整机中位于听筒处，将基带解码的语音电信号还原为声音。"
+    },
+    {
+      "id": "key_matrix_role",
+      "type": "role",
+      "target": "key_matrix",
+      "text": "键盘矩阵在整机中承载 0 至 9、星号与井号共 12 个按键，用于输入电话号码。"
+    },
+    {
+      "id": "send_key_role",
+      "type": "role",
+      "target": "send_key",
+      "text": "发送键在整机中确认拨号并发起呼叫，是通话流程的启动按钮。"
+    },
+    {
+      "id": "end_key_role",
+      "type": "role",
+      "target": "end_key",
+      "text": "结束键在整机中挂断当前通话并释放无线信道，是通话流程的终止按钮。"
+    },
+    {
+      "id": "rf_frontend_role",
+      "type": "role",
+      "target": "rf_frontend",
+      "text": "射频前端在整机中负责信号的发射与接收及功率放大，是手机与基站的空中连接枢纽。"
+    },
+    {
+      "id": "baseband_chip_role",
+      "type": "role",
+      "target": "baseband_chip",
+      "text": "基带芯片在整机中处理调制解调与语音编解码，是模拟蜂窝通话的核心信号处理单元。"
+    },
+    {
+      "id": "microprocessor_role",
+      "type": "role",
+      "target": "microprocessor",
+      "text": "微处理器在整机中执行拨号与通信协议控制，管理键盘输入与呼叫流程。"
+    },
+    {
+      "id": "freq_synth_role",
+      "type": "role",
+      "target": "freq_synth",
+      "text": "频率合成器在整机中生成稳定的射频载波频率，使手机能锁定并切换到不同蜂窝信道。"
+    },
+    {
+      "id": "battery_cell_role",
+      "type": "role",
+      "target": "battery_cell",
+      "text": "镍镉电池在整机中储存电能，为整机提供约 30 分钟通话所需的电力。"
+    },
+    {
+      "id": "charge_contact_role",
+      "type": "role",
+      "target": "charge_contact",
+      "text": "充电触点在整机中与充电座对接，为电池组补充电能，充满约需 10 小时。"
+    },
+    {
+      "id": "first_commercial_phone",
+      "type": "flow",
+      "target": "whole",
+      "text": "第一台商用手机讲解：DynaTAC 8000X 是 1983 年获 FCC 批准、1984 年上市的首台商用便携式蜂窝移动电话，开启个人无线通讯时代。"
+    },
+    {
+      "id": "martin_cooper_1973",
+      "type": "flow",
+      "target": "whole",
+      "text": "1973 首通电话讲解：1973 年 4 月 3 日，摩托罗拉工程师马丁·库珀用 DynaTAC 原型机拨出第一通手持电话，打给了竞争对手贝尔实验室，是手机史的起点。"
+    },
+    {
+      "id": "big_brother_culture",
+      "type": "flow",
+      "target": "whole",
+      "text": "大哥大文化讲解：DynaTAC 进入中国后被俗称为「大哥大」，是 1990 年代初财富与身份的象征。"
+    },
+    {
+      "id": "thirty_min_talk",
+      "type": "flow",
+      "target": "battery",
+      "text": "通话与充电讲解：DynaTAC 通话约 30 分钟、充电却要约 10 小时，这一悬殊比例道尽早期手机性能与便利的极限拉扯。"
+    },
+    {
+      "id": "amps_1g",
+      "type": "flow",
+      "target": "antenna",
+      "text": "1G 模拟网络讲解：DynaTAC 运行于第一代模拟蜂窝网络 AMPS，通话以模拟信号承载，是数字手机出现前的移动通信形态。"
+    },
+    {
+      "id": "brick_phone",
+      "type": "flow",
+      "target": "body",
+      "text": "砖头机形态讲解：DynaTAC 重近 1 公斤、售价 3995 美元，被戏称为「砖头机」，是移动通信奢侈年代最直观的物证。"
+    },
+    {
+      "id": "rf_principle",
+      "type": "flow",
+      "target": "rf_frontend",
+      "text": "射频原理讲解：射频前端负责把语音调制到高频载波上发射，并从空中接收基站信号解调还原，是无线通话的物理基础。"
+    },
+    {
+      "id": "cellular_principle",
+      "type": "flow",
+      "target": "freq_synth",
+      "text": "蜂窝原理讲解：频率合成器让手机在不同蜂窝小区间切换信道，实现移动中的连续通话，是蜂窝网络得名的由来。"
+    },
+    {
+      "id": "demo_oriented",
+      "type": "flow",
+      "target": "whole",
+      "text": "演示向讲解：本机无成熟模拟器，展厅以静态展陈、射频原理动画与按键铃声合成交互呈现，属演示向展项。"
+    },
+    {
+      "id": "nicd_battery",
+      "type": "flow",
+      "target": "battery_cell",
+      "text": "镍镉电池讲解：早期手机普遍使用镍镉电池，能量密度低、充电慢，是整机又大又重的重要原因。"
+    },
+    {
+      "id": "price_3995",
+      "type": "flow",
+      "target": "body",
+      "text": "奢侈定价讲解：3995 美元的售价让 DynaTAC 在 1980 年代成为少数人的专属，移动通信最初是昂贵的稀缺资源。"
+    }
+  ]
+}

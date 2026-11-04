@@ -1,0 +1,559 @@
+{
+  "meta": {
+    "id": "dynatac-8000x",
+    "name": {
+      "zh": "Motorola DynaTAC 8000X",
+      "en": "Motorola DynaTAC 8000X"
+    },
+    "intro": {
+      "zh": "Motorola DynaTAC 8000X 是 1983 年获 FCC 批准的首台商用便携式蜂窝移动电话，俗称「大哥大」「砖头机」，重近 1 公斤、售价 3995 美元，开启个人无线通讯时代。",
+      "en": "The Motorola DynaTAC 8000X, FCC-approved in 1983, was the first commercial handheld cellular phone, nicknamed the brick, weighing almost 1 kg and costing US$3,995."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1983,
+    "manufacturer": "Motorola",
+    "category": "phone",
+    "description": "Motorola DynaTAC 8000X（1983）：首台商用手持蜂窝移动电话，1G 模拟 AMPS 网络，近 1kg，通话约 30 分钟，售价 3995 美元。演示向（无成熟模拟器）。",
+    "authors": [
+      {
+        "name": "TASK-98A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Motorola DynaTAC",
+        "url": "https://en.wikipedia.org/wiki/Motorola_DynaTAC",
+        "license": "cc",
+        "accessed_at": "2026-11-05"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Martin Cooper (inventor)",
+        "url": "https://en.wikipedia.org/wiki/Martin_Cooper_(inventor)",
+        "license": "cc",
+        "accessed_at": "2026-11-05"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum — Timeline",
+        "url": "https://www.computerhistory.org/timeline/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-05"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Motorola DynaTAC 8000X 整机，1983 年获 FCC 批准的首台商用便携式蜂窝移动电话。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "body",
+        "antenna",
+        "earpiece",
+        "keypad",
+        "pcb",
+        "battery"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "first_commercial_phone",
+        "martin_cooper_1973",
+        "big_brother_culture"
+      ]
+    },
+    {
+      "id": "body",
+      "name": "机身",
+      "role": {
+        "zh": "机身外壳在整机中作为黑色塑料上下两半结构，承载显示屏、麦克风与全部内部组件。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "brand_badge",
+        "lcd_display",
+        "mic_hole"
+      ],
+      "annotations": [
+        "body_role"
+      ],
+      "mesh_ref": "assemblies/body.gltf"
+    },
+    {
+      "id": "antenna",
+      "name": "天线",
+      "role": {
+        "zh": "天线在整机中作为可伸缩鞭状天线，负责收发射频信号，是蜂窝通信的空中接口。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "antenna_rod"
+      ],
+      "annotations": [
+        "antenna_role"
+      ],
+      "mesh_ref": "assemblies/antenna.gltf"
+    },
+    {
+      "id": "earpiece",
+      "name": "听筒",
+      "role": {
+        "zh": "听筒在整机中位于机身顶部靠近耳朵处，通过内置扬声器输出对方语音。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "speaker"
+      ],
+      "annotations": [
+        "earpiece_role"
+      ],
+      "mesh_ref": "assemblies/earpiece.gltf"
+    },
+    {
+      "id": "keypad",
+      "name": "键盘",
+      "role": {
+        "zh": "键盘在整机中承载 12 键拨号矩阵与发送、结束键，是用户拨号与通话操作界面。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "key_matrix",
+        "send_key",
+        "end_key"
+      ],
+      "annotations": [
+        "keypad_role"
+      ],
+      "mesh_ref": "assemblies/keypad.gltf"
+    },
+    {
+      "id": "pcb",
+      "name": "PCB 主板",
+      "role": {
+        "zh": "PCB 主板在整机中承载射频前端、基带芯片、微处理器与频率合成器，是通话与协议控制核心。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "rf_frontend",
+        "baseband_chip",
+        "microprocessor",
+        "freq_synth"
+      ],
+      "annotations": [
+        "pcb_role"
+      ],
+      "mesh_ref": "assemblies/pcb.gltf"
+    },
+    {
+      "id": "battery",
+      "name": "电池组",
+      "role": {
+        "zh": "电池组在整机中作为可拆卸镍镉电池，占据机身下半部约三分之一体积，为整机供电。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "battery_cell",
+        "charge_contact"
+      ],
+      "annotations": [
+        "battery_role"
+      ],
+      "mesh_ref": "assemblies/battery.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "brand_badge",
+      "name": "品牌徽标",
+      "type": "badge",
+      "role": {
+        "zh": "品牌徽标在整机中标明 Motorola 品牌与 DynaTAC 型号。"
+      },
+      "assembly": "body",
+      "annotations": [
+        "brand_badge_role"
+      ]
+    },
+    {
+      "id": "lcd_display",
+      "name": "LED 显示屏",
+      "type": "lcd",
+      "role": {
+        "zh": "LED 显示屏在整机中单行显示拨号数字与通话状态，是早期手机的简易人机界面。"
+      },
+      "assembly": "body",
+      "annotations": [
+        "lcd_display_role"
+      ]
+    },
+    {
+      "id": "mic_hole",
+      "name": "麦克风孔",
+      "type": "port",
+      "role": {
+        "zh": "麦克风孔在整机中位于机身底部靠近嘴处，采集用户语音传给基带芯片。"
+      },
+      "assembly": "body",
+      "annotations": [
+        "mic_hole_role"
+      ]
+    },
+    {
+      "id": "antenna_rod",
+      "name": "鞭状天线",
+      "type": "antenna",
+      "role": {
+        "zh": "鞭状天线在整机中可伸缩，拉出后用于增强射频信号的收发效率。"
+      },
+      "assembly": "antenna",
+      "annotations": [
+        "antenna_rod_role"
+      ]
+    },
+    {
+      "id": "speaker",
+      "name": "扬声器",
+      "type": "speaker",
+      "role": {
+        "zh": "扬声器在整机中位于听筒处，将基带解码的语音电信号还原为声音。"
+      },
+      "assembly": "earpiece",
+      "annotations": [
+        "speaker_role"
+      ]
+    },
+    {
+      "id": "key_matrix",
+      "name": "键盘矩阵",
+      "type": "keypad",
+      "role": {
+        "zh": "键盘矩阵在整机中承载 0 至 9、星号与井号共 12 个按键，用于输入电话号码。"
+      },
+      "assembly": "keypad",
+      "annotations": [
+        "key_matrix_role"
+      ]
+    },
+    {
+      "id": "send_key",
+      "name": "发送键",
+      "type": "button",
+      "role": {
+        "zh": "发送键在整机中确认拨号并发起呼叫，是通话流程的启动按钮。"
+      },
+      "assembly": "keypad",
+      "annotations": [
+        "send_key_role"
+      ]
+    },
+    {
+      "id": "end_key",
+      "name": "结束键",
+      "type": "button",
+      "role": {
+        "zh": "结束键在整机中挂断当前通话并释放无线信道，是通话流程的终止按钮。"
+      },
+      "assembly": "keypad",
+      "annotations": [
+        "end_key_role"
+      ]
+    },
+    {
+      "id": "rf_frontend",
+      "name": "射频前端",
+      "type": "ic",
+      "role": {
+        "zh": "射频前端在整机中负责信号的发射与接收及功率放大，是手机与基站的空中连接枢纽。"
+      },
+      "assembly": "pcb",
+      "annotations": [
+        "rf_frontend_role"
+      ]
+    },
+    {
+      "id": "baseband_chip",
+      "name": "基带芯片",
+      "type": "ic",
+      "role": {
+        "zh": "基带芯片在整机中处理调制解调与语音编解码，是模拟蜂窝通话的核心信号处理单元。"
+      },
+      "assembly": "pcb",
+      "annotations": [
+        "baseband_chip_role"
+      ]
+    },
+    {
+      "id": "microprocessor",
+      "name": "微处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "微处理器在整机中执行拨号与通信协议控制，管理键盘输入与呼叫流程。"
+      },
+      "assembly": "pcb",
+      "annotations": [
+        "microprocessor_role"
+      ]
+    },
+    {
+      "id": "freq_synth",
+      "name": "频率合成器",
+      "type": "ic",
+      "role": {
+        "zh": "频率合成器在整机中生成稳定的射频载波频率，使手机能锁定并切换到不同蜂窝信道。"
+      },
+      "assembly": "pcb",
+      "annotations": [
+        "freq_synth_role"
+      ]
+    },
+    {
+      "id": "battery_cell",
+      "name": "镍镉电池",
+      "type": "battery",
+      "role": {
+        "zh": "镍镉电池在整机中储存电能，为整机提供约 30 分钟通话所需的电力。"
+      },
+      "assembly": "battery",
+      "annotations": [
+        "battery_cell_role"
+      ]
+    },
+    {
+      "id": "charge_contact",
+      "name": "充电触点",
+      "type": "connector",
+      "role": {
+        "zh": "充电触点在整机中与充电座对接，为电池组补充电能，充满约需 10 小时。"
+      },
+      "assembly": "battery",
+      "annotations": [
+        "charge_contact_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Motorola DynaTAC 8000X",
+    "media_hint": "firmware",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "handheld_lcd_0",
+        "surface": "handheld_lcd",
+        "type": "video",
+        "format": "mono"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "key_0": {
+        "map": "keyboard",
+        "key": "KEY_0"
+      },
+      "key_1": {
+        "map": "keyboard",
+        "key": "KEY_1"
+      },
+      "key_2": {
+        "map": "keyboard",
+        "key": "KEY_2"
+      },
+      "key_3": {
+        "map": "keyboard",
+        "key": "KEY_3"
+      },
+      "key_4": {
+        "map": "keyboard",
+        "key": "KEY_4"
+      },
+      "key_5": {
+        "map": "keyboard",
+        "key": "KEY_5"
+      },
+      "key_6": {
+        "map": "keyboard",
+        "key": "KEY_6"
+      },
+      "key_7": {
+        "map": "keyboard",
+        "key": "KEY_7"
+      },
+      "key_8": {
+        "map": "keyboard",
+        "key": "KEY_8"
+      },
+      "key_9": {
+        "map": "keyboard",
+        "key": "KEY_9"
+      },
+      "star": {
+        "map": "keyboard",
+        "key": "KEY_ASTERISK"
+      },
+      "hash": {
+        "map": "keyboard",
+        "key": "KEY_NUMBERSIGN"
+      },
+      "send": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "end": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      }
+    }
+  }
+}
