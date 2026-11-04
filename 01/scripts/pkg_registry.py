@@ -21,9 +21,8 @@ import os
 import sys
 
 SCRIPTS = os.path.dirname(os.path.abspath(__file__))
-REPO = os.path.dirname(SCRIPTS)                 # D:\work\01\repo
-WORK = os.path.dirname(REPO)                    # D:\work\01
-WORK_ROOT = os.path.dirname(WORK)               # D:\work
+REPO = os.path.dirname(SCRIPTS)                 # D:\work\01\repo\01（monorepo 重组后）
+WORK_ROOT = r"D:\work"                          # 锚定共享盘根（跨线扫描路径的唯一定义点）
 
 SCAN_ROOTS = [
     os.path.join(WORK_ROOT, "03", "repo", "content"),

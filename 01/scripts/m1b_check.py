@@ -26,7 +26,7 @@ import threading
 import time
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-WORK_ROOT = os.path.dirname(os.path.dirname(REPO_ROOT))  # D:\work（内容包在 03/05 线）
+WORK_ROOT = r"D:\work"  # 锚定共享盘根（monorepo 重组后不再上溯推导）
 
 DEFAULT_PORT = 17334
 

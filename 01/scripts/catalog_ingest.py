@@ -26,7 +26,7 @@ import sys
 
 SCRIPTS = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(SCRIPTS)
-WORK_ROOT = os.path.dirname(os.path.dirname(REPO))          # D:\work
+WORK_ROOT = r"D:\work"                   # 锚定共享盘根（monorepo 重组后不再上溯推导）
 CATALOG_ROOTS = [
     os.path.join(WORK_ROOT, "03", "repo", "docs", "catalog"),
     os.path.join(WORK_ROOT, "05", "repo", "docs", "catalog"),
