@@ -15,8 +15,8 @@ extends Node3D
 ##   godot/content/README.md "待验证清单（引擎侧）" 节，或 docs/TASK-21B_完成报告.md §4。
 ## 依赖 API（device_loader.gd v2）：
 ##   - DeviceLoader.load_device(device_id: String) -> bool
-##   - DeviceLoader.get_index() -> Array          # {id, name, category...}
-##   - DeviceLoader.get_meta() / get_runtime() / get_assembly_nodes()
+##   - DeviceLoader.get_device_index() -> Array          # {id, name, category...}
+##   - DeviceLoader.get_device_meta() / get_runtime() / get_assembly_nodes()
 
 class_name ExhibitHost
 

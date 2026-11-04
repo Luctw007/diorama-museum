@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3]
+[gd_scene load_steps=13 format=3 uid="uid://cnubnd2mailh"]
 
 [ext_resource type="Script" path="res://scripts/gateway_client.gd" id="1_gw"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="2_player"]
@@ -78,7 +78,11 @@ script = ExtResource("6_explode")
 [node name="HUD" type="CanvasLayer" parent="."]
 
 [node name="DevicePicker" type="Control" parent="HUD"]
+layout_mode = 3
+anchors_preset = 0
 script = ExtResource("5_picker")
 
 [node name="ExplodePanel" type="Control" parent="HUD"]
+layout_mode = 3
+anchors_preset = 0
 script = ExtResource("7_expanel")

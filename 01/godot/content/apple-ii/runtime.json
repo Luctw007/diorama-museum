@@ -6,252 +6,252 @@
   "bios_required": true,
   "bios_guide_url": "https://wiki.mamedev.org/index.php/Driver:Apple_II",
   "output_sinks": [
-    {
-      "id": "crt_internal",
-      "surface": "internal_crt",
-      "type": "video",
-      "format": "rgba8"
-    },
-    {
-      "id": "speaker_0",
-      "surface": "speaker",
-      "type": "audio",
-      "format": "pcm16"
-    },
-    {
-      "id": "led_power",
-      "surface": "led",
-      "type": "hid"
-    }
+	{
+	  "id": "crt_internal",
+	  "surface": "internal_crt",
+	  "type": "video",
+	  "format": "rgba8"
+	},
+	{
+	  "id": "speaker_0",
+	  "surface": "speaker",
+	  "type": "audio",
+	  "format": "pcm16"
+	},
+	{
+	  "id": "led_power",
+	  "surface": "led",
+	  "type": "hid"
+	}
   ],
   "input_map": {
-    "key_a": {
-      "map": "keyboard",
-      "key": "KEY_A"
-    },
-    "key_b": {
-      "map": "keyboard",
-      "key": "KEY_B"
-    },
-    "key_c": {
-      "map": "keyboard",
-      "key": "KEY_C"
-    },
-    "key_d": {
-      "map": "keyboard",
-      "key": "KEY_D"
-    },
-    "key_e": {
-      "map": "keyboard",
-      "key": "KEY_E"
-    },
-    "key_f": {
-      "map": "keyboard",
-      "key": "KEY_F"
-    },
-    "key_g": {
-      "map": "keyboard",
-      "key": "KEY_G"
-    },
-    "key_h": {
-      "map": "keyboard",
-      "key": "KEY_H"
-    },
-    "key_i": {
-      "map": "keyboard",
-      "key": "KEY_I"
-    },
-    "key_j": {
-      "map": "keyboard",
-      "key": "KEY_J"
-    },
-    "key_k": {
-      "map": "keyboard",
-      "key": "KEY_K"
-    },
-    "key_l": {
-      "map": "keyboard",
-      "key": "KEY_L"
-    },
-    "key_m": {
-      "map": "keyboard",
-      "key": "KEY_M"
-    },
-    "key_n": {
-      "map": "keyboard",
-      "key": "KEY_N"
-    },
-    "key_o": {
-      "map": "keyboard",
-      "key": "KEY_O"
-    },
-    "key_p": {
-      "map": "keyboard",
-      "key": "KEY_P"
-    },
-    "key_q": {
-      "map": "keyboard",
-      "key": "KEY_Q"
-    },
-    "key_r": {
-      "map": "keyboard",
-      "key": "KEY_R"
-    },
-    "key_s": {
-      "map": "keyboard",
-      "key": "KEY_S"
-    },
-    "key_t": {
-      "map": "keyboard",
-      "key": "KEY_T"
-    },
-    "key_u": {
-      "map": "keyboard",
-      "key": "KEY_U"
-    },
-    "key_v": {
-      "map": "keyboard",
-      "key": "KEY_V"
-    },
-    "key_w": {
-      "map": "keyboard",
-      "key": "KEY_W"
-    },
-    "key_x": {
-      "map": "keyboard",
-      "key": "KEY_X"
-    },
-    "key_y": {
-      "map": "keyboard",
-      "key": "KEY_Y"
-    },
-    "key_z": {
-      "map": "keyboard",
-      "key": "KEY_Z"
-    },
-    "key_0": {
-      "map": "keyboard",
-      "key": "KEY_0"
-    },
-    "key_1": {
-      "map": "keyboard",
-      "key": "KEY_1"
-    },
-    "key_2": {
-      "map": "keyboard",
-      "key": "KEY_2"
-    },
-    "key_3": {
-      "map": "keyboard",
-      "key": "KEY_3"
-    },
-    "key_4": {
-      "map": "keyboard",
-      "key": "KEY_4"
-    },
-    "key_5": {
-      "map": "keyboard",
-      "key": "KEY_5"
-    },
-    "key_6": {
-      "map": "keyboard",
-      "key": "KEY_6"
-    },
-    "key_7": {
-      "map": "keyboard",
-      "key": "KEY_7"
-    },
-    "key_8": {
-      "map": "keyboard",
-      "key": "KEY_8"
-    },
-    "key_9": {
-      "map": "keyboard",
-      "key": "KEY_9"
-    },
-    "key_space": {
-      "map": "keyboard",
-      "key": "KEY_SPACE"
-    },
-    "key_return": {
-      "map": "keyboard",
-      "key": "KEY_ENTER"
-    },
-    "key_escape": {
-      "map": "keyboard",
-      "key": "KEY_ESCAPE"
-    },
-    "key_ctrl": {
-      "map": "keyboard",
-      "key": "KEY_CTRL"
-    },
-    "key_shift": {
-      "map": "keyboard",
-      "key": "KEY_SHIFT"
-    },
-    "key_repeat": {
-      "map": "keyboard",
-      "key": "KEY_REPEAT"
-    },
-    "key_caps_lock": {
-      "map": "keyboard",
-      "key": "KEY_CAPSLOCK"
-    },
-    "key_left": {
-      "map": "keyboard",
-      "key": "KEY_LEFT"
-    },
-    "key_right": {
-      "map": "keyboard",
-      "key": "KEY_RIGHT"
-    },
-    "key_up": {
-      "map": "keyboard",
-      "key": "KEY_UP"
-    },
-    "key_down": {
-      "map": "keyboard",
-      "key": "KEY_DOWN"
-    },
-    "key_reset": {
-      "map": "keyboard",
-      "key": "KEY_RESET"
-    },
-    "paddle_axis_0": {
-      "map": "joystick",
-      "key": "axis_x"
-    },
-    "paddle_axis_1": {
-      "map": "joystick",
-      "key": "axis_y"
-    },
-    "paddle_axis_2": {
-      "map": "joystick",
-      "key": "axis_x"
-    },
-    "paddle_axis_3": {
-      "map": "joystick",
-      "key": "axis_y"
-    },
-    "paddle_btn_0": {
-      "map": "joystick",
-      "key": "btn0"
-    },
-    "paddle_btn_1": {
-      "map": "joystick",
-      "key": "btn1"
-    },
-    "paddle_btn_2": {
-      "map": "joystick",
-      "key": "btn2"
-    },
-    "floppy_door": {
-      "map": "keyboard",
-      "key": "KEY_INSERT"
-    },
-    "power": {
-      "map": "keyboard",
-      "key": "KEY_POWER"
-    }
+	"key_a": {
+	  "map": "keyboard",
+	  "key": "KEY_A"
+	},
+	"key_b": {
+	  "map": "keyboard",
+	  "key": "KEY_B"
+	},
+	"key_c": {
+	  "map": "keyboard",
+	  "key": "KEY_C"
+	},
+	"key_d": {
+	  "map": "keyboard",
+	  "key": "KEY_D"
+	},
+	"key_e": {
+	  "map": "keyboard",
+	  "key": "KEY_E"
+	},
+	"key_f": {
+	  "map": "keyboard",
+	  "key": "KEY_F"
+	},
+	"key_g": {
+	  "map": "keyboard",
+	  "key": "KEY_G"
+	},
+	"key_h": {
+	  "map": "keyboard",
+	  "key": "KEY_H"
+	},
+	"key_i": {
+	  "map": "keyboard",
+	  "key": "KEY_I"
+	},
+	"key_j": {
+	  "map": "keyboard",
+	  "key": "KEY_J"
+	},
+	"key_k": {
+	  "map": "keyboard",
+	  "key": "KEY_K"
+	},
+	"key_l": {
+	  "map": "keyboard",
+	  "key": "KEY_L"
+	},
+	"key_m": {
+	  "map": "keyboard",
+	  "key": "KEY_M"
+	},
+	"key_n": {
+	  "map": "keyboard",
+	  "key": "KEY_N"
+	},
+	"key_o": {
+	  "map": "keyboard",
+	  "key": "KEY_O"
+	},
+	"key_p": {
+	  "map": "keyboard",
+	  "key": "KEY_P"
+	},
+	"key_q": {
+	  "map": "keyboard",
+	  "key": "KEY_Q"
+	},
+	"key_r": {
+	  "map": "keyboard",
+	  "key": "KEY_R"
+	},
+	"key_s": {
+	  "map": "keyboard",
+	  "key": "KEY_S"
+	},
+	"key_t": {
+	  "map": "keyboard",
+	  "key": "KEY_T"
+	},
+	"key_u": {
+	  "map": "keyboard",
+	  "key": "KEY_U"
+	},
+	"key_v": {
+	  "map": "keyboard",
+	  "key": "KEY_V"
+	},
+	"key_w": {
+	  "map": "keyboard",
+	  "key": "KEY_W"
+	},
+	"key_x": {
+	  "map": "keyboard",
+	  "key": "KEY_X"
+	},
+	"key_y": {
+	  "map": "keyboard",
+	  "key": "KEY_Y"
+	},
+	"key_z": {
+	  "map": "keyboard",
+	  "key": "KEY_Z"
+	},
+	"key_0": {
+	  "map": "keyboard",
+	  "key": "KEY_0"
+	},
+	"key_1": {
+	  "map": "keyboard",
+	  "key": "KEY_1"
+	},
+	"key_2": {
+	  "map": "keyboard",
+	  "key": "KEY_2"
+	},
+	"key_3": {
+	  "map": "keyboard",
+	  "key": "KEY_3"
+	},
+	"key_4": {
+	  "map": "keyboard",
+	  "key": "KEY_4"
+	},
+	"key_5": {
+	  "map": "keyboard",
+	  "key": "KEY_5"
+	},
+	"key_6": {
+	  "map": "keyboard",
+	  "key": "KEY_6"
+	},
+	"key_7": {
+	  "map": "keyboard",
+	  "key": "KEY_7"
+	},
+	"key_8": {
+	  "map": "keyboard",
+	  "key": "KEY_8"
+	},
+	"key_9": {
+	  "map": "keyboard",
+	  "key": "KEY_9"
+	},
+	"key_space": {
+	  "map": "keyboard",
+	  "key": "KEY_SPACE"
+	},
+	"key_return": {
+	  "map": "keyboard",
+	  "key": "KEY_ENTER"
+	},
+	"key_escape": {
+	  "map": "keyboard",
+	  "key": "KEY_ESCAPE"
+	},
+	"key_ctrl": {
+	  "map": "keyboard",
+	  "key": "KEY_CTRL"
+	},
+	"key_shift": {
+	  "map": "keyboard",
+	  "key": "KEY_SHIFT"
+	},
+	"key_repeat": {
+	  "map": "keyboard",
+	  "key": "KEY_REPEAT"
+	},
+	"key_caps_lock": {
+	  "map": "keyboard",
+	  "key": "KEY_CAPSLOCK"
+	},
+	"key_left": {
+	  "map": "keyboard",
+	  "key": "KEY_LEFT"
+	},
+	"key_right": {
+	  "map": "keyboard",
+	  "key": "KEY_RIGHT"
+	},
+	"key_up": {
+	  "map": "keyboard",
+	  "key": "KEY_UP"
+	},
+	"key_down": {
+	  "map": "keyboard",
+	  "key": "KEY_DOWN"
+	},
+	"key_reset": {
+	  "map": "keyboard",
+	  "key": "KEY_RESET"
+	},
+	"paddle_axis_0": {
+	  "map": "joystick",
+	  "key": "axis_x"
+	},
+	"paddle_axis_1": {
+	  "map": "joystick",
+	  "key": "axis_y"
+	},
+	"paddle_axis_2": {
+	  "map": "joystick",
+	  "key": "axis_x"
+	},
+	"paddle_axis_3": {
+	  "map": "joystick",
+	  "key": "axis_y"
+	},
+	"paddle_btn_0": {
+	  "map": "joystick",
+	  "key": "btn0"
+	},
+	"paddle_btn_1": {
+	  "map": "joystick",
+	  "key": "btn1"
+	},
+	"paddle_btn_2": {
+	  "map": "joystick",
+	  "key": "btn2"
+	},
+	"floppy_door": {
+	  "map": "keyboard",
+	  "key": "KEY_INSERT"
+	},
+	"power": {
+	  "map": "keyboard",
+	  "key": "KEY_POWER"
+	}
   }
 }

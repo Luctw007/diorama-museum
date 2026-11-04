@@ -64,8 +64,8 @@ func bind(loader: Node) -> void:
 		_loader.device_index_ready.connect(_on_index_ready)
 	if _loader != null and _loader.has_signal("device_loaded"):
 		_loader.device_loaded.connect(_on_device_loaded)
-	if _loader != null and _loader.has_method("get_index"):
-		_on_index_ready(_loader.get_index())
+	if _loader != null and _loader.has_method("get_device_index"):
+		_on_index_ready(_loader.get_device_index())
 
 
 func toggle() -> void:
@@ -100,7 +100,7 @@ func _refresh() -> void:
 		return
 	for child in _list.get_children():
 		child.queue_free()
-	var index: Array = _loader.get_index()
+	var index: Array = _loader.get_device_index()
 	if index.is_empty():
 		_hint.text = "content/ 下没有可加载的设备包"
 		return

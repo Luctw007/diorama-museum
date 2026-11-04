@@ -25,7 +25,7 @@ extends Node3D
 ## - func scan_index() -> Array                 枚举 res://content
 ## - func load_device(device_id: String) -> bool
 ## - func get_node_role(node: Node3D) -> String 内联 role（备用 annotations）
-## - func get_meta() / get_runtime() / get_assembly_nodes()
+## - func get_device_meta() / get_runtime() / get_assembly_nodes()
 ## - 不硬编码任何具体设备 id / 字段名（字段按规范读取）。
 
 signal device_index_ready(index: Array)
@@ -85,7 +85,7 @@ func scan_index() -> Array:
 			_index.append({"id": entry_name, "name": entry_name, "loadable": false,
 						   "warnings": warnings})
 		else:
-			var top := meta.get("meta", {})
+			var top: Dictionary = meta.get("meta", {})
 			_index.append({
 				"id": str(top.get("id", entry_name)),
 				"name": str(top.get("name", entry_name)),
@@ -107,7 +107,7 @@ func load_device(device_id: String) -> bool:
 	_clear_tree()
 	_current_device = device_id
 	var pkg_root := CONTENT_ROOT + "/" + device_id
-	var meta := _parse_json_file(pkg_root + "/meta.json")
+	var meta: Variant = _parse_json_file(pkg_root + "/meta.json")
 	if typeof(meta) != TYPE_DICTIONARY or typeof(meta.get("assemblies", [])) != TYPE_ARRAY:
 		push_warning("[DeviceLoader] 设备 %s 无法装载（meta 缺失/非法）" % device_id)
 		device_loaded.emit(device_id)
@@ -239,7 +239,7 @@ func _parse_json_file(path: String) -> Variant:
 	return JSON.parse_string(f.get_as_text())
 
 
-func get_index() -> Array:
+func get_device_index() -> Array:
 	return _index
 
 
@@ -251,7 +251,7 @@ func get_node_role(node: Node3D) -> String:
 	return _role_by_node.get(node, "")
 
 
-func get_meta() -> Dictionary:
+func get_device_meta() -> Dictionary:
 	return _meta
 
 
