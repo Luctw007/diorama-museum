@@ -21,5 +21,8 @@ demo_out/
 docs/drill_demo_out/
 docs/doctor_log_*.txt
 
+# 打包发布物（由 make_contrib_kit.py 再生，不入库）
+dist/
+
 # 各账号本地工作状态
 .workbuddy/
