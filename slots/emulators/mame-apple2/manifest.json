@@ -1,0 +1,10 @@
+{
+  "slot_id": "mame-apple2",
+  "device_class": "computer",
+  "backend_type": "mame",
+  "description": "MAME apple2 驱动（网关内置登记的同名兜底槽位；二进制由用户自备，见 licenses/MAME.md）",
+  "license": "MAME 上游 GPLv2+/BSD-3-Clause 双许可（版本需核实，见 licenses/MAME.md）",
+  "binary_env": "MAME_BIN",
+  "media_classes": ["disk"],
+  "keymap": "keys/keymap_apple2.json"
+}

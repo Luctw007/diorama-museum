@@ -1,0 +1,9 @@
+{
+  "slot_id": "fake-slot",
+  "device_class": "console",
+  "backend_type": "native",
+  "description": "样例槽位：演示 manifest → 网关自动注册（挂在本仓库 fake 后端，无二进制要求）",
+  "license": "MIT（本仓库自带）",
+  "media_classes": ["cartridge"],
+  "keymap": null
+}

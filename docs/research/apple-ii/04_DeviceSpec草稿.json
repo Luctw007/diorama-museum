@@ -1,0 +1,520 @@
+{
+  "device_id": "apple-ii",
+  "meta": {
+    "name_zh": "Apple II",
+    "name_origin": "Apple II",
+    "category": "personal-computer",
+    "era": 1977,
+    "manufacturer": "Apple Computer, Inc.",
+    "intro": "Apple II 是苹果公司第一台面向普通家庭与学校的大规模量产个人电脑，1977 年 4 月在西岸计算机展发布。沃兹尼亚克设计了它的电路，把彩色图形、集成键盘、内置 BASIC、开关电源和八个开放扩展槽装进一个塑料机箱，让个人电脑第一次成为开箱即用的家用电器。它与 Commodore PET 2001、TRS-80 Model I 并称 1977 三巨头；1978 年的 Disk II 软驱与 1979 年的 VisiCalc 让它成为商业与教育市场的爆款。",
+    "sources": [
+      "S01",
+      "S02",
+      "S03",
+      "S05",
+      "S06",
+      "S12",
+      "S13"
+    ]
+  },
+  "accuracy_level": "L2+L3",
+  "root_assembly": "apple2",
+  "assemblies": [
+    {
+      "id": "apple2",
+      "parent": null,
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/apple2.glb",
+      "materials": [],
+      "children": ["case", "power_supply", "keyboard", "mainboard", "speaker"],
+      "annotations": [
+        { "type": "role", "zh": "整机：一台完整的 8 位个人计算机，外壳、电源、键盘、主板、扬声器一体。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "case",
+      "parent": "apple2",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/case.glb",
+      "materials": ["materials/plastic_beige.gdmat"],
+      "children": ["lid", "bottom", "badge"],
+      "annotations": [
+        { "type": "role", "zh": "机箱：由泡沫成型塑料上盖与底壳组成，包覆内部部件并承载铭牌与键盘。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "lid",
+      "parent": "case",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/lid.glb",
+      "materials": ["materials/plastic_beige.gdmat"],
+      "children": [],
+      "annotations": [
+        { "type": "role", "zh": "上盖：含通风栅格与苹果 logo 槽位，向后掀起即可开盖。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "bottom",
+      "parent": "case",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/bottom.glb",
+      "materials": ["materials/plastic_beige.gdmat"],
+      "children": [],
+      "annotations": [
+        { "type": "role", "zh": "底壳：承载主板、电源与键盘的底座，含机脚与序列号/铭牌位。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "badge",
+      "parent": "case",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/badge.glb",
+      "materials": ["materials/rainbow_logo.gdmat"],
+      "children": [],
+      "annotations": [
+        { "type": "role", "zh": "铭牌组：彩虹苹果 logo 与 apple ][ 字样（商标元素，呈现策略见 J2 [TBD]）。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "power_supply",
+      "parent": "apple2",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/power_supply.glb",
+      "materials": ["materials/metal_shield.gdmat"],
+      "children": ["psu_case", "power_switch", "psu_board", "power_cord"],
+      "annotations": [
+        { "type": "role", "zh": "电源模块：金属屏蔽盒内的开关电源，把市电转为 +5/−5.2/+11.8/−12 V 多路直流。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "psu_case",
+      "parent": "power_supply",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/psu_case.glb",
+      "materials": ["materials/metal_shield.gdmat"],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "power_switch",
+      "parent": "power_supply",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/power_switch.glb",
+      "materials": [],
+      "children": [],
+      "annotations": [
+        { "type": "role", "zh": "电源开关：整机开关，位于电源后板。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "psu_board",
+      "parent": "power_supply",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/psu_board.glb",
+      "materials": ["materials/pcb_green.gdmat"],
+      "children": ["transformer", "rectifier_group", "output_wire"],
+      "annotations": []
+    },
+    {
+      "id": "transformer",
+      "parent": "psu_board",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/transformer.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "rectifier_group",
+      "parent": "psu_board",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/rectifier_group.glb",
+      "materials": [],
+      "children": [],
+      "annotations": [
+        { "type": "role", "zh": "整流/滤波组：电容、安规电容与保险丝的组合体（板级合并）。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "output_wire",
+      "parent": "psu_board",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/output_wire.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "power_cord",
+      "parent": "power_supply",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/power_cord.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "keyboard",
+      "parent": "apple2",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/keyboard.glb",
+      "materials": ["materials/plastic_beige.gdmat"],
+      "children": ["keycaps", "keyswitches", "keyboard_pcb", "reset_key"],
+      "annotations": [
+        { "type": "role", "zh": "键盘：52 键大写键盘，把按键编码成 CPU 可读数据。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "keycaps",
+      "parent": "keyboard",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/keycaps.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "keyswitches",
+      "parent": "keyboard",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/keyswitches.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "keyboard_pcb",
+      "parent": "keyboard",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/keyboard_pcb.glb",
+      "materials": ["materials/pcb_green.gdmat"],
+      "children": ["key_encoder"],
+      "annotations": []
+    },
+    {
+      "id": "key_encoder",
+      "parent": "keyboard_pcb",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/key_encoder.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "reset_key",
+      "parent": "keyboard",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/reset_key.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "mainboard",
+      "parent": "apple2",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/mainboard.glb",
+      "materials": ["materials/pcb_green.gdmat"],
+      "children": ["cpu", "rom_array", "ram_array", "clock", "video_logic", "bus_logic", "slots", "io_connectors", "decoupling_group"],
+      "annotations": [
+        { "type": "role", "zh": "主板：承载 CPU、内存、ROM、总线、视频电路与八个扩展槽，是整机核心。", "highlights": ["cpu"] },
+        { "type": "flow", "zh": "数据流：键盘→6502→显存→视频电路→NTSC；磁盘经槽 6 控制器往返。", "anim": "flows/kbd_video.gltf" }
+      ]
+    },
+    {
+      "id": "cpu",
+      "parent": "mainboard",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/cpu_6502.glb",
+      "materials": ["materials/dip_ceramic.gdmat"],
+      "children": [],
+      "annotations": [
+        { "type": "role", "zh": "6502 微处理器：中央处理器，负责取指、译码、执行，协调整机。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "rom_array",
+      "parent": "mainboard",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/rom_array.glb",
+      "materials": [],
+      "children": ["rom_monitor", "rom_basic", "chargen"],
+      "annotations": [
+        { "type": "role", "zh": "ROM 区：六枚 2K×8 芯片，存 Monitor、Integer BASIC 与字符发生器。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "rom_monitor",
+      "parent": "rom_array",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/rom_monitor.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "rom_basic",
+      "parent": "rom_array",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/rom_basic.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "chargen",
+      "parent": "rom_array",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/chargen.glb",
+      "materials": [],
+      "children": [],
+      "annotations": [
+        { "type": "role", "zh": "字符发生器：把字符码转成 5×7 点阵字形供视频电路显示。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "ram_array",
+      "parent": "mainboard",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/ram_array.glb",
+      "materials": [],
+      "children": ["ram_row_c", "ram_row_d", "ram_row_e"],
+      "annotations": [
+        { "type": "role", "zh": "RAM 区：三行插座的动态内存，运行时的程序与数据暂存，断电即失。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "ram_row_c",
+      "parent": "ram_array",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/ram_row_c.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "ram_row_d",
+      "parent": "ram_array",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/ram_row_d.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "ram_row_e",
+      "parent": "ram_array",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/ram_row_e.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "clock",
+      "parent": "mainboard",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/clock.glb",
+      "materials": [],
+      "children": [],
+      "annotations": [
+        { "type": "role", "zh": "晶振：14.318 MHz 基准，分频出 1.023 MHz CPU 时钟与视频时序。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "video_logic",
+      "parent": "mainboard",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/video_logic.glb",
+      "materials": [],
+      "children": ["video_ttl_group", "video_connector"],
+      "annotations": [
+        { "type": "role", "zh": "视频逻辑：把显存内容合成 NTSC 复合视频信号输出到电视/监视器。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "video_ttl_group",
+      "parent": "video_logic",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/video_ttl_group.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "video_connector",
+      "parent": "video_logic",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/video_connector.glb",
+      "materials": [],
+      "children": [],
+      "annotations": [
+        { "type": "role", "zh": "视频 RCA 输出座：向外部显示设备输出复合视频。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "bus_logic",
+      "parent": "mainboard",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/bus_logic.glb",
+      "materials": [],
+      "children": [],
+      "annotations": [
+        { "type": "role", "zh": "总线/译码逻辑：74 系列 TTL 芯片组，负责地址译码与总线控制。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "slots",
+      "parent": "mainboard",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/slots.glb",
+      "materials": [],
+      "children": ["slot_0", "slot_1", "slot_2", "slot_3", "slot_4", "slot_5", "slot_6", "slot_7"],
+      "annotations": [
+        { "type": "role", "zh": "扩展槽阵列：8 个 50-pin 开放式外设总线，是 Apple II 可扩展性的根基。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "slot_0",
+      "parent": "slots",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/slot.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "slot_1",
+      "parent": "slots",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/slot.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "slot_2",
+      "parent": "slots",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/slot.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "slot_3",
+      "parent": "slots",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/slot.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "slot_4",
+      "parent": "slots",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/slot.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "slot_5",
+      "parent": "slots",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/slot.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "slot_6",
+      "parent": "slots",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/slot.glb",
+      "materials": [],
+      "children": [],
+      "annotations": [
+        { "type": "role", "zh": "槽 6：默认接 Disk II 磁盘控制器（惯例引导槽）。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "slot_7",
+      "parent": "slots",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/slot.glb",
+      "materials": [],
+      "children": [],
+      "annotations": []
+    },
+    {
+      "id": "io_connectors",
+      "parent": "mainboard",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/io_connectors.glb",
+      "materials": [],
+      "children": [],
+      "annotations": [
+        { "type": "role", "zh": "后板接口：磁带输入/输出、游戏 I/O 与电源接口。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "decoupling_group",
+      "parent": "mainboard",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/decoupling_group.glb",
+      "materials": [],
+      "children": [],
+      "annotations": [
+        { "type": "role", "zh": "去耦电容/电阻网络（板级组合体）：稳定电源与信号。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "speaker",
+      "parent": "apple2",
+      "transform": [0, 0, 0, 0, 0, 0],
+      "mesh": "meshes/speaker.glb",
+      "materials": [],
+      "children": [],
+      "annotations": [
+        { "type": "role", "zh": "扬声器：8 Ω 1-bit 喇叭，写 $C030 触发发声。", "highlights": [] }
+      ]
+    }
+  ],
+  "components": [
+    { "id": "cpu", "part_no": "6502", "role_zh": "中央处理器：负责取指、译码、执行，协调整机所有部件。" },
+    { "id": "chargen", "part_no": "341-0036 / 2513", "role_zh": "字符发生器：把字符码转成 5×7 点阵字形供视频电路显示。" },
+    { "id": "clock", "part_no": "14.31818 MHz XTAL", "role_zh": "基准晶振：分频出 1.023 MHz CPU 时钟与视频时序。" },
+    { "id": "speaker", "part_no": "8Ω", "role_zh": "扬声器：1-bit 软件控制发声，写 $C030 翻转电平。" },
+    { "id": "power_switch", "part_no": "—", "role_zh": "电源开关：控制整机通断电，位于电源后板。" },
+    { "id": "video_connector", "part_no": "RCA", "role_zh": "视频输出座：向外部显示设备输出 NTSC 复合视频。" }
+  ],
+  "runtime": {
+    "emulator": "mame",
+    "emulator_alt": "applewin",
+    "version": "0.2xx",
+    "system": "apple2",
+    "system_alt": "apple2p",
+    "media_hint": ["floppy:5.25", "cassette:audio"],
+    "bios_required": true,
+    "bios_guide_url": "https://wiki.mamedev.org/index.php/Driver:Apple_II",
+    "output_sinks": [{ "surface": "crt:internal", "type": "rgba8" }],
+    "input_map": {
+      "key_a": "keyboard",
+      "key_b": "keyboard",
+      "key_return": "keyboard",
+      "key_space": "keyboard",
+      "key_left": "keyboard",
+      "key_right": "keyboard",
+      "key_up": "keyboard",
+      "key_down": "keyboard",
+      "key_reset": "keyboard",
+      "joy1_axis_x": "joystick",
+      "joy1_axis_y": "joystick",
+      "joy1_btn0": "joystick",
+      "joy1_btn1": "joystick"
+    }
+  },
+  "license_register": "THIRD_PARTY.md"
+}

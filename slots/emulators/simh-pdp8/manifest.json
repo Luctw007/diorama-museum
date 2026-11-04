@@ -1,0 +1,9 @@
+{
+  "slot_id": "simh-pdp8",
+  "device_class": "computer",
+  "backend_type": "simh",
+  "description": "SIMH PDP-8（后端模块预留；二进制由用户自备，见 licenses/SIMH.md）",
+  "license": "SIMH 许可（需核实，见 licenses/SIMH.md）",
+  "binary_env": "SIMH_PDP8_BIN",
+  "media_classes": ["firmware"]
+}
