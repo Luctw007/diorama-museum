@@ -1,0 +1,44 @@
+name: CI-01
+
+# 01 线最小流水线（TASK-91A）。只跑 01 仓内可独立执行的步骤；
+# catalog / catalog_ref / pkg 类步骤依赖 03/05 多仓镜像，暂不纳入本工作流
+# （镜像由维护者本地收口；见 01/docs/github_setup.md §3）。
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "01/**"
+      - ".github/workflows/ci_01.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "01/**"
+
+jobs:
+  gate-01:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 01
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 编译检查（全仓 .py）
+        run: python -m compileall -q gw scripts
+
+      - name: M0 网关验收
+        run: python scripts/m0_check.py
+
+      - name: M1b 单设备验收
+        run: python scripts/m1b_check.py
+
+      - name: 槽位一致性检查
+        run: python scripts/slot_consistency_check.py
+
+      - name: Godot 符号自检
+        run: python scripts/gd_symbol_check.py
