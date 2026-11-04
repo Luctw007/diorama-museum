@@ -1,5 +1,6 @@
 # MIT License
 # Copyright (c) 2026 箱庭电子博物馆（Diorama Computer Museum）项目作者
+class_name DeviceLoader
 extends Node3D
 ## 设备内容包多设备加载器 v2（TASK-11A）：内容包 → Godot 节点树。
 ##
