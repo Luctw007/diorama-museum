@@ -6,11 +6,14 @@ extends Camera3D
 
 const MOVE_SPEED := 3.0
 const LOOK_SPEED := 0.0025
+const FOV_DEFAULT := 70.0
+const FOV_MAX := 85.0
 
 var _captured := false
 
 
 func _ready() -> void:
+	fov = FOV_DEFAULT
 	_set_captured(true)
 
 
@@ -27,9 +30,9 @@ func _unhandled_input(event: InputEvent) -> void:
 	elif event is InputEventMouseButton and event.pressed:
 		match event.button_index:
 			MOUSE_BUTTON_WHEEL_UP:
-				fov = clampf(fov - 3.0, 20.0, 100.0)
+				fov = clampf(fov - 3.0, 20.0, FOV_MAX)
 			MOUSE_BUTTON_WHEEL_DOWN:
-				fov = clampf(fov + 3.0, 20.0, 100.0)
+				fov = clampf(fov + 3.0, 20.0, FOV_MAX)
 	elif event.is_action_pressed("ui_cancel"):
 		_set_captured(not _captured)
 

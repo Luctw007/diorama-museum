@@ -71,6 +71,9 @@ func _unhandled_input(event: InputEvent) -> void:
 		match event.button_index:
 			MOUSE_BUTTON_LEFT:
 				_dragging = event.pressed
+				if event.pressed:
+					# 鼠标被玩家环视捕捉时事件坐标恒为屏幕中心——点选即"准星拾取"
+					_update_hover(get_viewport().get_visible_rect().size * 0.5)
 			MOUSE_BUTTON_MIDDLE:
 				_panning = event.pressed
 			MOUSE_BUTTON_WHEEL_UP:
