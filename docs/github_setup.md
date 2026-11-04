@@ -21,7 +21,10 @@ diorama-museum/
 2. 推送用一次性内联 URL：`git -c credential.helper= push https://x-access-token:<PAT>@github.com/... main`
    ——`credential.helper=` 置空确保不写 Windows 凭据管理器，`push` 不带 `-u` 确保不写 config；
 3. 推完即用 `git remote -v` 与 `git config` 复查无 `ghp_`/`x-access-token` 字样；
-4. 长期方案：用户侧配 SSH key（github.com/settings/keys），本地 remote 永远用
+4. **直连失败时经本机代理推**（2026-11-05 实战验证）：用户本地代理客户端监听
+   `127.0.0.1:10808`（HTTP）时，push 加 `-c http.proxy=http://127.0.0.1:10808`；
+   `api.github.com` 常可直连、`github.com` 443 常被阻断——优先走代理线路；
+5. 长期方案：用户侧配 SSH key（github.com/settings/keys），本地 remote 永远用
    `https://github.com/Luctw007/diorama-museum.git`。
 
 ## 3. 各线推送顺序（照做卡）
@@ -38,8 +41,6 @@ cd D:\work\NN\repo
 
 ## 4. 当前推进状态（2026-11-05）
 
-- 仓库已建（公开、空 README 未加）；01 线 main 已推 3 个提交
-  （aa4aa30 / beba0c4 / 6c809dd）；
-- 本地领先 1+ 提交（63fa343 起），因 github.com 网络波动暂未推上，
-  网络恢复后按 §2/§3 方式补推（tn 指令：`git push` 需挂 PAT 一次）；
+- 仓库已建（公开）；01 线 main 已推 **5 个提交**（aa4aa30…5499bb7），远程/本地一致；
+- 推送线路固化：`-c http.proxy=http://127.0.0.1:10808` + 一次性令牌（详见 §2）；
 - 分支保护与 CI（verify_all --daily 行动）建议下轮排：main 禁止直推，走 PR。
