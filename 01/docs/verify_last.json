@@ -1,5 +1,5 @@
 {
-  "time": "2026-11-05 01:55:21",
+  "time": "2026-11-05 02:09:04",
   "total": 31,
   "passed": 31,
   "steps": [
@@ -26,7 +26,7 @@
     {
       "name": "catalog_ref",
       "ok": true,
-      "note": "FAIL 1〔--no-ref-hard 告警降级〕"
+      "note": "FAIL 0"
     },
     {
       "name": "gd",

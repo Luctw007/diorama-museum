@@ -1,0 +1,495 @@
+{
+  "meta": {
+    "id": "vic20",
+    "name": {
+      "zh": "Commodore VIC-20",
+      "en": "Commodore VIC-20"
+    },
+    "intro": {
+      "zh": "Commodore VIC-20 是 1980 年 Commodore 推出的低价家用电脑，以 6502 处理器、彩色图形与 299 美元的亲民价格，成为首台销量破百万的个人电脑。",
+      "en": "The Commodore VIC-20, launched in 1980, was the first personal computer to sell one million units, thanks to its 6502 CPU, colour graphics and affordable price."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1980,
+    "manufacturer": "Commodore",
+    "category": "personal-computer",
+    "description": "Commodore VIC-20（1980），首台销量破百万的个人电脑：6502 CPU 1.02MHz、5KB 内存、VIC 彩色图形芯片、键盘主机一体、外置数据磁带机、接电视。",
+    "authors": [
+      {
+        "name": "TASK-93A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Commodore VIC-20",
+        "url": "https://en.wikipedia.org/wiki/Commodore_VIC-20",
+        "license": "cc",
+        "accessed_at": "2026-11-05"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — MOS Technology VIC",
+        "url": "https://en.wikipedia.org/wiki/MOS_Technology_VIC",
+        "license": "cc",
+        "accessed_at": "2026-11-05"
+      },
+      {
+        "type": "documentation",
+        "title": "VICE — the Versatile Commodore Emulator",
+        "url": "https://vice-emu.sourceforge.io/",
+        "license": "licensed",
+        "accessed_at": "2026-11-05"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Commodore VIC-20 整机，1980 年推出的首台销量破百万的个人电脑。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "case",
+        "keyboard",
+        "motherboard",
+        "power",
+        "datasette",
+        "monitor"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "million_seller",
+        "affordable_price",
+        "colour_graphics"
+      ]
+    },
+    {
+      "id": "case",
+      "name": "一体机身",
+      "role": {
+        "zh": "一体机身壳在整机中作为键盘主机一体的白色外壳，集成散热口与徽标。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "vent_slots",
+        "brand_badge"
+      ],
+      "annotations": [
+        "case_role"
+      ],
+      "mesh_ref": "assemblies/case.gltf"
+    },
+    {
+      "id": "keyboard",
+      "name": "键盘",
+      "role": {
+        "zh": "键盘在整机中与主机一体，是 VIC-20 的文字与命令输入界面。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "key_matrix"
+      ],
+      "annotations": [
+        "keyboard_role"
+      ],
+      "mesh_ref": "assemblies/keyboard.gltf"
+    },
+    {
+      "id": "motherboard",
+      "name": "主板（6502）",
+      "role": {
+        "zh": "主板在整机中承载 6502 处理器、VIC 图形芯片、内存与 BASIC ROM。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cpu_6502",
+        "vic_chip",
+        "ram",
+        "rom"
+      ],
+      "annotations": [
+        "motherboard_role",
+        "vic_chip_explain"
+      ],
+      "mesh_ref": "assemblies/motherboard.gltf"
+    },
+    {
+      "id": "power",
+      "name": "电源",
+      "role": {
+        "zh": "电源在整机中为各部件供电，是机器的供电单元。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "power_jack",
+        "power_led"
+      ],
+      "annotations": [
+        "power_role"
+      ],
+      "mesh_ref": "assemblies/power.gltf"
+    },
+    {
+      "id": "datasette",
+      "name": "数据磁带机",
+      "role": {
+        "zh": "数据磁带机在整机中作为程序与数据的外置存储设备，通过磁带接口读写。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cassette_bay",
+        "play_button"
+      ],
+      "annotations": [
+        "datasette_role",
+        "tape_storage"
+      ],
+      "mesh_ref": "assemblies/datasette.gltf"
+    },
+    {
+      "id": "monitor",
+      "name": "显示器（接电视）",
+      "role": {
+        "zh": "显示器在整机中显示彩色画面，VIC-20 通常接入家用电视作为显示设备。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "crt_tube"
+      ],
+      "annotations": [
+        "monitor_role"
+      ],
+      "mesh_ref": "assemblies/monitor.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "vent_slots",
+      "name": "散热通风口",
+      "type": "vent",
+      "role": {
+        "zh": "散热通风口在整机中为机身内部提供空气流通，帮助系统散热。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "vent_slots_role"
+      ]
+    },
+    {
+      "id": "brand_badge",
+      "name": "品牌徽标",
+      "type": "badge",
+      "role": {
+        "zh": "品牌徽标在整机中标明 Commodore 品牌与 VIC-20 型号。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "brand_badge_role"
+      ]
+    },
+    {
+      "id": "key_matrix",
+      "name": "键盘矩阵",
+      "type": "keyboard",
+      "role": {
+        "zh": "键盘矩阵在整机中承载按键，与主机一体，是 VIC-20 的输入界面。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "key_matrix_role"
+      ]
+    },
+    {
+      "id": "cpu_6502",
+      "name": "6502 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "6502 处理器在整机中作为计算核心，主频 1.02 MHz，是 8 位时代的经典 CPU。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "cpu_6502_role"
+      ]
+    },
+    {
+      "id": "vic_chip",
+      "name": "VIC 图形芯片",
+      "type": "ic",
+      "role": {
+        "zh": "VIC 图形芯片在整机中负责彩色图形显示与声音，是 VIC-20 命名的由来。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "vic_chip_role"
+      ]
+    },
+    {
+      "id": "ram",
+      "name": "内存（5KB）",
+      "type": "ram",
+      "role": {
+        "zh": "5KB 内存在整机中存放程序与数据，其中约 3.5KB 供用户使用。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ram_role"
+      ]
+    },
+    {
+      "id": "rom",
+      "name": "BASIC ROM",
+      "type": "rom",
+      "role": {
+        "zh": "BASIC ROM 在整机中固化 Commodore BASIC，开机即进入 BASIC 环境。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "rom_role"
+      ]
+    },
+    {
+      "id": "power_jack",
+      "name": "电源接口",
+      "type": "connector",
+      "role": {
+        "zh": "电源接口在整机中接纳电源，为整机供电。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "power_jack_role"
+      ]
+    },
+    {
+      "id": "power_led",
+      "name": "电源指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "电源指示灯在整机中点亮表示系统已上电，是判断机器开启的状态指示。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "power_led_role"
+      ]
+    },
+    {
+      "id": "cassette_bay",
+      "name": "磁带仓",
+      "type": "bay",
+      "role": {
+        "zh": "磁带仓在整机中接纳卡式磁带，是程序与数据的主要存储载体。"
+      },
+      "assembly": "datasette",
+      "annotations": [
+        "cassette_bay_role"
+      ]
+    },
+    {
+      "id": "play_button",
+      "name": "播放按键",
+      "type": "button",
+      "role": {
+        "zh": "播放按键在整机中控制磁带播放，用于载入或保存程序与数据。"
+      },
+      "assembly": "datasette",
+      "annotations": [
+        "play_button_role"
+      ]
+    },
+    {
+      "id": "crt_tube",
+      "name": "显像管",
+      "type": "crt",
+      "role": {
+        "zh": "显像管在整机中显示彩色画面，VIC-20 通常接入家用电视作为显示设备。"
+      },
+      "assembly": "monitor",
+      "annotations": [
+        "crt_tube_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Commodore VIC-20",
+    "media_hint": "tape",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "external_crt_0",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "rgb"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "enter": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "space": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      },
+      "run_stop": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      }
+    }
+  }
+}
