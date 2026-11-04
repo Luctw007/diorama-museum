@@ -1,0 +1,662 @@
+{
+  "meta": {
+    "id": "ibm5150",
+    "name": {
+      "zh": "IBM PC 5150",
+      "en": "IBM Personal Computer 5150"
+    },
+    "intro": {
+      "zh": "IBM PC 5150 是 1981 年推出的开放架构个人计算机，以 x86 架构、MS-DOS 与开放总线奠定 IBM 兼容机标准，催生整个 PC 产业。",
+      "en": "The IBM PC 5150, introduced in 1981, established the open IBM PC standard and spawned the entire PC industry."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1981,
+    "manufacturer": "IBM",
+    "category": "personal-computer",
+    "description": "IBM PC 5150（1981），开放架构个人计算机：8088 CPU、16–64KB 内存、MDA/CGA 显示、ISA 开放总线。",
+    "authors": [
+      {
+        "name": "TASK-38B 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — IBM Personal Computer",
+        "url": "https://en.wikipedia.org/wiki/IBM_Personal_Computer",
+        "license": "cc",
+        "accessed_at": "2026-11-03"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Intel 8088",
+        "url": "https://en.wikipedia.org/wiki/Intel_8088",
+        "license": "cc",
+        "accessed_at": "2026-11-03"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — IBM Monochrome Display Adapter",
+        "url": "https://en.wikipedia.org/wiki/IBM_Monochrome_Display_Adapter",
+        "license": "cc",
+        "accessed_at": "2026-11-03"
+      },
+      {
+        "type": "documentation",
+        "title": "86Box — low-level x86 emulator",
+        "url": "https://86box.net/",
+        "license": "licensed",
+        "accessed_at": "2026-11-03"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "IBM PC 5150 整机，1981 年推出的开放架构个人计算机。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "case",
+        "front_panel",
+        "motherboard",
+        "monitor",
+        "keyboard",
+        "power"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "post_boot_flow",
+        "isa_flow"
+      ]
+    },
+    {
+      "id": "case",
+      "name": "主机箱",
+      "role": {
+        "zh": "主机箱在整机中作为卧式机箱，承载主板、电源与扩展槽，是整机的结构骨架。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "expansion_slot_covers",
+        "ventilation"
+      ],
+      "annotations": [
+        "case_role"
+      ],
+      "mesh_ref": "assemblies/case.gltf"
+    },
+    {
+      "id": "front_panel",
+      "name": "前面板",
+      "role": {
+        "zh": "前面板在整机中提供电源开关、双软驱位与状态指示灯，是操作员与机器的直接交互面。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.2,
+          0.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "power_switch",
+        "floppy_bay",
+        "power_led",
+        "hard_drive_led"
+      ],
+      "annotations": [
+        "front_panel_role"
+      ],
+      "mesh_ref": "assemblies/front_panel.gltf"
+    },
+    {
+      "id": "motherboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 8088 处理器、BIOS ROM 与 ISA 扩展槽，是系统的核心电路板。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.05,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cpu_8088",
+        "bios_rom",
+        "ram",
+        "isa_slot",
+        "dma_8237",
+        "pic_8259",
+        "pit_8253",
+        "coprocessor_socket"
+      ],
+      "annotations": [
+        "motherboard_role"
+      ],
+      "mesh_ref": "assemblies/motherboard.gltf"
+    },
+    {
+      "id": "monitor",
+      "name": "单色显示器（MDA 5151）",
+      "role": {
+        "zh": "单色显示器在整机中显示 80×25 文本，是系统输出的主要显示设备。"
+      },
+      "transform": {
+        "translation": [
+          0.6,
+          0.4,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "crt",
+        "contrast_knob",
+        "brightness_knob",
+        "power_switch_mon"
+      ],
+      "annotations": [
+        "monitor_role"
+      ],
+      "mesh_ref": "assemblies/monitor.gltf"
+    },
+    {
+      "id": "keyboard",
+      "name": "键盘（83 键 Model F）",
+      "role": {
+        "zh": "键盘在整机中作为文字与命令输入界面，把按键转换为字符送入系统。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.1,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "keyboard_matrix",
+        "function_keys",
+        "numpad"
+      ],
+      "annotations": [
+        "keyboard_role"
+      ],
+      "mesh_ref": "assemblies/keyboard.gltf"
+    },
+    {
+      "id": "power",
+      "name": "电源",
+      "role": {
+        "zh": "电源在整机中把市电转换为各部件所需电压，并提供散热风扇。"
+      },
+      "transform": {
+        "translation": [
+          -0.35,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "transformer",
+        "cooling_fan"
+      ],
+      "annotations": [
+        "power_role"
+      ],
+      "mesh_ref": "assemblies/power.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "cpu_8088",
+      "name": "8088 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "8088 处理器在整机中作为计算核心，16 位内部、8 位外部数据总线，主频 4.77 MHz。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "cpu_8088_role"
+      ]
+    },
+    {
+      "id": "bios_rom",
+      "name": "BIOS ROM",
+      "type": "rom",
+      "role": {
+        "zh": "BIOS ROM 在整机中固化开机自检、引导与硬件抽象层，是 IBM 兼容机标准的技术基石。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "bios_rom_role"
+      ]
+    },
+    {
+      "id": "ram",
+      "name": "内存（16–64KB）",
+      "type": "ram",
+      "role": {
+        "zh": "内存在整机中存放程序与数据，是系统运行时的主存储，可通过扩展卡扩充。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ram_role"
+      ]
+    },
+    {
+      "id": "isa_slot",
+      "name": "ISA 扩展槽",
+      "type": "slot",
+      "role": {
+        "zh": "ISA 扩展槽在整机中提供 8 位开放总线插槽，供第三方扩展卡接入，是开放架构的核心。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "isa_slot_role"
+      ]
+    },
+    {
+      "id": "dma_8237",
+      "name": "8237 DMA 控制器",
+      "type": "controller",
+      "role": {
+        "zh": "8237 DMA 控制器在整机中管理外设与内存之间的直接数据传送，减轻 CPU 负担。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "dma_8237_role"
+      ]
+    },
+    {
+      "id": "pic_8259",
+      "name": "8259 中断控制器",
+      "type": "controller",
+      "role": {
+        "zh": "8259 中断控制器在整机中管理硬件中断的优先级与分发，协调 CPU 响应外设请求。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "pic_8259_role"
+      ]
+    },
+    {
+      "id": "pit_8253",
+      "name": "8253 定时器",
+      "type": "timer",
+      "role": {
+        "zh": "8253 定时器在整机中产生系统节拍与定时信号，是内存刷新与计时的基础。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "pit_8253_role"
+      ]
+    },
+    {
+      "id": "coprocessor_socket",
+      "name": "8087 协处理器插座",
+      "type": "socket",
+      "role": {
+        "zh": "8087 协处理器插座在整机中用于安装浮点协处理器，为科学计算提供硬件浮点加速。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "coprocessor_socket_role"
+      ]
+    },
+    {
+      "id": "power_switch",
+      "name": "电源开关（红拨杆）",
+      "type": "switch",
+      "role": {
+        "zh": "电源开关在整机中采用经典红色拨杆，控制整机供电的通断，是 IBM PC 的标志性开关。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "power_switch_role"
+      ]
+    },
+    {
+      "id": "floppy_bay",
+      "name": "双软驱位",
+      "type": "bay",
+      "role": {
+        "zh": "双软驱位在整机中提供两个 5.25 英寸软驱安装位，用于加载程序与数据。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "floppy_bay_role"
+      ]
+    },
+    {
+      "id": "power_led",
+      "name": "电源指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的状态指示。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "power_led_role"
+      ]
+    },
+    {
+      "id": "hard_drive_led",
+      "name": "硬盘指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "硬盘指示灯在整机中闪烁表示磁盘正在读写，供操作员观察存储活动。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "hard_drive_led_role"
+      ]
+    },
+    {
+      "id": "expansion_slot_covers",
+      "name": "扩展槽盖板",
+      "type": "cover",
+      "role": {
+        "zh": "扩展槽盖板在整机中封闭机箱后部的扩展槽开口，保护内部并可在安装扩展卡时取下。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "expansion_slot_covers_role"
+      ]
+    },
+    {
+      "id": "ventilation",
+      "name": "散热通风口",
+      "type": "vent",
+      "role": {
+        "zh": "散热通风口在整机中为电源与主板提供空气流通，帮助系统散热。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "ventilation_role"
+      ]
+    },
+    {
+      "id": "crt",
+      "name": "单色显像管",
+      "type": "crt",
+      "role": {
+        "zh": "单色显像管在整机中显示 80×25 文本，是 IBM PC 5151 显示器的核心显示部件。"
+      },
+      "assembly": "monitor",
+      "annotations": [
+        "crt_role"
+      ]
+    },
+    {
+      "id": "contrast_knob",
+      "name": "对比度旋钮",
+      "type": "knob",
+      "role": {
+        "zh": "对比度旋钮在整机中调节显示画面对比度，改善文本可读性。"
+      },
+      "assembly": "monitor",
+      "annotations": [
+        "contrast_knob_role"
+      ]
+    },
+    {
+      "id": "brightness_knob",
+      "name": "亮度旋钮",
+      "type": "knob",
+      "role": {
+        "zh": "亮度旋钮在整机中调节显示画面亮度，便于在不同光照下阅读。"
+      },
+      "assembly": "monitor",
+      "annotations": [
+        "brightness_knob_role"
+      ]
+    },
+    {
+      "id": "power_switch_mon",
+      "name": "显示器电源开关",
+      "type": "switch",
+      "role": {
+        "zh": "显示器电源开关在整机中控制显示器独立供电的通断。"
+      },
+      "assembly": "monitor",
+      "annotations": [
+        "power_switch_mon_role"
+      ]
+    },
+    {
+      "id": "keyboard_matrix",
+      "name": "键盘矩阵（83 键 Model F）",
+      "type": "keyboard",
+      "role": {
+        "zh": "键盘矩阵在整机中承载 83 个按键，是 IBM PC 的文字与命令输入界面。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "keyboard_matrix_role"
+      ]
+    },
+    {
+      "id": "function_keys",
+      "name": "功能键组（F1–F10）",
+      "type": "key",
+      "role": {
+        "zh": "功能键组在整机中提供 F1–F10 功能键，供程序定义快捷操作。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "function_keys_role"
+      ]
+    },
+    {
+      "id": "numpad",
+      "name": "数字小键盘",
+      "type": "key",
+      "role": {
+        "zh": "数字小键盘在整机中提供独立的数字输入区，便于数据录入。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "numpad_role"
+      ]
+    },
+    {
+      "id": "transformer",
+      "name": "电源变压器",
+      "type": "transformer",
+      "role": {
+        "zh": "电源变压器在整机中把市电转换为机器所需的多种电压，为各部件供电。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "transformer_role"
+      ]
+    },
+    {
+      "id": "cooling_fan",
+      "name": "散热风扇",
+      "type": "fan",
+      "role": {
+        "zh": "散热风扇在整机中为电源与机箱内部散热，保障系统稳定运行。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "cooling_fan_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "pc86box",
+    "version": "5.1.0",
+    "system": "IBM PC 5150",
+    "media_hint": "floppy",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "external_crt_0",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "mono1"
+      },
+      {
+        "id": "terminal_0",
+        "surface": "terminal",
+        "type": "video",
+        "format": "text"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      },
+      {
+        "id": "led_0",
+        "surface": "led",
+        "type": "video",
+        "format": "mono1"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "enter": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "escape": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      },
+      "space": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      },
+      "ctrl": {
+        "map": "keyboard",
+        "key": "KEY_CTRL"
+      },
+      "alt": {
+        "map": "keyboard",
+        "key": "KEY_ALT"
+      }
+    }
+  }
+}

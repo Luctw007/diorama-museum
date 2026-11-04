@@ -1,0 +1,466 @@
+{
+  "meta": {
+    "id": "eniac",
+    "name": {
+      "zh": "ENIAC（电子数值积分与计算机）",
+      "en": "ENIAC (Electronic Numerical Integrator and Computer)"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "TASK-08 生产",
+        "role": "author"
+      }
+    ],
+    "description": "第一台大规模通用电子计算机（1946 揭幕），约 18,000 只真空管、十进制并行、20 个累加器；静态展示 + 原理动画演示模式。",
+    "category": "early-computer",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Computer History Museum 时间线",
+        "url": "https://www.computerhistory.org/timeline/?category=cmptr",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "CHM — The Neverending Quest for Firsts",
+        "url": "https://computerhistory.org/blog/the-neverending-quest-for-firsts/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "manual",
+        "title": "ENIAC Operating Manual（宾夕法尼亚大学，1946）",
+        "url": "http://www.bitsavers.org/pdf/univOfPennsylvania/eniac/ENIAC_Operating_Manual_Jun46.pdf",
+        "license": "public_domain",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — ENIAC（索引）",
+        "url": "https://en.wikipedia.org/wiki/ENIAC",
+        "license": "cc",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — First Draft of a Report on the EDVAC（索引）",
+        "url": "https://en.wikipedia.org/wiki/First_Draft_of_a_Report_on_the_EDVAC",
+        "license": "cc",
+        "accessed_at": "2026-10-31"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "ENIAC（电子数值积分与计算机）整机，1946 年揭幕的第一台大规模通用电子计算机，以约一万八千只真空管实现十进制并行运算。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "cabinet",
+        "accumulator_bank",
+        "function_table_unit",
+        "multiplier_unit",
+        "divider_unit",
+        "master_programmer_unit",
+        "io_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "program_bus_flow",
+        "data_bus_flow"
+      ],
+      "mesh_ref": "meshes/whole.gltf"
+    },
+    {
+      "id": "cabinet",
+      "name": "机柜框架",
+      "role": {
+        "zh": "机柜框架在整机中作为 U 形机柜的机械骨架，承载约四十块面板与走线槽。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "power_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "cabinet_role"
+      ]
+    },
+    {
+      "id": "power_unit",
+      "name": "电源单元",
+      "role": {
+        "zh": "电源单元在整机中负责把市电转换为高压、灯丝与直流电压，为全部真空管供电。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.6,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "power_unit_role"
+      ]
+    },
+    {
+      "id": "accumulator_bank",
+      "name": "累加器组",
+      "role": {
+        "zh": "累加器组在整机中由二十个相同的十位十进制累加器构成，是运算与暂存的核心。"
+      },
+      "transform": {
+        "translation": [
+          -1.8,
+          1.3,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "accumulator_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "accumulator_bank_role"
+      ]
+    },
+    {
+      "id": "accumulator_unit",
+      "name": "累加器教学解剖单元",
+      "role": {
+        "zh": "累加器教学解剖单元在整机中代表二十个累加器中的一个实例，拆开展示其内部器件构成。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "accumulator_bank",
+      "children": [],
+      "components": [
+        "decade_ring",
+        "pulse_circuit",
+        "neon_lamp",
+        "tube_socket"
+      ],
+      "annotations": [
+        "accumulator_unit_role"
+      ],
+      "mesh_ref": "meshes/accumulator_unit.gltf"
+    },
+    {
+      "id": "function_table_unit",
+      "name": "函数表单元",
+      "role": {
+        "zh": "函数表单元在整机中由三张可拔插电阻网络组成，用于查表并在 1948 年后兼作程序存储。"
+      },
+      "transform": {
+        "translation": [
+          -0.6,
+          1.3,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "function_table_unit_role"
+      ],
+      "mesh_ref": "meshes/function_table_unit.gltf"
+    },
+    {
+      "id": "multiplier_unit",
+      "name": "乘法器单元",
+      "role": {
+        "zh": "乘法器单元在整机中实现高速乘法，是并行运算能力的核心。"
+      },
+      "transform": {
+        "translation": [
+          0.6,
+          1.3,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "multiplier_unit_role"
+      ]
+    },
+    {
+      "id": "divider_unit",
+      "name": "除法与开方器单元",
+      "role": {
+        "zh": "除法与开方器单元在整机中实现除法与开方运算。"
+      },
+      "transform": {
+        "translation": [
+          1.2,
+          1.3,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "divider_unit_role"
+      ]
+    },
+    {
+      "id": "master_programmer_unit",
+      "name": "主程序器单元",
+      "role": {
+        "zh": "主程序器单元在整机中协调各单元的重复与循环，以脉冲序列驱动计算流程。"
+      },
+      "transform": {
+        "translation": [
+          1.8,
+          1.3,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "master_programmer_unit_role",
+        "pulse_flow_anim"
+      ],
+      "mesh_ref": "meshes/master_programmer_unit.gltf"
+    },
+    {
+      "id": "io_unit",
+      "name": "IBM打孔卡单元",
+      "role": {
+        "zh": "IBM 打孔卡单元在整机中负责常数的读入与计算结果的打孔输出。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.4,
+          1.2
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "io_unit_role"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "decade_ring",
+      "name": "十进位环",
+      "type": "counter",
+      "role": {
+        "zh": "十进位环在整机中实现十进制计数，脉冲每推进一环代表数值加一，逢十进位。"
+      },
+      "assembly": "accumulator_unit",
+      "annotations": [
+        "decade_ring_role"
+      ]
+    },
+    {
+      "id": "pulse_circuit",
+      "name": "脉冲电路",
+      "type": "circuit",
+      "role": {
+        "zh": "脉冲电路在整机中产生并整形驱动脉冲，为十进位环提供节拍。"
+      },
+      "assembly": "accumulator_unit",
+      "annotations": [
+        "pulse_circuit_role"
+      ]
+    },
+    {
+      "id": "neon_lamp",
+      "name": "氖灯显示",
+      "type": "lamp",
+      "role": {
+        "zh": "氖灯显示在整机中点亮以显示累加器当前每一位的十进制数值。"
+      },
+      "assembly": "accumulator_unit",
+      "annotations": [
+        "neon_lamp_role"
+      ]
+    },
+    {
+      "id": "tube_socket",
+      "name": "管座",
+      "type": "socket",
+      "role": {
+        "zh": "管座在整机中固定真空管并提供电气连接，是可插拔维护的接口。"
+      },
+      "assembly": "accumulator_unit",
+      "annotations": [
+        "tube_socket_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "ENIAC（静态展示）",
+    "media_hint": "none",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "indicator_lamps_0",
+        "surface": "indicator_lamps",
+        "type": "video",
+        "format": "mono1"
+      }
+    ],
+    "input_map": {
+      "power": "panel.power",
+      "reset": "panel.reset",
+      "demo_next": "panel.demo_next",
+      "demo_pause": "panel.demo_pause"
+    }
+  }
+}

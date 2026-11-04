@@ -1,0 +1,71 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "验证方块机是一台仅用于验证《内容包规范 v0.2》与校验工具链的假想设备，不具备任何真实电子设备的功能，仅作为契约合规性测试样例。",
+      "sources": ["https://example.com/placeholder-source"]
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中负责承载各元器件，为它们提供机械固定、电源分配与信号互连。",
+      "sources": []
+    },
+    {
+      "id": "power_flow",
+      "type": "flow",
+      "target": "mainboard",
+      "text": "供电流程：电源输入自整机接口进入，经滤波电容平滑后，为主板上的处理器与内存芯片稳定供电。",
+      "sources": []
+    },
+    {
+      "id": "power_on_anim",
+      "type": "anim",
+      "target": "mainboard",
+      "text": "开机演示动画：展示整机从断电到通电、处理器开始执行程序的完整过程。",
+      "surface": "handheld_lcd",
+      "sources": [],
+      "timeline": [
+        {
+          "t": [0.0, 2.0],
+          "camera": { "pos": [0.0, 0.0, 1.2], "look": [0.0, 0.0, 0.0] },
+          "arrow": { "from": [0.0, 0.2, 0.0], "to": [0.0, 0.5, 0.0], "label": "供电" },
+          "highlight": ["mainboard"],
+          "caption": "按下电源，整机通电，主板上的指示灯亮起。",
+          "easing": "ease_in_out"
+        },
+        {
+          "t": [2.0, 4.0],
+          "camera": { "pos": [0.0, 1.0, 1.2], "look": [0.0, 0.0, 0.0] },
+          "highlight": ["chip_cpu"],
+          "caption": "中央处理器开始执行程序指令。",
+          "easing": "linear"
+        }
+      ]
+    },
+    {
+      "id": "chip_cpu_role",
+      "type": "role",
+      "target": "chip_cpu",
+      "text": "中央处理器在整机中负责执行程序指令，并进行算术与逻辑运算，是整机的运算核心。",
+      "sources": []
+    },
+    {
+      "id": "chip_ram_role",
+      "type": "role",
+      "target": "chip_ram",
+      "text": "内存芯片在整机中负责临时存储运行时数据，供处理器高速读写，是整机的数据缓冲。",
+      "sources": []
+    },
+    {
+      "id": "capacitor_c1_role",
+      "type": "role",
+      "target": "capacitor_c1",
+      "text": "滤波电容在整机中负责平滑电源纹波、抑制高频噪声，稳定供电电压，保障整机供电质量。",
+      "sources": []
+    }
+  ]
+}

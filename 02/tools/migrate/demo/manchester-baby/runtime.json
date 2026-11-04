@@ -1,0 +1,66 @@
+{
+  "emulator": "davidpsharp-baby",
+  "version": "3.2.0",
+  "system": "Manchester Baby (SSEM)",
+  "media_hint": "none",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {
+      "id": "crt_display_0",
+      "surface": "crt_display",
+      "type": "video",
+      "format": "mono1"
+    },
+    {
+      "id": "indicator_lamps_0",
+      "surface": "indicator_lamps",
+      "type": "video",
+      "format": "mono1"
+    },
+    {
+      "id": "speaker_0",
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16"
+    }
+  ],
+  "input_map": {
+    "power": "panel.power",
+    "reset": "panel.clear",
+    "start": "panel.run",
+    "stop": "panel.stop",
+    "store_bit_00": "panel.switch.bit_00",
+    "store_bit_01": "panel.switch.bit_01",
+    "store_bit_02": "panel.switch.bit_02",
+    "store_bit_03": "panel.switch.bit_03",
+    "store_bit_04": "panel.switch.bit_04",
+    "store_bit_05": "panel.switch.bit_05",
+    "store_bit_06": "panel.switch.bit_06",
+    "store_bit_07": "panel.switch.bit_07",
+    "store_bit_08": "panel.switch.bit_08",
+    "store_bit_09": "panel.switch.bit_09",
+    "store_bit_10": "panel.switch.bit_10",
+    "store_bit_11": "panel.switch.bit_11",
+    "store_bit_12": "panel.switch.bit_12",
+    "store_bit_13": "panel.switch.bit_13",
+    "store_bit_14": "panel.switch.bit_14",
+    "store_bit_15": "panel.switch.bit_15",
+    "store_bit_16": "panel.switch.bit_16",
+    "store_bit_17": "panel.switch.bit_17",
+    "store_bit_18": "panel.switch.bit_18",
+    "store_bit_19": "panel.switch.bit_19",
+    "store_bit_20": "panel.switch.bit_20",
+    "store_bit_21": "panel.switch.bit_21",
+    "store_bit_22": "panel.switch.bit_22",
+    "store_bit_23": "panel.switch.bit_23",
+    "store_bit_24": "panel.switch.bit_24",
+    "store_bit_25": "panel.switch.bit_25",
+    "store_bit_26": "panel.switch.bit_26",
+    "store_bit_27": "panel.switch.bit_27",
+    "store_bit_28": "panel.switch.bit_28",
+    "store_bit_29": "panel.switch.bit_29",
+    "store_bit_30": "panel.switch.bit_30",
+    "store_bit_31": "panel.switch.bit_31"
+  }
+}

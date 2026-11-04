@@ -1,0 +1,241 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "曼彻斯特 Baby（SSEM）整机，世界第一台运行存储程序的电子数字计算机实验样机，由 Williams、Kilburn 与 Tootill 于 1948 年在曼彻斯特大学建成，用于验证 Williams 管 CRT 存储器。",
+      "sources": []
+    },
+    {
+      "id": "cabinet_role",
+      "type": "role",
+      "target": "cabinet",
+      "text": "机架总成在整机中作为全部单元的机械骨架，承载七个机架、提供结构支撑与走线通道。",
+      "sources": []
+    },
+    {
+      "id": "storage_unit_role",
+      "type": "role",
+      "target": "storage_unit",
+      "text": "存储子系统在整机中负责保存程序与数据，用三只阴极射线管以电荷斑点形式暂存二进制位。",
+      "sources": []
+    },
+    {
+      "id": "control_unit_role",
+      "type": "role",
+      "target": "control_unit",
+      "text": "控制子系统在整机中负责维持取指与执行的节奏，生成时钟并推进程序地址。",
+      "sources": []
+    },
+    {
+      "id": "arithmetic_unit_role",
+      "type": "role",
+      "target": "arithmetic_unit",
+      "text": "运算子系统在整机中承担唯一的硬件算术功能——减法与取负，其余运算均由软件组合完成。",
+      "sources": []
+    },
+    {
+      "id": "io_unit_role",
+      "type": "role",
+      "target": "io_unit",
+      "text": "输入输出子系统在整机中提供程序键入与结果读取的接口，通过面板开关与按钮完成人机交互。",
+      "sources": []
+    },
+    {
+      "id": "power_unit_role",
+      "type": "role",
+      "target": "power_unit",
+      "text": "电源单元在整机中负责把市电转换为各机架所需的直流高压与灯丝电压，为全部真空管供电。",
+      "sources": []
+    },
+    {
+      "id": "store_crt_unit_role",
+      "type": "role",
+      "target": "store_crt_unit",
+      "text": "存储CRT管单元在整机中作为主存，用 32 个字、每个字 32 位的亮点图案保存程序与数据。",
+      "sources": []
+    },
+    {
+      "id": "control_crt_unit_role",
+      "type": "role",
+      "target": "control_crt_unit",
+      "text": "控制CRT管单元在整机中暂存当前指令地址与当前指令，是取指流程的中转枢纽。",
+      "sources": []
+    },
+    {
+      "id": "accumulator_crt_unit_role",
+      "type": "role",
+      "target": "accumulator_crt_unit",
+      "text": "累加器CRT管单元在整机中保存当前运算结果，是算术运算的暂存寄存器。",
+      "sources": []
+    },
+    {
+      "id": "clock_unit_role",
+      "type": "role",
+      "target": "clock_unit",
+      "text": "时钟单元在整机中产生约 100 千赫的主脉冲，为全部单元提供统一的节拍。",
+      "sources": []
+    },
+    {
+      "id": "sequencer_unit_role",
+      "type": "role",
+      "target": "sequencer_unit",
+      "text": "顺序控制单元在整机中负责递增当前指令地址，使程序按存储顺序逐条执行。",
+      "sources": []
+    },
+    {
+      "id": "subtractor_unit_role",
+      "type": "role",
+      "target": "subtractor_unit",
+      "text": "减法逻辑单元在整机中实现位串行的减法与取负，是这台机器唯一的硬件运算能力。",
+      "sources": []
+    },
+    {
+      "id": "switch_panel_unit_role",
+      "type": "role",
+      "target": "switch_panel_unit",
+      "text": "开关面板单元在整机中提供手工键入程序的界面，操作员逐字拨动开关写入存储管。",
+      "sources": []
+    },
+    {
+      "id": "store_crt_board_role",
+      "type": "role",
+      "target": "store_crt_board",
+      "text": "存储管驱动板在整机中控制存储CRT管的写、读与刷新，把电荷斑点维持在正确状态。",
+      "sources": []
+    },
+    {
+      "id": "control_crt_board_role",
+      "type": "role",
+      "target": "control_crt_board",
+      "text": "控制管驱动板在整机中驱动控制CRT管的写读，配合顺序控制单元完成取指。",
+      "sources": []
+    },
+    {
+      "id": "accumulator_crt_board_role",
+      "type": "role",
+      "target": "accumulator_crt_board",
+      "text": "累加器管驱动板在整机中驱动累加器CRT管的写读，保存并输出运算结果。",
+      "sources": []
+    },
+    {
+      "id": "subtractor_board_role",
+      "type": "role",
+      "target": "subtractor_board",
+      "text": "减法逻辑板在整机中承载位串行减法与取负的真空管电路，把存储字与累加器内容逐位相减。",
+      "sources": []
+    },
+    {
+      "id": "switch_board_role",
+      "type": "role",
+      "target": "switch_board",
+      "text": "开关板在整机中固定 32 位字拨动开关与启停按钮，把操作员的机械动作转成电信号。",
+      "sources": []
+    },
+    {
+      "id": "williams_tube_role",
+      "type": "role",
+      "target": "williams_tube",
+      "text": "威廉姆斯存储管在整机中作为主存储体，用屏幕上的电荷斑保存 32 个字、每个字 32 位的程序与数据。",
+      "sources": []
+    },
+    {
+      "id": "store_crt_screen_role",
+      "type": "role",
+      "target": "store_crt_screen",
+      "text": "存储CRT荧光屏在整机中显示存储管内的二进制位图案，亮点表示 1、暗点表示 0。",
+      "sources": []
+    },
+    {
+      "id": "store_electron_gun_role",
+      "type": "role",
+      "target": "store_electron_gun",
+      "text": "存储管电子枪在整机中发射并聚焦电子束，负责把电荷斑写到屏幕的正确位置。",
+      "sources": []
+    },
+    {
+      "id": "control_crt_screen_role",
+      "type": "role",
+      "target": "control_crt_screen",
+      "text": "控制CRT荧光屏在整机中显示当前指令地址与当前指令的位图案。",
+      "sources": []
+    },
+    {
+      "id": "accumulator_crt_screen_role",
+      "type": "role",
+      "target": "accumulator_crt_screen",
+      "text": "累加器CRT荧光屏在整机中显示累加器的当前数值位图案。",
+      "sources": []
+    },
+    {
+      "id": "subtractor_valve_role",
+      "type": "role",
+      "target": "subtractor_valve",
+      "text": "减法逻辑真空管在整机中实现位串行的减与取负开关，是算术单元的核心电子器件。",
+      "sources": []
+    },
+    {
+      "id": "clock_oscillator_role",
+      "type": "role",
+      "target": "clock_oscillator",
+      "text": "时钟振荡器在整机中产生约 100 千赫的基准脉冲，为所有单元提供统一节拍。",
+      "sources": []
+    },
+    {
+      "id": "sequencer_relay_role",
+      "type": "role",
+      "target": "sequencer_relay",
+      "text": "顺序控制继电器在整机中推进程序地址，使指令按顺序逐条被取出执行。",
+      "sources": []
+    },
+    {
+      "id": "toggle_switch_role",
+      "type": "role",
+      "target": "toggle_switch",
+      "text": "字位拨动开关在整机中用于逐位设定要写入存储管的一个 32 位字。",
+      "sources": []
+    },
+    {
+      "id": "push_button_role",
+      "type": "role",
+      "target": "push_button",
+      "text": "启停按钮在整机中控制机器的启动、停止与清除，是操作员运行程序的控制接口。",
+      "sources": []
+    },
+    {
+      "id": "power_transformer_role",
+      "type": "role",
+      "target": "power_transformer",
+      "text": "电源变压器在整机中把市电转换为多种电压，为真空管灯丝与高压供电。",
+      "sources": []
+    },
+    {
+      "id": "program_entry_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "程序进入存储流程：操作员在开关面板上逐位拨动开关，把 32 位二进制字经开关板送入存储CRT管的指定地址；重复键入直至整段程序与初值全部写入，再按下启动按钮开始运行。",
+      "sources": [
+        "http://www.billp.org/baby.pdf"
+      ]
+    },
+    {
+      "id": "fetch_execute_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "取指-执行-回写流程：控制CRT管读出当前指令地址，指向存储CRT管中的指令字；指令经译码后驱动减法逻辑对累加器与存储字做位串行相减，结果写回累加器CRT管；随后指令地址加一，进入下一条指令。",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Manchester_Baby"
+      ]
+    },
+    {
+      "id": "williams_tube_anim",
+      "type": "anim",
+      "target": "williams_tube",
+      "text": "Williams 管存储读写动画：镜头一，俯视存储CRT管，电子束从左上角向右匀速扫描，途经区域依次高亮，解说词为「电子束像一支笔，把 0 和 1 写进屏幕」；镜头二，电子束命中一个存储位，屏幕出现一个亮点，箭头标注该位表示二进制 1，解说词为「亮点就是 1，暗点就是 0」；镜头三，电子束再次扫过该位，用闪烁高亮表现读出过程，箭头从屏幕指向外围放大整形电路，解说词为「读出时，束流变化被检测出来，经过整形后再写回，让电荷斑一直存在」；镜头四，快进展示整屏 32 字 × 32 位点阵随程序运行不断跳变，解说词为「这就是内存里的程序，正在被机器一条条取出来执行」。",
+      "sources": [
+        "http://www.billp.org/baby.pdf"
+      ]
+    }
+  ]
+}

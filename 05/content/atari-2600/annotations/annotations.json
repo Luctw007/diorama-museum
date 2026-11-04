@@ -1,0 +1,235 @@
+{
+  "annotations": [
+    {
+      "id": "atari2600_role",
+      "type": "role",
+      "target": "atari2600",
+      "text": "Atari 2600 整机，1977 年雅达利公司推出的卡带式家用游戏机，由上壳、下壳、开关板、主板、手柄接口与游戏卡带组成，是博物馆游戏机厅首台开产设备。",
+      "sources": []
+    },
+    {
+      "id": "top_shell_role",
+      "type": "role",
+      "target": "top_shell",
+      "text": "上壳在整机中作为机箱顶部壳体，表面带斜纹凹槽，包覆主板与开关板，构成整机最具辨识度的外观面。",
+      "sources": []
+    },
+    {
+      "id": "bottom_shell_role",
+      "type": "role",
+      "target": "bottom_shell",
+      "text": "下壳在整机中作为机箱底部壳体，固定主板并承载机脚与铭牌，与上壳扣合构成完整外壳。",
+      "sources": []
+    },
+    {
+      "id": "switch_panel_role",
+      "type": "role",
+      "target": "switch_panel",
+      "text": "开关板在整机中承载电源、复位、选择、难度与黑白彩色共六个面板开关，是用户直接操控整机的控制面板。",
+      "sources": []
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "power_switch",
+      "text": "电源开关在整机中控制整机的通断电，拨到 ON 时整机上电进入待机状态。",
+      "sources": []
+    },
+    {
+      "id": "tv_type_switch_role",
+      "type": "role",
+      "target": "tv_type_switch",
+      "text": "黑白彩色开关在整机中切换视频输出的色彩模式，适配黑白或彩色电视接收。",
+      "sources": []
+    },
+    {
+      "id": "select_switch_role",
+      "type": "role",
+      "target": "select_switch",
+      "text": "游戏选择开关在整机中触发卡带程序的选关或模式切换，具体含义由游戏程序定义。",
+      "sources": []
+    },
+    {
+      "id": "reset_switch_role",
+      "type": "role",
+      "target": "reset_switch",
+      "text": "复位开关在整机中复位处理器并重新启动卡带程序，使整机回到开机初始状态。",
+      "sources": []
+    },
+    {
+      "id": "difficulty_switch_l_role",
+      "type": "role",
+      "target": "difficulty_switch_l",
+      "text": "左难度开关在整机中设置 1 号手柄侧的难度等级，供游戏程序读取以调整玩法强度。",
+      "sources": []
+    },
+    {
+      "id": "difficulty_switch_r_role",
+      "type": "role",
+      "target": "difficulty_switch_r",
+      "text": "右难度开关在整机中设置 2 号手柄侧的难度等级，供游戏程序读取以调整玩法强度。",
+      "sources": []
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中承载 6507 处理器、TIA 与 RIOT 三颗核心芯片及卡带槽，是整机的核心电路板。",
+      "sources": []
+    },
+    {
+      "id": "cart_slot_role",
+      "type": "role",
+      "target": "cart_slot",
+      "text": "卡带槽在整机中提供 24 针边缘连接器，供插入游戏卡带建立程序与主机之间的总线连接。",
+      "sources": []
+    },
+    {
+      "id": "controller_ports_role",
+      "type": "role",
+      "target": "controller_ports",
+      "text": "手柄接口在整机中提供两个 DB-9 插座，供连接摇杆或 paddle 控制器输入方向与射击信号。",
+      "sources": []
+    },
+    {
+      "id": "port_1_role",
+      "type": "role",
+      "target": "port_1",
+      "text": "1 号手柄口在整机中连接主摇杆，接收玩家方向与射击输入，是单人游戏的主要输入端口。",
+      "sources": []
+    },
+    {
+      "id": "port_2_role",
+      "type": "role",
+      "target": "port_2",
+      "text": "2 号手柄口在整机中连接副摇杆，接收第二名玩家的方向与射击输入，用于双人对战。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_role",
+      "type": "role",
+      "target": "cartridge",
+      "text": "游戏卡带在整机中存放游戏程序与图形数据，插入卡带槽即更换整机运行的游戏内容。",
+      "sources": []
+    },
+    {
+      "id": "cart_shell_role",
+      "type": "role",
+      "target": "cart_shell",
+      "text": "卡带外壳在整机中包覆卡带电路板与 ROM 芯片，是卡带的塑料保护壳体与插拔把手。",
+      "sources": []
+    },
+    {
+      "id": "cart_pcb_role",
+      "type": "role",
+      "target": "cart_pcb",
+      "text": "卡带电路板在整机中承载 ROM 芯片并通过金手指连接卡带槽，是卡带与主机交换数据的桥梁。",
+      "sources": []
+    },
+    {
+      "id": "cpu_role",
+      "type": "role",
+      "target": "cpu",
+      "text": "6507 处理器在整机中负责取指、译码与执行游戏程序，是整机的运算与控制核心。",
+      "sources": []
+    },
+    {
+      "id": "tia_role",
+      "type": "role",
+      "target": "tia",
+      "text": "TIA 电视接口适配器在整机中逐行实时生成画面与双声道声音，是整机无帧缓冲图形与音频的唯一来源。",
+      "sources": []
+    },
+    {
+      "id": "riot_role",
+      "type": "role",
+      "target": "riot",
+      "text": "RIOT 6532 在整机中提供 128 字节工作内存、定时器与手柄接口输入输出，支撑整机的状态与输入处理。",
+      "sources": []
+    },
+    {
+      "id": "rf_modulator_role",
+      "type": "role",
+      "target": "rf_modulator",
+      "text": "RF 射频调制器在整机中把 TIA 的音视频信号调制为电视射频信号，供整机经天线口接入电视。",
+      "sources": []
+    },
+    {
+      "id": "rom_chip_role",
+      "type": "role",
+      "target": "rom_chip",
+      "text": "ROM 芯片在整机中固化游戏程序与图形数据，是卡带为整机提供可更换游戏内容的存储器件。",
+      "sources": []
+    },
+    {
+      "id": "boot_flow",
+      "type": "flow",
+      "target": "atari2600",
+      "text": "开机流程：拨动电源开关上电后，6507 从复位向量读取卡带程序入口并执行游戏主循环，同时 TIA 开始逐行生成画面并经射频调制器输出到电视。",
+      "sources": []
+    },
+    {
+      "id": "tia_draw_flow",
+      "type": "flow",
+      "target": "tia",
+      "text": "逐行绘制流程：TIA 与电视扫描线同步，电子束扫到哪一行就在该行合成播放场、精灵、导弹与球的颜色，CPU 在行消隐期抢时间更新 TIA 寄存器。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_insert_anim",
+      "type": "anim",
+      "target": "cartridge",
+      "text": "卡带插拔动画：玩家将卡带对准卡带槽下压插入触发；卡带沿竖直方向滑入槽内，金手指与 24 针连接器啮合；拔出时反向提起，单次全程约 1 秒。",
+      "sources": []
+    },
+    {
+      "id": "switch_toggle_anim",
+      "type": "anim",
+      "target": "switch_panel",
+      "text": "开关拨动动画：玩家拨动面板开关触发；拨杆沿弧线从一侧摆到另一侧，到位后卡入；复位开关为自复位式，松手自动弹回。",
+      "sources": []
+    },
+    {
+      "id": "paddle_rotate_anim",
+      "type": "anim",
+      "target": "controller_ports",
+      "text": "拨杆转动动画：玩家转动摇杆拨杆触发；拨杆绕中心摆动，驱动四个方向触点通断；松开后靠弹簧回中。",
+      "sources": []
+    },
+    {
+      "id": "et_burial_x1",
+      "type": "role",
+      "target": "atari2600",
+      "text": "1983 年的《E.T. 外星人》是游戏史上著名的失败作，雅达利赶工产出的数百万张卖不出去的卡带据说被掩埋在新墨西哥州沙漠，成为雅达利冲击与行业盲目扩张的象征。",
+      "sources": []
+    },
+    {
+      "id": "space_invaders_x2",
+      "type": "role",
+      "target": "atari2600",
+      "text": "1980 年的《太空侵略者》主机版是第一款主机独占的杀手级游戏，无数人为了在家玩到它而购买 2600，是 2600 销量井喷的转折点。",
+      "sources": []
+    },
+    {
+      "id": "tia_128byte_x3",
+      "type": "role",
+      "target": "atari2600",
+      "text": "Atari 2600 的工作内存只有 128 字节，比今天一条微信还短，程序员必须在这 128 字节里塞下整个游戏的运行状态，这是 2600 最著名的硬件冷知识。",
+      "sources": []
+    },
+    {
+      "id": "six_switch_x4",
+      "type": "role",
+      "target": "switch_panel",
+      "text": "开关板在整机中承载六个拨动开关（电源/黑白彩色/选择/复位/左右难度），是 2600 六开关木纹版最标志性的操作面板，复位开关为自复位式，是拆解时的看点。",
+      "sources": []
+    },
+    {
+      "id": "woodgrain_x5",
+      "type": "role",
+      "target": "top_shell",
+      "text": "木纹贴面在整机中是 2600 六开关版的标志外观，顶部横向木纹让游戏机看起来像家具，这一设计至今仍是复古游戏机的经典符号。",
+      "sources": []
+    }
+  ]
+}

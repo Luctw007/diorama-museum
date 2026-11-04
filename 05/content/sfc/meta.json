@@ -1,0 +1,472 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "sfc",
+    "name": {
+      "zh": "Super Famicom",
+      "en": "Super Famicom (SNES)"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1990,
+    "manufacturer": "Nintendo",
+    "category": "game-console",
+    "description": "1990 年任天堂推出的 16 位家用游戏机，以 Mode 7 缩放旋转与采样音源定义了一代画面与音乐，是 16 位时代巅峰。",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "intro": {
+      "zh": "Super Famicom 是任天堂于 1990 年推出的 16 位家用游戏机，是 Famicom 的正统继承者，也是 16 位时代的巅峰之作。它以 Mode 7 旋转缩放与 S-SMP 采样音源，把游戏画面带进油画时代、把游戏音乐带进交响时代，靠超级马力欧世界、塞尔达、最终幻想等封神之作，成为 16 位时代最畅销主机。",
+      "en": "The Super Famicom is a 16-bit home console released by Nintendo in 1990, the successor to the Famicom and the peak of the 16-bit era. With Mode 7 rotation/scaling and the S-SMP sample audio, it brought games into the era of painterly graphics and symphonic music, becoming the best-selling console of the generation."
+    },
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Super NES",
+        "url": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "RetroTechCollection: SNES",
+        "url": "https://wiki.retrotechcollection.com/index.php?title=Super_Nintendo_Entertainment_System",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "Snes9x (official)",
+        "url": "https://www.snes9x.com",
+        "license": "licensed",
+        "accessed_at": "2026-11-04"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "super_famicom",
+      "name": "整机",
+      "role": {
+        "zh": "Super Famicom 整机，1990 年任天堂推出的 16 位家用游戏机，由上壳、下壳、主板、卡带仓、卡带与手柄组成，是游戏机厅第五台设备。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "top_shell",
+        "bottom_shell",
+        "mainboard",
+        "cartridge",
+        "controllers"
+      ],
+      "components": [],
+      "annotations": [
+        "super_famicom_role",
+        "boot_flow",
+        "rpg_era_role"
+      ]
+    },
+    {
+      "id": "top_shell",
+      "name": "上壳",
+      "role": {
+        "zh": "上壳在整机中作为机箱顶部壳体，圆润造型带电源滑钮位，构成 SFC 灰白配色的外观主体。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "super_famicom",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "top_shell_role",
+        "power_slider_role"
+      ],
+      "mesh_ref": "assemblies/top_shell.gltf"
+    },
+    {
+      "id": "bottom_shell",
+      "name": "下壳",
+      "role": {
+        "zh": "下壳在整机中作为机箱底部壳体，固定主板并承载铭牌与散热孔，与上壳扣合构成完整外壳。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "super_famicom",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "bottom_shell_role"
+      ],
+      "mesh_ref": "assemblies/bottom_shell.gltf"
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 5A22 处理器与双 PPU 图像处理器，是整机的核心电路板，支持 Mode 7 缩放旋转。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "super_famicom",
+      "children": [
+        "cart_bay"
+      ],
+      "components": [
+        "cpu_5a22",
+        "ppu",
+        "s_smp"
+      ],
+      "annotations": [
+        "mainboard_role",
+        "mode7_role"
+      ],
+      "mesh_ref": "assemblies/mainboard.gltf"
+    },
+    {
+      "id": "cart_bay",
+      "name": "卡带仓",
+      "role": {
+        "zh": "卡带仓在整机中位于机身顶部，提供 62 针卡带插口，供插入游戏卡带建立程序与主机的总线连接。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "mainboard",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "cart_bay_role"
+      ],
+      "mesh_ref": "assemblies/cart_bay.gltf"
+    },
+    {
+      "id": "cartridge",
+      "name": "卡带",
+      "role": {
+        "zh": "卡带在整机中存放游戏程序与图形数据，可含增强芯片，通过 62 针接口插入卡带仓更换游戏。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "super_famicom",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "cartridge_role",
+        "mode7_note_role",
+        "cartridge_insert_anim"
+      ],
+      "mesh_ref": "assemblies/cartridge.gltf"
+    },
+    {
+      "id": "controllers",
+      "name": "手柄（合件）",
+      "role": {
+        "zh": "手柄在整机中提供十字键、ABXY 四键与 LR 肩键，是 SFC 现代手柄布局的开创者。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "super_famicom",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "controllers_role",
+        "four_button_role",
+        "shoulder_role",
+        "controller_press_anim"
+      ],
+      "mesh_ref": "assemblies/controllers.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "cpu_5a22",
+      "name": "Ricoh 5A22 处理器",
+      "type": "ic",
+      "role": {
+        "zh": "Ricoh 5A22 处理器在整机中负责取指译码执行游戏程序，基于 65C816 内核，是整机的运算核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": [
+        "cpu_5a22_role"
+      ],
+      "part_no": "5A22"
+    },
+    {
+      "id": "ppu",
+      "name": "S-PPU 图像处理器",
+      "type": "ic",
+      "role": {
+        "zh": "S-PPU 图像处理器在整机中渲染背景与精灵画面，支持 Mode 7 缩放旋转，是整机的图形核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": [
+        "ppu_role",
+        "mode7_flow"
+      ],
+      "part_no": "S-PPU"
+    },
+    {
+      "id": "s_smp",
+      "name": "S-SMP 采样音源",
+      "type": "ic",
+      "role": {
+        "zh": "S-SMP 采样音源在整机中回放八通道 PCM 乐器采样，是整机艺术化游戏音乐的音源。"
+      },
+      "assembly": "mainboard",
+      "annotations": [
+        "s_smp_role"
+      ],
+      "part_no": "S-SMP"
+    }
+  ],
+  "runtime": {
+    "emulator": "snes9x",
+    "version": "1.60",
+    "system": "snes",
+    "media_hint": "cartridge",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "crt_external",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "rgba8"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      },
+      {
+        "id": "led_power",
+        "surface": "led",
+        "type": "hid"
+      }
+    ],
+    "input_map": {
+      "pad_up": {
+        "map": "joystick",
+        "key": "hat_0"
+      },
+      "pad_down": {
+        "map": "joystick",
+        "key": "hat_0"
+      },
+      "pad_left": {
+        "map": "joystick",
+        "key": "hat_0"
+      },
+      "pad_right": {
+        "map": "joystick",
+        "key": "hat_0"
+      },
+      "btn_a": {
+        "map": "joystick",
+        "key": "btn0"
+      },
+      "btn_b": {
+        "map": "joystick",
+        "key": "btn1"
+      },
+      "btn_x": {
+        "map": "joystick",
+        "key": "btn2"
+      },
+      "btn_y": {
+        "map": "joystick",
+        "key": "btn3"
+      },
+      "btn_l": {
+        "map": "joystick",
+        "key": "btn4"
+      },
+      "btn_r": {
+        "map": "joystick",
+        "key": "btn5"
+      },
+      "btn_start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "btn_select": {
+        "map": "keyboard",
+        "key": "KEY_RSHIFT"
+      },
+      "p2_pad_up": {
+        "map": "joystick",
+        "key": "hat_1"
+      },
+      "p2_pad_down": {
+        "map": "joystick",
+        "key": "hat_1"
+      },
+      "p2_pad_left": {
+        "map": "joystick",
+        "key": "hat_1"
+      },
+      "p2_pad_right": {
+        "map": "joystick",
+        "key": "hat_1"
+      },
+      "p2_btn_a": {
+        "map": "joystick",
+        "key": "btn6"
+      },
+      "p2_btn_b": {
+        "map": "joystick",
+        "key": "btn7"
+      },
+      "p2_btn_x": {
+        "map": "joystick",
+        "key": "btn8"
+      },
+      "p2_btn_y": {
+        "map": "joystick",
+        "key": "btn9"
+      },
+      "p2_btn_l": {
+        "map": "joystick",
+        "key": "btn10"
+      },
+      "p2_btn_r": {
+        "map": "joystick",
+        "key": "btn11"
+      },
+      "p2_start": {
+        "map": "keyboard",
+        "key": "KEY_INSERT"
+      },
+      "p2_select": {
+        "map": "keyboard",
+        "key": "KEY_DELETE"
+      },
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      }
+    }
+  }
+}

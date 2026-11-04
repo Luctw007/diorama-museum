@@ -1,0 +1,33 @@
+# m1b_round_1.log（2026-10-31 · m1b_check 输出留痕）
+
+```text
+$ python scripts/m1b_check.py   （cwd: \\DESKTOP-2IDAL09\work\01\repo）
+
+  [PASS] 网关就绪（端口 17334）
+  [PASS] eniac：demo_mode 判定正确（emulator=none）
+  [PASS] eniac：indicator_lamps → led 映射正确
+  [PASS] manchester-baby：sink 映射 main+led+speaker（实际 ['main', 'led', 'speaker']）
+  [PASS] manchester-baby：early-computer 缺省画面 320x200@25
+  [PASS] manchester-baby：36 键全部合法（未知 0）
+  [PASS] manchester-baby：首键 power -> panel.power
+  [PASS] apple-ii：sink 映射 main+speaker+led（实际 ['main', 'speaker', 'led']）
+  [PASS] apple-ii：computer 缺省画面 320x240@24
+网关 stderr 尾部:
+  | [gw] 网关 v2 已监听 127.0.0.1:17334（repo: \\DESKTOP-2IDAL09\work\01\repo）
+M1b 验收失败 ✘  ->  apple-ii：57 键全部合法（未知 57）
+
+附 run_profile 明细（apple-ii，前若干行）：
+  设备 apple-ii（apple2）  模式: 可运行（接线候选 mame）
+  媒体提示: floppy  BIOS: True
+  sinks: ['main', 'speaker', 'led']
+  键名: 共 57 个，未知 57
+    [未知键] key_a -> {'map': 'keyboard', 'key': 'KEY_A'}
+    [未知键] key_b -> {'map': 'keyboard', 'key': 'KEY_B'}
+    ...（57 键同型）
+
+# 根因：apple-ii 的 input_map 值已由“keyboard.key_a”字符串升版为
+#       {"map":"keyboard","key":"KEY_A"} 对象（05 线并行更新），
+#       01 线 run_profile.LOGICAL_KEY_RE 仍按字符串点分校验。
+```
+
+结论：PASS 10/11（baby 全绿、eniac 全绿、apple 键名校验失败），退出码 1。详见 DEFECT-M1B-KEYMAP-01.md。

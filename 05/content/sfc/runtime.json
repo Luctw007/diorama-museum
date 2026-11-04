@@ -1,0 +1,133 @@
+{
+  "emulator": "snes9x",
+  "version": "1.60",
+  "system": "snes",
+  "media_hint": "cartridge",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {
+      "id": "crt_external",
+      "surface": "external_crt",
+      "type": "video",
+      "format": "rgba8"
+    },
+    {
+      "id": "speaker_0",
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16"
+    },
+    {
+      "id": "led_power",
+      "surface": "led",
+      "type": "hid"
+    }
+  ],
+  "input_map": {
+    "pad_up": {
+      "map": "joystick",
+      "key": "hat_0"
+    },
+    "pad_down": {
+      "map": "joystick",
+      "key": "hat_0"
+    },
+    "pad_left": {
+      "map": "joystick",
+      "key": "hat_0"
+    },
+    "pad_right": {
+      "map": "joystick",
+      "key": "hat_0"
+    },
+    "btn_a": {
+      "map": "joystick",
+      "key": "btn0"
+    },
+    "btn_b": {
+      "map": "joystick",
+      "key": "btn1"
+    },
+    "btn_x": {
+      "map": "joystick",
+      "key": "btn2"
+    },
+    "btn_y": {
+      "map": "joystick",
+      "key": "btn3"
+    },
+    "btn_l": {
+      "map": "joystick",
+      "key": "btn4"
+    },
+    "btn_r": {
+      "map": "joystick",
+      "key": "btn5"
+    },
+    "btn_start": {
+      "map": "keyboard",
+      "key": "KEY_ENTER"
+    },
+    "btn_select": {
+      "map": "keyboard",
+      "key": "KEY_RSHIFT"
+    },
+    "p2_pad_up": {
+      "map": "joystick",
+      "key": "hat_1"
+    },
+    "p2_pad_down": {
+      "map": "joystick",
+      "key": "hat_1"
+    },
+    "p2_pad_left": {
+      "map": "joystick",
+      "key": "hat_1"
+    },
+    "p2_pad_right": {
+      "map": "joystick",
+      "key": "hat_1"
+    },
+    "p2_btn_a": {
+      "map": "joystick",
+      "key": "btn6"
+    },
+    "p2_btn_b": {
+      "map": "joystick",
+      "key": "btn7"
+    },
+    "p2_btn_x": {
+      "map": "joystick",
+      "key": "btn8"
+    },
+    "p2_btn_y": {
+      "map": "joystick",
+      "key": "btn9"
+    },
+    "p2_btn_l": {
+      "map": "joystick",
+      "key": "btn10"
+    },
+    "p2_btn_r": {
+      "map": "joystick",
+      "key": "btn11"
+    },
+    "p2_start": {
+      "map": "keyboard",
+      "key": "KEY_INSERT"
+    },
+    "p2_select": {
+      "map": "keyboard",
+      "key": "KEY_DELETE"
+    },
+    "power": {
+      "map": "keyboard",
+      "key": "KEY_POWER"
+    },
+    "reset": {
+      "map": "keyboard",
+      "key": "KEY_RESET"
+    }
+  }
+}

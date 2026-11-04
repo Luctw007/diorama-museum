@@ -1,0 +1,820 @@
+{
+  "meta": {
+    "id": "edsac",
+    "name": "EDSAC（电子延迟存储自动计算器）",
+    "name_en": "EDSAC (Electronic Delay Storage Automatic Calculator)",
+    "spec_version": "0.1",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "TASK-12-A 生产",
+        "role": "author"
+      }
+    ],
+    "description": "第一台投入常规计算服务的实用存储程序计算机（1949，剑桥大学 Maurice Wilkes 主持），约 3,000 真空管、水银延迟线主存、串行二进制；招牌可玩点 OXO 井字棋（1952）。",
+    "category": "early-computer",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Computer History Museum 时间线",
+        "url": "https://www.computerhistory.org/timeline/?category=cmptr",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "TNMOC — EDSAC 复刻项目",
+        "url": "https://www.tnmoc.org/edsac",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "Warwick 大学 EDSAC 模拟器（Martin Campbell-Kelly）",
+        "url": "http://www.dcs.warwick.ac.uk/~edsac/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "QEdsac（EDSAC 模拟器开源重写）",
+        "url": "https://github.com/qedsac/qedsac",
+        "license": "licensed",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "EDSAC Order Code（David Wheeler，剑桥）",
+        "url": "https://www.cl.cam.ac.uk/relics/orders.notes.html",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "An Ultrasonic Memory Unit for the EDSAC（Wilkes & Renwick）",
+        "url": "http://www.cs.man.ac.uk/CCS/Archive/misc/EDSAC/ElectronicEngineeringRawTifs.pdf",
+        "license": "public_domain",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — EDSAC（索引）",
+        "url": "https://en.wikipedia.org/wiki/EDSAC",
+        "license": "cc",
+        "accessed_at": "2026-10-31"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": "EDSAC（电子延迟存储自动计算器）整机，1949 年 5 月 6 日在剑桥大学运行首个程序、第一台投入常规计算服务的实用存储程序计算机。",
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "cabinet",
+        "memory_subsystem",
+        "control_subsystem",
+        "arithmetic_subsystem",
+        "io_subsystem",
+        "display_subsystem"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "paper_tape_flow",
+        "delay_line_flow",
+        "crt_output_flow"
+      ],
+      "mesh_ref": "meshes/whole.gltf"
+    },
+    {
+      "id": "cabinet",
+      "name": "机架总成",
+      "role": "机架总成在整机中作为约 140 个机架联排的机械骨架，承载全部子系统并提供走线与供电通道。",
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "power_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "cabinet_role"
+      ]
+    },
+    {
+      "id": "memory_subsystem",
+      "name": "存储器子系统",
+      "role": "存储器子系统在整机中负责保存程序与数据，以水银延迟线声波脉冲形式暂存二进制位。",
+      "transform": {
+        "translation": [
+          -1.6,
+          1.1,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "delay_line_bank",
+        "recirculation_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "memory_subsystem_role"
+      ]
+    },
+    {
+      "id": "control_subsystem",
+      "name": "控制子系统",
+      "role": "控制子系统在整机中维持取指与执行的节奏，产生主时钟、译码指令并推进程序地址。",
+      "transform": {
+        "translation": [
+          -0.4,
+          1.1,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "clock_unit",
+        "sequence_unit",
+        "decoder_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "control_subsystem_role"
+      ],
+      "mesh_ref": "meshes/console.gltf"
+    },
+    {
+      "id": "arithmetic_subsystem",
+      "name": "运算子系统",
+      "role": "运算子系统在整机中执行串行二进制加减乘，是数据运算的核心。",
+      "transform": {
+        "translation": [
+          0.6,
+          1.1,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "accumulator_unit",
+        "multiplier_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "arithmetic_subsystem_role"
+      ]
+    },
+    {
+      "id": "io_subsystem",
+      "name": "输入输出子系统",
+      "role": "输入输出子系统在整机中负责 5 孔纸带程序的读入与结果的电传打印、穿孔输出。",
+      "transform": {
+        "translation": [
+          1.6,
+          1.1,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "tape_reader_unit",
+        "teleprinter_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "io_subsystem_role"
+      ]
+    },
+    {
+      "id": "display_subsystem",
+      "name": "CRT显示子系统",
+      "role": "CRT显示子系统在整机中提供示波器画面输出，用于监视运算与运行 OXO 井字棋。",
+      "transform": {
+        "translation": [
+          0,
+          0.2,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "crt_display_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "display_subsystem_role"
+      ]
+    },
+    {
+      "id": "power_unit",
+      "name": "电源单元",
+      "role": "电源单元在整机中把市电转换为各机架所需的高压、灯丝与直流电压，为约 3,000 只真空管供电。",
+      "transform": {
+        "translation": [
+          0,
+          -0.5,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "power_unit_role"
+      ]
+    },
+    {
+      "id": "delay_line_bank",
+      "name": "水银延迟线存储组",
+      "role": "水银延迟线存储组在整机中作为主存，用 32 个水槽暂存 35 位字，是串行存储的核心。",
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "memory_subsystem",
+      "children": [
+        "delay_tank_board"
+      ],
+      "components": [],
+      "annotations": [
+        "delay_line_bank_role"
+      ],
+      "mesh_ref": "meshes/delay_line_bank.gltf"
+    },
+    {
+      "id": "recirculation_unit",
+      "name": "再循环与整形单元",
+      "role": "再循环与整形单元在整机中把延迟线输出的脉冲放大整形后重新注入，维持数据循环不衰减。",
+      "transform": {
+        "translation": [
+          0,
+          -0.4,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "memory_subsystem",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "recirculation_unit_role"
+      ]
+    },
+    {
+      "id": "clock_unit",
+      "name": "主时钟单元",
+      "role": "主时钟单元在整机中产生约 500 千赫主脉冲，为所有单元提供统一节拍。",
+      "transform": {
+        "translation": [
+          -0.3,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "control_subsystem",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "clock_unit_role"
+      ]
+    },
+    {
+      "id": "sequence_unit",
+      "name": "顺序控制单元",
+      "role": "顺序控制单元在整机中推进程序地址、管理初始指令装载，使程序按序执行。",
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "control_subsystem",
+      "children": [],
+      "components": [
+        "neon_indicator"
+      ],
+      "annotations": [
+        "sequence_unit_role"
+      ]
+    },
+    {
+      "id": "decoder_unit",
+      "name": "指令译码单元",
+      "role": "指令译码单元在整机中把 17 位指令的功能码译为对应操作，驱动运算与存储单元。",
+      "transform": {
+        "translation": [
+          0.3,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "control_subsystem",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "decoder_unit_role"
+      ]
+    },
+    {
+      "id": "accumulator_unit",
+      "name": "累加器单元",
+      "role": "累加器单元在整机中执行串行二进制加法与减法，暂存运算结果。",
+      "transform": {
+        "translation": [
+          -0.2,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "arithmetic_subsystem",
+      "children": [
+        "adder_board"
+      ],
+      "components": [],
+      "annotations": [
+        "accumulator_unit_role"
+      ]
+    },
+    {
+      "id": "multiplier_unit",
+      "name": "乘法器单元",
+      "role": "乘法器单元在整机中实现串行二进制乘法，是算术子系统的高速运算部件。",
+      "transform": {
+        "translation": [
+          0.2,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "arithmetic_subsystem",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "multiplier_unit_role"
+      ]
+    },
+    {
+      "id": "tape_reader_unit",
+      "name": "纸带读入单元",
+      "role": "纸带读入单元在整机中读取 5 孔纸带，经初始指令把程序自动载入内存。",
+      "transform": {
+        "translation": [
+          -0.2,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "io_subsystem",
+      "children": [],
+      "components": [
+        "paper_tape_reader"
+      ],
+      "annotations": [
+        "tape_reader_unit_role"
+      ]
+    },
+    {
+      "id": "teleprinter_unit",
+      "name": "电传打印单元",
+      "role": "电传打印单元在整机中把计算结果打印输出，是结果呈现的主要出口。",
+      "transform": {
+        "translation": [
+          0.2,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "io_subsystem",
+      "children": [],
+      "components": [
+        "teleprinter"
+      ],
+      "annotations": [
+        "teleprinter_unit_role"
+      ]
+    },
+    {
+      "id": "crt_display_unit",
+      "name": "CRT显示器单元",
+      "role": "CRT显示器单元在整机中把内存或结果以亮点图案显示在示波器屏上，用于监视与 OXO 游戏。",
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "display_subsystem",
+      "children": [],
+      "components": [
+        "crt_screen"
+      ],
+      "annotations": [
+        "crt_display_unit_role",
+        "oxo_anim"
+      ],
+      "mesh_ref": "meshes/crt_display_unit.gltf"
+    },
+    {
+      "id": "delay_tank_board",
+      "name": "延迟线水槽板",
+      "role": "延迟线水槽板在整机中固定单个水银延迟线水槽及其换能器，构成主存的最小存储单元。",
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "delay_line_bank",
+      "children": [],
+      "components": [
+        "mercury_delay_tank",
+        "transducer"
+      ],
+      "annotations": [
+        "delay_tank_board_role",
+        "delay_line_anim"
+      ]
+    },
+    {
+      "id": "adder_board",
+      "name": "串行加法器板",
+      "role": "串行加法器板在整机中承载位串行加法的真空管电路，把两个 35 位操作数逐位相加。",
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "accumulator_unit",
+      "children": [],
+      "components": [
+        "accumulator_register"
+      ],
+      "annotations": [
+        "adder_board_role"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "mercury_delay_tank",
+      "name": "水银延迟线水槽",
+      "type": "delay_line",
+      "role": "水银延迟线水槽在整机中利用声波在汞中传播慢的特点暂存一串二进制脉冲，是主存的物理载体。",
+      "assembly": "delay_tank_board",
+      "annotations": [
+        "mercury_delay_tank_role"
+      ]
+    },
+    {
+      "id": "transducer",
+      "name": "压电换能器",
+      "type": "transducer",
+      "role": "压电换能器在整机中把电脉冲转为声波送入水银、再在输出端把声波转回电脉冲。",
+      "assembly": "delay_tank_board",
+      "annotations": [
+        "transducer_role"
+      ]
+    },
+    {
+      "id": "accumulator_register",
+      "name": "累加器寄存器",
+      "type": "register",
+      "role": "累加器寄存器在整机中暂存 35 位运算结果，供后续指令读取与写回。",
+      "assembly": "adder_board",
+      "annotations": [
+        "accumulator_register_role"
+      ]
+    },
+    {
+      "id": "paper_tape_reader",
+      "name": "纸带读入机",
+      "type": "tape_reader",
+      "role": "纸带读入机在整机中读取 5 孔纸带上的程序与数据，是程序进入内存的入口。",
+      "assembly": "tape_reader_unit",
+      "annotations": [
+        "paper_tape_reader_role"
+      ]
+    },
+    {
+      "id": "teleprinter",
+      "name": "电传打印机",
+      "type": "teleprinter",
+      "role": "电传打印机在整机中把计算结果按字符打印到纸页上，是结果输出的主要出口。",
+      "assembly": "teleprinter_unit",
+      "annotations": [
+        "teleprinter_role"
+      ]
+    },
+    {
+      "id": "crt_screen",
+      "name": "CRT荧光屏",
+      "type": "crt",
+      "role": "CRT荧光屏在整机中显示存储或结果的亮点图案，是 OXO 井字棋的显示面。",
+      "assembly": "crt_display_unit",
+      "annotations": [
+        "crt_screen_role"
+      ]
+    },
+    {
+      "id": "neon_indicator",
+      "name": "氖灯指示灯",
+      "type": "lamp",
+      "role": "氖灯指示灯在整机中点亮以显示寄存器当前状态，供操作员观察运行。",
+      "assembly": "sequence_unit",
+      "annotations": [
+        "neon_indicator_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "qedsac",
+    "version": "0.1.0",
+    "system": "EDSAC (Electronic Delay Storage Automatic Calculator)",
+    "media_hint": "tape",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "external_crt_0",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "mono1"
+      },
+      {
+        "id": "indicator_led_0",
+        "surface": "indicator_led",
+        "type": "video",
+        "format": "mono1"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "power": "panel.power",
+      "reset": "panel.reset",
+      "start": "panel.start",
+      "stop": "panel.stop",
+      "clear": "panel.clear",
+      "single_step": "panel.single_step",
+      "tape_load": "panel.tape_reader.load",
+      "tape_rewind": "panel.tape_reader.rewind",
+      "tape_punch": "panel.tape_punch.punch",
+      "initial_orders": "panel.initial_orders",
+      "print": "panel.teleprinter.print",
+      "clock_slow": "panel.clock.slow",
+      "clock_fast": "panel.clock.fast",
+      "display_crt": "panel.crt.select",
+      "aux_a": "panel.aux.a",
+      "aux_b": "panel.aux.b"
+    }
+  }
+}

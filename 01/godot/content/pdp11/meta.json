@@ -1,0 +1,716 @@
+{
+  "meta": {
+    "id": "pdp11",
+    "name": {
+      "zh": "DEC PDP-11/70",
+      "en": "DEC PDP-11/70"
+    },
+    "intro": {
+      "zh": "DEC PDP-11/70 是 1975 年推出的 PDP-11 家族高端机型，以 Unibus 统一总线与内存管理单元成为 16 位小型机的性能标杆，也是 UNIX 与 C 语言的重要孵化平台。",
+      "en": "The DEC PDP-11/70, introduced in 1975, is the high-end model of the PDP-11 family, a 16-bit minicomputer landmark and an incubator for UNIX and C."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1975,
+    "manufacturer": "Digital Equipment Corporation (DEC)",
+    "category": "minicomputer",
+    "description": "DEC PDP-11/70（1975），PDP-11 家族高端机型：16 位字、Unibus 统一总线、内存管理单元、UNIX/C 的孵化平台。",
+    "authors": [
+      {
+        "name": "TASK-28B 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — PDP-11",
+        "url": "https://en.wikipedia.org/wiki/PDP-11",
+        "license": "cc",
+        "accessed_at": "2026-11-02"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum 时间线",
+        "url": "https://www.computerhistory.org/timeline/?category=cmptr",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-02"
+      },
+      {
+        "type": "manual",
+        "title": "DEC PDP-11 手册（bitsavers 存档）",
+        "url": "https://bitsavers.org/pdf/dec/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-02"
+      },
+      {
+        "type": "documentation",
+        "title": "SIMH — PDP-11 模拟器（Classic）",
+        "url": "https://simh.trailing-edge.com/",
+        "license": "licensed",
+        "accessed_at": "2026-11-02"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "DEC PDP-11/70 整机，1975 年推出的 PDP-11 家族高端机型。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "console",
+        "cpu_cabinet",
+        "disk_rk05",
+        "tape_tu10",
+        "unibus_rack"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "unibus_flow",
+        "boot_flow"
+      ]
+    },
+    {
+      "id": "console",
+      "name": "操作台",
+      "role": {
+        "zh": "操作台在整机中作为操作员与系统交互的界面，集成终端、状态灯组与控制开关。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.2,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "terminal",
+        "lamp_run",
+        "lamp_power",
+        "lamp_halt",
+        "lamp_battery",
+        "lamp_io_activity",
+        "lamp_cache",
+        "sw_boot",
+        "sw_halt",
+        "sw_start",
+        "sw_cont",
+        "sw_load_addr",
+        "sw_exam",
+        "sw_dep",
+        "sw_enable_halt",
+        "sw_clear",
+        "sw_power",
+        "lamp_addr_group",
+        "lamp_data_group"
+      ],
+      "annotations": [
+        "console_role"
+      ],
+      "mesh_ref": "assemblies/console.gltf"
+    },
+    {
+      "id": "cpu_cabinet",
+      "name": "CPU 柜",
+      "role": {
+        "zh": "CPU 柜在整机中承载处理器、高速缓存与内存管理单元，是执行指令与地址映射的核心单元。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "processor",
+        "cache",
+        "mmu",
+        "unibus_adapter"
+      ],
+      "annotations": [
+        "cpu_cabinet_role"
+      ],
+      "mesh_ref": "assemblies/cpu_cabinet.gltf"
+    },
+    {
+      "id": "disk_rk05",
+      "name": "RK05 磁盘组",
+      "role": {
+        "zh": "RK05 磁盘组在整机中提供可换盘式磁盘存储，是程序与数据的主要随机存取介质。"
+      },
+      "transform": {
+        "translation": [
+          1.2,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "disk_platter",
+        "disk_head",
+        "disk_controller"
+      ],
+      "annotations": [
+        "disk_rk05_role"
+      ],
+      "mesh_ref": "assemblies/disk_rk05.gltf"
+    },
+    {
+      "id": "tape_tu10",
+      "name": "TU10/TS11 磁带机",
+      "role": {
+        "zh": "TU10/TS11 磁带机在整机中提供磁带的顺序存取，用于数据备份与批量加载。"
+      },
+      "transform": {
+        "translation": [
+          -1.2,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "tape_reel",
+        "tape_head",
+        "tape_controller"
+      ],
+      "annotations": [
+        "tape_tu10_role"
+      ],
+      "mesh_ref": "assemblies/tape_tu10.gltf"
+    },
+    {
+      "id": "unibus_rack",
+      "name": "Unibus 扩展架",
+      "role": {
+        "zh": "Unibus 扩展架在整机中提供统一总线背板与设备控制器插槽，是内存与设备统一编址的物理载体。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.5,
+          -0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "unibus_backplane",
+        "device_controller"
+      ],
+      "annotations": [
+        "unibus_rack_role"
+      ],
+      "mesh_ref": "assemblies/unibus_rack.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "terminal",
+      "name": "操作终端",
+      "type": "terminal",
+      "role": {
+        "zh": "操作终端在整机中作为操作员与系统交互的输入输出界面，用于键入命令与查看输出。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "terminal_role"
+      ]
+    },
+    {
+      "id": "lamp_run",
+      "name": "运行指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "运行指示灯在整机中点亮表示处理器正在执行程序，是判断系统是否运行的状态指示。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_run_role"
+      ]
+    },
+    {
+      "id": "lamp_power",
+      "name": "电源指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的首要状态指示。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_power_role"
+      ]
+    },
+    {
+      "id": "lamp_halt",
+      "name": "停机指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "停机指示灯在整机中点亮表示处理器已停机，等待操作员干预。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_halt_role"
+      ]
+    },
+    {
+      "id": "lamp_battery",
+      "name": "电池指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "电池指示灯在整机中点亮表示系统由后备电池供电，提示检查交流电源。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_battery_role"
+      ]
+    },
+    {
+      "id": "lamp_io_activity",
+      "name": "I/O 活动指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "I/O 活动指示灯在整机中闪烁表示 Unibus 上有设备正在进行输入输出操作。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_io_activity_role"
+      ]
+    },
+    {
+      "id": "lamp_cache",
+      "name": "缓存指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "缓存指示灯在整机中点亮表示处理器缓存处于活动状态，加速内存访问。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_cache_role"
+      ]
+    },
+    {
+      "id": "sw_boot",
+      "name": "引导开关",
+      "type": "switch",
+      "role": {
+        "zh": "引导开关在整机中触发引导程序，从指定设备读入并启动操作系统。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_boot_role"
+      ]
+    },
+    {
+      "id": "sw_halt",
+      "name": "停机开关",
+      "type": "switch",
+      "role": {
+        "zh": "停机开关在整机中使处理器停机，机器进入等待操作员干预的状态。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_halt_role"
+      ]
+    },
+    {
+      "id": "sw_start",
+      "name": "启动开关",
+      "type": "switch",
+      "role": {
+        "zh": "启动开关在整机中使处理器从当前地址开始或恢复执行程序。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_start_role"
+      ]
+    },
+    {
+      "id": "sw_cont",
+      "name": "继续开关",
+      "type": "switch",
+      "role": {
+        "zh": "继续开关在整机中使处理器从暂停处继续执行程序，用于调试后的恢复运行。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_cont_role"
+      ]
+    },
+    {
+      "id": "sw_load_addr",
+      "name": "装载地址开关",
+      "type": "switch",
+      "role": {
+        "zh": "装载地址开关在整机中把操作员设定的地址送入程序计数器，定位要检视或写入的存储单元。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_load_addr_role"
+      ]
+    },
+    {
+      "id": "sw_exam",
+      "name": "检视开关",
+      "type": "switch",
+      "role": {
+        "zh": "检视开关在整机中把当前地址的内容读出并显示，供操作员查看存储单元的值。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_exam_role"
+      ]
+    },
+    {
+      "id": "sw_dep",
+      "name": "写入开关",
+      "type": "switch",
+      "role": {
+        "zh": "写入开关在整机中把操作员设定的数据写入当前地址，完成一次手动存数。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_dep_role"
+      ]
+    },
+    {
+      "id": "sw_enable_halt",
+      "name": "停机使能开关",
+      "type": "switch",
+      "role": {
+        "zh": "停机使能开关在整机中启用或禁用停机指令，用于程序调试控制。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_enable_halt_role"
+      ]
+    },
+    {
+      "id": "sw_clear",
+      "name": "清除开关",
+      "type": "switch",
+      "role": {
+        "zh": "清除开关在整机中清除寄存器和显示，使机器回到空白状态。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_clear_role"
+      ]
+    },
+    {
+      "id": "sw_power",
+      "name": "电源开关",
+      "type": "switch",
+      "role": {
+        "zh": "电源开关在整机中控制整机供电的通断，是启动与关闭机器的总开关。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_power_role"
+      ]
+    },
+    {
+      "id": "lamp_addr_group",
+      "name": "地址灯组",
+      "type": "lamp",
+      "role": {
+        "zh": "地址灯组在整机中以一排指示灯显示当前地址总线的值，供操作员观察程序执行位置。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_addr_group_role"
+      ]
+    },
+    {
+      "id": "lamp_data_group",
+      "name": "数据灯组",
+      "type": "lamp",
+      "role": {
+        "zh": "数据灯组在整机中以一排指示灯显示当前数据总线的值，供操作员观察数据流动。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_group_role"
+      ]
+    },
+    {
+      "id": "processor",
+      "name": "处理器",
+      "type": "processor",
+      "role": {
+        "zh": "处理器在整机中执行 PDP-11 指令集的取指、译码与执行，是系统的计算核心。"
+      },
+      "assembly": "cpu_cabinet",
+      "annotations": [
+        "processor_role"
+      ]
+    },
+    {
+      "id": "cache",
+      "name": "高速缓存",
+      "type": "cache",
+      "role": {
+        "zh": "高速缓存在整机中暂存近期访问的内存数据，减少处理器等待内存的时间，提升性能。"
+      },
+      "assembly": "cpu_cabinet",
+      "annotations": [
+        "cache_role"
+      ]
+    },
+    {
+      "id": "mmu",
+      "name": "内存管理单元",
+      "type": "mmu",
+      "role": {
+        "zh": "内存管理单元在整机中把 16 位逻辑地址映射为 22 位物理地址，扩展寻址空间并支持内存保护。"
+      },
+      "assembly": "cpu_cabinet",
+      "annotations": [
+        "mmu_role"
+      ]
+    },
+    {
+      "id": "unibus_adapter",
+      "name": "Unibus 适配器",
+      "type": "adapter",
+      "role": {
+        "zh": "Unibus 适配器在整机中把处理器与内存连接到 Unibus 总线，是总线通信的接口。"
+      },
+      "assembly": "cpu_cabinet",
+      "annotations": [
+        "unibus_adapter_role"
+      ]
+    },
+    {
+      "id": "disk_platter",
+      "name": "磁盘盘片",
+      "type": "platter",
+      "role": {
+        "zh": "磁盘盘片在整机中作为 RK05 磁盘的存储介质，以磁性涂层表面保存数据。"
+      },
+      "assembly": "disk_rk05",
+      "annotations": [
+        "disk_platter_role"
+      ]
+    },
+    {
+      "id": "disk_head",
+      "name": "磁盘读写头",
+      "type": "head",
+      "role": {
+        "zh": "磁盘读写头在整机中贴着旋转的盘片表面读写数据，是磁盘存储的核心部件。"
+      },
+      "assembly": "disk_rk05",
+      "annotations": [
+        "disk_head_role"
+      ]
+    },
+    {
+      "id": "disk_controller",
+      "name": "磁盘控制器",
+      "type": "controller",
+      "role": {
+        "zh": "磁盘控制器在整机中管理 RK05 磁盘组的数据读写，把块地址转换为磁头寻道与扇区定位。"
+      },
+      "assembly": "disk_rk05",
+      "annotations": [
+        "disk_controller_role"
+      ]
+    },
+    {
+      "id": "tape_reel",
+      "name": "磁带卷轴",
+      "type": "reel",
+      "role": {
+        "zh": "磁带卷轴在整机中承载一盘磁带，供读写头沿磁带表面顺序读写数据。"
+      },
+      "assembly": "tape_tu10",
+      "annotations": [
+        "tape_reel_role"
+      ]
+    },
+    {
+      "id": "tape_head",
+      "name": "磁带读写头",
+      "type": "head",
+      "role": {
+        "zh": "磁带读写头在整机中贴着磁带表面读写磁记录，是磁带机与数据交互的核心部件。"
+      },
+      "assembly": "tape_tu10",
+      "annotations": [
+        "tape_head_role"
+      ]
+    },
+    {
+      "id": "tape_controller",
+      "name": "磁带控制器",
+      "type": "controller",
+      "role": {
+        "zh": "磁带控制器在整机中管理 TU10/TS11 磁带机的走带与读写操作。"
+      },
+      "assembly": "tape_tu10",
+      "annotations": [
+        "tape_controller_role"
+      ]
+    },
+    {
+      "id": "unibus_backplane",
+      "name": "Unibus 背板",
+      "type": "backplane",
+      "role": {
+        "zh": "Unibus 背板在整机中提供统一总线，把 CPU、内存与各设备控制器互联，是 PDP-11 架构的灵魂。"
+      },
+      "assembly": "unibus_rack",
+      "annotations": [
+        "unibus_backplane_role"
+      ]
+    },
+    {
+      "id": "device_controller",
+      "name": "设备控制器插卡",
+      "type": "controller",
+      "role": {
+        "zh": "设备控制器插卡在整机中挂载于 Unibus 背板，把外设寄存器和内存统一编址，供 CPU 直接读写。"
+      },
+      "assembly": "unibus_rack",
+      "annotations": [
+        "device_controller_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "DEC PDP-11/70",
+    "media_hint": "disk",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "terminal_0",
+        "surface": "terminal",
+        "type": "video",
+        "format": "text"
+      },
+      {
+        "id": "indicator_lamps_0",
+        "surface": "indicator_lamps",
+        "type": "video",
+        "format": "mono1"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "boot": {
+        "map": "keyboard",
+        "key": "KEY_B"
+      },
+      "start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "stop": {
+        "map": "keyboard",
+        "key": "KEY_STOP"
+      },
+      "continue": {
+        "map": "keyboard",
+        "key": "KEY_C"
+      }
+    }
+  }
+}

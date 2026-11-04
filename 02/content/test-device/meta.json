@@ -1,0 +1,122 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "test-device",
+    "name": { "zh": "验证方块机", "en": "Verification Block Machine" },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "presentation_level": "C3",
+    "era": 1980,
+    "manufacturer": "TASK-07 示例（假想）",
+    "intro": {
+      "zh": "验证方块机是一台仅用于验证《内容包规范 v0.2》与校验工具链的假想方块形电子设备，不具备任何真实电子设备的功能。"
+    },
+    "description": "用于验证内容包规范 v0.2 与校验工具链的最小假想设备（明确非真实设备）。",
+    "category": "placeholder",
+    "authors": [
+      { "name": "TASK-07 示例", "contact": "example@example.com", "role": "author" }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "示例公开占位来源",
+        "url": "https://example.com/placeholder-doc",
+        "license": "public_domain",
+        "accessed_at": "2026-10-31"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "验证方块机整体，一台仅用于验证内容包规范与校验工具链的假想方块形电子设备。",
+        "en": "The whole Verification Block Machine, a fictional block-shaped device for spec validation."
+      },
+      "transform": { "translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0] },
+      "parent": null,
+      "children": ["mainboard"],
+      "components": [],
+      "annotations": ["whole_role"]
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中负责承载各元器件，为它们提供机械固定、电源分配与信号互连。",
+        "en": "The mainboard carries all components, providing mechanical support, power distribution and signal interconnection."
+      },
+      "transform": { "translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0] },
+      "parent": "whole",
+      "children": [],
+      "components": ["chip_cpu", "chip_ram", "capacitor_c1"],
+      "annotations": ["mainboard_role", "power_flow", "power_on_anim"],
+      "mesh_ref": "meshes/mainboard.gltf",
+      "materials": []
+    }
+  ],
+  "components": [
+    {
+      "id": "chip_cpu",
+      "name": "中央处理器",
+      "type": "ic",
+      "part_no": "EXAMPLE-CPU-01",
+      "role": {
+        "zh": "在整机中负责执行程序指令，并进行算术与逻辑运算。",
+        "en": "Executes program instructions and performs arithmetic and logic operations."
+      },
+      "assembly": "mainboard",
+      "annotations": ["chip_cpu_role"]
+    },
+    {
+      "id": "chip_ram",
+      "name": "内存芯片",
+      "type": "ic",
+      "part_no": "EXAMPLE-RAM-02",
+      "role": {
+        "zh": "在整机中负责临时存储运行时数据，供处理器快速读写。",
+        "en": "Temporarily stores runtime data for fast processor access."
+      },
+      "assembly": "mainboard",
+      "annotations": ["chip_ram_role"]
+    },
+    {
+      "id": "capacitor_c1",
+      "name": "滤波电容",
+      "type": "capacitor",
+      "part_no": "EXAMPLE-CAP-03",
+      "role": {
+        "zh": "在整机中负责平滑电源纹波、抑制高频噪声，稳定供电电压。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["capacitor_c1_role"]
+    }
+  ],
+  "runtime": {
+    "emulator": "fake",
+    "version": "0.1.0",
+    "system": "fake-os",
+    "media_hint": "cartridge",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      { "id": "screen_0", "surface": "handheld_lcd", "type": "video", "format": "rgba8" },
+      { "id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16" }
+    ],
+    "input_map": {
+      "power": { "map": "keyboard", "key": "KEY_P" },
+      "reset": { "map": "keyboard", "key": "KEY_F2" },
+      "start": { "map": "keyboard", "key": "KEY_ENTER" },
+      "select": { "map": "keyboard", "key": "KEY_BACKSPACE" },
+      "dpad_up": { "map": "keyboard", "key": "KEY_UP" },
+      "dpad_down": { "map": "keyboard", "key": "KEY_DOWN" },
+      "dpad_left": { "map": "keyboard", "key": "KEY_LEFT" },
+      "dpad_right": { "map": "keyboard", "key": "KEY_RIGHT" },
+      "joy_axis_x": { "map": "joystick", "key": "axis_x" },
+      "joy_btn0": { "map": "joystick", "key": "btn0" }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+PASS  R-001  meta.json                  meta.json 存在且为合法 JSON
+PASS  R-002  meta.json                  meta.json 通过 device_spec.schema.json 校验
+PASS  R-003  runtime.json               runtime.json 通过 $defs/runtime 校验
+PASS  R-004  runtime.json               runtime.json 与 meta.json.runtime 一致
+PASS  R-005  annotations/annotations.json annotations.json 通过 $defs/annotations_document 校验
+PASS  R-010  -                          所有 parent 引用存在
+PASS  R-011  -                          所有 children 引用存在
+PASS  R-012  -                          装配树无环
+PASS  R-013  -                          parent/children 双向一致
+PASS  R-014  -                          所有 component.assembly 引用存在
+PASS  R-015  -                          所有 annotation.target 引用存在
+PASS  R-016  -                          所有 mesh_ref 文件存在
+PASS  R-017  -                          所有 materials 文件存在
+PASS  R-018  -                          所有 annotations 引用存在
+PASS  R-020  meta.id                    device-id 'pdp11' 符合 kebab-case
+PASS  R-021  nodes                      所有节点 id 符合 snake_case
+PASS  R-022  annotations/output_sinks   annotation/sink id 符合 snake_case
+PASS  R-023  nodes                      节点 id 全局唯一
+PASS  R-030  assemblies[whole]          translation 为 3 个有限实数
+PASS  R-031  assemblies[whole]          rotation 为单位四元数
+PASS  R-032  assemblies[whole]          scale 各分量 > 0
+PASS  R-033  assemblies[whole]          scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[console]        translation 为 3 个有限实数
+PASS  R-031  assemblies[console]        rotation 为单位四元数
+PASS  R-032  assemblies[console]        scale 各分量 > 0
+PASS  R-033  assemblies[console]        scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[cpu_cabinet]    translation 为 3 个有限实数
+PASS  R-031  assemblies[cpu_cabinet]    rotation 为单位四元数
+PASS  R-032  assemblies[cpu_cabinet]    scale 各分量 > 0
+PASS  R-033  assemblies[cpu_cabinet]    scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[disk_rk05]      translation 为 3 个有限实数
+PASS  R-031  assemblies[disk_rk05]      rotation 为单位四元数
+PASS  R-032  assemblies[disk_rk05]      scale 各分量 > 0
+PASS  R-033  assemblies[disk_rk05]      scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[tape_tu10]      translation 为 3 个有限实数
+PASS  R-031  assemblies[tape_tu10]      rotation 为单位四元数
+PASS  R-032  assemblies[tape_tu10]      scale 各分量 > 0
+PASS  R-033  assemblies[tape_tu10]      scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[unibus_rack]    translation 为 3 个有限实数
+PASS  R-031  assemblies[unibus_rack]    rotation 为单位四元数
+PASS  R-032  assemblies[unibus_rack]    scale 各分量 > 0
+PASS  R-033  assemblies[unibus_rack]    scale 各分量在 [1e-6, 1e6]
+PASS  R-040  meta.precision_level       precision_level=L2 合法
+PASS  R-041  assemblies[console]        glTF 可解析（version=2.0）
+PASS  R-042  assemblies[console]        预算统计：nodes=1, triangles=12；超限由 budget_check.py 报告，不阻塞（可调）
+PASS  R-041  assemblies[cpu_cabinet]    glTF 可解析（version=2.0）
+PASS  R-042  assemblies[cpu_cabinet]    预算统计：nodes=1, triangles=12；超限由 budget_check.py 报告，不阻塞（可调）
+PASS  R-041  assemblies[disk_rk05]      glTF 可解析（version=2.0）
+PASS  R-042  assemblies[disk_rk05]      预算统计：nodes=1, triangles=12；超限由 budget_check.py 报告，不阻塞（可调）
+PASS  R-041  assemblies[tape_tu10]      glTF 可解析（version=2.0）
+PASS  R-042  assemblies[tape_tu10]      预算统计：nodes=1, triangles=12；超限由 budget_check.py 报告，不阻塞（可调）
+PASS  R-041  assemblies[unibus_rack]    glTF 可解析（version=2.0）
+PASS  R-042  assemblies[unibus_rack]    预算统计：nodes=1, triangles=12；超限由 budget_check.py 报告，不阻塞（可调）
+PASS  R-050  THIRD_PARTY.md             THIRD_PARTY.md 存在
+PASS  R-051  THIRD_PARTY.md             第三方资产行均含来源 URL 与获取日期
+PASS  R-052  meta.sources               所有 source.url 为 http/https
+PASS  R-053  meta.sources               所有 source.license 为四档枚举
+PASS  R-054  meta.sources               所有 source.accessed_at 为 YYYY-MM-DD
+PASS  R-060  annotations                标注文本不含未定标记
+PASS  R-061  role                       role 文案均含「在整机」
+PASS  R-062  annotations                role 标注字数 20-200
+PASS  R-063  annotations                标注 sources URL 合法
+PASS  R-070  meta.version               version='1.0.0' 为合法 semver
+PASS  R-071  meta.spec_version          spec_version='0.2' 为 0.2
+PASS  R-072  meta.engine_min_version    engine_min_version='0.1.0' 为合法 semver
+PASS  R-080  annotations.timeline       timeline 结构合法
+PASS  R-080  annotations.timeline       timeline highlight 引用存在
+PASS  R-081  annotations.timeline       timeline 总时长≤预算(180s)
+PASS  R-082  annotations.timeline       C4 级 anim 每镜头 caption 齐全
+PASS  R-083  annotations.timeline       caption 无未定标记
+PASS  R-084  runtime.output_sinks       sink surface 为命名枚举
+PASS  R-085  annotations                annotation.surface 均已声明
+PASS  R-086  runtime.input_map          input_map 键名合法
+PASS  R-087  localized                  localized 结构完整；警告：以下字段缺 en（回退 zh）：['assembly.whole.role', 'assembly.console.role', 'assembly.cpu_cabinet.role', 'assembly.disk_rk05.role', 'assembly.tape_tu10.role', 'assembly.unibus_rack.role', 'component.terminal.role', 'component.lamp_run.role', 'component.lamp_power.role', 'component.lamp_halt.role', 'component.lamp_battery.role', 'component.lamp_io_activity.role', 'component.lamp_cache.role', 'component.sw_boot.role', 'component.sw_halt.role', 'component.sw_start.role', 'component.sw_cont.role', 'component.sw_load_addr.role', 'component.sw_exam.role', 'component.sw_dep.role', 'component.sw_enable_halt.role', 'component.sw_clear.role', 'component.sw_power.role', 'component.lamp_addr_group.role', 'component.lamp_data_group.role', 'component.processor.role', 'component.cache.role', 'component.mmu.role', 'component.unibus_adapter.role', 'component.disk_platter.role', 'component.disk_head.role', 'component.disk_controller.role', 'component.tape_reel.role', 'component.tape_head.role', 'component.tape_controller.role', 'component.unibus_backplane.role', 'component.device_controller.role']
+PASS  R-088  meta.name_en               无 deprecated name_en（已迁移）
+PASS  R-089  meta.era                   era=1975 合法
+PASS  R-090  gltf                       glTF 网格节点名与 node_id 对应
+PASS  R-091  THIRD_PARTY.md             THIRD_PARTY 行三件套（分档+URL+日期）合法
+------------------------------------------------------------------------------
+总计 78 条：PASS 78，FAIL 0

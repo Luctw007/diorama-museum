@@ -1,0 +1,129 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "ENIAC（电子数值积分与计算机）整机，1946 年揭幕的第一台大规模通用电子计算机，以约一万八千只真空管实现十进制并行运算。",
+      "sources": []
+    },
+    {
+      "id": "cabinet_role",
+      "type": "role",
+      "target": "cabinet",
+      "text": "机柜框架在整机中作为 U 形机柜的机械骨架，承载约四十块面板与走线槽。",
+      "sources": []
+    },
+    {
+      "id": "power_unit_role",
+      "type": "role",
+      "target": "power_unit",
+      "text": "电源单元在整机中负责把市电转换为高压、灯丝与直流电压，为全部真空管供电。",
+      "sources": []
+    },
+    {
+      "id": "accumulator_bank_role",
+      "type": "role",
+      "target": "accumulator_bank",
+      "text": "累加器组在整机中由二十个相同的十位十进制累加器构成，是运算与暂存的核心。",
+      "sources": []
+    },
+    {
+      "id": "accumulator_unit_role",
+      "type": "role",
+      "target": "accumulator_unit",
+      "text": "累加器教学解剖单元在整机中代表二十个累加器中的一个实例，拆开展示其内部器件构成。",
+      "sources": []
+    },
+    {
+      "id": "function_table_unit_role",
+      "type": "role",
+      "target": "function_table_unit",
+      "text": "函数表单元在整机中由三张可拔插电阻网络组成，用于查表并在 1948 年后兼作程序存储。",
+      "sources": []
+    },
+    {
+      "id": "multiplier_unit_role",
+      "type": "role",
+      "target": "multiplier_unit",
+      "text": "乘法器单元在整机中实现高速乘法，是并行运算能力的核心。",
+      "sources": []
+    },
+    {
+      "id": "divider_unit_role",
+      "type": "role",
+      "target": "divider_unit",
+      "text": "除法与开方器单元在整机中实现除法与开方运算。",
+      "sources": []
+    },
+    {
+      "id": "master_programmer_unit_role",
+      "type": "role",
+      "target": "master_programmer_unit",
+      "text": "主程序器单元在整机中协调各单元的重复与循环，以脉冲序列驱动计算流程。",
+      "sources": []
+    },
+    {
+      "id": "io_unit_role",
+      "type": "role",
+      "target": "io_unit",
+      "text": "IBM 打孔卡单元在整机中负责常数的读入与计算结果的打孔输出。",
+      "sources": []
+    },
+    {
+      "id": "decade_ring_role",
+      "type": "role",
+      "target": "decade_ring",
+      "text": "十进位环在整机中实现十进制计数，脉冲每推进一环代表数值加一，逢十进位。",
+      "sources": []
+    },
+    {
+      "id": "pulse_circuit_role",
+      "type": "role",
+      "target": "pulse_circuit",
+      "text": "脉冲电路在整机中产生并整形驱动脉冲，为十进位环提供节拍。",
+      "sources": []
+    },
+    {
+      "id": "neon_lamp_role",
+      "type": "role",
+      "target": "neon_lamp",
+      "text": "氖灯显示在整机中点亮以显示累加器当前每一位的十进制数值。",
+      "sources": []
+    },
+    {
+      "id": "tube_socket_role",
+      "type": "role",
+      "target": "tube_socket",
+      "text": "管座在整机中固定真空管并提供电气连接，是可插拔维护的接口。",
+      "sources": []
+    },
+    {
+      "id": "program_bus_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "程序总线流程：程序由操作员通过插拔电缆与拨动开关在面板上「接线」而成，从主程序器发出控制脉冲，沿程序电缆依次到达各运算单元，决定每一条计算路径；1948 年后程序改存于函数表只读存储，由控制器按序取出。",
+      "sources": [
+        "https://en.wikipedia.org/wiki/ENIAC"
+      ]
+    },
+    {
+      "id": "data_bus_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "数据总线流程：十进制数据自 IBM 打孔卡经常数传送器进入，沿数字总线在二十个累加器、乘法器、除法与开方器之间传送；运算结果写回累加器或函数表，最终由打孔卡输出。",
+      "sources": [
+        "https://en.wikipedia.org/wiki/ENIAC"
+      ]
+    },
+    {
+      "id": "pulse_flow_anim",
+      "type": "anim",
+      "target": "master_programmer_unit",
+      "text": "主程序器脉冲流动画（共四镜）：镜头一（时长 4 秒）主程序器特写，解说词「主程序器是 ENIAC 的指挥，负责喊出每一拍的号令」；镜头二（6 秒）一个高亮脉冲从主程序器沿程序电缆出发，依次点亮累加器组的面板，箭头随脉冲移动，解说词「脉冲走到哪个单元，哪个单元就动一下」；镜头三（6 秒）脉冲进入单个累加器的十进位环，环上灯珠逐格点亮，解说词「每来一个脉冲，计数环就前进一格，逢十进一」；镜头四（4 秒）环进位到下一环、高亮进位灯，解说词「满十进位，这就是十进制加法的电子化实现」。",
+      "sources": [
+        "http://www.bitsavers.org/pdf/univOfPennsylvania/eniac/ENIAC_Operating_Manual_Jun46.pdf"
+      ]
+    }
+  ]
+}

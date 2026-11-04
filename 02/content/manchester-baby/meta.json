@@ -1,0 +1,66 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "manchester-baby",
+    "name": {
+      "zh": "曼彻斯特婴儿（SSEM）",
+      "en": "Manchester Baby (SSEM)"
+    },
+    "spec_version": "0.2",
+    "version": "0.1.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "presentation_level": "C3",
+    "era": 1948,
+    "manufacturer": "曼彻斯特大学",
+    "description": "",
+    "category": "experimental-computer",
+    "authors": [],
+    "sources": []
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "整机：本设备由脚手架生成，请补充整机概述与结构说明。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [],
+      "components": [],
+      "annotations": [
+        "whole_role"
+      ],
+      "materials": []
+    }
+  ],
+  "components": [],
+  "runtime": {
+    "emulator": "fake",
+    "version": "0.1.0",
+    "system": "manchester-baby",
+    "media_hint": "none",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [],
+    "input_map": {}
+  }
+}

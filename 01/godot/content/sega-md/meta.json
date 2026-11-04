@@ -1,0 +1,579 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "sega-md",
+    "name": {
+      "zh": "Sega Mega Drive",
+      "en": "Sega Mega Drive (Genesis)"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1988,
+    "manufacturer": "Sega",
+    "category": "game-console",
+    "description": "1988 年世嘉推出的 16 位家用游戏机，以 Motorola 68000 与 Z80 双 CPU 及 Yamaha FM 音源定义了街机味家用机的硬件范式。",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "intro": {
+      "zh": "Mega Drive（北美名 Genesis）是世嘉于 1988 年推出的 16 位家用游戏机，是第四世代主机的开篇之作。它以 Motorola 68000 主处理器与 Zilog Z80 副处理器的双 CPU 分工、Yamaha YM2612 FM 音源，把街机厅的声画体验搬进客厅，靠《索尼克》系列与任天堂展开了著名的主机战争，全球销量约 3075 万台。",
+      "en": "The Mega Drive (Genesis in North America) is a 16-bit home console released by Sega in 1988, the opening shot of the fourth generation. Built around a dual-CPU design (Motorola 68000 main + Zilog Z80 sound co-processor) and the Yamaha YM2612 FM chip, it brought arcade audiovisual power home and waged the famous console war against Nintendo, selling about 30.75 million units."
+    },
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Sega Genesis / Mega Drive",
+        "url": "https://en.wikipedia.org/wiki/Sega_Genesis",
+        "license": "cc",
+        "accessed_at": "2026-11-03"
+      },
+      {
+        "type": "documentation",
+        "title": "Sega Retro: Mega Drive",
+        "url": "https://segaretro.org/Sega_Mega_Drive",
+        "license": "cc",
+        "accessed_at": "2026-11-03"
+      },
+      {
+        "type": "documentation",
+        "title": "BlastEm (official)",
+        "url": "https://www.retrodev.com/blastem/",
+        "license": "licensed",
+        "accessed_at": "2026-11-03"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "sega_md",
+      "name": "整机",
+      "role": {
+        "zh": "Sega Mega Drive 整机，1988 年世嘉推出的 16 位家用游戏机，由上壳、下壳、主板、卡带仓、卡带与手柄组成，是游戏机厅第三台设备。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "top_shell",
+        "bottom_shell",
+        "mainboard",
+        "controller_ports",
+        "controller",
+        "cartridge"
+      ],
+      "components": [],
+      "annotations": [
+        "sega_md_role",
+        "boot_flow",
+        "model1_role"
+      ]
+    },
+    {
+      "id": "top_shell",
+      "name": "上壳",
+      "role": {
+        "zh": "上壳在整机中作为机箱顶部壳体，黑色圆润造型，带 16-BIT 铭牌位与顶部卡带仓开口，构成 MD 最具辨识度的外观。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "sega_md",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "top_shell_role",
+        "badge_16bit_role"
+      ],
+      "mesh_ref": "assemblies/top_shell.gltf"
+    },
+    {
+      "id": "bottom_shell",
+      "name": "下壳",
+      "role": {
+        "zh": "下壳在整机中作为机箱底部壳体，固定主板并承载铭牌与散热孔，与上壳扣合构成完整外壳。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "sega_md",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "bottom_shell_role"
+      ],
+      "mesh_ref": "assemblies/bottom_shell.gltf"
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 68000 主处理器与 Z80 副处理器两颗 CPU 及 VDP、FM 音源芯片，是整机的核心电路板。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "sega_md",
+      "children": [
+        "cart_bay"
+      ],
+      "components": [
+        "cpu_68k",
+        "cpu_z80",
+        "vdp",
+        "ym2612",
+        "sn76489"
+      ],
+      "annotations": [
+        "mainboard_role"
+      ],
+      "mesh_ref": "assemblies/mainboard.gltf"
+    },
+    {
+      "id": "cart_bay",
+      "name": "卡带仓",
+      "role": {
+        "zh": "卡带仓在整机中位于机身顶部，提供 64 针卡带插口，供插入游戏卡带建立程序与主机的总线连接。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "mainboard",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "cart_bay_role"
+      ],
+      "mesh_ref": "assemblies/cart_bay.gltf"
+    },
+    {
+      "id": "controller_ports",
+      "name": "手柄接口",
+      "role": {
+        "zh": "手柄接口在整机中提供两个 9 针插座，供连接手柄输入方向与按键信号。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "sega_md",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "controller_ports_role"
+      ]
+    },
+    {
+      "id": "controller",
+      "name": "六键手柄",
+      "role": {
+        "zh": "六键手柄在整机中提供十字键与 A/B/C/X/Y/Z 六键输入，是为格斗游戏推出的扩展手柄。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "sega_md",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "controller_role",
+        "six_button_role",
+        "controller_press_anim"
+      ],
+      "mesh_ref": "assemblies/controller.gltf"
+    },
+    {
+      "id": "cartridge",
+      "name": "游戏卡带",
+      "role": {
+        "zh": "游戏卡带在整机中存放游戏程序与数据，通过 64 针接口插入卡带仓，即更换整机运行的游戏内容。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "sega_md",
+      "children": [
+        "cart_shell",
+        "cart_pcb"
+      ],
+      "components": [],
+      "annotations": [
+        "cartridge_role",
+        "cartridge_insert_anim",
+        "cartridge_flow"
+      ],
+      "mesh_ref": "assemblies/cartridge.gltf"
+    },
+    {
+      "id": "cart_shell",
+      "name": "卡带外壳",
+      "role": {
+        "zh": "卡带外壳在整机中包覆卡带电路板与 ROM 芯片，是卡带的塑料保护壳体与插拔把手。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "cartridge",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "cart_shell_role"
+      ]
+    },
+    {
+      "id": "cart_pcb",
+      "name": "卡带电路板",
+      "role": {
+        "zh": "卡带电路板在整机中承载 ROM 芯片并通过 64 针金手指连接卡带仓，是卡带与主机交换数据的桥梁。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "cartridge",
+      "children": [],
+      "components": [
+        "rom_chip"
+      ],
+      "annotations": [
+        "cart_pcb_role"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "cpu_68k",
+      "name": "Motorola 68000 处理器",
+      "type": "ic",
+      "role": {
+        "zh": "Motorola 68000 处理器在整机中负责取指、译码与执行游戏程序，是整机的主运算核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": [
+        "cpu_68k_role",
+        "dual_cpu_flow"
+      ],
+      "part_no": "MC68000"
+    },
+    {
+      "id": "cpu_z80",
+      "name": "Zilog Z80 处理器",
+      "type": "ic",
+      "role": {
+        "zh": "Zilog Z80 处理器在整机中负责驱动声音芯片并兼任上一代主机兼容，是整机的副处理器。"
+      },
+      "assembly": "mainboard",
+      "annotations": [
+        "cpu_z80_role",
+        "dual_cpu_flow"
+      ],
+      "part_no": "Z80"
+    },
+    {
+      "id": "vdp",
+      "name": "VDP 视频处理器",
+      "type": "ic",
+      "role": {
+        "zh": "VDP 视频处理器在整机中合成多层卷轴与精灵画面，是整机的图形核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": [
+        "vdp_role"
+      ],
+      "part_no": "YM7101"
+    },
+    {
+      "id": "ym2612",
+      "name": "YM2612 FM 音源",
+      "type": "ic",
+      "role": {
+        "zh": "YM2612 FM 音源在整机中提供六通道 FM 合成声音，是整机标志性金属音色的来源。"
+      },
+      "assembly": "mainboard",
+      "annotations": [
+        "ym2612_role",
+        "ym2612_fm_role"
+      ],
+      "part_no": "YM2612"
+    },
+    {
+      "id": "sn76489",
+      "name": "SN76489 PSG 音源",
+      "type": "ic",
+      "role": {
+        "zh": "SN76489 PSG 音源在整机中提供四通道方波与噪声，是整机 FM 之外的第二音源。"
+      },
+      "assembly": "mainboard",
+      "annotations": [
+        "sn76489_role"
+      ],
+      "part_no": "SN76489"
+    },
+    {
+      "id": "rom_chip",
+      "name": "ROM 芯片",
+      "type": "ic",
+      "role": {
+        "zh": "ROM 芯片在整机中固化游戏程序与数据，是卡带为整机提供可更换游戏内容的存储器件。"
+      },
+      "assembly": "cart_pcb",
+      "annotations": [
+        "rom_chip_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "blastem",
+    "version": "1.0.0",
+    "system": "genesis",
+    "media_hint": "cartridge",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "crt_external",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "rgba8"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      },
+      {
+        "id": "led_power",
+        "surface": "led",
+        "type": "hid"
+      }
+    ],
+    "input_map": {
+      "pad_up": {
+        "map": "joystick",
+        "key": "hat_0"
+      },
+      "pad_down": {
+        "map": "joystick",
+        "key": "hat_0"
+      },
+      "pad_left": {
+        "map": "joystick",
+        "key": "hat_0"
+      },
+      "pad_right": {
+        "map": "joystick",
+        "key": "hat_0"
+      },
+      "btn_a": {
+        "map": "joystick",
+        "key": "btn0"
+      },
+      "btn_b": {
+        "map": "joystick",
+        "key": "btn1"
+      },
+      "btn_c": {
+        "map": "joystick",
+        "key": "btn2"
+      },
+      "btn_start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "p2_pad_up": {
+        "map": "joystick",
+        "key": "hat_1"
+      },
+      "p2_pad_down": {
+        "map": "joystick",
+        "key": "hat_1"
+      },
+      "p2_pad_left": {
+        "map": "joystick",
+        "key": "hat_1"
+      },
+      "p2_pad_right": {
+        "map": "joystick",
+        "key": "hat_1"
+      },
+      "p2_btn_a": {
+        "map": "joystick",
+        "key": "btn3"
+      },
+      "p2_btn_b": {
+        "map": "joystick",
+        "key": "btn4"
+      },
+      "p2_btn_c": {
+        "map": "joystick",
+        "key": "btn5"
+      },
+      "p2_start": {
+        "map": "keyboard",
+        "key": "KEY_INSERT"
+      },
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      }
+    }
+  }
+}

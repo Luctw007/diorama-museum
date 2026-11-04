@@ -1,0 +1,425 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hako-museum.example/schema/device_spec.schema.json",
+  "title": "DeviceSpec（箱庭电子博物馆设备内容包规范 v0.2）",
+  "description": "校验 content/<device-id>/meta.json 的 JSON Schema。runtime.json 使用 $defs/runtime，annotations/annotations.json 使用 $defs/annotations_document。版本：draft 2020-12。v0.2 新增 localized（多语言）、timeline（动画时间轴）、sinks 枚举、input_map 结构化映射。",
+  "$comment": "MIT License - Copyright (c) 2026 箱庭电子博物馆项目组 (Hako Electronic Museum Project). 本文件按 MIT 许可分发。",
+  "type": "object",
+  "required": ["meta", "assemblies", "components", "runtime"],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "可选：指向本 schema 的 URI 或相对路径"
+    },
+    "meta": { "$ref": "#/$defs/meta" },
+    "assemblies": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/assembly" }
+    },
+    "components": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/component" }
+    },
+    "runtime": { "$ref": "#/$defs/runtime" }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "localized": {
+      "type": "object",
+      "required": ["zh"],
+      "properties": {
+        "zh": { "type": "string", "minLength": 1, "description": "中文（默认语言，必填）" },
+        "en": { "type": "string", "description": "英文（可选；缺失时回退 zh 并由 R-087 警告）" }
+      },
+      "additionalProperties": false,
+      "description": "多语言文案结构 {zh, en}。zh 必填，en 可选。"
+    },
+    "meta": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "spec_version",
+        "version",
+        "engine_min_version",
+        "precision_level",
+        "sources"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$",
+          "description": "device-id，kebab-case（R-020）"
+        },
+        "name": {
+          "$ref": "#/$defs/localized",
+          "description": "设备名（v0.2 起为 localized 结构；v0.1 字符串 name 迁移到 name.zh）"
+        },
+        "name_en": {
+          "type": "string",
+          "description": "【deprecated】v0.1 遗留英文名，superseded by name.en；若同时存在须一致（R-088）"
+        },
+        "intro": {
+          "$ref": "#/$defs/localized",
+          "description": "设备百科介绍（v0.2 新增，localized；对应设计文档附录 A 的 meta.intro）"
+        },
+        "description": { "type": "string", "description": "简短概述（v0.1 沿用）" },
+        "era": {
+          "type": "integer",
+          "minimum": 1800,
+          "maximum": 2100,
+          "description": "年代（年份，v0.2 新增；R-089）"
+        },
+        "manufacturer": { "type": "string", "description": "制造/研制方（v0.2 新增，对应草稿 meta.manufacturer）" },
+        "category": { "type": "string" },
+        "spec_version": {
+          "type": "string",
+          "const": "0.2",
+          "description": "本规范版本（R-071，v0.2）"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+",
+          "description": "内容包版本，semver（R-070）"
+        },
+        "engine_min_version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+",
+          "description": "引擎最低版本，semver（R-072）"
+        },
+        "precision_level": {
+          "type": "string",
+          "enum": ["L1", "L2", "L3", "L4"],
+          "description": "资产精度分级（第五章，R-040）"
+        },
+        "presentation_level": {
+          "type": "string",
+          "enum": ["C2", "C3", "C4"],
+          "description": "展示级（第十章，C2/C3/C4；缺省视为 C3）"
+        },
+        "authors": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/author" }
+        },
+        "sources": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/source" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "author": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "contact": { "type": "string" },
+        "role": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "required": ["url", "license", "accessed_at"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["documentation", "photo", "manual", "video", "scan", "audio", "other"]
+        },
+        "title": { "type": "string" },
+        "url": {
+          "type": "string",
+          "pattern": "^https?://",
+          "description": "来源 URL，须为 http/https（R-052）"
+        },
+        "license": {
+          "type": "string",
+          "enum": ["public_domain", "cc", "licensed", "visual_reference_only"],
+          "description": "授权分档（四档，R-053）"
+        },
+        "accessed_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "获取日期 YYYY-MM-DD（R-054）"
+        }
+      },
+      "additionalProperties": false
+    },
+    "transform": {
+      "type": "object",
+      "required": ["translation", "rotation", "scale"],
+      "properties": {
+        "translation": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": { "type": "number" },
+          "description": "平移 [x,y,z]，米（R-030）"
+        },
+        "rotation": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": { "type": "number" },
+          "description": "旋转四元数 [x,y,z,w]，单位四元数（R-031）"
+        },
+        "scale": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": { "type": "number" },
+          "description": "缩放 [sx,sy,sz]，各分量 > 0（R-032/R-033）"
+        }
+      },
+      "additionalProperties": false
+    },
+    "assembly": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "role",
+        "transform",
+        "parent",
+        "children",
+        "components",
+        "annotations"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "description": "节点 id，snake_case（R-021）"
+        },
+        "name": { "type": "string", "minLength": 1 },
+        "role": {
+          "$ref": "#/$defs/localized",
+          "description": "在整机中的作用文案（v0.2 localized；v0.1 字符串 role 迁移到 role.zh）"
+        },
+        "transform": { "$ref": "#/$defs/transform" },
+        "parent": {
+          "type": ["string", "null"],
+          "description": "父装配体 id；根为 null（R-010）"
+        },
+        "children": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "components": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "annotations": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "mesh_ref": {
+          "type": "string",
+          "description": "可选：装配体网格 glTF 相对路径（R-016/R-041）"
+        },
+        "materials": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "可选：装配体引用的材质文件相对路径（v0.2 新增，R-017）"
+        }
+      },
+      "additionalProperties": false
+    },
+    "component": {
+      "type": "object",
+      "required": ["id", "name", "type", "role", "assembly", "annotations"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "name": { "type": "string", "minLength": 1 },
+        "type": { "type": "string", "description": "元器件类型（ic/capacitor/resistor/connector/...）" },
+        "part_no": { "type": "string", "description": "官方零件号（v0.2 新增，对应草稿 part_no）" },
+        "role": {
+          "$ref": "#/$defs/localized",
+          "description": "在整机中的作用文案（R-061 由校验器复核 role.zh）"
+        },
+        "assembly": { "type": "string", "description": "所属装配体 id（R-014）" },
+        "annotations": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "runtime": {
+      "type": "object",
+      "required": [
+        "emulator",
+        "version",
+        "system",
+        "media_hint",
+        "bios_required",
+        "output_sinks",
+        "input_map"
+      ],
+      "properties": {
+        "emulator": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_-]*$",
+          "description": "模拟器 id（v0.1 已定义 fake）"
+        },
+        "version": { "type": "string", "description": "模拟器/运行时版本，semver" },
+        "system": { "type": "string", "description": "模拟的系统名" },
+        "media_hint": {
+          "type": "string",
+          "enum": ["none", "cartridge", "disk", "firmware", "tape", "cd_rom", "floppy"],
+          "description": "介质提示枚举（第七章）"
+        },
+        "bios_required": { "type": "boolean" },
+        "bios_guide_url": {
+          "type": ["string", "null"],
+          "description": "BIOS 获取指引 URL，bios_required=false 时为 null"
+        },
+        "output_sinks": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/output_sink" }
+        },
+        "input_map": {
+          "type": "object",
+          "additionalProperties": {
+            "anyOf": [
+              { "$ref": "#/$defs/input_descriptor" },
+              { "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(\\.[a-z][a-z0-9_]*)*$",
+                "description": "v0.1 legacy 设备逻辑令牌（deprecated，建议迁移结构化，R-086）" }
+            ]
+          },
+          "description": "逻辑动作名 -> 输入描述 {map, key}（第十一章，R-086）"
+        }
+      },
+      "additionalProperties": false
+    },
+    "output_sink": {
+      "type": "object",
+      "required": ["id", "surface", "type"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "surface": {
+          "type": "string",
+          "enum": ["internal_crt", "external_crt", "terminal", "led", "handheld_lcd",
+                   "speaker", "crt_display", "indicator_lamps"],
+          "description": "surface 命名枚举（第十一章，R-084）"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["video", "audio", "hid"]
+        },
+        "format": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "input_descriptor": {
+      "type": "object",
+      "required": ["map", "key"],
+      "properties": {
+        "map": {
+          "type": "string",
+          "enum": ["keyboard", "mouse", "joystick"],
+          "description": "输入类别，与 PROTOCOL.md input_event.map 一致"
+        },
+        "key": {
+          "type": "string",
+          "description": "按键/轴名：keyboard 用 Godot KEY_* 命名；joystick 用 axis_x/axis_y/btnN；mouse 用 motion/btn_*/wheel（R-086 由校验器复核）"
+        }
+      },
+      "additionalProperties": false
+    },
+    "camera": {
+      "type": "object",
+      "required": ["pos", "look"],
+      "properties": {
+        "pos": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "type": "number" } },
+        "look": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "type": "number" } }
+      },
+      "additionalProperties": false
+    },
+    "arrow": {
+      "type": "object",
+      "required": ["from", "to"],
+      "properties": {
+        "from": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "type": "number" } },
+        "to": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "type": "number" } },
+        "label": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "timeline_segment": {
+      "type": "object",
+      "required": ["t", "camera"],
+      "properties": {
+        "t": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": { "type": "number" },
+          "description": "起止秒 [start, end]，要求 end > start（R-080/R-081）"
+        },
+        "camera": { "$ref": "#/$defs/camera" },
+        "arrow": { "$ref": "#/$defs/arrow" },
+        "highlight": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "高亮节点 id 列表"
+        },
+        "caption": { "type": "string", "description": "解说词（R-082/R-083）" },
+        "easing": {
+          "type": "string",
+          "enum": ["linear", "ease_in", "ease_out", "ease_in_out"]
+        }
+      },
+      "additionalProperties": false
+    },
+    "annotation": {
+      "type": "object",
+      "required": ["id", "type", "target", "text"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["role", "flow", "anim"]
+        },
+        "target": { "type": "string", "description": "标注对象：assembly 或 component id（R-015）" },
+        "text": { "type": "string", "minLength": 1 },
+        "text_en": { "type": "string", "description": "英文文案（可选）" },
+        "surface": {
+          "type": "string",
+          "description": "可选：关联的输出 surface（须在 runtime.output_sinks 中声明，R-085）"
+        },
+        "timeline": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/timeline_segment" },
+          "description": "动画/流程时间轴（anim/flow 使用，第十章）"
+        },
+        "sources": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "annotations_document": {
+      "type": "object",
+      "required": ["annotations"],
+      "properties": {
+        "annotations": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/annotation" }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,862 @@
+{
+  "meta": {
+    "id": "system360",
+    "name": {
+      "zh": "IBM System/360 Model 30",
+      "en": "IBM System/360 Model 30"
+    },
+    "intro": {
+      "zh": "IBM System/360 是 1964 年发布的兼容计算机家族，Model 30 是其入门商用机型，以微程序控制与通道式 I/O 实现一套指令集覆盖商用与科学应用。",
+      "en": "IBM System/360, announced in 1964, is the compatible mainframe family; the Model 30 is its entry business model."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1964,
+    "manufacturer": "IBM",
+    "category": "mainframe",
+    "description": "IBM System/360 Model 30（1964），兼容计算机家族的入门商用机型：32 位字、8 位字节寻址、微程序控制、通道式 I/O。",
+    "authors": [
+      {
+        "name": "TASK-28A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "IBM Archives — System/360",
+        "url": "https://www.ibm.com/history/system-360",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-02"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — IBM System/360",
+        "url": "https://en.wikipedia.org/wiki/IBM_System_360",
+        "license": "cc",
+        "accessed_at": "2026-11-02"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — IBM System/360 Model 30",
+        "url": "https://en.wikipedia.org/wiki/IBM_System/360_Model_30",
+        "license": "cc",
+        "accessed_at": "2026-11-02"
+      },
+      {
+        "type": "manual",
+        "title": "IBM System/360 手册（bitsavers 存档）",
+        "url": "https://bitsavers.org/pdf/ibm/360/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-02"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "IBM System/360 Model 30 整机，1964 年发布的兼容计算机家族中的入门商用机型。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "console",
+        "cpu_cabinet",
+        "tape_drive",
+        "card_reader",
+        "printer"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "ipl_flow"
+      ]
+    },
+    {
+      "id": "console",
+      "name": "双 CRT 操作台",
+      "role": {
+        "zh": "双 CRT 操作台在整机中作为操作员与系统交互的主界面，集成显示屏、状态灯组与各类控制开关旋钮。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.3,
+          0.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "crt_0",
+        "crt_1",
+        "lamp_power",
+        "lamp_run",
+        "lamp_wait",
+        "lamp_attention",
+        "lamp_interrupt",
+        "lamp_io_activity",
+        "lamp_channel_a",
+        "lamp_channel_b",
+        "lamp_parity_error",
+        "lamp_machine_check",
+        "lamp_storage_protect",
+        "lamp_manual",
+        "sw_power",
+        "sw_reset",
+        "sw_ipl",
+        "sw_stop",
+        "sw_start",
+        "sw_load",
+        "sw_clear",
+        "sw_single_step",
+        "sw_check",
+        "sw_display_select",
+        "sw_storage_select",
+        "sw_register_select",
+        "knob_brightness",
+        "knob_contrast",
+        "sw_address_compare",
+        "sw_emergency_pull",
+        "lamp_ready",
+        "lamp_busy",
+        "sw_timer",
+        "sw_keyboard_lock"
+      ],
+      "annotations": [
+        "console_role"
+      ],
+      "mesh_ref": "assemblies/console.gltf"
+    },
+    {
+      "id": "cpu_cabinet",
+      "name": "CPU 机柜",
+      "role": {
+        "zh": "CPU 机柜在整机中承载中央处理器、微程序只读存储器与寄存器组，是执行指令的核心单元。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "microprogram_rom",
+        "alu",
+        "register_bank"
+      ],
+      "annotations": [
+        "cpu_cabinet_role"
+      ],
+      "mesh_ref": "assemblies/cpu_cabinet.gltf"
+    },
+    {
+      "id": "tape_drive",
+      "name": "磁带机阵列（×2）",
+      "role": {
+        "zh": "磁带机阵列在整机中以两台 IBM 2415 磁带机成组配置，用于海量数据的磁记录存储与顺序读写。"
+      },
+      "transform": {
+        "translation": [
+          1.5,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "tape_reel",
+        "tape_head"
+      ],
+      "annotations": [
+        "tape_drive_role"
+      ],
+      "mesh_ref": "assemblies/tape_drive.gltf"
+    },
+    {
+      "id": "card_reader",
+      "name": "读卡机",
+      "role": {
+        "zh": "读卡机在整机中读取 80 列穿孔卡片，是程序与数据进入系统的重要输入设备。"
+      },
+      "transform": {
+        "translation": [
+          -1.5,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "card_hopper",
+        "card_stacker"
+      ],
+      "annotations": [
+        "card_reader_role"
+      ],
+      "mesh_ref": "assemblies/card_reader.gltf"
+    },
+    {
+      "id": "printer",
+      "name": "行式打印机",
+      "role": {
+        "zh": "行式打印机在整机中把计算结果与报表逐行打印输出，是系统输出结果的主要设备。"
+      },
+      "transform": {
+        "translation": [
+          -2.5,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "print_head"
+      ],
+      "annotations": [
+        "printer_role"
+      ],
+      "mesh_ref": "assemblies/printer.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "crt_0",
+      "name": "控制台 CRT 0",
+      "type": "crt",
+      "role": {
+        "zh": "控制台 CRT 0 在整机中作为主显示屏，呈现操作员与系统的交互画面与状态信息。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "crt_0_role"
+      ]
+    },
+    {
+      "id": "crt_1",
+      "name": "控制台 CRT 1",
+      "type": "crt",
+      "role": {
+        "zh": "控制台 CRT 1 在整机中作为辅助显示屏，与 CRT 0 构成双屏操作台，用于同时查看作业与系统日志。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "crt_1_role"
+      ]
+    },
+    {
+      "id": "lamp_power",
+      "name": "电源指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的首要状态指示。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_power_role"
+      ]
+    },
+    {
+      "id": "lamp_run",
+      "name": "运行指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "运行指示灯在整机中于中央处理器执行程序期间点亮，表示系统处于运行状态。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_run_role"
+      ]
+    },
+    {
+      "id": "lamp_wait",
+      "name": "等待指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "等待指示灯在整机中点亮表示处理器处于等待状态，等待外部事件或操作员指令。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_wait_role"
+      ]
+    },
+    {
+      "id": "lamp_attention",
+      "name": "注意指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "注意指示灯在整机中点亮以提示操作员有需要人工处理的事件，需查看控制台。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_attention_role"
+      ]
+    },
+    {
+      "id": "lamp_interrupt",
+      "name": "中断指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "中断指示灯在整机中点亮表示有外部设备中断请求正在被处理。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_interrupt_role"
+      ]
+    },
+    {
+      "id": "lamp_io_activity",
+      "name": "I/O 活动指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "I/O 活动指示灯在整机中闪烁表示通道正在执行输入输出操作，是观察通道繁忙程度的状态灯。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_io_activity_role"
+      ]
+    },
+    {
+      "id": "lamp_channel_a",
+      "name": "通道 A 指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "通道 A 指示灯在整机中点亮表示 A 通道当前处于活动状态。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_channel_a_role"
+      ]
+    },
+    {
+      "id": "lamp_channel_b",
+      "name": "通道 B 指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "通道 B 指示灯在整机中点亮表示 B 通道当前处于活动状态。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_channel_b_role"
+      ]
+    },
+    {
+      "id": "lamp_parity_error",
+      "name": "奇偶校验错误灯",
+      "type": "lamp",
+      "role": {
+        "zh": "奇偶校验错误灯在整机中点亮表示存储或传输中检测到奇偶校验错误，需停机排查。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_parity_error_role"
+      ]
+    },
+    {
+      "id": "lamp_machine_check",
+      "name": "机器检查灯",
+      "type": "lamp",
+      "role": {
+        "zh": "机器检查灯在整机中点亮表示发生机器检查异常，处理器进入错误处理流程。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_machine_check_role"
+      ]
+    },
+    {
+      "id": "lamp_storage_protect",
+      "name": "存储保护灯",
+      "type": "lamp",
+      "role": {
+        "zh": "存储保护灯在整机中点亮表示发生存储保护违例，程序试图访问无权访问的存储区域。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_storage_protect_role"
+      ]
+    },
+    {
+      "id": "lamp_manual",
+      "name": "手动模式灯",
+      "type": "lamp",
+      "role": {
+        "zh": "手动模式灯在整机中点亮表示系统处于手动控制模式，操作员可直接干预机器运行。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_manual_role"
+      ]
+    },
+    {
+      "id": "sw_power",
+      "name": "电源开关",
+      "type": "switch",
+      "role": {
+        "zh": "电源开关在整机中控制整机供电的通断，是启动与关闭机器的总开关。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_power_role"
+      ]
+    },
+    {
+      "id": "sw_reset",
+      "name": "复位开关",
+      "type": "switch",
+      "role": {
+        "zh": "复位开关在整机中复位处理器与各寄存器，使机器回到初始状态。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_reset_role"
+      ]
+    },
+    {
+      "id": "sw_ipl",
+      "name": "初始程序装载开关",
+      "type": "switch",
+      "role": {
+        "zh": "初始程序装载开关在整机中触发 IPL 流程，从指定设备读入引导程序并启动系统。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_ipl_role"
+      ]
+    },
+    {
+      "id": "sw_stop",
+      "name": "停机开关",
+      "type": "switch",
+      "role": {
+        "zh": "停机开关在整机中暂停处理器的执行，使机器进入停止状态等待操作员干预。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_stop_role"
+      ]
+    },
+    {
+      "id": "sw_start",
+      "name": "启动开关",
+      "type": "switch",
+      "role": {
+        "zh": "启动开关在整机中使处理器从当前程序状态开始或恢复执行。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_start_role"
+      ]
+    },
+    {
+      "id": "sw_load",
+      "name": "装载开关",
+      "type": "switch",
+      "role": {
+        "zh": "装载开关在整机中把操作员在控制台设定的数据装载进指定寄存器或存储单元。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_load_role"
+      ]
+    },
+    {
+      "id": "sw_clear",
+      "name": "清除开关",
+      "type": "switch",
+      "role": {
+        "zh": "清除开关在整机中清除控制台寄存器与显示，回到空白状态。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_clear_role"
+      ]
+    },
+    {
+      "id": "sw_single_step",
+      "name": "单步开关",
+      "type": "switch",
+      "role": {
+        "zh": "单步开关在整机中使处理器每次只执行一条指令，用于程序调试。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_single_step_role"
+      ]
+    },
+    {
+      "id": "sw_check",
+      "name": "检查开关",
+      "type": "switch",
+      "role": {
+        "zh": "检查开关在整机中触发硬件自检，验证各子系统是否工作正常。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_check_role"
+      ]
+    },
+    {
+      "id": "sw_display_select",
+      "name": "显示选择开关",
+      "type": "switch",
+      "role": {
+        "zh": "显示选择开关在整机中切换控制台 CRT 显示的内容来源，如寄存器或存储单元。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_display_select_role"
+      ]
+    },
+    {
+      "id": "sw_storage_select",
+      "name": "存储选择开关",
+      "type": "switch",
+      "role": {
+        "zh": "存储选择开关在整机中选择要检视或修改的存储单元地址。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_storage_select_role"
+      ]
+    },
+    {
+      "id": "sw_register_select",
+      "name": "寄存器选择开关",
+      "type": "switch",
+      "role": {
+        "zh": "寄存器选择开关在整机中选择要显示或装载的通用寄存器。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_register_select_role"
+      ]
+    },
+    {
+      "id": "knob_brightness",
+      "name": "亮度旋钮",
+      "type": "knob",
+      "role": {
+        "zh": "亮度旋钮在整机中调节控制台 CRT 显示画面的亮度，便于在不同光照下阅读。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "knob_brightness_role"
+      ]
+    },
+    {
+      "id": "knob_contrast",
+      "name": "对比度旋钮",
+      "type": "knob",
+      "role": {
+        "zh": "对比度旋钮在整机中调节控制台 CRT 显示画面的对比度，改善字符可读性。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "knob_contrast_role"
+      ]
+    },
+    {
+      "id": "sw_address_compare",
+      "name": "地址比较开关",
+      "type": "switch",
+      "role": {
+        "zh": "地址比较开关在整机中设定一个地址断点，当程序访问到该地址时暂停执行。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_address_compare_role"
+      ]
+    },
+    {
+      "id": "sw_emergency_pull",
+      "name": "紧急断电开关",
+      "type": "switch",
+      "role": {
+        "zh": "紧急断电开关在整机中用于紧急情况下立即切断整机电源，保障设备与人员安全。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_emergency_pull_role"
+      ]
+    },
+    {
+      "id": "microprogram_rom",
+      "name": "微程序只读存储器",
+      "type": "rom",
+      "role": {
+        "zh": "微程序只读存储器在整机中存放微指令序列，把每条机器指令译码展开为微操作，是 Model 30 微程序控制的核心。"
+      },
+      "assembly": "cpu_cabinet",
+      "annotations": [
+        "microprogram_rom_role"
+      ]
+    },
+    {
+      "id": "alu",
+      "name": "算术逻辑单元",
+      "type": "alu",
+      "role": {
+        "zh": "算术逻辑单元在整机中执行算术与逻辑运算，是中央处理器完成计算的核心部件。"
+      },
+      "assembly": "cpu_cabinet",
+      "annotations": [
+        "alu_role"
+      ]
+    },
+    {
+      "id": "register_bank",
+      "name": "通用寄存器组",
+      "type": "register",
+      "role": {
+        "zh": "通用寄存器组在整机中提供 16 个 32 位通用寄存器，用于暂存运算数据与地址。"
+      },
+      "assembly": "cpu_cabinet",
+      "annotations": [
+        "register_bank_role"
+      ]
+    },
+    {
+      "id": "tape_reel",
+      "name": "磁带卷轴",
+      "type": "reel",
+      "role": {
+        "zh": "磁带卷轴在整机中承载一盘磁带，供读写头沿磁带表面读写数据。"
+      },
+      "assembly": "tape_drive",
+      "annotations": [
+        "tape_reel_role"
+      ]
+    },
+    {
+      "id": "tape_head",
+      "name": "磁带读写头",
+      "type": "head",
+      "role": {
+        "zh": "磁带读写头在整机中贴着磁带表面读写磁记录，是磁带机与数据交互的核心部件。"
+      },
+      "assembly": "tape_drive",
+      "annotations": [
+        "tape_head_role"
+      ]
+    },
+    {
+      "id": "card_hopper",
+      "name": "送卡斗",
+      "type": "feeder",
+      "role": {
+        "zh": "送卡斗在整机中容纳待读入的穿孔卡片，并按顺序把卡片送入读卡机构。"
+      },
+      "assembly": "card_reader",
+      "annotations": [
+        "card_hopper_role"
+      ]
+    },
+    {
+      "id": "card_stacker",
+      "name": "接卡斗",
+      "type": "stacker",
+      "role": {
+        "zh": "接卡斗在整机中接收已读完的穿孔卡片，并按顺序堆叠存放。"
+      },
+      "assembly": "card_reader",
+      "annotations": [
+        "card_stacker_role"
+      ]
+    },
+    {
+      "id": "print_head",
+      "name": "打印头",
+      "type": "printhead",
+      "role": {
+        "zh": "打印头在整机中把字符逐行打印到连续打印纸上，是行式打印机输出结果的执行部件。"
+      },
+      "assembly": "printer",
+      "annotations": [
+        "print_head_role"
+      ]
+    },
+    {
+      "id": "lamp_ready",
+      "name": "就绪指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "就绪指示灯在整机中点亮表示系统已完成初始化、可以接受作业或操作员指令。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_ready_role"
+      ]
+    },
+    {
+      "id": "lamp_busy",
+      "name": "忙碌指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "忙碌指示灯在整机中点亮表示处理器正忙于执行作业，无法立即响应新的请求。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_busy_role"
+      ]
+    },
+    {
+      "id": "sw_timer",
+      "name": "定时器开关",
+      "type": "switch",
+      "role": {
+        "zh": "定时器开关在整机中设置定时中断的间隔，用于产生周期性的定时中断信号。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_timer_role"
+      ]
+    },
+    {
+      "id": "sw_keyboard_lock",
+      "name": "键盘锁开关",
+      "type": "switch",
+      "role": {
+        "zh": "键盘锁开关在整机中锁定控制台键盘，防止未经授权的操作员输入。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_keyboard_lock_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "IBM System/360 Model 30",
+    "media_hint": "tape",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "indicator_lamps_0",
+        "surface": "indicator_lamps",
+        "type": "video",
+        "format": "mono1"
+      },
+      {
+        "id": "internal_crt_0",
+        "surface": "internal_crt",
+        "type": "video",
+        "format": "mono1"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "ipl": {
+        "map": "keyboard",
+        "key": "KEY_I"
+      },
+      "start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "stop": {
+        "map": "keyboard",
+        "key": "KEY_STOP"
+      },
+      "load": {
+        "map": "keyboard",
+        "key": "KEY_L"
+      },
+      "clear": {
+        "map": "keyboard",
+        "key": "KEY_CLEAR"
+      }
+    }
+  }
+}

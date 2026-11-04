@@ -1,0 +1,724 @@
+{
+  "meta": {
+    "id": "edvac",
+    "name": "EDVAC（离散变量自动电子计算机）",
+    "name_en": "EDVAC (Electronic Discrete Variable Automatic Computer)",
+    "spec_version": "0.1",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "TASK-12-B 生产",
+        "role": "author"
+      }
+    ],
+    "description": "把《EDVAC 报告初稿》的存储程序设计落实为正式机器的现代计算机设计原型（1949 交付，1951 运行），二进制串行、水银延迟线 1,024 字 × 44 位；静态展示 + 原理动画演示模式。",
+    "category": "early-computer",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Computer History Museum 时间线",
+        "url": "https://www.computerhistory.org/timeline/?category=cmptr",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "CHM — The Neverending Quest for Firsts",
+        "url": "https://computerhistory.org/blog/the-neverending-quest-for-firsts/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "An Ultrasonic Memory Unit for the EDSAC（Wilkes & Renwick）",
+        "url": "http://www.cs.man.ac.uk/CCS/Archive/misc/EDSAC/ElectronicEngineeringRawTifs.pdf",
+        "license": "public_domain",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — EDVAC（索引）",
+        "url": "https://en.wikipedia.org/wiki/EDVAC",
+        "license": "cc",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — First Draft of a Report on the EDVAC（索引）",
+        "url": "https://en.wikipedia.org/wiki/First_Draft_of_a_Report_on_the_EDVAC",
+        "license": "cc",
+        "accessed_at": "2026-10-31"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": "EDVAC（离散变量自动电子计算机）整机，把《EDVAC 报告初稿》的存储程序设计落实为正式机器、现代冯·诺依曼架构的设计原型。",
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "cabinet",
+        "central_arithmetic",
+        "central_control",
+        "memory_unit",
+        "input_unit",
+        "output_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "five_unit_flow"
+      ],
+      "mesh_ref": "meshes/whole.gltf"
+    },
+    {
+      "id": "cabinet",
+      "name": "机柜框架",
+      "role": "机柜框架在整机中作为多机柜的机械骨架，承载五大部件并提供供电与散热。",
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "power_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "cabinet_role"
+      ]
+    },
+    {
+      "id": "central_arithmetic",
+      "name": "运算器（CA）",
+      "role": "运算器在整机中执行串行二进制加、减、乘，除法由软件子程序完成，是数据运算核心。",
+      "transform": {
+        "translation": [
+          -1.2,
+          1.0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "adder_unit",
+        "multiplier_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "central_arithmetic_role"
+      ]
+    },
+    {
+      "id": "central_control",
+      "name": "控制器（CC）",
+      "role": "控制器在整机中产生时序与顺序控制，维持程序计数器与指令寄存器，是所有现代 CPU 控制逻辑的原型。",
+      "transform": {
+        "translation": [
+          0,
+          1.0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "clock_unit",
+        "sequence_unit",
+        "dispatch_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "central_control_role"
+      ]
+    },
+    {
+      "id": "memory_unit",
+      "name": "存储器（M）",
+      "role": "存储器在整机中用水银延迟线暂存 1,024 个 44 位字，程序与数据同存于此。",
+      "transform": {
+        "translation": [
+          1.2,
+          1.0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "delay_line_unit",
+        "recirculation_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "memory_unit_role"
+      ],
+      "mesh_ref": "meshes/memory_unit.gltf"
+    },
+    {
+      "id": "input_unit",
+      "name": "输入部件（I）",
+      "role": "输入部件在整机中把程序与数据送入内存，早期经磁性记录仪，1953 起加打孔卡。",
+      "transform": {
+        "translation": [
+          -1.8,
+          -0.3,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "tape_input_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "input_unit_role"
+      ]
+    },
+    {
+      "id": "output_unit",
+      "name": "输出部件（O）",
+      "role": "输出部件在整机中把计算结果送出，早期经示波器与记录设备，1953 起打孔卡。",
+      "transform": {
+        "translation": [
+          1.8,
+          -0.3,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "scope_output_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "output_unit_role"
+      ]
+    },
+    {
+      "id": "power_unit",
+      "name": "电源单元",
+      "role": "电源单元在整机中把市电转换为各机架所需电压，为约 6,000 只真空管与 12,000 只二极管供电。",
+      "transform": {
+        "translation": [
+          0,
+          -0.7,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "power_unit_role"
+      ]
+    },
+    {
+      "id": "adder_unit",
+      "name": "串行加法器单元",
+      "role": "串行加法器单元在整机中逐位实现 44 位二进制加减，是运算器的基本运算部件。",
+      "transform": {
+        "translation": [
+          -0.3,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "central_arithmetic",
+      "children": [
+        "adder_board"
+      ],
+      "components": [],
+      "annotations": [
+        "adder_unit_role"
+      ],
+      "mesh_ref": "meshes/adder_unit.gltf"
+    },
+    {
+      "id": "multiplier_unit",
+      "name": "乘法器单元",
+      "role": "乘法器单元在整机中实现串行二进制乘法，一次乘法约 2,900 微秒。",
+      "transform": {
+        "translation": [
+          0.3,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "central_arithmetic",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "multiplier_unit_role"
+      ]
+    },
+    {
+      "id": "clock_unit",
+      "name": "主时钟单元",
+      "role": "主时钟单元在整机中产生主脉冲时序，为串行位流提供统一节拍。",
+      "transform": {
+        "translation": [
+          -0.3,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "central_control",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "clock_unit_role"
+      ]
+    },
+    {
+      "id": "sequence_unit",
+      "name": "顺序控制单元",
+      "role": "顺序控制单元在整机中维护程序计数器与指令寄存器，按序取出下一条指令。",
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "central_control",
+      "children": [],
+      "components": [
+        "instruction_register",
+        "program_counter"
+      ],
+      "annotations": [
+        "sequence_unit_role",
+        "fetch_execute_anim"
+      ]
+    },
+    {
+      "id": "dispatch_unit",
+      "name": "分发单元",
+      "role": "分发单元在整机中把来自控制器与内存的指令分发到各执行部件。",
+      "transform": {
+        "translation": [
+          0.3,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "central_control",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "dispatch_unit_role"
+      ]
+    },
+    {
+      "id": "delay_line_unit",
+      "name": "水银延迟线单元",
+      "role": "水银延迟线单元在整机中作为主存，用声波脉冲循环暂存 44 位字。",
+      "transform": {
+        "translation": [
+          -0.3,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "memory_unit",
+      "children": [
+        "delay_tank_board"
+      ],
+      "components": [],
+      "annotations": [
+        "delay_line_unit_role"
+      ]
+    },
+    {
+      "id": "recirculation_unit",
+      "name": "再循环整形单元",
+      "role": "再循环整形单元在整机中把延迟线输出脉冲放大整形后重新注入，维持数据不衰减。",
+      "transform": {
+        "translation": [
+          0.3,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "memory_unit",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "recirculation_unit_role"
+      ]
+    },
+    {
+      "id": "tape_input_unit",
+      "name": "纸带输入单元",
+      "role": "纸带输入单元在整机中把程序与数据读入内存，是程序进入机器的入口。",
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "input_unit",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "tape_input_unit_role"
+      ]
+    },
+    {
+      "id": "scope_output_unit",
+      "name": "示波器输出单元",
+      "role": "示波器输出单元在整机中把计算结果以波形或数字显示，供操作员观察。",
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "output_unit",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "scope_output_unit_role"
+      ]
+    },
+    {
+      "id": "delay_tank_board",
+      "name": "延迟线水槽板",
+      "role": "延迟线水槽板在整机中固定单个水银延迟线水槽及其换能器，构成主存最小存储单元。",
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "delay_line_unit",
+      "children": [],
+      "components": [
+        "mercury_delay_tank",
+        "transducer"
+      ],
+      "annotations": [
+        "delay_tank_board_role",
+        "delay_line_anim"
+      ]
+    },
+    {
+      "id": "adder_board",
+      "name": "加法器电路板",
+      "role": "加法器电路板在整机中承载位串行加法的真空管电路，把两个操作数逐位相加。",
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "adder_unit",
+      "children": [],
+      "components": [
+        "accumulator_register"
+      ],
+      "annotations": [
+        "adder_board_role"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "mercury_delay_tank",
+      "name": "水银延迟线水槽",
+      "type": "delay_line",
+      "role": "水银延迟线水槽在整机中利用声波在汞中传播慢的特点暂存一串二进制脉冲，是主存的物理载体。",
+      "assembly": "delay_tank_board",
+      "annotations": [
+        "mercury_delay_tank_role"
+      ]
+    },
+    {
+      "id": "transducer",
+      "name": "压电换能器",
+      "type": "transducer",
+      "role": "压电换能器在整机中把电脉冲转为声波送入水银、再在输出端把声波转回电脉冲。",
+      "assembly": "delay_tank_board",
+      "annotations": [
+        "transducer_role"
+      ]
+    },
+    {
+      "id": "accumulator_register",
+      "name": "累加器寄存器",
+      "type": "register",
+      "role": "累加器寄存器在整机中暂存运算结果，供后续指令读取与写回。",
+      "assembly": "adder_board",
+      "annotations": [
+        "accumulator_register_role"
+      ]
+    },
+    {
+      "id": "instruction_register",
+      "name": "指令寄存器",
+      "type": "register",
+      "role": "指令寄存器在整机中暂存当前取出的指令，供译码与执行。",
+      "assembly": "sequence_unit",
+      "annotations": [
+        "instruction_register_role"
+      ]
+    },
+    {
+      "id": "program_counter",
+      "name": "程序计数器",
+      "type": "register",
+      "role": "程序计数器在整机中记录下一条指令的内存地址，按序推进取指。",
+      "assembly": "sequence_unit",
+      "annotations": [
+        "program_counter_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "EDVAC（静态展示）",
+    "media_hint": "none",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "indicator_lamps_0",
+        "surface": "indicator_lamps",
+        "type": "video",
+        "format": "mono1"
+      }
+    ],
+    "input_map": {
+      "power": "panel.power",
+      "reset": "panel.reset",
+      "demo_next": "panel.demo_next",
+      "demo_pause": "panel.demo_pause"
+    }
+  }
+}

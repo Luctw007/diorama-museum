@@ -1,0 +1,109 @@
+{
+  "emulator": "mame",
+  "version": "0.289",
+  "system": "neogeo",
+  "media_hint": "cartridge",
+  "bios_required": true,
+  "bios_guide_url": "https://wiki.mamedev.org/index.php/Driver:Neo_Geo",
+  "output_sinks": [
+    {
+      "id": "crt_external",
+      "surface": "external_crt",
+      "type": "video",
+      "format": "rgba8"
+    },
+    {
+      "id": "speaker_0",
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16"
+    },
+    {
+      "id": "led_power",
+      "surface": "led",
+      "type": "hid"
+    }
+  ],
+  "input_map": {
+    "p1_up": {
+      "map": "joystick",
+      "key": "hat_0"
+    },
+    "p1_down": {
+      "map": "joystick",
+      "key": "hat_0"
+    },
+    "p1_left": {
+      "map": "joystick",
+      "key": "hat_0"
+    },
+    "p1_right": {
+      "map": "joystick",
+      "key": "hat_0"
+    },
+    "p1_btn_a": {
+      "map": "joystick",
+      "key": "btn0"
+    },
+    "p1_btn_b": {
+      "map": "joystick",
+      "key": "btn1"
+    },
+    "p1_btn_c": {
+      "map": "joystick",
+      "key": "btn2"
+    },
+    "p1_btn_d": {
+      "map": "joystick",
+      "key": "btn3"
+    },
+    "p1_start": {
+      "map": "keyboard",
+      "key": "KEY_ENTER"
+    },
+    "p1_coin": {
+      "map": "keyboard",
+      "key": "KEY_F5"
+    },
+    "p2_up": {
+      "map": "joystick",
+      "key": "hat_1"
+    },
+    "p2_down": {
+      "map": "joystick",
+      "key": "hat_1"
+    },
+    "p2_left": {
+      "map": "joystick",
+      "key": "hat_1"
+    },
+    "p2_right": {
+      "map": "joystick",
+      "key": "hat_1"
+    },
+    "p2_btn_a": {
+      "map": "joystick",
+      "key": "btn4"
+    },
+    "p2_btn_b": {
+      "map": "joystick",
+      "key": "btn5"
+    },
+    "p2_btn_c": {
+      "map": "joystick",
+      "key": "btn6"
+    },
+    "p2_btn_d": {
+      "map": "joystick",
+      "key": "btn7"
+    },
+    "p2_start": {
+      "map": "keyboard",
+      "key": "KEY_INSERT"
+    },
+    "p2_coin": {
+      "map": "keyboard",
+      "key": "KEY_F6"
+    }
+  }
+}

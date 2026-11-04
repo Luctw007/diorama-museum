@@ -1,0 +1,196 @@
+{
+  "annotations": [
+    {
+      "id": "cpu_8088_role",
+      "type": "role",
+      "target": "cpu_8088",
+      "text": "8088 处理器在整机中作为计算核心，16 位内部、8 位外部数据总线，主频 4.77 MHz。"
+    },
+    {
+      "id": "bios_rom_role",
+      "type": "role",
+      "target": "bios_rom",
+      "text": "BIOS ROM 在整机中固化开机自检、引导与硬件抽象层，是 IBM 兼容机标准的技术基石。"
+    },
+    {
+      "id": "ram_role",
+      "type": "role",
+      "target": "ram",
+      "text": "内存在整机中存放程序与数据，是系统运行时的主存储，可通过扩展卡扩充。"
+    },
+    {
+      "id": "isa_slot_role",
+      "type": "role",
+      "target": "isa_slot",
+      "text": "ISA 扩展槽在整机中提供 8 位开放总线插槽，供第三方扩展卡接入，是开放架构的核心。"
+    },
+    {
+      "id": "dma_8237_role",
+      "type": "role",
+      "target": "dma_8237",
+      "text": "8237 DMA 控制器在整机中管理外设与内存之间的直接数据传送，减轻 CPU 负担。"
+    },
+    {
+      "id": "pic_8259_role",
+      "type": "role",
+      "target": "pic_8259",
+      "text": "8259 中断控制器在整机中管理硬件中断的优先级与分发，协调 CPU 响应外设请求。"
+    },
+    {
+      "id": "pit_8253_role",
+      "type": "role",
+      "target": "pit_8253",
+      "text": "8253 定时器在整机中产生系统节拍与定时信号，是内存刷新与计时的基础。"
+    },
+    {
+      "id": "coprocessor_socket_role",
+      "type": "role",
+      "target": "coprocessor_socket",
+      "text": "8087 协处理器插座在整机中用于安装浮点协处理器，为科学计算提供硬件浮点加速。"
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "power_switch",
+      "text": "电源开关在整机中采用经典红色拨杆，控制整机供电的通断，是 IBM PC 的标志性开关。"
+    },
+    {
+      "id": "floppy_bay_role",
+      "type": "role",
+      "target": "floppy_bay",
+      "text": "双软驱位在整机中提供两个 5.25 英寸软驱安装位，用于加载程序与数据。"
+    },
+    {
+      "id": "power_led_role",
+      "type": "role",
+      "target": "power_led",
+      "text": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的状态指示。"
+    },
+    {
+      "id": "hard_drive_led_role",
+      "type": "role",
+      "target": "hard_drive_led",
+      "text": "硬盘指示灯在整机中闪烁表示磁盘正在读写，供操作员观察存储活动。"
+    },
+    {
+      "id": "expansion_slot_covers_role",
+      "type": "role",
+      "target": "expansion_slot_covers",
+      "text": "扩展槽盖板在整机中封闭机箱后部的扩展槽开口，保护内部并可在安装扩展卡时取下。"
+    },
+    {
+      "id": "ventilation_role",
+      "type": "role",
+      "target": "ventilation",
+      "text": "散热通风口在整机中为电源与主板提供空气流通，帮助系统散热。"
+    },
+    {
+      "id": "crt_role",
+      "type": "role",
+      "target": "crt",
+      "text": "单色显像管在整机中显示 80×25 文本，是 IBM PC 5151 显示器的核心显示部件。"
+    },
+    {
+      "id": "contrast_knob_role",
+      "type": "role",
+      "target": "contrast_knob",
+      "text": "对比度旋钮在整机中调节显示画面对比度，改善文本可读性。"
+    },
+    {
+      "id": "brightness_knob_role",
+      "type": "role",
+      "target": "brightness_knob",
+      "text": "亮度旋钮在整机中调节显示画面亮度，便于在不同光照下阅读。"
+    },
+    {
+      "id": "power_switch_mon_role",
+      "type": "role",
+      "target": "power_switch_mon",
+      "text": "显示器电源开关在整机中控制显示器独立供电的通断。"
+    },
+    {
+      "id": "keyboard_matrix_role",
+      "type": "role",
+      "target": "keyboard_matrix",
+      "text": "键盘矩阵在整机中承载 83 个按键，是 IBM PC 的文字与命令输入界面。"
+    },
+    {
+      "id": "function_keys_role",
+      "type": "role",
+      "target": "function_keys",
+      "text": "功能键组在整机中提供 F1–F10 功能键，供程序定义快捷操作。"
+    },
+    {
+      "id": "numpad_role",
+      "type": "role",
+      "target": "numpad",
+      "text": "数字小键盘在整机中提供独立的数字输入区，便于数据录入。"
+    },
+    {
+      "id": "transformer_role",
+      "type": "role",
+      "target": "transformer",
+      "text": "电源变压器在整机中把市电转换为机器所需的多种电压，为各部件供电。"
+    },
+    {
+      "id": "cooling_fan_role",
+      "type": "role",
+      "target": "cooling_fan",
+      "text": "散热风扇在整机中为电源与机箱内部散热，保障系统稳定运行。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "IBM PC 5150 整机，1981 年推出的开放架构个人计算机，以 x86 架构与 MS-DOS 奠定 IBM 兼容机标准。"
+    },
+    {
+      "id": "post_boot_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "开机自检流程：通电 → BIOS 执行 POST 自检（检查内存与硬件）→ BIOS 从软驱读入引导扇区 → 装入 DOS → 进入命令行提示符。"
+    },
+    {
+      "id": "isa_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "开放架构扩展流程：第三方扩展卡插入 ISA 扩展槽 → 遵循公开规范与 BIOS 接口协同工作 → 为系统增添显卡、声卡等新能力。"
+    },
+    {
+      "id": "case_role",
+      "type": "role",
+      "target": "case",
+      "text": "主机箱在整机中作为卧式机箱，承载主板、电源与扩展槽，是整机的结构骨架。"
+    },
+    {
+      "id": "front_panel_role",
+      "type": "role",
+      "target": "front_panel",
+      "text": "前面板在整机中提供电源开关、双软驱位与状态指示灯，是操作员与机器的直接交互面。"
+    },
+    {
+      "id": "motherboard_role",
+      "type": "role",
+      "target": "motherboard",
+      "text": "主板在整机中承载 8088 处理器、BIOS ROM 与 ISA 扩展槽，是系统的核心电路板。"
+    },
+    {
+      "id": "monitor_role",
+      "type": "role",
+      "target": "monitor",
+      "text": "单色显示器在整机中显示 80×25 文本，是系统输出的主要显示设备。"
+    },
+    {
+      "id": "keyboard_role",
+      "type": "role",
+      "target": "keyboard",
+      "text": "键盘在整机中作为文字与命令输入界面，把按键转换为字符送入系统。"
+    },
+    {
+      "id": "power_role",
+      "type": "role",
+      "target": "power",
+      "text": "电源在整机中把市电转换为各部件所需电压，并提供散热风扇。"
+    }
+  ]
+}

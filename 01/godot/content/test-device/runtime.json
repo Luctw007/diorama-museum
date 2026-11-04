@@ -1,0 +1,24 @@
+{
+  "emulator": "fake",
+  "version": "0.1.0",
+  "system": "fake-os",
+  "media_hint": "cartridge",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    { "id": "screen_0", "surface": "screen", "type": "video", "format": "rgba8" },
+    { "id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16" }
+  ],
+  "input_map": {
+    "power": "joypad.power",
+    "reset": "joypad.reset",
+    "start": "joypad.start",
+    "select": "joypad.select",
+    "dpad_up": "joypad.dpad_up",
+    "dpad_down": "joypad.dpad_down",
+    "dpad_left": "joypad.dpad_left",
+    "dpad_right": "joypad.dpad_right",
+    "a": "joypad.a",
+    "b": "joypad.b"
+  }
+}

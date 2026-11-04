@@ -1,0 +1,805 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "atari-2600",
+    "name": {
+      "zh": "Atari 2600（Video Computer System）",
+      "en": "Atari 2600 (Video Computer System)"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1977,
+    "manufacturer": "Atari, Inc.",
+    "category": "game-console",
+    "description": "1977 年雅达利公司推出的卡带式家用游戏机，以 6507 处理器与 TIA 电视接口适配器实现无帧缓冲的逐行图形，确立了主机与卡带分离的产业模式。",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "intro": {
+      "zh": "Atari 2600（原名 Video Computer System，简称 VCS）是雅达利公司于 1977 年推出的家用游戏机，是第一台把游戏程序装进可更换 ROM 卡带并做成大众商品的机器。它以 MOS 6507 处理器、TIA 电视接口适配器与 RIOT 6532 三颗芯片为核心，用仅 128 字节的工作内存实现无帧缓冲的逐行图形，确立了主机与卡带分离的产业模式。",
+      "en": "The Atari 2600 (originally Video Computer System, VCS) is a home video game console released by Atari, Inc. in 1977, the first machine to popularise game programs on swappable ROM cartridges. Built around the MOS 6507 CPU, the TIA chip and the RIOT 6532, it produced frame-bufferless graphics with only 128 bytes of RAM, establishing the console-and-cartridge business model."
+    },
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Atari 2600",
+        "url": "https://en.wikipedia.org/wiki/Atari_2600",
+        "license": "cc",
+        "accessed_at": "2026-11-02"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Television Interface Adapter",
+        "url": "https://en.wikipedia.org/wiki/Television_Interface_Adapter",
+        "license": "cc",
+        "accessed_at": "2026-11-02"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia: MOS Technology 6502",
+        "url": "https://en.wikipedia.org/wiki/MOS_Technology_6502",
+        "license": "cc",
+        "accessed_at": "2026-11-02"
+      },
+      {
+        "type": "documentation",
+        "title": "Stella emulator (official)",
+        "url": "https://stella-emu.github.io",
+        "license": "licensed",
+        "accessed_at": "2026-11-02"
+      },
+      {
+        "type": "documentation",
+        "title": "Stella GitHub (GPL-2.0)",
+        "url": "https://github.com/stella-emu/stella",
+        "license": "licensed",
+        "accessed_at": "2026-11-02"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "atari2600",
+      "name": "整机",
+      "role": {
+        "zh": "Atari 2600 整机，1977 年雅达利公司推出的卡带式家用游戏机，由上壳、下壳、开关板、主板、手柄接口与游戏卡带组成，是博物馆游戏机厅首台开产设备。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "top_shell",
+        "bottom_shell",
+        "switch_panel",
+        "mainboard",
+        "controller_ports",
+        "cartridge"
+      ],
+      "components": [],
+      "annotations": [
+        "atari2600_role",
+        "boot_flow"
+      ]
+    },
+    {
+      "id": "top_shell",
+      "name": "上壳",
+      "role": {
+        "zh": "上壳在整机中作为机箱顶部壳体，表面带斜纹凹槽，包覆主板与开关板，构成整机最具辨识度的外观面。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "atari2600",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "top_shell_role"
+      ],
+      "mesh_ref": "assemblies/top_shell.gltf"
+    },
+    {
+      "id": "bottom_shell",
+      "name": "下壳",
+      "role": {
+        "zh": "下壳在整机中作为机箱底部壳体，固定主板并承载机脚与铭牌，与上壳扣合构成完整外壳。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "atari2600",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "bottom_shell_role"
+      ],
+      "mesh_ref": "assemblies/bottom_shell.gltf"
+    },
+    {
+      "id": "switch_panel",
+      "name": "开关板",
+      "role": {
+        "zh": "开关板在整机中承载电源、复位、选择、难度与黑白彩色共六个面板开关，是用户直接操控整机的控制面板。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "atari2600",
+      "children": [
+        "power_switch",
+        "tv_type_switch",
+        "select_switch",
+        "reset_switch",
+        "difficulty_switch_l",
+        "difficulty_switch_r"
+      ],
+      "components": [],
+      "annotations": [
+        "switch_panel_role"
+      ],
+      "mesh_ref": "assemblies/switch_panel.gltf"
+    },
+    {
+      "id": "power_switch",
+      "name": "电源开关",
+      "role": {
+        "zh": "电源开关在整机中控制整机的通断电，拨到 ON 时整机上电进入待机状态。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "switch_panel",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "power_switch_role"
+      ]
+    },
+    {
+      "id": "tv_type_switch",
+      "name": "黑白彩色开关",
+      "role": {
+        "zh": "黑白彩色开关在整机中切换视频输出的色彩模式，适配黑白或彩色电视接收。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "switch_panel",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "tv_type_switch_role"
+      ]
+    },
+    {
+      "id": "select_switch",
+      "name": "游戏选择开关",
+      "role": {
+        "zh": "游戏选择开关在整机中触发卡带程序的选关或模式切换，具体含义由游戏程序定义。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "switch_panel",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "select_switch_role"
+      ]
+    },
+    {
+      "id": "reset_switch",
+      "name": "复位开关",
+      "role": {
+        "zh": "复位开关在整机中复位处理器并重新启动卡带程序，使整机回到开机初始状态。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "switch_panel",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "reset_switch_role"
+      ]
+    },
+    {
+      "id": "difficulty_switch_l",
+      "name": "左难度开关",
+      "role": {
+        "zh": "左难度开关在整机中设置 1 号手柄侧的难度等级，供游戏程序读取以调整玩法强度。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "switch_panel",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "difficulty_switch_l_role"
+      ]
+    },
+    {
+      "id": "difficulty_switch_r",
+      "name": "右难度开关",
+      "role": {
+        "zh": "右难度开关在整机中设置 2 号手柄侧的难度等级，供游戏程序读取以调整玩法强度。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "switch_panel",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "difficulty_switch_r_role"
+      ]
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 6507 处理器、TIA 与 RIOT 三颗核心芯片及卡带槽，是整机的核心电路板。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "atari2600",
+      "children": [
+        "cart_slot"
+      ],
+      "components": [
+        "cpu",
+        "tia",
+        "riot",
+        "rf_modulator"
+      ],
+      "annotations": [
+        "mainboard_role"
+      ],
+      "mesh_ref": "assemblies/mainboard.gltf"
+    },
+    {
+      "id": "cart_slot",
+      "name": "卡带槽",
+      "role": {
+        "zh": "卡带槽在整机中提供 24 针边缘连接器，供插入游戏卡带建立程序与主机之间的总线连接。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "mainboard",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "cart_slot_role"
+      ],
+      "mesh_ref": "assemblies/cart_slot.gltf"
+    },
+    {
+      "id": "controller_ports",
+      "name": "手柄接口",
+      "role": {
+        "zh": "手柄接口在整机中提供两个 DB-9 插座，供连接摇杆或 paddle 控制器输入方向与射击信号。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "atari2600",
+      "children": [
+        "port_1",
+        "port_2"
+      ],
+      "components": [],
+      "annotations": [
+        "controller_ports_role"
+      ]
+    },
+    {
+      "id": "port_1",
+      "name": "1 号手柄口",
+      "role": {
+        "zh": "1 号手柄口在整机中连接主摇杆，接收玩家方向与射击输入，是单人游戏的主要输入端口。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "controller_ports",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "port_1_role"
+      ]
+    },
+    {
+      "id": "port_2",
+      "name": "2 号手柄口",
+      "role": {
+        "zh": "2 号手柄口在整机中连接副摇杆，接收第二名玩家的方向与射击输入，用于双人对战。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "controller_ports",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "port_2_role"
+      ]
+    },
+    {
+      "id": "cartridge",
+      "name": "游戏卡带",
+      "role": {
+        "zh": "游戏卡带在整机中存放游戏程序与图形数据，插入卡带槽即更换整机运行的游戏内容。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "atari2600",
+      "children": [
+        "cart_shell",
+        "cart_pcb"
+      ],
+      "components": [],
+      "annotations": [
+        "cartridge_role",
+        "cartridge_insert_anim"
+      ],
+      "mesh_ref": "assemblies/cartridge.gltf"
+    },
+    {
+      "id": "cart_shell",
+      "name": "卡带外壳",
+      "role": {
+        "zh": "卡带外壳在整机中包覆卡带电路板与 ROM 芯片，是卡带的塑料保护壳体与插拔把手。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "cartridge",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "cart_shell_role"
+      ]
+    },
+    {
+      "id": "cart_pcb",
+      "name": "卡带电路板",
+      "role": {
+        "zh": "卡带电路板在整机中承载 ROM 芯片并通过金手指连接卡带槽，是卡带与主机交换数据的桥梁。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "cartridge",
+      "children": [],
+      "components": [
+        "rom_chip"
+      ],
+      "annotations": [
+        "cart_pcb_role"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "cpu",
+      "name": "6507 处理器",
+      "type": "ic",
+      "role": {
+        "zh": "6507 处理器在整机中负责取指、译码与执行游戏程序，是整机的运算与控制核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": [
+        "cpu_role"
+      ],
+      "part_no": "6507"
+    },
+    {
+      "id": "tia",
+      "name": "TIA 电视接口适配器",
+      "type": "ic",
+      "role": {
+        "zh": "TIA 电视接口适配器在整机中逐行实时生成画面与双声道声音，是整机无帧缓冲图形与音频的唯一来源。"
+      },
+      "assembly": "mainboard",
+      "annotations": [
+        "tia_role",
+        "tia_draw_flow"
+      ],
+      "part_no": "CO10444"
+    },
+    {
+      "id": "riot",
+      "name": "RIOT 6532",
+      "type": "ic",
+      "role": {
+        "zh": "RIOT 6532 在整机中提供 128 字节工作内存、定时器与手柄接口输入输出，支撑整机的状态与输入处理。"
+      },
+      "assembly": "mainboard",
+      "annotations": [
+        "riot_role"
+      ],
+      "part_no": "6532"
+    },
+    {
+      "id": "rf_modulator",
+      "name": "RF 射频调制器",
+      "type": "rf_modulator",
+      "role": {
+        "zh": "RF 射频调制器在整机中把 TIA 的音视频信号调制为电视射频信号，供整机经天线口接入电视。"
+      },
+      "assembly": "mainboard",
+      "annotations": [
+        "rf_modulator_role"
+      ]
+    },
+    {
+      "id": "rom_chip",
+      "name": "ROM 芯片",
+      "type": "ic",
+      "role": {
+        "zh": "ROM 芯片在整机中固化游戏程序与图形数据，是卡带为整机提供可更换游戏内容的存储器件。"
+      },
+      "assembly": "cart_pcb",
+      "annotations": [
+        "rom_chip_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "stella",
+    "version": "7.0",
+    "system": "a2600",
+    "media_hint": "cartridge",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "crt_external",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "rgba8"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      },
+      {
+        "id": "led_power",
+        "surface": "led",
+        "type": "hid"
+      }
+    ],
+    "input_map": {
+      "joy_up": {
+        "map": "joystick",
+        "key": "axis_y"
+      },
+      "joy_down": {
+        "map": "joystick",
+        "key": "axis_y"
+      },
+      "joy_left": {
+        "map": "joystick",
+        "key": "axis_x"
+      },
+      "joy_right": {
+        "map": "joystick",
+        "key": "axis_x"
+      },
+      "fire": {
+        "map": "joystick",
+        "key": "btn0"
+      },
+      "paddle_axis": {
+        "map": "joystick",
+        "key": "axis_x"
+      },
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "select": {
+        "map": "keyboard",
+        "key": "KEY_F1"
+      },
+      "difficulty_l": {
+        "map": "keyboard",
+        "key": "KEY_F2"
+      },
+      "difficulty_r": {
+        "map": "keyboard",
+        "key": "KEY_F3"
+      },
+      "tv_type": {
+        "map": "keyboard",
+        "key": "KEY_F4"
+      }
+    }
+  }
+}

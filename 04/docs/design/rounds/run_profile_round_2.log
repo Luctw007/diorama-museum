@@ -1,0 +1,238 @@
+﻿== run_profile --json 五包键名校验（round_2, 2026-11-02）==
+
+----- 03\repo\content\manchester-baby -----
+{
+  "device_id": "manchester-baby",
+  "package": "\\\\DESKTOP-2IDAL09\\work\\03\\repo\\content\\manchester-baby",
+  "demo_mode": false,
+  "emulator": "davidpsharp-baby",
+  "system": "Manchester Baby (SSEM)",
+  "media_hint": "none",
+  "bios_required": false,
+  "category": "early-computer",
+  "config": {
+    "width": 320,
+    "height": 200,
+    "fps": 25.0,
+    "frame_codec": "raw",
+    "sinks": [
+      "main",
+      "led",
+      "speaker"
+    ]
+  },
+  "sinks": [
+    {
+      "surface": "crt_display",
+      "type": "video",
+      "format": "mono1",
+      "mapped_to": "main"
+    },
+    {
+      "surface": "indicator_lamps",
+      "type": "video",
+      "format": "mono1",
+      "mapped_to": "led"
+    },
+    {
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16",
+      "mapped_to": "speaker"
+    }
+  ],
+  "keys": {
+    "total": 36,
+    "unknown": []
+  },
+  "first_key": {
+    "action": "power",
+    "token": "panel.power"
+  },
+  "profile_warning": null
+}
+EXIT=0
+
+----- 03\repo\content\eniac -----
+{
+  "device_id": "eniac",
+  "package": "\\\\DESKTOP-2IDAL09\\work\\03\\repo\\content\\eniac",
+  "demo_mode": true,
+  "emulator": "none",
+  "system": "ENIAC（静态展示）",
+  "media_hint": "none",
+  "bios_required": false,
+  "category": "early-computer",
+  "config": {
+    "width": 320,
+    "height": 200,
+    "fps": 25.0,
+    "frame_codec": "raw",
+    "sinks": [
+      "led"
+    ]
+  },
+  "sinks": [
+    {
+      "surface": "indicator_lamps",
+      "type": "video",
+      "format": "mono1",
+      "mapped_to": "led"
+    }
+  ],
+  "keys": {
+    "total": 4,
+    "unknown": []
+  },
+  "first_key": {
+    "action": "power",
+    "token": "panel.power"
+  },
+  "profile_warning": null
+}
+EXIT=0
+
+----- 03\repo\content\edsac -----
+{
+  "device_id": "edsac",
+  "package": "\\\\DESKTOP-2IDAL09\\work\\03\\repo\\content\\edsac",
+  "demo_mode": false,
+  "emulator": "qedsac",
+  "system": "EDSAC (Electronic Delay Storage Automatic Calculator)",
+  "media_hint": "tape",
+  "bios_required": false,
+  "category": "early-computer",
+  "config": {
+    "width": 320,
+    "height": 200,
+    "fps": 25.0,
+    "frame_codec": "raw",
+    "sinks": [
+      "main",
+      "speaker"
+    ]
+  },
+  "sinks": [
+    {
+      "surface": "external_crt",
+      "type": "video",
+      "format": "mono1",
+      "mapped_to": "main"
+    },
+    {
+      "surface": "indicator_led",
+      "type": "video",
+      "format": "mono1",
+      "mapped_to": "main"
+    },
+    {
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16",
+      "mapped_to": "speaker"
+    }
+  ],
+  "keys": {
+    "total": 16,
+    "unknown": []
+  },
+  "first_key": {
+    "action": "power",
+    "token": "panel.power"
+  },
+  "profile_warning": null
+}
+EXIT=0
+
+----- 03\repo\content\edvac -----
+{
+  "device_id": "edvac",
+  "package": "\\\\DESKTOP-2IDAL09\\work\\03\\repo\\content\\edvac",
+  "demo_mode": true,
+  "emulator": "none",
+  "system": "EDVAC（静态展示）",
+  "media_hint": "none",
+  "bios_required": false,
+  "category": "early-computer",
+  "config": {
+    "width": 320,
+    "height": 200,
+    "fps": 25.0,
+    "frame_codec": "raw",
+    "sinks": [
+      "led"
+    ]
+  },
+  "sinks": [
+    {
+      "surface": "indicator_lamps",
+      "type": "video",
+      "format": "mono1",
+      "mapped_to": "led"
+    }
+  ],
+  "keys": {
+    "total": 4,
+    "unknown": []
+  },
+  "first_key": {
+    "action": "power",
+    "token": "panel.power"
+  },
+  "profile_warning": null
+}
+EXIT=0
+
+----- 05\repo\content\apple-ii -----
+{
+  "device_id": "apple-ii",
+  "package": "\\\\DESKTOP-2IDAL09\\work\\05\\repo\\content\\apple-ii",
+  "demo_mode": false,
+  "emulator": "mame",
+  "system": "apple2",
+  "media_hint": "floppy",
+  "bios_required": true,
+  "category": "computer",
+  "config": {
+    "width": 320,
+    "height": 240,
+    "fps": 24.0,
+    "frame_codec": "raw",
+    "sinks": [
+      "main",
+      "speaker",
+      "led"
+    ]
+  },
+  "sinks": [
+    {
+      "surface": "internal_crt",
+      "type": "video",
+      "format": "rgba8",
+      "mapped_to": "main"
+    },
+    {
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16",
+      "mapped_to": "speaker"
+    },
+    {
+      "surface": "led",
+      "type": "hid",
+      "format": null,
+      "mapped_to": "led"
+    }
+  ],
+  "keys": {
+    "total": 57,
+    "unknown": []
+  },
+  "first_key": {
+    "action": "key_a",
+    "map": "keyboard",
+    "key": "KEY_A"
+  },
+  "profile_warning": null
+}
+EXIT=0

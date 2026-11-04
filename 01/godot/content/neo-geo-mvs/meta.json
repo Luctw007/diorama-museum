@@ -1,0 +1,478 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "neo-geo-mvs",
+    "name": {
+      "zh": "Neo Geo MVS 街机柜",
+      "en": "Neo Geo MVS Arcade Cabinet"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1990,
+    "manufacturer": "SNK",
+    "category": "game-console",
+    "description": "1990 年 SNK 推出的 Neo Geo MVS 街机柜，多视频系统基板配大卡带，孕育了拳皇、侍魂、合金弹头等街机黄金年代名作。",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "intro": {
+      "zh": "Neo Geo MVS（Multi Video System，多视频系统）是 SNK 于 1990 年推出的街机基板，以 68000 主处理器与双卡带槽位设计著称，一台框体可装多张游戏卡、换卡不停机。它孕育了拳皇、侍魂、合金弹头等格斗与射击名作，是街机黄金年代的见证，也是街机厅首台进入博物馆的设备。",
+      "en": "The Neo Geo MVS (Multi Video System) is an arcade board released by SNK in 1990, known for its 68000 CPU and dual cartridge slots that allow game swapping without powering down. It birthed The King of Fighters, Samurai Shodown, and Metal Slug, defining the golden age of arcades."
+    },
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Neo Geo (system)",
+        "url": "https://en.wikipedia.org/wiki/Neo_Geo_(system)",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "MAME Driver: Neo Geo",
+        "url": "https://wiki.mamedev.org/index.php/Driver:Neo_Geo",
+        "license": "licensed",
+        "accessed_at": "2026-11-04"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "neo_geo_mvs",
+      "name": "整机",
+      "role": {
+        "zh": "Neo Geo MVS 街机柜整机，1990 年 SNK 推出的多视频系统街机，由框体、CRT 屏、控制台、MVS 基板、卡带、投币机构与电源组成，是街机厅首台设备。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "cabinet",
+        "crt_module",
+        "control_panel",
+        "mvs_board",
+        "cartridge",
+        "coin_mechanism",
+        "power_supply"
+      ],
+      "components": [],
+      "annotations": [
+        "neo_geo_mvs_role",
+        "boot_flow",
+        "snk_decade_role"
+      ]
+    },
+    {
+      "id": "cabinet",
+      "name": "框体",
+      "role": {
+        "zh": "框体在整机中作为立式木板机柜，承载全部内部部件，顶部带灯箱，是街机厅的物理主体。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "neo_geo_mvs",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "cabinet_role",
+        "marquee_role",
+        "cabinet_wood_role"
+      ],
+      "mesh_ref": "assemblies/cabinet.gltf"
+    },
+    {
+      "id": "crt_module",
+      "name": "CRT 屏模组",
+      "role": {
+        "zh": "CRT 屏模组在整机中显示游戏画面，是街机厅大屏体验的核心显示部件。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "neo_geo_mvs",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "crt_module_role",
+        "crt_arcade_role"
+      ],
+      "mesh_ref": "assemblies/crt_module.gltf"
+    },
+    {
+      "id": "control_panel",
+      "name": "控制台",
+      "role": {
+        "zh": "控制台在整机中提供摇杆与按键输入，是玩家操作游戏的面板，带 4 键（A/B/C/D）布局。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "neo_geo_mvs",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "control_panel_role",
+        "six_button_role",
+        "joystick_role"
+      ],
+      "mesh_ref": "assemblies/control_panel.gltf"
+    },
+    {
+      "id": "mvs_board",
+      "name": "MVS 基板",
+      "role": {
+        "zh": "MVS 基板在整机中承载 68000 主处理器与图形音源芯片，带双卡带槽位，是街机的主机核心。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "neo_geo_mvs",
+      "children": [],
+      "components": [
+        "cpu_68k",
+        "cpu_z80",
+        "ym2610"
+      ],
+      "annotations": [
+        "mvs_board_role",
+        "multi_slot_role"
+      ],
+      "mesh_ref": "assemblies/mvs_board.gltf"
+    },
+    {
+      "id": "cartridge",
+      "name": "卡带",
+      "role": {
+        "zh": "卡带在整机中存放游戏程序，MVS 大卡尺寸，插入基板槽位即更换游戏。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "neo_geo_mvs",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "cartridge_role",
+        "big_cart_role",
+        "cartridge_insert_anim",
+        "cartridge_swap_flow"
+      ],
+      "mesh_ref": "assemblies/cartridge.gltf"
+    },
+    {
+      "id": "coin_mechanism",
+      "name": "投币机构",
+      "role": {
+        "zh": "投币机构在整机中检测投币并触发游戏开始，是街机投币文化的物理载体。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "neo_geo_mvs",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "coin_mechanism_role",
+        "coin_culture_role",
+        "coin_mech_role",
+        "coin_insert_anim"
+      ],
+      "mesh_ref": "assemblies/coin_mechanism.gltf"
+    },
+    {
+      "id": "power_supply",
+      "name": "电源",
+      "role": {
+        "zh": "电源在整机中为框体各部件供电，是街机稳定运行的电力基础。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "neo_geo_mvs",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "power_supply_role",
+        "power_role"
+      ],
+      "mesh_ref": "assemblies/power_supply.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "cpu_68k",
+      "name": "Motorola 68000 处理器",
+      "type": "ic",
+      "role": {
+        "zh": "Motorola 68000 处理器在整机中执行游戏程序，是 MVS 基板的主运算核心。"
+      },
+      "assembly": "mvs_board",
+      "annotations": [
+        "cpu_68k_role"
+      ],
+      "part_no": "MC68000"
+    },
+    {
+      "id": "cpu_z80",
+      "name": "Zilog Z80 处理器",
+      "type": "ic",
+      "role": {
+        "zh": "Zilog Z80 处理器在整机中驱动声音芯片，是 MVS 基板的副处理器。"
+      },
+      "assembly": "mvs_board",
+      "annotations": [
+        "cpu_z80_role"
+      ],
+      "part_no": "Z80"
+    },
+    {
+      "id": "ym2610",
+      "name": "YM2610 FM 音源",
+      "type": "ic",
+      "role": {
+        "zh": "YM2610 FM 音源在整机中提供 FM 合成与采样声音，是 Neo Geo 标志性音色的来源。"
+      },
+      "assembly": "mvs_board",
+      "annotations": [
+        "ym2610_role"
+      ],
+      "part_no": "YM2610"
+    }
+  ],
+  "runtime": {
+    "emulator": "mame",
+    "version": "0.289",
+    "system": "neogeo",
+    "media_hint": "cartridge",
+    "bios_required": true,
+    "bios_guide_url": "https://wiki.mamedev.org/index.php/Driver:Neo_Geo",
+    "output_sinks": [
+      {
+        "id": "crt_external",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "rgba8"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      },
+      {
+        "id": "led_power",
+        "surface": "led",
+        "type": "hid"
+      }
+    ],
+    "input_map": {
+      "p1_up": {
+        "map": "joystick",
+        "key": "hat_0"
+      },
+      "p1_down": {
+        "map": "joystick",
+        "key": "hat_0"
+      },
+      "p1_left": {
+        "map": "joystick",
+        "key": "hat_0"
+      },
+      "p1_right": {
+        "map": "joystick",
+        "key": "hat_0"
+      },
+      "p1_btn_a": {
+        "map": "joystick",
+        "key": "btn0"
+      },
+      "p1_btn_b": {
+        "map": "joystick",
+        "key": "btn1"
+      },
+      "p1_btn_c": {
+        "map": "joystick",
+        "key": "btn2"
+      },
+      "p1_btn_d": {
+        "map": "joystick",
+        "key": "btn3"
+      },
+      "p1_start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "p1_coin": {
+        "map": "keyboard",
+        "key": "KEY_F5"
+      },
+      "p2_up": {
+        "map": "joystick",
+        "key": "hat_1"
+      },
+      "p2_down": {
+        "map": "joystick",
+        "key": "hat_1"
+      },
+      "p2_left": {
+        "map": "joystick",
+        "key": "hat_1"
+      },
+      "p2_right": {
+        "map": "joystick",
+        "key": "hat_1"
+      },
+      "p2_btn_a": {
+        "map": "joystick",
+        "key": "btn4"
+      },
+      "p2_btn_b": {
+        "map": "joystick",
+        "key": "btn5"
+      },
+      "p2_btn_c": {
+        "map": "joystick",
+        "key": "btn6"
+      },
+      "p2_btn_d": {
+        "map": "joystick",
+        "key": "btn7"
+      },
+      "p2_start": {
+        "map": "keyboard",
+        "key": "KEY_INSERT"
+      },
+      "p2_coin": {
+        "map": "keyboard",
+        "key": "KEY_F6"
+      }
+    }
+  }
+}

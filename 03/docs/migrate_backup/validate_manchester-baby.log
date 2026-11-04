@@ -1,0 +1,130 @@
+PASS  R-001  meta.json                  meta.json 存在且为合法 JSON
+PASS  R-002  meta.json                  meta.json 通过 device_spec.schema.json 校验
+PASS  R-003  runtime.json               runtime.json 通过 $defs/runtime 校验
+PASS  R-004  runtime.json               runtime.json 与 meta.json.runtime 一致
+PASS  R-005  annotations/annotations.json annotations.json 通过 $defs/annotations_document 校验
+PASS  R-010  -                          所有 parent 引用存在
+PASS  R-011  -                          所有 children 引用存在
+PASS  R-012  -                          装配树无环
+PASS  R-013  -                          parent/children 双向一致
+PASS  R-014  -                          所有 component.assembly 引用存在
+PASS  R-015  -                          所有 annotation.target 引用存在
+PASS  R-016  -                          所有 mesh_ref 文件存在
+PASS  R-017  -                          所有 materials 文件存在
+PASS  R-018  -                          所有 annotations 引用存在
+PASS  R-020  meta.id                    device-id 'manchester-baby' 符合 kebab-case
+PASS  R-021  nodes                      所有节点 id 符合 snake_case
+PASS  R-022  annotations/output_sinks   annotation/sink id 符合 snake_case
+PASS  R-023  nodes                      节点 id 全局唯一
+PASS  R-030  assemblies[whole]          translation 为 3 个有限实数
+PASS  R-031  assemblies[whole]          rotation 为单位四元数
+PASS  R-032  assemblies[whole]          scale 各分量 > 0
+PASS  R-033  assemblies[whole]          scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[cabinet]        translation 为 3 个有限实数
+PASS  R-031  assemblies[cabinet]        rotation 为单位四元数
+PASS  R-032  assemblies[cabinet]        scale 各分量 > 0
+PASS  R-033  assemblies[cabinet]        scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[storage_unit]   translation 为 3 个有限实数
+PASS  R-031  assemblies[storage_unit]   rotation 为单位四元数
+PASS  R-032  assemblies[storage_unit]   scale 各分量 > 0
+PASS  R-033  assemblies[storage_unit]   scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[control_unit]   translation 为 3 个有限实数
+PASS  R-031  assemblies[control_unit]   rotation 为单位四元数
+PASS  R-032  assemblies[control_unit]   scale 各分量 > 0
+PASS  R-033  assemblies[control_unit]   scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[arithmetic_unit] translation 为 3 个有限实数
+PASS  R-031  assemblies[arithmetic_unit] rotation 为单位四元数
+PASS  R-032  assemblies[arithmetic_unit] scale 各分量 > 0
+PASS  R-033  assemblies[arithmetic_unit] scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[io_unit]        translation 为 3 个有限实数
+PASS  R-031  assemblies[io_unit]        rotation 为单位四元数
+PASS  R-032  assemblies[io_unit]        scale 各分量 > 0
+PASS  R-033  assemblies[io_unit]        scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[power_unit]     translation 为 3 个有限实数
+PASS  R-031  assemblies[power_unit]     rotation 为单位四元数
+PASS  R-032  assemblies[power_unit]     scale 各分量 > 0
+PASS  R-033  assemblies[power_unit]     scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[store_crt_unit] translation 为 3 个有限实数
+PASS  R-031  assemblies[store_crt_unit] rotation 为单位四元数
+PASS  R-032  assemblies[store_crt_unit] scale 各分量 > 0
+PASS  R-033  assemblies[store_crt_unit] scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[control_crt_unit] translation 为 3 个有限实数
+PASS  R-031  assemblies[control_crt_unit] rotation 为单位四元数
+PASS  R-032  assemblies[control_crt_unit] scale 各分量 > 0
+PASS  R-033  assemblies[control_crt_unit] scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[accumulator_crt_unit] translation 为 3 个有限实数
+PASS  R-031  assemblies[accumulator_crt_unit] rotation 为单位四元数
+PASS  R-032  assemblies[accumulator_crt_unit] scale 各分量 > 0
+PASS  R-033  assemblies[accumulator_crt_unit] scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[clock_unit]     translation 为 3 个有限实数
+PASS  R-031  assemblies[clock_unit]     rotation 为单位四元数
+PASS  R-032  assemblies[clock_unit]     scale 各分量 > 0
+PASS  R-033  assemblies[clock_unit]     scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[sequencer_unit] translation 为 3 个有限实数
+PASS  R-031  assemblies[sequencer_unit] rotation 为单位四元数
+PASS  R-032  assemblies[sequencer_unit] scale 各分量 > 0
+PASS  R-033  assemblies[sequencer_unit] scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[subtractor_unit] translation 为 3 个有限实数
+PASS  R-031  assemblies[subtractor_unit] rotation 为单位四元数
+PASS  R-032  assemblies[subtractor_unit] scale 各分量 > 0
+PASS  R-033  assemblies[subtractor_unit] scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[switch_panel_unit] translation 为 3 个有限实数
+PASS  R-031  assemblies[switch_panel_unit] rotation 为单位四元数
+PASS  R-032  assemblies[switch_panel_unit] scale 各分量 > 0
+PASS  R-033  assemblies[switch_panel_unit] scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[store_crt_board] translation 为 3 个有限实数
+PASS  R-031  assemblies[store_crt_board] rotation 为单位四元数
+PASS  R-032  assemblies[store_crt_board] scale 各分量 > 0
+PASS  R-033  assemblies[store_crt_board] scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[control_crt_board] translation 为 3 个有限实数
+PASS  R-031  assemblies[control_crt_board] rotation 为单位四元数
+PASS  R-032  assemblies[control_crt_board] scale 各分量 > 0
+PASS  R-033  assemblies[control_crt_board] scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[accumulator_crt_board] translation 为 3 个有限实数
+PASS  R-031  assemblies[accumulator_crt_board] rotation 为单位四元数
+PASS  R-032  assemblies[accumulator_crt_board] scale 各分量 > 0
+PASS  R-033  assemblies[accumulator_crt_board] scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[subtractor_board] translation 为 3 个有限实数
+PASS  R-031  assemblies[subtractor_board] rotation 为单位四元数
+PASS  R-032  assemblies[subtractor_board] scale 各分量 > 0
+PASS  R-033  assemblies[subtractor_board] scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[switch_board]   translation 为 3 个有限实数
+PASS  R-031  assemblies[switch_board]   rotation 为单位四元数
+PASS  R-032  assemblies[switch_board]   scale 各分量 > 0
+PASS  R-033  assemblies[switch_board]   scale 各分量在 [1e-6, 1e6]
+PASS  R-040  meta.precision_level       precision_level=L2 合法
+PASS  R-041  assemblies[whole]          glTF 可解析（version=2.0）
+PASS  R-042  assemblies[whole]          预算统计：nodes=1, triangles=12；超限由 budget_check.py 报告，不阻塞（可调）
+PASS  R-041  assemblies[cabinet]        glTF 可解析（version=2.0）
+PASS  R-042  assemblies[cabinet]        预算统计：nodes=1, triangles=12；超限由 budget_check.py 报告，不阻塞（可调）
+PASS  R-041  assemblies[store_crt_unit] glTF 可解析（version=2.0）
+PASS  R-042  assemblies[store_crt_unit] 预算统计：nodes=1, triangles=12；超限由 budget_check.py 报告，不阻塞（可调）
+PASS  R-041  assemblies[switch_panel_unit] glTF 可解析（version=2.0）
+PASS  R-042  assemblies[switch_panel_unit] 预算统计：nodes=1, triangles=12；超限由 budget_check.py 报告，不阻塞（可调）
+PASS  R-050  THIRD_PARTY.md             THIRD_PARTY.md 存在
+PASS  R-051  THIRD_PARTY.md             第三方资产行均含来源 URL 与获取日期
+PASS  R-052  meta.sources               所有 source.url 为 http/https
+PASS  R-053  meta.sources               所有 source.license 为四档枚举
+PASS  R-054  meta.sources               所有 source.accessed_at 为 YYYY-MM-DD
+PASS  R-060  annotations                标注文本不含未定标记
+PASS  R-061  role                       role 文案均含「在整机」
+PASS  R-062  annotations                role 标注字数 20-200
+PASS  R-063  annotations                标注 sources URL 合法
+PASS  R-070  meta.version               version='1.1.0' 为合法 semver
+PASS  R-071  meta.spec_version          spec_version='0.2' 为 0.2
+PASS  R-072  meta.engine_min_version    engine_min_version='0.1.0' 为合法 semver
+PASS  R-080  annotations.timeline       timeline 结构合法
+PASS  R-080  annotations.timeline       timeline highlight 引用存在
+PASS  R-081  annotations.timeline       timeline 总时长≤预算(180s)
+PASS  R-082  annotations.timeline       C4 级 anim 每镜头 caption 齐全
+PASS  R-083  annotations.timeline       caption 无未定标记
+PASS  R-084  runtime.output_sinks       sink surface 为命名枚举
+PASS  R-085  annotations                annotation.surface 均已声明
+PASS  R-086  runtime.input_map          input_map 键名合法；legacy 字符串形式 36 项（建议迁移结构化）
+PASS  R-087  localized                  localized 结构完整；警告：以下字段缺 en（回退 zh）：['assembly.whole.role', 'assembly.cabinet.role', 'assembly.storage_unit.role', 'assembly.control_unit.role', 'assembly.arithmetic_unit.role', 'assembly.io_unit.role', 'assembly.power_unit.role', 'assembly.store_crt_unit.role', 'assembly.control_crt_unit.role', 'assembly.accumulator_crt_unit.role', 'assembly.clock_unit.role', 'assembly.sequencer_unit.role', 'assembly.subtractor_unit.role', 'assembly.switch_panel_unit.role', 'assembly.store_crt_board.role', 'assembly.control_crt_board.role', 'assembly.accumulator_crt_board.role', 'assembly.subtractor_board.role', 'assembly.switch_board.role', 'component.williams_tube.role', 'component.store_crt_screen.role', 'component.store_electron_gun.role', 'component.control_crt_screen.role', 'component.accumulator_crt_screen.role', 'component.subtractor_valve.role', 'component.clock_oscillator.role', 'component.sequencer_relay.role', 'component.toggle_switch.role', 'component.push_button.role', 'component.power_transformer.role']
+PASS  R-088  meta.name_en               无 deprecated name_en（已迁移）
+PASS  R-089  meta.era                   未填 era（可选）
+PASS  R-090  gltf                       glTF 网格节点名与 node_id 对应
+PASS  R-091  THIRD_PARTY.md             THIRD_PARTY 行三件套（分档+URL+日期）合法
+------------------------------------------------------------------------------
+总计 128 条：PASS 128，FAIL 0

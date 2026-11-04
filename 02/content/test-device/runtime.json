@@ -1,0 +1,24 @@
+{
+  "emulator": "fake",
+  "version": "0.1.0",
+  "system": "fake-os",
+  "media_hint": "cartridge",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    { "id": "screen_0", "surface": "handheld_lcd", "type": "video", "format": "rgba8" },
+    { "id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16" }
+  ],
+  "input_map": {
+    "power": { "map": "keyboard", "key": "KEY_P" },
+    "reset": { "map": "keyboard", "key": "KEY_F2" },
+    "start": { "map": "keyboard", "key": "KEY_ENTER" },
+    "select": { "map": "keyboard", "key": "KEY_BACKSPACE" },
+    "dpad_up": { "map": "keyboard", "key": "KEY_UP" },
+    "dpad_down": { "map": "keyboard", "key": "KEY_DOWN" },
+    "dpad_left": { "map": "keyboard", "key": "KEY_LEFT" },
+    "dpad_right": { "map": "keyboard", "key": "KEY_RIGHT" },
+    "joy_axis_x": { "map": "joystick", "key": "axis_x" },
+    "joy_btn0": { "map": "joystick", "key": "btn0" }
+  }
+}

@@ -1,0 +1,904 @@
+{
+  "meta": {
+    "id": "manchester-baby",
+    "name": {
+      "zh": "曼彻斯特 Baby（SSEM）",
+      "en": "Manchester Baby (SSEM)"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "TASK-08 生产",
+        "role": "author"
+      }
+    ],
+    "description": "世界第一台运行存储程序的电子数字计算机实验样机（1948），专为验证 Williams 管 CRT 存储器而建，仅 32 字 × 32 位主存、约 550 只真空管。",
+    "category": "early-computer",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Manchester Baby Simulator (davidpsharp/baby)",
+        "url": "https://github.com/davidpsharp/baby",
+        "license": "licensed",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "Manchester Baby 在线模拟",
+        "url": "https://manchesterbaby.com",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "The Baby: The World's First Stored-Program Computer (billp.org)",
+        "url": "http://www.billp.org/baby.pdf",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "History of Information — Baby 首程序",
+        "url": "https://www.historyofinformation.com/detail.php?id=672",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Manchester Baby（索引）",
+        "url": "https://en.wikipedia.org/wiki/Manchester_Baby",
+        "license": "cc",
+        "accessed_at": "2026-10-31"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "曼彻斯特 Baby（SSEM）整机，世界第一台运行存储程序的电子数字计算机实验样机，由 Williams、Kilburn 与 Tootill 于 1948 年在曼彻斯特大学建成，用于验证 Williams 管 CRT 存储器。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "cabinet",
+        "storage_unit",
+        "control_unit",
+        "arithmetic_unit",
+        "io_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "program_entry_flow",
+        "fetch_execute_flow"
+      ],
+      "mesh_ref": "meshes/whole.gltf"
+    },
+    {
+      "id": "cabinet",
+      "name": "机架总成",
+      "role": {
+        "zh": "机架总成在整机中作为全部单元的机械骨架，承载七个机架、提供结构支撑与走线通道。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "power_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "cabinet_role"
+      ],
+      "mesh_ref": "meshes/cabinet.gltf"
+    },
+    {
+      "id": "storage_unit",
+      "name": "存储子系统",
+      "role": {
+        "zh": "存储子系统在整机中负责保存程序与数据，用三只阴极射线管以电荷斑点形式暂存二进制位。"
+      },
+      "transform": {
+        "translation": [
+          -1.5,
+          1.2,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "store_crt_unit",
+        "control_crt_unit",
+        "accumulator_crt_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "storage_unit_role"
+      ]
+    },
+    {
+      "id": "control_unit",
+      "name": "控制子系统",
+      "role": {
+        "zh": "控制子系统在整机中负责维持取指与执行的节奏，生成时钟并推进程序地址。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          1.2,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "clock_unit",
+        "sequencer_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "control_unit_role"
+      ]
+    },
+    {
+      "id": "arithmetic_unit",
+      "name": "运算子系统",
+      "role": {
+        "zh": "运算子系统在整机中承担唯一的硬件算术功能——减法与取负，其余运算均由软件组合完成。"
+      },
+      "transform": {
+        "translation": [
+          0.5,
+          1.2,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "subtractor_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "arithmetic_unit_role"
+      ]
+    },
+    {
+      "id": "io_unit",
+      "name": "输入输出子系统",
+      "role": {
+        "zh": "输入输出子系统在整机中提供程序键入与结果读取的接口，通过面板开关与按钮完成人机交互。"
+      },
+      "transform": {
+        "translation": [
+          1.5,
+          1.2,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [
+        "switch_panel_unit"
+      ],
+      "components": [],
+      "annotations": [
+        "io_unit_role"
+      ]
+    },
+    {
+      "id": "power_unit",
+      "name": "电源单元",
+      "role": {
+        "zh": "电源单元在整机中负责把市电转换为各机架所需的直流高压与灯丝电压，为全部真空管供电。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.5,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "cabinet",
+      "children": [],
+      "components": [
+        "power_transformer"
+      ],
+      "annotations": [
+        "power_unit_role"
+      ]
+    },
+    {
+      "id": "store_crt_unit",
+      "name": "存储CRT管单元",
+      "role": {
+        "zh": "存储CRT管单元在整机中作为主存，用 32 个字、每个字 32 位的亮点图案保存程序与数据。"
+      },
+      "transform": {
+        "translation": [
+          -0.35,
+          0.4,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "storage_unit",
+      "children": [
+        "store_crt_board"
+      ],
+      "components": [],
+      "annotations": [
+        "store_crt_unit_role"
+      ],
+      "mesh_ref": "meshes/store_crt_unit.gltf"
+    },
+    {
+      "id": "control_crt_unit",
+      "name": "控制CRT管单元",
+      "role": {
+        "zh": "控制CRT管单元在整机中暂存当前指令地址与当前指令，是取指流程的中转枢纽。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.4,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "storage_unit",
+      "children": [
+        "control_crt_board"
+      ],
+      "components": [],
+      "annotations": [
+        "control_crt_unit_role"
+      ]
+    },
+    {
+      "id": "accumulator_crt_unit",
+      "name": "累加器CRT管单元",
+      "role": {
+        "zh": "累加器CRT管单元在整机中保存当前运算结果，是算术运算的暂存寄存器。"
+      },
+      "transform": {
+        "translation": [
+          0.35,
+          0.4,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "storage_unit",
+      "children": [
+        "accumulator_crt_board"
+      ],
+      "components": [],
+      "annotations": [
+        "accumulator_crt_unit_role"
+      ]
+    },
+    {
+      "id": "clock_unit",
+      "name": "时钟单元",
+      "role": {
+        "zh": "时钟单元在整机中产生约 100 千赫的主脉冲，为全部单元提供统一的节拍。"
+      },
+      "transform": {
+        "translation": [
+          -0.2,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "control_unit",
+      "children": [],
+      "components": [
+        "clock_oscillator"
+      ],
+      "annotations": [
+        "clock_unit_role"
+      ]
+    },
+    {
+      "id": "sequencer_unit",
+      "name": "顺序控制单元",
+      "role": {
+        "zh": "顺序控制单元在整机中负责递增当前指令地址，使程序按存储顺序逐条执行。"
+      },
+      "transform": {
+        "translation": [
+          0.2,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "control_unit",
+      "children": [],
+      "components": [
+        "sequencer_relay"
+      ],
+      "annotations": [
+        "sequencer_unit_role"
+      ]
+    },
+    {
+      "id": "subtractor_unit",
+      "name": "减法逻辑单元",
+      "role": {
+        "zh": "减法逻辑单元在整机中实现位串行的减法与取负，是这台机器唯一的硬件运算能力。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "arithmetic_unit",
+      "children": [
+        "subtractor_board"
+      ],
+      "components": [],
+      "annotations": [
+        "subtractor_unit_role"
+      ]
+    },
+    {
+      "id": "switch_panel_unit",
+      "name": "开关面板单元",
+      "role": {
+        "zh": "开关面板单元在整机中提供手工键入程序的界面，操作员逐字拨动开关写入存储管。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.3,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "io_unit",
+      "children": [
+        "switch_board"
+      ],
+      "components": [],
+      "annotations": [
+        "switch_panel_unit_role"
+      ],
+      "mesh_ref": "meshes/switch_panel_unit.gltf"
+    },
+    {
+      "id": "store_crt_board",
+      "name": "存储管驱动板",
+      "role": {
+        "zh": "存储管驱动板在整机中控制存储CRT管的写、读与刷新，把电荷斑点维持在正确状态。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "store_crt_unit",
+      "children": [],
+      "components": [
+        "williams_tube",
+        "store_crt_screen",
+        "store_electron_gun"
+      ],
+      "annotations": [
+        "store_crt_board_role"
+      ]
+    },
+    {
+      "id": "control_crt_board",
+      "name": "控制管驱动板",
+      "role": {
+        "zh": "控制管驱动板在整机中驱动控制CRT管的写读，配合顺序控制单元完成取指。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "control_crt_unit",
+      "children": [],
+      "components": [
+        "control_crt_screen"
+      ],
+      "annotations": [
+        "control_crt_board_role"
+      ]
+    },
+    {
+      "id": "accumulator_crt_board",
+      "name": "累加器管驱动板",
+      "role": {
+        "zh": "累加器管驱动板在整机中驱动累加器CRT管的写读，保存并输出运算结果。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "accumulator_crt_unit",
+      "children": [],
+      "components": [
+        "accumulator_crt_screen"
+      ],
+      "annotations": [
+        "accumulator_crt_board_role"
+      ]
+    },
+    {
+      "id": "subtractor_board",
+      "name": "减法逻辑板",
+      "role": {
+        "zh": "减法逻辑板在整机中承载位串行减法与取负的真空管电路，把存储字与累加器内容逐位相减。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "subtractor_unit",
+      "children": [],
+      "components": [
+        "subtractor_valve"
+      ],
+      "annotations": [
+        "subtractor_board_role"
+      ]
+    },
+    {
+      "id": "switch_board",
+      "name": "开关板",
+      "role": {
+        "zh": "开关板在整机中固定 32 位字拨动开关与启停按钮，把操作员的机械动作转成电信号。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "switch_panel_unit",
+      "children": [],
+      "components": [
+        "toggle_switch",
+        "push_button"
+      ],
+      "annotations": [
+        "switch_board_role"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "williams_tube",
+      "name": "威廉姆斯存储管",
+      "type": "crt",
+      "role": {
+        "zh": "威廉姆斯存储管在整机中作为主存储体，用屏幕上的电荷斑保存 32 个字、每个字 32 位的程序与数据。"
+      },
+      "assembly": "store_crt_board",
+      "annotations": [
+        "williams_tube_role",
+        "williams_tube_anim"
+      ]
+    },
+    {
+      "id": "store_crt_screen",
+      "name": "存储CRT荧光屏",
+      "type": "crt",
+      "role": {
+        "zh": "存储CRT荧光屏在整机中显示存储管内的二进制位图案，亮点表示 1、暗点表示 0。"
+      },
+      "assembly": "store_crt_board",
+      "annotations": [
+        "store_crt_screen_role"
+      ]
+    },
+    {
+      "id": "store_electron_gun",
+      "name": "存储管电子枪",
+      "type": "electron_gun",
+      "role": {
+        "zh": "存储管电子枪在整机中发射并聚焦电子束，负责把电荷斑写到屏幕的正确位置。"
+      },
+      "assembly": "store_crt_board",
+      "annotations": [
+        "store_electron_gun_role"
+      ]
+    },
+    {
+      "id": "control_crt_screen",
+      "name": "控制CRT荧光屏",
+      "type": "crt",
+      "role": {
+        "zh": "控制CRT荧光屏在整机中显示当前指令地址与当前指令的位图案。"
+      },
+      "assembly": "control_crt_board",
+      "annotations": [
+        "control_crt_screen_role"
+      ]
+    },
+    {
+      "id": "accumulator_crt_screen",
+      "name": "累加器CRT荧光屏",
+      "type": "crt",
+      "role": {
+        "zh": "累加器CRT荧光屏在整机中显示累加器的当前数值位图案。"
+      },
+      "assembly": "accumulator_crt_board",
+      "annotations": [
+        "accumulator_crt_screen_role"
+      ]
+    },
+    {
+      "id": "subtractor_valve",
+      "name": "减法逻辑真空管",
+      "type": "vacuum_tube",
+      "role": {
+        "zh": "减法逻辑真空管在整机中实现位串行的减与取负开关，是算术单元的核心电子器件。"
+      },
+      "assembly": "subtractor_board",
+      "annotations": [
+        "subtractor_valve_role"
+      ]
+    },
+    {
+      "id": "clock_oscillator",
+      "name": "时钟振荡器",
+      "type": "oscillator",
+      "role": {
+        "zh": "时钟振荡器在整机中产生约 100 千赫的基准脉冲，为所有单元提供统一节拍。"
+      },
+      "assembly": "clock_unit",
+      "annotations": [
+        "clock_oscillator_role"
+      ]
+    },
+    {
+      "id": "sequencer_relay",
+      "name": "顺序控制继电器",
+      "type": "relay",
+      "role": {
+        "zh": "顺序控制继电器在整机中推进程序地址，使指令按顺序逐条被取出执行。"
+      },
+      "assembly": "sequencer_unit",
+      "annotations": [
+        "sequencer_relay_role"
+      ]
+    },
+    {
+      "id": "toggle_switch",
+      "name": "字位拨动开关",
+      "type": "switch",
+      "role": {
+        "zh": "字位拨动开关在整机中用于逐位设定要写入存储管的一个 32 位字。"
+      },
+      "assembly": "switch_board",
+      "annotations": [
+        "toggle_switch_role"
+      ]
+    },
+    {
+      "id": "push_button",
+      "name": "启停按钮",
+      "type": "switch",
+      "role": {
+        "zh": "启停按钮在整机中控制机器的启动、停止与清除，是操作员运行程序的控制接口。"
+      },
+      "assembly": "switch_board",
+      "annotations": [
+        "push_button_role"
+      ]
+    },
+    {
+      "id": "power_transformer",
+      "name": "电源变压器",
+      "type": "transformer",
+      "role": {
+        "zh": "电源变压器在整机中把市电转换为多种电压，为真空管灯丝与高压供电。"
+      },
+      "assembly": "power_unit",
+      "annotations": [
+        "power_transformer_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "davidpsharp-baby",
+    "version": "3.2.0",
+    "system": "Manchester Baby (SSEM)",
+    "media_hint": "none",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "crt_display_0",
+        "surface": "crt_display",
+        "type": "video",
+        "format": "mono1"
+      },
+      {
+        "id": "indicator_lamps_0",
+        "surface": "indicator_lamps",
+        "type": "video",
+        "format": "mono1"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "power": "panel.power",
+      "reset": "panel.clear",
+      "start": "panel.run",
+      "stop": "panel.stop",
+      "store_bit_00": "panel.switch.bit_00",
+      "store_bit_01": "panel.switch.bit_01",
+      "store_bit_02": "panel.switch.bit_02",
+      "store_bit_03": "panel.switch.bit_03",
+      "store_bit_04": "panel.switch.bit_04",
+      "store_bit_05": "panel.switch.bit_05",
+      "store_bit_06": "panel.switch.bit_06",
+      "store_bit_07": "panel.switch.bit_07",
+      "store_bit_08": "panel.switch.bit_08",
+      "store_bit_09": "panel.switch.bit_09",
+      "store_bit_10": "panel.switch.bit_10",
+      "store_bit_11": "panel.switch.bit_11",
+      "store_bit_12": "panel.switch.bit_12",
+      "store_bit_13": "panel.switch.bit_13",
+      "store_bit_14": "panel.switch.bit_14",
+      "store_bit_15": "panel.switch.bit_15",
+      "store_bit_16": "panel.switch.bit_16",
+      "store_bit_17": "panel.switch.bit_17",
+      "store_bit_18": "panel.switch.bit_18",
+      "store_bit_19": "panel.switch.bit_19",
+      "store_bit_20": "panel.switch.bit_20",
+      "store_bit_21": "panel.switch.bit_21",
+      "store_bit_22": "panel.switch.bit_22",
+      "store_bit_23": "panel.switch.bit_23",
+      "store_bit_24": "panel.switch.bit_24",
+      "store_bit_25": "panel.switch.bit_25",
+      "store_bit_26": "panel.switch.bit_26",
+      "store_bit_27": "panel.switch.bit_27",
+      "store_bit_28": "panel.switch.bit_28",
+      "store_bit_29": "panel.switch.bit_29",
+      "store_bit_30": "panel.switch.bit_30",
+      "store_bit_31": "panel.switch.bit_31"
+    }
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "annotations": [
+    {
+      "id": "case_role",
+      "type": "role",
+      "target": "case",
+      "text": "机身壳在整机中作为紧凑的灰色外壳，集成软驱位与散热口，是整机的结构骨架。"
+    },
+    {
+      "id": "keyboard_role",
+      "type": "role",
+      "target": "keyboard",
+      "text": "键盘在整机中作为文字与命令输入界面，与主机一体设计，含功能键区。"
+    },
+    {
+      "id": "motherboard_role",
+      "type": "role",
+      "target": "motherboard",
+      "text": "主板在整机中承载 68000 处理器、显示与总线芯片组、内存与 TOS ROM，是系统的核心电路板。"
+    },
+    {
+      "id": "floppy_drive_role",
+      "type": "role",
+      "target": "floppy_drive",
+      "text": "3.5 英寸软驱在整机中读写 720KB 软盘，是程序与数据的主要载入设备。"
+    },
+    {
+      "id": "mouse_role",
+      "type": "role",
+      "target": "mouse",
+      "text": "鼠标在整机中作为指点输入设备，用于 GEM 图形界面的操作。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "Atari ST 整机，1985 年推出的 16 位个人电脑，内置 MIDI 的音乐与桌面出版利器。"
+    },
+    {
+      "id": "floppy_bay_role",
+      "type": "role",
+      "target": "floppy_bay",
+      "text": "软驱位在整机中提供 3.5 英寸软驱的安装位，是程序与数据载入的入口。"
+    },
+    {
+      "id": "vent_slots_role",
+      "type": "role",
+      "target": "vent_slots",
+      "text": "散热通风口在整机中为机身内部提供空气流通，帮助系统散热。"
+    },
+    {
+      "id": "brand_badge_role",
+      "type": "role",
+      "target": "brand_badge",
+      "text": "品牌徽标在整机中标明 Atari 品牌与 ST 型号。"
+    },
+    {
+      "id": "key_matrix_role",
+      "type": "role",
+      "target": "key_matrix",
+      "text": "键盘矩阵在整机中承载字母与数字按键，是 Atari ST 的文字输入界面。"
+    },
+    {
+      "id": "function_keys_role",
+      "type": "role",
+      "target": "function_keys",
+      "text": "功能键区在整机中提供 F1–F10 功能键，供程序定义快捷操作。"
+    },
+    {
+      "id": "cpu_68000_role",
+      "type": "role",
+      "target": "cpu_68000",
+      "text": "68000 处理器在整机中作为计算核心，主频 8 MHz，负责逻辑与运算。"
+    },
+    {
+      "id": "shifter_chip_role",
+      "type": "role",
+      "target": "shifter_chip",
+      "text": "Shifter 显示芯片在整机中负责视频输出与调色板，支持单色高分辨率与彩色模式。"
+    },
+    {
+      "id": "glue_chip_role",
+      "type": "role",
+      "target": "glue_chip",
+      "text": "GLUE 胶合芯片在整机中负责总线控制与地址译码，协调各部件的数据传输。"
+    },
+    {
+      "id": "mmu_chip_role",
+      "type": "role",
+      "target": "mmu_chip",
+      "text": "MMU 内存管理芯片在整机中负责内存访问的时序控制，保障 CPU 与芯片组的协同。"
+    },
+    {
+      "id": "ram_role",
+      "type": "role",
+      "target": "ram",
+      "text": "512KB 内存在整机中存放程序与数据，是系统运行时的主存储。"
+    },
+    {
+      "id": "rom_role",
+      "type": "role",
+      "target": "rom",
+      "text": "TOS ROM 在整机中固化操作系统与 GEM 图形界面，开机时加载。"
+    },
+    {
+      "id": "disk_slot_role",
+      "type": "role",
+      "target": "disk_slot",
+      "text": "软盘插槽在整机中接纳 3.5 英寸 720KB 软盘，是程序与数据的载入入口。"
+    },
+    {
+      "id": "eject_button_role",
+      "type": "role",
+      "target": "eject_button",
+      "text": "弹出按钮在整机中推出软盘，采用机械式操作，无需电力即可完成退盘动作。"
+    },
+    {
+      "id": "mouse_button_role",
+      "type": "role",
+      "target": "mouse_button",
+      "text": "鼠标按键在整机中提供点击操作，用于 GEM 界面中的选择与确认。"
+    },
+    {
+      "id": "tracking_ball_role",
+      "type": "role",
+      "target": "tracking_ball",
+      "text": "鼠标滚球在整机中通过滚动感知位移，驱动屏幕光标移动。"
+    },
+    {
+      "id": "midi_builtin",
+      "type": "flow",
+      "target": "whole",
+      "text": "内置 MIDI 讲解：Atari ST 是第一台内置 MIDI 接口的流行电脑，接上合成器即可做音乐，成为电子音乐制作的标配。"
+    },
+    {
+      "id": "sixteen_bit_rivalry",
+      "type": "flow",
+      "target": "whole",
+      "text": "16 位对决讲解：Atari ST 与 Commodore Amiga 在 1985–87 年展开正面竞争，二者同用 68000，却在图形与音乐上各擅胜场。"
+    },
+    {
+      "id": "gem_desktop",
+      "type": "flow",
+      "target": "whole",
+      "text": "GEM 图形界面讲解：Atari ST 内置 Digital Research 的 GEM 桌面环境，为用户提供窗口、图标与菜单的图形操作。"
+    },
+    {
+      "id": "mono_hires",
+      "type": "flow",
+      "target": "shifter_chip",
+      "text": "单色高分辨率讲解：Shifter 芯片支持 640×400 单色高分辨率，让 Atari ST 成为桌面出版与 CAD 的性价比之选。"
+    },
+    {
+      "id": "midi_legacy",
+      "type": "flow",
+      "target": "whole",
+      "text": "MIDI 音乐传承讲解：从 1980 年代的合成器工作室到今天的电子音乐，Atari ST 的 MIDI 定时精度被音乐人铭记至今。"
+    },
+    {
+      "id": "tos_os",
+      "type": "flow",
+      "target": "rom",
+      "text": "TOS 操作系统讲解：TOS 运行在 ROM 中，开机即用，配合 GEM 构成完整的图形操作系统。"
+    },
+    {
+      "id": "st_series",
+      "type": "flow",
+      "target": "whole",
+      "text": "ST 系列讲解：ST 取自「Sixteen/Thirty-two」，指 68000 的 16 位外部、32 位内部架构，系列含 520ST/1040ST/Falcon 等机型。"
+    },
+    {
+      "id": "dma_chip",
+      "type": "flow",
+      "target": "whole",
+      "text": "软驱与硬盘 DMA 讲解：Atari ST 的 DMA 芯片独立管理软驱与硬盘数据传送，读盘不占用 CPU 处理时间。"
+    },
+    {
+      "id": "desktop_pub",
+      "type": "flow",
+      "target": "whole",
+      "text": "桌面出版讲解：640×400 单色高分辨率配合激光打印机，让 Atari ST 成为早期桌面出版的利器。"
+    }
+  ]
+}

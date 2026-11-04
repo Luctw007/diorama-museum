@@ -1,0 +1,11 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "整机概述：本设备为脚手架自动生成的占位说明，请作者补充该设备的历史地位与结构作用。",
+      "sources": []
+    }
+  ]
+}

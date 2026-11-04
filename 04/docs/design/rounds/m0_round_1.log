@@ -1,0 +1,33 @@
+# m0_round_1.log（2026-10-31 · m0_check 输出留痕）
+
+```text
+$ python scripts/m0_check.py   （cwd: \\DESKTOP-2IDAL09\work\01\repo）
+
+  [PASS] 网关在端口 17331 就绪
+  [PASS] heartbeat_ack 返回 running_devices={}
+  [PASS] start_device_ack ok=true
+  [PASS] start_device_ack device_id=dev1
+  [PASS] 帧序号连续：frame_id=1（前一张=0）
+  [PASS] 帧格式 rgb8 且携带 data_b64
+  [PASS] 帧序号连续：frame_id=2（前一张=1）
+  [PASS] 帧格式 rgb8 且携带 data_b64
+  [PASS] 帧序号连续：frame_id=3（前一张=2）
+  [PASS] 帧格式 rgb8 且携带 data_b64
+  [PASS] 帧序号连续：frame_id=4（前一张=3）
+  [PASS] 帧格式 rgb8 且携带 data_b64
+  [PASS] 帧序号连续：frame_id=5（前一张=4）
+  [PASS] 帧格式 rgb8 且携带 data_b64
+  [PASS] 连续收到 5 帧（最大 frame_id=5）
+  [PASS] 收到音频块：seq=1, format=s16le
+  [PASS] input_ack 回显 key=a value=true
+  [PASS] save_state_ack.frame_id=5
+  [PASS] 快照后帧继续推进到 11
+  [PASS] load_state_ack.frame_id=5 == 保存点 5
+  [PASS] 回滚生效：回滚后第一帧 frame_id=6（保存点 5，回滚前已达 11）
+  [PASS] stopped ok=true reason=user
+  [PASS] 未注册模拟器返回 EMULATOR_NOT_FOUND
+
+M0 验收全部通过 ✔
+```
+
+结论：PASS 23/23，退出码 0。

@@ -1,0 +1,46 @@
+# m1_round_1.log（2026-10-31 · m1_check 两轮输出留痕）
+
+## 第 1 轮（环境存在 TemP 残留）
+
+```text
+  [PASS] 网关在端口 17333 就绪
+  [PASS] heartbeat 初始无运行设备
+  [PASS] list_emulators：fake 可用
+  [PASS] rle 编解码 roundtrip ×3
+  [PASS] rle 畸形输入返回 None
+  [PASS] dev1 启动 ok
+  [PASS] dev1 ack 回显 frame_codec=rle
+  [PASS] dev1 sinks 含 led
+  [PASS] dev1 帧连续：frame_id=1 … 5（每帧随【帧解码尺寸正确（57600）】）
+  [PASS] 单帧多分片证据：frame_id=6 total=10（force_chunk 生效）
+  [PASS] dev1 led 灯状态交替：[True, False]
+  [PASS] dev1 input_ack 回显
+  [PASS] save_state_ack.frame_id=15
+  [PASS] 快照后帧推进到 21
+  [PASS] load 回到保存点 15
+网关 stderr 尾部:
+  | [gw] 网关 v2 已监听 127.0.0.1:17333（repo: \\DESKTOP-2IDAL09\work\01\repo）
+  | [gw] [dev1] [fake] 已加载持久化快照 2 个: C:\Users\Luctw\AppData\Local\Temp\diorama_dev1.json
+  | [gw] [dev1] [fake] start config={...} device_id=dev1
+  | [gw] [dev1] 内部快照 __auto 已更新（frame 1）
+  | [gw] [dev1] 内部快照 __auto 已更新（frame 15）
+M1 验收失败 ✘  ->  回滚生效：回滚后第一帧 frame_id=15（保存点 15，此前已达 21）
+```
+
+## 第 2 轮（清理 %TEMP%\diorama_*.json 后）
+
+```text
+（前 24 条断言全 PASS，同第 1 轮）
+  [PASS] save_state_ack.frame_id=14
+  [PASS] 快照后帧推进到 20
+  [PASS] load 回到保存点 14
+网关 stderr 尾部:
+  | [gw] 网关 v2 已监听 127.0.0.1:17333（repo: \\DESKTOP-2IDAL09\work\01\repo）
+  | [gw] [dev1] [fake] 无历史快照文件（首次启动）: ...
+  | [gw] [dev1] [fake] start config={...} device_id=dev1
+  | [gw] [dev1] 内部快照 __auto 已更新（frame 2）
+  | [gw] [dev1] 内部快照 __auto 已更新（frame 14）
+M1 验收失败 ✘  ->  回滚生效：回滚后第一帧 frame_id=14（保存点 14，此前已达 20）
+```
+
+结论：两轮均在「回滚后第一帧 frame_id == 保存点（而非 ≥ 保存点+1）」处失败，退出码 1。详见 DEFECT-M1-ROLLBACK-01.md。

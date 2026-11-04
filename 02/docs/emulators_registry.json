@@ -1,0 +1,805 @@
+[
+  {
+    "sim_id": "fake-slot",
+    "name": "Fake 后端（本仓库自带）",
+    "target_devices": [
+      "演示/测试"
+    ],
+    "backend_type": "native",
+    "license": {
+      "spdx": "MIT",
+      "source_url": "本仓库自带",
+      "last_checked": "2026-11-04"
+    },
+    "media_classes": [
+      "cartridge"
+    ],
+    "status": "bone",
+    "risks": [],
+    "sources": [
+      "01线 slots/emulators/fake-slot"
+    ],
+    "media_classes_allowed": {
+      "演示/测试": [
+        "cartridge"
+      ]
+    },
+    "module": "gw.emulators.fake_emulator",
+    "backend_status": "已实现"
+  },
+  {
+    "sim_id": "mame-apple2",
+    "name": "MAME（Apple II 驱动）",
+    "target_devices": [
+      "apple-ii"
+    ],
+    "backend_type": "mame",
+    "license": {
+      "spdx": "GPL-2.0-or-later + BSD-3-Clause",
+      "source_url": "https://www.mamedev.org",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "disk",
+      "tape"
+    ],
+    "status": "bone",
+    "risks": [
+      "版本需核实"
+    ],
+    "sources": [
+      "01线 licenses/MAME.md",
+      "05线 13_MAME接入预研"
+    ],
+    "media_classes_allowed": {
+      "apple-ii": [
+        "disk",
+        "tape"
+      ]
+    },
+    "module": "gw.emulators.mame_apple2",
+    "backend_status": "骨架"
+  },
+  {
+    "sim_id": "mame-handheld",
+    "name": "MAME（handheld 驱动，Game & Watch）",
+    "target_devices": [
+      "game-watch"
+    ],
+    "backend_type": "mame",
+    "license": {
+      "spdx": "GPL-2.0-or-later（核心 BSD-3）",
+      "source_url": "https://www.mamedev.org",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "cartridge"
+    ],
+    "status": "bone",
+    "risks": [
+      "驱动覆盖机型需核实"
+    ],
+    "sources": [
+      "05线 emu-eco §2.3 [S2]"
+    ],
+    "media_classes_allowed": {
+      "game-watch": [
+        "cartridge"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "simh-pdp8",
+    "name": "SIMH（PDP-8）",
+    "target_devices": [
+      "pdp8"
+    ],
+    "backend_type": "simh",
+    "license": {
+      "spdx": "SIMH 自定许可",
+      "source_url": "https://simh.trailing-edge.com",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "tape",
+      "disk"
+    ],
+    "status": "bone",
+    "risks": [
+      "许可需核实"
+    ],
+    "sources": [
+      "01线 licenses/SIMH.md"
+    ],
+    "media_classes_allowed": {
+      "pdp8": [
+        "tape",
+        "disk"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "simh-pdp11",
+    "name": "SIMH（PDP-11）",
+    "target_devices": [
+      "pdp11"
+    ],
+    "backend_type": "simh",
+    "license": {
+      "spdx": "SIMH 自定许可",
+      "source_url": "https://simh.trailing-edge.com",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "disk",
+      "tape"
+    ],
+    "status": "reserved",
+    "risks": [
+      "后端模块未实现"
+    ],
+    "sources": [
+      "01线 licenses/SIMH.md"
+    ],
+    "media_classes_allowed": {
+      "pdp11": [
+        "disk",
+        "tape"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "simh-vax11",
+    "name": "SIMH（VAX-11）",
+    "target_devices": [
+      "vax11"
+    ],
+    "backend_type": "simh",
+    "license": {
+      "spdx": "SIMH 自定许可",
+      "source_url": "https://simh.trailing-edge.com",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "disk"
+    ],
+    "status": "reserved",
+    "risks": [
+      "后端模块未实现"
+    ],
+    "sources": [
+      "01线 licenses/SIMH.md"
+    ],
+    "media_classes_allowed": {
+      "vax11": [
+        "disk"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "stella",
+    "name": "Stella（Atari 2600）",
+    "target_devices": [
+      "atari-2600"
+    ],
+    "backend_type": "stella",
+    "license": {
+      "spdx": "需核实",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "cartridge"
+    ],
+    "status": "bone",
+    "risks": [
+      "许可需核实",
+      "后端模块未实现"
+    ],
+    "sources": [
+      "05线 内容包 runtime.emulator"
+    ],
+    "media_classes_allowed": {
+      "atari-2600": [
+        "cartridge"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "mesen",
+    "name": "Mesen（FC/NES）",
+    "target_devices": [
+      "famicom"
+    ],
+    "backend_type": "mesen",
+    "license": {
+      "spdx": "需核实",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "cartridge"
+    ],
+    "status": "bone",
+    "risks": [
+      "许可需核实",
+      "后端模块未实现"
+    ],
+    "sources": [
+      "05线 内容包 runtime.emulator"
+    ],
+    "media_classes_allowed": {
+      "famicom": [
+        "cartridge"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "vice",
+    "name": "VICE（Commodore 64）",
+    "target_devices": [
+      "commodore64"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "需核实",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "tape",
+      "disk"
+    ],
+    "status": "researched",
+    "risks": [
+      "许可需核实",
+      "专用后端待模块化"
+    ],
+    "sources": [
+      "03线 内容包 runtime.emulator"
+    ],
+    "media_classes_allowed": {
+      "commodore64": [
+        "tape",
+        "disk"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "beebem",
+    "name": "BeebEm（BBC Micro）",
+    "target_devices": [
+      "bbcmicro"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "需核实",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "tape"
+    ],
+    "status": "researched",
+    "risks": [
+      "许可需核实",
+      "专用后端待模块化"
+    ],
+    "sources": [
+      "03线 内容包 runtime.emulator"
+    ],
+    "media_classes_allowed": {
+      "bbcmicro": [
+        "tape"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "blastem",
+    "name": "BlastEm（Sega Mega Drive）",
+    "target_devices": [
+      "sega-md"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "需核实",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "cartridge"
+    ],
+    "status": "researched",
+    "risks": [
+      "许可需核实",
+      "专用后端待模块化"
+    ],
+    "sources": [
+      "05线 内容包 runtime.emulator"
+    ],
+    "media_classes_allowed": {
+      "sega-md": [
+        "cartridge"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "pc86box",
+    "name": "PC-86box（IBM PC 5150）",
+    "target_devices": [
+      "ibm5150"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "需核实",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "disk"
+    ],
+    "status": "researched",
+    "risks": [
+      "许可需核实",
+      "专用后端待模块化"
+    ],
+    "sources": [
+      "03线 内容包 runtime.emulator"
+    ],
+    "media_classes_allowed": {
+      "ibm5150": [
+        "disk"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "qedsac",
+    "name": "QEDSAC（EDSAC）",
+    "target_devices": [
+      "edsac"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "需核实",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "tape"
+    ],
+    "status": "researched",
+    "risks": [
+      "许可需核实"
+    ],
+    "sources": [
+      "03线 内容包 runtime.emulator"
+    ],
+    "media_classes_allowed": {
+      "edsac": [
+        "tape"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "davidpsharp-baby",
+    "name": "David PSharp Baby（Manchester Baby）",
+    "target_devices": [
+      "manchester-baby"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "需核实",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [],
+    "status": "researched",
+    "risks": [
+      "许可需核实"
+    ],
+    "sources": [
+      "03线 内容包 runtime.emulator"
+    ],
+    "media_classes_allowed": {
+      "manchester-baby": []
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "sameboy",
+    "name": "SameBoy（Game Boy）",
+    "target_devices": [
+      "game-boy"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "需核实",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "cartridge"
+    ],
+    "status": "researched",
+    "risks": [
+      "许可需核实",
+      "专用后端待模块化"
+    ],
+    "sources": [
+      "05线 40-B 调研（提及）"
+    ],
+    "media_classes_allowed": {
+      "game-boy": [
+        "cartridge"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "eka2l1",
+    "name": "EKA2L1（Symbian OS / Nokia N-Gage / S60）",
+    "target_devices": [
+      "symbian",
+      "n-gage"
+    ],
+    "backend_type": "mobile",
+    "license": {
+      "spdx": "GPL-3.0",
+      "source_url": "https://github.com/EKA2L1/EKA2L1",
+      "last_checked": "2026-11（emu-eco 快照）"
+    },
+    "media_classes": [
+      "firmware",
+      "app_package"
+    ],
+    "status": "bone",
+    "risks": [
+      "无 headless 接口（需核实）",
+      "需真机固件（介质红线）"
+    ],
+    "sources": [
+      "05线 emu-eco §2.1 [S1]"
+    ],
+    "media_classes_allowed": {
+      "symbian": [
+        "firmware",
+        "app_package"
+      ],
+      "n-gage": [
+        "firmware",
+        "app_package"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "cloudpilotemu",
+    "name": "CloudpilotEmu（Palm OS）",
+    "target_devices": [
+      "palm-os"
+    ],
+    "backend_type": "mobile",
+    "license": {
+      "spdx": "GPL-3.0",
+      "source_url": "https://github.com/cloudpilot-emu/cloudpilot-emu",
+      "last_checked": "2026-11（emu-eco 快照）"
+    },
+    "media_classes": [
+      "firmware"
+    ],
+    "status": "bone",
+    "risks": [
+      "需 ROM（介质红线）",
+      "CLI/GDB stub 接入需 spike"
+    ],
+    "sources": [
+      "05线 emu-eco §2.4 [S4]"
+    ],
+    "media_classes_allowed": {
+      "palm-os": [
+        "firmware"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "madrigal",
+    "name": "MADrigal Game & Watch Simulators（网页）",
+    "target_devices": [
+      "game-watch"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "需核实",
+      "source_url": "https://www.madrigaldesign.it/sim/",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "cartridge"
+    ],
+    "status": "researched",
+    "risks": [
+      "许可需核实",
+      "网页 sim（JS），非网关后端"
+    ],
+    "sources": [
+      "05线 emu-eco §2.2 [S3]"
+    ],
+    "media_classes_allowed": {
+      "game-watch": [
+        "cartridge"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "qemu",
+    "name": "QEMU（iPhone OS 实验）",
+    "target_devices": [
+      "iphone-os-早期"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "需核实",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "firmware"
+    ],
+    "status": "reserved",
+    "risks": [
+      "实验性，不可运行应用（需核实）"
+    ],
+    "sources": [
+      "05线 emu-eco §2.4"
+    ],
+    "media_classes_allowed": {
+      "iphone-os-早期": [
+        "firmware"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "system360-emulator",
+    "name": "System/360 模拟器（待定）",
+    "target_devices": [
+      "system360"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "需核实",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "tape"
+    ],
+    "status": "reserved",
+    "risks": [
+      "后端待定"
+    ],
+    "sources": [
+      "03线 内容包 runtime.emulator（none）"
+    ],
+    "media_classes_allowed": {
+      "system360": [
+        "tape"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "hercules",
+    "name": "Hercules (IBM System/360)",
+    "target_devices": [
+      "system360"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "QPL 例外条款",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "disk",
+      "tape"
+    ],
+    "status": "reserved",
+    "risks": [
+      "许可需核实",
+      "后端模块未实现"
+    ],
+    "sources": [
+      "桌面模拟器清单 v1"
+    ],
+    "media_classes_allowed": {
+      "system360": [
+        "disk",
+        "tape"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "86box",
+    "name": "86Box / PCem (IBM PC 5150)",
+    "target_devices": [
+      "ibm5150"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "GPL-2.0",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "disk"
+    ],
+    "status": "researched",
+    "risks": [
+      "许可需核实"
+    ],
+    "sources": [
+      "桌面模拟器清单 v1"
+    ],
+    "media_classes_allowed": {
+      "ibm5150": [
+        "disk"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "mini-vmac",
+    "name": "Mini vMac (Macintosh 128K)",
+    "target_devices": [
+      "macintosh128k"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "GPL-2.0",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "disk"
+    ],
+    "status": "reserved",
+    "risks": [
+      "许可需核实"
+    ],
+    "sources": [
+      "桌面模拟器清单 v1"
+    ],
+    "media_classes_allowed": {
+      "macintosh128k": [
+        "disk"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "fuse",
+    "name": "Fuse (ZX Spectrum)",
+    "target_devices": [
+      "zx-spectrum"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "GPL-2.0",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "tape"
+    ],
+    "status": "reserved",
+    "risks": [
+      "许可需核实"
+    ],
+    "sources": [
+      "桌面模拟器清单 v1"
+    ],
+    "media_classes_allowed": {
+      "zx-spectrum": [
+        "tape"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "snes9x",
+    "name": "Snes9x / Mesen (SFC)",
+    "target_devices": [
+      "sfc"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "Snes9x 非商业条款",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "cartridge"
+    ],
+    "status": "reserved",
+    "risks": [
+      "许可需核实"
+    ],
+    "sources": [
+      "桌面模拟器清单 v1"
+    ],
+    "media_classes_allowed": {
+      "sfc": [
+        "cartridge"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  },
+  {
+    "sim_id": "mame-neogeo",
+    "name": "MAME neogeo 驱动 (Neo Geo MVS)",
+    "target_devices": [
+      "neo-geo-mvs"
+    ],
+    "backend_type": "mame",
+    "license": {
+      "spdx": "GPL-2.0-or-later + BSD-3-Clause",
+      "source_url": "https://www.mamedev.org",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "cartridge"
+    ],
+    "status": "reserved",
+    "risks": [
+      "版本需核实"
+    ],
+    "sources": [
+      "桌面模拟器清单 v1"
+    ],
+    "media_classes_allowed": {
+      "neo-geo-mvs": [
+        "cartridge"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留"
+  }
+]

@@ -1,0 +1,184 @@
+{
+  "annotations": [
+    {
+      "id": "case_role",
+      "type": "role",
+      "target": "case",
+      "text": "机身壳在整机中作为紧凑的黑色外壳，右侧的彩虹条纹是 Spectrum 的标志性外观。"
+    },
+    {
+      "id": "keyboard_role",
+      "type": "role",
+      "target": "keyboard",
+      "text": "橡胶键盘矩阵在整机中提供 40 键输入，每个键身兼多职，采用 keyword 体系录入 BASIC 命令。"
+    },
+    {
+      "id": "motherboard_role",
+      "type": "role",
+      "target": "motherboard",
+      "text": "主板在整机中承载 Z80 处理器、ULA 芯片与 48KB 内存，是系统的核心电路板。"
+    },
+    {
+      "id": "power_role",
+      "type": "role",
+      "target": "power",
+      "text": "电源在整机中把市电转换为机器所需电压，为整机供电。"
+    },
+    {
+      "id": "expansion_port_role",
+      "type": "role",
+      "target": "expansion_port",
+      "text": "边框扩展口在整机中位于机身后缘，供外接打印机、软驱与游戏外设。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "ZX Spectrum 整机，1982 年推出的英国国民家用电脑。"
+    },
+    {
+      "id": "rainbow_stripe_role",
+      "type": "role",
+      "target": "rainbow_stripe",
+      "text": "彩虹条纹在整机中位于机身右侧，是 ZX Spectrum 最醒目的视觉标识。"
+    },
+    {
+      "id": "brand_badge_role",
+      "type": "role",
+      "target": "brand_badge",
+      "text": "品牌徽标在整机中标明 Sinclair 品牌与型号。"
+    },
+    {
+      "id": "rubber_key_matrix_role",
+      "type": "role",
+      "target": "rubber_key_matrix",
+      "text": "橡胶按键矩阵在整机中提供 40 个橡胶按键，每个键同时对应字母、数字、符号与 BASIC 关键字。"
+    },
+    {
+      "id": "keyword_overlay_role",
+      "type": "role",
+      "target": "keyword_overlay",
+      "text": "keyword 体系在整机中让每个按键对应一个 BASIC 关键字，按下即可整词录入，是 Spectrum 的独特输入方式。"
+    },
+    {
+      "id": "cpu_z80_role",
+      "type": "role",
+      "target": "cpu_z80",
+      "text": "Z80 处理器在整机中作为计算核心，主频 3.5 MHz，是 8 位时代的经典 CPU。"
+    },
+    {
+      "id": "ula_chip_role",
+      "type": "role",
+      "target": "ula_chip",
+      "text": "ULA 芯片在整机中集成显示、键盘扫描与磁带接口，是 Sinclair 自研的万能逻辑阵列。"
+    },
+    {
+      "id": "ram_48k_role",
+      "type": "role",
+      "target": "ram_48k",
+      "text": "48KB 内存在整机中存放程序与数据，是系统运行时的主存储。"
+    },
+    {
+      "id": "rom_role",
+      "type": "role",
+      "target": "rom",
+      "text": "系统 ROM 在整机中固化 BASIC 解释器与系统例程，开机即进入 BASIC 环境。"
+    },
+    {
+      "id": "power_jack_role",
+      "type": "role",
+      "target": "power_jack",
+      "text": "电源接口在整机中接纳外置电源，为整机供电。"
+    },
+    {
+      "id": "regulator_role",
+      "type": "role",
+      "target": "regulator",
+      "text": "稳压电路在整机中把输入电压稳定为芯片所需电压。"
+    },
+    {
+      "id": "edge_connector_role",
+      "type": "role",
+      "target": "edge_connector",
+      "text": "边框连接器在整机中位于机身尾部，供扩展外设接入，是外设时代的接口。"
+    },
+    {
+      "id": "bedroom_coding",
+      "type": "flow",
+      "target": "whole",
+      "text": "卧室编程文化：无数英国青少年在卧室里用 Spectrum 自学 BASIC 并创作游戏，催生了独立的游戏开发一代。"
+    },
+    {
+      "id": "rainbow_stripe",
+      "type": "flow",
+      "target": "rainbow_stripe",
+      "text": "彩虹条纹讲解：机身右侧的红黄绿青四色条纹，是 Spectrum 与生俱来的品牌视觉符号。"
+    },
+    {
+      "id": "tape_load",
+      "type": "flow",
+      "target": "ula_chip",
+      "text": "磁带载入讲解：程序经 ULA 从磁带读入时发出尖锐的「吱吱」声，屏幕边缘闪动彩色条纹，是那一代用户的共同记忆。"
+    },
+    {
+      "id": "keyword_system",
+      "type": "flow",
+      "target": "keyboard",
+      "text": "keyword 录入讲解：每个按键对应一个 BASIC 关键字，按一下即整词录入，省去逐字输入的繁琐。"
+    },
+    {
+      "id": "peripheral_era",
+      "type": "flow",
+      "target": "expansion_port",
+      "text": "外设扩展讲解：通过边框扩展口可接 ZX Printer、Interface 1 与微驱，开启 Spectrum 的外设生态。"
+    },
+    {
+      "id": "colour_clash",
+      "type": "flow",
+      "target": "ula_chip",
+      "text": "色彩冲突讲解：受限于 ULA，每个 8×8 字符块只能使用两种颜色，形成了 Spectrum 独特的「色彩冲突」画面风格。"
+    },
+    {
+      "id": "rubber_key_feel",
+      "type": "flow",
+      "target": "rubber_key_matrix",
+      "text": "橡胶键盘讲解：整块橡胶膜覆盖的 40 个按键，按下去软而回弹，是 Spectrum 最独特的触感记忆。"
+    },
+    {
+      "id": "spectrum_games",
+      "type": "flow",
+      "target": "whole",
+      "text": "游戏生态讲解：Spectrum 的海量游戏催生了独立的英国游戏开发场景，无数经典至今仍被玩家铭记。"
+    },
+    {
+      "id": "clone_ecosystem",
+      "type": "flow",
+      "target": "whole",
+      "text": "克隆生态讲解：Spectrum 的简单架构催生了苏联与东欧的大量兼容克隆机，影响跨越铁幕。"
+    },
+    {
+      "id": "sinclair_legacy",
+      "type": "flow",
+      "target": "whole",
+      "text": "辛克莱传奇讲解：克立夫·辛克莱以极低价格策略让电脑走进英国普通家庭，是个人计算普及的先驱。"
+    },
+    {
+      "id": "z80_era",
+      "type": "flow",
+      "target": "cpu_z80",
+      "text": "Z80 时代讲解：Z80 是 8 位时代最普及的 CPU 之一，Spectrum 让它成为整整一代程序员的启蒙芯片。"
+    },
+    {
+      "id": "colour_attr",
+      "type": "flow",
+      "target": "ula_chip",
+      "text": "色彩属性讲解：每个字符块的颜色由独立的属性字节控制，造就了 Spectrum 高效而受限的色彩方案。"
+    },
+    {
+      "id": "basic_env",
+      "type": "flow",
+      "target": "rom",
+      "text": "BASIC 环境讲解：开机即进入 Sinclair BASIC，无需磁盘与操作系统，是最直接的编程启蒙环境。"
+    }
+  ]
+}

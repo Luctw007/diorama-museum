@@ -1,0 +1,22 @@
+{
+  "emulator": "none",
+  "version": "1.0.0",
+  "system": "ENIAC（静态展示）",
+  "media_hint": "none",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {
+      "id": "indicator_lamps_0",
+      "surface": "indicator_lamps",
+      "type": "video",
+      "format": "mono1"
+    }
+  ],
+  "input_map": {
+    "power": "panel.power",
+    "reset": "panel.reset",
+    "demo_next": "panel.demo_next",
+    "demo_pause": "panel.demo_pause"
+  }
+}

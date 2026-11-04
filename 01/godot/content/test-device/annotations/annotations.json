@@ -1,0 +1,46 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "验证方块机是一台仅用于验证《内容包规范 v0.1》与校验工具链的假想设备，不具备任何真实电子设备的功能，仅作为契约合规性测试样例。",
+      "sources": ["https://example.com/placeholder-source"]
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中负责承载各元器件，为它们提供机械固定、电源分配与信号互连。",
+      "sources": []
+    },
+    {
+      "id": "power_flow",
+      "type": "flow",
+      "target": "mainboard",
+      "text": "供电流程：电源输入自整机接口进入，经滤波电容平滑后，为主板上的处理器与内存芯片稳定供电。",
+      "sources": []
+    },
+    {
+      "id": "chip_cpu_role",
+      "type": "role",
+      "target": "chip_cpu",
+      "text": "中央处理器在整机中负责执行程序指令，并进行算术与逻辑运算，是整机的运算核心。",
+      "sources": []
+    },
+    {
+      "id": "chip_ram_role",
+      "type": "role",
+      "target": "chip_ram",
+      "text": "内存芯片在整机中负责临时存储运行时数据，供处理器高速读写，是整机的数据缓冲。",
+      "sources": []
+    },
+    {
+      "id": "capacitor_c1_role",
+      "type": "role",
+      "target": "capacitor_c1",
+      "text": "滤波电容在整机中负责平滑电源纹波、抑制高频噪声，稳定供电电压，保障整机供电质量。",
+      "sources": []
+    }
+  ]
+}

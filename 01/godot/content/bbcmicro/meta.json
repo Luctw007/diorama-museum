@@ -1,0 +1,667 @@
+{
+  "meta": {
+    "id": "bbcmicro",
+    "name": {
+      "zh": "BBC Micro",
+      "en": "BBC Micro"
+    },
+    "intro": {
+      "zh": "BBC Micro 是 1981 年推出的英国国民教育电脑，以先进的 BBC BASIC 与 Tube 接口成为英国计算机扫盲计划的载体，并孕育出 ARM 架构。",
+      "en": "The BBC Micro, released in 1981, is the UK's national educational computer and the cradle of the ARM architecture."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1981,
+    "manufacturer": "Acorn Computers",
+    "category": "personal-computer",
+    "description": "BBC Micro（1981），英国国民教育电脑：6502 CPU、16/32KB 内存、Video ULA 多模式显示、Tube 接口，ARM 架构的摇篮。",
+    "authors": [
+      {
+        "name": "TASK-43A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — BBC Micro",
+        "url": "https://en.wikipedia.org/wiki/BBC_Micro",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — MOS Technology 6502",
+        "url": "https://en.wikipedia.org/wiki/MOS_Technology_6502",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "BeebEm — BBC Micro emulator",
+        "url": "http://www.mkw.me.uk/beebem/",
+        "license": "licensed",
+        "accessed_at": "2026-11-04"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "BBC Micro 整机，1981 年推出的英国国民教育电脑。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "case",
+        "keyboard",
+        "motherboard",
+        "power",
+        "external_box"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "computer_literacy_flow",
+        "tube_flow"
+      ]
+    },
+    {
+      "id": "case",
+      "name": "主机壳",
+      "role": {
+        "zh": "主机壳在整机中作为斜角键盘台造型的机身外壳，承载主板、键盘与各端口，是整机的结构骨架。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "power_led",
+        "tube_port",
+        "econet_port",
+        "user_port",
+        "printer_port",
+        "cassette_port",
+        "video_port"
+      ],
+      "annotations": [
+        "case_role"
+      ],
+      "mesh_ref": "assemblies/case.gltf"
+    },
+    {
+      "id": "keyboard",
+      "name": "键盘",
+      "role": {
+        "zh": "键盘在整机中作为文字与命令输入界面，其红色功能键排是 BBC Micro 的标志性设计。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.12,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "keyboard_matrix",
+        "red_function_keys",
+        "cursor_keys",
+        "break_key",
+        "caps_lock_led",
+        "shift_lock_led"
+      ],
+      "annotations": [
+        "keyboard_role"
+      ],
+      "mesh_ref": "assemblies/keyboard.gltf"
+    },
+    {
+      "id": "motherboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 6502 处理器与 Video ULA 图形芯片，是系统的核心电路板。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.06,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cpu_6502",
+        "video_ula",
+        "rom",
+        "ram",
+        "via_6522",
+        "acia_6850",
+        "disk_controller",
+        "speaker_driver",
+        "video_output"
+      ],
+      "annotations": [
+        "motherboard_role"
+      ],
+      "mesh_ref": "assemblies/motherboard.gltf"
+    },
+    {
+      "id": "power",
+      "name": "电源",
+      "role": {
+        "zh": "电源在整机中把市电转换为各芯片所需电压，是系统的供电单元。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          -0.12,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "power_switch",
+        "transformer",
+        "regulator"
+      ],
+      "annotations": [
+        "power_role"
+      ],
+      "mesh_ref": "assemblies/power.gltf"
+    },
+    {
+      "id": "external_box",
+      "name": "外接盒（Tube 接口预留位）",
+      "role": {
+        "zh": "外接盒在整机中提供 Tube 接口预留位，用于连接第二处理器协处理器，扩展系统算力。"
+      },
+      "transform": {
+        "translation": [
+          0.5,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "tube_connector",
+        "second_processor_slot"
+      ],
+      "annotations": [
+        "external_box_role"
+      ],
+      "mesh_ref": "assemblies/external_box.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "cpu_6502",
+      "name": "6502 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "6502 处理器在整机中作为主控芯片，以 2 MHz 执行 BBC BASIC 程序与系统逻辑。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "cpu_6502_role"
+      ]
+    },
+    {
+      "id": "video_ula",
+      "name": "Video ULA 图形芯片",
+      "type": "gpu",
+      "role": {
+        "zh": "Video ULA 图形芯片在整机中支持 MODE 0–7 多种显示模式，从高分辨率单色到 Teletext 彩色文本。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "video_ula_role"
+      ]
+    },
+    {
+      "id": "rom",
+      "name": "BBC BASIC + MOS ROM",
+      "type": "rom",
+      "role": {
+        "zh": "BBC BASIC + MOS ROM 在整机中固化先进的结构化 BASIC 解释器与操作系统，实现开机即编程。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "rom_role"
+      ]
+    },
+    {
+      "id": "ram",
+      "name": "内存（16/32KB）",
+      "type": "ram",
+      "role": {
+        "zh": "内存在整机中存放程序与数据，是系统运行时的主存储。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ram_role"
+      ]
+    },
+    {
+      "id": "via_6522",
+      "name": "6522 VIA 接口芯片",
+      "type": "interface",
+      "role": {
+        "zh": "6522 VIA 接口芯片在整机中处理用户端口、打印机端口与系统定时器，是外围接口枢纽。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "via_6522_role"
+      ]
+    },
+    {
+      "id": "acia_6850",
+      "name": "6850 ACIA 串口芯片",
+      "type": "interface",
+      "role": {
+        "zh": "6850 ACIA 串口芯片在整机中处理串行通信，是系统与外部设备的数据通道。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "acia_6850_role"
+      ]
+    },
+    {
+      "id": "disk_controller",
+      "name": "磁盘控制器（DFS）",
+      "type": "controller",
+      "role": {
+        "zh": "磁盘控制器在整机中管理软驱的读写，是磁盘文件系统的硬件基础。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "disk_controller_role"
+      ]
+    },
+    {
+      "id": "speaker_driver",
+      "name": "扬声器驱动",
+      "type": "driver",
+      "role": {
+        "zh": "扬声器驱动在整机中把声音信号放大后驱动扬声器，输出系统提示音与游戏音效。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "speaker_driver_role"
+      ]
+    },
+    {
+      "id": "video_output",
+      "name": "视频输出电路",
+      "type": "circuit",
+      "role": {
+        "zh": "视频输出电路在整机中把 Video ULA 的画面信号转换为可接监视器或电视的视频信号。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "video_output_role"
+      ]
+    },
+    {
+      "id": "keyboard_matrix",
+      "name": "键盘矩阵",
+      "type": "keyboard",
+      "role": {
+        "zh": "键盘矩阵在整机中把按键扫描为行列信号，供系统读取，是文字输入的核心。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "keyboard_matrix_role"
+      ]
+    },
+    {
+      "id": "red_function_keys",
+      "name": "红色功能键排",
+      "type": "key",
+      "role": {
+        "zh": "红色功能键排在整机中提供 f0–f9 功能键，是 BBC Micro 的标志性键盘设计。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "red_function_keys_role"
+      ]
+    },
+    {
+      "id": "cursor_keys",
+      "name": "光标键组",
+      "type": "key",
+      "role": {
+        "zh": "光标键组在整机中控制光标移动，用于编辑与游戏操作。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "cursor_keys_role"
+      ]
+    },
+    {
+      "id": "break_key",
+      "name": "BREAK 键",
+      "type": "key",
+      "role": {
+        "zh": "BREAK 键在整机中触发系统复位，使机器回到开机提示符状态。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "break_key_role"
+      ]
+    },
+    {
+      "id": "caps_lock_led",
+      "name": "大写锁定指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "大写锁定指示灯在整机中点亮表示键盘处于大写锁定状态。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "caps_lock_led_role"
+      ]
+    },
+    {
+      "id": "shift_lock_led",
+      "name": "上档锁定指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "上档锁定指示灯在整机中点亮表示键盘处于上档锁定状态。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "shift_lock_led_role"
+      ]
+    },
+    {
+      "id": "power_led",
+      "name": "电源指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的状态指示。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "power_led_role"
+      ]
+    },
+    {
+      "id": "tube_port",
+      "name": "Tube 接口",
+      "type": "port",
+      "role": {
+        "zh": "Tube 接口在整机中连接第二处理器协处理器，为系统提供扩展算力，是 ARM 架构诞生的技术伏笔。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "tube_port_role"
+      ]
+    },
+    {
+      "id": "econet_port",
+      "name": "Econet 网络接口",
+      "type": "port",
+      "role": {
+        "zh": "Econet 网络接口在整机中连接多台机器组成教室网络，是早期计算机网络的代表。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "econet_port_role"
+      ]
+    },
+    {
+      "id": "user_port",
+      "name": "用户端口",
+      "type": "port",
+      "role": {
+        "zh": "用户端口在整机中连接传感器、控制电路等自定义外设，是实验与控制的接口。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "user_port_role"
+      ]
+    },
+    {
+      "id": "printer_port",
+      "name": "打印机端口",
+      "type": "port",
+      "role": {
+        "zh": "打印机端口在整机中连接并行打印机，输出文字与图形结果。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "printer_port_role"
+      ]
+    },
+    {
+      "id": "cassette_port",
+      "name": "磁带接口",
+      "type": "port",
+      "role": {
+        "zh": "磁带接口在整机中连接普通磁带机，用于程序的保存与加载。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "cassette_port_role"
+      ]
+    },
+    {
+      "id": "video_port",
+      "name": "视频端口",
+      "type": "port",
+      "role": {
+        "zh": "视频端口在整机中输出 RGB 或复合视频信号，把画面送到监视器或电视。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "video_port_role"
+      ]
+    },
+    {
+      "id": "tube_connector",
+      "name": "Tube 连接器",
+      "type": "connector",
+      "role": {
+        "zh": "Tube 连接器在整机中把主机与第二处理器高速连接，是协处理器通信的物理通道。"
+      },
+      "assembly": "external_box",
+      "annotations": [
+        "tube_connector_role"
+      ]
+    },
+    {
+      "id": "second_processor_slot",
+      "name": "第二处理器插槽",
+      "type": "slot",
+      "role": {
+        "zh": "第二处理器插槽在整机中安装 6502 第二处理器、Z80 等协处理器，为系统扩展算力。"
+      },
+      "assembly": "external_box",
+      "annotations": [
+        "second_processor_slot_role"
+      ]
+    },
+    {
+      "id": "power_switch",
+      "name": "电源开关",
+      "type": "switch",
+      "role": {
+        "zh": "电源开关在整机中控制整机供电的通断，是启动与关闭机器的总开关。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "power_switch_role"
+      ]
+    },
+    {
+      "id": "transformer",
+      "name": "电源变压器",
+      "type": "transformer",
+      "role": {
+        "zh": "电源变压器在整机中把市电转换为机器所需的多种电压，为各芯片供电。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "transformer_role"
+      ]
+    },
+    {
+      "id": "regulator",
+      "name": "稳压电路",
+      "type": "regulator",
+      "role": {
+        "zh": "稳压电路在整机中把电压稳定到芯片所需的精确值，保障系统稳定运行。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "regulator_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "beebem",
+    "version": "4.19.0",
+    "system": "BBC Micro",
+    "media_hint": "tape",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "external_crt_0",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "rgba8"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      },
+      {
+        "id": "led_0",
+        "surface": "led",
+        "type": "video",
+        "format": "mono1"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "break": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      },
+      "return": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "space": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      },
+      "joystick_up": {
+        "map": "joystick",
+        "key": "axis_y"
+      },
+      "joystick_fire": {
+        "map": "joystick",
+        "key": "btn0"
+      }
+    }
+  }
+}

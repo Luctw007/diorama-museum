@@ -1,0 +1,220 @@
+{
+  "annotations": [
+    {
+      "id": "case_role",
+      "type": "role",
+      "target": "case",
+      "text": "一体机壳在整机中作为米色外壳，集成了提手凹槽、签名内壁与散热口，是整机的结构骨架。"
+    },
+    {
+      "id": "crt_display_role",
+      "type": "role",
+      "target": "crt_display",
+      "text": "9 英寸单显模组在整机中显示 512×342 黑白位图画面，是系统的主要显示设备。"
+    },
+    {
+      "id": "motherboard_role",
+      "type": "role",
+      "target": "motherboard",
+      "text": "主板在整机中承载 68000 处理器、128KB 内存与 ROM，是系统的核心电路板。"
+    },
+    {
+      "id": "floppy_drive_role",
+      "type": "role",
+      "target": "floppy_drive",
+      "text": "3.5 英寸软驱在整机中读写 400KB 软盘，是程序与文档的唯一存储介质。"
+    },
+    {
+      "id": "keyboard_role",
+      "type": "role",
+      "target": "keyboard",
+      "text": "键盘在整机中作为文字输入界面，刻意省去方向键以引导用户使用鼠标。"
+    },
+    {
+      "id": "mouse_role",
+      "type": "role",
+      "target": "mouse",
+      "text": "鼠标在整机中作为指点输入设备，单键设计让操作简单直观。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "Macintosh 128K 整机，1984 年推出的首台大众图形界面个人计算机。"
+    },
+    {
+      "id": "handle_recess_role",
+      "type": "role",
+      "target": "handle_recess",
+      "text": "顶部提手凹槽在整机中内凹于机壳顶部，便于单手搬运整机。"
+    },
+    {
+      "id": "signature_wall_role",
+      "type": "role",
+      "target": "signature_wall",
+      "text": "签名内壁在整机中铸有 1982 年 Macintosh 团队成员的签名，是机壳内侧的纪念性细节。"
+    },
+    {
+      "id": "vent_slots_role",
+      "type": "role",
+      "target": "vent_slots",
+      "text": "散热通风口在整机中为无风扇的对流散热提供空气通道。"
+    },
+    {
+      "id": "crt_tube_role",
+      "type": "role",
+      "target": "crt_tube",
+      "text": "9 英寸显像管在整机中显示 512×342 黑白位图，是系统输出的核心显示部件。"
+    },
+    {
+      "id": "brightness_knob_role",
+      "type": "role",
+      "target": "brightness_knob",
+      "text": "亮度旋钮在整机中调节画面亮度，便于在不同光照下阅读。"
+    },
+    {
+      "id": "cpu_68000_role",
+      "type": "role",
+      "target": "cpu_68000",
+      "text": "68000 处理器在整机中作为计算核心，32 位内部、16 位外部，主频 7.8336 MHz。"
+    },
+    {
+      "id": "ram_role",
+      "type": "role",
+      "target": "ram",
+      "text": "128KB 内存在整机中存放程序与数据，是系统运行时的主存储。"
+    },
+    {
+      "id": "rom_role",
+      "type": "role",
+      "target": "rom",
+      "text": "系统 ROM 在整机中固化图形工具箱与操作系统例程，是 GUI 快速运行的基础。"
+    },
+    {
+      "id": "keyboard_port_role",
+      "type": "role",
+      "target": "keyboard_port",
+      "text": "键盘接口在整机中连接键盘，把按键信号送入系统。"
+    },
+    {
+      "id": "mouse_port_role",
+      "type": "role",
+      "target": "mouse_port",
+      "text": "鼠标接口在整机中连接单键鼠标，把指点输入送入系统。"
+    },
+    {
+      "id": "serial_port_role",
+      "type": "role",
+      "target": "serial_port",
+      "text": "串行接口在整机中提供 RS-422 串行通信，用于连接打印机与外设。"
+    },
+    {
+      "id": "disk_slot_role",
+      "type": "role",
+      "target": "disk_slot",
+      "text": "软盘插槽在整机中接纳 3.5 英寸 400KB 软盘，是系统加载程序的入口。"
+    },
+    {
+      "id": "eject_mechanism_role",
+      "type": "role",
+      "target": "eject_mechanism",
+      "text": "软盘弹出机构在整机中推出软盘，机械式无电源弹出。"
+    },
+    {
+      "id": "key_matrix_role",
+      "type": "role",
+      "target": "key_matrix",
+      "text": "键盘矩阵在整机中承载字母与功能键，刻意不含方向键以推广鼠标操作。"
+    },
+    {
+      "id": "keyboard_cable_role",
+      "type": "role",
+      "target": "keyboard_cable",
+      "text": "键盘连接线在整机中连接键盘与主机，传输按键信号。"
+    },
+    {
+      "id": "mouse_button_role",
+      "type": "role",
+      "target": "mouse_button",
+      "text": "单键鼠标按键在整机中提供唯一点击操作，让指点选择简单直观。"
+    },
+    {
+      "id": "tracking_ball_role",
+      "type": "role",
+      "target": "tracking_ball",
+      "text": "鼠标滚球在整机中通过滚动感知位移，驱动屏幕光标移动。"
+    },
+    {
+      "id": "ad_1984",
+      "type": "flow",
+      "target": "whole",
+      "text": "1984 年超级碗广告以乔治·奥威尔《1984》为隐喻，宣告 Macintosh 将打破 IBM 的统治，是广告史与科技史的经典时刻。"
+    },
+    {
+      "id": "signature_wall_story",
+      "type": "flow",
+      "target": "signature_wall",
+      "text": "1982 年 Macintosh 团队成员把签名铸进机壳内壁模具，只有拆开机器的人才能看到——这是工程师文化最浪漫的注脚。"
+    },
+    {
+      "id": "happy_mac",
+      "type": "flow",
+      "target": "crt_tube",
+      "text": "开机时屏幕上出现的笑脸图标「Happy Mac」宣告系统启动成功，是无数 Mac 用户最初的记忆。"
+    },
+    {
+      "id": "raskin_origin",
+      "type": "flow",
+      "target": "whole",
+      "text": "项目由 Jef Raskin 发起，他提出「为大众造一台便宜易用的电脑」，并把它命名为 Macintosh。"
+    },
+    {
+      "id": "jobs_takeover",
+      "type": "flow",
+      "target": "whole",
+      "text": "史蒂夫·乔布斯 1981 年接手 Macintosh 项目，注入了对图形界面与工业设计的极致追求。"
+    },
+    {
+      "id": "gui_demo",
+      "type": "flow",
+      "target": "whole",
+      "text": "Macintosh 用「桌面、窗口、图标、菜单」四位一体的图形界面，让普通人不学命令也能操作电脑。"
+    },
+    {
+      "id": "mouse_intro",
+      "type": "flow",
+      "target": "mouse",
+      "text": "Macintosh 让鼠标第一次成为大众电脑的标配，改变了人与机器的交互方式。"
+    },
+    {
+      "id": "desktop_publishing",
+      "type": "flow",
+      "target": "whole",
+      "text": "Macintosh 配合 LaserWriter 激光打印机，催生了桌面出版革命，改变了印刷与出版行业。"
+    },
+    {
+      "id": "font_system",
+      "type": "flow",
+      "target": "crt_tube",
+      "text": "Macintosh 首次在消费级电脑上呈现所见即所得的多字体排版，为文字处理树立新标准。"
+    },
+    {
+      "id": "floppy_400k",
+      "type": "flow",
+      "target": "floppy_drive",
+      "text": "3.5 英寸 400KB 软驱取代了当时主流的 5.25 英寸软驱，成为更便携可靠的存储标准。"
+    },
+    {
+      "id": "no_arrow_keys",
+      "type": "flow",
+      "target": "keyboard",
+      "text": "键盘刻意省去方向键，是乔布斯逼迫用户改用鼠标的设计决策，至今仍是设计史谈资。"
+    },
+    {
+      "id": "macwrite_macpaint",
+      "type": "flow",
+      "target": "whole",
+      "text": "随附的 MacWrite 与 MacPaint 首次把所见即所得文字处理与位图绘画带给大众。"
+    }
+  ]
+}

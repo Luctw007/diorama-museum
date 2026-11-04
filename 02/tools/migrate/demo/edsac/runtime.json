@@ -1,0 +1,46 @@
+{
+  "emulator": "qedsac",
+  "version": "0.1.0",
+  "system": "EDSAC (Electronic Delay Storage Automatic Calculator)",
+  "media_hint": "tape",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {
+      "id": "external_crt_0",
+      "surface": "external_crt",
+      "type": "video",
+      "format": "mono1"
+    },
+    {
+      "id": "indicator_led_0",
+      "surface": "led",
+      "type": "video",
+      "format": "mono1"
+    },
+    {
+      "id": "speaker_0",
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16"
+    }
+  ],
+  "input_map": {
+    "power": "panel.power",
+    "reset": "panel.reset",
+    "start": "panel.start",
+    "stop": "panel.stop",
+    "clear": "panel.clear",
+    "single_step": "panel.single_step",
+    "tape_load": "panel.tape_reader.load",
+    "tape_rewind": "panel.tape_reader.rewind",
+    "tape_punch": "panel.tape_punch.punch",
+    "initial_orders": "panel.initial_orders",
+    "print": "panel.teleprinter.print",
+    "clock_slow": "panel.clock.slow",
+    "clock_fast": "panel.clock.fast",
+    "display_crt": "panel.crt.select",
+    "aux_a": "panel.aux.a",
+    "aux_b": "panel.aux.b"
+  }
+}

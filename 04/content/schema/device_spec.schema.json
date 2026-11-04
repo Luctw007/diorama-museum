@@ -1,0 +1,315 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hako-museum.example/schema/device_spec.schema.json",
+  "title": "DeviceSpec（箱庭电子博物馆设备内容包规范 v0.1）",
+  "description": "校验 content/<device-id>/meta.json 的 JSON Schema。runtime.json 使用 $defs/runtime，annotations/annotations.json 使用 $defs/annotations_document。版本：draft 2020-12。",
+  "$comment": "MIT License - Copyright (c) 2026 箱庭电子博物馆项目组 (Hako Electronic Museum Project). 本文件按 MIT 许可分发。",
+  "type": "object",
+  "required": ["meta", "assemblies", "components", "runtime"],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "可选：指向本 schema 的 URI 或相对路径"
+    },
+    "meta": { "$ref": "#/$defs/meta" },
+    "assemblies": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/assembly" }
+    },
+    "components": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/component" }
+    },
+    "runtime": { "$ref": "#/$defs/runtime" }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "spec_version",
+        "version",
+        "engine_min_version",
+        "precision_level",
+        "sources"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$",
+          "description": "device-id，kebab-case（见规范 R-020）"
+        },
+        "name": { "type": "string", "minLength": 1 },
+        "name_en": { "type": "string" },
+        "spec_version": {
+          "type": "string",
+          "const": "0.1",
+          "description": "本规范版本（R-071）"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+",
+          "description": "内容包版本，semver（完整校验见 R-070）"
+        },
+        "engine_min_version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+",
+          "description": "引擎最低版本，semver（完整校验见 R-072）"
+        },
+        "precision_level": {
+          "type": "string",
+          "enum": ["L1", "L2", "L3", "L4"],
+          "description": "资产精度分级（规范第五章，R-040）"
+        },
+        "authors": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/author" }
+        },
+        "description": { "type": "string" },
+        "category": { "type": "string" },
+        "sources": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/source" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "author": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "contact": { "type": "string" },
+        "role": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "required": ["url", "license", "accessed_at"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "documentation",
+            "photo",
+            "manual",
+            "video",
+            "scan",
+            "audio",
+            "other"
+          ]
+        },
+        "title": { "type": "string" },
+        "url": {
+          "type": "string",
+          "pattern": "^https?://",
+          "description": "来源 URL，须为 http/https（R-052）"
+        },
+        "license": {
+          "type": "string",
+          "enum": [
+            "public_domain",
+            "cc",
+            "licensed",
+            "visual_reference_only"
+          ],
+          "description": "授权分档（四档，R-053）"
+        },
+        "accessed_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "获取日期 YYYY-MM-DD（R-054）"
+        }
+      },
+      "additionalProperties": false
+    },
+    "transform": {
+      "type": "object",
+      "required": ["translation", "rotation", "scale"],
+      "properties": {
+        "translation": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": { "type": "number" },
+          "description": "平移 [x,y,z]，米（R-030）"
+        },
+        "rotation": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": { "type": "number" },
+          "description": "旋转四元数 [x,y,z,w]，单位四元数（R-031）"
+        },
+        "scale": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": { "type": "number" },
+          "description": "缩放 [sx,sy,sz]，各分量 > 0（R-032/R-033）"
+        }
+      },
+      "additionalProperties": false
+    },
+    "assembly": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "role",
+        "transform",
+        "parent",
+        "children",
+        "components",
+        "annotations"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "description": "节点 id，snake_case（R-021）"
+        },
+        "name": { "type": "string", "minLength": 1 },
+        "role": { "type": "string", "description": "在整机中的作用文案" },
+        "transform": { "$ref": "#/$defs/transform" },
+        "parent": {
+          "type": ["string", "null"],
+          "description": "父装配体 id；根为 null（R-010）"
+        },
+        "children": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "components": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "annotations": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "mesh_ref": {
+          "type": "string",
+          "description": "可选：装配体网格 glTF 相对路径（R-016/R-041）"
+        }
+      },
+      "additionalProperties": false
+    },
+    "component": {
+      "type": "object",
+      "required": ["id", "name", "type", "role", "assembly", "annotations"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "name": { "type": "string", "minLength": 1 },
+        "type": { "type": "string", "description": "元器件类型（ic/capacitor/resistor/connector/...）" },
+        "role": { "type": "string", "description": "在整机中的作用文案（R-061 由校验器复核）" },
+        "assembly": { "type": "string", "description": "所属装配体 id（R-014）" },
+        "annotations": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "runtime": {
+      "type": "object",
+      "required": [
+        "emulator",
+        "version",
+        "system",
+        "media_hint",
+        "bios_required",
+        "output_sinks",
+        "input_map"
+      ],
+      "properties": {
+        "emulator": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_-]*$",
+          "description": "模拟器 id，v0.1 已定义 fake（指向 TASK-01 fake_emulator）"
+        },
+        "version": { "type": "string", "description": "模拟器/运行时版本，semver" },
+        "system": { "type": "string", "description": "模拟的系统名" },
+        "media_hint": {
+          "type": "string",
+          "enum": ["none", "cartridge", "disk", "firmware", "tape", "cd_rom", "floppy"],
+          "description": "介质提示枚举（规范第七章）"
+        },
+        "bios_required": { "type": "boolean" },
+        "bios_guide_url": {
+          "type": ["string", "null"],
+          "description": "BIOS 获取指引 URL，bios_required=false 时为 null"
+        },
+        "output_sinks": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/output_sink" }
+        },
+        "input_map": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "description": "逻辑动作名 -> 物理输入路径 映射"
+        }
+      },
+      "additionalProperties": false
+    },
+    "output_sink": {
+      "type": "object",
+      "required": ["id", "surface", "type"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "surface": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "description": "surface 命名（snake_case）"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["video", "audio", "hid"]
+        },
+        "format": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "annotation": {
+      "type": "object",
+      "required": ["id", "type", "target", "text"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["role", "flow", "anim"]
+        },
+        "target": { "type": "string", "description": "标注对象：assembly 或 component id（R-015）" },
+        "text": { "type": "string", "minLength": 1 },
+        "sources": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "annotations_document": {
+      "type": "object",
+      "required": ["annotations"],
+      "properties": {
+        "annotations": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/annotation" }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

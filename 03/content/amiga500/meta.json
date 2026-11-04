@@ -1,0 +1,517 @@
+{
+  "meta": {
+    "id": "amiga500",
+    "name": {
+      "zh": "Amiga 500",
+      "en": "Commodore Amiga 500"
+    },
+    "intro": {
+      "zh": "Amiga 500 是 1987 年 Commodore 推出的 16 位家用电脑，以 68000 处理器与三芯片组（Agnus/Denise/Paula）实现了超前的多媒体能力，是欧洲家用电脑的巅峰。",
+      "en": "The Amiga 500, launched by Commodore in 1987, delivered ahead-of-its-time multimedia with its 68000 CPU and the Agnus/Denise/Paula chipset."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1987,
+    "manufacturer": "Commodore",
+    "category": "personal-computer",
+    "description": "Amiga 500（1987），欧洲家用电脑巅峰：68000 CPU 7.14MHz、512KB Chip RAM、三芯片组（Agnus/Denise/Paula）、4096 色 HAM、四声道立体声、880KB 软驱、AmigaOS 多任务。",
+    "authors": [
+      {
+        "name": "TASK-68B 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Amiga 500",
+        "url": "https://en.wikipedia.org/wiki/Amiga_500",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Original Chip Set",
+        "url": "https://en.wikipedia.org/wiki/Original_Chip_Set",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "FS-UAE — Amiga emulator",
+        "url": "https://fs-uae.net/",
+        "license": "licensed",
+        "accessed_at": "2026-11-04"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Amiga 500 整机，1987 年推出的 16 位多媒体家用电脑。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "case",
+        "keyboard",
+        "motherboard",
+        "floppy_drive",
+        "power"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "chipset_division",
+        "demo_scene",
+        "multitask_os"
+      ]
+    },
+    {
+      "id": "case",
+      "name": "机身壳",
+      "role": {
+        "zh": "机身壳在整机中作为一体式米色外壳，集成扩展仓盖与散热口，是整机的结构骨架。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "expansion_cover",
+        "vent_slots",
+        "brand_badge"
+      ],
+      "annotations": [
+        "case_role"
+      ],
+      "mesh_ref": "assemblies/case.gltf"
+    },
+    {
+      "id": "keyboard",
+      "name": "键盘（含键盘仓）",
+      "role": {
+        "zh": "键盘在整机中作为文字与命令输入界面，与主机一体设计。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "key_matrix",
+        "led_indicators"
+      ],
+      "annotations": [
+        "keyboard_role"
+      ],
+      "mesh_ref": "assemblies/keyboard.gltf"
+    },
+    {
+      "id": "motherboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 68000 处理器、三芯片组与 Chip RAM，是系统的核心电路板。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cpu_68000",
+        "agnus_chip",
+        "denise_chip",
+        "paula_chip",
+        "chip_ram",
+        "rom"
+      ],
+      "annotations": [
+        "motherboard_role",
+        "ham_mode"
+      ],
+      "mesh_ref": "assemblies/motherboard.gltf"
+    },
+    {
+      "id": "floppy_drive",
+      "name": "3.5 英寸软驱（880KB）",
+      "role": {
+        "zh": "3.5 英寸软驱在整机中读写 880KB 软盘，由 Paula 芯片控制。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "disk_slot",
+        "eject_button"
+      ],
+      "annotations": [
+        "floppy_drive_role"
+      ],
+      "mesh_ref": "assemblies/floppy_drive.gltf"
+    },
+    {
+      "id": "power",
+      "name": "电源（外置）",
+      "role": {
+        "zh": "电源在整机中把市电转换为机器所需电压，为整机供电。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "power_jack",
+        "power_led"
+      ],
+      "annotations": [
+        "power_role"
+      ],
+      "mesh_ref": "assemblies/power.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "expansion_cover",
+      "name": "扩展仓盖",
+      "type": "cover",
+      "role": {
+        "zh": "扩展仓盖在整机中封住机身底部扩展仓，打开后可加装内存扩展与加速卡。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "expansion_cover_role"
+      ]
+    },
+    {
+      "id": "vent_slots",
+      "name": "散热通风口",
+      "type": "vent",
+      "role": {
+        "zh": "散热通风口在整机中为机身内部提供空气流通，帮助散热。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "vent_slots_role"
+      ]
+    },
+    {
+      "id": "brand_badge",
+      "name": "品牌徽标",
+      "type": "badge",
+      "role": {
+        "zh": "品牌徽标在整机中标明 Commodore 品牌与 Amiga 型号。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "brand_badge_role"
+      ]
+    },
+    {
+      "id": "key_matrix",
+      "name": "键盘矩阵",
+      "type": "keyboard",
+      "role": {
+        "zh": "键盘矩阵在整机中承载按键，是 Amiga 的文字与命令输入界面。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "key_matrix_role"
+      ]
+    },
+    {
+      "id": "led_indicators",
+      "name": "状态指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "状态指示灯在整机中显示电源与软驱活动状态。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "led_indicators_role"
+      ]
+    },
+    {
+      "id": "cpu_68000",
+      "name": "68000 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "68000 处理器在整机中作为计算核心，主频 7.14 MHz，负责逻辑运算。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "cpu_68000_role"
+      ]
+    },
+    {
+      "id": "agnus_chip",
+      "name": "Agnus 芯片",
+      "type": "ic",
+      "role": {
+        "zh": "Agnus 芯片在整机中负责内存控制、DMA 与视频时序，是芯片组的总调度。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "agnus_chip_role"
+      ]
+    },
+    {
+      "id": "denise_chip",
+      "name": "Denise 芯片",
+      "type": "ic",
+      "role": {
+        "zh": "Denise 芯片在整机中负责视频显示与调色板，支持 4096 色与硬件精灵。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "denise_chip_role"
+      ]
+    },
+    {
+      "id": "paula_chip",
+      "name": "Paula 芯片",
+      "type": "ic",
+      "role": {
+        "zh": "Paula 芯片在整机中负责四声道立体声与软驱控制，是 Amiga 声音的核心。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "paula_chip_role"
+      ]
+    },
+    {
+      "id": "chip_ram",
+      "name": "Chip RAM（512KB）",
+      "type": "ram",
+      "role": {
+        "zh": "Chip RAM 在整机中是 CPU 与三芯片组共享的内存，存放图形、声音与程序数据。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "chip_ram_role"
+      ]
+    },
+    {
+      "id": "rom",
+      "name": "Kickstart ROM",
+      "type": "rom",
+      "role": {
+        "zh": "Kickstart ROM 在整机中固化引导程序与核心例程，开机时加载。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "rom_role"
+      ]
+    },
+    {
+      "id": "disk_slot",
+      "name": "软盘插槽",
+      "type": "bay",
+      "role": {
+        "zh": "软盘插槽在整机中接纳 3.5 英寸 880KB 软盘，是程序与数据的载入入口。"
+      },
+      "assembly": "floppy_drive",
+      "annotations": [
+        "disk_slot_role"
+      ]
+    },
+    {
+      "id": "eject_button",
+      "name": "弹出按钮",
+      "type": "button",
+      "role": {
+        "zh": "弹出按钮在整机中推出软盘，机械式操作。"
+      },
+      "assembly": "floppy_drive",
+      "annotations": [
+        "eject_button_role"
+      ]
+    },
+    {
+      "id": "power_jack",
+      "name": "电源接口",
+      "type": "connector",
+      "role": {
+        "zh": "电源接口在整机中接纳外置电源，为整机供电。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "power_jack_role"
+      ]
+    },
+    {
+      "id": "power_led",
+      "name": "电源指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "电源指示灯在整机中点亮表示系统已上电。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "power_led_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Amiga 500",
+    "media_hint": "floppy",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "external_crt_0",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "rgb"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      },
+      {
+        "id": "led_0",
+        "surface": "led",
+        "type": "video",
+        "format": "mono1"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "enter": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "space": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      },
+      "escape": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      },
+      "mouse_move": {
+        "map": "mouse",
+        "key": "motion"
+      },
+      "mouse_click": {
+        "map": "mouse",
+        "key": "btn_left"
+      },
+      "mouse_right": {
+        "map": "mouse",
+        "key": "btn_right"
+      }
+    }
+  }
+}

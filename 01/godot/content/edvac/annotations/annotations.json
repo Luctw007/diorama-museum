@@ -1,0 +1,199 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "EDVAC（离散变量自动电子计算机）整机，把《EDVAC 报告初稿》的存储程序设计落实为正式机器、现代冯·诺依曼架构的设计原型。",
+      "sources": []
+    },
+    {
+      "id": "cabinet_role",
+      "type": "role",
+      "target": "cabinet",
+      "text": "机柜框架在整机中作为多机柜的机械骨架，承载五大部件并提供供电与散热。",
+      "sources": []
+    },
+    {
+      "id": "central_arithmetic_role",
+      "type": "role",
+      "target": "central_arithmetic",
+      "text": "运算器在整机中执行串行二进制加、减、乘，除法由软件子程序完成，是数据运算核心。",
+      "sources": []
+    },
+    {
+      "id": "central_control_role",
+      "type": "role",
+      "target": "central_control",
+      "text": "控制器在整机中产生时序与顺序控制，维持程序计数器与指令寄存器，是所有现代 CPU 控制逻辑的原型。",
+      "sources": []
+    },
+    {
+      "id": "memory_unit_role",
+      "type": "role",
+      "target": "memory_unit",
+      "text": "存储器在整机中用水银延迟线暂存 1,024 个 44 位字，程序与数据同存于此。",
+      "sources": []
+    },
+    {
+      "id": "input_unit_role",
+      "type": "role",
+      "target": "input_unit",
+      "text": "输入部件在整机中把程序与数据送入内存，早期经磁性记录仪，1953 起加打孔卡。",
+      "sources": []
+    },
+    {
+      "id": "output_unit_role",
+      "type": "role",
+      "target": "output_unit",
+      "text": "输出部件在整机中把计算结果送出，早期经示波器与记录设备，1953 起打孔卡。",
+      "sources": []
+    },
+    {
+      "id": "power_unit_role",
+      "type": "role",
+      "target": "power_unit",
+      "text": "电源单元在整机中把市电转换为各机架所需电压，为约 6,000 只真空管与 12,000 只二极管供电。",
+      "sources": []
+    },
+    {
+      "id": "adder_unit_role",
+      "type": "role",
+      "target": "adder_unit",
+      "text": "串行加法器单元在整机中逐位实现 44 位二进制加减，是运算器的基本运算部件。",
+      "sources": []
+    },
+    {
+      "id": "multiplier_unit_role",
+      "type": "role",
+      "target": "multiplier_unit",
+      "text": "乘法器单元在整机中实现串行二进制乘法，一次乘法约 2,900 微秒。",
+      "sources": []
+    },
+    {
+      "id": "clock_unit_role",
+      "type": "role",
+      "target": "clock_unit",
+      "text": "主时钟单元在整机中产生主脉冲时序，为串行位流提供统一节拍。",
+      "sources": []
+    },
+    {
+      "id": "sequence_unit_role",
+      "type": "role",
+      "target": "sequence_unit",
+      "text": "顺序控制单元在整机中维护程序计数器与指令寄存器，按序取出下一条指令。",
+      "sources": []
+    },
+    {
+      "id": "dispatch_unit_role",
+      "type": "role",
+      "target": "dispatch_unit",
+      "text": "分发单元在整机中把来自控制器与内存的指令分发到各执行部件。",
+      "sources": []
+    },
+    {
+      "id": "delay_line_unit_role",
+      "type": "role",
+      "target": "delay_line_unit",
+      "text": "水银延迟线单元在整机中作为主存，用声波脉冲循环暂存 44 位字。",
+      "sources": []
+    },
+    {
+      "id": "recirculation_unit_role",
+      "type": "role",
+      "target": "recirculation_unit",
+      "text": "再循环整形单元在整机中把延迟线输出脉冲放大整形后重新注入，维持数据不衰减。",
+      "sources": []
+    },
+    {
+      "id": "tape_input_unit_role",
+      "type": "role",
+      "target": "tape_input_unit",
+      "text": "纸带输入单元在整机中把程序与数据读入内存，是程序进入机器的入口。",
+      "sources": []
+    },
+    {
+      "id": "scope_output_unit_role",
+      "type": "role",
+      "target": "scope_output_unit",
+      "text": "示波器输出单元在整机中把计算结果以波形或数字显示，供操作员观察。",
+      "sources": []
+    },
+    {
+      "id": "delay_tank_board_role",
+      "type": "role",
+      "target": "delay_tank_board",
+      "text": "延迟线水槽板在整机中固定单个水银延迟线水槽及其换能器，构成主存最小存储单元。",
+      "sources": []
+    },
+    {
+      "id": "adder_board_role",
+      "type": "role",
+      "target": "adder_board",
+      "text": "加法器电路板在整机中承载位串行加法的真空管电路，把两个操作数逐位相加。",
+      "sources": []
+    },
+    {
+      "id": "mercury_delay_tank_role",
+      "type": "role",
+      "target": "mercury_delay_tank",
+      "text": "水银延迟线水槽在整机中利用声波在汞中传播慢的特点暂存一串二进制脉冲，是主存的物理载体。",
+      "sources": []
+    },
+    {
+      "id": "transducer_role",
+      "type": "role",
+      "target": "transducer",
+      "text": "压电换能器在整机中把电脉冲转为声波送入水银、再在输出端把声波转回电脉冲。",
+      "sources": []
+    },
+    {
+      "id": "accumulator_register_role",
+      "type": "role",
+      "target": "accumulator_register",
+      "text": "累加器寄存器在整机中暂存运算结果，供后续指令读取与写回。",
+      "sources": []
+    },
+    {
+      "id": "instruction_register_role",
+      "type": "role",
+      "target": "instruction_register",
+      "text": "指令寄存器在整机中暂存当前取出的指令，供译码与执行。",
+      "sources": []
+    },
+    {
+      "id": "program_counter_role",
+      "type": "role",
+      "target": "program_counter",
+      "text": "程序计数器在整机中记录下一条指令的内存地址，按序推进取指。",
+      "sources": []
+    },
+    {
+      "id": "five_unit_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "五大部件数据流：程序作为数据经输入部件（I）进入存储器（M），与数据同存；控制器（CC）按程序计数器从存储器取指，译码后驱动运算器（CA）对操作数做串行二进制运算，结果写回存储器，再经输出部件（O）送出——这是《EDVAC 报告初稿》确立的五部件结构。",
+      "sources": [
+        "https://en.wikipedia.org/wiki/First_Draft_of_a_Report_on_the_EDVAC"
+      ]
+    },
+    {
+      "id": "delay_line_anim",
+      "type": "anim",
+      "target": "delay_tank_board",
+      "text": "串行二进制延迟线存储动画（八镜）：镜一（3 秒）一个 44 位二进制字被拆成一串脉冲，从换能器注入水银管，解说「一个 44 位的字，变成一串串行脉冲，一个位接一个位」；镜二（4 秒）脉冲串沿水银管匀速传播，途经位依次高亮，解说「脉冲以声波形式在水银里前进」；镜三（3 秒）脉冲串到达输出端，换能器转回电脉冲，解说「管尾把声波还原成电信号」；镜四（4 秒）输出进入再循环整形单元被放大整形，解说「每转一圈整形一次，波形不会衰减」；镜五（3 秒）整形后的脉冲重新注入管头，形成循环，解说「数据在水银管里一直转圈」；镜六（3 秒）读取窗口在脉冲流经时取样，高亮取样点，解说「读取就是在窗口边等着抄一份」；镜七（4 秒）多根水银管并排循环，展示 1,024 字主存全貌，解说「许多根这样的管子，合起来就是 EDVAC 的内存」；镜八（3 秒）快进展示字在水银管间进出，解说「这就是串行存储：一个位接一个位地走」。",
+      "sources": [
+        "http://www.cs.man.ac.uk/CCS/Archive/misc/EDSAC/ElectronicEngineeringRawTifs.pdf"
+      ]
+    },
+    {
+      "id": "fetch_execute_anim",
+      "type": "anim",
+      "target": "sequence_unit",
+      "text": "五部件取指执行循环动画（八镜）：镜一（3 秒）程序计数器指向存储器某地址，高亮该地址，解说「程序计数器记着下一条指令在内存里的位置」；镜二（4 秒）控制器向存储器发出读请求，箭头从 CC 指向 M，解说「控制器向内存要这条指令」；镜三（3 秒）指令从延迟线读出进入指令寄存器，高亮指令寄存器，解说「指令被取出来，放进指令寄存器」；镜四（4 秒）指令译码，高亮译码逻辑，解说「指令被译码，决定这一拍做什么」；镜五（4 秒）运算器对操作数做串行运算，箭头在 CA 与 M 间往返，解说「运算器对内存里的操作数做串行运算」；镜六（3 秒）结果写回存储器，箭头指向 M，解说「结果写回内存」；镜七（3 秒）程序计数器加一，指向下一条，解说「计数器加一，准备取下一条」；镜八（4 秒）整条取指—译码—执行—回写环路以发光箭头循环点亮，解说「这就是冯·诺依曼架构的心跳，一直循环不停」。",
+      "sources": [
+        "https://en.wikipedia.org/wiki/First_Draft_of_a_Report_on_the_EDVAC"
+      ]
+    }
+  ]
+}

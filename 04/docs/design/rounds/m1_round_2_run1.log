@@ -1,0 +1,44 @@
+﻿  [PASS] 网关在端口 17333 就绪
+  [PASS] heartbeat 初始无运行设备
+  [PASS] list_emulators：fake 可用
+  [PASS] rle 编解码 roundtrip ×3
+  [PASS] rle 畸形输入返回 None
+  [PASS] dev1 启动 ok
+  [PASS] dev1 ack 回显 frame_codec=rle
+  [PASS] dev1 sinks 含 led
+  [PASS] dev1 帧连续：frame_id=1（前一张=0）
+  [PASS] dev1 帧解码尺寸正确（57600）
+  [PASS] dev1 帧连续：frame_id=2（前一张=1）
+  [PASS] dev1 帧解码尺寸正确（57600）
+  [PASS] dev1 帧连续：frame_id=3（前一张=2）
+  [PASS] dev1 帧解码尺寸正确（57600）
+  [PASS] dev1 帧连续：frame_id=4（前一张=3）
+  [PASS] dev1 帧解码尺寸正确（57600）
+  [PASS] dev1 帧连续：frame_id=5（前一张=4）
+  [PASS] dev1 帧解码尺寸正确（57600）
+  [PASS] 单帧多分片证据：frame_id=6 total=10（force_chunk 生效）
+  [PASS] dev1 led 灯状态交替：[True, False]
+  [PASS] dev1 input_ack 回显
+  [PASS] save_state_ack.frame_id=10
+  [PASS] 快照后帧推进到 16
+  [PASS] load 回到保存点 10
+  [PASS] 回滚生效：回滚后第一帧 frame_id=11（保存点 10，此前已达 16）
+  [PASS] dev3 启动 ok
+  [PASS] dev3 大帧尺寸正确（1440000）
+  [PASS] dev3 大帧尺寸正确（1440000）
+  [PASS] dev3 大帧尺寸正确（1440000）
+  [PASS] 双设备并发 heartbeat：{'dev1': 'running', 'dev3': 'running'}
+  [PASS] dev3 正常停止
+  [PASS] 第1轮崩溃上报
+  [PASS] 第1轮恢复：新进程签名帧 first=1（崩溃前 13）
+  [PASS] 第1轮恢复流单调递增：[1, 11, 12, 13]
+  [PASS] 第2轮崩溃上报
+  [PASS] 第2轮恢复：新进程签名帧 first=1（崩溃前 13）
+  [PASS] 第2轮恢复流单调递增：[1, 11, 12, 13]
+  [PASS] dev2 启动 ok
+  [PASS] dev2 连续失败重启上报 RESTART_EXCEEDED
+  [PASS] dev2 降级 degraded
+  [PASS] degraded 设备可 stop 清理
+  [PASS] dev1 正常停止
+
+M1 验收全部通过 ✔（断言 42 条）

@@ -1,0 +1,775 @@
+{
+  "meta": {
+    "id": "pdp8",
+    "name": {
+      "zh": "DEC PDP-8（小型计算机）",
+      "en": "DEC PDP-8 (Minicomputer)"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1965,
+    "manufacturer": "Digital Equipment Corporation (DEC)",
+    "category": "minicomputer",
+    "description": "第一台取得商业成功的小型计算机（1965），12 位字长、4K 磁芯内存，以前面板拨键与纸带进行程序加载，开创了「小型机」品类。",
+    "authors": [
+      {
+        "name": "TASK-23B 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — PDP-8（索引）",
+        "url": "https://en.wikipedia.org/wiki/PDP-8",
+        "license": "cc",
+        "accessed_at": "2026-11-02"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum 时间线",
+        "url": "https://www.computerhistory.org/timeline/?category=cmptr",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-02"
+      },
+      {
+        "type": "manual",
+        "title": "DEC PDP-8 手册（bitsavers 存档）",
+        "url": "https://bitsavers.org/pdf/dec/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-02"
+      },
+      {
+        "type": "documentation",
+        "title": "SIMH — PDP-8 模拟器（Classic）",
+        "url": "https://simh.trailing-edge.com/",
+        "license": "licensed",
+        "accessed_at": "2026-11-02"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "DEC PDP-8 整机，1965 年推出的第一台成功的小型计算机，以 12 位字长与磁芯内存开创了小型机品类。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "panel",
+        "chassis",
+        "core_memory_rack",
+        "io_expansion_rack"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "manual_program_flow"
+      ]
+    },
+    {
+      "id": "panel",
+      "name": "前面板",
+      "role": {
+        "zh": "前面板在整机中提供拨动开关与指示灯，是操作员手动检视、写入与启动程序的直接接口。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "sw_data_00",
+        "sw_data_01",
+        "sw_data_02",
+        "sw_data_03",
+        "sw_data_04",
+        "sw_data_05",
+        "sw_data_06",
+        "sw_data_07",
+        "sw_data_08",
+        "sw_data_09",
+        "sw_data_10",
+        "sw_data_11",
+        "sw_load_addr",
+        "sw_exam",
+        "sw_dep",
+        "sw_start",
+        "sw_stop",
+        "sw_cont",
+        "sw_clear",
+        "lamp_ac_00",
+        "lamp_ac_01",
+        "lamp_ac_02",
+        "lamp_ac_03",
+        "lamp_ac_04",
+        "lamp_ac_05",
+        "lamp_ac_06",
+        "lamp_ac_07",
+        "lamp_ac_08",
+        "lamp_ac_09",
+        "lamp_ac_10",
+        "lamp_ac_11",
+        "lamp_link",
+        "lamp_run"
+      ],
+      "annotations": [
+        "panel_role"
+      ],
+      "mesh_ref": "assemblies/panel.gltf"
+    },
+    {
+      "id": "chassis",
+      "name": "机体",
+      "role": {
+        "zh": "机体在整机中作为机械骨架，承载电源与处理器板组，提供结构支撑与散热通道。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "chassis_role"
+      ],
+      "mesh_ref": "assemblies/chassis.gltf"
+    },
+    {
+      "id": "core_memory_rack",
+      "name": "核心内存机架",
+      "role": {
+        "zh": "核心内存机架在整机中承载磁芯存储阵列及其读写电路，是 12 位主存的物理载体。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.5,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "core_stack",
+        "core_driver",
+        "sense_amp"
+      ],
+      "annotations": [
+        "core_memory_rack_role"
+      ],
+      "mesh_ref": "assemblies/core_memory_rack.gltf"
+    },
+    {
+      "id": "io_expansion_rack",
+      "name": "I/O 扩展架",
+      "role": {
+        "zh": "I/O 扩展架在整机中挂载纸带读入机与电传打字机等外设接口，负责程序与数据的进出。"
+      },
+      "transform": {
+        "translation": [
+          0.6,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "tape_reader",
+        "teleprinter"
+      ],
+      "annotations": [
+        "io_expansion_rack_role"
+      ],
+      "mesh_ref": "assemblies/io_expansion_rack.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "sw_data_00",
+      "name": "数据拨动开关 0",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 0 位在整机中设定开关寄存器的第 0 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_data_00_role"
+      ]
+    },
+    {
+      "id": "sw_data_01",
+      "name": "数据拨动开关 1",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 1 位在整机中设定开关寄存器的第 1 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_data_01_role"
+      ]
+    },
+    {
+      "id": "sw_data_02",
+      "name": "数据拨动开关 2",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 2 位在整机中设定开关寄存器的第 2 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_data_02_role"
+      ]
+    },
+    {
+      "id": "sw_data_03",
+      "name": "数据拨动开关 3",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 3 位在整机中设定开关寄存器的第 3 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_data_03_role"
+      ]
+    },
+    {
+      "id": "sw_data_04",
+      "name": "数据拨动开关 4",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 4 位在整机中设定开关寄存器的第 4 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_data_04_role"
+      ]
+    },
+    {
+      "id": "sw_data_05",
+      "name": "数据拨动开关 5",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 5 位在整机中设定开关寄存器的第 5 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_data_05_role"
+      ]
+    },
+    {
+      "id": "sw_data_06",
+      "name": "数据拨动开关 6",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 6 位在整机中设定开关寄存器的第 6 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_data_06_role"
+      ]
+    },
+    {
+      "id": "sw_data_07",
+      "name": "数据拨动开关 7",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 7 位在整机中设定开关寄存器的第 7 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_data_07_role"
+      ]
+    },
+    {
+      "id": "sw_data_08",
+      "name": "数据拨动开关 8",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 8 位在整机中设定开关寄存器的第 8 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_data_08_role"
+      ]
+    },
+    {
+      "id": "sw_data_09",
+      "name": "数据拨动开关 9",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 9 位在整机中设定开关寄存器的第 9 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_data_09_role"
+      ]
+    },
+    {
+      "id": "sw_data_10",
+      "name": "数据拨动开关 10",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 10 位在整机中设定开关寄存器的第 10 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_data_10_role"
+      ]
+    },
+    {
+      "id": "sw_data_11",
+      "name": "数据拨动开关 11",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 11 位在整机中设定开关寄存器的第 11 位，向上为 1、向下为 0，用于手动输入 12 位地址或数据。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_data_11_role"
+      ]
+    },
+    {
+      "id": "sw_load_addr",
+      "name": "装载地址开关",
+      "type": "switch",
+      "role": {
+        "zh": "装载地址开关在整机中把开关寄存器的 12 位内容送入程序计数器，定位要检视或写入的内存地址。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_load_addr_role"
+      ]
+    },
+    {
+      "id": "sw_exam",
+      "name": "检视开关",
+      "type": "switch",
+      "role": {
+        "zh": "检视开关在整机中把当前地址的内容读入存储器缓冲，并显示在累加器指示灯上供操作员查看。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_exam_role"
+      ]
+    },
+    {
+      "id": "sw_dep",
+      "name": "写入开关",
+      "type": "switch",
+      "role": {
+        "zh": "写入开关在整机中把开关寄存器的内容写入当前地址，完成一次手动存数操作。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_dep_role"
+      ]
+    },
+    {
+      "id": "sw_start",
+      "name": "启动开关",
+      "type": "switch",
+      "role": {
+        "zh": "启动开关在整机中使处理器从程序计数器当前地址开始执行程序。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_start_role"
+      ]
+    },
+    {
+      "id": "sw_stop",
+      "name": "停机开关",
+      "type": "switch",
+      "role": {
+        "zh": "停机开关在整机中暂停处理器的执行，使机器回到手动控制状态。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_stop_role"
+      ]
+    },
+    {
+      "id": "sw_cont",
+      "name": "继续开关",
+      "type": "switch",
+      "role": {
+        "zh": "继续开关在整机中使处理器从暂停处继续执行程序，用于单步调试后的恢复运行。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_cont_role"
+      ]
+    },
+    {
+      "id": "sw_clear",
+      "name": "清除开关",
+      "type": "switch",
+      "role": {
+        "zh": "清除开关在整机中复位累加器与各状态标志，使机器回到初始状态。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "sw_clear_role"
+      ]
+    },
+    {
+      "id": "lamp_ac_00",
+      "name": "累加器指示灯 0",
+      "type": "lamp",
+      "role": {
+        "zh": "累加器指示灯第 0 位在整机中点亮表示累加器第 0 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "lamp_ac_00_role"
+      ]
+    },
+    {
+      "id": "lamp_ac_01",
+      "name": "累加器指示灯 1",
+      "type": "lamp",
+      "role": {
+        "zh": "累加器指示灯第 1 位在整机中点亮表示累加器第 1 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "lamp_ac_01_role"
+      ]
+    },
+    {
+      "id": "lamp_ac_02",
+      "name": "累加器指示灯 2",
+      "type": "lamp",
+      "role": {
+        "zh": "累加器指示灯第 2 位在整机中点亮表示累加器第 2 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "lamp_ac_02_role"
+      ]
+    },
+    {
+      "id": "lamp_ac_03",
+      "name": "累加器指示灯 3",
+      "type": "lamp",
+      "role": {
+        "zh": "累加器指示灯第 3 位在整机中点亮表示累加器第 3 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "lamp_ac_03_role"
+      ]
+    },
+    {
+      "id": "lamp_ac_04",
+      "name": "累加器指示灯 4",
+      "type": "lamp",
+      "role": {
+        "zh": "累加器指示灯第 4 位在整机中点亮表示累加器第 4 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "lamp_ac_04_role"
+      ]
+    },
+    {
+      "id": "lamp_ac_05",
+      "name": "累加器指示灯 5",
+      "type": "lamp",
+      "role": {
+        "zh": "累加器指示灯第 5 位在整机中点亮表示累加器第 5 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "lamp_ac_05_role"
+      ]
+    },
+    {
+      "id": "lamp_ac_06",
+      "name": "累加器指示灯 6",
+      "type": "lamp",
+      "role": {
+        "zh": "累加器指示灯第 6 位在整机中点亮表示累加器第 6 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "lamp_ac_06_role"
+      ]
+    },
+    {
+      "id": "lamp_ac_07",
+      "name": "累加器指示灯 7",
+      "type": "lamp",
+      "role": {
+        "zh": "累加器指示灯第 7 位在整机中点亮表示累加器第 7 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "lamp_ac_07_role"
+      ]
+    },
+    {
+      "id": "lamp_ac_08",
+      "name": "累加器指示灯 8",
+      "type": "lamp",
+      "role": {
+        "zh": "累加器指示灯第 8 位在整机中点亮表示累加器第 8 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "lamp_ac_08_role"
+      ]
+    },
+    {
+      "id": "lamp_ac_09",
+      "name": "累加器指示灯 9",
+      "type": "lamp",
+      "role": {
+        "zh": "累加器指示灯第 9 位在整机中点亮表示累加器第 9 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "lamp_ac_09_role"
+      ]
+    },
+    {
+      "id": "lamp_ac_10",
+      "name": "累加器指示灯 10",
+      "type": "lamp",
+      "role": {
+        "zh": "累加器指示灯第 10 位在整机中点亮表示累加器第 10 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "lamp_ac_10_role"
+      ]
+    },
+    {
+      "id": "lamp_ac_11",
+      "name": "累加器指示灯 11",
+      "type": "lamp",
+      "role": {
+        "zh": "累加器指示灯第 11 位在整机中点亮表示累加器第 11 位为 1、熄灭表示 0，是操作员读取运算结果的主要窗口。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "lamp_ac_11_role"
+      ]
+    },
+    {
+      "id": "lamp_link",
+      "name": "链接指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "链接指示灯在整机中显示累加器链接位（进位）的当前状态，点亮表示有进位产生。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "lamp_link_role"
+      ]
+    },
+    {
+      "id": "lamp_run",
+      "name": "运行指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "运行指示灯在整机中于处理器执行程序期间持续点亮，是判断机器是否在运行的状态指示。"
+      },
+      "assembly": "panel",
+      "annotations": [
+        "lamp_run_role"
+      ]
+    },
+    {
+      "id": "core_stack",
+      "name": "磁芯存储阵列",
+      "type": "core_memory",
+      "role": {
+        "zh": "磁芯存储阵列在整机中作为主存，用数千个磁芯环保存 4096 个 12 位字，断电不丢失。"
+      },
+      "assembly": "core_memory_rack",
+      "annotations": [
+        "core_stack_role"
+      ]
+    },
+    {
+      "id": "core_driver",
+      "name": "磁芯驱动电路",
+      "type": "driver",
+      "role": {
+        "zh": "磁芯驱动电路在整机中向磁芯阵列的 X/Y 选通线提供读写电流脉冲，驱动磁芯翻转。"
+      },
+      "assembly": "core_memory_rack",
+      "annotations": [
+        "core_driver_role"
+      ]
+    },
+    {
+      "id": "sense_amp",
+      "name": "读出放大器",
+      "type": "amplifier",
+      "role": {
+        "zh": "读出放大器在整机中检测磁芯翻转产生的微弱感应脉冲，并整形为数字信号供累加器读取。"
+      },
+      "assembly": "core_memory_rack",
+      "annotations": [
+        "sense_amp_role"
+      ]
+    },
+    {
+      "id": "tape_reader",
+      "name": "纸带读入机",
+      "type": "tape_reader",
+      "role": {
+        "zh": "纸带读入机在整机中读取穿孔纸带上的程序与数据，是程序进入内存的主要入口。"
+      },
+      "assembly": "io_expansion_rack",
+      "annotations": [
+        "tape_reader_role"
+      ]
+    },
+    {
+      "id": "teleprinter",
+      "name": "电传打字机",
+      "type": "teleprinter",
+      "role": {
+        "zh": "电传打字机在整机中打印运算结果并输入操作命令，是主要的人机交互终端。"
+      },
+      "assembly": "io_expansion_rack",
+      "annotations": [
+        "teleprinter_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "simh-pdp8",
+    "version": "3.12.5",
+    "system": "DEC PDP-8 (Minicomputer)",
+    "media_hint": "tape",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "indicator_lamps_0",
+        "surface": "indicator_lamps",
+        "type": "video",
+        "format": "mono1"
+      },
+      {
+        "id": "terminal_0",
+        "surface": "terminal",
+        "type": "video",
+        "format": "text"
+      }
+    ],
+    "input_map": {
+      "load_addr": {
+        "map": "keyboard",
+        "key": "KEY_L"
+      },
+      "exam": {
+        "map": "keyboard",
+        "key": "KEY_E"
+      },
+      "dep": {
+        "map": "keyboard",
+        "key": "KEY_D"
+      },
+      "start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "continue": {
+        "map": "keyboard",
+        "key": "KEY_C"
+      },
+      "stop": {
+        "map": "keyboard",
+        "key": "KEY_STOP"
+      },
+      "clear": {
+        "map": "keyboard",
+        "key": "KEY_CLEAR"
+      },
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      }
+    }
+  }
+}

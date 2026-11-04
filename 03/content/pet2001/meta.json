@@ -1,0 +1,508 @@
+{
+  "meta": {
+    "id": "pet2001",
+    "name": {
+      "zh": "Commodore PET 2001",
+      "en": "Commodore PET 2001"
+    },
+    "intro": {
+      "zh": "Commodore PET 2001 是 1977 年 Commodore 推出的一体式个人电脑，与 Apple II、TRS-80 并称 1977 三杰，内置 BASIC 与磁带机，开箱即用。",
+      "en": "The Commodore PET 2001, launched in 1977, was one of the 1977 Trinity of personal computers, an all-in-one machine with built-in BASIC and cassette drive."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1977,
+    "manufacturer": "Commodore",
+    "category": "personal-computer",
+    "description": "Commodore PET 2001（1977），1977 三杰之一：6502 CPU 1MHz、4KB 内存、内置 9 英寸单显、chiclet 小键盘、内置磁带机、一体成型机壳。",
+    "authors": [
+      {
+        "name": "TASK-83A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Commodore PET",
+        "url": "https://en.wikipedia.org/wiki/Commodore_PET",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — MOS Technology 6502",
+        "url": "https://en.wikipedia.org/wiki/MOS_Technology_6502",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "VICE — the Versatile Commodore Emulator",
+        "url": "https://vice-emu.sourceforge.io/",
+        "license": "licensed",
+        "accessed_at": "2026-11-04"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Commodore PET 2001 整机，1977 年推出的一体式个人电脑，1977 三杰之一。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "case",
+        "cassette_drive",
+        "keyboard",
+        "motherboard",
+        "crt_monitor",
+        "power"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "trinity_1977",
+        "builtin_basic",
+        "all_in_one"
+      ]
+    },
+    {
+      "id": "case",
+      "name": "一体机身壳",
+      "role": {
+        "zh": "一体机身壳在整机中集成键盘、主机、显示器与磁带机，是 PET 2001 的一体化金属外壳。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "vent_slots",
+        "brand_badge"
+      ],
+      "annotations": [
+        "case_role"
+      ],
+      "mesh_ref": "assemblies/case.gltf"
+    },
+    {
+      "id": "cassette_drive",
+      "name": "内置磁带机",
+      "role": {
+        "zh": "内置磁带机在整机中作为程序与数据的主要存储设备，位于机壳前侧。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cassette_bay",
+        "play_button"
+      ],
+      "annotations": [
+        "cassette_drive_role",
+        "datasette"
+      ],
+      "mesh_ref": "assemblies/cassette_drive.gltf"
+    },
+    {
+      "id": "keyboard",
+      "name": "键盘（chiclet 小键盘）",
+      "role": {
+        "zh": "键盘在整机中采用计算器式小方键，是 PET 2001 早期型号的标志性输入界面。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "key_matrix"
+      ],
+      "annotations": [
+        "keyboard_role",
+        "chiclet_keys"
+      ],
+      "mesh_ref": "assemblies/keyboard.gltf"
+    },
+    {
+      "id": "motherboard",
+      "name": "主板（6502）",
+      "role": {
+        "zh": "主板在整机中承载 6502 处理器、内存与 BASIC ROM，是系统的核心电路板。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cpu_6502",
+        "ram",
+        "rom",
+        "via_chip"
+      ],
+      "annotations": [
+        "motherboard_role"
+      ],
+      "mesh_ref": "assemblies/motherboard.gltf"
+    },
+    {
+      "id": "crt_monitor",
+      "name": "CRT 监视器",
+      "role": {
+        "zh": "CRT 监视器在整机中显示 40×25 字符的绿色单色画面，与主机一体成型。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "crt_tube",
+        "brightness_knob"
+      ],
+      "annotations": [
+        "crt_monitor_role"
+      ],
+      "mesh_ref": "assemblies/crt_monitor.gltf"
+    },
+    {
+      "id": "power",
+      "name": "电源",
+      "role": {
+        "zh": "电源在整机中为各部件供电，集成在机壳内部。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "power_switch",
+        "power_led"
+      ],
+      "annotations": [
+        "power_role"
+      ],
+      "mesh_ref": "assemblies/power.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "vent_slots",
+      "name": "散热通风口",
+      "type": "vent",
+      "role": {
+        "zh": "散热通风口在整机中为机身内部提供空气流通，帮助系统散热。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "vent_slots_role"
+      ]
+    },
+    {
+      "id": "brand_badge",
+      "name": "品牌徽标",
+      "type": "badge",
+      "role": {
+        "zh": "品牌徽标在整机中标明 Commodore 品牌与 PET 型号。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "brand_badge_role"
+      ]
+    },
+    {
+      "id": "cassette_bay",
+      "name": "磁带仓",
+      "type": "bay",
+      "role": {
+        "zh": "磁带仓在整机中接纳卡式磁带，是程序与数据的主要存储载体。"
+      },
+      "assembly": "cassette_drive",
+      "annotations": [
+        "cassette_bay_role"
+      ]
+    },
+    {
+      "id": "play_button",
+      "name": "播放按键",
+      "type": "button",
+      "role": {
+        "zh": "播放按键在整机中控制磁带播放，用于载入或保存程序与数据。"
+      },
+      "assembly": "cassette_drive",
+      "annotations": [
+        "play_button_role"
+      ]
+    },
+    {
+      "id": "key_matrix",
+      "name": "键盘矩阵（chiclet）",
+      "type": "keyboard",
+      "role": {
+        "zh": "键盘矩阵在整机中采用计算器式小方键布局，是 PET 2001 早期型号的输入界面。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "key_matrix_role"
+      ]
+    },
+    {
+      "id": "cpu_6502",
+      "name": "6502 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "6502 处理器在整机中作为计算核心，主频 1 MHz，是 8 位时代的经典 CPU。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "cpu_6502_role"
+      ]
+    },
+    {
+      "id": "ram",
+      "name": "内存（4KB）",
+      "type": "ram",
+      "role": {
+        "zh": "4KB 内存在整机中存放程序与数据，是系统运行时的主存储。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ram_role"
+      ]
+    },
+    {
+      "id": "rom",
+      "name": "BASIC ROM",
+      "type": "rom",
+      "role": {
+        "zh": "BASIC ROM 在整机中固化 Commodore BASIC，开机即进入 BASIC 环境。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "rom_role"
+      ]
+    },
+    {
+      "id": "via_chip",
+      "name": "6522 VIA 芯片",
+      "type": "ic",
+      "role": {
+        "zh": "6522 VIA 芯片在整机中提供输入输出接口与定时器，连接键盘与外部设备。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "via_chip_role"
+      ]
+    },
+    {
+      "id": "crt_tube",
+      "name": "绿色磷光显像管",
+      "type": "crt",
+      "role": {
+        "zh": "绿色磷光显像管在整机中显示 40×25 字符的单色画面，是系统输出的显示部件。"
+      },
+      "assembly": "crt_monitor",
+      "annotations": [
+        "crt_tube_role"
+      ]
+    },
+    {
+      "id": "brightness_knob",
+      "name": "亮度旋钮",
+      "type": "knob",
+      "role": {
+        "zh": "亮度旋钮在整机中调节画面亮度，便于在不同光照下阅读。"
+      },
+      "assembly": "crt_monitor",
+      "annotations": [
+        "brightness_knob_role"
+      ]
+    },
+    {
+      "id": "power_switch",
+      "name": "电源开关",
+      "type": "switch",
+      "role": {
+        "zh": "电源开关在整机中控制整机供电的通断，是判断机器开启的操作部件。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "power_switch_role"
+      ]
+    },
+    {
+      "id": "power_led",
+      "name": "电源指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "电源指示灯在整机中点亮表示系统已上电，是判断机器开启的状态指示。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "power_led_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Commodore PET 2001",
+    "media_hint": "tape",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "internal_crt_0",
+        "surface": "internal_crt",
+        "type": "video",
+        "format": "mono1"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "enter": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "space": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      },
+      "stop": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      }
+    }
+  }
+}

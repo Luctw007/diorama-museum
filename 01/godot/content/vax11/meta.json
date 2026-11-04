@@ -1,0 +1,703 @@
+{
+  "meta": {
+    "id": "vax11",
+    "name": {
+      "zh": "DEC VAX-11/780",
+      "en": "DEC VAX-11/780"
+    },
+    "intro": {
+      "zh": "DEC VAX-11/780 是 1977 年发布的 32 位虚拟寻址小型机，以分页内存管理把虚拟内存推向主流，成为 VMS 与 BSD Unix 的重要平台，也是「VAX MIPS」性能基准的来源。",
+      "en": "The DEC VAX-11/780, introduced in 1977, is a 32-bit virtual-addressing minicomputer that made virtual memory mainstream and defined the 'VAX MIPS' benchmark."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1977,
+    "manufacturer": "Digital Equipment Corporation (DEC)",
+    "category": "minicomputer",
+    "description": "DEC VAX-11/780（1977），32 位虚拟寻址小型机：4 GB 虚拟地址空间、分页内存管理、VMS/BSD Unix 平台、≈1 VAX MIPS。",
+    "authors": [
+      {
+        "name": "TASK-33A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — VAX",
+        "url": "https://en.wikipedia.org/wiki/VAX",
+        "license": "cc",
+        "accessed_at": "2026-11-03"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — VAX-11/780",
+        "url": "https://en.wikipedia.org/wiki/VAX-11/780",
+        "license": "cc",
+        "accessed_at": "2026-11-03"
+      },
+      {
+        "type": "manual",
+        "title": "DEC VAX 手册（bitsavers 存档）",
+        "url": "https://bitsavers.org/pdf/dec/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-03"
+      },
+      {
+        "type": "documentation",
+        "title": "SIMH — VAX 模拟器（Classic）",
+        "url": "https://simh.trailing-edge.com/",
+        "license": "licensed",
+        "accessed_at": "2026-11-03"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "DEC VAX-11/780 整机，1977 年发布的 32 位虚拟寻址小型机。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "console",
+        "cpu_cabinet",
+        "tape_tu78",
+        "disk_ra81",
+        "unibus_light_panel"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "virtual_address_flow",
+        "boot_flow"
+      ]
+    },
+    {
+      "id": "console",
+      "name": "操作台（VT100）",
+      "role": {
+        "zh": "操作台在整机中作为操作员与系统交互的界面，集成 VT100 终端、状态灯组与控制开关。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.2,
+          0.8
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "terminal",
+        "keyboard",
+        "lamp_power",
+        "lamp_run",
+        "lamp_halt",
+        "lamp_boot",
+        "lamp_machine_check",
+        "lamp_attention",
+        "sw_power",
+        "sw_boot",
+        "sw_halt",
+        "sw_start",
+        "sw_continue",
+        "sw_clear",
+        "sw_deposit",
+        "sw_examine"
+      ],
+      "annotations": [
+        "console_role"
+      ],
+      "mesh_ref": "assemblies/console.gltf"
+    },
+    {
+      "id": "cpu_cabinet",
+      "name": "CPU 柜",
+      "role": {
+        "zh": "CPU 柜在整机中承载处理器、内存管理单元与微程序只读存储器，是执行指令与虚拟地址映射的核心单元。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "processor",
+        "mmu",
+        "tlb",
+        "cache",
+        "microcode_rom",
+        "protection_unit"
+      ],
+      "annotations": [
+        "cpu_cabinet_role"
+      ],
+      "mesh_ref": "assemblies/cpu_cabinet.gltf"
+    },
+    {
+      "id": "tape_tu78",
+      "name": "TU78 磁带机",
+      "role": {
+        "zh": "TU78 磁带机在整机中提供磁带的顺序存取，用于数据备份与批量加载。"
+      },
+      "transform": {
+        "translation": [
+          1.3,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "tape_reel",
+        "tape_head",
+        "tape_controller"
+      ],
+      "annotations": [
+        "tape_tu78_role"
+      ],
+      "mesh_ref": "assemblies/tape_tu78.gltf"
+    },
+    {
+      "id": "disk_ra81",
+      "name": "RA81 磁盘组",
+      "role": {
+        "zh": "RA81 磁盘组在整机中提供大容量磁盘存储，是程序与数据的主要随机存取介质。"
+      },
+      "transform": {
+        "translation": [
+          -1.3,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "disk_platter",
+        "disk_head",
+        "disk_controller"
+      ],
+      "annotations": [
+        "disk_ra81_role"
+      ],
+      "mesh_ref": "assemblies/disk_ra81.gltf"
+    },
+    {
+      "id": "unibus_light_panel",
+      "name": "Unibus/控制台灯板",
+      "role": {
+        "zh": "Unibus/控制台灯板在整机中提供总线状态显示与控制台串口，是操作员观察系统运行状态的窗口。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0.4,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "light_panel_lamps",
+        "console_serial_port"
+      ],
+      "annotations": [
+        "unibus_light_panel_role"
+      ],
+      "mesh_ref": "assemblies/unibus_light_panel.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "terminal",
+      "name": "VT100 操作终端",
+      "type": "terminal",
+      "role": {
+        "zh": "VT100 操作终端在整机中作为操作员与系统交互的字符终端，用于键入命令与查看输出。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "terminal_role"
+      ]
+    },
+    {
+      "id": "keyboard",
+      "name": "终端键盘",
+      "type": "keyboard",
+      "role": {
+        "zh": "终端键盘在整机中用于向系统输入命令与数据，是操作员与 VMS 交互的输入设备。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "keyboard_role"
+      ]
+    },
+    {
+      "id": "lamp_power",
+      "name": "电源指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的首要状态指示。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_power_role"
+      ]
+    },
+    {
+      "id": "lamp_run",
+      "name": "运行指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "运行指示灯在整机中于处理器执行程序期间点亮，表示系统处于运行状态。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_run_role"
+      ]
+    },
+    {
+      "id": "lamp_halt",
+      "name": "停机指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "停机指示灯在整机中点亮表示处理器已停机，等待操作员干预。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_halt_role"
+      ]
+    },
+    {
+      "id": "lamp_boot",
+      "name": "引导指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "引导指示灯在整机中于引导程序执行期间点亮，表示系统正在启动。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_boot_role"
+      ]
+    },
+    {
+      "id": "lamp_machine_check",
+      "name": "机器检查灯",
+      "type": "lamp",
+      "role": {
+        "zh": "机器检查灯在整机中点亮表示发生机器检查异常，处理器进入错误处理流程。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_machine_check_role"
+      ]
+    },
+    {
+      "id": "lamp_attention",
+      "name": "注意指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "注意指示灯在整机中点亮以提示操作员有需要人工处理的事件，需查看控制台。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_attention_role"
+      ]
+    },
+    {
+      "id": "sw_power",
+      "name": "电源开关",
+      "type": "switch",
+      "role": {
+        "zh": "电源开关在整机中控制整机供电的通断，是启动与关闭机器的总开关。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_power_role"
+      ]
+    },
+    {
+      "id": "sw_boot",
+      "name": "引导开关",
+      "type": "switch",
+      "role": {
+        "zh": "引导开关在整机中触发引导程序，从指定设备读入并启动操作系统。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_boot_role"
+      ]
+    },
+    {
+      "id": "sw_halt",
+      "name": "停机开关",
+      "type": "switch",
+      "role": {
+        "zh": "停机开关在整机中使处理器停机，机器进入等待操作员干预的状态。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_halt_role"
+      ]
+    },
+    {
+      "id": "sw_start",
+      "name": "启动开关",
+      "type": "switch",
+      "role": {
+        "zh": "启动开关在整机中使处理器从当前地址开始或恢复执行程序。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_start_role"
+      ]
+    },
+    {
+      "id": "sw_continue",
+      "name": "继续开关",
+      "type": "switch",
+      "role": {
+        "zh": "继续开关在整机中使处理器从暂停处继续执行程序，用于调试后的恢复运行。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_continue_role"
+      ]
+    },
+    {
+      "id": "sw_clear",
+      "name": "清除开关",
+      "type": "switch",
+      "role": {
+        "zh": "清除开关在整机中清除寄存器和显示，使机器回到空白状态。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_clear_role"
+      ]
+    },
+    {
+      "id": "sw_deposit",
+      "name": "写入开关",
+      "type": "switch",
+      "role": {
+        "zh": "写入开关在整机中把操作员设定的数据写入指定地址，完成一次手动存数。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_deposit_role"
+      ]
+    },
+    {
+      "id": "sw_examine",
+      "name": "检视开关",
+      "type": "switch",
+      "role": {
+        "zh": "检视开关在整机中把指定地址的内容读出并显示，供操作员查看存储单元的值。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_examine_role"
+      ]
+    },
+    {
+      "id": "processor",
+      "name": "处理器",
+      "type": "processor",
+      "role": {
+        "zh": "处理器在整机中执行 VAX 指令集的取指、译码与执行，是系统的计算核心。"
+      },
+      "assembly": "cpu_cabinet",
+      "annotations": [
+        "processor_role"
+      ]
+    },
+    {
+      "id": "mmu",
+      "name": "内存管理单元",
+      "type": "mmu",
+      "role": {
+        "zh": "内存管理单元在整机中把 32 位虚拟地址转换为物理地址，支持分页与保护，是虚拟内存的硬件核心。"
+      },
+      "assembly": "cpu_cabinet",
+      "annotations": [
+        "mmu_role"
+      ]
+    },
+    {
+      "id": "tlb",
+      "name": "页表快存",
+      "type": "cache",
+      "role": {
+        "zh": "页表快存在整机中缓存最近使用的页表项，加速虚拟地址到物理地址的转换。"
+      },
+      "assembly": "cpu_cabinet",
+      "annotations": [
+        "tlb_role"
+      ]
+    },
+    {
+      "id": "cache",
+      "name": "高速缓存",
+      "type": "cache",
+      "role": {
+        "zh": "高速缓存在整机中暂存近期访问的内存数据，减少处理器等待内存的时间。"
+      },
+      "assembly": "cpu_cabinet",
+      "annotations": [
+        "cache_role"
+      ]
+    },
+    {
+      "id": "microcode_rom",
+      "name": "微程序只读存储器",
+      "type": "rom",
+      "role": {
+        "zh": "微程序只读存储器在整机中存放微指令序列，把每条 VAX 指令译码展开为微操作。"
+      },
+      "assembly": "cpu_cabinet",
+      "annotations": [
+        "microcode_rom_role"
+      ]
+    },
+    {
+      "id": "protection_unit",
+      "name": "保护单元",
+      "type": "protection",
+      "role": {
+        "zh": "保护单元在整机中实现 4 级保护环，隔离系统核心与用户程序，保障系统可靠性与多用户隔离。"
+      },
+      "assembly": "cpu_cabinet",
+      "annotations": [
+        "protection_unit_role"
+      ]
+    },
+    {
+      "id": "tape_reel",
+      "name": "磁带卷轴",
+      "type": "reel",
+      "role": {
+        "zh": "磁带卷轴在整机中承载一盘磁带，供读写头沿磁带表面顺序读写数据。"
+      },
+      "assembly": "tape_tu78",
+      "annotations": [
+        "tape_reel_role"
+      ]
+    },
+    {
+      "id": "tape_head",
+      "name": "磁带读写头",
+      "type": "head",
+      "role": {
+        "zh": "磁带读写头在整机中贴着磁带表面读写磁记录，是磁带机与数据交互的核心部件。"
+      },
+      "assembly": "tape_tu78",
+      "annotations": [
+        "tape_head_role"
+      ]
+    },
+    {
+      "id": "tape_controller",
+      "name": "磁带控制器",
+      "type": "controller",
+      "role": {
+        "zh": "磁带控制器在整机中管理 TU78 磁带机的走带与读写操作。"
+      },
+      "assembly": "tape_tu78",
+      "annotations": [
+        "tape_controller_role"
+      ]
+    },
+    {
+      "id": "disk_platter",
+      "name": "磁盘盘片",
+      "type": "platter",
+      "role": {
+        "zh": "磁盘盘片在整机中作为 RA81 磁盘的存储介质，以磁性涂层表面保存数据。"
+      },
+      "assembly": "disk_ra81",
+      "annotations": [
+        "disk_platter_role"
+      ]
+    },
+    {
+      "id": "disk_head",
+      "name": "磁盘读写头",
+      "type": "head",
+      "role": {
+        "zh": "磁盘读写头在整机中贴着旋转的盘片表面读写数据，是磁盘存储的核心部件。"
+      },
+      "assembly": "disk_ra81",
+      "annotations": [
+        "disk_head_role"
+      ]
+    },
+    {
+      "id": "disk_controller",
+      "name": "磁盘控制器",
+      "type": "controller",
+      "role": {
+        "zh": "磁盘控制器在整机中管理 RA81 磁盘组的数据读写，把块地址转换为磁头寻道与扇区定位。"
+      },
+      "assembly": "disk_ra81",
+      "annotations": [
+        "disk_controller_role"
+      ]
+    },
+    {
+      "id": "light_panel_lamps",
+      "name": "控制台灯板灯组",
+      "type": "lamp",
+      "role": {
+        "zh": "控制台灯板灯组在整机中以一排指示灯显示系统状态与寄存器内容，供操作员观察运行。"
+      },
+      "assembly": "unibus_light_panel",
+      "annotations": [
+        "light_panel_lamps_role"
+      ]
+    },
+    {
+      "id": "console_serial_port",
+      "name": "控制台串口",
+      "type": "port",
+      "role": {
+        "zh": "控制台串口在整机中连接 VT100 终端与主机，是操作员与系统交互的通信接口。"
+      },
+      "assembly": "unibus_light_panel",
+      "annotations": [
+        "console_serial_port_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "DEC VAX-11/780",
+    "media_hint": "disk",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "terminal_0",
+        "surface": "terminal",
+        "type": "video",
+        "format": "text"
+      },
+      {
+        "id": "indicator_lamps_0",
+        "surface": "indicator_lamps",
+        "type": "video",
+        "format": "mono1"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "boot": {
+        "map": "keyboard",
+        "key": "KEY_B"
+      },
+      "start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "stop": {
+        "map": "keyboard",
+        "key": "KEY_STOP"
+      },
+      "continue": {
+        "map": "keyboard",
+        "key": "KEY_C"
+      }
+    }
+  }
+}

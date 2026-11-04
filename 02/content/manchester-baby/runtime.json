@@ -1,0 +1,10 @@
+{
+  "emulator": "fake",
+  "version": "0.1.0",
+  "system": "manchester-baby",
+  "media_hint": "none",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [],
+  "input_map": {}
+}

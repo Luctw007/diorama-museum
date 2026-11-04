@@ -1,0 +1,184 @@
+{
+  "annotations": [
+    {
+      "id": "case_role",
+      "type": "role",
+      "target": "case",
+      "text": "机身壳在整机中作为一体式米色外壳，集成扩展仓盖与散热口，是整机的结构骨架。"
+    },
+    {
+      "id": "keyboard_role",
+      "type": "role",
+      "target": "keyboard",
+      "text": "键盘在整机中作为文字与命令输入界面，与主机一体设计。"
+    },
+    {
+      "id": "motherboard_role",
+      "type": "role",
+      "target": "motherboard",
+      "text": "主板在整机中承载 68000 处理器、三芯片组与 Chip RAM，是系统的核心电路板。"
+    },
+    {
+      "id": "floppy_drive_role",
+      "type": "role",
+      "target": "floppy_drive",
+      "text": "3.5 英寸软驱在整机中读写 880KB 软盘，由 Paula 芯片控制。"
+    },
+    {
+      "id": "power_role",
+      "type": "role",
+      "target": "power",
+      "text": "电源在整机中把市电转换为机器所需电压，为整机供电。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "Amiga 500 整机，1987 年推出的 16 位多媒体家用电脑。"
+    },
+    {
+      "id": "expansion_cover_role",
+      "type": "role",
+      "target": "expansion_cover",
+      "text": "扩展仓盖在整机中封住机身底部扩展仓，打开后可加装内存扩展与加速卡。"
+    },
+    {
+      "id": "vent_slots_role",
+      "type": "role",
+      "target": "vent_slots",
+      "text": "散热通风口在整机中为机身内部提供空气流通，帮助散热。"
+    },
+    {
+      "id": "brand_badge_role",
+      "type": "role",
+      "target": "brand_badge",
+      "text": "品牌徽标在整机中标明 Commodore 品牌与 Amiga 型号。"
+    },
+    {
+      "id": "key_matrix_role",
+      "type": "role",
+      "target": "key_matrix",
+      "text": "键盘矩阵在整机中承载按键，是 Amiga 的文字与命令输入界面。"
+    },
+    {
+      "id": "led_indicators_role",
+      "type": "role",
+      "target": "led_indicators",
+      "text": "状态指示灯在整机中显示电源与软驱活动状态。"
+    },
+    {
+      "id": "cpu_68000_role",
+      "type": "role",
+      "target": "cpu_68000",
+      "text": "68000 处理器在整机中作为计算核心，主频 7.14 MHz，负责逻辑运算。"
+    },
+    {
+      "id": "agnus_chip_role",
+      "type": "role",
+      "target": "agnus_chip",
+      "text": "Agnus 芯片在整机中负责内存控制、DMA 与视频时序，是芯片组的总调度。"
+    },
+    {
+      "id": "denise_chip_role",
+      "type": "role",
+      "target": "denise_chip",
+      "text": "Denise 芯片在整机中负责视频显示与调色板，支持 4096 色与硬件精灵。"
+    },
+    {
+      "id": "paula_chip_role",
+      "type": "role",
+      "target": "paula_chip",
+      "text": "Paula 芯片在整机中负责四声道立体声与软驱控制，是 Amiga 声音的核心。"
+    },
+    {
+      "id": "chip_ram_role",
+      "type": "role",
+      "target": "chip_ram",
+      "text": "Chip RAM 在整机中是 CPU 与三芯片组共享的内存，存放图形、声音与程序数据。"
+    },
+    {
+      "id": "rom_role",
+      "type": "role",
+      "target": "rom",
+      "text": "Kickstart ROM 在整机中固化引导程序与核心例程，开机时加载。"
+    },
+    {
+      "id": "disk_slot_role",
+      "type": "role",
+      "target": "disk_slot",
+      "text": "软盘插槽在整机中接纳 3.5 英寸 880KB 软盘，是程序与数据的载入入口。"
+    },
+    {
+      "id": "eject_button_role",
+      "type": "role",
+      "target": "eject_button",
+      "text": "弹出按钮在整机中推出软盘，采用机械式操作，无需电力即可完成退盘动作。"
+    },
+    {
+      "id": "power_jack_role",
+      "type": "role",
+      "target": "power_jack",
+      "text": "电源接口在整机中接纳外置电源，为整机供电。"
+    },
+    {
+      "id": "power_led_role",
+      "type": "role",
+      "target": "power_led",
+      "text": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的状态指示。"
+    },
+    {
+      "id": "chipset_division",
+      "type": "flow",
+      "target": "motherboard",
+      "text": "三芯片组分工讲解：Agnus 管内存与视频、Denise 管显示、Paula 管声音与软驱，CPU 只做逻辑运算，各司其职。"
+    },
+    {
+      "id": "demo_scene",
+      "type": "flow",
+      "target": "whole",
+      "text": "demo scene 文化讲解：程序员与音乐人用汇编压榨 Amiga 硬件极限，做出同步了音乐与图形的实时演示，是数字时代最早的街头艺术。"
+    },
+    {
+      "id": "ham_mode",
+      "type": "flow",
+      "target": "denise_chip",
+      "text": "HAM 模式讲解：用「保持并修改」的编码技巧，让 1987 年的家用电脑在同一屏显示 4096 种颜色。"
+    },
+    {
+      "id": "multitask_os",
+      "type": "flow",
+      "target": "whole",
+      "text": "多任务系统讲解：AmigaOS 是抢占式多任务操作系统，1987 年就能在 512KB 内存里同时运行多个程序。"
+    },
+    {
+      "id": "stereo_sound",
+      "type": "flow",
+      "target": "paula_chip",
+      "text": "四声道立体声讲解：Paula 芯片输出四声道 PCM 立体声，让 Amiga 成为电子音乐与 MOD 文化的摇篮。"
+    },
+    {
+      "id": "floppy_880k",
+      "type": "flow",
+      "target": "floppy_drive",
+      "text": "880KB 软驱讲解：容量是同期 PC 软驱的两倍多，由 Paula 芯片控制，读盘不占 CPU。"
+    },
+    {
+      "id": "amiga_legacy",
+      "type": "flow",
+      "target": "whole",
+      "text": "Commodore 兴衰讲解：Amiga 是 Commodore 的技术巅峰，却因经营失误在 1994 年破产，留下技术超前、经营落败的教训。"
+    },
+    {
+      "id": "workbench",
+      "type": "flow",
+      "target": "whole",
+      "text": "Workbench 图形界面讲解：Amiga 的桌面环境，让用户以图形化方式管理文件与程序，是早期 GUI 的代表。"
+    },
+    {
+      "id": "amiga_games",
+      "type": "flow",
+      "target": "whole",
+      "text": "游戏生态讲解：Amiga 500 拥有庞大的游戏库，其流畅的卷轴与立体声音乐定义了欧洲游戏的一代记忆。"
+    }
+  ]
+}

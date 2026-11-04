@@ -11,18 +11,26 @@ docs/verify_history.jsonl
 docs/PROJECT_STATS.md
 
 # 用户自备的模拟器二进制 / 介质 / ROM（红线 FR-E3）
-third_party/
+**/third_party/
 
 # 演习用假二进制（71-B 演示件，仅本地）
-slots/_drill/
+**/slots/_drill/
 
 # 演示帧与临时产物
-demo_out/
-docs/drill_demo_out/
-docs/doctor_log_*.txt
+**/demo_out/
+**/drill_demo_out/
+**/doctor_log_*.txt
 
 # 打包发布物（由 make_contrib_kit.py 再生，不入库）
-dist/
+**/dist/
+
+# 二进制与介质类（红线 FR-E3：全库禁止入版本库）
+*.bin
+*.rom
+*.exe
+*.iso
+*.img
+*.chd
 
 # 各账号本地工作状态
 .workbuddy/
