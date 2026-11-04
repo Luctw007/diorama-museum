@@ -20,7 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: 01
+        # 注意："01" 必须带引号——无引号的 01 会被 YAML 解析成八进制数 1
+        working-directory: "01"
     steps:
       - uses: actions/checkout@v4
 
