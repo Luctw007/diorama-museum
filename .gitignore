@@ -37,3 +37,6 @@ docs/PROJECT_STATS.md
 
 # 各账号本地工作状态
 .workbuddy/
+# demo / 帧存证产物（不入库）
+01/demo_out*/
+
