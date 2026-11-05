@@ -63,6 +63,18 @@ def find_simh() -> tuple[str, str]:
     return "MISSING", os.path.join("third_party", "simh", "pdp8(.exe)")
 
 
+def find_stella() -> tuple[str, str]:
+    """TASK-161-B：Stella 二进制（STELLA_BIN → third_party/stella/stella(.exe)）。"""
+    env = os.environ.get("STELLA_BIN")
+    if env and os.path.isfile(env):
+        return "OK", env
+    for name in ("stella", "stella.exe"):
+        cand = os.path.join(REPO, "third_party", "stella", name)
+        if os.path.isfile(cand):
+            return "OK", cand
+    return "MISSING", os.path.join("third_party", "stella", "stella(.exe)")
+
+
 def probe_version(binary: str) -> str:
     try:
         cp = subprocess.run([binary, "-version"], capture_output=True, text=True,
@@ -105,9 +117,10 @@ def rom_hints() -> tuple[str, str]:
     hints = {
         "apple2": os.path.join("third_party", "roms", "apple2", "（用户自备）"),
         "simh": os.path.join("third_party", "roms", "simh", "（用户自备）"),
+        "stella": os.path.join("third_party", "roms", "a2600", "（用户自备）"),
     }
-    return "HINT", ("ROM 红线：仅提示位置、不自动下载：%s；%s（见 licenses/MAME.md、SIMH.md）"
-                    % (hints["apple2"], hints["simh"]))
+    return "HINT", ("ROM 红线：仅提示位置、不自动下载：%s；%s；%s（见 licenses/MAME.md、SIMH.md、Stella.md）"
+                    % (hints["apple2"], hints["simh"], hints["stella"]))
 
 
 def run_checks() -> list[dict]:
@@ -122,6 +135,12 @@ def run_checks() -> list[dict]:
     checks.append(dict(item="simh_binary", status=st, detail=path, version=ver,
                        guide="安装 SIMH 后放 %s 或设 SIMH_PDP8_BIN（licenses/SIMH.md）"
                        % os.path.join("third_party", "simh")))
+    # TASK-161-B：Stella 体检项
+    st, path = find_stella()
+    ver = probe_version(path) if st == "OK" else ""
+    checks.append(dict(item="stella_binary", status=st, detail=path, version=ver,
+                       guide="安装 Stella 后放 %s 或设 STELLA_BIN（licenses/Stella.md）"
+                       % os.path.join("third_party", "stella")))
     st, det = gateway_self_test()
     checks.append(dict(item="gateway_self_test", status=st, detail=det, version="",
                        guide="网关异常时检查 17338 端口残留进程："

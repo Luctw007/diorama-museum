@@ -30,8 +30,8 @@ MEDIA_ROOT = os.path.join(REPO, "slots", "media")
 BACKEND_TYPE_MODULE = {
     "native": "gw.emulators.fake_emulator",
     "mame": "gw.emulators.mame_apple2",
-    "simh": None,      # SIMH 后端模块尚未实现（预留）
-    "stella": None,    # 预留
+    "simh": "gw.emulators.simh_pdp8",     # TASK-161-A：后端模块已落地（骨架）
+    "stella": "gw.emulators.stella",     # TASK-161-B：后端模块已落地（骨架）
     "mesen": None,     # 预留
     "mobile": None,    # 预留（手机类）
     "dedicated": None, # 预留（家电通用类）

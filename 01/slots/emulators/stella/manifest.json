@@ -1,0 +1,10 @@
+{
+  "slot_id": "stella",
+  "device_class": "console",
+  "backend_type": "stella",
+  "description": "Stella（Atari 2600 模拟器；二进制与卡带由用户自备，见 licenses/Stella.md）",
+  "license": "GPL-2.0（[需核实具体版本]，见 licenses/Stella.md）",
+  "binary_env": "STELLA_BIN",
+  "media_classes": ["cartridge"],
+  "keymap": null
+}

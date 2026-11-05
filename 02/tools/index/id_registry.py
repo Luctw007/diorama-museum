@@ -27,7 +27,9 @@
 维护 `docs/catalog/registry.jsonl`（已分配 id 台账），提供三类操作，保证万级目录的
 ID 全局不重、可追溯：
 
-    allocate <大类码> <数量> [中分类码]   顺序分配新 id（如 C-GEN-000001…），写入 registry.jsonl
+    allocate <大类码> <数量> [中分类码] [--files 目录...]   顺序分配新 id，写入 registry.jsonl；
+                                                         续号纳入「台账 ∪ 目录已用 id」，不与既有 id 撞号
+    rebuild <目录文件> [更多...]        从目录已用合法 id 重建台账（去重回填，幂等）
     verify <目录文件> [更多...]          扫描目录文件全部 id——重复/越界/格式错逐行报
     --report                            按大类码的使用统计（registry + 扫描 catalog 文件）
 
@@ -136,7 +138,7 @@ def scan_catalog_ids(files: list[str]) -> dict[str, list[str]]:
 # ---------------------------------------------------------------------------
 # 命令：allocate
 # ---------------------------------------------------------------------------
-def cmd_allocate(code: str, count: int, sub: str) -> int:
+def cmd_allocate(code: str, count: int, sub: str, files: list[str] | None = None) -> int:
     code = code.upper()
     sub = (sub or "GEN").upper()
     if code not in CATEGORY_CODE:
@@ -147,8 +149,10 @@ def cmd_allocate(code: str, count: int, sub: str) -> int:
         return 2
 
     rows = load_registry()
-    # 已有同前缀 id 的最大序号
+    # 已有同前缀 id 的最大序号：台账 ∪ 目录已用 id（TASK-162A 续号纳入目录已用，防撞号）
     used = {r["id"] for r in rows}
+    if files:
+        used |= set(scan_catalog_ids(files))
     max_seq = 0
     for rid in used:
         m = ID_RE.match(rid)
@@ -175,6 +179,44 @@ def cmd_allocate(code: str, count: int, sub: str) -> int:
     for i, rid in enumerate(allocated):
         print(f"  {rid}")
     print(f"[allocate] registry.jsonl 现有 {len(rows)} 条记录")
+    return 0
+
+
+# ---------------------------------------------------------------------------
+# 命令：rebuild
+# ---------------------------------------------------------------------------
+def cmd_rebuild(files: list[str]) -> int:
+    """从目录已用合法 id 重建台账（去重回填，幂等；非法/无前缀 id 跳过并计数）。"""
+    rows = load_registry()
+    existing = {r["id"] for r in rows}
+    catalog_ids = scan_catalog_ids(files)
+
+    batch = datetime.date.today().strftime("%Y-%m-%d")
+    added = 0
+    skipped_dup = 0
+    skipped_illegal = 0
+    for rid in sorted(catalog_ids):
+        if rid in existing:
+            skipped_dup += 1
+            continue
+        m = ID_RE.match(rid)
+        if not m:
+            skipped_illegal += 1
+            continue
+        rows.append({
+            "id": rid,
+            "name": "",
+            "category": CATEGORY_CODE[m.group(1)],
+            "batch": batch,
+            "source_file": catalog_ids[rid][0],
+        })
+        existing.add(rid)
+        added += 1
+
+    save_registry(rows)
+    print(f"[rebuild] 扫描目录 id {len(catalog_ids)} 个：回填 {added} 条，"
+          f"已存在跳过 {skipped_dup}，非法跳过 {skipped_illegal}")
+    print(f"[rebuild] registry.jsonl 现有 {len(rows)} 条记录")
     return 0
 
 
@@ -243,6 +285,10 @@ def build_parser() -> argparse.ArgumentParser:
     pa.add_argument("code", help="大类码（C/G/M/A/P/E/X）")
     pa.add_argument("count", type=int, help="分配数量")
     pa.add_argument("sub", nargs="?", default="GEN", help="中分类码（2~4 大写，默认 GEN）")
+    pa.add_argument("--files", nargs="*", default=[], help="续号纳入这些目录文件已用 id（防撞号）")
+
+    pr = sub.add_parser("rebuild", help="从目录已用合法 id 重建台账（幂等）")
+    pr.add_argument("files", nargs="+", help="目录表单（.jsonl，可多个）")
 
     pv = sub.add_parser("verify", help="扫描目录文件 id，报重复/越界/格式错")
     pv.add_argument("files", nargs="+", help="目录表单（.jsonl，可多个）")
@@ -254,14 +300,15 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main(argv=None) -> int:
     args = build_parser().parse_args(argv)
-    files = args.files if args.files else []
 
     if args.cmd == "allocate":
-        return cmd_allocate(args.code, args.count, args.sub)
+        return cmd_allocate(args.code, args.count, args.sub, args.files or None)
+    if args.cmd == "rebuild":
+        return cmd_rebuild(args.files)
     if args.cmd == "verify":
         return cmd_verify(args.files)
     if args.report or args.cmd is None:
-        return cmd_report(files)
+        return cmd_report(args.files if args.files else [])
     return 0
 
 

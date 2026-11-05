@@ -39,6 +39,8 @@
     CC-05  年代 era 范围 [1880, 当年+1]。
     CC-06  影响力理由 influence 非空且 ≤60 字。
     CC-07  别名 aliases 数组元素合法（非空字符串）。
+    CC-08  package/wip/done 状态必须带 device_id 且该包存在。
+    CC-10  media_class 覆盖率（软落地：默认缺失 WARN，--require-media-class 严格 FAIL）。
 
 用法：
     python catalog_check.py <catalog.jsonl|.csv> [更多文件...] [--json]
@@ -173,7 +175,13 @@ def discover_device_ids(content_dirs: list[str]) -> set[str]:
 
 
 def load_registry_ids(repo_root_dir: str | None = None) -> dict[str, str]:
-    """读 id_registry 台账（docs/catalog/registry.jsonl），返回 {id: 分配来源}。"""
+    """读 id_registry 台账，返回「allocate 预留」的 {id: 分配来源}。
+
+    语义（TASK-162A 重建后）：台账经 rebuild 回填后含两类行——
+      - source_file 为空（allocate 预留）：目录若复用这些 id = 台账冲突，须 FAIL；
+      - source_file 非空（rebuild 从目录回填）：是目录已用 id 的镜像，不算冲突。
+    故此处只返回 source_file 为空的 allocate 行。
+    """
     here = os.path.dirname(os.path.abspath(__file__))
     repo = repo_root_dir or os.path.dirname(os.path.dirname(here))
     reg = os.path.join(repo, "docs", "catalog", "registry.jsonl")
@@ -189,14 +197,15 @@ def load_registry_ids(repo_root_dir: str | None = None) -> dict[str, str]:
                 obj = json.loads(line)
             except json.JSONDecodeError:
                 continue
-            if isinstance(obj.get("id"), str):
+            if isinstance(obj.get("id"), str) and obj.get("source_file") is None:
                 out[obj["id"]] = obj.get("batch", "台账")
     return out
 
 
 def check_entry(entry: dict, seen_ids: dict, current_year: int,
                 valid_device_ids: set[str] | None = None,
-                registry_ids: dict[str, str] | None = None) -> list[dict]:
+                registry_ids: dict[str, str] | None = None,
+                require_media_class: bool = False) -> list[dict]:
     loc = _loc(entry)
     out: list[dict] = []
 
@@ -299,6 +308,14 @@ def check_entry(entry: dict, seen_ids: dict, current_year: int,
         else:
             out.append(_finding("CC-08", "PASS", loc, f"device_id {did} 存在"))
 
+    # CC-10 media_class 覆盖率（软落地：默认缺失记 WARN，--require-media-class 时记 FAIL）
+    mc = entry.get("media_class")
+    if mc and str(mc).strip():
+        out.append(_finding("CC-10", "PASS", loc, f"media_class {mc} 存在"))
+    else:
+        lvl = "FAIL" if require_media_class else "WARN"
+        out.append(_finding("CC-10", lvl, loc, "media_class 缺失或为空（回填后须有值）"))
+
     return out
 
 
@@ -306,24 +323,30 @@ def check_entry(entry: dict, seen_ids: dict, current_year: int,
 # 汇总
 # ---------------------------------------------------------------------------
 def check_files(files: list[str], valid_device_ids: set[str] | None = None,
-                registry_ids: dict[str, str] | None = None) -> dict:
+                registry_ids: dict[str, str] | None = None,
+                require_media_class: bool = False) -> dict:
     seen_ids: dict = {}
     current_year = datetime.date.today().year
     rows = []
     n_fail = 0
     n_warn = 0
-    per_rule = {r: {"fail": 0, "pass": 0} for r in
-                ("CC-01", "CC-02", "CC-03", "CC-04", "CC-05", "CC-06", "CC-07", "CC-08")}
+    per_rule = {r: {"fail": 0, "pass": 0, "warn": 0} for r in
+                ("CC-01", "CC-02", "CC-03", "CC-04", "CC-05", "CC-06", "CC-07", "CC-08", "CC-10")}
 
     for path in files:
         parsed = parse_csv(path) if path.endswith(".csv") else parse_jsonl(path)
         for entry in parsed:
-            findings = check_entry(entry, seen_ids, current_year, valid_device_ids, registry_ids)
+            findings = check_entry(entry, seen_ids, current_year, valid_device_ids,
+                                  registry_ids, require_media_class)
             for f in findings:
                 if f["level"] == "FAIL":
                     n_fail += 1
                     if f["rule"] in per_rule:
                         per_rule[f["rule"]]["fail"] += 1
+                elif f["level"] == "WARN":
+                    n_warn += 1
+                    if f["rule"] in per_rule:
+                        per_rule[f["rule"]]["warn"] += 1
                 elif f["level"] == "PASS" and f["rule"] in per_rule:
                     per_rule[f["rule"]]["pass"] += 1
             rows.append({"entry": entry, "findings": findings})
@@ -355,7 +378,8 @@ def render_report(rep: dict) -> str:
                 lines.append(f"    {f['rule']}  {f['message']}")
     lines.append("  规则汇总：")
     for rule, cnt in rep["per_rule"].items():
-        lines.append(f"    {rule}  FAIL {cnt['fail']} / PASS {cnt['pass']}")
+        warn = f" / WARN {cnt['warn']}" if cnt.get("warn") else ""
+        lines.append(f"    {rule}  FAIL {cnt['fail']} / PASS {cnt['pass']}{warn}")
     return "\n".join(lines)
 
 
@@ -381,10 +405,12 @@ def render_json(rep: dict) -> str:
 # CLI
 # ---------------------------------------------------------------------------
 def build_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(description="设备目录校验器（TASK-52B/57A/67A，v0.6 定稿 CC-01~08）")
+    p = argparse.ArgumentParser(description="设备目录校验器（TASK-52B/57A/67A/162B，v0.6 定稿 CC-01~10）")
     p.add_argument("files", nargs="+", help="目录表单（.jsonl 或 .csv，可多个）")
     p.add_argument("--content-dir", action="append", default=None,
                    help="追加/覆盖 content 目录（CC-08 device_id 存在性检查用，可多次）")
+    p.add_argument("--require-media-class", action="store_true",
+                   help="CC-10 严格模式：media_class 缺失记 FAIL（默认仅 WARN）")
     p.add_argument("--json", action="store_true", help="输出机器可读 JSON（stdout）")
     return p
 
@@ -414,7 +440,7 @@ def main(argv=None) -> int:
     valid_device_ids = discover_device_ids(content_dirs)
     registry_ids = load_registry_ids()
 
-    rep = check_files(files, valid_device_ids, registry_ids)
+    rep = check_files(files, valid_device_ids, registry_ids, args.require_media_class)
     if args.json:
         sys.stdout.write(render_json(rep))
     else:

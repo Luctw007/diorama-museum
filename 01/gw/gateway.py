@@ -57,9 +57,17 @@ EMULATORS: dict[str, dict[str, Any]] = {
     "simh-pdp8": {
         "desc": "SIMH PDP-8（需用户提供 SIMH 二进制，见 licenses/SIMH.md）",
         "license": "SIMH 许可（需核实，见 licenses/SIMH.md）",
+        "module": "gw.emulators.simh_pdp8",
         "binary_env": "SIMH_PDP8_BIN",
         "binary_hint": os.path.join("third_party", "simh", "pdp8"),
-        # 无 module：后端模块未实现（预留槽位）——start 时网关注销报 EMULATOR_BACKEND_MISSING
+    },
+    "stella": {
+        "desc": "Stella（Atari 2600 模拟器，需用户提供二进制与卡带，见 licenses/Stella.md）",
+        "license": "GPL-2.0（[需核实具体版本]，见 licenses/Stella.md）",
+        "module": "gw.emulators.stella",
+        "binary_env": "STELLA_BIN",
+        "binary_hint": os.path.join("third_party", "stella", "stella"),
+        "keymap": "keys/keymap_atari-2600.json",
     },
     "mame-apple2": {
         "desc": "MAME apple2 驱动骨架（需用户提供 MAME 二进制，见 licenses/MAME.md 与 05 线 13_MAME接入预研.md）",

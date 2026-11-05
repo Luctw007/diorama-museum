@@ -1,0 +1,31 @@
+=== catalog_check 归档后校验（2026-11-06）===
+--- 游戏机与手持大类_目录_v2.jsonl ---
+== 目录校验（文件 1 个，条目 401 行，唯一 id 401，FAIL 0，WARN 0）==
+  规则汇总：
+    CC-01  FAIL 0 / PASS 401
+    CC-02  FAIL 0 / PASS 401
+    CC-03  FAIL 0 / PASS 401
+    CC-04  FAIL 0 / PASS 401
+    CC-05  FAIL 0 / PASS 401
+    CC-06  FAIL 0 / PASS 401
+
+--- 家电影音与外设大类_目录_v2.jsonl ---
+== 目录校验（文件 1 个，条目 351 行，唯一 id 351，FAIL 0，WARN 0）==
+  规则汇总：
+    CC-01  FAIL 0 / PASS 351
+    CC-02  FAIL 0 / PASS 351
+    CC-03  FAIL 0 / PASS 351
+    CC-04  FAIL 0 / PASS 351
+    CC-05  FAIL 0 / PASS 351
+    CC-06  FAIL 0 / PASS 351
+
+--- 电子宠物类_目录增补_v1.jsonl ---
+== 目录校验（文件 1 个，条目 20 行，唯一 id 20，FAIL 0，WARN 0）==
+  规则汇总：
+    CC-01  FAIL 0 / PASS 20
+    CC-02  FAIL 0 / PASS 20
+    CC-03  FAIL 0 / PASS 20
+    CC-04  FAIL 0 / PASS 20
+    CC-05  FAIL 0 / PASS 20
+    CC-06  FAIL 0 / PASS 20
+
