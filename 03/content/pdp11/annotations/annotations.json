@@ -233,6 +233,54 @@
       "type": "role",
       "target": "unibus_rack",
       "text": "Unibus 扩展架在整机中提供统一总线背板与设备控制器插槽，是内存与设备统一编址的物理载体。"
+    },
+    {
+      "id": "unix_birthplace",
+      "type": "flow",
+      "target": "whole",
+      "text": "Unix 与 C 孵化讲解：贝尔实验室的 Ken Thompson 与 Dennis Ritchie 正是在 PDP-11 上把 Unix 移植成形，并为重写它发明了 C 语言。"
+    },
+    {
+      "id": "unibus_philosophy",
+      "type": "flow",
+      "target": "unibus_backplane",
+      "text": "Unibus 统一总线讲解：PDP-11 用一条 Unibus 把 CPU、内存、外设全部接在一起，外设寄存器像内存地址一样可读写，I/O 编程由此变得简洁。"
+    },
+    {
+      "id": "orthogonal_isa",
+      "type": "flow",
+      "target": "processor",
+      "text": "正交指令集讲解：PDP-11 的 8 个通用寄存器与 8 种寻址方式可自由组合，这种「正交性」成了处理器设计的黄金标准。"
+    },
+    {
+      "id": "pc_as_register",
+      "type": "flow",
+      "target": "processor",
+      "text": "PC 当寄存器讲解：PDP-11 把程序计数器也当成普通寄存器，于是「取指后 PC 自动加一」从硬件设计里免费涌现，优雅至极。"
+    },
+    {
+      "id": "sixteen_bit_era",
+      "type": "flow",
+      "target": "whole",
+      "text": "16 位时代讲解：PDP-11 是 16 位小型机的代表，以其优雅设计卖出了数十万台，成为 DEC 最畅销的机器。"
+    },
+    {
+      "id": "dec_minicomputer",
+      "type": "flow",
+      "target": "whole",
+      "text": "DEC 小型机讲解：PDP-11 是 DEC 小型机帝国的中坚，把「小型机」从工具推向了范式，定义了整整一代计算机的设计。"
+    },
+    {
+      "id": "terminal_era",
+      "type": "flow",
+      "target": "terminal",
+      "text": "终端时代讲解：PDP-11 通过终端让多用户分时共用一台主机，是「服务器 + 终端」计算模式的早期形态。"
+    },
+    {
+      "id": "rk05_disk",
+      "type": "flow",
+      "target": "disk_rk05",
+      "text": "RK05 磁盘讲解：RK05 可换盘式磁盘是 PDP-11 的主力存储，让程序与数据首次有了随机访问的大容量载体。"
     }
   ]
 }

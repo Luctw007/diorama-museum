@@ -23,9 +23,15 @@ var _frame_parts := {}  # frame_id -> {total, seqs:{seq:data_b64}, meta}（frame
 
 var _status_label: Label
 var _info_label: Label
+var _audio_label: Label
+var _audio_player: AudioStreamPlayer
+var _audio_chunks := 0        # 累计收到的 audio_chunk 数
+var _audio_degraded := false  # 是否处于占位 WAV 降级路径
 
 
 func _ready() -> void:
+	_audio_player = AudioStreamPlayer.new()
+	add_child(_audio_player)
 	_build_hud()
 	var screen := get_node_or_null("/root/Main/Room/Screen") as MeshInstance3D
 	if screen != null:
@@ -53,6 +59,14 @@ func _build_hud() -> void:
 	_info_label.offset_top = -40.0
 	_info_label.offset_bottom = -16.0
 	hud.add_child(_info_label)
+	_audio_label = Label.new()
+	_audio_label.anchor_top = 1.0
+	_audio_label.anchor_bottom = 1.0
+	_audio_label.offset_top = -62.0
+	_audio_label.offset_bottom = -42.0
+	_audio_label.add_theme_color_override("font_color", Color(0.6, 0.9, 0.7))
+	hud.add_child(_audio_label)
+	_set_audio("音频：未收到 chunk")
 
 
 func _set_status(text: String) -> void:
@@ -150,7 +164,7 @@ func _handle_line(line: String) -> void:
 			_set_info("[light_state] %s=%s（消息计数 %d，R=重连）"
 					% [str(data.get("sink", "?")), str(data.get("on", false)), _msg_count])
 		"audio_chunk":
-			pass  # M0 暂不接放音，音频通道验证由 scripts/m0_check.py 承担
+			_apply_audio(data)
 		"status", "stopped", "error", "input_ack":
 			_set_info("[%s] %s（消息计数 %d，R=重连）"
 					% [str(data.get("type")), str(data.get("message", data.get("state", data.get("code", "")))), _msg_count])
@@ -169,6 +183,39 @@ func _apply_frame(fid: int, w: int, h: int, b64: String) -> void:
 	var img := Image.create_from_data(w, h, false, Image.FORMAT_RGB8, raw)
 	_screen_tex.update(img)
 	_set_info("frame_id=%d  %dx%d（消息计数 %d，R=重连）" % [fid, w, h, _msg_count])
+
+
+func _set_audio(text: String) -> void:
+	if _audio_label != null:
+		_audio_label.text = text
+
+
+## audio_chunk 播放（TASK-113）：s16le PCM → AudioStreamWAV 播放；
+## PCM 非法/为空时降级播放磁盘占位 WAV（不崩溃）。HUD 音频状态行随 chunk 更新。
+func _apply_audio(data: Dictionary) -> void:
+	_audio_chunks += 1
+	var seq := int(data.get("seq", -1))
+	var rate := int(data.get("sample_rate", 8000))
+	var channels := int(data.get("channels", 1))
+	var raw := Marshalls.base64_to_raw(str(data.get("data_b64", "")))
+	if raw.size() == 0:
+		_audio_degraded = true
+		var fallback: AudioStream = load("res://content/audio/demo/narr_hall_intro_placeholder.wav") as AudioStream
+		if fallback != null and _audio_player != null:
+			_audio_player.stream = fallback
+			_audio_player.play()
+		_set_audio("音频：chunk %d 播放中（降级:占位 wav · 共 %d）" % [_audio_chunks, _audio_chunks])
+		return
+	var wav := AudioStreamWAV.new()
+	wav.format = AudioStreamWAV.FORMAT_16_BITS
+	wav.mix_rate = rate
+	wav.stereo = channels > 1
+	wav.data = raw
+	if _audio_player != null:
+		_audio_player.stream = wav
+		_audio_player.play()
+	_set_audio("音频：chunk %d seq=%d（%dHz/%dch · 共 %d · 播放中）"
+			% [_audio_chunks, seq, rate, channels, _audio_chunks])
 
 
 func _apply_chunk(data: Dictionary) -> void:

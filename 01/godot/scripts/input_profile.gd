@@ -33,6 +33,16 @@ const KEY_ACTION_KEYS := ["key_w", "key_a", "key_s", "key_d"]
 const INTERACT_KEY := "key_e"
 const WALK_EXIT_KEYS := ["key_esc", "key_b"]
 
+## 引擎默认兜底层（TASK-115 三级回退第 3 级）：
+##   玩家自定义（actions）→ 机种表（keyboard/mouse）→ 引擎默认（FALLBACK_DEFAULTS）。
+## 键名沿用 Godot KEY_* 小写蛇形（见文档头结构与 keymap_register.md §2 三级回退表）。
+const FALLBACK_DEFAULTS := {
+	"move_forward": "key_w", "move_back": "key_s",
+	"move_left": "key_a", "move_right": "key_d",
+	"select_next": "key_tab", "inspect_reset_view": "key_r",
+	"interact": "key_e", "exit_explode": "key_esc",
+}
+
 var actions := {}          # 动作 → 绑定字符串
 var keyboard := {}         # 键盘动作 → 键名
 var mouse := {}            # 鼠标动作 → 按键名
@@ -52,13 +62,47 @@ static func load_from_json(text: String) -> InputProfile:
 
 
 func binding(action: String) -> String:
-	if actions.has(action):
-		return str(actions[action])
-	if keyboard.has(action):
-		return str(keyboard[action])
-	if mouse.has(action):
-		return str(mouse[action])
-	return ""
+	var res := binding_with_level(action)
+	return str(res[0])
+
+
+## TASK-115：三级回退查询——actions(玩家自定义) → keyboard/mouse(机种表) → 引擎默认。
+## 返回 [绑定字符串, 命中层级]；层级 ∈ actions/keyboard/mouse/default/unbound。
+func binding_with_level(action: String) -> Array:
+	if actions.has(action) and str(actions[action]).strip_edges() != "":
+		return [str(actions[action]), "actions"]
+	if keyboard.has(action) and str(keyboard[action]).strip_edges() != "":
+		return [str(keyboard[action]), "keyboard"]
+	if mouse.has(action) and str(mouse[action]).strip_edges() != "":
+		return [str(mouse[action]), "mouse"]
+	if FALLBACK_DEFAULTS.has(action):
+		return [str(FALLBACK_DEFAULTS[action]), "default"]
+	return ["", "unbound"]
+
+
+## TASK-115 自检卡：把三级回退固化为可查报表——逐动作命中层级 + 未绑定清单。
+func fallback_report() -> Dictionary:
+	var levels := {}
+	var unbound: Array = []
+	var all: Array = []
+	for k in actions:
+		if not all.has(k):
+			all.append(k)
+	for k in keyboard:
+		if not all.has(k):
+			all.append(k)
+	for k in mouse:
+		if not all.has(k):
+			all.append(k)
+	for k in FALLBACK_DEFAULTS:
+		if not all.has(k):
+			all.append(k)
+	for k in all:
+		var res := binding_with_level(str(k))
+		levels[str(k)] = str(res[1])
+		if str(res[1]) == "unbound":
+			unbound.append(str(k))
+	return {"levels": levels, "unbound": unbound}
 
 
 func has_action(action: String) -> bool:
@@ -72,6 +116,11 @@ func validate() -> String:
 	for action in actions:
 		if str(actions[action]).strip_edges() == "":
 			errors.append("actions.%s 绑定为空" % action)
+	# TASK-115：未绑定清单并入自检输出（无任何层级命中的动作）
+	var report := fallback_report()
+	var unbound: Array = report.get("unbound", [])
+	if not unbound.is_empty():
+		errors.append("未绑定清单:%s" % ",".join(unbound))
 	return ", ".join(errors)
 
 

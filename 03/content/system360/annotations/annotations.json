@@ -299,6 +299,54 @@
       "type": "role",
       "target": "sw_keyboard_lock",
       "text": "键盘锁开关在整机中锁定控制台键盘，防止未经授权的操作员输入。"
+    },
+    {
+      "id": "compatible_family",
+      "type": "flow",
+      "target": "whole",
+      "text": "兼容机家族讲解：System/360 首次实现「一套指令集覆盖从最小到最大所有型号」，换机器不必重写程序，开创兼容机家族。"
+    },
+    {
+      "id": "channel_io",
+      "type": "flow",
+      "target": "whole",
+      "text": "通道式 I/O 讲解：System/360 发明「通道」——独立于 CPU 的 I/O 小计算机，让慢速外设与高速主机各忙各的，是大型机 I/O 架构的基石。"
+    },
+    {
+      "id": "os_360",
+      "type": "flow",
+      "target": "whole",
+      "text": "OS/360 讲解：为 System/360 开发的 OS/360 是大型机操作系统的重要里程碑，也催生了《人月神话》等软件工程经典。"
+    },
+    {
+      "id": "microprogramming",
+      "type": "flow",
+      "target": "microprogram_rom",
+      "text": "微程序讲解：System/360 用微程序 ROM 实现复杂指令，让同一套指令集能跑在不同硬件上，是兼容性的硬件基础。"
+    },
+    {
+      "id": "byte_addressing",
+      "type": "flow",
+      "target": "whole",
+      "text": "字节编址讲解：System/360 定下「8 位字节、按字节编址、32 位字」的规矩，成为此后几乎所有计算机的共同语言。"
+    },
+    {
+      "id": "model_range",
+      "type": "flow",
+      "target": "whole",
+      "text": "型号家族讲解：System/360 一次发布多个型号——/30 入门、/65 中端、/91 科学巨兽，同一套软件通吃，是「按需选配」的雏形。"
+    },
+    {
+      "id": "architecture_longevity",
+      "type": "flow",
+      "target": "whole",
+      "text": "架构长寿讲解：System/360 的架构思想一路传承 System/370、S/390、zSeries，直到今天的 IBM Z，是计算机史上最长寿的架构血脉。"
+    },
+    {
+      "id": "blue_big",
+      "type": "flow",
+      "target": "whole",
+      "text": "蓝色巨人讲解：System/360 的成功奠定 IBM 大型机数十年的统治地位，蓝色机柜成了「企业计算」的象征。"
     }
   ]
 }

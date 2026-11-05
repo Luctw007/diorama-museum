@@ -226,6 +226,9 @@ func _try_enter_explode() -> void:
 
 ## Esc/B（input_profile.gd WALK_EXIT_KEYS）：退出拆解、回到行走。
 ## 布尔开关回拨并消费事件（不再传给 player.gd 的 ui_cancel，避免误释放鼠标捕获）。
+## 预检说明（TASK-112）：退出后相机仍处于 Inspect 观察轨道（M0 设计：设备装载即观察态，
+## _apply_view 持续接管相机）；"行走视角"此刻 = 观察轨道 + 鼠标捕获环视。若要字面
+## "回到装载前视角"，需引入行走/观察状态切换（属状态机语义变更，不在此做最小修复边界内）。
 func _exit_explode_to_walk() -> void:
 	if not _explode_mode:
 		return

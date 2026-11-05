@@ -879,5 +879,137 @@
     "gateway_key": null,
     "slot_manifest": false,
     "ci_involved": false
+  },
+  {
+    "sim_id": "xm6-typeg",
+    "name": "XM6 TypeG（X68000 模拟器，Windows）",
+    "target_devices": [
+      "x68000"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "需核实",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "disk"
+    ],
+    "status": "reserved",
+    "risks": [
+      "IPL ROM/SCSI ROM/Human68k 字样级引用，红线不下载"
+    ],
+    "sources": [
+      "05线 TASK-110A 增补"
+    ],
+    "media_classes_allowed": {
+      "x68000": [
+        "disk"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
+  },
+  {
+    "sim_id": "xm6i",
+    "name": "XM6i（X68000 模拟器，Windows）",
+    "target_devices": [
+      "x68000"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "需核实",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "disk"
+    ],
+    "status": "researched",
+    "risks": [
+      "IPL ROM/SCSI ROM/Human68k 字样级引用，红线不下载"
+    ],
+    "sources": [
+      "05线 TASK-110A 增补"
+    ],
+    "media_classes_allowed": {
+      "x68000": [
+        "disk"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
+  },
+  {
+    "sim_id": "previous-next",
+    "name": "Previous（NeXTSTEP 开源后继模拟器）",
+    "target_devices": [
+      "NeXT 工作站"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "需核实",
+      "source_url": "",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "disk"
+    ],
+    "status": "reserved",
+    "risks": [
+      "演示向为主，NeXTSTEP 系统镜像字样级引用、不下载"
+    ],
+    "sources": [
+      "05线 TASK-110A 增补"
+    ],
+    "media_classes_allowed": {
+      "NeXT 工作站": [
+        "disk"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
+  },
+  {
+    "sim_id": "qemu-m68k",
+    "name": "QEMU m68k（NeXT 裸机路线）",
+    "target_devices": [
+      "NeXT 工作站"
+    ],
+    "backend_type": "dedicated",
+    "license": {
+      "spdx": "GPL-2.0（需核实）",
+      "source_url": "https://www.qemu.org",
+      "last_checked": "需核实"
+    },
+    "media_classes": [
+      "disk"
+    ],
+    "status": "researched",
+    "risks": [
+      "NeXT 裸机支持成熟度需核实，系统镜像不下载"
+    ],
+    "sources": [
+      "05线 TASK-110A 增补"
+    ],
+    "media_classes_allowed": {
+      "NeXT 工作站": [
+        "disk"
+      ]
+    },
+    "module": null,
+    "backend_status": "预留",
+    "gateway_key": null,
+    "slot_manifest": false,
+    "ci_involved": false
   }
 ]

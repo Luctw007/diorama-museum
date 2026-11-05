@@ -27,7 +27,11 @@ var _shards: Array = []            # 与 _mid_list 平行的分片字典数组
 var _row_list: ItemList
 var _detail: Label
 var _title: Label
-var _rows: Array = []              # 当前分片行缓存（Index → 行字典）
+var _rows: Array = []              # 当前分片行缓存（原始顺序）
+var _shown_rows: Array = []        # 与右侧列表顺序一致的行（排序后同序）
+var _sort_button: Button
+var _sort_enabled := true          # 排序开关（TASK-111，默认开，可关闭）
+var _invalid_rows := 0             # 当前分片非法行数（降级提示用）
 
 
 func _ready() -> void:
@@ -71,9 +75,17 @@ func _ready() -> void:
 	var right := VBoxContainer.new()
 	right.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	row.add_child(right)
+	var entry_row := HBoxContainer.new()
+	right.add_child(entry_row)
 	var entry_label := Label.new()
 	entry_label.text = "条目（名称 · 年代 · 厂商）"
-	right.add_child(entry_label)
+	entry_label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	entry_row.add_child(entry_label)
+	_sort_button = Button.new()
+	_sort_button.text = "排序:开"
+	_sort_button.tooltip_text = "条目按名称排序（同名按年代升序）；点击关闭，回退为分片源码顺序"
+	_sort_button.pressed.connect(_on_sort_toggled)
+	entry_row.add_child(_sort_button)
 	_row_list = ItemList.new()
 	_row_list.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	_row_list.item_selected.connect(_on_row_selected)
@@ -140,19 +152,55 @@ func _on_mid_selected(index: int) -> void:
 	if index < 0 or index >= _shards.size():
 		return
 	var shard: Dictionary = _shards[index]
-	_rows = _catalog.load_shard(str(shard.get("big", "")), str(shard.get("mid", "")))
+	var loaded: Array = _catalog.load_shard(str(shard.get("big", "")), str(shard.get("mid", "")))
+	# TASK-111 降级：非法行计数并置底（缺 name/era/manufacturer 的字典行按缺省显示，不崩溃）
+	_invalid_rows = 0
+	for row in loaded:
+		if typeof(row) != TYPE_DICTIONARY:
+			_invalid_rows += 1
+	_rows = loaded
+	_populate_rows()
+	var note := "已选中「%s」%d 条" % [str(shard.get("mid", "")), _rows.size()]
+	if _invalid_rows > 0:
+		note += "（含 %d 条非法行已置底）" % _invalid_rows
+	_detail.text = note
+
+
+## 条目排序开关（TASK-111）：开=name 升序（同名按 era），关=分片源码顺序。
+func _on_sort_toggled() -> void:
+	_sort_enabled = not _sort_enabled
+	_sort_button.text = "排序:%s" % ("开" if _sort_enabled else "关")
+	_populate_rows()
+
+
+func _populate_rows() -> void:
 	_row_list.clear()
-	for row in _rows:
+	if _rows.is_empty():
+		_detail.text = "该分片无条目"
+		return
+	# TASK-111：中分类按 meta.json shards 顺序稳定展示（_shards 即该顺序，
+	# 不另排序）；条目按 name 排序且可关闭。
+	var shown: Array = _rows
+	if _sort_enabled:
+		shown = CatalogData.sort_shard_rows(_rows)
+	_shown_rows = shown
+	for row in shown:
+		if typeof(row) != TYPE_DICTIONARY:
+			_row_list.add_item("（非法行）")
+			continue
 		var r: Dictionary = row
 		_row_list.add_item("%s ｜ %s ｜ %s" % [
 			str(r.get("name", "-")), str(r.get("era", "-")), str(r.get("manufacturer", "-"))])
-	_detail.text = "已选中「%s」%d 条" % [str(shard.get("mid", "")), _rows.size()]
 
 
 func _on_row_selected(index: int) -> void:
-	if index < 0 or index >= _rows.size():
+	if index < 0 or index >= _shown_rows.size():
 		return
-	var r: Dictionary = _rows[index]
+	var row: Variant = _shown_rows[index]
+	if typeof(row) != TYPE_DICTIONARY:
+		_detail.text = "（非法行，无详情）"
+		return
+	var r: Dictionary = row
 	var tx: Array = r.get("_taxonomy", r.get("taxonomy_path", []))
 	var influence := str(r.get("influence", r.get("reason", "")))
 	_detail.text = "%s\n状态 %s · 包 %s · %s" % [

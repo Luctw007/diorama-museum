@@ -240,3 +240,39 @@
 - 介质类目：cartridge
 - 风险：版本需核实
 
+## xm6-typeg
+- 名称：XM6 TypeG（X68000 模拟器，Windows）
+- 后端类型：dedicated　|　状态：reserved　|　后端：预留
+- 网关登记键：（未内置）　|　槽位 manifest：无　|　CI 涉及：否
+- 目标设备：x68000
+- 许可：需核实　|　URL：（需核实）
+- 介质类目：disk
+- 风险：IPL ROM/SCSI ROM/Human68k 字样级引用，红线不下载
+
+## xm6i
+- 名称：XM6i（X68000 模拟器，Windows）
+- 后端类型：dedicated　|　状态：researched　|　后端：预留
+- 网关登记键：（未内置）　|　槽位 manifest：无　|　CI 涉及：否
+- 目标设备：x68000
+- 许可：需核实　|　URL：（需核实）
+- 介质类目：disk
+- 风险：IPL ROM/SCSI ROM/Human68k 字样级引用，红线不下载
+
+## previous-next
+- 名称：Previous（NeXTSTEP 开源后继模拟器）
+- 后端类型：dedicated　|　状态：reserved　|　后端：预留
+- 网关登记键：（未内置）　|　槽位 manifest：无　|　CI 涉及：否
+- 目标设备：NeXT 工作站
+- 许可：需核实　|　URL：（需核实）
+- 介质类目：disk
+- 风险：演示向为主，NeXTSTEP 系统镜像字样级引用、不下载
+
+## qemu-m68k
+- 名称：QEMU m68k（NeXT 裸机路线）
+- 后端类型：dedicated　|　状态：researched　|　后端：预留
+- 网关登记键：（未内置）　|　槽位 manifest：无　|　CI 涉及：否
+- 目标设备：NeXT 工作站
+- 许可：GPL-2.0（需核实）　|　URL：https://www.qemu.org
+- 介质类目：disk
+- 风险：NeXT 裸机支持成熟度需核实，系统镜像不下载
+

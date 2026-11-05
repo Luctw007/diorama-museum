@@ -1,0 +1,190 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "Palm Pilot 1000 整机，1996 年推出的掌上电脑，以触控笔与单色触控屏定义 PDA 品类，是「智能手机前夜」的关键一站。"
+    },
+    {
+      "id": "body_role",
+      "type": "role",
+      "target": "body",
+      "text": "机身外壳在整机中作为深灰塑料袖珍外壳，承载按键、触控笔插槽与屏幕，可装进衬衫口袋。"
+    },
+    {
+      "id": "display_role",
+      "type": "role",
+      "target": "display",
+      "text": "单色触控屏在整机中显示界面与内容，配触控笔点按书写，是 Palm 的「点一下」交互界面。"
+    },
+    {
+      "id": "motherboard_role",
+      "type": "role",
+      "target": "motherboard",
+      "text": "主板在整机中承载 DragonBall 处理器、内存、ROM 与串口，是运行 Palm OS 与应用的核心。"
+    },
+    {
+      "id": "battery_bay_role",
+      "type": "role",
+      "target": "battery_bay",
+      "text": "电池仓在整机中容纳两节 AAA 电池，为整机供电，续航可达数周。"
+    },
+    {
+      "id": "stylus_role",
+      "type": "role",
+      "target": "stylus",
+      "text": "触控笔在整机中作为输入工具，插在机身侧槽，用于点按屏幕与书写 Graffiti 手写字符。"
+    },
+    {
+      "id": "hotsync_dock_role",
+      "type": "role",
+      "target": "hotsync_dock",
+      "text": "HotSync 同步底座在整机中作为配套外设，把 Palm 放入底座经串口与电脑一键同步数据。"
+    },
+    {
+      "id": "power_button_role",
+      "type": "role",
+      "target": "power_button",
+      "text": "电源键在整机中控制开关机与背光，是 Palm 的上电入口。"
+    },
+    {
+      "id": "app_buttons_role",
+      "type": "role",
+      "target": "app_buttons",
+      "text": "应用快捷键在整机中位于屏幕下方，一键切换到日程、通讯录、记事等核心应用。"
+    },
+    {
+      "id": "scroll_buttons_role",
+      "type": "role",
+      "target": "scroll_buttons",
+      "text": "上下滚动键在整机中滚动列表与页面，是单手翻阅内容的主要按键。"
+    },
+    {
+      "id": "stylus_slot_role",
+      "type": "role",
+      "target": "stylus_slot",
+      "text": "触控笔插槽在整机中位于机身侧边，收纳触控笔，是随身携带输入工具的通道。"
+    },
+    {
+      "id": "lcd_panel_role",
+      "type": "role",
+      "target": "lcd_panel",
+      "text": "LCD 面板在整机中显示单色画面，分辨率 160×160，是 Palm 的信息显示界面。"
+    },
+    {
+      "id": "touch_layer_role",
+      "type": "role",
+      "target": "touch_layer",
+      "text": "触控层在整机中感知触控笔点按，是 Palm 触控交互的传感器层。"
+    },
+    {
+      "id": "graffiti_area_role",
+      "type": "role",
+      "target": "graffiti_area",
+      "text": "Graffiti 手写区在整机中位于屏幕下方，用户在此用触控笔书写简化单笔画字符，由 Graffiti 引擎识别为文字。"
+    },
+    {
+      "id": "cpu_dragonball_role",
+      "type": "role",
+      "target": "cpu_dragonball",
+      "text": "DragonBall 处理器在整机中作为计算核心，型号 MC68328，是摩托罗拉 68k 家族的嵌入式处理器。"
+    },
+    {
+      "id": "ram_role",
+      "type": "role",
+      "target": "ram",
+      "text": "内存在整机中存放运行中的程序与数据，Pilot 1000 容量 128KB。"
+    },
+    {
+      "id": "rom_role",
+      "type": "role",
+      "target": "rom",
+      "text": "ROM 在整机中固化 Palm OS 系统与内置应用，是 Palm 开箱即用的软件载体。"
+    },
+    {
+      "id": "serial_port_role",
+      "type": "role",
+      "target": "serial_port",
+      "text": "串口在整机中连接 HotSync 底座，实现与电脑的数据同步。"
+    },
+    {
+      "id": "battery_aaa_role",
+      "type": "role",
+      "target": "battery_aaa",
+      "text": "AAA 电池在整机中为整机供电，两节可更换，续航可达数周。"
+    },
+    {
+      "id": "stylus_tip_role",
+      "type": "role",
+      "target": "stylus_tip",
+      "text": "笔尖在整机中接触屏幕进行点按与书写，是触控笔输入的接触点。"
+    },
+    {
+      "id": "dock_connector_role",
+      "type": "role",
+      "target": "dock_connector",
+      "text": "底座接口在整机中与 HotSync 底座对接，实现充电与数据同步。"
+    },
+    {
+      "id": "pda_pioneer",
+      "type": "flow",
+      "target": "whole",
+      "text": "PDA 标杆讲解：Palm Pilot 把掌上电脑从工程师玩具变成大众产品，以「简单、快速、同步」定义了 PDA 品类的成熟形态。"
+    },
+    {
+      "id": "graffiti_anchor",
+      "type": "flow",
+      "target": "graffiti_area",
+      "text": "Graffiti 手写讲解：Palm 用一套简化的单笔画字符替代复杂手写，大幅提高识别率，是掌上输入的一次务实创新。"
+    },
+    {
+      "id": "smartphone_eve",
+      "type": "flow",
+      "target": "whole",
+      "text": "智能手机前夜讲解：Palm Pilot 几乎具备智能手机的一切雏形——触控屏、手写笔、日程通讯录、同步底座，只差一步电话。"
+    },
+    {
+      "id": "hotsync",
+      "type": "flow",
+      "target": "hotsync_dock",
+      "text": "HotSync 同步讲解：把 Palm 放入底座一键同步数据，确立「掌上设备 + 桌面同步」的经典模式，后来被智能手机广泛继承。"
+    },
+    {
+      "id": "stylus_vs_finger",
+      "type": "flow",
+      "target": "stylus",
+      "text": "触控笔 vs 手指讲解：Palm 用触控笔在单色屏上点写画，是 iPhone 手指触控的「前一代」——从笔到手指，正是交互的演进。"
+    },
+    {
+      "id": "palm_os",
+      "type": "flow",
+      "target": "rom",
+      "text": "Palm OS 讲解：轻量高效的 Palm OS 是 PDA 时代的代表操作系统，为低功耗、小内存的掌上设备量身设计。"
+    },
+    {
+      "id": "dragonball",
+      "type": "flow",
+      "target": "cpu_dragonball",
+      "text": "DragonBall 讲解：摩托罗拉 DragonBall MC68328 是 68k 家族的嵌入式处理器，低功耗设计让 Palm 用 AAA 电池即可续航数周。"
+    },
+    {
+      "id": "aaa_battery",
+      "type": "flow",
+      "target": "battery_aaa",
+      "text": "AAA 电池讲解：Palm 用两节普通 AAA 电池即可续航数周，换电池即满血，是「简单可靠」设计哲学的体现。"
+    },
+    {
+      "id": "pim_apps",
+      "type": "flow",
+      "target": "app_buttons",
+      "text": "PIM 应用讲解：日程、通讯录、记事等个人信息管理应用是 Palm 的核心，这些后来成为智能手机的标准功能。"
+    },
+    {
+      "id": "three_acts",
+      "type": "flow",
+      "target": "whole",
+      "text": "三幕串讲讲解：DynaTAC 只能打电话 → Palm 一支笔管理生活 → iPhone 一块玻璃改变世界，构成「智能手机前夜」的完整叙事。"
+    }
+  ]
+}

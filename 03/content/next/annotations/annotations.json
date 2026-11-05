@@ -1,0 +1,184 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "NeXT Computer 整机，1988 年乔布斯创立 NeXT 后推出的黑色立方体工作站，以 NeXTSTEP 系统与孕育万维网闻名。"
+    },
+    {
+      "id": "chassis_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "主机塔在整机中作为约一英尺见方的黑色镁合金立方体机箱，承载主板、磁光盘位与电源，是极具辨识度的工业设计。"
+    },
+    {
+      "id": "motherboard_role",
+      "type": "role",
+      "target": "motherboard",
+      "text": "主板在整机中承载 68030 处理器与 DSP56001 数字信号处理器、内存与 ROM，是系统的运算与音频核心。"
+    },
+    {
+      "id": "mo_drive_role",
+      "type": "role",
+      "target": "mo_drive",
+      "text": "磁光盘位在整机中位于机箱正面，安装可插拔 256MB 磁光盘（MO）驱动器，是那个年代罕见的可擦写大容量存储。"
+    },
+    {
+      "id": "monitor_role",
+      "type": "role",
+      "target": "monitor",
+      "text": "显示器在整机中显示灰度高分辨率画面，与主机塔分立，是工作站标配的大尺寸 CRT 显示单元。"
+    },
+    {
+      "id": "keyboard_role",
+      "type": "role",
+      "target": "keyboard",
+      "text": "键盘在整机中作为独立 85 键输入设备，是 NeXT 工作站的主要文字输入界面。"
+    },
+    {
+      "id": "mouse_role",
+      "type": "role",
+      "target": "mouse",
+      "text": "鼠标在整机中作为方形双键指针设备，配合 NeXTSTEP 图形界面进行点选操作。"
+    },
+    {
+      "id": "brand_badge_role",
+      "type": "role",
+      "target": "brand_badge",
+      "text": "品牌徽标在整机中标明 NeXT 品牌，是乔布斯离开苹果后创立新公司的标志。"
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "power_switch",
+      "text": "电源开关在整机中控制立方机箱的供电通断，是系统的上电入口。"
+    },
+    {
+      "id": "expansion_slots_role",
+      "type": "role",
+      "target": "expansion_slots",
+      "text": "内部扩展槽在整机中为显卡、内存等扩展卡提供插接位，支持工作站级扩展。"
+    },
+    {
+      "id": "cpu_68030_role",
+      "type": "role",
+      "target": "cpu_68030",
+      "text": "68030 处理器在整机中作为计算核心，是摩托罗拉 68k 家族的高性能 32 位处理器。"
+    },
+    {
+      "id": "dsp56001_role",
+      "type": "role",
+      "target": "dsp56001",
+      "text": "DSP56001 数字信号处理器在整机中专责音频信号处理，是 NeXT 出色的声音能力的基础。"
+    },
+    {
+      "id": "ram_role",
+      "type": "role",
+      "target": "ram",
+      "text": "内存在整机中存放运行中的程序与数据，容量按配置可扩展。"
+    },
+    {
+      "id": "rom_role",
+      "type": "role",
+      "target": "rom",
+      "text": "ROM 在整机中固化系统引导固件，是 NeXT 开机自举的只读存储器。"
+    },
+    {
+      "id": "mo_slot_role",
+      "type": "role",
+      "target": "mo_slot",
+      "text": "磁光盘插槽在整机中接纳可插拔磁光盘，容量 256MB，是当时罕见的可擦写大容量存储入口。"
+    },
+    {
+      "id": "crt_tube_role",
+      "type": "role",
+      "target": "crt_tube",
+      "text": "显像管在整机中显示灰度高分辨率画面，是工作站显示输出部件。"
+    },
+    {
+      "id": "key_matrix_role",
+      "type": "role",
+      "target": "key_matrix",
+      "text": "键盘矩阵在整机中承载 85 键按键，是 NeXT 工作站的主要文字输入部件。"
+    },
+    {
+      "id": "trackball_role",
+      "type": "role",
+      "target": "trackball",
+      "text": "滚球在整机中位于鼠标底部，通过滚动检测位移，是鼠标指针定位的核心部件。"
+    },
+    {
+      "id": "black_cube",
+      "type": "flow",
+      "target": "chassis",
+      "text": "黑色立方体讲解：NeXT 用约一英尺见方的黑色镁合金立方体机箱宣告「重新开始」，是乔布斯极致设计与不妥协姿态的物化。"
+    },
+    {
+      "id": "web_birth",
+      "type": "flow",
+      "target": "whole",
+      "text": "万维网诞生地讲解：1990 年蒂姆·伯纳斯-李在 CERN 的一台 NeXT 上写下了万维网首行代码，搭建了第一个 Web 服务器与浏览器。"
+    },
+    {
+      "id": "jobs_return",
+      "type": "flow",
+      "target": "whole",
+      "text": "乔布斯归来讲解：被逐出苹果后的乔布斯创立 NeXT，这台黑立方是他东山再起的起点，也是他后来回归苹果的伏笔。"
+    },
+    {
+      "id": "nextstep",
+      "type": "flow",
+      "target": "rom",
+      "text": "NeXTSTEP 讲解：NeXTSTEP 是面向对象、基于 Unix 的操作系统，后来成为 macOS 的基石，Objective-C 也由此走向苹果生态。"
+    },
+    {
+      "id": "mo_drive",
+      "type": "flow",
+      "target": "mo_slot",
+      "text": "磁光盘讲解：NeXT 率先在工作站上采用 256MB 磁光盘，容量远超当时软盘，是「可擦写大容量存储」的早期先锋。"
+    },
+    {
+      "id": "dsp_audio",
+      "type": "flow",
+      "target": "dsp56001",
+      "text": "DSP 音频讲解：DSP56001 专责音频处理，让 NeXT 拥有当时出众的声音能力，为多媒体工作站铺路。"
+    },
+    {
+      "id": "failed_hardware",
+      "type": "flow",
+      "target": "whole",
+      "text": "失败硬件成功血脉讲解：NeXT 商业失败，但 NeXTSTEP 与 Objective-C 滋养了苹果生态——失败的硬件，孕育了改变世界的软件。"
+    },
+    {
+      "id": "web_server",
+      "type": "flow",
+      "target": "whole",
+      "text": "首个 Web 服务器讲解：万维网的第一台服务器与第一个浏览器都运行在 NeXT 上，这台机器是互联网时代真正的起点之一。"
+    },
+    {
+      "id": "magnesium",
+      "type": "flow",
+      "target": "chassis",
+      "text": "镁合金机箱讲解：黑色镁合金立方体既是结构件也是审美宣言，是 1980 年代末工作站工业设计百花齐放的代表。"
+    },
+    {
+      "id": "workstation_hall",
+      "type": "flow",
+      "target": "whole",
+      "text": "工作站厅序厅讲解：NeXT 作为工作站厅第一台，以「万维网诞生地」这根情感锚点，把观众从个人计算引入专业计算改变世界的叙事。"
+    },
+    {
+      "id": "objc_lang",
+      "type": "flow",
+      "target": "whole",
+      "text": "Objective-C 讲解：NeXT 与 NeXTSTEP 是 Objective-C 语言的摇篮，这门语言后来成为苹果生态的主力开发语言。"
+    },
+    {
+      "id": "unix_root",
+      "type": "flow",
+      "target": "rom",
+      "text": "Unix 内核讲解：NeXTSTEP 建立在 Unix 之上，把 Unix 的稳定与面向对象的易用结合，是工作站操作系统的一次范式创新。"
+    }
+  ]
+}

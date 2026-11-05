@@ -1,7 +1,7 @@
 {
-  "time": "2026-11-06 00:17:14",
-  "total": 34,
-  "passed": 34,
+  "time": "2026-11-06 01:06:06",
+  "total": 37,
+  "passed": 37,
   "steps": [
     {
       "name": "m0",
@@ -16,7 +16,7 @@
     {
       "name": "slots",
       "ok": true,
-      "note": "汇总：完工包 28，声明 slot 0，SC-01 违规 0"
+      "note": "汇总：完工包 30，声明 slot 0，SC-01 违规 0"
     },
     {
       "name": "catalog",
@@ -31,7 +31,12 @@
     {
       "name": "gd",
       "ok": true,
-      "note": "汇总：12 文件；符号池 funcs 108 / signals 7；MISS 0；已知缺口 KG 0"
+      "note": "汇总：14 文件；符号池 funcs 125 / signals 7；MISS 0；已知缺口 KG 0"
+    },
+    {
+      "name": "gd_naming",
+      "ok": true,
+      "note": "扫描 14 个 gd；class_name 5 个；FAIL 0"
     },
     {
       "name": "pkg:amiga500",
@@ -115,6 +120,16 @@
     },
     {
       "name": "pkg:neo-geo-mvs",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:next",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:palm-pilot",
       "ok": true,
       "note": "FAIL 0"
     },

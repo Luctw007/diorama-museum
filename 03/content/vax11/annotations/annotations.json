@@ -227,6 +227,54 @@
       "type": "role",
       "target": "unibus_light_panel",
       "text": "Unibus/控制台灯板在整机中提供总线状态显示与控制台串口，是操作员观察系统运行状态的窗口。"
+    },
+    {
+      "id": "virtual_memory_32",
+      "type": "flow",
+      "target": "mmu",
+      "text": "32 位虚拟寻址讲解：VAX-11 把地址空间从 PDP-11 的 6 万多个地址扩展到 40 多亿个——32 位寻址，让「小型机做大型机的事」成为可能。"
+    },
+    {
+      "id": "vms_os",
+      "type": "flow",
+      "target": "whole",
+      "text": "VMS 讲解：DEC 为 VAX 打造的 VMS 操作系统可靠稳定，扛得住银行电信级不间断运行，在关键行业服役数十年。"
+    },
+    {
+      "id": "vax_mips",
+      "type": "flow",
+      "target": "whole",
+      "text": "VAX MIPS 基准讲解：VAX-11/780 约每秒 100 万条指令，业界干脆拿它当性能单位「VAX MIPS」，一台机器成了整个行业的度量衡。"
+    },
+    {
+      "id": "paging",
+      "type": "flow",
+      "target": "mmu",
+      "text": "分页机制讲解：虚拟内存靠分页实现——程序以为独占整片内存，缺页由操作系统随时从磁盘补上，是今天所有操作系统都离不开的机制。"
+    },
+    {
+      "id": "protection_rings",
+      "type": "flow",
+      "target": "protection_unit",
+      "text": "保护环讲解：VAX 用保护环隔离系统与用户程序，让多用户、多任务能安全共存，是操作系统安全模型的先驱。"
+    },
+    {
+      "id": "bsd_unix",
+      "type": "flow",
+      "target": "whole",
+      "text": "BSD Unix 讲解：BSD Unix 把 VAX 当成主战场，从这里走向更广阔的 Unix/Linux 世界，是开源软件早期的重要平台。"
+    },
+    {
+      "id": "dec_peak",
+      "type": "flow",
+      "target": "whole",
+      "text": "DEC 巅峰讲解：VAX-11/780 是 DEC 小型机的巅峰之作，从 12 位的 PDP-8 到 32 位的 VAX，走完了一条清晰的成长之路。"
+    },
+    {
+      "id": "multi_user",
+      "type": "flow",
+      "target": "whole",
+      "text": "多用户服务讲解：VAX 让一台「小型机」能同时服务几十个用户，跑银行交易、管工厂生产，是「服务器」概念的早期形态。"
     }
   ]
 }

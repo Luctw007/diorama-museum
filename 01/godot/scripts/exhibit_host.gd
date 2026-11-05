@@ -61,6 +61,10 @@ var _load_error: String = ""
 var _placed: Dictionary = {}
 ## 当前运行设备（配额内）
 var _running_id: String = ""
+## 切厅游标（TASK-114）：按 hall_files 顺序循环切厅
+var _hall_cursor := 0
+## 调试圈当前开关（TASK-114）：切厅后保留该设置
+var _debug_circles_on := false
 
 
 func _ready() -> void:
@@ -195,6 +199,7 @@ func get_layout_summary() -> Dictionary:
 
 ## 切换展厅（TASK-41B）：拆除当前全部设备 → 载入并放置新厅布局。
 ## 保留运行配额与调试圈设置；成功返回 true；布局路径非法返回 false。
+## TASK-114：成功后同步 _hall_cursor，并重放调试圈开关。
 func switch_hall(new_layout_file: String) -> bool:
 	clear_devices()
 	layout_file = new_layout_file
@@ -202,7 +207,39 @@ func switch_hall(new_layout_file: String) -> bool:
 	if not ok:
 		push_warning("ExhibitHost: 切厅失败 -> %s" % _load_error)
 		return false
-	return spawn_devices() > 0
+	var placed := spawn_devices()
+	var idx: int = hall_files.find(new_layout_file)
+	if idx >= 0:
+		_hall_cursor = idx
+	if _debug_circles_on:
+		toggle_debug_circles(true)
+	return placed > 0
+
+
+## 下一厅（TASK-114）：按 hall_files 顺序循环切厅；目标布局非法时回退 DEFAULT_LAYOUT。
+## 返回当前布局文件名（失败/空清单返回空串）。
+func next_hall() -> String:
+	if hall_files.is_empty():
+		return ""
+	var target := hall_files[(_hall_cursor + 1) % hall_files.size()]
+	if switch_hall(target):
+		return target
+	return "" if target == DEFAULT_LAYOUT or not switch_hall(DEFAULT_LAYOUT) else DEFAULT_LAYOUT
+
+
+## 上一厅（反向循环，回退语义同 next_hall）。
+func prev_hall() -> String:
+	if hall_files.is_empty():
+		return ""
+	var target := hall_files[(_hall_cursor - 1 + hall_files.size()) % hall_files.size()]
+	if switch_hall(target):
+		return target
+	return "" if target == DEFAULT_LAYOUT or not switch_hall(DEFAULT_LAYOUT) else DEFAULT_LAYOUT
+
+
+## 当前厅布局文件名。
+func current_hall() -> String:
+	return layout_file
 
 
 ## 拆除全部设备（清空场景；换厅时调用）。
@@ -262,7 +299,9 @@ func clear_highlights() -> void:
 
 ## 调试观围圈：每台设备脚下画一个 audience_radius 的圆环（半透明），
 ## 视角调试用；release 默认关闭（_ready 检查 OS.is_debug_build）。
+## TASK-114：切厅后保留开关状态（_debug_circles_on 记忆）。
 func toggle_debug_circles(on: bool) -> void:
+	_debug_circles_on = on
 	for did in _placed:
 		var loader: Node3D = _placed[did]["loader"]
 		var ring: Node3D = loader.get_node_or_null("AudienceRing")

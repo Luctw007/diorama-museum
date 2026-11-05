@@ -114,6 +114,8 @@ def main(argv: list[str] | None = None) -> int:
         catalog_ref_step = ("catalog_ref",
                             [r"D:\work\02\repo\tools\validate\catalog_ref_check.py"])
     gd_step = ("gd", ["scripts/gd_symbol_check.py"])
+    # TASK-118：命名纪律静态门禁，与 gd_symbol_check 并列（v0.6.3 附录 A）
+    gd_naming_step = ("gd_naming", ["scripts/gd_naming_check.py"])
     pkg_defs = [("pkg:%s" % pid, [VALIDATOR, path]) for pid, path in PKGS]
     wip_defs = [("wip:%s" % pid, [VALIDATOR, path]) for pid, path in WIP]
 
@@ -147,10 +149,10 @@ def main(argv: list[str] | None = None) -> int:
                                     gd_step) if s[0] == args.only])
     elif args.daily:
         selected = [step_defs[0], step_defs[2], slot_step, catalog_step,
-                    catalog_ref_step, gd_step] + pkg_defs
+                    catalog_ref_step, gd_step, gd_naming_step] + pkg_defs
     else:
         selected = step_defs + [slot_step, catalog_step, catalog_ref_step,
-                                gd_step] + pkg_defs
+                                gd_step, gd_naming_step] + pkg_defs
 
     results: list[tuple[str, bool, str]] = []
     for name, argv_ in selected:

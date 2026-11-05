@@ -1,0 +1,48 @@
+{
+  "emulator": "none",
+  "version": "1.0.0",
+  "system": "NeXT Computer",
+  "media_hint": "disk",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {
+      "id": "external_crt_0",
+      "surface": "external_crt",
+      "type": "video",
+      "format": "rgb"
+    },
+    {
+      "id": "speaker_0",
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16"
+    }
+  ],
+  "input_map": {
+    "power": {
+      "map": "keyboard",
+      "key": "KEY_POWER"
+    },
+    "enter": {
+      "map": "keyboard",
+      "key": "KEY_ENTER"
+    },
+    "space": {
+      "map": "keyboard",
+      "key": "KEY_SPACE"
+    },
+    "mouse_move": {
+      "map": "mouse",
+      "key": "motion"
+    },
+    "mouse_left": {
+      "map": "mouse",
+      "key": "btn_left"
+    },
+    "mouse_right": {
+      "map": "mouse",
+      "key": "btn_right"
+    }
+  }
+}

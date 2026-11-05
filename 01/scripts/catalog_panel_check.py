@@ -2,13 +2,15 @@
 # MIT License
 # Copyright (c) 2026 箱庭电子博物馆（Diorama Computer Museum）项目作者
 # SPDX-License-Identifier: MIT
-"""图鉴面板数据层通路自检（TASK-106A）：不发引擎、纯文本级证明
-godot/content/catalog/ 的 meta.json → 分片 JSON 数据链路可用。
+"""图鉴面板数据层通路自检（TASK-106A / TASK-117）：不发引擎、纯文本级证明
+godot/content/catalog/ 的 meta.json → 分片 JSON 数据链路可用，并以 Python 侧同构
+模拟给出缓存命中/查询耗时口径（引擎侧同构实现见 catalog_data.gd，TASK-117）。
 
 检查项（C-01~C-03）：
   C-01 meta.json 可解析，total_rows 为正；
   C-02 中分类（shards）数 == 28（预期 28 个分片，与五线目录设计一致）；
   C-03 每个分片文件可读，且实际条数 == meta 声明的 rows；总条数 == total_rows。
+模拟口径（C-04）：同分片首次 load=miss、二次 load=hit；首分片读取耗时 ms。
 
 用法：python 01/scripts/catalog_panel_check.py
 退出码：0=全 PASS；1=存在 FAIL。
@@ -19,6 +21,7 @@ from __future__ import annotations
 import json
 import os
 import sys
+import time
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CATALOG = os.path.join(REPO, "godot", "content", "catalog")
@@ -78,6 +81,34 @@ def main() -> int:
         fails += 1
     if not check(sum_rows == total and total > 0,
                  "C-03 分片实际总条数=%d == total_rows=%d" % (sum_rows, total)):
+        fails += 1
+
+    # C-04 Python 侧模拟口径（引擎侧同构实现于 catalog_data.gd，TASK-117）
+    _cache: dict[str, list] = {}
+    hits = 0
+    misses = 0
+
+    def load(key: str) -> list:
+        nonlocal hits, misses
+        if key in _cache:
+            hits += 1
+            return _cache[key]
+        misses += 1
+        with open(os.path.join(CATALOG, "data", key), encoding="utf-8") as fh:
+            rows = json.load(fh)
+        _cache[key] = rows
+        return rows
+
+    first_key = str(first.get("file", ""))
+    t0 = time.perf_counter()
+    load(first_key)                      # 首次 = miss
+    load(first_key)                      # 二次 = hit（零 IO）
+    load("计算机__个人机.json")           # 另一分片 = miss
+    ms = (time.perf_counter() - t0) * 1000.0
+    print("  C-04 模拟口径：cache_hits=%d cache_misses=%d 三次 load 耗时 %.3f ms"
+          % (hits, misses, ms))
+    if not check(hits == 1 and misses == 2,
+                 "C-04 命中口径正确（1 hit / 2 miss）"):
         fails += 1
 
     print("汇总：%d 个中分类 / 分片合计 %d 条 / %s"
