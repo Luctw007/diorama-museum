@@ -60,10 +60,6 @@ script = ExtResource("1_gw")
 
 [node name="ExhibitHost" type="Node3D" parent="."]
 script = ExtResource("8_host")
-layout_file = "exhibit_dawn.json"
-max_running = 1
-audience_radius = 2.2
-auto_spawn = true
 
 [node name="DeviceRoot" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, -2)

@@ -1,0 +1,588 @@
+{
+  "meta": {
+    "id": "x68000",
+    "name": {
+      "zh": "Sharp X68000",
+      "en": "Sharp X68000"
+    },
+    "intro": {
+      "zh": "Sharp X68000 是夏普 1987 年推出的 16 位个人电脑，仅面向日本市场，以街机级 16 位色彩图形与内置 FM+PCM 音频被誉为「日本街机移植之王」。",
+      "en": "The Sharp X68000, launched in 1987 for the Japanese market, was a 16-bit personal computer famed as the king of arcade ports thanks to its arcade-grade colour graphics and built-in FM+PCM audio."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1987,
+    "manufacturer": "Sharp",
+    "category": "personal-computer",
+    "description": "Sharp X68000（1987），日本街机移植之王：68000 10MHz、16 位色彩（65536 色）、内置 FM（YM2151）+PCM 音频、塔式双立式机箱。demo_mode，XM6 槽位 dedicated 预留。",
+    "authors": [
+      {
+        "name": "TASK-103A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Sharp X68000",
+        "url": "https://en.wikipedia.org/wiki/X68000",
+        "license": "cc",
+        "accessed_at": "2026-11-05"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Sharp X1",
+        "url": "https://en.wikipedia.org/wiki/Sharp_X1",
+        "license": "cc",
+        "accessed_at": "2026-11-05"
+      },
+      {
+        "type": "documentation",
+        "title": "XM6 — X68000 Emulator",
+        "url": "https://en.wikipedia.org/wiki/X68000",
+        "license": "licensed",
+        "accessed_at": "2026-11-05"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Sharp X68000 整机，1987 年推出的 16 位个人电脑，以街机级图形与音频被誉为「日本街机移植之王」。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "main_tower",
+        "keyboard",
+        "mouse",
+        "motherboard",
+        "floppy_bay",
+        "power"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "arcade_port_king",
+        "sixteen_bit_trinity",
+        "twin_tower"
+      ]
+    },
+    {
+      "id": "main_tower",
+      "name": "主机塔",
+      "role": {
+        "zh": "主机塔在整机中作为塔式立式机箱，与显示器塔分立，承载主板、软驱位与电源，是系统的结构骨架。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "brand_badge",
+        "power_switch",
+        "reset_button",
+        "scsi_port",
+        "expansion_slots"
+      ],
+      "annotations": [
+        "main_tower_role"
+      ],
+      "mesh_ref": "assemblies/main_tower.gltf"
+    },
+    {
+      "id": "keyboard",
+      "name": "键盘",
+      "role": {
+        "zh": "键盘在整机中作为独立 101 键输入设备，是 X68000 的文字与命令输入界面。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "key_matrix"
+      ],
+      "annotations": [
+        "keyboard_role"
+      ],
+      "mesh_ref": "assemblies/keyboard.gltf"
+    },
+    {
+      "id": "mouse",
+      "name": "鼠标",
+      "role": {
+        "zh": "鼠标在整机中作为专用滚球指针设备，配合图形界面进行点选操作。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "trackball"
+      ],
+      "annotations": [
+        "mouse_role"
+      ],
+      "mesh_ref": "assemblies/mouse.gltf"
+    },
+    {
+      "id": "motherboard",
+      "name": "主板（68000）",
+      "role": {
+        "zh": "主板在整机中承载 68000 处理器、图形芯片、FM 与 PCM 音频芯片、内存与 IPL ROM，是系统运算核心。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cpu_68000",
+        "gpu_chip",
+        "ym2151_fm",
+        "pcm_chip",
+        "ram",
+        "ipl_rom"
+      ],
+      "annotations": [
+        "motherboard_role"
+      ],
+      "mesh_ref": "assemblies/motherboard.gltf"
+    },
+    {
+      "id": "floppy_bay",
+      "name": "5.25 英寸软驱位",
+      "role": {
+        "zh": "5.25 英寸软驱位在整机中位于主机塔前部，安装双软驱，是程序与数据的可移动存储入口。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "floppy_drive_a",
+        "floppy_drive_b"
+      ],
+      "annotations": [
+        "floppy_bay_role"
+      ],
+      "mesh_ref": "assemblies/floppy_bay.gltf"
+    },
+    {
+      "id": "power",
+      "name": "电源",
+      "role": {
+        "zh": "电源在整机中为各部件供电，是塔式机箱内的供电单元。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "power_supply",
+        "power_jack"
+      ],
+      "annotations": [
+        "power_role"
+      ],
+      "mesh_ref": "assemblies/power.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "brand_badge",
+      "name": "品牌徽标",
+      "type": "badge",
+      "role": {
+        "zh": "品牌徽标在整机中标明 SHARP 品牌与 X68000 型号。"
+      },
+      "assembly": "main_tower",
+      "annotations": [
+        "brand_badge_role"
+      ]
+    },
+    {
+      "id": "power_switch",
+      "name": "电源开关",
+      "type": "switch",
+      "role": {
+        "zh": "电源开关在整机中控制主机塔的供电通断，是系统的上电入口。"
+      },
+      "assembly": "main_tower",
+      "annotations": [
+        "power_switch_role"
+      ]
+    },
+    {
+      "id": "reset_button",
+      "name": "复位按钮",
+      "type": "button",
+      "role": {
+        "zh": "复位按钮在整机中用于软复位系统，回到开机状态而不切断电源。"
+      },
+      "assembly": "main_tower",
+      "annotations": [
+        "reset_button_role"
+      ]
+    },
+    {
+      "id": "scsi_port",
+      "name": "SCSI 接口",
+      "type": "connector",
+      "role": {
+        "zh": "SCSI 接口在整机中连接外置硬盘等 SCSI 设备，是高速存储扩展的物理通道。"
+      },
+      "assembly": "main_tower",
+      "annotations": [
+        "scsi_port_role"
+      ]
+    },
+    {
+      "id": "expansion_slots",
+      "name": "扩展槽",
+      "type": "slot",
+      "role": {
+        "zh": "扩展槽在整机中安装显卡、内存等扩展卡，为系统升级提供插接位。"
+      },
+      "assembly": "main_tower",
+      "annotations": [
+        "expansion_slots_role"
+      ]
+    },
+    {
+      "id": "key_matrix",
+      "name": "键盘矩阵",
+      "type": "keyboard",
+      "role": {
+        "zh": "键盘矩阵在整机中承载 101 键按键，是 X68000 的主要文字输入部件。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "key_matrix_role"
+      ]
+    },
+    {
+      "id": "trackball",
+      "name": "滚球",
+      "type": "trackball",
+      "role": {
+        "zh": "滚球在整机中位于鼠标底部，通过滚动检测位移，是鼠标指针定位的核心部件。"
+      },
+      "assembly": "mouse",
+      "annotations": [
+        "trackball_role"
+      ]
+    },
+    {
+      "id": "cpu_68000",
+      "name": "68000 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "68000 处理器在整机中作为计算核心，主频 10 MHz，是 16 位时代的经典 CPU。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "cpu_68000_role"
+      ]
+    },
+    {
+      "id": "gpu_chip",
+      "name": "图形芯片",
+      "type": "ic",
+      "role": {
+        "zh": "图形芯片在整机中生成 16 位色彩（65536 色）画面，最高 512×512 分辨率，是街机级图形的来源。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "gpu_chip_role"
+      ]
+    },
+    {
+      "id": "ym2151_fm",
+      "name": "YM2151 FM 合成",
+      "type": "ic",
+      "role": {
+        "zh": "YM2151 FM 合成芯片在整机中生成 FM 合成音色，是内置高品质音乐的核心音频单元。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ym2151_fm_role"
+      ]
+    },
+    {
+      "id": "pcm_chip",
+      "name": "PCM 采样芯片",
+      "type": "ic",
+      "role": {
+        "zh": "PCM 采样芯片在整机中播放 8 声道数字采样音频，与 FM 合成共同构成完整声音系统。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "pcm_chip_role"
+      ]
+    },
+    {
+      "id": "ram",
+      "name": "内存",
+      "type": "ram",
+      "role": {
+        "zh": "内存在整机中存放运行中的程序与数据，起始容量 1MB，可扩展。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ram_role"
+      ]
+    },
+    {
+      "id": "ipl_rom",
+      "name": "IPL ROM",
+      "type": "rom",
+      "role": {
+        "zh": "IPL ROM 在整机中固化系统引导固件，是 X68000 开机自举的只读存储器。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ipl_rom_role"
+      ]
+    },
+    {
+      "id": "floppy_drive_a",
+      "name": "软驱 A",
+      "type": "drive",
+      "role": {
+        "zh": "软驱 A 在整机中读写 5.25 英寸软盘，是主软盘驱动器。"
+      },
+      "assembly": "floppy_bay",
+      "annotations": [
+        "floppy_drive_a_role"
+      ]
+    },
+    {
+      "id": "floppy_drive_b",
+      "name": "软驱 B",
+      "type": "drive",
+      "role": {
+        "zh": "软驱 B 在整机中读写第二张 5.25 英寸软盘，用于数据交换与软件安装。"
+      },
+      "assembly": "floppy_bay",
+      "annotations": [
+        "floppy_drive_b_role"
+      ]
+    },
+    {
+      "id": "power_supply",
+      "name": "电源单元",
+      "type": "psu",
+      "role": {
+        "zh": "电源单元在整机中把市电转换为各部件所需直流电，是塔式机箱的供电核心。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "power_supply_role"
+      ]
+    },
+    {
+      "id": "power_jack",
+      "name": "电源接口",
+      "type": "connector",
+      "role": {
+        "zh": "电源接口在整机中接纳电源线，为整机供电的入口。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "power_jack_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Sharp X68000",
+    "media_hint": "floppy",
+    "bios_required": true,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "external_crt_0",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "rgb"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      },
+      {
+        "id": "led_0",
+        "surface": "led",
+        "type": "hid",
+        "format": "status"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "enter": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "space": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      },
+      "up": {
+        "map": "keyboard",
+        "key": "KEY_UP"
+      },
+      "down": {
+        "map": "keyboard",
+        "key": "KEY_DOWN"
+      },
+      "left": {
+        "map": "keyboard",
+        "key": "KEY_LEFT"
+      },
+      "right": {
+        "map": "keyboard",
+        "key": "KEY_RIGHT"
+      },
+      "mouse_move": {
+        "map": "mouse",
+        "key": "motion"
+      },
+      "mouse_left": {
+        "map": "mouse",
+        "key": "btn_left"
+      },
+      "mouse_right": {
+        "map": "mouse",
+        "key": "btn_right"
+      }
+    }
+  }
+}

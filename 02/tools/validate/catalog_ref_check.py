@@ -36,6 +36,7 @@
 
 用法：
     python catalog_ref_check.py [--json]
+    DCM_MONO=<monorepo 根> python catalog_ref_check.py [--json]   # 注入模式（CI 镜像）
 
 不改他线文件（只报告，修复反馈到对应线任务）。
 依赖：无（独立脚本）。
@@ -50,13 +51,41 @@ import sys
 
 # ---------------------------------------------------------------------------
 # 路径定位
+#
+# 三种运行上下文（TASK-102A）：
+#   1. 共享盘 D:/work：默认推导——工具自身上溯两级得 02/repo，上溯三级得 work 根。
+#   2. monorepo 镜像：CI runner 无共享盘，布局为 <mono>/01|02|03|04|05（无 "repo" 层）。
+#   3. DCM_MONO 注入：设置环境变量 DCM_MONO=<monorepo 根> 时，repo_root/work_root/line_repo
+#      优先按它解析（对应 01 线 96-B 的 monkeypatch 适配器，本工具原生支持后该 shim 可退役）。
 # ---------------------------------------------------------------------------
+def _mono_root() -> str | None:
+    """DCM_MONO 注入点：指向 monorepo 根（含 01/02/03/04/05 子目录）时为非空。"""
+    m = os.environ.get("DCM_MONO", "").strip()
+    return os.path.abspath(m) if m else None
+
+
 def repo_root() -> str:
+    """02 线仓库根：默认上溯两级（共享盘）；DCM_MONO 时 = <mono>/02。"""
+    m = _mono_root()
+    if m:
+        return os.path.join(m, "02")
     return os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 
 
 def work_root() -> str:
+    """共享工作根：默认上溯三级；DCM_MONO 时 = <mono>。"""
+    m = _mono_root()
+    if m:
+        return m
     return os.path.dirname(os.path.dirname(repo_root()))
+
+
+def line_repo(line: str) -> str:
+    """某线（02/03/05）仓库目录：共享盘 = <work>/<line>/repo；monorepo = <mono>/<line>。"""
+    m = _mono_root()
+    if m:
+        return os.path.join(m, line)
+    return os.path.join(work_root(), line, "repo")
 
 
 SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
@@ -65,7 +94,7 @@ SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 def catalog_files() -> list[str]:
     out = []
     for line in ("03", "05"):
-        d = os.path.join(work_root(), line, "repo", "docs", "catalog")
+        d = os.path.join(line_repo(line), "docs", "catalog")
         if os.path.isdir(d):
             out.extend(glob.glob(os.path.join(d, "*.jsonl")))
     return sorted(out)
@@ -75,7 +104,7 @@ def content_packages() -> dict[str, str]:
     """返回 {device_id: 路径}，扫描 03/05 content 目录（含 meta.json 的包）。"""
     out: dict[str, str] = {}
     for line in ("03", "05"):
-        d = os.path.join(work_root(), line, "repo", "content")
+        d = os.path.join(line_repo(line), "content")
         if not os.path.isdir(d):
             continue
         for name in os.listdir(d):
