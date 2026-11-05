@@ -5,7 +5,9 @@ extends Control
 ##
 ## 对齐 04 线《02_UI信息架构》图鉴条目态：可玩（runtime 非 none）加"PLAY 候选"角标、
 ## 可看可拆（正常）普通条目、未安装/不可加载置灰。
-## 交互：Tab 开/关面板；点击条目加载设备；ESC 关闭。加载结果由 DeviceLoader 信号驱动。
+## 交互：F1 开/关面板；点击条目加载设备；ESC 关闭。加载结果由 DeviceLoader 信号驱动。
+## 注（TASK-106A）：Tab 已让位给目录图鉴 EncyclopediaPanel（encyclopedia_panel.gd），
+## 本面板改由 F1 开关；两面板互斥（本面板提供 close_panel() 供对方合上自己）。
 ##
 ## 自检清单：
 ## - func bind(loader: Node)         绑定 DeviceLoader（读取 index / 信号）
@@ -41,7 +43,7 @@ func _ready() -> void:
 	var vbox := VBoxContainer.new()
 	margin.add_child(vbox)
 	_title = Label.new()
-	_title.text = "设备图鉴（Tab 开关 · ESC 关闭）"
+	_title.text = "设备图鉴（F1 开关 · ESC 关闭）"
 	vbox.add_child(_title)
 	_list = VBoxContainer.new()
 	_list.size_flags_vertical = Control.SIZE_EXPAND_FILL
@@ -75,10 +77,19 @@ func toggle() -> void:
 		_refresh()
 
 
+## 供 EncyclopediaPanel 调用：目录图鉴打开时合上本面板（两图鉴互斥）。
+func close_panel() -> void:
+	_open = false
+	visible = false
+
+
 func _unhandled_input(event: InputEvent) -> void:
-	if event.is_action_pressed("ui_focus_next") and event.pressed:
+	if event is InputEventKey and event.pressed and not event.echo \
+			and event.keycode == KEY_F1:
+		get_viewport().set_input_as_handled()
 		toggle()
 	elif event.is_action_pressed("ui_cancel") and _open:
+		get_viewport().set_input_as_handled()
 		_open = false
 		visible = false
 

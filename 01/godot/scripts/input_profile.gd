@@ -10,8 +10,11 @@ extends RefCounted
 ##                 "move_left": "key_a", "move_right": "key_d" },
 ##   "mouse":    { "inspect_rotate": "button_left", "inspect_pan": "button_middle" },
 ##   "actions":  { "inspect_zoom": "mouse_wheel_up", "inspect_zoom_out": "mouse_wheel_down",
-##                 "inspect_reset_view": "key_r", "select_next": "key_tab" }
+##                 "inspect_reset_view": "key_r", "select_next": "key_tab",
+##                 "interact": "key_e", "exit_explode": "key_esc" }
 ## }
+## TASK-106B 登记：interact=key_e（选中设备后进入拆解视图）；
+## exit_explode=key_esc（另备 key_b 快捷键，见 WALK_EXIT_KEYS）。
 ## 键名约定：keyboard 用 Godot KEY_* 小写蛇形（如 key_w）；mouse 用 button_left/middle/right、
 ## mouse_wheel_up/down；joystick 预留（joy_button_0 / joy_axis_0）。
 ##
@@ -22,6 +25,13 @@ extends RefCounted
 ## - to_dict() -> Dictionary                   回导出（供设置界面显示/保存）
 
 const KEY_ACTION_KEYS := ["key_w", "key_a", "key_s", "key_d"]
+
+## 交互键登记（TASK-106B）：
+## - INTERACT_KEY    E：inspect_controller 监听，选中设备后进入拆解视图
+## - WALK_EXIT_KEYS  ESC/B：退出拆解、回到行走（inspect_controller._exit_explode_to_walk）
+## 运行时宿主编排见 inspect_controller.gd（原始 keycode 轮询，与 M0 的 KEY_W 同模式）。
+const INTERACT_KEY := "key_e"
+const WALK_EXIT_KEYS := ["key_esc", "key_b"]
 
 var actions := {}          # 动作 → 绑定字符串
 var keyboard := {}         # 键盘动作 → 键名

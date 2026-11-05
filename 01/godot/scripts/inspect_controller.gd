@@ -38,6 +38,13 @@ var _hovered: Node3D
 var _selected: Node3D
 var _hud_label: Label
 
+## 状态布尔开关（TASK-106B，拆解入口）：
+##   _explode_mode == false → 行走/观察（默认，玩家自由环视、界面点选）
+##   _explode_mode == true  → 拆解视图（E 进入；Esc/B 退出回到行走）
+## 本布尔与 ExplodeController 的 State 同步（_ready 里监听 state_changed 信号），
+## 避免两处状态漂移；拆解算法本体在 explode_controller.gd，此处只做入口转发。
+var _explode_mode := false
+
 
 func set_target(node: Node3D) -> void:
 	target = node
@@ -96,6 +103,10 @@ func _unhandled_input(event: InputEvent) -> void:
 				reset_view()
 			KEY_F:
 				focus_selected()
+			KEY_E:
+				_try_enter_explode()
+			KEY_ESCAPE, KEY_B:
+				_exit_explode_to_walk()
 
 
 func _process(_delta: float) -> void:
@@ -194,6 +205,38 @@ func focus_selected() -> void:
 	_radius = clampf(_radius, 0.5, 5.0)
 
 
+## 取兄弟节点 ExplodeController（本节点挂在 DeviceRoot 下，爆炸算法本体在那里）。
+func _explode_ref() -> Node:
+	return get_node_or_null("../ExplodeController")
+
+
+## 交互键 E（input_profile.gd INTERACT_KEY）：选中设备后进入拆解视图。
+## 转发链：InspectController._try_enter_explode → ExplodeController.set_exploded()（状态机入口）。
+func _try_enter_explode() -> void:
+	if target == null or _explode_mode:
+		return
+	var explode := _explode_ref()
+	if explode == null:
+		_explode_mode = false
+		return
+	_explode_mode = true
+	@warning_ignore("unsafe_method_access")
+	explode.set_exploded()
+
+
+## Esc/B（input_profile.gd WALK_EXIT_KEYS）：退出拆解、回到行走。
+## 布尔开关回拨并消费事件（不再传给 player.gd 的 ui_cancel，避免误释放鼠标捕获）。
+func _exit_explode_to_walk() -> void:
+	if not _explode_mode:
+		return
+	_explode_mode = false
+	var explode := _explode_ref()
+	if explode != null:
+		@warning_ignore("unsafe_method_access")
+		explode.set_close()
+	get_viewport().set_input_as_handled()
+
+
 # 由 Main 装配注入（避免 device_loader 与 inspect_controller 的循环引用）
 var device_loader_hint: Node = null
 
@@ -211,3 +254,8 @@ func _ready() -> void:
 		_hud_label.position = Vector2(16, 40)
 		_hud_label.add_theme_font_size_override("font_size", 16)
 		hud.add_child(_hud_label)
+	# 拆解入口布尔开关与 ExplodeController 状态同步（TASK-106B）
+	var explode := _explode_ref()
+	if explode != null and explode.has_signal("state_changed"):
+		explode.state_changed.connect(func(_old: int, new_state: int) -> void:
+			_explode_mode = new_state == 2)   # 2 = ExplodeController.State.EXPLODED

@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://cnubnd2mailh"]
+[gd_scene load_steps=14 format=3 uid="uid://cnubnd2mailh"]
 
 [ext_resource type="Script" path="res://scripts/gateway_client.gd" id="1_gw"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="2_player"]
@@ -8,6 +8,7 @@
 [ext_resource type="Script" path="res://scripts/explode_controller.gd" id="6_explode"]
 [ext_resource type="Script" path="res://scripts/explode_panel.gd" id="7_expanel"]
 [ext_resource type="Script" path="res://scripts/exhibit_host.gd" id="8_host"]
+[ext_resource type="Script" path="res://scripts/encyclopedia_panel.gd" id="9_enc"]
 
 [sub_resource type="PlaneMesh" id="plane_1"]
 size = Vector2(20, 20)
@@ -82,3 +83,8 @@ script = ExtResource("5_picker")
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("7_expanel")
+
+[node name="EncyclopediaPanel" type="Control" parent="HUD"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("9_enc")
