@@ -311,6 +311,12 @@
       "type": "flow",
       "target": "whole",
       "text": "Edusystem 讲解：DEC 借 PDP-8 推出 Edusystem 教育方案，让整整一代程序员在 PDP-8 上写下人生第一行代码。"
+    },
+    {
+      "id": "first_commercial_mini",
+      "type": "flow",
+      "target": "whole",
+      "text": "首台商用小型机讲解：PDP-8 以远低于大型机的价格开创「小型机」品类，让计算机第一次能被单个实验室、产线买下。"
     }
   ]
 }

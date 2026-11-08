@@ -209,6 +209,54 @@
       "type": "role",
       "target": "external_box",
       "text": "外接盒在整机中提供 Tube 接口预留位，用于连接第二处理器协处理器，扩展系统算力。"
+    },
+    {
+      "id": "arm_cradle",
+      "type": "flow",
+      "target": "whole",
+      "text": "ARM 摇篮讲解：Acorn 为 BBC Micro 研发的 ARM 处理器，后来长成了移动时代的芯片帝国，是这台教育电脑最深的遗产。"
+    },
+    {
+      "id": "tv_program",
+      "type": "flow",
+      "target": "whole",
+      "text": "教育电视节目讲解：BBC Micro 配合 BBC 的《计算机计划》电视节目普及编程，是「媒体 + 电脑」普及计算机的一次典范。"
+    },
+    {
+      "id": "school_computers",
+      "type": "flow",
+      "target": "whole",
+      "text": "英国校园讲解：BBC Micro 被大量采购进入英国中小学，是整整一代英国学生的第一台电脑与编程启蒙。"
+    },
+    {
+      "id": "tube_processor",
+      "type": "flow",
+      "target": "tube_port",
+      "text": "Tube 第二处理器讲解：BBC Micro 通过 Tube 接口可挂接第二处理器，为 ARM 等协处理器的实验提供了通道。"
+    },
+    {
+      "id": "acorn_lineage",
+      "type": "flow",
+      "target": "whole",
+      "text": "Acorn 血脉讲解：BBC Micro 是 Acorn 的里程碑产品，其技术积累直接孕育了后来的 Archimedes 与 ARM。"
+    },
+    {
+      "id": "basic_boot",
+      "type": "flow",
+      "target": "rom",
+      "text": "开机即 BASIC 讲解：BBC Micro 开机即进入 BBC BASIC，无需磁盘与操作系统，是最直接的编程启蒙环境。"
+    },
+    {
+      "id": "rugged_design",
+      "type": "flow",
+      "target": "whole",
+      "text": "坚固耐用讲解：BBC Micro 以结构坚固、接口丰富著称，是「为教室而生的耐造机器」，也是其长寿的原因之一。"
+    },
+    {
+      "id": "uk_education",
+      "type": "flow",
+      "target": "whole",
+      "text": "英国教育机讲解：BBC Micro 与 ZX Spectrum 并列为英国国民电脑，分别代表了「教育」与「普及」两条路线。"
     }
   ]
 }

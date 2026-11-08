@@ -1,0 +1,193 @@
+{
+  "time": "2026-11-07 13:18:26",
+  "total": 37,
+  "passed": 37,
+  "steps": [
+    {
+      "name": "m0",
+      "ok": true,
+      "note": "M0 验收全部通过 ✔"
+    },
+    {
+      "name": "m1b",
+      "ok": true,
+      "note": "M1b 验收全部通过 ✔（断言 19 条）"
+    },
+    {
+      "name": "slots",
+      "ok": true,
+      "note": "汇总：完工包 30，声明 slot 0，SC-01 违规 0"
+    },
+    {
+      "name": "catalog",
+      "ok": true,
+      "note": "verify：28 片 / 1484 行，通过"
+    },
+    {
+      "name": "catalog_ref",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "gd",
+      "ok": true,
+      "note": "汇总：14 文件；符号池 funcs 125 / signals 7；MISS 0；已知缺口 KG 0"
+    },
+    {
+      "name": "gd_naming",
+      "ok": true,
+      "note": "扫描 14 个 gd；class_name 5 个；FAIL 0"
+    },
+    {
+      "name": "pkg:amiga500",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:apple-ii",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:atari-2600",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:atari-st",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:bbcmicro",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:commodore64",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:dynatac-8000x",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:edsac",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:edvac",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:eniac",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:famicom",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:game-boy",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:ibm5150",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:iphone",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:macintosh128k",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:manchester-baby",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:neo-geo-mvs",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:next",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:palm-pilot",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:pdp11",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:pdp8",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:pet2001",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:sega-md",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:sfc",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:system360",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:trs80-model1",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:vax11",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:vic20",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:x68000",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:zx-spectrum",
+      "ok": true,
+      "note": "FAIL 0"
+    }
+  ],
+  "failed": []
+}

@@ -80,6 +80,11 @@ def repo_root() -> str:
 
 
 def registry_path() -> str:
+    # 台账路径注入（TASK-167A）：环境变量 ID_REGISTRY_PATH 非空时直接返回该绝对路径，
+    # 供测试/CI 把台账指向临时文件、隔离真实台账；否则回退仓库内默认路径（默认行为不变）。
+    injected = os.environ.get("ID_REGISTRY_PATH", "").strip()
+    if injected:
+        return os.path.abspath(injected)
     return os.path.join(repo_root(), *REGISTRY_REL)
 
 

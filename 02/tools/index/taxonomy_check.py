@@ -52,11 +52,23 @@ from collections import Counter, defaultdict
 # ---------------------------------------------------------------------------
 # 路径定位
 # ---------------------------------------------------------------------------
+def _mono_root() -> str | None:
+    """DCM_MONO 注入点（TASK-167B）：指向 monorepo 根时为非空。"""
+    m = os.environ.get("DCM_MONO", "").strip()
+    return os.path.abspath(m) if m else None
+
+
 def repo_root() -> str:
+    m = _mono_root()
+    if m:
+        return os.path.join(m, "02")
     return os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 
 
 def work_root() -> str:
+    m = _mono_root()
+    if m:
+        return m
     return os.path.dirname(os.path.dirname(repo_root()))
 
 

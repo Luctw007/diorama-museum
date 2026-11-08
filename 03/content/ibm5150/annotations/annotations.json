@@ -191,6 +191,54 @@
       "type": "role",
       "target": "power",
       "text": "电源在整机中把市电转换为各部件所需电压，并提供散热风扇。"
+    },
+    {
+      "id": "open_architecture",
+      "type": "flow",
+      "target": "whole",
+      "text": "开放架构讲解：IBM PC 5150 采用开放架构与现成部件，第三方可以合法制造兼容机，开创了「开放标准」的产业范式。"
+    },
+    {
+      "id": "clone_ecosystem",
+      "type": "flow",
+      "target": "whole",
+      "text": "克隆生态讲解：5150 的开放催生了庞大的兼容机产业，康柏等厂商迅速跟进，彻底打开了个人电脑的市场。"
+    },
+    {
+      "id": "bios_reverse",
+      "type": "flow",
+      "target": "bios_rom",
+      "text": "BIOS 逆向讲解：康柏通过逆向工程实现 IBM BIOS 兼容，证明「兼容机」合法可行，是 PC 兼容时代的关键一步。"
+    },
+    {
+      "id": "isa_bus",
+      "type": "flow",
+      "target": "isa_slot",
+      "text": "ISA 总线讲解：5150 的 ISA 扩展总线让第三方能插卡扩展，成为此后十余年 PC 扩展的标准接口。"
+    },
+    {
+      "id": "industry_standard",
+      "type": "flow",
+      "target": "whole",
+      "text": "行业标准讲解：IBM 的品牌背书让 5150 成为行业事实标准，今天几乎每一台 PC 都是它的直系后裔。"
+    },
+    {
+      "id": "microsoft_dos",
+      "type": "flow",
+      "target": "whole",
+      "text": "MS-DOS 讲解：IBM 把操作系统外包给微软的 MS-DOS，这一决定成就了微软，也改变了整个软件产业的格局。"
+    },
+    {
+      "id": "business_machine",
+      "type": "flow",
+      "target": "whole",
+      "text": "商用机器讲解：5150 让「个人电脑」获得企业认可，把 PC 从爱好者玩具变成办公室生产力工具。"
+    },
+    {
+      "id": "compatibles_wave",
+      "type": "flow",
+      "target": "whole",
+      "text": "兼容机浪潮讲解：5150 之后「IBM 兼容」成为通行标签，兼容机浪潮重塑了 PC 产业的竞争版图。"
     }
   ]
 }

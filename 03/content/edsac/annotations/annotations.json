@@ -233,6 +233,48 @@
       "sources": [
         "http://www.dcs.warwick.ac.uk/~edsac/"
       ]
+    },
+    {
+      "id": "first_practical",
+      "type": "flow",
+      "target": "whole",
+      "text": "首台实用存储程序讲解：EDSAC 是首台实用化的存储程序电子计算机，第一次让「程序存在内存里」从构想变成可用的机器。"
+    },
+    {
+      "id": "stored_program",
+      "type": "flow",
+      "target": "memory_subsystem",
+      "text": "存储程序讲解：EDSAC 把程序与数据同存于内存，按顺序取指执行，这一「存储程序」架构成了此后几乎所有计算机的基石。"
+    },
+    {
+      "id": "mercury_delay",
+      "type": "flow",
+      "target": "delay_line_bank",
+      "text": "水银延迟线讲解：EDSAC 用水银延迟线做内存，靠声波在水银管里传播来暂存数据，是电子管时代早期的存储技术。"
+    },
+    {
+      "id": "first_videogame",
+      "type": "flow",
+      "target": "crt_display_unit",
+      "text": "首个计算机游戏讲解：1952 年在 EDSAC 上运行的 OXO（井字棋）常被视为最早的计算机游戏之一，由 Alexander Douglas 编写。"
+    },
+    {
+      "id": "wilkes",
+      "type": "flow",
+      "target": "whole",
+      "text": "威尔克斯讲解：莫里斯·威尔克斯主持建成 EDSAC，并首创子程序库与微程序设计思想，是计算机先驱中的巨擘。"
+    },
+    {
+      "id": "subroutine_library",
+      "type": "flow",
+      "target": "whole",
+      "text": "子程序库讲解：EDSAC 时代最早整理出可复用的子程序库，让编程不再从零开始，是「代码复用」思想的源头。"
+    },
+    {
+      "id": "cambridge",
+      "type": "flow",
+      "target": "whole",
+      "text": "剑桥讲解：EDSAC 诞生于剑桥大学数学实验室，是英国早期计算机研究的重镇，与曼彻斯特 Baby 遥相呼应。"
     }
   ]
 }

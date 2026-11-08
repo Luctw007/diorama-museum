@@ -94,6 +94,30 @@ INFLUENCE_MAX = 60
 
 
 # ---------------------------------------------------------------------------
+# 路径定位（TASK-167B：统一 DCM_MONO 注入，默认行为零变化）
+# ---------------------------------------------------------------------------
+def _mono_root() -> str | None:
+    """DCM_MONO 注入点：指向 monorepo 根时为非空。"""
+    m = os.environ.get("DCM_MONO", "").strip()
+    return os.path.abspath(m) if m else None
+
+
+def repo_root() -> str:
+    m = _mono_root()
+    if m:
+        return os.path.join(m, "02")
+    here = os.path.dirname(os.path.abspath(__file__))
+    return os.path.dirname(os.path.dirname(here))
+
+
+def work_root() -> str:
+    m = _mono_root()
+    if m:
+        return m
+    return os.path.dirname(os.path.dirname(repo_root()))
+
+
+# ---------------------------------------------------------------------------
 # 解析
 # ---------------------------------------------------------------------------
 def parse_jsonl(path: str) -> list[dict]:
@@ -183,7 +207,7 @@ def load_registry_ids(repo_root_dir: str | None = None) -> dict[str, str]:
     故此处只返回 source_file 为空的 allocate 行。
     """
     here = os.path.dirname(os.path.abspath(__file__))
-    repo = repo_root_dir or os.path.dirname(os.path.dirname(here))
+    repo = repo_root_dir or (os.path.join(_mono_root(), "02") if _mono_root() else os.path.dirname(os.path.dirname(here)))
     reg = os.path.join(repo, "docs", "catalog", "registry.jsonl")
     out: dict[str, str] = {}
     if not os.path.isfile(reg):
@@ -416,10 +440,8 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def default_content_dirs() -> list[str]:
-    """默认 content 目录（03/05/02 线 repo/content）。"""
-    here = os.path.dirname(os.path.abspath(__file__))   # tools/validate
-    repo = os.path.dirname(os.path.dirname(here))       # <repo>
-    work = os.path.dirname(os.path.dirname(repo))       # <work>
+    """默认 content 目录（03/05/02 线 repo/content）；DCM_MONO 时按 <mono>/<line>/repo/content。"""
+    work = work_root()
     dirs = []
     for line in ("03", "05", "02"):
         d = os.path.join(work, line, "repo", "content")

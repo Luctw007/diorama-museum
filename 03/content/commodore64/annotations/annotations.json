@@ -185,6 +185,54 @@
       "type": "role",
       "target": "datasette",
       "text": "Datasette 磁带机在整机中以普通磁带作为存储介质，用于程序的保存与加载。"
+    },
+    {
+      "id": "best_seller",
+      "type": "flow",
+      "target": "whole",
+      "text": "史上最畅销讲解：Commodore 64 是史上最畅销的单一电脑型号，销量以千万计，是 8 位时代销量神话的缔造者。"
+    },
+    {
+      "id": "sid_music",
+      "type": "flow",
+      "target": "sid",
+      "text": "SID 芯片音乐讲解：SID 声音芯片让 C64 发出独特的三声道合成音色，至今仍是芯片音乐爱好者心中的圣物。"
+    },
+    {
+      "id": "game_culture",
+      "type": "flow",
+      "target": "whole",
+      "text": "游戏文化讲解：C64 拥有庞大的游戏库，是无数人第一次在家玩到游戏的机器，定义了「家用电脑玩游戏」的文化。"
+    },
+    {
+      "id": "demo_scene_c64",
+      "type": "flow",
+      "target": "whole",
+      "text": "Demo 场景讲解：C64 是早期 demo scene 的重要平台，程序员用尽硬件极限做出惊艳的图形与音乐演示。"
+    },
+    {
+      "id": "price_drop",
+      "type": "flow",
+      "target": "whole",
+      "text": "价格战讲解：Commodore 靠垂直整合把 C64 压到极低价，掀起 8 位电脑价格战，加速了家用电脑的普及。"
+    },
+    {
+      "id": "vic_ii_sprites",
+      "type": "flow",
+      "target": "vic_ii",
+      "text": "VIC-II 精灵讲解：VIC-II 图形芯片提供硬件精灵与卷轴，是 C64 流畅游戏画面的关键。"
+    },
+    {
+      "id": "long_life",
+      "type": "flow",
+      "target": "whole",
+      "text": "超长生命周期讲解：C64 从 1982 年卖到 1990 年代初，长达十余年的生命周期在快速迭代的电脑界堪称奇迹。"
+    },
+    {
+      "id": "home_entertainment",
+      "type": "flow",
+      "target": "whole",
+      "text": "家庭娱乐讲解：C64 把电脑当作家用娱乐设备卖，彩色画面、游戏与音乐让「电脑」第一次成了全家人的玩具。"
     }
   ]
 }

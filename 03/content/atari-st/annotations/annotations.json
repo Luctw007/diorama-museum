@@ -179,6 +179,12 @@
       "type": "flow",
       "target": "whole",
       "text": "桌面出版讲解：640×400 单色高分辨率配合激光打印机，让 Atari ST 成为早期桌面出版的利器。"
+    },
+    {
+      "id": "music_tool",
+      "type": "flow",
+      "target": "whole",
+      "text": "音乐人工具讲解：Atari ST 靠内置 MIDI 接口与稳定的时钟，成为 1980-90 年代电子音乐制作的标配，至今仍被怀念。"
     }
   ]
 }

@@ -191,6 +191,48 @@ def main() -> int:
             if ln.strip().startswith(("CC-", "FAIL")):
                 print("      " + ln.strip())
 
+    # 反例-CC10-1：无 media_class，默认模式 → CC-10 WARN（退出码 0，不破门禁）
+    tmp = tempfile.mkdtemp(prefix="hako_catalog_cc10a_")
+    path = os.path.join(tmp, "catalog.jsonl")
+    write_jsonl(path, [base_entry()])
+    code, out = run_catalog_check(path)
+    ok = any(("CC-10" in ln) and ("WARN" in ln) for ln in out.splitlines()) and (code == 0)
+    report("反例-CC10-1：无 media_class 默认 → CC-10 WARN（exit 0）", ok, f"exit={code}")
+    if not ok:
+        for ln in out.splitlines():
+            if "CC-10" in ln:
+                print("      " + ln.strip())
+
+    # 反例-CC10-2：无 media_class，加 --require-media-class → CC-10 FAIL（退出码非 0）
+    tmp = tempfile.mkdtemp(prefix="hako_catalog_cc10b_")
+    path = os.path.join(tmp, "catalog.jsonl")
+    write_jsonl(path, [base_entry()])
+    proc = subprocess.run(
+        [sys.executable, CATALOG_CHECK, path, "--require-media-class"],
+        capture_output=True, text=True, encoding="utf-8",
+    )
+    out = proc.stdout + proc.stderr
+    ok = any(("CC-10" in ln) and ("FAIL" in ln) for ln in out.splitlines()) and (proc.returncode != 0)
+    report("反例-CC10-2：无 media_class 严格 → CC-10 FAIL（exit≠0）", ok, f"exit={proc.returncode}")
+    if not ok:
+        for ln in out.splitlines():
+            if "CC-10" in ln:
+                print("      " + ln.strip())
+
+    # 反例-CC10-3：有 media_class="disk"，默认模式 → CC-10 PASS
+    tmp = tempfile.mkdtemp(prefix="hako_catalog_cc10c_")
+    path = os.path.join(tmp, "catalog.jsonl")
+    e = base_entry()
+    e["media_class"] = "disk"
+    write_jsonl(path, [e])
+    code, out = run_catalog_check(path)
+    ok = any(("CC-10" in ln) and ("PASS" in ln) for ln in out.splitlines())
+    report("反例-CC10-3：media_class=disk → CC-10 PASS", ok, f"exit={code}")
+    if not ok:
+        for ln in out.splitlines():
+            if "CC-10" in ln:
+                print("      " + ln.strip())
+
     print("-" * 70)
     print(f"结果：PASS {PASSED}，FAIL {FAILED}")
     return 0 if FAILED == 0 else 1
