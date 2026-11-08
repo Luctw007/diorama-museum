@@ -35,10 +35,13 @@
   `03/repo/content/pdp8/`、`05/repo/content/apple-ii/`）。
 - **规范在哪**：`02/repo/docs/`，核心是 `内容包与目录规范_v0.6.md`（目录/分类/键名定稿）、
   `内容包规范_v0.4.md`（内容包本体规范）、`规范v0.5_槽位契约章草案.md`（槽位契约），以及
-  增补 `规范增补_v0.6.1.md`、`规范增补_v0.6.2.md`。
-- **门禁在哪**：总门禁 `01/repo/scripts/verify_all.py`；各专项校验器在 `02/repo/tools/validate/`
-  （`validate.py` / `model_check.py` / `audio_check.py` / `slot_check.py` / `catalog_check.py` /
-  `catalog_ref_check.py`）；id 分配走 `02/repo/tools/index/id_registry.py`。
+  增补 `规范增补_v0.6.1.md`、`规范增补_v0.6.2.md`、`规范增补_v0.6.3.md`（gd 脚本交互域条文，
+  附 `gd_naming_check` 需求 GN-01~03）。
+- **门禁在哪**：每日门禁 `01/repo/01/scripts/verify_all.py`（`--daily --cache`，日常基线 37 步全绿）；
+  v0.1 发布闸 `01/repo/01/scripts/release_check.py`（R1 验收基线 / R2 三槽位三许可 / R3 完工包 ≥30，
+  rc=0 方可封版）；各专项校验器在 `02/repo/tools/validate/`（`validate.py` / `model_check.py` /
+  `audio_check.py` / `slot_check.py` / `catalog_check.py` / `catalog_ref_check.py`）；id 分配走
+  `02/repo/tools/index/id_registry.py`。
 
 > 分类树的机器可读权威在 `02/repo/docs/taxonomy.json`，模拟器登记母表在
 > `02/repo/docs/emulators_registry.json`。这两个 json 是"单一真相源"，其 md 是渲染视图，手改无效。
@@ -50,7 +53,7 @@
 设备目录是"全库设备的可读清单"，每台设备一行 JSONL。文件位于 `03/repo/docs/catalog/*.jsonl`
 与 `05/repo/docs/catalog/*.jsonl`。你只需**在对应大类的 jsonl 末尾追加一行**。
 
-### 1.1 一条目录行的字段表（13 键，定稿英文键）
+### 1.1 一条目录行的字段表（14 键，定稿英文键）
 
 | 键 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -67,6 +70,7 @@
 | `verify` | bool | 否 | 需核实标记（false=已核，true=需核实） |
 | `sources` | array | 否 | 来源编号[] |
 | `research_doc` | string | 否 | 调研文档路径 |
+| `media_class` | string | 否 | 介质类目（v0.6.1 新增可选字段，`cartridge/disk/tape/cd/dvd/card/firmware/app_package/无`；与 CC-10 覆盖率校验相关，见 `规范增补_v0.6.1` §二） |
 
 ### 1.2 可复制样例（照抄结构）
 
@@ -130,12 +134,21 @@
 1. **内容包校验 0 FAIL**：`python 02/repo/tools/validate/validate.py <包目录>`，末行须
    `FAIL 0`；建模/音频/槽位专项分别跑 `model_check.py` / `audio_check.py` / `slot_check.py`。
 2. **REF 四查自检**：`python 02/repo/tools/validate/catalog_ref_check.py`，确认
-   REF-01 悬空引用 0、REF-02 反链缺失 0、REF-04 形态非法 0（REF-03 台账漂移应 0）。
+   REF-01 悬空引用 0、REF-02 反链缺失 0（反链义务，原「CC-10 语义」口语已作废）、REF-04 形态
+   非法 0（REF-03 台账漂移应 0）。目录规则编号现状：CC-01~08 已定稿、CC-09 为 **reserved**
+   （空缺裁决）、CC-10 定义为 media_class 覆盖率、后续从 **CC-11** 起编（见 `编号与路径_封版收口_v1.md`）。
 3. **目录条目自检**：`python 02/repo/tools/validate/catalog_check.py <你的 jsonl>`，逐规则 0 FAIL。
 4. **id 唯一**：新 id 先 `python 02/repo/tools/index/id_registry.py allocate ...` 申请，勿手编。
+5. **gd 脚本自测**（若贡献 GDScript）：`python 01/repo/01/scripts/gd_naming_check.py <godot目录>`，
+   GN-01（方法名与 Object/Node 原生冲突）/ GN-02（裸 `:=` 推断 Variant）/ GN-03（class_name 未注册）
+   全 0；01 线已实现该检查并纳入门禁（见 `规范增补_v0.6.3` 附录 A）。
 
 **AI 辅助贡献者允许**：AI 产出的**史实、年代、许可**一律标 `verify: true`（目录）或写
 「需核实」（THIRD_PARTY），**最终由人工确认**后才能转 `verify: false`。AI 不得替你拍板红线条目。
+
+> **贡献者自测包**：02 线校验器可分发给贡献者打包自测，其内容清单与命令口径见
+> `02/repo/docs/贡献者自测包说明_v1.2.md`（内容清单由 `02/repo/tools/contrib_kit/build_content_manifest.py`
+> 脚本化生成），与本节自测口径交叉一致。
 
 ---
 
@@ -227,7 +240,8 @@ A：`catalog_ref_check.py` 统一输出 `FAIL n` 供 `verify_all` 解析，n 是
 
 ## 附录：路径速查
 
-- 规范：`02/repo/docs/内容包与目录规范_v0.6.md`、`内容包规范_v0.4.md`、`规范v0.5_槽位契约章草案.md`、`规范增补_v0.6.1.md`、`规范增补_v0.6.2.md`
-- 门禁：`01/repo/scripts/verify_all.py`、`02/repo/tools/validate/*.py`、`02/repo/tools/index/id_registry.py`
+- 规范：`02/repo/docs/内容包与目录规范_v0.6.md`、`内容包规范_v0.4.md`、`规范v0.5_槽位契约章草案.md`、`规范增补_v0.6.1.md`、`规范增补_v0.6.2.md`、`规范增补_v0.6.3.md`
+- 门禁：`01/repo/01/scripts/verify_all.py`、`01/repo/01/scripts/release_check.py`、`01/repo/01/scripts/gd_naming_check.py`、`02/repo/tools/validate/*.py`、`02/repo/tools/index/id_registry.py`
+- 贡献者自测包：`02/repo/docs/贡献者自测包说明_v1.2.md`、`02/repo/docs/自测包内容清单_v1.2.md`
 - 单一真相源：`02/repo/docs/taxonomy.json`、`02/repo/docs/emulators_registry.json`
 - 样例：`03/repo/content/pdp8/`、`05/repo/content/apple-ii/`、`01/repo/slots/emulators/fake-slot/manifest.json`、`03/repo/docs/catalog/计算机大类_目录_v2.jsonl`

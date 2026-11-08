@@ -2,19 +2,22 @@
 # MIT License
 # Copyright (c) 2026 箱庭电子博物馆（Diorama Computer Museum）项目作者
 # SPDX-License-Identifier: MIT
-"""模拟器环境体检向导（TASK-36A）。
+"""模拟器环境体检向导（TASK-36A；终版收口 TASK-171-A）。
 
 体检项（OK/MISSING/HINT 三态）：
   MAME_BIN / third_party/mame    —— MAME apple2 真跑前提（licenses/MAME.md）
   SIMH_PDP8_BIN / third_party/simh —— SIMH PDP-8 真跑前提（licenses/SIMH.md）
+  STELLA_BIN / third_party/stella  —— Stella 2600 真跑前提（licenses/Stella.md）
   ROM 目录占位                    —— 只提示路径，永不下载（红线）
   网关自检                       —— 网关进程可起停（17338 专用端口）
   --fix-check                     —— 环境齐备时自动跑 m2a --mame + m0 冒烟，落盘日志
+  --deploy-report <path>          —— 落盘部署签字 JSON（不改 rc 语义，恒 rc=0）
 
 用法:
   python scripts/emulator_doctor.py
   python scripts/emulator_doctor.py --json
   python scripts/emulator_doctor.py --fix-check --log docs/doctor_log.txt
+  python scripts/emulator_doctor.py --deploy-report docs/deploy_report.json
 """
 
 from __future__ import annotations
@@ -22,6 +25,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import socket
 import subprocess
 import sys
@@ -183,6 +187,63 @@ def run_checks() -> list[dict]:
     return checks
 
 
+def deploy_readiness(checks: list[dict]) -> dict:
+    """TASK-171-A：三台真跑二进制部署就绪判定（mame/simh/stella 三项全 OK = ready）。
+
+    介质目录数取 slot_media_dirs 检查项 detail（"介质目录 N 个"），读不到按 0。
+    """
+    names = ("mame_binary", "simh_binary", "stella_binary")
+    ok = 0
+    missing: list[str] = []
+    for c in checks or []:
+        if c.get("item") in names and c.get("status") == "OK":
+            ok += 1
+        elif c.get("item") in names:
+            missing.append(str(c.get("item")).replace("_binary", ""))
+    media = 0
+    for c in checks or []:
+        if c.get("item") == "slot_media_dirs":
+            m = re.search(r"(\d+)", str(c.get("detail", "")))
+            if m:
+                media = int(m.group(1))
+    return {"ok": ok, "missing": missing, "total": len(names),
+            "media_dirs": media, "ready": ok == len(names)}
+
+
+def deploy_line(readiness: dict) -> str:
+    """部署就绪判定单行文案（人类可读）。"""
+    if readiness["ready"]:
+        return ("部署就绪判定：三台真跑二进制 齐 · 介质目录已建 %d 个"
+                % readiness["media_dirs"])
+    return ("部署就绪判定：三台真跑二进制 缺 %d（缺: %s）· 介质目录已建 %d 个"
+            % (readiness["total"] - readiness["ok"],
+               ", ".join(readiness["missing"]) if readiness["missing"] else "-",
+               readiness["media_dirs"]))
+
+
+def write_deploy_report(checks: list[dict], path: str) -> dict:
+    """落盘部署签字 JSON；返回签字 dict。"""
+    readiness = deploy_readiness(checks)
+    by_name = {c["item"]: c for c in checks or []}
+    report = {
+        "checked_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+        "binaries": {
+            "mame": {"status": by_name.get("mame_binary", {}).get("status", "?"),
+                     "detail": by_name.get("mame_binary", {}).get("detail", "")},
+            "simh": {"status": by_name.get("simh_binary", {}).get("status", "?"),
+                     "detail": by_name.get("simh_binary", {}).get("detail", "")},
+            "stella": {"status": by_name.get("stella_binary", {}).get("status", "?"),
+                       "detail": by_name.get("stella_binary", {}).get("detail", "")},
+        },
+        "media_dirs": readiness["media_dirs"],
+        "media_count": readiness["media_dirs"],
+        "ready": readiness["ready"],
+    }
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(report, fh, ensure_ascii=False, indent=2)
+    return report
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description="模拟器环境体检向导")
     ap.add_argument("--json", action="store_true")
@@ -191,11 +252,15 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--log", default=os.path.join(REPO, "docs",
                                                   "doctor_log_%s.txt"
                                                   % time.strftime("%Y%m%d_%H%M%S")))
+    ap.add_argument("--deploy-report", default="",
+                    help="落盘部署签字 JSON（默认 docs/deploy_report_<时间戳>.json，恒 rc=0）")
     args = ap.parse_args(argv)
     checks = run_checks()
+    readiness = deploy_readiness(checks)
 
     if args.json:
-        print(json.dumps(checks, ensure_ascii=False, indent=2))
+        print(json.dumps({"checks": checks, "deploy_readiness": readiness},
+                         ensure_ascii=False, indent=2))
     else:
         for c in checks:
             extra = (" ver=%s" % c["version"]) if c.get("version") else ""
@@ -204,6 +269,16 @@ def main(argv: list[str] | None = None) -> int:
                 print("      >>> " + c["guide"])
         missing = [c for c in checks if c["status"] in ("MISSING", "FAIL")]
         print("汇总：%d 项，%d 项阻断（MISSING/FAIL）" % (len(checks), len(missing)))
+        print(deploy_line(readiness))
+
+    if args.deploy_report:
+        path = args.deploy_report
+        if path == "":
+            path = os.path.join(REPO, "docs",
+                                "deploy_report_%s.json" % time.strftime("%Y%m%d_%H%M%S"))
+        report = write_deploy_report(checks, path)
+        print("部署签字已落盘 %s（ready=%s）"
+              % (path, "true" if report["ready"] else "false"))
 
     if args.fix_check:
         blockers = [c for c in checks if c["status"] in ("MISSING", "FAIL")

@@ -19,8 +19,8 @@ slots/
   `canonical()` 映射到规范槽位 id（`mame` → `mame-apple2`、`simh` → `simh-pdp8`）。
 - `emulator_doctor` 与 `launch_device` 决策链读的是同一个 `slots_available()`
   合并视图——不存在第二套清单；新模拟器一律走槽位 manifest，不要在别处私藏登记。
-- 内置兜底的现存两条：`mame-apple2`（后端骨架已接）/ `simh-pdp8`（后端模块预留，
-  start 时报 EMULATOR_BACKEND_MISSING）。
+- 内置兜底现存三条：`mame-apple2` / `simh-pdp8` / `stella`（后端模块均已登记骨架，
+  见 TASK-161-A/B；二进制未装时 start 报 `EMULATOR_BINARY_MISSING`）。
 
 ## manifest.json 字段（当前实现版；以 02 线规范 v0.5 为准绳）
 
@@ -38,10 +38,13 @@ slots/
 
 ## 使用三步（以 MAME apple2 为例，其余设备同理）
 
-1. 下载 MAME → `slots/emulators/mame-apple2/mame(.exe)`，并按 02 线 47-B 写好 manifest；
+1. 自备 MAME → 放 `third_party\mame\mame(.exe)`（或设环境变量 `MAME_BIN` 指向安装位置）
+   ——这是网关 `binary_hint` 与 `emulator_doctor` 的**唯一内置定位路径**（槽位目录内不放
+   二进制；manifest 无需手写，本仓库已带三台真跑的三份 manifest）；
 2. 自备介质 → `slots/media/disk/computer/mame-apple2/`；
 3. `python scripts/launch_device.py --device apple-ii` —— 自动注册、自动起真跑。
    或 `python scripts/emulator_doctor.py --fix-check` 一键体检+冒烟。
+   完整自装手册见 `docs/SLOT_DEPLOY-Guide-v0.1.md`。
 
 ## 样例槽位
 

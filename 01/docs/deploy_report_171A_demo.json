@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-11-07 14:05:20",
+  "binaries": {
+    "mame": {
+      "status": "MISSING",
+      "detail": "third_party\\mame\\mame(.exe)"
+    },
+    "simh": {
+      "status": "MISSING",
+      "detail": "third_party\\simh\\pdp8(.exe)"
+    },
+    "stella": {
+      "status": "MISSING",
+      "detail": "third_party\\stella\\stella(.exe)"
+    }
+  },
+  "media_dirs": 0,
+  "media_count": 0,
+  "ready": false
+}
