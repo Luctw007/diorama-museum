@@ -14,10 +14,12 @@ var _captured := false
 
 func _ready() -> void:
 	fov = FOV_DEFAULT
-	_set_captured(true)
+	set_captured(true)
 
 
-func _set_captured(on: bool) -> void:
+## 鼠标捕获开关（RUN-08 公开化）：面板打开时由 UI 调 set_captured(false) 释放鼠标，
+## 面板关闭后恢复捕获。ESC 切换逻辑不变。
+func set_captured(on: bool) -> void:
 	_captured = on
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED if on else Input.MOUSE_MODE_VISIBLE
 
@@ -34,7 +36,7 @@ func _unhandled_input(event: InputEvent) -> void:
 			MOUSE_BUTTON_WHEEL_DOWN:
 				fov = clampf(fov + 3.0, 20.0, FOV_MAX)
 	elif event.is_action_pressed("ui_cancel"):
-		_set_captured(not _captured)
+		set_captured(not _captured)
 
 
 func _process(delta: float) -> void:

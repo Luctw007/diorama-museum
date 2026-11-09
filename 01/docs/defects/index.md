@@ -11,5 +11,6 @@
 | DEFECT-RUN-05 | 实机首验缺陷 · closed | closed | 02dd2d7 | - |
 | DEFECT-RUN-06 | 实机首验缺陷 · closed | closed | 02dd2d7 | - |
 | DEFECT-RUN-07 | 实机首验缺陷 · 修复待用户确认 | open | d85e0f9 | - |
+| DEFECT-RUN-08 | - | open | - | - |
 
-计 7 条：closed 6 / open 1（缺状态按 open 计）
+计 8 条：closed 6 / open 2（缺状态按 open 计）

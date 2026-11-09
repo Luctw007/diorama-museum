@@ -117,11 +117,29 @@ func toggle() -> void:
 		if picker != null and picker.visible:
 			@warning_ignore("unsafe_method_access")
 			picker.close_panel()
+	_sync_panel_mouse()
 
 
 func close_panel() -> void:
 	_open = false
 	visible = false
+	_sync_panel_mouse()
+
+
+## RUN-08：任何面板可见即释放鼠标捕获；全关后恢复捕获（与 device_picker 同模式）。
+func _sync_panel_mouse() -> void:
+	var hud := get_node_or_null("/root/Main/HUD")
+	if hud == null:
+		return
+	var any_open := false
+	for panel_name in ["DevicePicker", "EncyclopediaPanel", "HallNavPanel"]:
+		var panel := hud.get_node_or_null(panel_name)
+		if panel != null and panel.visible:
+			any_open = true
+	var cam := get_node_or_null("/root/Main/Room/Camera")
+	if cam != null and cam.has_method("set_captured"):
+		@warning_ignore("unsafe_method_access")
+		cam.set_captured(not any_open)
 
 
 func _unhandled_input(event: InputEvent) -> void:

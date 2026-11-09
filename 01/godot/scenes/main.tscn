@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://cnubnd2mailh"]
+[gd_scene load_steps=18 format=3 uid="uid://cnubnd2mailh"]
 
 [ext_resource type="Script" path="res://scripts/gateway_client.gd" id="1_gw"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="2_player"]
@@ -24,6 +24,11 @@ size = Vector3(0.3, 3, 20)
 
 [sub_resource type="QuadMesh" id="quad_screen"]
 size = Vector2(3.2, 2.4)
+
+[sub_resource type="Environment" id="env_ambient"]
+ambient_light_source = 2
+ambient_light_color = Color(0.45, 0.48, 0.55, 1)
+ambient_light_energy = 0.5
 
 [node name="Main" type="Node3D"]
 
@@ -58,6 +63,9 @@ transform = Transform3D(0.866025, -0.5, 0, 0.25, 0.433013, 0.866025, -0.433013, 
 [node name="Camera" type="Camera3D" parent="Room"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 3)
 script = ExtResource("2_player")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Room"]
+environment = SubResource("env_ambient")
 
 [node name="GatewayClient" type="Node" parent="."]
 script = ExtResource("1_gw")
