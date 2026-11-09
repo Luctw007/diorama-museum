@@ -1,0 +1,519 @@
+{
+  "meta": {
+    "id": "palm-pilot",
+    "name": {
+      "zh": "Palm Pilot 1000",
+      "en": "Palm Pilot 1000"
+    },
+    "intro": {
+      "zh": "Palm Pilot 1000 是 Palm 1996 年推出的掌上电脑，以触控笔、Graffiti 手写与 HotSync 同步定义 PDA 品类，是智能手机前夜的关键一站。",
+      "en": "The Palm Pilot 1000, launched in 1996, defined the PDA category with its stylus, Graffiti handwriting and HotSync cradle, a key step on the eve of the smartphone."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1996,
+    "manufacturer": "Palm",
+    "category": "pda",
+    "description": "Palm Pilot 1000（1996），PDA 标杆：DragonBall MC68328、128KB 内存、单色触控屏 160×160、Graffiti 手写、HotSync 底座。演示向（Mu/PHEM/CloudpilotEmu 预留）。",
+    "authors": [
+      {
+        "name": "TASK-132 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — PalmPilot",
+        "url": "https://en.wikipedia.org/wiki/PalmPilot",
+        "license": "cc",
+        "accessed_at": "2026-11-06"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Palm OS",
+        "url": "https://en.wikipedia.org/wiki/Palm_OS",
+        "license": "cc",
+        "accessed_at": "2026-11-06"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Graffiti (Palm OS)",
+        "url": "https://en.wikipedia.org/wiki/Graffiti_(Palm_OS)",
+        "license": "cc",
+        "accessed_at": "2026-11-06"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Palm Pilot 1000 整机，1996 年推出的掌上电脑，以触控笔与单色触控屏定义 PDA 品类，是「智能手机前夜」的关键一站。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "body",
+        "display",
+        "motherboard",
+        "battery_bay",
+        "stylus",
+        "hotsync_dock"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "pda_pioneer",
+        "smartphone_eve",
+        "graffiti_anchor"
+      ]
+    },
+    {
+      "id": "body",
+      "name": "机身",
+      "role": {
+        "zh": "机身外壳在整机中作为深灰塑料袖珍外壳，承载按键、触控笔插槽与屏幕，可装进衬衫口袋。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "power_button",
+        "app_buttons",
+        "scroll_buttons",
+        "stylus_slot"
+      ],
+      "annotations": [
+        "body_role"
+      ],
+      "mesh_ref": "assemblies/body.gltf"
+    },
+    {
+      "id": "display",
+      "name": "单色触控屏",
+      "role": {
+        "zh": "单色触控屏在整机中显示界面与内容，配触控笔点按书写，是 Palm 的「点一下」交互界面。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "lcd_panel",
+        "touch_layer",
+        "graffiti_area"
+      ],
+      "annotations": [
+        "display_role"
+      ],
+      "mesh_ref": "assemblies/display.gltf"
+    },
+    {
+      "id": "motherboard",
+      "name": "主板（DragonBall）",
+      "role": {
+        "zh": "主板在整机中承载 DragonBall 处理器、内存、ROM 与串口，是运行 Palm OS 与应用的核心。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cpu_dragonball",
+        "ram",
+        "rom",
+        "serial_port"
+      ],
+      "annotations": [
+        "motherboard_role"
+      ],
+      "mesh_ref": "assemblies/motherboard.gltf"
+    },
+    {
+      "id": "battery_bay",
+      "name": "电池仓",
+      "role": {
+        "zh": "电池仓在整机中容纳两节 AAA 电池，为整机供电，续航可达数周。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "battery_aaa"
+      ],
+      "annotations": [
+        "battery_bay_role"
+      ],
+      "mesh_ref": "assemblies/battery_bay.gltf"
+    },
+    {
+      "id": "stylus",
+      "name": "触控笔",
+      "role": {
+        "zh": "触控笔在整机中作为输入工具，插在机身侧槽，用于点按屏幕与书写 Graffiti 手写字符。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "stylus_tip"
+      ],
+      "annotations": [
+        "stylus_role"
+      ],
+      "mesh_ref": "assemblies/stylus.gltf"
+    },
+    {
+      "id": "hotsync_dock",
+      "name": "HotSync 同步底座",
+      "role": {
+        "zh": "HotSync 同步底座在整机中作为配套外设，把 Palm 放入底座经串口与电脑一键同步数据。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "dock_connector"
+      ],
+      "annotations": [
+        "hotsync_dock_role"
+      ],
+      "mesh_ref": "assemblies/hotsync_dock.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "power_button",
+      "name": "电源键",
+      "type": "button",
+      "role": {
+        "zh": "电源键在整机中控制开关机与背光，是 Palm 的上电入口。"
+      },
+      "assembly": "body",
+      "annotations": [
+        "power_button_role"
+      ]
+    },
+    {
+      "id": "app_buttons",
+      "name": "应用快捷键",
+      "type": "button",
+      "role": {
+        "zh": "应用快捷键在整机中位于屏幕下方，一键切换到日程、通讯录、记事等核心应用。"
+      },
+      "assembly": "body",
+      "annotations": [
+        "app_buttons_role"
+      ]
+    },
+    {
+      "id": "scroll_buttons",
+      "name": "上下滚动键",
+      "type": "button",
+      "role": {
+        "zh": "上下滚动键在整机中滚动列表与页面，是单手翻阅内容的主要按键。"
+      },
+      "assembly": "body",
+      "annotations": [
+        "scroll_buttons_role"
+      ]
+    },
+    {
+      "id": "stylus_slot",
+      "name": "触控笔插槽",
+      "type": "slot",
+      "role": {
+        "zh": "触控笔插槽在整机中位于机身侧边，收纳触控笔，是随身携带输入工具的通道。"
+      },
+      "assembly": "body",
+      "annotations": [
+        "stylus_slot_role"
+      ]
+    },
+    {
+      "id": "lcd_panel",
+      "name": "LCD 面板",
+      "type": "lcd",
+      "role": {
+        "zh": "LCD 面板在整机中显示单色画面，分辨率 160×160，是 Palm 的信息显示界面。"
+      },
+      "assembly": "display",
+      "annotations": [
+        "lcd_panel_role"
+      ]
+    },
+    {
+      "id": "touch_layer",
+      "name": "触控层",
+      "type": "sensor",
+      "role": {
+        "zh": "触控层在整机中感知触控笔点按，是 Palm 触控交互的传感器层。"
+      },
+      "assembly": "display",
+      "annotations": [
+        "touch_layer_role"
+      ]
+    },
+    {
+      "id": "graffiti_area",
+      "name": "Graffiti 手写区",
+      "type": "zone",
+      "role": {
+        "zh": "Graffiti 手写区在整机中位于屏幕下方，用户在此用触控笔书写简化单笔画字符，由 Graffiti 引擎识别为文字。"
+      },
+      "assembly": "display",
+      "annotations": [
+        "graffiti_area_role"
+      ]
+    },
+    {
+      "id": "cpu_dragonball",
+      "name": "DragonBall 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "DragonBall 处理器在整机中作为计算核心，型号 MC68328，是摩托罗拉 68k 家族的嵌入式处理器。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "cpu_dragonball_role"
+      ]
+    },
+    {
+      "id": "ram",
+      "name": "内存",
+      "type": "ram",
+      "role": {
+        "zh": "内存在整机中存放运行中的程序与数据，Pilot 1000 容量 128KB。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ram_role"
+      ]
+    },
+    {
+      "id": "rom",
+      "name": "ROM",
+      "type": "rom",
+      "role": {
+        "zh": "ROM 在整机中固化 Palm OS 系统与内置应用，是 Palm 开箱即用的软件载体。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "rom_role"
+      ]
+    },
+    {
+      "id": "serial_port",
+      "name": "串口",
+      "type": "connector",
+      "role": {
+        "zh": "串口在整机中连接 HotSync 底座，实现与电脑的数据同步。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "serial_port_role"
+      ]
+    },
+    {
+      "id": "battery_aaa",
+      "name": "AAA 电池",
+      "type": "battery",
+      "role": {
+        "zh": "AAA 电池在整机中为整机供电，两节可更换，续航可达数周。"
+      },
+      "assembly": "battery_bay",
+      "annotations": [
+        "battery_aaa_role"
+      ]
+    },
+    {
+      "id": "stylus_tip",
+      "name": "笔尖",
+      "type": "tip",
+      "role": {
+        "zh": "笔尖在整机中接触屏幕进行点按与书写，是触控笔输入的接触点。"
+      },
+      "assembly": "stylus",
+      "annotations": [
+        "stylus_tip_role"
+      ]
+    },
+    {
+      "id": "dock_connector",
+      "name": "底座接口",
+      "type": "connector",
+      "role": {
+        "zh": "底座接口在整机中与 HotSync 底座对接，实现充电与数据同步。"
+      },
+      "assembly": "hotsync_dock",
+      "annotations": [
+        "dock_connector_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Palm Pilot 1000",
+    "media_hint": "firmware",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "handheld_lcd_0",
+        "surface": "handheld_lcd",
+        "type": "video",
+        "format": "mono"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "up": {
+        "map": "keyboard",
+        "key": "KEY_UP"
+      },
+      "down": {
+        "map": "keyboard",
+        "key": "KEY_DOWN"
+      },
+      "tap": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "back": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      }
+    }
+  }
+}

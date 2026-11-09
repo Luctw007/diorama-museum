@@ -1,0 +1,202 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "Nokia 3310 整机，2000 年诺基亚推出的直板功能机，以耐摔耐用、可换壳与贪吃蛇 II 成为手机史上的国民神话。"
+    },
+    {
+      "id": "case_role",
+      "type": "role",
+      "target": "case",
+      "text": "外壳在整机中由前面板与可拆卸后盖组成，支持 Xpress-on 彩色换壳，是 3310 个性化文化的载体。"
+    },
+    {
+      "id": "keypad_role",
+      "type": "role",
+      "target": "keypad",
+      "text": "键盘在整机中承载九键数字键盘与导航键，是拨号、发短信与玩贪吃蛇的输入界面。"
+    },
+    {
+      "id": "display_role",
+      "type": "role",
+      "target": "display",
+      "text": "单色 LCD 屏在整机中显示文字、图标与游戏画面，分辨率 84×48，是 3310 的显示界面。"
+    },
+    {
+      "id": "motherboard_role",
+      "type": "role",
+      "target": "motherboard",
+      "text": "主板 PCB 在整机中承载基带、射频芯片与 SIM 卡座，是通话、短信与游戏运算的核心。"
+    },
+    {
+      "id": "battery_role",
+      "type": "role",
+      "target": "battery",
+      "text": "可拆电池在整机中为整机供电，可轻松更换，是 3310 超长续航与「换电池满血」体验的来源。"
+    },
+    {
+      "id": "antenna_role",
+      "type": "role",
+      "target": "antenna",
+      "text": "内置天线在整机中位于机身内部，负责 GSM 射频信号的收发，是手机与基站通信的空中接口。"
+    },
+    {
+      "id": "front_cover_role",
+      "type": "role",
+      "target": "front_cover",
+      "text": "前面板在整机中构成机身正面，开有屏幕与键盘开口，是整机外观的主框架。"
+    },
+    {
+      "id": "back_cover_role",
+      "type": "role",
+      "target": "back_cover",
+      "text": "后盖在整机中构成机身背面，可拆卸，是打开电池仓与更换彩壳的入口。"
+    },
+    {
+      "id": "xpresson_shell_role",
+      "type": "role",
+      "target": "xpresson_shell",
+      "text": "Xpress-on 彩壳在整机中作为可更换的彩色外壳，一扣即换，让用户随时为手机「换衣服」。"
+    },
+    {
+      "id": "key_matrix_role",
+      "type": "role",
+      "target": "key_matrix",
+      "text": "九键键盘在整机中承载 0 至 9 数字键，是多键输入法打字与拨号的核心按键区。"
+    },
+    {
+      "id": "nav_keys_role",
+      "type": "role",
+      "target": "nav_keys",
+      "text": "导航键在整机中位于屏幕下方，上下左右移动光标，是菜单操作与贪吃蛇转向的关键。"
+    },
+    {
+      "id": "power_key_role",
+      "type": "role",
+      "target": "power_key",
+      "text": "电源键在整机中控制开关机，是 3310 的上电入口。"
+    },
+    {
+      "id": "lcd_panel_role",
+      "type": "role",
+      "target": "lcd_panel",
+      "text": "LCD 面板在整机中显示单色画面，分辨率约 84×48，是 3310 的信息与游戏显示部件。"
+    },
+    {
+      "id": "backlight_role",
+      "type": "role",
+      "target": "backlight",
+      "text": "背光在整机中为单色 LCD 提供照明，让屏幕在暗处也清晰可读。"
+    },
+    {
+      "id": "baseband_chip_role",
+      "type": "role",
+      "target": "baseband_chip",
+      "text": "基带芯片在整机中处理 GSM 数字信号与协议，是通话与短信的运算核心。"
+    },
+    {
+      "id": "rf_chip_role",
+      "type": "role",
+      "target": "rf_chip",
+      "text": "射频芯片在整机中负责信号的发射与接收，是手机与基站通信的射频前端。"
+    },
+    {
+      "id": "sim_slot_role",
+      "type": "role",
+      "target": "sim_slot",
+      "text": "SIM 卡座在整机中容纳 SIM 卡，存储用户身份与网络鉴权信息，是 GSM「换机不换号」的关键。"
+    },
+    {
+      "id": "buzzer_role",
+      "type": "role",
+      "target": "buzzer",
+      "text": "蜂鸣器在整机中发出铃声与提示音，是 3310 那声标志性铃声的来源。"
+    },
+    {
+      "id": "memory_role",
+      "type": "role",
+      "target": "memory",
+      "text": "存储芯片在整机中存放电话簿、短信与系统数据，容量有限，是功能机的精简存储。"
+    },
+    {
+      "id": "battery_cell_role",
+      "type": "role",
+      "target": "battery_cell",
+      "text": "锂离子电池在整机中储存电能，为整机供电，可拆卸更换，续航持久。"
+    },
+    {
+      "id": "charge_contact_role",
+      "type": "role",
+      "target": "charge_contact",
+      "text": "充电触点在整机中与充电器对接，为电池补充电能，是 3310 的充电接口。"
+    },
+    {
+      "id": "antenna_element_role",
+      "type": "role",
+      "target": "antenna_element",
+      "text": "天线元件在整机中位于机身内部，接收与发射 GSM 射频信号，实现无线通信。"
+    },
+    {
+      "id": "gsm_2g",
+      "type": "flow",
+      "target": "whole",
+      "text": "GSM 2G 讲解：Nokia 3310 运行于第二代 GSM 数字网络，通话与短信以数字信号承载，是数字手机时代的国民设备。"
+    },
+    {
+      "id": "sms_link",
+      "type": "flow",
+      "target": "whole",
+      "text": "短信链路讲解：短信经「键入→SMS 编码→射频上行→基站→短消息中心→对方手机」的链路传递，几乎不占额外资源，成就了「拇指时代」。"
+    },
+    {
+      "id": "best_seller",
+      "type": "flow",
+      "target": "whole",
+      "text": "销量神话讲解：Nokia 3310 累计销量约 1.26 亿部，是史上最畅销的手机之一，见证了诺基亚把手机变成人手一部的日用品。"
+    },
+    {
+      "id": "xpresson",
+      "type": "flow",
+      "target": "xpresson_shell",
+      "text": "换壳文化讲解：Xpress-on 彩色外壳让用户一扣即换，把功能机变成个性时尚单品，催生了独特的「拆机改壳」文化。"
+    },
+    {
+      "id": "snake_ii",
+      "type": "flow",
+      "target": "whole",
+      "text": "贪吃蛇 II 讲解：内置游戏《贪吃蛇 II》让无数人在课桌下、被窝里玩上一整个下午，是功能机时代最经典的「掌上游戏」。"
+    },
+    {
+      "id": "durable",
+      "type": "flow",
+      "target": "case",
+      "text": "耐摔神话讲解：3310 以厚实塑料机身与紧凑结构几乎摔不坏，网上流传的「3310 摔不坏」梗正是这种口碑的延续。"
+    },
+    {
+      "id": "monochrome_lcd",
+      "type": "flow",
+      "target": "lcd_panel",
+      "text": "单色 LCD 讲解：84×48 的单色点阵屏虽简陋，却极其省电、阳光下清晰可读，是「用克制硬件换可靠体验」的体现。"
+    },
+    {
+      "id": "removable_battery",
+      "type": "flow",
+      "target": "battery_cell",
+      "text": "可拆电池讲解：3310 的可拆电池让用户换电池即满血，超长续航是它「皮实耐用」口碑的重要一环。"
+    },
+    {
+      "id": "t9_input",
+      "type": "flow",
+      "target": "key_matrix",
+      "text": "九键输入讲解：九键多键输入法让拇指在数字键上飞快打字，催生了「拇指文化」与 LOL、CU 等缩写语言。"
+    },
+    {
+      "id": "nokia_golden",
+      "type": "flow",
+      "target": "whole",
+      "text": "诺基亚黄金年代讲解：3310 与 8110 见证了诺基亚的巅峰，那个年代的诺基亚几乎就是「手机」的代名词，也是后来转折的伏笔。"
+    }
+  ]
+}

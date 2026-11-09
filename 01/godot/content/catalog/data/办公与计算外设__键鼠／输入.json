@@ -1,0 +1,2284 @@
+[
+ {
+  "id": "P-IN-000001",
+  "name": "鼠标",
+  "aliases": [
+   "Computer mouse"
+  ],
+  "manufacturer": "Xerox/Apple",
+  "origin": "美国",
+  "era": 1981,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "图形界面指针设备，人机交互革命。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Xerox/Apple",
+  "year": 1981,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "图形界面指针设备，人机交互革命。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000002",
+  "name": "光学鼠标",
+  "aliases": [],
+  "manufacturer": "Microsoft/Logitech",
+  "origin": "美国",
+  "era": 1999,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "光学感应鼠标，取代滚球鼠标。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Microsoft/Logitech",
+  "year": 1999,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "光学感应鼠标，取代滚球鼠标。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000003",
+  "name": "无线鼠标",
+  "aliases": [],
+  "manufacturer": "Logitech/Microsoft",
+  "origin": "美国/瑞士",
+  "era": 2003,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "无线鼠标，桌面整洁。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Logitech/Microsoft",
+  "year": 2003,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "无线鼠标，桌面整洁。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000004",
+  "name": "游戏鼠标",
+  "aliases": [],
+  "manufacturer": "Razer/Logitech",
+  "origin": "美国",
+  "era": 2005,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "高精度游戏鼠标，电竞外设。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Razer/Logitech",
+  "year": 2005,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "高精度游戏鼠标，电竞外设。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000009",
+  "name": "绘图板",
+  "aliases": [
+   "Graphics tablet"
+  ],
+  "manufacturer": "Wacom",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "绘图板，数字绘画输入。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Wacom",
+  "year": 1984,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "绘图板，数字绘画输入。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000010",
+  "name": "扫描枪",
+  "aliases": [
+   "Barcode scanner"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1974,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "条码扫描，零售与物流。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1974,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "条码扫描，零售与物流。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000011",
+  "name": "触控板",
+  "aliases": [
+   "Trackpad"
+  ],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "笔记本触控板，便携指针输入。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Apple",
+  "year": 1994,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "笔记本触控板，便携指针输入。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000012",
+  "name": "指点杆",
+  "aliases": [
+   "TrackPoint"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1992,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "ThinkPad 指点杆，键盘中央指针。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "IBM",
+  "year": 1992,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "ThinkPad 指点杆，键盘中央指针。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000016",
+  "name": "手写板",
+  "aliases": [],
+  "manufacturer": "汉王/Wacom",
+  "origin": "中国/日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "手写输入板，中文输入辅助。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "汉王/Wacom",
+  "year": 1990,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "手写输入板，中文输入辅助。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000017",
+  "name": "光笔",
+  "aliases": [
+   "Light pen"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1960,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "光笔输入，早期交互设备。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1960,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "光笔输入，早期交互设备。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000018",
+  "name": "扫描仪",
+  "aliases": [
+   "Scanner"
+  ],
+  "manufacturer": "HP/Canon",
+  "origin": "美国/日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "图像扫描输入，文档数字化（官方树未收录，归键鼠输入系）。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP/Canon",
+  "year": 1984,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "图像扫描输入，文档数字化（官方树未收录，归键鼠输入系）。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000019",
+  "name": "网络摄像头",
+  "aliases": [
+   "Webcam"
+  ],
+  "manufacturer": "Logitech",
+  "origin": "美国/瑞士",
+  "era": 1999,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "网络摄像头，视频通话。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Logitech",
+  "year": 1999,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "网络摄像头，视频通话。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000020",
+  "name": "指纹识别器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "指纹识别，身份认证。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "指纹识别，身份认证。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000022",
+  "name": "平板扫描仪（家用）",
+  "aliases": [],
+  "manufacturer": "HP/Canon",
+  "origin": "美国/日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "家用平板扫描，照片文档数字化。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP/Canon",
+  "year": 1990,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "家用平板扫描，照片文档数字化。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000023",
+  "name": "高速文档扫描仪",
+  "aliases": [],
+  "manufacturer": "Fujitsu",
+  "origin": "日本",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "高速文档扫描，办公无纸化。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Fujitsu",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "高速文档扫描，办公无纸化。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000024",
+  "name": "胶片扫描仪",
+  "aliases": [],
+  "manufacturer": "Nikon",
+  "origin": "日本",
+  "era": 1995,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "胶片扫描，底片数字化。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Nikon",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "胶片扫描，底片数字化。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000025",
+  "name": "手持扫描仪",
+  "aliases": [],
+  "manufacturer": "Logitech",
+  "origin": "美国",
+  "era": 1985,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "手持扫描，早期便携扫描。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Logitech",
+  "year": 1985,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "手持扫描，早期便携扫描。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000026",
+  "name": "一体机扫描模块",
+  "aliases": [],
+  "manufacturer": "HP",
+  "origin": "美国",
+  "era": 1995,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "一体机扫描功能，复印扫描。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "一体机扫描功能，复印扫描。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000027",
+  "name": "书籍扫描仪",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 2010,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "书籍扫描，图书馆数字化。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2010,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "书籍扫描，图书馆数字化。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000028",
+  "name": "3D 扫描仪",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 2012,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "三维扫描，实物数字化。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2012,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "三维扫描，实物数字化。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000029",
+  "name": "名片扫描仪",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1998,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "名片扫描，商务名片管理。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1998,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "名片扫描，商务名片管理。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000045",
+  "name": "滚球鼠标",
+  "aliases": [],
+  "manufacturer": "Logitech",
+  "origin": "瑞士",
+  "era": 1985,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "滚球鼠标，早期指针输入。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Logitech",
+  "year": 1985,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "滚球鼠标，早期指针输入。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000046",
+  "name": "串口鼠标",
+  "aliases": [],
+  "manufacturer": "Microsoft",
+  "origin": "美国",
+  "era": 1987,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "串口鼠标，DOS 时代输入。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Microsoft",
+  "year": 1987,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "串口鼠标，DOS 时代输入。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000047",
+  "name": "USB 鼠标",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1998,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "USB 鼠标，即插即用。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1998,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "USB 鼠标，即插即用。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000053",
+  "name": "数位板（影拓）",
+  "aliases": [],
+  "manufacturer": "Wacom",
+  "origin": "日本",
+  "era": 1998,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "影拓数位板，专业绘图。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Wacom",
+  "year": 1998,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "影拓数位板，专业绘图。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000054",
+  "name": "触摸屏（外接）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 2008,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "外接触摸屏，交互显示。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2008,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "外接触摸屏，交互显示。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000055",
+  "name": "麦克风",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1980,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "麦克风输入，语音与录音。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1980,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "麦克风输入，语音与录音。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000056",
+  "name": "摄像头（模拟）",
+  "aliases": [],
+  "manufacturer": "Logitech",
+  "origin": "瑞士",
+  "era": 1995,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "模拟摄像头，早期视频。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Logitech",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "模拟摄像头，早期视频。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000057",
+  "name": "光笔（CRT）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1960,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "CRT 光笔，早期交互。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1960,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "CRT 光笔，早期交互。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000058",
+  "name": "光笔（图形）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1980,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "图形光笔，CAD 输入。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1980,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "图形光笔，CAD 输入。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000061",
+  "name": "数位屏（绘图）",
+  "aliases": [],
+  "manufacturer": "Wacom",
+  "origin": "日本",
+  "era": 2005,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "数位屏，屏幕直绘。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Wacom",
+  "year": 2005,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "数位屏，屏幕直绘。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000062",
+  "name": "条码扫描仪",
+  "aliases": [],
+  "manufacturer": "Symbol",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "条码扫描，库存管理。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Symbol",
+  "year": 1990,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "条码扫描，库存管理。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000063",
+  "name": "二维码扫描枪",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "中国",
+  "era": 2012,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "二维码扫描，移动支付。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2012,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "二维码扫描，移动支付。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000064",
+  "name": "RFID 读卡器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 2005,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "RFID 读卡，门禁识别。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2005,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "RFID 读卡，门禁识别。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000072",
+  "name": "鼠标（垂直人体工学）",
+  "aliases": [],
+  "manufacturer": "Logitech",
+  "origin": "瑞士",
+  "era": 2010,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "垂直人体工学鼠标，护腕。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Logitech",
+  "year": 2010,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "垂直人体工学鼠标，护腕。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000073",
+  "name": "绘图板（入门）",
+  "aliases": [],
+  "manufacturer": "Wacom/Huion",
+  "origin": "日本/中国",
+  "era": 2015,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "入门绘图板，数字绘画普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Wacom/Huion",
+  "year": 2015,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "入门绘图板，数字绘画普及。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000074",
+  "name": "扫描仪（便携）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "中国",
+  "era": 2015,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "influence": "便携扫描仪，移动办公。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2015,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ],
+  "reason": "便携扫描仪，移动办公。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "鼠标"
+  ]
+ },
+ {
+  "id": "P-IN-000005",
+  "name": "机械键盘",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1984,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ],
+  "influence": "Model M 机械键盘，触感标杆。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "IBM",
+  "year": 1984,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ],
+  "reason": "Model M 机械键盘，触感标杆。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ]
+ },
+ {
+  "id": "P-IN-000006",
+  "name": "IBM PC 键盘",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1981,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ],
+  "influence": "PC 标准键盘，键位布局沿用至今。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "IBM",
+  "year": 1981,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ],
+  "reason": "PC 标准键盘，键位布局沿用至今。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ]
+ },
+ {
+  "id": "P-IN-000048",
+  "name": "人体工学键盘",
+  "aliases": [],
+  "manufacturer": "Microsoft",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ],
+  "influence": "人体工学键盘，健康输入。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Microsoft",
+  "year": 1994,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ],
+  "reason": "人体工学键盘，健康输入。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ]
+ },
+ {
+  "id": "P-IN-000049",
+  "name": "薄膜键盘",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ],
+  "influence": "薄膜键盘，成本优化普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1990,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ],
+  "reason": "薄膜键盘，成本优化普及。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ]
+ },
+ {
+  "id": "P-IN-000050",
+  "name": "无线键盘",
+  "aliases": [],
+  "manufacturer": "Logitech",
+  "origin": "瑞士",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ],
+  "influence": "无线键盘，桌面整洁。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Logitech",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ],
+  "reason": "无线键盘，桌面整洁。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ]
+ },
+ {
+  "id": "P-IN-000059",
+  "name": "键盘（机械青轴）",
+  "aliases": [],
+  "manufacturer": "Cherry",
+  "origin": "德国",
+  "era": 1988,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ],
+  "influence": "青轴机械键盘，打字手感。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Cherry",
+  "year": 1988,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ],
+  "reason": "青轴机械键盘，打字手感。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ]
+ },
+ {
+  "id": "P-IN-000071",
+  "name": "键盘（折叠便携）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "中国",
+  "era": 2010,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ],
+  "influence": "折叠便携键盘，移动办公。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2010,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ],
+  "reason": "折叠便携键盘，移动办公。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "键盘"
+  ]
+ },
+ {
+  "id": "P-IN-000007",
+  "name": "轨迹球",
+  "aliases": [
+   "Trackball"
+  ],
+  "manufacturer": "Kensington",
+  "origin": "美国",
+  "era": 1980,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "轨迹球指针设备，替代鼠标。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Kensington",
+  "year": 1980,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "轨迹球指针设备，替代鼠标。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000008",
+  "name": "游戏手柄",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "多国",
+  "era": 1980,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "游戏控制器，从摇杆到现代手柄的演进。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1980,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "游戏控制器，从摇杆到现代手柄的演进。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000013",
+  "name": "摇杆",
+  "aliases": [
+   "Joystick"
+  ],
+  "manufacturer": "Atari/多家",
+  "origin": "美国",
+  "era": 1977,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "游戏摇杆，街机风格输入。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Atari/多家",
+  "year": 1977,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "游戏摇杆，街机风格输入。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000014",
+  "name": "方向盘",
+  "aliases": [
+   "Racing wheel"
+  ],
+  "manufacturer": "Logitech/Thrustmaster",
+  "origin": "瑞士/法国",
+  "era": 1995,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "赛车方向盘，模拟驾驶输入。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Logitech/Thrustmaster",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "赛车方向盘，模拟驾驶输入。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000015",
+  "name": "跳舞毯",
+  "aliases": [],
+  "manufacturer": "Konami",
+  "origin": "日本",
+  "era": 1998,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "跳舞毯控制器，音乐游戏输入。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Konami",
+  "year": 1998,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "跳舞毯控制器，音乐游戏输入。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000021",
+  "name": "调制解调器",
+  "aliases": [
+   "Dial-up modem"
+  ],
+  "manufacturer": "Hayes",
+  "origin": "美国",
+  "era": 1977,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "拨号上网调制解调器，家庭互联网开端（官方树未收录，归键鼠输入系）。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Hayes",
+  "year": 1977,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "拨号上网调制解调器，家庭互联网开端（官方树未收录，归键鼠输入系）。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000030",
+  "name": "声学耦合器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1965,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "声学耦合调制解调器，拨号上网先驱。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1965,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "声学耦合调制解调器，拨号上网先驱。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000031",
+  "name": "300 波特调制解调器",
+  "aliases": [],
+  "manufacturer": "Hayes",
+  "origin": "美国",
+  "era": 1977,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "300 波特拨号，家庭调制解调器开端。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Hayes",
+  "year": 1977,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "300 波特拨号，家庭调制解调器开端。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000032",
+  "name": "1200 波特调制解调器",
+  "aliases": [],
+  "manufacturer": "Hayes",
+  "origin": "美国",
+  "era": 1980,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "1200 波特拨号，BBS 时代。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Hayes",
+  "year": 1980,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "1200 波特拨号，BBS 时代。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000033",
+  "name": "2400 波特调制解调器",
+  "aliases": [],
+  "manufacturer": "Hayes/US Robotics",
+  "origin": "美国",
+  "era": 1985,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "2400 波特拨号，标准普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Hayes/US Robotics",
+  "year": 1985,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "2400 波特拨号，标准普及。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000034",
+  "name": "9600 波特调制解调器",
+  "aliases": [],
+  "manufacturer": "US Robotics",
+  "origin": "美国",
+  "era": 1991,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "9600 波特拨号，上网加速。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "US Robotics",
+  "year": 1991,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "9600 波特拨号，上网加速。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000035",
+  "name": "14.4K 调制解调器",
+  "aliases": [],
+  "manufacturer": "US Robotics",
+  "origin": "美国",
+  "era": 1993,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "14.4K 拨号，早期互联网。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "US Robotics",
+  "year": 1993,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "14.4K 拨号，早期互联网。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000036",
+  "name": "28.8K 调制解调器",
+  "aliases": [],
+  "manufacturer": "US Robotics",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "28.8K 拨号，万维网普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "US Robotics",
+  "year": 1994,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "28.8K 拨号，万维网普及。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000037",
+  "name": "33.6K 调制解调器",
+  "aliases": [],
+  "manufacturer": "US Robotics",
+  "origin": "美国",
+  "era": 1996,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "33.6K 拨号，上网主流。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "US Robotics",
+  "year": 1996,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "33.6K 拨号，上网主流。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000038",
+  "name": "56K 调制解调器",
+  "aliases": [
+   "V.90 modem"
+  ],
+  "manufacturer": "US Robotics",
+  "origin": "美国",
+  "era": 1997,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "56K 拨号，拨号时代速度巅峰。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "US Robotics",
+  "year": 1997,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "56K 拨号，拨号时代速度巅峰。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000039",
+  "name": "ISDN 终端适配器",
+  "aliases": [
+   "TA"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "日本/德国",
+  "era": 1988,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "ISDN 数字线路适配器，宽带前奏。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1988,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "ISDN 数字线路适配器，宽带前奏。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000040",
+  "name": "ADSL 调制解调器",
+  "aliases": [
+   "DSL modem"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "多国",
+  "era": 1999,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "ADSL 宽带调制解调器，家庭宽带普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1999,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "ADSL 宽带调制解调器，家庭宽带普及。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000041",
+  "name": "电缆调制解调器",
+  "aliases": [
+   "Cable modem"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1997,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "有线电视线路上网，宽带接入。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1997,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "有线电视线路上网，宽带接入。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000042",
+  "name": "光纤 ONU",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "多国",
+  "era": 2005,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "光纤入户终端，现代宽带。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2005,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "光纤入户终端，现代宽带。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000043",
+  "name": "无线路由器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 2002,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "无线路由器，家庭无线网络。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2002,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "无线路由器，家庭无线网络。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000044",
+  "name": "调制解调器（外置）",
+  "aliases": [],
+  "manufacturer": "US Robotics",
+  "origin": "美国",
+  "era": 1995,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "外置拨号调制解调器，桌面设备。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "US Robotics",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "外置拨号调制解调器，桌面设备。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000051",
+  "name": "轨迹球（拇指）",
+  "aliases": [],
+  "manufacturer": "Logitech",
+  "origin": "瑞士",
+  "era": 1995,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "拇指轨迹球，节省空间。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Logitech",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "拇指轨迹球，节省空间。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000052",
+  "name": "游戏手柄（USB）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "USB 游戏手柄，PC 游戏。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "USB 游戏手柄，PC 游戏。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000060",
+  "name": "鼠标（轨迹球老式）",
+  "aliases": [],
+  "manufacturer": "Microsoft",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "老式轨迹球鼠标。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Microsoft",
+  "year": 1990,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "老式轨迹球鼠标。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000065",
+  "name": "蓝牙适配器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 2002,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "蓝牙 USB 适配器，无线连接。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2002,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "蓝牙 USB 适配器，无线连接。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000066",
+  "name": "WiFi 网卡",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "WiFi 无线网卡，笔记本上网。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "WiFi 无线网卡，笔记本上网。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000067",
+  "name": "以太网卡",
+  "aliases": [],
+  "manufacturer": "3Com/Intel",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "以太网卡，局域网接入。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "3Com/Intel",
+  "year": 1990,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "以太网卡，局域网接入。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000068",
+  "name": "声卡",
+  "aliases": [],
+  "manufacturer": "Creative",
+  "origin": "新加坡",
+  "era": 1989,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "Sound Blaster 声卡，PC 多媒体。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Creative",
+  "year": 1989,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "Sound Blaster 声卡，PC 多媒体。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000069",
+  "name": "显卡",
+  "aliases": [],
+  "manufacturer": "NVIDIA/ATI",
+  "origin": "美国/加拿大",
+  "era": 1995,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "独立显卡，图形加速。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "NVIDIA/ATI",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "独立显卡，图形加速。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000070",
+  "name": "主板（PC 扩展）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1985,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "PC 扩展板卡，外设接口（占位）。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1985,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "PC 扩展板卡，外设接口（占位）。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ },
+ {
+  "id": "P-IN-000075",
+  "name": "调制解调器（56K 内置）",
+  "aliases": [],
+  "manufacturer": "US Robotics",
+  "origin": "美国",
+  "era": 1998,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "influence": "内置 56K 调制解调器，拨号上网。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "US Robotics",
+  "year": 1998,
+  "path": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ],
+  "reason": "内置 56K 调制解调器，拨号上网。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "键鼠/输入",
+   "轨迹球"
+  ]
+ }
+]

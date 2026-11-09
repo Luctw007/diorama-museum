@@ -390,13 +390,13 @@
    "其他"
   ],
   "influence": "首台成功的个人电脑套件，点燃革命。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "altair-8800",
   "verify": false,
   "sources": [
    "S58A"
   ],
-  "research_doc": null,
+  "research_doc": "docs/research/hall-personal-batch2/09_Altair8800.md",
   "maker": "MITS",
   "year": 1975,
   "path": [
@@ -1668,8 +1668,8 @@
    "8 位家用"
   ],
   "influence": "首台一体化个人计算机，面向教育。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "pet2001",
   "verify": false,
   "sources": [
    "S58A"
@@ -1704,8 +1704,8 @@
    "8 位家用"
   ],
   "influence": "首台销量破百万的计算机。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "vic20",
   "verify": false,
   "sources": [
    "S58A"
@@ -2014,8 +2014,8 @@
    "8 位家用"
   ],
   "influence": "大众零售渠道首台个人电脑，销量破纪录。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "trs80-model1",
   "verify": false,
   "sources": [
    "S58A"
@@ -2258,8 +2258,8 @@
    "8 位家用"
   ],
   "influence": "英国国民电脑，催生独立游戏产业。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "zx-spectrum",
   "verify": false,
   "sources": [
    "S58A"
@@ -3258,8 +3258,8 @@
    "16 位"
   ],
   "influence": "多媒体个人计算机，游戏图形能力强。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "amiga500",
   "verify": false,
   "sources": [
    "S58A"
@@ -3402,8 +3402,8 @@
    "16 位"
   ],
   "influence": "16 位电脑，MIDI 音乐制作首选。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "atari-st",
   "verify": false,
   "sources": [
    "S58A"
@@ -5020,13 +5020,13 @@
    "日本国产"
   ],
   "influence": "16 位高性能电脑，街机移植能力强。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "x68000",
   "verify": false,
   "sources": [
    "S58A"
   ],
-  "research_doc": null,
+  "research_doc": "docs/research/hall-personal-batch2/04_X68000.md",
   "maker": "夏普",
   "year": 1987,
   "path": [

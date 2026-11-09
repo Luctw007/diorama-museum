@@ -42,9 +42,15 @@ var _annotations := {}
 var _assembly_nodes := {}      # assembly_id -> Node3D
 var _role_by_node := {}        # Node3D -> role 文案
 var _current_device := ""
+var _content_root: Node3D = null   # 设备内容专用容器（RUN-08：控制节点挂在 DeviceRoot 直属，不得被 _clear_tree 误清）
 
 
 func _ready() -> void:
+	# 内容专用容器：InspectController/ExplodeController 等控制节点与内容同级挂在
+	# DeviceRoot 下，_clear_tree 只清容器内节点（RUN-08 根因修复）。
+	_content_root = Node3D.new()
+	_content_root.name = "ContentRoot"
+	add_child(_content_root)
 	scan_index()
 	# 默认装载第一台可加载设备（空厅时留空，由 DevicePicker 选择）
 	var first := ""
@@ -105,6 +111,10 @@ func scan_index() -> Array:
 
 # ---------------------------------------------------------------- 装载
 func load_device(device_id: String) -> bool:
+	if _content_root == null:
+		_content_root = Node3D.new()
+		_content_root.name = "ContentRoot"
+		add_child(_content_root)
 	_clear_tree()
 	_current_device = device_id
 	var pkg_root := CONTENT_ROOT + "/" + device_id
@@ -139,10 +149,9 @@ func load_device(device_id: String) -> bool:
 		var entry: Dictionary = kindom[aid]["entry"]
 		var node: Node3D = kindom[aid]["node"]
 		_apply_transform(node, entry.get("transform"))
-		var children: Array = entry.get("children", [])
 		var parent_id := str(entry.get("parent", ""))
 		if parent_id == "" or not kindom.has(parent_id):
-			add_child(node)  # 根装配体
+			_content_root.add_child(node)  # 根装配体（挂内容容器，避开控制节点）
 		else:
 			kindom[parent_id]["node"].add_child(node)
 		var role := str(entry.get("role", ""))
@@ -174,8 +183,10 @@ func load_device(device_id: String) -> bool:
 
 
 func _clear_tree() -> void:
-	for child in get_children():
-		child.queue_free()
+	# 只清内容容器：控制节点（Inspect/Explode）挂在 DeviceRoot 直属，不得误清（RUN-08）
+	if _content_root != null:
+		for child in _content_root.get_children():
+			child.queue_free()
 	_meta = {}
 	_runtime = {}
 	_annotations = {}

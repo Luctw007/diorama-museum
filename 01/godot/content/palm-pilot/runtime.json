@@ -1,0 +1,44 @@
+{
+  "emulator": "none",
+  "version": "1.0.0",
+  "system": "Palm Pilot 1000",
+  "media_hint": "firmware",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {
+      "id": "handheld_lcd_0",
+      "surface": "handheld_lcd",
+      "type": "video",
+      "format": "mono"
+    },
+    {
+      "id": "speaker_0",
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16"
+    }
+  ],
+  "input_map": {
+    "power": {
+      "map": "keyboard",
+      "key": "KEY_POWER"
+    },
+    "up": {
+      "map": "keyboard",
+      "key": "KEY_UP"
+    },
+    "down": {
+      "map": "keyboard",
+      "key": "KEY_DOWN"
+    },
+    "tap": {
+      "map": "keyboard",
+      "key": "KEY_ENTER"
+    },
+    "back": {
+      "map": "keyboard",
+      "key": "KEY_ESCAPE"
+    }
+  }
+}

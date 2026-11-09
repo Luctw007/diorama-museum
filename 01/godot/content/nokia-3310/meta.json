@@ -1,0 +1,553 @@
+{
+  "meta": {
+    "id": "nokia-3310",
+    "name": {
+      "zh": "Nokia 3310",
+      "en": "Nokia 3310"
+    },
+    "intro": {
+      "zh": "Nokia 3310 是诺基亚 2000 年推出的直板功能机，以耐摔耐用、Xpress-on 可换壳与贪吃蛇 II 成为史上最畅销手机之一，是 GSM 短信时代的国民神话。",
+      "en": "The Nokia 3310, launched in 2000, became one of the best-selling phones of all time with its rugged durability, Xpress-on covers and Snake II, a national legend of the GSM era."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 2000,
+    "manufacturer": "Nokia",
+    "category": "phone",
+    "description": "Nokia 3310（2000），GSM 2G 数字功能机：单色 LCD 84×48（需核实）、SMS 短信、Xpress-on 换壳、贪吃蛇 II、可拆电池，销量约 1.26 亿部。演示向（Symbian/MAME 预留）。",
+    "authors": [
+      {
+        "name": "TASK-173-B 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Nokia 3310",
+        "url": "https://en.wikipedia.org/wiki/Nokia_3310",
+        "license": "cc",
+        "accessed_at": "2026-11-08"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Nokia",
+        "url": "https://en.wikipedia.org/wiki/Nokia",
+        "license": "cc",
+        "accessed_at": "2026-11-08"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — SMS",
+        "url": "https://en.wikipedia.org/wiki/SMS",
+        "license": "cc",
+        "accessed_at": "2026-11-08"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Nokia 3310 整机，2000 年诺基亚推出的直板功能机，以耐摔耐用、可换壳与贪吃蛇 II 成为手机史上的国民神话。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "case",
+        "keypad",
+        "display",
+        "motherboard",
+        "battery",
+        "antenna"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "gsm_2g",
+        "sms_link",
+        "best_seller"
+      ]
+    },
+    {
+      "id": "case",
+      "name": "外壳（Xpress-on 可换彩壳）",
+      "role": {
+        "zh": "外壳在整机中由前面板与可拆卸后盖组成，支持 Xpress-on 彩色换壳，是 3310 个性化文化的载体。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "front_cover",
+        "back_cover",
+        "xpresson_shell"
+      ],
+      "annotations": [
+        "case_role"
+      ],
+      "mesh_ref": "assemblies/case.gltf"
+    },
+    {
+      "id": "keypad",
+      "name": "键盘",
+      "role": {
+        "zh": "键盘在整机中承载九键数字键盘与导航键，是拨号、发短信与玩贪吃蛇的输入界面。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "key_matrix",
+        "nav_keys",
+        "power_key"
+      ],
+      "annotations": [
+        "keypad_role"
+      ],
+      "mesh_ref": "assemblies/keypad.gltf"
+    },
+    {
+      "id": "display",
+      "name": "单色 LCD 屏",
+      "role": {
+        "zh": "单色 LCD 屏在整机中显示文字、图标与游戏画面，分辨率 84×48，是 3310 的显示界面。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "lcd_panel",
+        "backlight"
+      ],
+      "annotations": [
+        "display_role"
+      ],
+      "mesh_ref": "assemblies/display.gltf"
+    },
+    {
+      "id": "motherboard",
+      "name": "主板 PCB",
+      "role": {
+        "zh": "主板 PCB 在整机中承载基带、射频芯片与 SIM 卡座，是通话、短信与游戏运算的核心。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "baseband_chip",
+        "rf_chip",
+        "sim_slot",
+        "buzzer",
+        "memory"
+      ],
+      "annotations": [
+        "motherboard_role"
+      ],
+      "mesh_ref": "assemblies/motherboard.gltf"
+    },
+    {
+      "id": "battery",
+      "name": "可拆电池",
+      "role": {
+        "zh": "可拆电池在整机中为整机供电，可轻松更换，是 3310 超长续航与「换电池满血」体验的来源。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "battery_cell",
+        "charge_contact"
+      ],
+      "annotations": [
+        "battery_role"
+      ],
+      "mesh_ref": "assemblies/battery.gltf"
+    },
+    {
+      "id": "antenna",
+      "name": "内置天线",
+      "role": {
+        "zh": "内置天线在整机中位于机身内部，负责 GSM 射频信号的收发，是手机与基站通信的空中接口。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "antenna_element"
+      ],
+      "annotations": [
+        "antenna_role"
+      ],
+      "mesh_ref": "assemblies/antenna.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "front_cover",
+      "name": "前面板",
+      "type": "cover",
+      "role": {
+        "zh": "前面板在整机中构成机身正面，开有屏幕与键盘开口，是整机外观的主框架。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "front_cover_role"
+      ]
+    },
+    {
+      "id": "back_cover",
+      "name": "后盖",
+      "type": "cover",
+      "role": {
+        "zh": "后盖在整机中构成机身背面，可拆卸，是打开电池仓与更换彩壳的入口。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "back_cover_role"
+      ]
+    },
+    {
+      "id": "xpresson_shell",
+      "name": "Xpress-on 彩壳",
+      "type": "cover",
+      "role": {
+        "zh": "Xpress-on 彩壳在整机中作为可更换的彩色外壳，一扣即换，让用户随时为手机「换衣服」。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "xpresson_shell_role"
+      ]
+    },
+    {
+      "id": "key_matrix",
+      "name": "九键键盘",
+      "type": "keypad",
+      "role": {
+        "zh": "九键键盘在整机中承载 0 至 9 数字键，是多键输入法打字与拨号的核心按键区。"
+      },
+      "assembly": "keypad",
+      "annotations": [
+        "key_matrix_role"
+      ]
+    },
+    {
+      "id": "nav_keys",
+      "name": "导航键",
+      "type": "button",
+      "role": {
+        "zh": "导航键在整机中位于屏幕下方，上下左右移动光标，是菜单操作与贪吃蛇转向的关键。"
+      },
+      "assembly": "keypad",
+      "annotations": [
+        "nav_keys_role"
+      ]
+    },
+    {
+      "id": "power_key",
+      "name": "电源键",
+      "type": "button",
+      "role": {
+        "zh": "电源键在整机中控制开关机，是 3310 的上电入口。"
+      },
+      "assembly": "keypad",
+      "annotations": [
+        "power_key_role"
+      ]
+    },
+    {
+      "id": "lcd_panel",
+      "name": "LCD 面板",
+      "type": "lcd",
+      "role": {
+        "zh": "LCD 面板在整机中显示单色画面，分辨率 84×48（「需核实」），是 3310 的信息与游戏显示部件。"
+      },
+      "assembly": "display",
+      "annotations": [
+        "lcd_panel_role"
+      ]
+    },
+    {
+      "id": "backlight",
+      "name": "背光",
+      "type": "light",
+      "role": {
+        "zh": "背光在整机中为单色 LCD 提供照明，让屏幕在暗处也清晰可读。"
+      },
+      "assembly": "display",
+      "annotations": [
+        "backlight_role"
+      ]
+    },
+    {
+      "id": "baseband_chip",
+      "name": "基带芯片",
+      "type": "ic",
+      "role": {
+        "zh": "基带芯片在整机中处理 GSM 数字信号与协议，是通话与短信的运算核心。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "baseband_chip_role"
+      ]
+    },
+    {
+      "id": "rf_chip",
+      "name": "射频芯片",
+      "type": "ic",
+      "role": {
+        "zh": "射频芯片在整机中负责信号的发射与接收，是手机与基站通信的射频前端。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "rf_chip_role"
+      ]
+    },
+    {
+      "id": "sim_slot",
+      "name": "SIM 卡座",
+      "type": "slot",
+      "role": {
+        "zh": "SIM 卡座在整机中容纳 SIM 卡，存储用户身份与网络鉴权信息，是 GSM「换机不换号」的关键。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "sim_slot_role"
+      ]
+    },
+    {
+      "id": "buzzer",
+      "name": "蜂鸣器",
+      "type": "speaker",
+      "role": {
+        "zh": "蜂鸣器在整机中发出铃声与提示音，是 3310 那声标志性铃声的来源。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "buzzer_role"
+      ]
+    },
+    {
+      "id": "memory",
+      "name": "存储芯片",
+      "type": "ram",
+      "role": {
+        "zh": "存储芯片在整机中存放电话簿、短信与系统数据，容量有限，是功能机的精简存储。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "memory_role"
+      ]
+    },
+    {
+      "id": "battery_cell",
+      "name": "锂离子电池",
+      "type": "battery",
+      "role": {
+        "zh": "锂离子电池在整机中储存电能，为整机供电，可拆卸更换，续航持久。"
+      },
+      "assembly": "battery",
+      "annotations": [
+        "battery_cell_role"
+      ]
+    },
+    {
+      "id": "charge_contact",
+      "name": "充电触点",
+      "type": "connector",
+      "role": {
+        "zh": "充电触点在整机中与充电器对接，为电池补充电能，是 3310 的充电接口。"
+      },
+      "assembly": "battery",
+      "annotations": [
+        "charge_contact_role"
+      ]
+    },
+    {
+      "id": "antenna_element",
+      "name": "天线元件",
+      "type": "antenna",
+      "role": {
+        "zh": "天线元件在整机中位于机身内部，接收与发射 GSM 射频信号，实现无线通信。"
+      },
+      "assembly": "antenna",
+      "annotations": [
+        "antenna_element_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Nokia 3310",
+    "media_hint": "firmware",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "handheld_lcd_0",
+        "surface": "handheld_lcd",
+        "type": "video",
+        "format": "mono"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "up": {
+        "map": "keyboard",
+        "key": "KEY_UP"
+      },
+      "down": {
+        "map": "keyboard",
+        "key": "KEY_DOWN"
+      },
+      "left": {
+        "map": "keyboard",
+        "key": "KEY_LEFT"
+      },
+      "right": {
+        "map": "keyboard",
+        "key": "KEY_RIGHT"
+      },
+      "enter": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "clear": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      }
+    }
+  }
+}

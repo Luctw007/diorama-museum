@@ -1,512 +1,1892 @@
 [
  {
-  "id": "A-AV-000040",
-  "名称": "组合音响",
-  "别名": [
-   "Mini Hi-Fi"
-  ],
-  "厂商": "多家厂商",
-  "产地": "日本",
-  "年代": 1980,
-  "分类路径": [
-   "家电影音",
-   "音响"
-  ],
-  "影响力理由": "一体化家庭音响，含收音/磁带/CD。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "组合音响",
+  "id": "A-AU-000001",
+  "name": "Walkman 磁带机",
   "aliases": [
-   "Mini Hi-Fi"
+   "TPS-L2"
   ],
-  "maker": "多家厂商",
+  "manufacturer": "Sony",
   "origin": "日本",
+  "era": 1979,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "首台随身听，开创个人便携音乐时代。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1979,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "首台随身听，开创个人便携音乐时代。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000002",
+  "name": "CD Walkman",
+  "aliases": [
+   "Discman"
+  ],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "便携 CD 播放器，随身数字音乐。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1984,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "便携 CD 播放器，随身数字音乐。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000003",
+  "name": "MD Walkman",
+  "aliases": [
+   "MiniDisc Walkman"
+  ],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1992,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "迷你光盘随身听，可录可擦，日本一度流行。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1992,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "迷你光盘随身听，可录可擦，日本一度流行。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000004",
+  "name": "MP3 播放器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "韩国/美国",
+  "era": 1998,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "MP3 播放器，数字音乐文件播放的先驱。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1998,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "MP3 播放器，数字音乐文件播放的先驱。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000005",
+  "name": "iPod",
+  "aliases": [
+   "iPod Classic"
+  ],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 2001,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "苹果随身听，重新定义数字音乐消费。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Apple",
+  "year": 2001,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "苹果随身听，重新定义数字音乐消费。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000006",
+  "name": "iPod Nano",
+  "aliases": [],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 2005,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "iPod 轻薄闪存版。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Apple",
+  "year": 2005,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "iPod 轻薄闪存版。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000007",
+  "name": "iPod Shuffle",
+  "aliases": [],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 2005,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "无屏极简 iPod，主打随机播放。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Apple",
+  "year": 2005,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "无屏极简 iPod，主打随机播放。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000008",
+  "name": "iPod Touch",
+  "aliases": [],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 2007,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "触屏 iPod，接近 iPhone 的多媒体设备。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Apple",
+  "year": 2007,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "触屏 iPod，接近 iPhone 的多媒体设备。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000009",
+  "name": "便携收音机",
+  "aliases": [
+   "Transistor radio"
+  ],
+  "manufacturer": "Sony/Texas Instruments",
+  "origin": "日本/美国",
+  "era": 1954,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "晶体管收音机，让收音机便携化。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony/Texas Instruments",
+  "year": 1954,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "晶体管收音机，让收音机便携化。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000010",
+  "name": "录音笔",
+  "aliases": [],
+  "manufacturer": "Olympus/Sony",
+  "origin": "日本",
+  "era": 1996,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "数字录音笔，采访与会议。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Olympus/Sony",
+  "year": 1996,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "数字录音笔，采访与会议。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000011",
+  "name": "电子词典",
+  "aliases": [],
+  "manufacturer": "Casio/Sharp",
+  "origin": "日本",
+  "era": 1980,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "电子词典，学习工具普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Casio/Sharp",
   "year": 1980,
   "path": [
    "家电影音",
    "音响",
-   "未细分"
+   "随身听"
   ],
-  "reason": "一体化家庭音响，含收音/磁带/CD。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
+  "reason": "电子词典，学习工具普及。",
   "_taxonomy": [
    "家电影音",
    "音响",
-   "未细分"
+   "随身听"
   ]
  },
  {
-  "id": "A-AV-000041",
-  "名称": "立体声功放",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "日本/美国",
-  "年代": 1965,
-  "分类路径": [
-   "家电影音",
-   "音响"
-  ],
-  "影响力理由": "立体声功率放大器，Hi-Fi 核心。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "立体声功放",
-  "aliases": [],
-  "maker": "多家厂商",
-  "origin": "日本/美国",
-  "year": 1965,
-  "path": [
-   "家电影音",
-   "音响",
-   "未细分"
-  ],
-  "reason": "立体声功率放大器，Hi-Fi 核心。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "家电影音",
-   "音响",
-   "未细分"
-  ]
- },
- {
-  "id": "A-AV-000042",
-  "名称": "黑胶唱机",
-  "别名": [
-   "Turntable"
-  ],
-  "厂商": "多家厂商",
-  "产地": "美国/日本",
-  "年代": 1948,
-  "分类路径": [
-   "家电影音",
-   "音响"
-  ],
-  "影响力理由": "33 转 LP 唱机，黑胶唱片播放。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "黑胶唱机",
+  "id": "A-AU-000012",
+  "name": "电子宠物机",
   "aliases": [
-   "Turntable"
+   "Tamagotchi 类"
   ],
-  "maker": "多家厂商",
-  "origin": "美国/日本",
-  "year": 1948,
-  "path": [
-   "家电影音",
-   "音响",
-   "未细分"
-  ],
-  "reason": "33 转 LP 唱机，黑胶唱片播放。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "家电影音",
-   "音响",
-   "未细分"
-  ]
- },
- {
-  "id": "A-AV-000043",
-  "名称": "收音机",
-  "别名": [
-   "Radio"
-  ],
-  "厂商": "多家厂商",
-  "产地": "多国",
-  "年代": 1920,
-  "分类路径": [
-   "家电影音",
-   "音响"
-  ],
-  "影响力理由": "广播接收设备，大众传媒开端。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "收音机",
-  "aliases": [
-   "Radio"
-  ],
-  "maker": "多家厂商",
-  "origin": "多国",
-  "year": 1920,
-  "path": [
-   "家电影音",
-   "音响",
-   "未细分"
-  ],
-  "reason": "广播接收设备，大众传媒开端。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "家电影音",
-   "音响",
-   "未细分"
-  ]
- },
- {
-  "id": "A-AV-000044",
-  "名称": "收录机",
-  "别名": [
-   "Radio cassette"
-  ],
-  "厂商": "多家厂商",
-  "产地": "日本",
-  "年代": 1970,
-  "分类路径": [
-   "家电影音",
-   "音响"
-  ],
-  "影响力理由": "收音与录音一体机，磁带时代家庭标配。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "收录机",
-  "aliases": [
-   "Radio cassette"
-  ],
-  "maker": "多家厂商",
+  "manufacturer": "Bandai",
   "origin": "日本",
-  "year": 1970,
-  "path": [
+  "era": 1996,
+  "taxonomy_path": [
    "家电影音",
    "音响",
-   "未细分"
+   "随身听"
   ],
-  "reason": "收音与录音一体机，磁带时代家庭标配。",
+  "influence": "电子宠物随身设备，现象级玩具。",
   "status": "planned",
   "device_id": null,
   "sources": [],
+  "maker": "Bandai",
+  "year": 1996,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "电子宠物随身设备，现象级玩具。",
   "_taxonomy": [
    "家电影音",
    "音响",
-   "未细分"
+   "随身听"
   ]
  },
  {
-  "id": "A-AV-000045",
-  "名称": "CD 音响",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "日本",
-  "年代": 1985,
-  "分类路径": [
-   "家电影音",
-   "音响"
+  "id": "A-AU-000027",
+  "name": "Walkman II",
+  "aliases": [
+   "WM-2"
   ],
-  "影响力理由": "CD 与音响一体化，数字音频家庭化。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "CD 音响",
-  "aliases": [],
-  "maker": "多家厂商",
+  "manufacturer": "Sony",
   "origin": "日本",
+  "era": 1981,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "第二代 Walkman，更小型化。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1981,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "第二代 Walkman，更小型化。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000028",
+  "name": "Walkman Professional",
+  "aliases": [
+   "WM-D6C"
+  ],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "专业级 Walkman，录音与回放高保真。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1984,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "专业级 Walkman，录音与回放高保真。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000029",
+  "name": "Walkman Sports",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "运动防汗 Walkman，黄色机身。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1984,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "运动防汗 Walkman，黄色机身。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000030",
+  "name": "Walkman 数字",
+  "aliases": [
+   "NW series"
+  ],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 2005,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "数字 Walkman，索尼回归随身听。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 2005,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "数字 Walkman，索尼回归随身听。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000031",
+  "name": "MD 录音机",
+  "aliases": [
+   "MiniDisc recorder"
+  ],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1992,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "MD 录音设备，可录可擦。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1992,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "MD 录音设备，可录可擦。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000032",
+  "name": "MD 台式机",
+  "aliases": [],
+  "manufacturer": "Sony/Sharp",
+  "origin": "日本",
+  "era": 1994,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "MD 台式录音机，家庭音乐编辑。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony/Sharp",
+  "year": 1994,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "MD 台式录音机，家庭音乐编辑。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000033",
+  "name": "iPod mini",
+  "aliases": [],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 2004,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "彩色小型 iPod。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Apple",
+  "year": 2004,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "彩色小型 iPod。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000034",
+  "name": "MP3 播放器（闪存）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "韩国",
+  "era": 2001,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "闪存 MP3 播放器，取代磁带随身听。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2001,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "闪存 MP3 播放器，取代磁带随身听。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000035",
+  "name": "磁带随身听（国产）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "中国/日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "普及型磁带随身听，随身听大众化。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
   "year": 1985,
   "path": [
    "家电影音",
    "音响",
-   "未细分"
+   "随身听"
   ],
-  "reason": "CD 与音响一体化，数字音频家庭化。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
+  "reason": "普及型磁带随身听，随身听大众化。",
   "_taxonomy": [
    "家电影音",
    "音响",
-   "未细分"
+   "随身听"
   ]
  },
  {
-  "id": "A-AV-000046",
-  "名称": "家庭影院系统",
-  "别名": [
-   "Home theater"
-  ],
-  "厂商": "多家厂商",
-  "产地": "日本/美国",
-  "年代": 1995,
-  "分类路径": [
-   "家电影音",
-   "音响"
-  ],
-  "影响力理由": "多声道环绕音响，家庭影院体验。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "家庭影院系统",
-  "aliases": [
-   "Home theater"
-  ],
-  "maker": "多家厂商",
-  "origin": "日本/美国",
-  "year": 1995,
-  "path": [
-   "家电影音",
-   "音响",
-   "未细分"
-  ],
-  "reason": "多声道环绕音响，家庭影院体验。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "家电影音",
-   "音响",
-   "未细分"
-  ]
- },
- {
-  "id": "A-AV-000047",
-  "名称": "蓝牙音箱",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "中国/美国",
-  "年代": 2010,
-  "分类路径": [
-   "家电影音",
-   "音响"
-  ],
-  "影响力理由": "无线蓝牙音箱，现代便携音响。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "蓝牙音箱",
+  "id": "A-AU-000036",
+  "name": "收音机（晶体管）",
   "aliases": [],
-  "maker": "多家厂商",
-  "origin": "中国/美国",
-  "year": 2010,
-  "path": [
-   "家电影音",
-   "音响",
-   "未细分"
-  ],
-  "reason": "无线蓝牙音箱，现代便携音响。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "家电影音",
-   "音响",
-   "未细分"
-  ]
- },
- {
-  "id": "A-AV-000048",
-  "名称": "留声机（手摇）",
-  "别名": [],
-  "厂商": "Victor/Berliner",
-  "产地": "美国",
-  "年代": 1895,
-  "分类路径": [
-   "家电影音",
-   "音响"
-  ],
-  "影响力理由": "手摇留声机，早期家庭音乐播放。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "留声机（手摇）",
-  "aliases": [],
-  "maker": "Victor/Berliner",
-  "origin": "美国",
-  "year": 1895,
-  "path": [
-   "家电影音",
-   "音响",
-   "未细分"
-  ],
-  "reason": "手摇留声机，早期家庭音乐播放。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "家电影音",
-   "音响",
-   "未细分"
-  ]
- },
- {
-  "id": "A-AV-000049",
-  "名称": "电子琴",
-  "别名": [],
-  "厂商": "Yamaha/Casio",
-  "产地": "日本",
-  "年代": 1980,
-  "分类路径": [
-   "家电影音",
-   "音响"
-  ],
-  "影响力理由": "家用电子琴，音乐教育普及。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "电子琴",
-  "aliases": [],
-  "maker": "Yamaha/Casio",
+  "manufacturer": "Sony",
   "origin": "日本",
-  "year": 1980,
-  "path": [
+  "era": 1955,
+  "taxonomy_path": [
    "家电影音",
    "音响",
-   "未细分"
+   "随身听"
   ],
-  "reason": "家用电子琴，音乐教育普及。",
+  "influence": "袖珍晶体管收音机。",
   "status": "planned",
   "device_id": null,
   "sources": [],
-  "_taxonomy": [
-   "家电影音",
-   "音响",
-   "未细分"
-  ]
- },
- {
-  "id": "A-AV-000070",
-  "名称": "车载音响",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "日本/美国",
-  "年代": 1956,
-  "分类路径": [
-   "家电影音",
-   "音响"
-  ],
-  "影响力理由": "车载收音与音响，移动娱乐。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "车载音响",
-  "aliases": [],
-  "maker": "多家厂商",
-  "origin": "日本/美国",
-  "year": 1956,
+  "maker": "Sony",
+  "year": 1955,
   "path": [
    "家电影音",
    "音响",
-   "未细分"
+   "随身听"
   ],
-  "reason": "车载收音与音响，移动娱乐。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
+  "reason": "袖珍晶体管收音机。",
   "_taxonomy": [
    "家电影音",
    "音响",
-   "未细分"
+   "随身听"
   ]
  },
  {
-  "id": "A-AV-000071",
-  "名称": "电唱收音一体机",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "日本",
-  "年代": 1960,
-  "分类路径": [
-   "家电影音",
-   "音响"
-  ],
-  "影响力理由": "唱机与收音一体，家庭娱乐设备。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "电唱收音一体机",
+  "id": "A-AU-000047",
+  "name": "CD 随身听（运动）",
   "aliases": [],
-  "maker": "多家厂商",
+  "manufacturer": "Sony",
   "origin": "日本",
-  "year": 1960,
-  "path": [
+  "era": 1990,
+  "taxonomy_path": [
    "家电影音",
    "音响",
-   "未细分"
+   "随身听"
   ],
-  "reason": "唱机与收音一体，家庭娱乐设备。",
+  "influence": "运动防震 CD 随身听，防跳针。",
   "status": "planned",
   "device_id": null,
   "sources": [],
-  "_taxonomy": [
-   "家电影音",
-   "音响",
-   "未细分"
-  ]
- },
- {
-  "id": "A-AV-000072",
-  "名称": "有源音箱",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "美国/日本",
-  "年代": 1990,
-  "分类路径": [
-   "家电影音",
-   "音响"
-  ],
-  "影响力理由": "内置功放的音箱，电脑多媒体。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "有源音箱",
-  "aliases": [],
-  "maker": "多家厂商",
-  "origin": "美国/日本",
+  "maker": "Sony",
   "year": 1990,
   "path": [
    "家电影音",
    "音响",
-   "未细分"
+   "随身听"
   ],
-  "reason": "内置功放的音箱，电脑多媒体。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
+  "reason": "运动防震 CD 随身听，防跳针。",
   "_taxonomy": [
    "家电影音",
    "音响",
-   "未细分"
+   "随身听"
   ]
  },
  {
-  "id": "A-AV-000073",
-  "名称": "Soundbar 回音壁",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "韩国/美国",
-  "年代": 2010,
-  "分类路径": [
-   "家电影音",
-   "音响"
-  ],
-  "影响力理由": "条形音箱，平板电视配音响。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "Soundbar 回音壁",
+  "id": "A-AU-000048",
+  "name": "MP3 播放器（硬盘）",
   "aliases": [],
+  "manufacturer": "Creative",
+  "origin": "新加坡",
+  "era": 2001,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "硬盘 MP3 播放器，大容量随身音乐。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Creative",
+  "year": 2001,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "硬盘 MP3 播放器，大容量随身音乐。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000049",
+  "name": "磁带随身听（自动反转）",
+  "aliases": [],
+  "manufacturer": "Sony/Aiwa",
+  "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "自动反转磁带随身听，免翻面。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony/Aiwa",
+  "year": 1985,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "自动反转磁带随身听，免翻面。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000055",
+  "name": "CD 播放机（便携防震）",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1992,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "ESP 防震 CD 随身听，运动聆听。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1992,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "ESP 防震 CD 随身听，运动聆听。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000056",
+  "name": "MD 随身听（录放）",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1995,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "录放 MD 随身听，音乐编辑。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1995,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "录放 MD 随身听，音乐编辑。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000057",
+  "name": "Walkman（卡带收藏版）",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 2019,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "纪念版 Walkman，复古复刻。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 2019,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "纪念版 Walkman，复古复刻。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000062",
+  "name": "MD 光盘（介质）",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1992,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "influence": "MD 光盘介质，可录可擦。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1992,
+  "path": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ],
+  "reason": "MD 光盘介质，可录可擦。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "随身听"
+  ]
+ },
+ {
+  "id": "A-AU-000013",
+  "name": "组合音响",
+  "aliases": [
+   "Mini Hi-Fi"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1980,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "一体化家庭音响，含收音/磁带/CD。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
   "maker": "多家厂商",
-  "origin": "韩国/美国",
+  "year": 1980,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "一体化家庭音响，含收音/磁带/CD。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000015",
+  "name": "黑胶唱机",
+  "aliases": [
+   "Turntable"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "美国/日本",
+  "era": 1948,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "33 转 LP 唱机，黑胶唱片播放。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1948,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "33 转 LP 唱机，黑胶唱片播放。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000017",
+  "name": "收录机",
+  "aliases": [
+   "Radio cassette"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1970,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "收音与录音一体机，磁带时代家庭标配。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1970,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "收音与录音一体机，磁带时代家庭标配。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000018",
+  "name": "CD 音响",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "CD 与音响一体化，数字音频家庭化。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1985,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "CD 与音响一体化，数字音频家庭化。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000021",
+  "name": "留声机（手摇）",
+  "aliases": [],
+  "manufacturer": "Victor/Berliner",
+  "origin": "美国",
+  "era": 1895,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "手摇留声机，早期家庭音乐播放。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Victor/Berliner",
+  "year": 1895,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "手摇留声机，早期家庭音乐播放。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000024",
+  "name": "电唱收音一体机",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1960,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "唱机与收音一体，家庭娱乐设备。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1960,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "唱机与收音一体，家庭娱乐设备。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000037",
+  "name": "双卡收录机",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1980,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "双卡收录机，翻录磁带。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1980,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "双卡收录机，翻录磁带。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000039",
+  "name": "黑胶唱机（直驱）",
+  "aliases": [],
+  "manufacturer": "Technics",
+  "origin": "日本",
+  "era": 1972,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "直驱唱机 SL-1200，DJ 与 Hi-Fi 经典。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Technics",
+  "year": 1972,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "直驱唱机 SL-1200，DJ 与 Hi-Fi 经典。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000040",
+  "name": "CD 转盘",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1987,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "纯 CD 转盘，Hi-Fi 分体。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1987,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "纯 CD 转盘，Hi-Fi 分体。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000043",
+  "name": "留声机（电唱）",
+  "aliases": [],
+  "manufacturer": "RCA",
+  "origin": "美国",
+  "era": 1925,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "电唱机，电声唱机普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "RCA",
+  "year": 1925,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "电唱机，电声唱机普及。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000044",
+  "name": "组合音响（带 MD）",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1995,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "带 MD 的组合音响，全格式播放。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1995,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "带 MD 的组合音响，全格式播放。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000046",
+  "name": "电唱机（便携）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1950,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "便携电唱机，青少年娱乐。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1950,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "便携电唱机，青少年娱乐。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000051",
+  "name": "CD 组合（书架）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "书架式 CD 组合，卧室音乐。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1990,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "书架式 CD 组合，卧室音乐。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000052",
+  "name": "黑胶唱机（自动）",
+  "aliases": [],
+  "manufacturer": "Technics",
+  "origin": "日本",
+  "era": 1980,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "全自动黑胶唱机，家庭黑胶。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Technics",
+  "year": 1980,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "全自动黑胶唱机，家庭黑胶。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000053",
+  "name": "磁带录音座（三磁头）",
+  "aliases": [],
+  "manufacturer": "Nakamichi",
+  "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "三磁头录音座，高保真录音。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Nakamichi",
+  "year": 1985,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "三磁头录音座，高保真录音。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000059",
+  "name": "组合音响（落地）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "落地组合音响，客厅音响。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1985,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "落地组合音响，客厅音响。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000061",
+  "name": "黑胶唱片（LP）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1948,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "influence": "33 转 LP 黑胶介质。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1948,
+  "path": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ],
+  "reason": "33 转 LP 黑胶介质。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "CD 机"
+  ]
+ },
+ {
+  "id": "A-AU-000014",
+  "name": "立体声功放",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本/美国",
+  "era": 1965,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "influence": "立体声功率放大器，Hi-Fi 核心。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1965,
+  "path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "reason": "立体声功率放大器，Hi-Fi 核心。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "功放"
+  ]
+ },
+ {
+  "id": "A-AU-000016",
+  "name": "收音机",
+  "aliases": [
+   "Radio"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "多国",
+  "era": 1920,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "influence": "广播接收设备，大众传媒开端。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1920,
+  "path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "reason": "广播接收设备，大众传媒开端。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "功放"
+  ]
+ },
+ {
+  "id": "A-AU-000019",
+  "name": "家庭影院系统",
+  "aliases": [
+   "Home theater"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "日本/美国",
+  "era": 1995,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "influence": "多声道环绕音响，家庭影院体验。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1995,
+  "path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "reason": "多声道环绕音响，家庭影院体验。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "功放"
+  ]
+ },
+ {
+  "id": "A-AU-000020",
+  "name": "蓝牙音箱",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "中国/美国",
+  "era": 2010,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "influence": "无线蓝牙音箱，现代便携音响。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
   "year": 2010,
   "path": [
    "家电影音",
    "音响",
-   "未细分"
+   "功放"
   ],
-  "reason": "条形音箱，平板电视配音响。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
+  "reason": "无线蓝牙音箱，现代便携音响。",
   "_taxonomy": [
    "家电影音",
    "音响",
-   "未细分"
+   "功放"
+  ]
+ },
+ {
+  "id": "A-AU-000022",
+  "name": "电子琴",
+  "aliases": [],
+  "manufacturer": "Yamaha/Casio",
+  "origin": "日本",
+  "era": 1980,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "influence": "家用电子琴，音乐教育普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Yamaha/Casio",
+  "year": 1980,
+  "path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "reason": "家用电子琴，音乐教育普及。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "功放"
+  ]
+ },
+ {
+  "id": "A-AU-000023",
+  "name": "车载音响",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本/美国",
+  "era": 1956,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "influence": "车载收音与音响，移动娱乐。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1956,
+  "path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "reason": "车载收音与音响，移动娱乐。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "功放"
+  ]
+ },
+ {
+  "id": "A-AU-000025",
+  "name": "有源音箱",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国/日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "influence": "内置功放的音箱，电脑多媒体。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1990,
+  "path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "reason": "内置功放的音箱，电脑多媒体。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "功放"
+  ]
+ },
+ {
+  "id": "A-AU-000026",
+  "name": "Soundbar 回音壁",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "韩国/美国",
+  "era": 2010,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "influence": "条形音箱，平板电视配音响。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2010,
+  "path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "reason": "条形音箱，平板电视配音响。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "功放"
+  ]
+ },
+ {
+  "id": "A-AU-000038",
+  "name": "功放（AV）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "influence": "AV 功放，多声道家庭影院核心。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1990,
+  "path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "reason": "AV 功放，多声道家庭影院核心。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "功放"
+  ]
+ },
+ {
+  "id": "A-AU-000041",
+  "name": "DAC 解码器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国/日本",
+  "era": 1995,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "influence": "数模转换器，数字音频解码。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1995,
+  "path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "reason": "数模转换器，数字音频解码。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "功放"
+  ]
+ },
+ {
+  "id": "A-AU-000042",
+  "name": "耳机（大耳）",
+  "aliases": [],
+  "manufacturer": "Sennheiser/AKG",
+  "origin": "德国/奥地利",
+  "era": 1968,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "influence": "监听耳机，高保真聆听。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sennheiser/AKG",
+  "year": 1968,
+  "path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "reason": "监听耳机，高保真聆听。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "功放"
+  ]
+ },
+ {
+  "id": "A-AU-000045",
+  "name": "收音机（电子管）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1930,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "influence": "电子管收音机，早期家庭娱乐。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1930,
+  "path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "reason": "电子管收音机，早期家庭娱乐。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "功放"
+  ]
+ },
+ {
+  "id": "A-AU-000050",
+  "name": "收音机（闹钟）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1975,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "influence": "闹钟收音机，床头家电。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1975,
+  "path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "reason": "闹钟收音机，床头家电。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "功放"
+  ]
+ },
+ {
+  "id": "A-AU-000054",
+  "name": "均衡器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1980,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "influence": "图示均衡器，音响调音。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1980,
+  "path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "reason": "图示均衡器，音响调音。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "功放"
+  ]
+ },
+ {
+  "id": "A-AU-000058",
+  "name": "蓝牙耳机",
+  "aliases": [],
+  "manufacturer": "Apple/多家",
+  "origin": "美国",
+  "era": 2016,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "influence": "真无线蓝牙耳机，现代随身听。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Apple/多家",
+  "year": 2016,
+  "path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "reason": "真无线蓝牙耳机，现代随身听。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "功放"
+  ]
+ },
+ {
+  "id": "A-AU-000060",
+  "name": "收音机（车用）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1960,
+  "taxonomy_path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "influence": "车载收音机，行车娱乐。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1960,
+  "path": [
+   "家电影音",
+   "音响",
+   "功放"
+  ],
+  "reason": "车载收音机，行车娱乐。",
+  "_taxonomy": [
+   "家电影音",
+   "音响",
+   "功放"
   ]
  }
 ]

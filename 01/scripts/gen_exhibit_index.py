@@ -31,13 +31,24 @@ HALL_OF = {
     "mainframe": "大型机与小型机厅（Mainframe Hall）",
     "minicomputer": "大型机与小型机厅（Mainframe Hall）",
     "computer": "个人计算机厅（Personal Computer Hall）",
+    # 实际包用的键是 personal-computer（12 台）——历史缺失导致其静默沉入示例厅
+    "personal-computer": "个人计算机厅（Personal Computer Hall）",
+    # TASK-176-B：workstation 按 173-A 名单「个人机/工作站」同组口径归入个人机厅
+    # （任务书未给 workstation 专属厅；漂移记录于 TASK-176-B 完成报告）
+    "workstation": "个人计算机厅（Personal Computer Hall）",
     "game-console": "游戏机厅（Console Hall）",
+    # TASK-176-B 第二批新品类：已实际出现者才映射（未出现的值不硬造）
+    "phone": "手机与手持（Mobile & Handheld）",
+    "pda": "手机与手持（Mobile & Handheld）",
     "placeholder": "示例（Samples）",
 }
 HALL_ORDER = [
     "黎明厅（Dawn Hall）", "大型机与小型机厅（Mainframe Hall）",
-    "个人计算机厅（Personal Computer Hall）", "游戏机厅（Console Hall）", "示例（Samples）",
+    "个人计算机厅（Personal Computer Hall）", "游戏机厅（Console Hall）",
+    "手机与手持（Mobile & Handheld）", "示例（Samples）",
 ]
+# TASK-176-B：未登记 category 不再静默沉入示例厅，归入置末的未归类厅（stderr 告警可见）
+UNCLASSIFIED = "未归类（Unclassified）"
 
 
 def read_meta(pkg: str) -> dict:
@@ -114,8 +125,17 @@ def collect() -> dict:
         })
     halls: dict[str, list] = {}
     for d in packages:
-        halls.setdefault(HALL_OF.get(d["category"], "示例（Samples）"), []).append(d)
+        cat = d["category"]
+        hall = HALL_OF.get(cat)
+        if hall is None:
+            print("[需核实] 未归类 category=%s（设备 %s）" % (cat, d["id"]),
+                  file=sys.stderr)
+            hall = UNCLASSIFIED
+        halls.setdefault(hall, []).append(d)
     hall_list = [{"hall": h, "devices": halls[h]} for h in HALL_ORDER if h in halls]
+    # 不在 HALL_ORDER 内的厅（如未归类）置末，保证可发现性
+    for extra in sorted(set(halls) - set(HALL_ORDER)):
+        hall_list.append({"hall": extra, "devices": halls[extra]})
     return {"generated": __import__("datetime").datetime.now().isoformat(timespec="seconds"),
             "halls": hall_list}
 

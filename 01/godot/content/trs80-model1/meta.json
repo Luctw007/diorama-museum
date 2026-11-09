@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "id": "trs80-model1",
+    "name": {
+      "zh": "TRS-80 Model I",
+      "en": "TRS-80 Model I"
+    },
+    "intro": {
+      "zh": "TRS-80 Model I 是 1977 年 Tandy/RadioShack 推出的 8 位家用电脑，与 Apple II、Commodore PET 并称 1977 三杰，借零售网络成为个人电脑元年的畅销机型。",
+      "en": "The TRS-80 Model I, launched by Tandy/RadioShack in 1977, was one of the 1977 Trinity of personal computers alongside the Apple II and Commodore PET."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1977,
+    "manufacturer": "Tandy / RadioShack",
+    "category": "personal-computer",
+    "description": "TRS-80 Model I（1977），1977 三杰之一：Z80 CPU 1.774MHz、4KB 内存、64×16 单色显示、53 键键盘主机一体、卡式磁带存储、底部 DIN 扩展口。",
+    "authors": [
+      {
+        "name": "TASK-78A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — TRS-80",
+        "url": "https://en.wikipedia.org/wiki/TRS-80",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Zilog Z80",
+        "url": "https://en.wikipedia.org/wiki/Zilog_Z80",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "trs80gp — TRS-80 emulator",
+        "url": "https://48k.ca/trs80gp.html",
+        "license": "licensed",
+        "accessed_at": "2026-11-04"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "TRS-80 Model I 整机，1977 年推出的 8 位家用电脑，1977 三杰之一。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "keyboard_unit",
+        "monitor",
+        "expansion_interface",
+        "power",
+        "cassette_recorder"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "trinity_1977",
+        "retail_channel",
+        "trash80_nickname"
+      ]
+    },
+    {
+      "id": "keyboard_unit",
+      "name": "键盘主机一体",
+      "role": {
+        "zh": "键盘主机一体在整机中集成 Z80 处理器、内存与 53 键键盘，是 Model I 的核心单元。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cpu_z80",
+        "ram",
+        "key_matrix",
+        "rom"
+      ],
+      "annotations": [
+        "keyboard_unit_role",
+        "level2_basic"
+      ],
+      "mesh_ref": "assemblies/keyboard_unit.gltf"
+    },
+    {
+      "id": "monitor",
+      "name": "黑白显示器",
+      "role": {
+        "zh": "黑白显示器在整机中显示 64×16 字符的单色画面，由 RCA 黑白电视改装而来。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "crt_tube",
+        "brightness_knob"
+      ],
+      "annotations": [
+        "monitor_role"
+      ],
+      "mesh_ref": "assemblies/monitor.gltf"
+    },
+    {
+      "id": "expansion_interface",
+      "name": "底部 DIN 扩展口",
+      "role": {
+        "zh": "底部 DIN 扩展口在整机中位于机身底部，用于外接软驱、打印机与额外内存。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "din_connector"
+      ],
+      "annotations": [
+        "expansion_interface_role"
+      ],
+      "mesh_ref": "assemblies/expansion_interface.gltf"
+    },
+    {
+      "id": "power",
+      "name": "电源（独立单元）",
+      "role": {
+        "zh": "独立电源单元在整机中为键盘主机与显示器供电，与主机分离。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "power_jack",
+        "power_led"
+      ],
+      "annotations": [
+        "power_role"
+      ],
+      "mesh_ref": "assemblies/power.gltf"
+    },
+    {
+      "id": "cassette_recorder",
+      "name": "卡式磁带机",
+      "role": {
+        "zh": "卡式磁带机在整机中作为程序与数据的主要存储设备，通过磁带接口读写。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cassette_bay",
+        "play_button"
+      ],
+      "annotations": [
+        "cassette_recorder_role",
+        "tape_storage"
+      ],
+      "mesh_ref": "assemblies/cassette_recorder.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "cpu_z80",
+      "name": "Z80 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "Z80 处理器在整机中作为计算核心，主频 1.774 MHz，是 8 位时代的经典 CPU。"
+      },
+      "assembly": "keyboard_unit",
+      "annotations": [
+        "cpu_z80_role"
+      ]
+    },
+    {
+      "id": "ram",
+      "name": "内存（4KB）",
+      "type": "ram",
+      "role": {
+        "zh": "4KB 内存在整机中存放程序与数据，可通过扩展口扩充至 48KB。"
+      },
+      "assembly": "keyboard_unit",
+      "annotations": [
+        "ram_role"
+      ]
+    },
+    {
+      "id": "key_matrix",
+      "name": "键盘矩阵（53 键）",
+      "type": "keyboard",
+      "role": {
+        "zh": "键盘矩阵在整机中承载 53 个按键，与主机一体设计，是 Model I 的文字输入界面。"
+      },
+      "assembly": "keyboard_unit",
+      "annotations": [
+        "key_matrix_role"
+      ]
+    },
+    {
+      "id": "rom",
+      "name": "BASIC ROM",
+      "type": "rom",
+      "role": {
+        "zh": "BASIC ROM 在整机中固化 Level I 或 Level II BASIC 解释器，开机即进入 BASIC 环境。"
+      },
+      "assembly": "keyboard_unit",
+      "annotations": [
+        "rom_role"
+      ]
+    },
+    {
+      "id": "crt_tube",
+      "name": "黑白显像管",
+      "type": "crt",
+      "role": {
+        "zh": "黑白显像管在整机中显示 64×16 字符的单色画面，是系统输出的显示部件。"
+      },
+      "assembly": "monitor",
+      "annotations": [
+        "crt_tube_role"
+      ]
+    },
+    {
+      "id": "brightness_knob",
+      "name": "亮度旋钮",
+      "type": "knob",
+      "role": {
+        "zh": "亮度旋钮在整机中调节画面亮度，便于在不同光照下阅读。"
+      },
+      "assembly": "monitor",
+      "annotations": [
+        "brightness_knob_role"
+      ]
+    },
+    {
+      "id": "din_connector",
+      "name": "DIN 连接器",
+      "type": "connector",
+      "role": {
+        "zh": "DIN 连接器在整机中提供底部扩展口，供扩展接口盒与软驱、打印机连接。"
+      },
+      "assembly": "expansion_interface",
+      "annotations": [
+        "din_connector_role"
+      ]
+    },
+    {
+      "id": "power_jack",
+      "name": "电源接口",
+      "type": "connector",
+      "role": {
+        "zh": "电源接口在整机中接纳独立电源单元，为键盘主机供电。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "power_jack_role"
+      ]
+    },
+    {
+      "id": "power_led",
+      "name": "电源指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "电源指示灯在整机中点亮表示系统已上电，是判断机器开启的状态指示。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "power_led_role"
+      ]
+    },
+    {
+      "id": "cassette_bay",
+      "name": "磁带仓",
+      "type": "bay",
+      "role": {
+        "zh": "磁带仓在整机中接纳卡式磁带，是程序与数据的主要存储载体。"
+      },
+      "assembly": "cassette_recorder",
+      "annotations": [
+        "cassette_bay_role"
+      ]
+    },
+    {
+      "id": "play_button",
+      "name": "播放按键",
+      "type": "button",
+      "role": {
+        "zh": "播放按键在整机中控制磁带播放，用于载入或保存程序与数据。"
+      },
+      "assembly": "cassette_recorder",
+      "annotations": [
+        "play_button_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "TRS-80 Model I",
+    "media_hint": "tape",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "external_crt_0",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "mono1"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "enter": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "space": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      },
+      "break": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      }
+    }
+  }
+}

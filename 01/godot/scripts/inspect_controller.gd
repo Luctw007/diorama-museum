@@ -25,6 +25,7 @@ signal node_picked(node: Node3D)
 const ORBIT_SPEED := 0.3 / 100.0   # 弧度/像素
 const PAN_SPEED := 0.9             # 比例系数
 const PICK_RADIUS_PX := 18.0
+const WALK_SPEED := 3.0            # 观察轨道 WASD 平移速度（与 player.MOVE_SPEED 一致）
 
 var target: Node3D
 var _pivot := Vector3.ZERO
@@ -34,7 +35,6 @@ var _radius := 2.2
 var _pan := Vector2.ZERO
 var _dragging := false
 var _panning := false
-var _hovered: Node3D
 var _selected: Node3D      # 选中的"装配体"（role/文案载体）
 var _sel_mesh: Node3D      # 实际命中的 MeshInstance3D（高亮作用点）
 var _hud_label: Label
@@ -98,9 +98,15 @@ func _unhandled_input(event: InputEvent) -> void:
 	elif event is InputEventMouseMotion:
 		if _dragging:
 			_yaw -= event.relative.x * ORBIT_SPEED
-			_pitch = clampf(_pitch - event.relative.y * ORBIT_SPEED, -1.2, 1.2)
+			_pitch = clampf(_pitch + event.relative.y * ORBIT_SPEED, -1.2, 1.2)
 		elif _panning:
 			_pan += Vector2(event.relative.x, event.relative.y) * PAN_SPEED * 0.002
+		elif Input.mouse_mode == Input.MOUSE_MODE_CAPTURED:
+			# 自由环视：捕获模式下非拖拽移动也旋转视角（RUN-08 复测：无法移动/环视）
+			# pitch 取 "+relative.y"：上移=抬头（第六轮复测"上下方向相反"修正）
+			_yaw -= event.relative.x * ORBIT_SPEED
+			_pitch = clampf(_pitch + event.relative.y * ORBIT_SPEED, -1.2, 1.2)
+			_update_hover(get_viewport().get_visible_rect().size * 0.5)
 		else:
 			_update_hover(event.position)
 	elif event is InputEventKey and event.pressed:
@@ -126,6 +132,22 @@ func _process(_delta: float) -> void:
 			_frame_tick, str(target), str(_diag_label != null)])
 	if target == null:
 		return
+	# RUN-08 复测：观察轨道上补行走——WASD 平移枢轴（相机跟随），
+	# player.gd 的移动会被本控制器 _apply_view 覆盖，故移动在此实现。
+	if Input.mouse_mode == Input.MOUSE_MODE_CAPTURED:
+		var look := Vector3(-cos(_pitch) * sin(_yaw), 0.0, -cos(_pitch) * cos(_yaw))
+		var right := look.cross(Vector3.UP)
+		var move := Vector3.ZERO
+		if Input.is_key_pressed(KEY_W):
+			move += look
+		if Input.is_key_pressed(KEY_S):
+			move -= look
+		if Input.is_key_pressed(KEY_A):
+			move -= right
+		if Input.is_key_pressed(KEY_D):
+			move += right
+		if move != Vector3.ZERO:
+			_pivot += move.normalized() * WALK_SPEED * _delta
 	_apply_view()
 	if _diag_label != null:
 		var cam := get_viewport().get_camera_3d()
@@ -133,8 +155,8 @@ func _process(_delta: float) -> void:
 		for mi in target.find_children("*", "MeshInstance3D", true, false):
 			if (mi as MeshInstance3D).mesh != null:
 				mesh_count += 1
-		_diag_label.text = ("[inspect] target=%s meshes=%d camera=%s sel=%s"
-				% [target.name, mesh_count,
+		_diag_label.text = ("[inspect] target=%s meshes=%d mode=%s camera=%s sel=%s"
+				% [target.name, mesh_count, "拆解" if _explode_mode else "观察",
 				   ("%.1f,%.1f,%.1f" % [cam.global_position.x, cam.global_position.y,
 										cam.global_position.z]) if cam != null else "无",
 				   _selected.name if _selected != null else "无"])
@@ -147,7 +169,9 @@ func _apply_view() -> void:
 	if camera == null:
 		return
 	var dir := Vector3(cos(_pitch) * sin(_yaw), sin(_pitch), cos(_pitch) * cos(_yaw))
-	camera.global_position = _pivot + dir * _radius + Vector3(_pan.x, 0.0, _pan.y)
+	var pos := _pivot + dir * _radius + Vector3(_pan.x, 0.0, _pan.y)
+	pos.y = maxf(pos.y, 0.15)   # 相机不钻地板（RUN-08 复测：pitch 下压会把相机带到地面以下）
+	camera.global_position = pos
 	camera.look_at(_pivot + Vector3(_pan.x, 0.0, _pan.y), Vector3.UP)
 
 
@@ -187,11 +211,11 @@ func _assembly_of(mesh_node: Node3D) -> Node3D:
 
 
 func _set_selected(mesh_node: Node3D) -> void:
-	var owner: Node3D = _assembly_of(mesh_node) if mesh_node != null else null
-	if _selected == owner and _sel_mesh == mesh_node:
+	var asmb: Node3D = _assembly_of(mesh_node) if mesh_node != null else null
+	if _selected == asmb and _sel_mesh == mesh_node:
 		return
 	_clear_highlight(_sel_mesh)
-	_selected = owner
+	_selected = asmb
 	_sel_mesh = mesh_node
 	if _sel_mesh != null:
 		var mi := _sel_mesh as MeshInstance3D
@@ -204,8 +228,10 @@ func _set_selected(mesh_node: Node3D) -> void:
 			mat.emission = Color(1.0, 0.6, 0.1)
 			mat.emission_energy_multiplier = 0.6
 		if _hud_label != null:
-			var disp: String = owner.name if owner != null else mesh_node.name
-			var role: String = device_loader_hint.get_node_role(owner) if device_loader_hint != null else ""
+			var disp: String = asmb.name if asmb != null else mesh_node.name
+			var role := ""
+			if device_loader_hint != null:
+				role = device_loader_hint.get_node_role(asmb)
 			_hud_label.text = "[选中] %s\n%s" % [disp, role if role != "" else "（无 role 标注）"]
 	node_picked.emit(_selected)
 

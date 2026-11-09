@@ -1170,13 +1170,13 @@
    "NeXT"
   ],
   "influence": "乔布斯创立 NeXT 的首台电脑，黑立方经典。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "next",
   "verify": false,
   "sources": [
    "S58A"
   ],
-  "research_doc": null,
+  "research_doc": "docs/research/hall-workstation/01_NeXT.md",
   "maker": "NeXT",
   "year": 1988,
   "path": [

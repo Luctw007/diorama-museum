@@ -1,0 +1,1051 @@
+[
+ {
+  "id": "A-VP-000001",
+  "name": "VCD 播放机",
+  "aliases": [
+   "Video CD 播放机"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "中国/日本",
+  "era": 1994,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "influence": "VCD 标准播放器，中国普及度极高，DVD 普及前的家用影音主力。",
+  "status": "researching",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1994,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "reason": "VCD 标准播放器，中国普及度极高，DVD 普及前的家用影音主力。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ]
+ },
+ {
+  "id": "A-VP-000004",
+  "name": "激光影碟机",
+  "aliases": [
+   "LD 播放机",
+   "LaserDisc"
+  ],
+  "manufacturer": "Pioneer",
+  "origin": "日本",
+  "era": 1978,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "influence": "LD 大尺寸模拟影碟播放器，家庭影院先驱（归影碟播放，LD 非 VCD/DVD/蓝光）。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Pioneer",
+  "year": 1978,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "reason": "LD 大尺寸模拟影碟播放器，家庭影院先驱（归影碟播放，LD 非 VCD/DVD/蓝光）。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ]
+ },
+ {
+  "id": "A-VP-000009",
+  "name": "CD-i 播放机",
+  "aliases": [],
+  "manufacturer": "Philips",
+  "origin": "荷兰",
+  "era": 1991,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "influence": "CD 交互多媒体播放器，游戏与影音合一的早期尝试。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Philips",
+  "year": 1991,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "reason": "CD 交互多媒体播放器，游戏与影音合一的早期尝试。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ]
+ },
+ {
+  "id": "A-VP-000012",
+  "name": "卡拉 OK 机",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本/中国",
+  "era": 1980,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "influence": "家庭卡拉 OK 设备，亚洲家庭娱乐代表。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1980,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "reason": "家庭卡拉 OK 设备，亚洲家庭娱乐代表。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ]
+ },
+ {
+  "id": "A-VP-000013",
+  "name": "留声机",
+  "aliases": [
+   "Phonograph"
+  ],
+  "manufacturer": "Edison/Berliner",
+  "origin": "美国",
+  "era": 1888,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "influence": "爱迪生留声机（1877 发明）的改进商用版，音像技术起源。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Edison/Berliner",
+  "year": 1888,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "reason": "爱迪生留声机（1877 发明）的改进商用版，音像技术起源。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ]
+ },
+ {
+  "id": "A-VP-000014",
+  "name": "磁带录音机",
+  "aliases": [
+   "Reel-to-reel"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "美国/日本",
+  "era": 1948,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "influence": "开盘磁带录音机，专业与高端家用录音（归影碟播放系占位）。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1948,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "reason": "开盘磁带录音机，专业与高端家用录音（归影碟播放系占位）。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ]
+ },
+ {
+  "id": "A-VP-000018",
+  "name": "VCD 便携机",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "中国",
+  "era": 1998,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "influence": "便携 VCD 播放机，中国市场的便携影音。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1998,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "reason": "便携 VCD 播放机，中国市场的便携影音。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ]
+ },
+ {
+  "id": "A-VP-000021",
+  "name": "CD 随身听",
+  "aliases": [
+   "Discman"
+  ],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "influence": "便携 CD 播放器（影碟播放系占位，实际归音响随身听）。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1984,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "reason": "便携 CD 播放器（影碟播放系占位，实际归音响随身听）。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ]
+ },
+ {
+  "id": "A-VP-000025",
+  "name": "唱机（留声）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1898,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "influence": "商用留声机，声音记录的早期普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1898,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "reason": "商用留声机，声音记录的早期普及。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ]
+ },
+ {
+  "id": "A-VP-000026",
+  "name": "开盘录音机",
+  "aliases": [],
+  "manufacturer": "Revox/Teac",
+  "origin": "瑞士/日本",
+  "era": 1955,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "influence": "专业开盘录音机，录音室标准。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Revox/Teac",
+  "year": 1955,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "reason": "专业开盘录音机，录音室标准。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ]
+ },
+ {
+  "id": "A-VP-000027",
+  "name": "盒式录音机",
+  "aliases": [
+   "Cassette deck"
+  ],
+  "manufacturer": "Philips",
+  "origin": "荷兰",
+  "era": 1963,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "influence": "卡式录音机，把磁带录音普及到家庭。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Philips",
+  "year": 1963,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "reason": "卡式录音机，把磁带录音普及到家庭。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ]
+ },
+ {
+  "id": "A-VP-000029",
+  "name": "VCD 影碟（介质）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "中国",
+  "era": 1994,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "influence": "VCD 光盘介质，中国普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1994,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "reason": "VCD 光盘介质，中国普及。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ]
+ },
+ {
+  "id": "A-VP-000032",
+  "name": "LD 影碟（介质）",
+  "aliases": [],
+  "manufacturer": "Pioneer",
+  "origin": "日本",
+  "era": 1978,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "influence": "LD 影碟介质，大尺寸模拟影碟。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Pioneer",
+  "year": 1978,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "reason": "LD 影碟介质，大尺寸模拟影碟。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ]
+ },
+ {
+  "id": "A-VP-000033",
+  "name": "录音带（盒式介质）",
+  "aliases": [],
+  "manufacturer": "Philips",
+  "origin": "荷兰",
+  "era": 1963,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "influence": "盒式录音带介质，磁带音乐。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Philips",
+  "year": 1963,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "reason": "盒式录音带介质，磁带音乐。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ]
+ },
+ {
+  "id": "A-VP-000034",
+  "name": "CD 光盘（介质）",
+  "aliases": [],
+  "manufacturer": "Philips/Sony",
+  "origin": "荷兰/日本",
+  "era": 1982,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "influence": "CD 光盘介质，数字音频。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Philips/Sony",
+  "year": 1982,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ],
+  "reason": "CD 光盘介质，数字音频。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "VCD"
+  ]
+ },
+ {
+  "id": "A-VP-000002",
+  "name": "DVD 播放机",
+  "aliases": [
+   "Digital Versatile Disc 播放机"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1996,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "influence": "DVD 标准播放器，取代 VHS 与 VCD 的家用影音主力。",
+  "status": "researching",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1996,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "reason": "DVD 标准播放器，取代 VHS 与 VCD 的家用影音主力。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ]
+ },
+ {
+  "id": "A-VP-000005",
+  "name": "CD 播放机",
+  "aliases": [
+   "Compact Disc 播放机"
+  ],
+  "manufacturer": "Philips/Sony",
+  "origin": "荷兰/日本",
+  "era": 1982,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "influence": "首台 CD 播放机，数字音频进入家庭的开端（归影碟播放系）。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Philips/Sony",
+  "year": 1982,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "reason": "首台 CD 播放机，数字音频进入家庭的开端（归影碟播放系）。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ]
+ },
+ {
+  "id": "A-VP-000006",
+  "name": "DVD 录像一体机",
+  "aliases": [
+   "DVD Recorder"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2001,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "influence": "DVD 播放与录像合一，家庭录像数字化。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2001,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "reason": "DVD 播放与录像合一，家庭录像数字化。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ]
+ },
+ {
+  "id": "A-VP-000007",
+  "name": "便携式 DVD 播放机",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "中国/日本",
+  "era": 2002,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "influence": "便携影音设备，旅途娱乐常见。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2002,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "reason": "便携影音设备，旅途娱乐常见。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ]
+ },
+ {
+  "id": "A-VP-000010",
+  "name": "VHS/DVD 一体机",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2000,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "influence": "录像机与 DVD 播放器合一的过渡产品。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2000,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "reason": "录像机与 DVD 播放器合一的过渡产品。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ]
+ },
+ {
+  "id": "A-VP-000019",
+  "name": "DVD 高清机",
+  "aliases": [
+   "Upconverting DVD"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2005,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "influence": "倍线 DVD 播放机，接高清电视。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2005,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "reason": "倍线 DVD 播放机，接高清电视。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ]
+ },
+ {
+  "id": "A-VP-000022",
+  "name": "录像机 DVD 一体",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2003,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "influence": "VHS 与 DVD 一体机，双格式播放。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2003,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "reason": "VHS 与 DVD 一体机，双格式播放。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ]
+ },
+ {
+  "id": "A-VP-000028",
+  "name": "DVD 刻录机",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2003,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "influence": "DVD 刻录机，家庭录像存档。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2003,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "reason": "DVD 刻录机，家庭录像存档。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ]
+ },
+ {
+  "id": "A-VP-000030",
+  "name": "DVD 影碟（介质）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1996,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "influence": "DVD 光盘介质，家用影音标准。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1996,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ],
+  "reason": "DVD 光盘介质，家用影音标准。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "DVD"
+  ]
+ },
+ {
+  "id": "A-VP-000003",
+  "name": "蓝光播放机",
+  "aliases": [
+   "Blu-ray 播放机"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2006,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "influence": "蓝光光盘播放器，高清影音标准。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2006,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "reason": "蓝光光盘播放器，高清影音标准。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ]
+ },
+ {
+  "id": "A-VP-000008",
+  "name": "高清媒体播放器",
+  "aliases": [
+   "HTPC 播放盒"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "中国",
+  "era": 2008,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "influence": "USB 媒体播放盒，接电视播本地视频。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2008,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "reason": "USB 媒体播放盒，接电视播本地视频。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ]
+ },
+ {
+  "id": "A-VP-000011",
+  "name": "数字机顶盒",
+  "aliases": [
+   "Set-top box"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "多国",
+  "era": 1995,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "influence": "数字电视接收设备，有线与卫星电视普及的关键。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1995,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "reason": "数字电视接收设备，有线与卫星电视普及的关键。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ]
+ },
+ {
+  "id": "A-VP-000015",
+  "name": "电子书阅读器",
+  "aliases": [
+   "E-reader"
+  ],
+  "manufacturer": "Amazon/Sony",
+  "origin": "美国/日本",
+  "era": 2007,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "influence": "电子墨水阅读器，数字阅读设备。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Amazon/Sony",
+  "year": 2007,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "reason": "电子墨水阅读器，数字阅读设备。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ]
+ },
+ {
+  "id": "A-VP-000016",
+  "name": "数码相框",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "中国/日本",
+  "era": 2006,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "influence": "数码相框，照片展示设备。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2006,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "reason": "数码相框，照片展示设备。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ]
+ },
+ {
+  "id": "A-VP-000017",
+  "name": "投影仪",
+  "aliases": [],
+  "manufacturer": "Epson/Sony",
+  "origin": "日本",
+  "era": 1989,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "influence": "家庭与办公投影，大画面显示。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Epson/Sony",
+  "year": 1989,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "reason": "家庭与办公投影，大画面显示。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ]
+ },
+ {
+  "id": "A-VP-000020",
+  "name": "蓝光 3D 机",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2010,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "influence": "蓝光 3D 播放机，3D 影音。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2010,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "reason": "蓝光 3D 播放机，3D 影音。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ]
+ },
+ {
+  "id": "A-VP-000023",
+  "name": "MP4 播放器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "中国",
+  "era": 2005,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "influence": "便携 MP4 播放器，随身视频。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2005,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "reason": "便携 MP4 播放器，随身视频。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ]
+ },
+ {
+  "id": "A-VP-000024",
+  "name": "移动影院",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "中国",
+  "era": 2007,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "influence": "便携移动影院，外出观影。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2007,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "reason": "便携移动影院，外出观影。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ]
+ },
+ {
+  "id": "A-VP-000031",
+  "name": "蓝光影碟（介质）",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 2006,
+  "taxonomy_path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "influence": "蓝光光盘介质，高清存储。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 2006,
+  "path": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ],
+  "reason": "蓝光光盘介质，高清存储。",
+  "_taxonomy": [
+   "家电影音",
+   "影碟播放",
+   "蓝光"
+  ]
+ }
+]

@@ -1,0 +1,388 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "game-boy",
+    "name": {
+      "zh": "Game Boy",
+      "en": "Game Boy"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1989,
+    "manufacturer": "Nintendo",
+    "category": "game-console",
+    "description": "1989 年任天堂推出的 8 位掌上游戏机，以 160×144 点阵 4 级灰度屏与俄罗斯方块捆绑开创手提机品类，是最畅销掌机之一。",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "intro": {
+      "zh": "Game Boy 是任天堂于 1989 年推出的 8 位掌上游戏机，是横井军平枯萎技术的水平思考的集大成之作。它以 160×144 点阵 4 级灰度的无背光屏、Sharp LR35902 处理器与 4 节 AA 电池供电，用够用的硬件与俄罗斯方块捆绑，开辟了手提机这一全新品类，累计销量约 1.18 亿台（含 Game Boy Color）。",
+      "en": "The Game Boy is an 8-bit handheld console released by Nintendo in 1989, the culmination of Gunpei Yokoi's lateral thinking of withered technology. With a 160x144 4-shade reflective LCD, the Sharp LR35902 CPU and four AA batteries, it created the handheld category through the Tetris bundle, selling about 118 million units including the Game Boy Color."
+    },
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Game Boy",
+        "url": "https://en.wikipedia.org/wiki/Game_Boy",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "Pan Docs (GB 技术文档)",
+        "url": "https://gbdev.io/pandocs/",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "SameBoy GitHub (MIT)",
+        "url": "https://github.com/LIJI32/SameBoy",
+        "license": "licensed",
+        "accessed_at": "2026-11-04"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "game_boy",
+      "name": "整机",
+      "role": {
+        "zh": "Game Boy 整机，1989 年任天堂推出的 8 位掌上游戏机，由前壳、后壳、主板、屏模组、十字键模组与卡带组成，是掌机第二台正式入包设备。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "front_shell",
+        "back_shell",
+        "mainboard",
+        "screen_module",
+        "dpad_module",
+        "cartridge"
+      ],
+      "components": [],
+      "annotations": [
+        "game_boy_role",
+        "boot_flow",
+        "tetris_role"
+      ]
+    },
+    {
+      "id": "front_shell",
+      "name": "前壳",
+      "role": {
+        "zh": "前壳在整机中作为机身正面壳体，带屏幕窗与 AB 键位，构成掌机的操作面板。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "game_boy",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "front_shell_role",
+        "screen_bez_role"
+      ],
+      "mesh_ref": "assemblies/front_shell.gltf"
+    },
+    {
+      "id": "back_shell",
+      "name": "后壳",
+      "role": {
+        "zh": "后壳在整机中作为机身背面壳体，带电池仓与卡带仓，与前壳扣合构成完整机身。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "game_boy",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "back_shell_role",
+        "battery_role"
+      ],
+      "mesh_ref": "assemblies/back_shell.gltf"
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 LR35902 处理器与 LCD 控制器，是掌机的核心电路板。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "game_boy",
+      "children": [],
+      "components": [
+        "cpu_lr35902",
+        "lcd_controller"
+      ],
+      "annotations": [
+        "mainboard_role"
+      ],
+      "mesh_ref": "assemblies/mainboard.gltf"
+    },
+    {
+      "id": "screen_module",
+      "name": "屏模组",
+      "role": {
+        "zh": "屏模组在整机中显示 160×144 点阵 4 级灰度画面，是掌机的绿点阵显示核心。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "game_boy",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "screen_module_role",
+        "green_lcd_role",
+        "dot_matrix_role"
+      ],
+      "mesh_ref": "assemblies/screen_module.gltf"
+    },
+    {
+      "id": "dpad_module",
+      "name": "十字键模组",
+      "role": {
+        "zh": "十字键模组在整机中提供十字键与 AB 键输入，是掌机的主要操作方式。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "game_boy",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "dpad_module_role",
+        "dpad_origin_role"
+      ],
+      "mesh_ref": "assemblies/dpad_module.gltf"
+    },
+    {
+      "id": "cartridge",
+      "name": "卡带",
+      "role": {
+        "zh": "卡带在整机中存放游戏程序，通过背部插槽插入主机，是掌机的游戏内容载体。"
+      },
+      "transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "game_boy",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "cartridge_role",
+        "cart_swap_role",
+        "cartridge_insert_anim"
+      ],
+      "mesh_ref": "assemblies/cartridge.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "cpu_lr35902",
+      "name": "Sharp LR35902 处理器",
+      "type": "ic",
+      "role": {
+        "zh": "Sharp LR35902 处理器在整机中负责取指译码执行游戏程序，是 GB 专用定制芯片，是掌机的运算核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": [
+        "cpu_lr35902_role"
+      ],
+      "part_no": "LR35902"
+    },
+    {
+      "id": "lcd_controller",
+      "name": "LCD 控制器",
+      "type": "ic",
+      "role": {
+        "zh": "LCD 控制器在整机中驱动 160×144 点阵 4 级灰度屏，是掌机画面的显示核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": [
+        "lcd_controller_role"
+      ],
+      "part_no": "LCD Controller"
+    }
+  ],
+  "runtime": {
+    "emulator": "sameboy",
+    "version": "0.16",
+    "system": "gameboy",
+    "media_hint": "cartridge",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "lcd_internal",
+        "surface": "handheld_lcd",
+        "type": "video",
+        "format": "rgba8"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      },
+      {
+        "id": "led_power",
+        "surface": "led",
+        "type": "hid"
+      }
+    ],
+    "input_map": {
+      "pad_up": {
+        "map": "joystick",
+        "key": "hat_0"
+      },
+      "pad_down": {
+        "map": "joystick",
+        "key": "hat_0"
+      },
+      "pad_left": {
+        "map": "joystick",
+        "key": "hat_0"
+      },
+      "pad_right": {
+        "map": "joystick",
+        "key": "hat_0"
+      },
+      "btn_a": {
+        "map": "joystick",
+        "key": "btn0"
+      },
+      "btn_b": {
+        "map": "joystick",
+        "key": "btn1"
+      },
+      "btn_start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "btn_select": {
+        "map": "keyboard",
+        "key": "KEY_RSHIFT"
+      },
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      }
+    }
+  }
+}

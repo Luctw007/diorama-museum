@@ -1,582 +1,852 @@
 [
  {
-  "id": "A-AV-000050",
-  "名称": "早期 CRT 电视",
-  "别名": [
-   "Baird TV"
-  ],
-  "厂商": "多家厂商",
-  "产地": "英国/美国",
-  "年代": 1928,
-  "分类路径": [
-   "家电影音",
-   "电视"
-  ],
-  "影响力理由": "早期机械/电子电视，电视技术的开端。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-TV-000001",
   "name": "早期 CRT 电视",
   "aliases": [
    "Baird TV"
   ],
-  "maker": "多家厂商",
+  "manufacturer": "多家厂商",
   "origin": "英国/美国",
+  "era": 1928,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "influence": "早期机械/电子电视，电视技术的开端。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
   "year": 1928,
   "path": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ],
   "reason": "早期机械/电子电视，电视技术的开端。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ]
  },
  {
-  "id": "A-AV-000051",
-  "名称": "黑白电视机",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "美国/日本",
-  "年代": 1946,
-  "分类路径": [
-   "家电影音",
-   "电视"
-  ],
-  "影响力理由": "战后黑白电视普及，家庭娱乐中心。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-TV-000002",
   "name": "黑白电视机",
   "aliases": [],
-  "maker": "多家厂商",
+  "manufacturer": "多家厂商",
   "origin": "美国/日本",
+  "era": 1946,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "influence": "战后黑白电视普及，家庭娱乐中心。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
   "year": 1946,
   "path": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ],
   "reason": "战后黑白电视普及，家庭娱乐中心。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ]
  },
  {
-  "id": "A-AV-000052",
-  "名称": "彩色电视机",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "美国/日本",
-  "年代": 1954,
-  "分类路径": [
-   "家电影音",
-   "电视"
-  ],
-  "影响力理由": "彩色电视，家庭视听进入彩色时代。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-TV-000003",
   "name": "彩色电视机",
   "aliases": [],
-  "maker": "多家厂商",
+  "manufacturer": "多家厂商",
   "origin": "美国/日本",
+  "era": 1954,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "influence": "彩色电视，家庭视听进入彩色时代。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
   "year": 1954,
   "path": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ],
   "reason": "彩色电视，家庭视听进入彩色时代。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ]
  },
  {
-  "id": "A-AV-000053",
-  "名称": "晶体管电视",
-  "别名": [],
-  "厂商": "Sony",
-  "产地": "日本",
-  "年代": 1960,
-  "分类路径": [
-   "家电影音",
-   "电视"
-  ],
-  "影响力理由": "首台晶体管电视，电视小型化的开端。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-TV-000004",
   "name": "晶体管电视",
   "aliases": [],
-  "maker": "Sony",
+  "manufacturer": "Sony",
   "origin": "日本",
+  "era": 1960,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "influence": "首台晶体管电视，电视小型化的开端。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
   "year": 1960,
   "path": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ],
   "reason": "首台晶体管电视，电视小型化的开端。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ]
  },
  {
-  "id": "A-AV-000054",
-  "名称": "特丽珑电视",
-  "别名": [
-   "Trinitron"
-  ],
-  "厂商": "Sony",
-  "产地": "日本",
-  "年代": 1968,
-  "分类路径": [
-   "家电影音",
-   "电视"
-  ],
-  "影响力理由": "特丽珑显像管，画质标杆。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-TV-000005",
   "name": "特丽珑电视",
   "aliases": [
    "Trinitron"
   ],
-  "maker": "Sony",
+  "manufacturer": "Sony",
   "origin": "日本",
+  "era": 1968,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "influence": "特丽珑显像管，画质标杆。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
   "year": 1968,
   "path": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ],
   "reason": "特丽珑显像管，画质标杆。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ]
  },
  {
-  "id": "A-AV-000055",
-  "名称": "投影电视",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "日本/美国",
-  "年代": 1970,
-  "分类路径": [
-   "家电影音",
-   "电视"
-  ],
-  "影响力理由": "大尺寸投影电视，家庭影院雏形。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-TV-000006",
   "name": "投影电视",
   "aliases": [],
-  "maker": "多家厂商",
+  "manufacturer": "多家厂商",
   "origin": "日本/美国",
+  "era": 1970,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "influence": "大尺寸投影电视，家庭影院雏形。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
   "year": 1970,
   "path": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ],
   "reason": "大尺寸投影电视，家庭影院雏形。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ]
  },
  {
-  "id": "A-AV-000056",
-  "名称": "液晶电视",
-  "别名": [
-   "LCD TV"
-  ],
-  "厂商": "Sharp/Sony",
-  "产地": "日本",
-  "年代": 1992,
-  "分类路径": [
-   "家电影音",
-   "电视"
-  ],
-  "影响力理由": "液晶电视，平板电视时代开端。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "液晶电视",
-  "aliases": [
-   "LCD TV"
-  ],
-  "maker": "Sharp/Sony",
-  "origin": "日本",
-  "year": 1992,
-  "path": [
-   "家电影音",
-   "电视",
-   "未细分"
-  ],
-  "reason": "液晶电视，平板电视时代开端。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "家电影音",
-   "电视",
-   "未细分"
-  ]
- },
- {
-  "id": "A-AV-000057",
-  "名称": "等离子电视",
-  "别名": [
-   "Plasma TV"
-  ],
-  "厂商": "Panasonic",
-  "产地": "日本",
-  "年代": 1997,
-  "分类路径": [
-   "家电影音",
-   "电视"
-  ],
-  "影响力理由": "等离子大屏电视，与 LCD 竞争一时。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "等离子电视",
-  "aliases": [
-   "Plasma TV"
-  ],
-  "maker": "Panasonic",
-  "origin": "日本",
-  "year": 1997,
-  "path": [
-   "家电影音",
-   "电视",
-   "未细分"
-  ],
-  "reason": "等离子大屏电视，与 LCD 竞争一时。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "家电影音",
-   "电视",
-   "未细分"
-  ]
- },
- {
-  "id": "A-AV-000058",
-  "名称": "OLED 电视",
-  "别名": [],
-  "厂商": "LG/Sony",
-  "产地": "韩国/日本",
-  "年代": 2013,
-  "分类路径": [
-   "家电影音",
-   "电视"
-  ],
-  "影响力理由": "有机发光电视，自发光画质。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "OLED 电视",
-  "aliases": [],
-  "maker": "LG/Sony",
-  "origin": "韩国/日本",
-  "year": 2013,
-  "path": [
-   "家电影音",
-   "电视",
-   "未细分"
-  ],
-  "reason": "有机发光电视，自发光画质。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "家电影音",
-   "电视",
-   "未细分"
-  ]
- },
- {
-  "id": "A-AV-000059",
-  "名称": "智能电视",
-  "别名": [
-   "Smart TV"
-  ],
-  "厂商": "多家厂商",
-  "产地": "韩国/中国",
-  "年代": 2010,
-  "分类路径": [
-   "家电影音",
-   "电视"
-  ],
-  "影响力理由": "联网智能电视，流媒体时代。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "智能电视",
-  "aliases": [
-   "Smart TV"
-  ],
-  "maker": "多家厂商",
-  "origin": "韩国/中国",
-  "year": 2010,
-  "path": [
-   "家电影音",
-   "电视",
-   "未细分"
-  ],
-  "reason": "联网智能电视，流媒体时代。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "家电影音",
-   "电视",
-   "未细分"
-  ]
- },
- {
-  "id": "A-AV-000060",
-  "名称": "便携电视",
-  "别名": [],
-  "厂商": "Sony/Casio",
-  "产地": "日本",
-  "年代": 1970,
-  "分类路径": [
-   "家电影音",
-   "电视"
-  ],
-  "影响力理由": "袖珍电视，随身视听。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-TV-000011",
   "name": "便携电视",
   "aliases": [],
-  "maker": "Sony/Casio",
+  "manufacturer": "Sony/Casio",
   "origin": "日本",
+  "era": 1970,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "influence": "袖珍电视，随身视听。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony/Casio",
   "year": 1970,
   "path": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ],
   "reason": "袖珍电视，随身视听。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ]
  },
  {
-  "id": "A-AV-000061",
-  "名称": "车载电视",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "日本",
-  "年代": 1980,
-  "分类路径": [
-   "家电影音",
-   "电视"
-  ],
-  "影响力理由": "车载后座电视，移动娱乐。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-TV-000012",
   "name": "车载电视",
   "aliases": [],
-  "maker": "多家厂商",
+  "manufacturer": "多家厂商",
   "origin": "日本",
+  "era": 1980,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "influence": "车载后座电视，移动娱乐。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
   "year": 1980,
   "path": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ],
   "reason": "车载后座电视，移动娱乐。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ]
  },
  {
-  "id": "A-AV-000062",
-  "名称": "背投电视",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "日本/美国",
-  "年代": 1990,
-  "分类路径": [
-   "家电影音",
-   "电视"
-  ],
-  "影响力理由": "背投影电视，大尺寸家庭影院。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-TV-000013",
   "name": "背投电视",
   "aliases": [],
-  "maker": "多家厂商",
+  "manufacturer": "多家厂商",
   "origin": "日本/美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "influence": "背投影电视，大尺寸家庭影院。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
   "year": 1990,
   "path": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ],
   "reason": "背投影电视，大尺寸家庭影院。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ]
  },
  {
-  "id": "A-AV-000063",
-  "名称": "曲面电视",
-  "别名": [],
-  "厂商": "Samsung/LG",
-  "产地": "韩国",
-  "年代": 2014,
-  "分类路径": [
-   "家电影音",
-   "电视"
-  ],
-  "影响力理由": "曲面屏电视，造型创新。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "曲面电视",
+  "id": "A-TV-000020",
+  "name": "电视（画中画）",
   "aliases": [],
-  "maker": "Samsung/LG",
-  "origin": "韩国",
-  "year": 2014,
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1995,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "influence": "画中画电视，多画面显示。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1995,
   "path": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ],
-  "reason": "曲面屏电视，造型创新。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
+  "reason": "画中画电视，多画面显示。",
   "_taxonomy": [
    "家电影音",
    "电视",
-   "未细分"
+   "CRT"
   ]
  },
  {
-  "id": "A-AV-000064",
-  "名称": "4K 电视",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "韩国/日本",
-  "年代": 2013,
-  "分类路径": [
-   "家电影音",
-   "电视"
-  ],
-  "影响力理由": "4K 超高清电视，分辨率升级。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "4K 电视",
+  "id": "A-TV-000021",
+  "name": "电视（宽屏 CRT）",
   "aliases": [],
+  "manufacturer": "Sony/Panasonic",
+  "origin": "日本",
+  "era": 1998,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "influence": "16:9 宽屏 CRT，高清前奏。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony/Panasonic",
+  "year": 1998,
+  "path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "reason": "16:9 宽屏 CRT，高清前奏。",
+  "_taxonomy": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ]
+ },
+ {
+  "id": "A-TV-000022",
+  "name": "电视（黑白便携）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1970,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "influence": "便携黑白电视，随身视听。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
   "maker": "多家厂商",
+  "year": 1970,
+  "path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "reason": "便携黑白电视，随身视听。",
+  "_taxonomy": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ]
+ },
+ {
+  "id": "A-TV-000025",
+  "name": "电视（CRT 彩监）",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "influence": "广播级彩监，专业视频。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1990,
+  "path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "reason": "广播级彩监，专业视频。",
+  "_taxonomy": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ]
+ },
+ {
+  "id": "A-TV-000026",
+  "name": "电视（手持黑白）",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1965,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "influence": "手持黑白电视，随身电视。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1965,
+  "path": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ],
+  "reason": "手持黑白电视，随身电视。",
+  "_taxonomy": [
+   "家电影音",
+   "电视",
+   "CRT"
+  ]
+ },
+ {
+  "id": "A-TV-000007",
+  "name": "液晶电视",
+  "aliases": [
+   "LCD TV"
+  ],
+  "manufacturer": "Sharp/Sony",
+  "origin": "日本",
+  "era": 1992,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "influence": "液晶电视，平板电视时代开端。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sharp/Sony",
+  "year": 1992,
+  "path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "reason": "液晶电视，平板电视时代开端。",
+  "_taxonomy": [
+   "家电影音",
+   "电视",
+   "平板"
+  ]
+ },
+ {
+  "id": "A-TV-000008",
+  "name": "等离子电视",
+  "aliases": [
+   "Plasma TV"
+  ],
+  "manufacturer": "Panasonic",
+  "origin": "日本",
+  "era": 1997,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "influence": "等离子大屏电视，与 LCD 竞争一时。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Panasonic",
+  "year": 1997,
+  "path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "reason": "等离子大屏电视，与 LCD 竞争一时。",
+  "_taxonomy": [
+   "家电影音",
+   "电视",
+   "平板"
+  ]
+ },
+ {
+  "id": "A-TV-000009",
+  "name": "OLED 电视",
+  "aliases": [],
+  "manufacturer": "LG/Sony",
   "origin": "韩国/日本",
+  "era": 2013,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "influence": "有机发光电视，自发光画质。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "LG/Sony",
   "year": 2013,
   "path": [
    "家电影音",
    "电视",
-   "未细分"
+   "平板"
   ],
-  "reason": "4K 超高清电视，分辨率升级。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
+  "reason": "有机发光电视，自发光画质。",
   "_taxonomy": [
    "家电影音",
    "电视",
-   "未细分"
+   "平板"
   ]
  },
  {
-  "id": "A-AV-000065",
-  "名称": "8K 电视",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "韩国/日本",
-  "年代": 2019,
-  "分类路径": [
-   "家电影音",
-   "电视"
+  "id": "A-TV-000010",
+  "name": "智能电视",
+  "aliases": [
+   "Smart TV"
   ],
-  "影响力理由": "8K 电视，超高清旗舰。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "manufacturer": "多家厂商",
+  "origin": "韩国/中国",
+  "era": 2010,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "influence": "联网智能电视，流媒体时代。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2010,
+  "path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "reason": "联网智能电视，流媒体时代。",
+  "_taxonomy": [
+   "家电影音",
+   "电视",
+   "平板"
+  ]
+ },
+ {
+  "id": "A-TV-000014",
+  "name": "曲面电视",
+  "aliases": [],
+  "manufacturer": "Samsung/LG",
+  "origin": "韩国",
+  "era": 2014,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "influence": "曲面屏电视，造型创新。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Samsung/LG",
+  "year": 2014,
+  "path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "reason": "曲面屏电视，造型创新。",
+  "_taxonomy": [
+   "家电影音",
+   "电视",
+   "平板"
+  ]
+ },
+ {
+  "id": "A-TV-000015",
+  "name": "4K 电视",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "韩国/日本",
+  "era": 2013,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "influence": "4K 超高清电视，分辨率升级。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2013,
+  "path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "reason": "4K 超高清电视，分辨率升级。",
+  "_taxonomy": [
+   "家电影音",
+   "电视",
+   "平板"
+  ]
+ },
+ {
+  "id": "A-TV-000016",
   "name": "8K 电视",
   "aliases": [],
-  "maker": "多家厂商",
+  "manufacturer": "多家厂商",
   "origin": "韩国/日本",
+  "era": 2019,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "influence": "8K 电视，超高清旗舰。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
   "year": 2019,
   "path": [
    "家电影音",
    "电视",
-   "未细分"
+   "平板"
   ],
   "reason": "8K 电视，超高清旗舰。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "电视",
-   "未细分"
+   "平板"
+  ]
+ },
+ {
+  "id": "A-TV-000017",
+  "name": "投影机（DLP）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1996,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "influence": "DLP 投影，家庭影院大画面。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1996,
+  "path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "reason": "DLP 投影，家庭影院大画面。",
+  "_taxonomy": [
+   "家电影音",
+   "电视",
+   "平板"
+  ]
+ },
+ {
+  "id": "A-TV-000018",
+  "name": "投影机（LCD）",
+  "aliases": [],
+  "manufacturer": "Epson",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "influence": "LCD 投影，办公演示。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Epson",
+  "year": 1990,
+  "path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "reason": "LCD 投影，办公演示。",
+  "_taxonomy": [
+   "家电影音",
+   "电视",
+   "平板"
+  ]
+ },
+ {
+  "id": "A-TV-000019",
+  "name": "电视（壁挂）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2000,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "influence": "壁挂电视，平板时代造型。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2000,
+  "path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "reason": "壁挂电视，平板时代造型。",
+  "_taxonomy": [
+   "家电影音",
+   "电视",
+   "平板"
+  ]
+ },
+ {
+  "id": "A-TV-000023",
+  "name": "电视（卫星接收）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本/美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "influence": "卫星电视接收一体机。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1990,
+  "path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "reason": "卫星电视接收一体机。",
+  "_taxonomy": [
+   "家电影音",
+   "电视",
+   "平板"
+  ]
+ },
+ {
+  "id": "A-TV-000024",
+  "name": "电视（游戏专用）",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 2005,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "influence": "游戏优化电视，低延迟。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 2005,
+  "path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "reason": "游戏优化电视，低延迟。",
+  "_taxonomy": [
+   "家电影音",
+   "电视",
+   "平板"
+  ]
+ },
+ {
+  "id": "A-TV-000027",
+  "name": "电视（投影背投）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1995,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "influence": "背投电视，大屏家庭影院。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1995,
+  "path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "reason": "背投电视，大屏家庭影院。",
+  "_taxonomy": [
+   "家电影音",
+   "电视",
+   "平板"
+  ]
+ },
+ {
+  "id": "A-TV-000028",
+  "name": "电视（OLED 曲面）",
+  "aliases": [],
+  "manufacturer": "LG",
+  "origin": "韩国",
+  "era": 2015,
+  "taxonomy_path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "influence": "OLED 曲面电视，旗舰造型。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "LG",
+  "year": 2015,
+  "path": [
+   "家电影音",
+   "电视",
+   "平板"
+  ],
+  "reason": "OLED 曲面电视，旗舰造型。",
+  "_taxonomy": [
+   "家电影音",
+   "电视",
+   "平板"
   ]
  }
 ]

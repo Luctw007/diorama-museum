@@ -1,0 +1,507 @@
+{
+  "meta": {
+    "id": "atari-st",
+    "name": {
+      "zh": "Atari ST",
+      "en": "Atari ST"
+    },
+    "intro": {
+      "zh": "Atari ST 是 1985 年雅达利推出的 16 位个人电脑，以 68000 处理器、内置 MIDI 接口与单色高分辨率显示，成为音乐制作与桌面出版的性价比之选。",
+      "en": "The Atari ST, launched by Atari in 1985, was a 16-bit computer that became the go-to machine for music production and desktop publishing thanks to built-in MIDI and high-res monochrome display."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1985,
+    "manufacturer": "Atari",
+    "category": "personal-computer",
+    "description": "Atari ST（1985），16 位个人电脑：68000 CPU 8MHz、512KB 内存、内置 MIDI、640×400 单色高分辨率、GEM 图形界面、3.5 英寸软驱。",
+    "authors": [
+      {
+        "name": "TASK-73A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Atari ST",
+        "url": "https://en.wikipedia.org/wiki/Atari_ST",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Motorola 68000",
+        "url": "https://en.wikipedia.org/wiki/Motorola_68000",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "Hatari — Atari ST/STE/TT/Falcon emulator",
+        "url": "https://hatari.tuxfamily.org/",
+        "license": "licensed",
+        "accessed_at": "2026-11-04"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Atari ST 整机，1985 年推出的 16 位个人电脑，内置 MIDI 的音乐与桌面出版利器。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "case",
+        "keyboard",
+        "motherboard",
+        "floppy_drive",
+        "mouse"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "midi_builtin",
+        "sixteen_bit_rivalry",
+        "gem_desktop"
+      ]
+    },
+    {
+      "id": "case",
+      "name": "机身壳",
+      "role": {
+        "zh": "机身壳在整机中作为紧凑的灰色外壳，集成软驱位与散热口，是整机的结构骨架。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "floppy_bay",
+        "vent_slots",
+        "brand_badge"
+      ],
+      "annotations": [
+        "case_role"
+      ],
+      "mesh_ref": "assemblies/case.gltf"
+    },
+    {
+      "id": "keyboard",
+      "name": "键盘",
+      "role": {
+        "zh": "键盘在整机中作为文字与命令输入界面，与主机一体设计，含功能键区。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "key_matrix",
+        "function_keys"
+      ],
+      "annotations": [
+        "keyboard_role"
+      ],
+      "mesh_ref": "assemblies/keyboard.gltf"
+    },
+    {
+      "id": "motherboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 68000 处理器、显示与总线芯片组、内存与 TOS ROM，是系统的核心电路板。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cpu_68000",
+        "shifter_chip",
+        "glue_chip",
+        "mmu_chip",
+        "ram",
+        "rom"
+      ],
+      "annotations": [
+        "motherboard_role",
+        "mono_hires"
+      ],
+      "mesh_ref": "assemblies/motherboard.gltf"
+    },
+    {
+      "id": "floppy_drive",
+      "name": "3.5 英寸软驱",
+      "role": {
+        "zh": "3.5 英寸软驱在整机中读写 720KB 软盘，是程序与数据的主要载入设备。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "disk_slot",
+        "eject_button"
+      ],
+      "annotations": [
+        "floppy_drive_role"
+      ],
+      "mesh_ref": "assemblies/floppy_drive.gltf"
+    },
+    {
+      "id": "mouse",
+      "name": "鼠标",
+      "role": {
+        "zh": "鼠标在整机中作为指点输入设备，用于 GEM 图形界面的操作。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "mouse_button",
+        "tracking_ball"
+      ],
+      "annotations": [
+        "mouse_role"
+      ],
+      "mesh_ref": "assemblies/mouse.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "floppy_bay",
+      "name": "软驱位",
+      "type": "bay",
+      "role": {
+        "zh": "软驱位在整机中提供 3.5 英寸软驱的安装位，是程序与数据载入的入口。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "floppy_bay_role"
+      ]
+    },
+    {
+      "id": "vent_slots",
+      "name": "散热通风口",
+      "type": "vent",
+      "role": {
+        "zh": "散热通风口在整机中为机身内部提供空气流通，帮助系统散热。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "vent_slots_role"
+      ]
+    },
+    {
+      "id": "brand_badge",
+      "name": "品牌徽标",
+      "type": "badge",
+      "role": {
+        "zh": "品牌徽标在整机中标明 Atari 品牌与 ST 型号。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "brand_badge_role"
+      ]
+    },
+    {
+      "id": "key_matrix",
+      "name": "键盘矩阵",
+      "type": "keyboard",
+      "role": {
+        "zh": "键盘矩阵在整机中承载字母与数字按键，是 Atari ST 的文字输入界面。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "key_matrix_role"
+      ]
+    },
+    {
+      "id": "function_keys",
+      "name": "功能键区",
+      "type": "key",
+      "role": {
+        "zh": "功能键区在整机中提供 F1–F10 功能键，供程序定义快捷操作。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "function_keys_role"
+      ]
+    },
+    {
+      "id": "cpu_68000",
+      "name": "68000 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "68000 处理器在整机中作为计算核心，主频 8 MHz，负责逻辑与运算。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "cpu_68000_role"
+      ]
+    },
+    {
+      "id": "shifter_chip",
+      "name": "Shifter 显示芯片",
+      "type": "ic",
+      "role": {
+        "zh": "Shifter 显示芯片在整机中负责视频输出与调色板，支持单色高分辨率与彩色模式。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "shifter_chip_role"
+      ]
+    },
+    {
+      "id": "glue_chip",
+      "name": "GLUE 胶合芯片",
+      "type": "ic",
+      "role": {
+        "zh": "GLUE 胶合芯片在整机中负责总线控制与地址译码，协调各部件的数据传输。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "glue_chip_role"
+      ]
+    },
+    {
+      "id": "mmu_chip",
+      "name": "MMU 内存管理芯片",
+      "type": "ic",
+      "role": {
+        "zh": "MMU 内存管理芯片在整机中负责内存访问的时序控制，保障 CPU 与芯片组的协同。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "mmu_chip_role"
+      ]
+    },
+    {
+      "id": "ram",
+      "name": "内存（512KB）",
+      "type": "ram",
+      "role": {
+        "zh": "512KB 内存在整机中存放程序与数据，是系统运行时的主存储。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ram_role"
+      ]
+    },
+    {
+      "id": "rom",
+      "name": "TOS ROM",
+      "type": "rom",
+      "role": {
+        "zh": "TOS ROM 在整机中固化操作系统与 GEM 图形界面，开机时加载。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "rom_role"
+      ]
+    },
+    {
+      "id": "disk_slot",
+      "name": "软盘插槽",
+      "type": "bay",
+      "role": {
+        "zh": "软盘插槽在整机中接纳 3.5 英寸 720KB 软盘，是程序与数据的载入入口。"
+      },
+      "assembly": "floppy_drive",
+      "annotations": [
+        "disk_slot_role"
+      ]
+    },
+    {
+      "id": "eject_button",
+      "name": "弹出按钮",
+      "type": "button",
+      "role": {
+        "zh": "弹出按钮在整机中推出软盘，采用机械式操作，无需电力即可完成退盘动作。"
+      },
+      "assembly": "floppy_drive",
+      "annotations": [
+        "eject_button_role"
+      ]
+    },
+    {
+      "id": "mouse_button",
+      "name": "鼠标按键",
+      "type": "button",
+      "role": {
+        "zh": "鼠标按键在整机中提供点击操作，用于 GEM 界面中的选择与确认。"
+      },
+      "assembly": "mouse",
+      "annotations": [
+        "mouse_button_role"
+      ]
+    },
+    {
+      "id": "tracking_ball",
+      "name": "鼠标滚球",
+      "type": "mechanism",
+      "role": {
+        "zh": "鼠标滚球在整机中通过滚动感知位移，驱动屏幕光标移动。"
+      },
+      "assembly": "mouse",
+      "annotations": [
+        "tracking_ball_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Atari ST",
+    "media_hint": "floppy",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "external_crt_0",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "rgb"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "enter": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "space": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      },
+      "escape": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      },
+      "mouse_move": {
+        "map": "mouse",
+        "key": "motion"
+      },
+      "mouse_click": {
+        "map": "mouse",
+        "key": "btn_left"
+      }
+    }
+  }
+}

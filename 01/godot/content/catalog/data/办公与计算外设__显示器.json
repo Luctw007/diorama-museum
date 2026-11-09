@@ -1,329 +1,698 @@
 [
  {
-  "id": "P-PER-000028",
-  "名称": "CRT 显示器",
-  "别名": [
-   "阴极射线管显示器"
-  ],
-  "厂商": "多家厂商",
-  "产地": "美国/日本",
-  "年代": 1976,
-  "分类路径": [
-   "办公与计算外设",
-   "显示器"
-  ],
-  "影响力理由": "CRT 电脑显示器，早期计算机标配。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "P-MO-000001",
   "name": "CRT 显示器",
   "aliases": [
    "阴极射线管显示器"
   ],
-  "maker": "多家厂商",
+  "manufacturer": "多家厂商",
   "origin": "美国/日本",
+  "era": 1976,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "CRT"
+  ],
+  "influence": "CRT 电脑显示器，早期计算机标配。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
   "year": 1976,
   "path": [
    "办公与计算外设",
    "显示器",
-   "未细分"
+   "CRT"
   ],
   "reason": "CRT 电脑显示器，早期计算机标配。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "办公与计算外设",
    "显示器",
-   "未细分"
+   "CRT"
   ]
  },
  {
-  "id": "P-PER-000029",
-  "名称": "单色显示器",
-  "别名": [
-   "Green/amber monitor"
-  ],
-  "厂商": "IBM/Apple",
-  "产地": "美国",
-  "年代": 1981,
-  "分类路径": [
-   "办公与计算外设",
-   "显示器"
-  ],
-  "影响力理由": "单色电脑显示器，早期文字处理。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "P-MO-000002",
   "name": "单色显示器",
   "aliases": [
    "Green/amber monitor"
   ],
-  "maker": "IBM/Apple",
+  "manufacturer": "IBM/Apple",
   "origin": "美国",
+  "era": 1981,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "CRT"
+  ],
+  "influence": "单色电脑显示器，早期文字处理。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "IBM/Apple",
   "year": 1981,
   "path": [
    "办公与计算外设",
    "显示器",
-   "未细分"
+   "CRT"
   ],
   "reason": "单色电脑显示器，早期文字处理。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "办公与计算外设",
    "显示器",
-   "未细分"
+   "CRT"
   ]
  },
  {
-  "id": "P-PER-000030",
-  "名称": "LCD 显示器",
-  "别名": [
-   "液晶显示器"
-  ],
-  "厂商": "Sharp/Samsung",
-  "产地": "日本/韩国",
-  "年代": 1995,
-  "分类路径": [
-   "办公与计算外设",
-   "显示器"
-  ],
-  "影响力理由": "液晶电脑显示器，平板显示普及。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "LCD 显示器",
-  "aliases": [
-   "液晶显示器"
-  ],
-  "maker": "Sharp/Samsung",
-  "origin": "日本/韩国",
-  "year": 1995,
-  "path": [
-   "办公与计算外设",
-   "显示器",
-   "未细分"
-  ],
-  "reason": "液晶电脑显示器，平板显示普及。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "办公与计算外设",
-   "显示器",
-   "未细分"
-  ]
- },
- {
-  "id": "P-PER-000031",
-  "名称": "彩色显示器",
-  "别名": [],
-  "厂商": "Sony/NEC",
-  "产地": "日本",
-  "年代": 1985,
-  "分类路径": [
-   "办公与计算外设",
-   "显示器"
-  ],
-  "影响力理由": "彩色 CRT 显示器，图形界面普及。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "P-MO-000004",
   "name": "彩色显示器",
   "aliases": [],
-  "maker": "Sony/NEC",
+  "manufacturer": "Sony/NEC",
   "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "CRT"
+  ],
+  "influence": "彩色 CRT 显示器，图形界面普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony/NEC",
   "year": 1985,
   "path": [
    "办公与计算外设",
    "显示器",
-   "未细分"
+   "CRT"
   ],
   "reason": "彩色 CRT 显示器，图形界面普及。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "办公与计算外设",
    "显示器",
-   "未细分"
+   "CRT"
   ]
  },
  {
-  "id": "P-PER-000032",
-  "名称": "宽屏显示器",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "韩国",
-  "年代": 2005,
-  "分类路径": [
-   "办公与计算外设",
-   "显示器"
-  ],
-  "影响力理由": "16:9 宽屏显示器，多媒体时代。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "宽屏显示器",
+  "id": "P-MO-000011",
+  "name": "CRT 显示器（17 寸）",
   "aliases": [],
-  "maker": "多家厂商",
-  "origin": "韩国",
-  "year": 2005,
-  "path": [
-   "办公与计算外设",
-   "显示器",
-   "未细分"
-  ],
-  "reason": "16:9 宽屏显示器，多媒体时代。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "办公与计算外设",
-   "显示器",
-   "未细分"
-  ]
- },
- {
-  "id": "P-PER-000033",
-  "名称": "专业显示器",
-  "别名": [],
-  "厂商": "EIZO/Apple",
-  "产地": "日本/美国",
-  "年代": 1995,
-  "分类路径": [
-   "办公与计算外设",
-   "显示器"
-  ],
-  "影响力理由": "专业色彩显示器，设计出版。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "专业显示器",
-  "aliases": [],
-  "maker": "EIZO/Apple",
-  "origin": "日本/美国",
-  "year": 1995,
-  "path": [
-   "办公与计算外设",
-   "显示器",
-   "未细分"
-  ],
-  "reason": "专业色彩显示器，设计出版。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "办公与计算外设",
-   "显示器",
-   "未细分"
-  ]
- },
- {
-  "id": "P-PER-000054",
-  "名称": "竖屏显示器",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "日本",
-  "年代": 2000,
-  "分类路径": [
-   "办公与计算外设",
-   "显示器"
-  ],
-  "影响力理由": "可旋转竖屏显示器，文档阅读。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "竖屏显示器",
-  "aliases": [],
-  "maker": "多家厂商",
+  "manufacturer": "Sony/NEC",
   "origin": "日本",
+  "era": 1998,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "CRT"
+  ],
+  "influence": "17 寸 CRT 显示器，办公主流。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony/NEC",
+  "year": 1998,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "CRT"
+  ],
+  "reason": "17 寸 CRT 显示器，办公主流。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "CRT"
+  ]
+ },
+ {
+  "id": "P-MO-000012",
+  "name": "CRT 显示器（21 寸）",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "CRT"
+  ],
+  "influence": "21 寸大屏 CRT，专业设计。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
   "year": 2000,
   "path": [
    "办公与计算外设",
    "显示器",
-   "未细分"
+   "CRT"
   ],
-  "reason": "可旋转竖屏显示器，文档阅读。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
+  "reason": "21 寸大屏 CRT，专业设计。",
   "_taxonomy": [
    "办公与计算外设",
    "显示器",
-   "未细分"
+   "CRT"
   ]
  },
  {
-  "id": "P-PER-000055",
-  "名称": "触摸显示器",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "韩国/美国",
-  "年代": 2005,
-  "分类路径": [
-   "办公与计算外设",
-   "显示器"
-  ],
-  "影响力理由": "触摸屏显示器，交互显示。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "触摸显示器",
+  "id": "P-MO-000021",
+  "name": "显示器（CRT 三枪）",
   "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1995,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "CRT"
+  ],
+  "influence": "三枪 CRT 显示器，专业图形。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "CRT"
+  ],
+  "reason": "三枪 CRT 显示器，专业图形。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "CRT"
+  ]
+ },
+ {
+  "id": "P-MO-000003",
+  "name": "LCD 显示器",
+  "aliases": [
+   "液晶显示器"
+  ],
+  "manufacturer": "Sharp/Samsung",
+  "origin": "日本/韩国",
+  "era": 1995,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "influence": "液晶电脑显示器，平板显示普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sharp/Samsung",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "reason": "液晶电脑显示器，平板显示普及。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ]
+ },
+ {
+  "id": "P-MO-000005",
+  "name": "宽屏显示器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "韩国",
+  "era": 2005,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "influence": "16:9 宽屏显示器，多媒体时代。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
   "maker": "多家厂商",
-  "origin": "韩国/美国",
   "year": 2005,
   "path": [
    "办公与计算外设",
    "显示器",
-   "未细分"
+   "液晶"
   ],
-  "reason": "触摸屏显示器，交互显示。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
+  "reason": "16:9 宽屏显示器，多媒体时代。",
   "_taxonomy": [
    "办公与计算外设",
    "显示器",
-   "未细分"
+   "液晶"
   ]
  },
  {
-  "id": "P-PER-000056",
-  "名称": "超宽显示器",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "韩国",
-  "年代": 2015,
-  "分类路径": [
+  "id": "P-MO-000006",
+  "name": "专业显示器",
+  "aliases": [],
+  "manufacturer": "EIZO/Apple",
+  "origin": "日本/美国",
+  "era": 1995,
+  "taxonomy_path": [
    "办公与计算外设",
-   "显示器"
+   "显示器",
+   "液晶"
   ],
-  "影响力理由": "超宽屏显示器，多任务。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "influence": "专业色彩显示器，设计出版。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "EIZO/Apple",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "reason": "专业色彩显示器，设计出版。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ]
+ },
+ {
+  "id": "P-MO-000007",
+  "name": "竖屏显示器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "influence": "可旋转竖屏显示器，文档阅读。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "reason": "可旋转竖屏显示器，文档阅读。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ]
+ },
+ {
+  "id": "P-MO-000008",
+  "name": "触摸显示器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "韩国/美国",
+  "era": 2005,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "influence": "触摸屏显示器，交互显示。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2005,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "reason": "触摸屏显示器，交互显示。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ]
+ },
+ {
+  "id": "P-MO-000009",
   "name": "超宽显示器",
   "aliases": [],
-  "maker": "多家厂商",
+  "manufacturer": "多家厂商",
   "origin": "韩国",
+  "era": 2015,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "influence": "超宽屏显示器，多任务。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
   "year": 2015,
   "path": [
    "办公与计算外设",
    "显示器",
-   "未细分"
+   "液晶"
   ],
   "reason": "超宽屏显示器，多任务。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "办公与计算外设",
    "显示器",
-   "未细分"
+   "液晶"
+  ]
+ },
+ {
+  "id": "P-MO-000010",
+  "name": "高刷新显示器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "韩国/美国",
+  "era": 2015,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "influence": "高刷新率显示器，电竞显示。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2015,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "reason": "高刷新率显示器，电竞显示。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ]
+ },
+ {
+  "id": "P-MO-000013",
+  "name": "LCD 显示器（15 寸）",
+  "aliases": [],
+  "manufacturer": "Sharp",
+  "origin": "日本",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "influence": "15 寸 LCD，液晶普及初期。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sharp",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "reason": "15 寸 LCD，液晶普及初期。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ]
+ },
+ {
+  "id": "P-MO-000014",
+  "name": "LCD 显示器（19 寸）",
+  "aliases": [],
+  "manufacturer": "Samsung",
+  "origin": "韩国",
+  "era": 2005,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "influence": "19 寸 LCD，办公主流。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Samsung",
+  "year": 2005,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "reason": "19 寸 LCD，办公主流。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ]
+ },
+ {
+  "id": "P-MO-000015",
+  "name": "LCD 显示器（22 寸）",
+  "aliases": [],
+  "manufacturer": "Samsung/LG",
+  "origin": "韩国",
+  "era": 2007,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "influence": "22 寸宽屏 LCD。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Samsung/LG",
+  "year": 2007,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "reason": "22 寸宽屏 LCD。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ]
+ },
+ {
+  "id": "P-MO-000016",
+  "name": "LED 显示器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "韩国",
+  "era": 2010,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "influence": "LED 背光显示器，节能。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2010,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "reason": "LED 背光显示器，节能。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ]
+ },
+ {
+  "id": "P-MO-000017",
+  "name": "4K 显示器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "韩国",
+  "era": 2014,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "influence": "4K 分辨率显示器，高清晰度。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2014,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "reason": "4K 分辨率显示器，高清晰度。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ]
+ },
+ {
+  "id": "P-MO-000018",
+  "name": "电竞显示器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "韩国",
+  "era": 2015,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "influence": "高刷新电竞显示器。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2015,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "reason": "高刷新电竞显示器。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ]
+ },
+ {
+  "id": "P-MO-000019",
+  "name": "便携显示器",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "中国",
+  "era": 2018,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "influence": "便携外接显示器。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2018,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "reason": "便携外接显示器。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ]
+ },
+ {
+  "id": "P-MO-000020",
+  "name": "专业色彩显示器",
+  "aliases": [],
+  "manufacturer": "EIZO",
+  "origin": "日本",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "influence": "色彩管理显示器，出版设计。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "EIZO",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "reason": "色彩管理显示器，出版设计。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ]
+ },
+ {
+  "id": "P-MO-000022",
+  "name": "显示器（液晶电视两用）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "韩国",
+  "era": 2008,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "influence": "电视显示器两用屏。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2008,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "reason": "电视显示器两用屏。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ]
+ },
+ {
+  "id": "P-MO-000023",
+  "name": "显示器（带音箱）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "韩国",
+  "era": 2005,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "influence": "带音箱显示器，一体视听。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2005,
+  "path": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
+  ],
+  "reason": "带音箱显示器，一体视听。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "显示器",
+   "液晶"
   ]
  }
 ]

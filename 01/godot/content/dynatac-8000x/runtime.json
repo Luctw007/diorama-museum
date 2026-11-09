@@ -1,0 +1,84 @@
+{
+  "emulator": "none",
+  "version": "1.0.0",
+  "system": "Motorola DynaTAC 8000X",
+  "media_hint": "firmware",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {
+      "id": "handheld_lcd_0",
+      "surface": "handheld_lcd",
+      "type": "video",
+      "format": "mono"
+    },
+    {
+      "id": "speaker_0",
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16"
+    }
+  ],
+  "input_map": {
+    "power": {
+      "map": "keyboard",
+      "key": "KEY_POWER"
+    },
+    "key_0": {
+      "map": "keyboard",
+      "key": "KEY_0"
+    },
+    "key_1": {
+      "map": "keyboard",
+      "key": "KEY_1"
+    },
+    "key_2": {
+      "map": "keyboard",
+      "key": "KEY_2"
+    },
+    "key_3": {
+      "map": "keyboard",
+      "key": "KEY_3"
+    },
+    "key_4": {
+      "map": "keyboard",
+      "key": "KEY_4"
+    },
+    "key_5": {
+      "map": "keyboard",
+      "key": "KEY_5"
+    },
+    "key_6": {
+      "map": "keyboard",
+      "key": "KEY_6"
+    },
+    "key_7": {
+      "map": "keyboard",
+      "key": "KEY_7"
+    },
+    "key_8": {
+      "map": "keyboard",
+      "key": "KEY_8"
+    },
+    "key_9": {
+      "map": "keyboard",
+      "key": "KEY_9"
+    },
+    "star": {
+      "map": "keyboard",
+      "key": "KEY_ASTERISK"
+    },
+    "hash": {
+      "map": "keyboard",
+      "key": "KEY_NUMBERSIGN"
+    },
+    "send": {
+      "map": "keyboard",
+      "key": "KEY_ENTER"
+    },
+    "end": {
+      "map": "keyboard",
+      "key": "KEY_ESCAPE"
+    }
+  }
+}

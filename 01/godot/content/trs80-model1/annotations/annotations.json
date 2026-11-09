@@ -1,0 +1,184 @@
+{
+  "annotations": [
+    {
+      "id": "keyboard_unit_role",
+      "type": "role",
+      "target": "keyboard_unit",
+      "text": "键盘主机一体在整机中集成 Z80 处理器、内存与 53 键键盘，是 Model I 的核心单元。"
+    },
+    {
+      "id": "monitor_role",
+      "type": "role",
+      "target": "monitor",
+      "text": "黑白显示器在整机中显示 64×16 字符的单色画面，由 RCA 黑白电视改装而来。"
+    },
+    {
+      "id": "expansion_interface_role",
+      "type": "role",
+      "target": "expansion_interface",
+      "text": "底部 DIN 扩展口在整机中位于机身底部，用于外接软驱、打印机与额外内存。"
+    },
+    {
+      "id": "power_role",
+      "type": "role",
+      "target": "power",
+      "text": "独立电源单元在整机中为键盘主机与显示器供电，与主机分离。"
+    },
+    {
+      "id": "cassette_recorder_role",
+      "type": "role",
+      "target": "cassette_recorder",
+      "text": "卡式磁带机在整机中作为程序与数据的主要存储设备，通过磁带接口读写。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "TRS-80 Model I 整机，1977 年推出的 8 位家用电脑，1977 三杰之一。"
+    },
+    {
+      "id": "cpu_z80_role",
+      "type": "role",
+      "target": "cpu_z80",
+      "text": "Z80 处理器在整机中作为计算核心，主频 1.774 MHz，是 8 位时代的经典 CPU。"
+    },
+    {
+      "id": "ram_role",
+      "type": "role",
+      "target": "ram",
+      "text": "4KB 内存在整机中存放程序与数据，可通过扩展口扩充至 48KB。"
+    },
+    {
+      "id": "key_matrix_role",
+      "type": "role",
+      "target": "key_matrix",
+      "text": "键盘矩阵在整机中承载 53 个按键，与主机一体设计，是 Model I 的文字输入界面。"
+    },
+    {
+      "id": "rom_role",
+      "type": "role",
+      "target": "rom",
+      "text": "BASIC ROM 在整机中固化 Level I 或 Level II BASIC 解释器，开机即进入 BASIC 环境。"
+    },
+    {
+      "id": "crt_tube_role",
+      "type": "role",
+      "target": "crt_tube",
+      "text": "黑白显像管在整机中显示 64×16 字符的单色画面，是系统输出的显示部件。"
+    },
+    {
+      "id": "brightness_knob_role",
+      "type": "role",
+      "target": "brightness_knob",
+      "text": "亮度旋钮在整机中调节画面亮度，便于在不同光照下阅读。"
+    },
+    {
+      "id": "din_connector_role",
+      "type": "role",
+      "target": "din_connector",
+      "text": "DIN 连接器在整机中提供底部扩展口，供扩展接口盒与软驱、打印机连接。"
+    },
+    {
+      "id": "power_jack_role",
+      "type": "role",
+      "target": "power_jack",
+      "text": "电源接口在整机中接纳独立电源单元，为键盘主机供电。"
+    },
+    {
+      "id": "power_led_role",
+      "type": "role",
+      "target": "power_led",
+      "text": "电源指示灯在整机中点亮表示系统已上电，是判断机器开启的状态指示。"
+    },
+    {
+      "id": "cassette_bay_role",
+      "type": "role",
+      "target": "cassette_bay",
+      "text": "磁带仓在整机中接纳卡式磁带，是程序与数据的主要存储载体。"
+    },
+    {
+      "id": "play_button_role",
+      "type": "role",
+      "target": "play_button",
+      "text": "播放按键在整机中控制磁带播放，用于载入或保存程序与数据。"
+    },
+    {
+      "id": "trinity_1977",
+      "type": "flow",
+      "target": "whole",
+      "text": "1977 三杰讲解：TRS-80 Model I 与 Apple II、Commodore PET 同年发布，三台机器共同开启了个人电脑元年。"
+    },
+    {
+      "id": "retail_channel",
+      "type": "flow",
+      "target": "whole",
+      "text": "零售渠道讲解：TRS-80 凭借 Radio Shack 全美 3000+ 门店的零售网络，第一年销量即超 10 万台，远超预期。"
+    },
+    {
+      "id": "trash80_nickname",
+      "type": "flow",
+      "target": "whole",
+      "text": "「Trash-80」外号讲解：因价格亲民与机身略显粗糙，TRS-80 被戏称为 Trash-80，却恰恰证明了它走进大众的普及意义。"
+    },
+    {
+      "id": "level2_basic",
+      "type": "flow",
+      "target": "rom",
+      "text": "Level II BASIC 讲解：由微软开发的 Level II BASIC 为 TRS-80 带来浮点运算与更强的编程能力，是微软早期的标志性授权。"
+    },
+    {
+      "id": "tape_storage",
+      "type": "flow",
+      "target": "cassette_recorder",
+      "text": "磁带存储讲解：程序与数据存于普通卡式磁带上，加载时需播放磁带并等待，是那一代家用电脑的共同记忆。"
+    },
+    {
+      "id": "expansion_io",
+      "type": "flow",
+      "target": "expansion_interface",
+      "text": "底部扩展口讲解：通过 DIN 扩展口可接软驱、打印机与额外内存，让 Model I 从入门机成长为可用系统。"
+    },
+    {
+      "id": "z80_legacy",
+      "type": "flow",
+      "target": "cpu_z80",
+      "text": "Z80 时代讲解：TRS-80 采用 Z80 处理器，与众多 8 位电脑共用同一颗经典 CPU，共享技术血脉。"
+    },
+    {
+      "id": "preassembled",
+      "type": "flow",
+      "target": "whole",
+      "text": "预组装讲解：TRS-80 是首批「无需焊接、开箱即用」的预组装电脑之一，降低了普通用户的使用门槛。"
+    },
+    {
+      "id": "radio_shack",
+      "type": "flow",
+      "target": "whole",
+      "text": "Radio Shack 讲解：借力遍布全美的 Radio Shack 连锁门店，TRS-80 把个人电脑第一次摆进了大众零售货架。"
+    },
+    {
+      "id": "microsoft_basic",
+      "type": "flow",
+      "target": "rom",
+      "text": "微软 BASIC 讲解：Level II BASIC 是微软为 TRS-80 授权的 BASIC 解释器，是微软早年重要的软件授权里程碑。"
+    },
+    {
+      "id": "cassette_load",
+      "type": "flow",
+      "target": "cassette_recorder",
+      "text": "磁带载入讲解：从磁带加载程序需播放录音机并耐心等待，屏幕随加载闪动，是那一代用户的共同记忆。"
+    },
+    {
+      "id": "expansion_ecosystem",
+      "type": "flow",
+      "target": "expansion_interface",
+      "text": "扩展生态讲解：通过底部 DIN 扩展口接入软驱、打印机与内存，TRS-80 可升级为一套完整的小型商用系统。"
+    },
+    {
+      "id": "mono_display",
+      "type": "flow",
+      "target": "monitor",
+      "text": "单色显示讲解：64×16 字符的黑白显示由改装电视充当显示器，是早期个人电脑压低成本的典型做法。"
+    }
+  ]
+}

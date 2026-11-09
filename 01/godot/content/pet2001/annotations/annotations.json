@@ -1,0 +1,184 @@
+{
+  "annotations": [
+    {
+      "id": "case_role",
+      "type": "role",
+      "target": "case",
+      "text": "一体机身壳在整机中集成键盘、主机、显示器与磁带机，是 PET 2001 的一体化金属外壳。"
+    },
+    {
+      "id": "cassette_drive_role",
+      "type": "role",
+      "target": "cassette_drive",
+      "text": "内置磁带机在整机中作为程序与数据的主要存储设备，位于机壳前侧。"
+    },
+    {
+      "id": "keyboard_role",
+      "type": "role",
+      "target": "keyboard",
+      "text": "键盘在整机中采用计算器式小方键，是 PET 2001 早期型号的标志性输入界面。"
+    },
+    {
+      "id": "motherboard_role",
+      "type": "role",
+      "target": "motherboard",
+      "text": "主板在整机中承载 6502 处理器、内存与 BASIC ROM，是系统的核心电路板。"
+    },
+    {
+      "id": "crt_monitor_role",
+      "type": "role",
+      "target": "crt_monitor",
+      "text": "CRT 监视器在整机中显示 40×25 字符的绿色单色画面，与主机一体成型。"
+    },
+    {
+      "id": "power_role",
+      "type": "role",
+      "target": "power",
+      "text": "电源在整机中为各部件供电，集成在机壳内部。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "Commodore PET 2001 整机，1977 年推出的一体式个人电脑，1977 三杰之一。"
+    },
+    {
+      "id": "vent_slots_role",
+      "type": "role",
+      "target": "vent_slots",
+      "text": "散热通风口在整机中为机身内部提供空气流通，帮助系统散热。"
+    },
+    {
+      "id": "brand_badge_role",
+      "type": "role",
+      "target": "brand_badge",
+      "text": "品牌徽标在整机中标明 Commodore 品牌与 PET 型号。"
+    },
+    {
+      "id": "cassette_bay_role",
+      "type": "role",
+      "target": "cassette_bay",
+      "text": "磁带仓在整机中接纳卡式磁带，是程序与数据的主要存储载体。"
+    },
+    {
+      "id": "play_button_role",
+      "type": "role",
+      "target": "play_button",
+      "text": "播放按键在整机中控制磁带播放，用于载入或保存程序与数据。"
+    },
+    {
+      "id": "key_matrix_role",
+      "type": "role",
+      "target": "key_matrix",
+      "text": "键盘矩阵在整机中采用计算器式小方键布局，是 PET 2001 早期型号的输入界面。"
+    },
+    {
+      "id": "cpu_6502_role",
+      "type": "role",
+      "target": "cpu_6502",
+      "text": "6502 处理器在整机中作为计算核心，主频 1 MHz，是 8 位时代的经典 CPU。"
+    },
+    {
+      "id": "ram_role",
+      "type": "role",
+      "target": "ram",
+      "text": "4KB 内存在整机中存放程序与数据，是系统运行时的主存储。"
+    },
+    {
+      "id": "rom_role",
+      "type": "role",
+      "target": "rom",
+      "text": "BASIC ROM 在整机中固化 Commodore BASIC，开机即进入 BASIC 环境。"
+    },
+    {
+      "id": "via_chip_role",
+      "type": "role",
+      "target": "via_chip",
+      "text": "6522 VIA 芯片在整机中提供输入输出接口与定时器，连接键盘与外部设备。"
+    },
+    {
+      "id": "crt_tube_role",
+      "type": "role",
+      "target": "crt_tube",
+      "text": "绿色磷光显像管在整机中显示 40×25 字符的单色画面，是系统输出的显示部件。"
+    },
+    {
+      "id": "brightness_knob_role",
+      "type": "role",
+      "target": "brightness_knob",
+      "text": "亮度旋钮在整机中调节画面亮度，便于在不同光照下阅读。"
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "power_switch",
+      "text": "电源开关在整机中控制整机供电的通断，是判断机器开启的操作部件。"
+    },
+    {
+      "id": "power_led_role",
+      "type": "role",
+      "target": "power_led",
+      "text": "电源指示灯在整机中点亮表示系统已上电，是判断机器开启的状态指示。"
+    },
+    {
+      "id": "trinity_1977",
+      "type": "flow",
+      "target": "whole",
+      "text": "三杰同台 1977 讲解：PET 2001 与 Apple II、TRS-80 Model I 同年发布，三台机器共同开启了个人电脑元年。"
+    },
+    {
+      "id": "builtin_basic",
+      "type": "flow",
+      "target": "rom",
+      "text": "内置 BASIC 讲解：PET 2001 开机即进入 Commodore BASIC 环境，无需额外软件，是「开箱即编程」的早期典范。"
+    },
+    {
+      "id": "all_in_one",
+      "type": "flow",
+      "target": "case",
+      "text": "一体机设计讲解：键盘、主机、显示器、磁带机全部集成在一个机壳里，PET 是 1977 三杰中唯一「开箱即整机」的设计。"
+    },
+    {
+      "id": "datasette",
+      "type": "flow",
+      "target": "cassette_drive",
+      "text": "内置磁带机讲解：Datasette 卡式磁带机内置在机壳中，程序与数据存于普通磁带上，是早期个人电脑的存储方式。"
+    },
+    {
+      "id": "chiclet_keys",
+      "type": "flow",
+      "target": "keyboard",
+      "text": "chiclet 小键盘讲解：PET 2001 早期型号采用计算器式小方键，触感独特，后期型号才改为全尺寸键盘。"
+    },
+    {
+      "id": "commodore_origin",
+      "type": "flow",
+      "target": "whole",
+      "text": "Commodore 起源讲解：PET 是 Commodore 从计算器厂转型电脑公司的开山之作，也是后来 C64 与 Amiga 辉煌的起点。"
+    },
+    {
+      "id": "green_phosphor",
+      "type": "flow",
+      "target": "crt_monitor",
+      "text": "绿色磷光屏讲解：PET 2001 的 9 英寸绿色单色屏，是那一代用户对「电脑屏幕」最初的视觉记忆。"
+    },
+    {
+      "id": "microsoft_basic_2",
+      "type": "flow",
+      "target": "rom",
+      "text": "微软 BASIC 讲解：PET 的 Commodore BASIC 同样源自微软授权的 BASIC 解释器，是微软早年横跨多平台的授权版图之一。"
+    },
+    {
+      "id": "education_market",
+      "type": "flow",
+      "target": "whole",
+      "text": "教育市场讲解：PET 2001 定位教育与商用，进入欧美学校的计算机教室，是最早的教育电脑之一。"
+    },
+    {
+      "id": "alien_design",
+      "type": "flow",
+      "target": "case",
+      "text": "外星飞船造型讲解：PET 2001 早期的梯形金属外壳被戏称为「外星飞船」，是 1970 年代电脑设计极具辨识度的一页。"
+    }
+  ]
+}

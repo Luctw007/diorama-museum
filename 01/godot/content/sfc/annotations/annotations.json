@@ -1,0 +1,298 @@
+{
+  "annotations": [
+    {
+      "id": "super_famicom_role",
+      "type": "role",
+      "target": "super_famicom",
+      "text": "Super Famicom 整机，1990 年任天堂推出的 16 位家用游戏机，由上壳、下壳、主板、卡带仓、卡带与手柄组成，是游戏机厅第五台设备。",
+      "sources": []
+    },
+    {
+      "id": "top_shell_role",
+      "type": "role",
+      "target": "top_shell",
+      "text": "上壳在整机中作为机箱顶部壳体，圆润造型带电源滑钮位，构成 SFC 灰白配色的外观主体。",
+      "sources": []
+    },
+    {
+      "id": "bottom_shell_role",
+      "type": "role",
+      "target": "bottom_shell",
+      "text": "下壳在整机中作为机箱底部壳体，固定主板并承载铭牌与散热孔，与上壳扣合构成完整外壳。",
+      "sources": []
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中承载 5A22 处理器与双 PPU 图像处理器，是整机的核心电路板，支持 Mode 7 缩放旋转。",
+      "sources": []
+    },
+    {
+      "id": "cart_bay_role",
+      "type": "role",
+      "target": "cart_bay",
+      "text": "卡带仓在整机中位于机身顶部，提供 62 针卡带插口，供插入游戏卡带建立程序与主机的总线连接。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_role",
+      "type": "role",
+      "target": "cartridge",
+      "text": "卡带在整机中存放游戏程序与图形数据，可含增强芯片，通过 62 针接口插入卡带仓更换游戏。",
+      "sources": []
+    },
+    {
+      "id": "controllers_role",
+      "type": "role",
+      "target": "controllers",
+      "text": "手柄在整机中提供十字键、ABXY 四键与 LR 肩键，是 SFC 现代手柄布局的开创者。",
+      "sources": []
+    },
+    {
+      "id": "cpu_5a22_role",
+      "type": "role",
+      "target": "cpu_5a22",
+      "text": "Ricoh 5A22 处理器在整机中负责取指译码执行游戏程序，基于 65C816 内核，是整机的运算核心。",
+      "sources": []
+    },
+    {
+      "id": "ppu_role",
+      "type": "role",
+      "target": "ppu",
+      "text": "S-PPU 图像处理器在整机中渲染背景与精灵画面，支持 Mode 7 缩放旋转，是整机的图形核心。",
+      "sources": []
+    },
+    {
+      "id": "s_smp_role",
+      "type": "role",
+      "target": "s_smp",
+      "text": "S-SMP 采样音源在整机中回放八通道 PCM 乐器采样，是整机艺术化游戏音乐的音源。",
+      "sources": []
+    },
+    {
+      "id": "boot_flow",
+      "type": "flow",
+      "target": "super_famicom",
+      "text": "开机流程：接通电源后，5A22 从卡带程序入口启动，初始化双 PPU 与采样音源，进入游戏主循环，画面经外接 CRT 显示。",
+      "sources": []
+    },
+    {
+      "id": "mode7_flow",
+      "type": "flow",
+      "target": "ppu",
+      "text": "Mode 7 渲染流程：S-PPU 对单背景层做仿射变换，实时缩放旋转拉伸背景，制造伪 3D 的赛道与地图效果。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_insert_anim",
+      "type": "anim",
+      "target": "cartridge",
+      "text": "卡带插拔动画：玩家将卡带对准顶部卡带仓下压插入触发，卡带沿竖直方向滑入，62 针金手指啮合，拔出时反向提起，单次约 1 秒。",
+      "sources": []
+    },
+    {
+      "id": "controller_press_anim",
+      "type": "anim",
+      "target": "controllers",
+      "text": "按键动画：玩家按下十字键或 ABXY 键触发，键帽下压导电橡胶触点闭合，松开回弹，单次约 0.2 秒。",
+      "sources": []
+    },
+    {
+      "id": "power_slider_role",
+      "type": "role",
+      "target": "top_shell",
+      "text": "电源滑钮位在整机中是 SFC 初代的电源开关，滑动式设计区别于 FC 的拨动开关，位于机身侧面。",
+      "sources": []
+    },
+    {
+      "id": "mode7_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "Mode 7 缩放旋转在整机中是 SFC 的招牌图形功能，双 PPU 对背景做仿射变换，实现伪 3D 的赛道与地图，是 SFC 相对 MD 的图形优势。",
+      "sources": []
+    },
+    {
+      "id": "mode7_note_role",
+      "type": "role",
+      "target": "cartridge",
+      "text": "Mode 7 注记在整机中提示卡带可含增强芯片，如 Super FX 芯片让卡带内的游戏突破主机图形上限，是 SFC 硬件扩张生态的体现。",
+      "sources": []
+    },
+    {
+      "id": "rpg_era_role",
+      "type": "role",
+      "target": "super_famicom",
+      "text": "RPG 黄金年代在整机中体现为 SFC 是日式 RPG 的巅峰平台，最终幻想、时空之轮、勇者斗恶龙等名作云集，是角色扮演游戏的艺术高峰。",
+      "sources": []
+    },
+    {
+      "id": "four_button_role",
+      "type": "role",
+      "target": "controllers",
+      "text": "四键菱形布局在整机中是 SFC 手柄的创新，ABXY 四键菱形排列成为此后所有手柄的标配。",
+      "sources": []
+    },
+    {
+      "id": "shoulder_role",
+      "type": "role",
+      "target": "controllers",
+      "text": "LR 肩键在整机中是 SFC 手柄的另一创新，左右肩键为手柄增加了顶部输入维度，是现代手柄肩键的鼻祖。",
+      "sources": []
+    },
+    {
+      "id": "dual_ppu_role",
+      "type": "role",
+      "target": "ppu",
+      "text": "双 PPU 架构在整机中体现为 S-PPU1 与 S-PPU2 分工协作渲染，是 SFC 图形能力的硬件基础。",
+      "sources": []
+    },
+    {
+      "id": "sample_audio_role",
+      "type": "role",
+      "target": "s_smp",
+      "text": "采样音源在整机中体现为 S-SMP 回放真实乐器采样，游戏音乐从电子音进化为管弦乐，是 SFC 声音的艺术化革命。",
+      "sources": []
+    },
+    {
+      "id": "full_game_role",
+      "type": "role",
+      "target": "super_famicom",
+      "text": "全盛游戏库在整机中体现为超级马力欧世界、塞尔达众神三角力量、超级银河战士等封神之作，SFC 是 16 位时代游戏库的巅峰。",
+      "sources": []
+    },
+    {
+      "id": "vs_md_role",
+      "type": "role",
+      "target": "super_famicom",
+      "text": "双雄对决在整机中体现为 SFC 与 MD 的主机战争，SFC 以色彩与声音胜出，MD 以速度与态度见长，是 16 位时代的经典竞争。",
+      "sources": []
+    },
+    {
+      "id": "gray_white_role",
+      "type": "role",
+      "target": "top_shell",
+      "text": "灰白配色在整机中是 SFC 初代的标志，圆润机身与灰白配色构成内敛自信的美学，与 MD 的黑色硬朗形成对照。",
+      "sources": []
+    },
+    {
+      "id": "cart_62pin_role",
+      "type": "role",
+      "target": "cartridge",
+      "text": "62 针接口在整机中连接卡带与主机，是 SFC 卡带的物理规格，比 FC 的 60 针多 2 针。",
+      "sources": []
+    },
+    {
+      "id": "enhance_chip_role",
+      "type": "role",
+      "target": "cartridge",
+      "text": "增强芯片在整机中体现为卡带内可搭载 Super FX、SA-1、DSP 等协处理器，让后期游戏突破主机性能，是 SFC 长寿命的秘密。",
+      "sources": []
+    },
+    {
+      "id": "stereo_audio_role",
+      "type": "role",
+      "target": "s_smp",
+      "text": "立体声音源在整机中体现为 S-SMP 输出立体声，游戏音乐首次实现左右声道分离，是家用机音频的进步。",
+      "sources": []
+    },
+    {
+      "id": "round_shape_role",
+      "type": "role",
+      "target": "top_shell",
+      "text": "圆润造型在整机中体现为 SFC 初代机身的圆角设计，区别于 FC 的方正机身，是任天堂设计语言的演进。",
+      "sources": []
+    },
+    {
+      "id": "sfx_anim",
+      "type": "anim",
+      "target": "cartridge",
+      "text": "增强芯片动画：插入带 Super FX 芯片的卡带后，卡带内协处理器参与渲染，画面出现多边形 3D 效果，体现卡带硬件扩张的魔法。",
+      "sources": []
+    },
+    {
+      "id": "mode7_game_role",
+      "type": "role",
+      "target": "super_famicom",
+      "text": "Mode 7 代表作在整机中体现为 F-Zero 与超级马力欧赛车的伪 3D 赛道，玩家驾驶赛车体验旋转缩放的赛道，是 Mode 7 视觉魔法的直接呈现。",
+      "sources": []
+    },
+    {
+      "id": "chrono_trigger_role",
+      "type": "role",
+      "target": "super_famicom",
+      "text": "时空之轮在整机中是 SFC RPG 黄金年代的巅峰代表，由多位大师合制的传世 JRPG，是 SFC 游戏库艺术高度的象征。",
+      "sources": []
+    },
+    {
+      "id": "zelda_link_role",
+      "type": "role",
+      "target": "super_famicom",
+      "text": "塞尔达众神三角力量在整机中是俯视动作冒险的范式确立者，其世界设计至今仍是动作冒险游戏的标杆。",
+      "sources": []
+    },
+    {
+      "id": "metroid_role",
+      "type": "role",
+      "target": "super_famicom",
+      "text": "超级银河战士在整机中确立了探索式动作游戏的范式，其氛围营造与地图设计影响深远。",
+      "sources": []
+    },
+    {
+      "id": "final_fantasy_role",
+      "type": "role",
+      "target": "super_famicom",
+      "text": "最终幻想 VI 在整机中是 SFC 采样音源的巅峰展示，其管弦乐式配乐与宏大叙事标志着游戏音乐的艺术化。",
+      "sources": []
+    },
+    {
+      "id": "launch_sellout_x1",
+      "type": "role",
+      "target": "super_famicom",
+      "text": "1990 年 11 月 21 日 SFC 日本发售，30 万台初期出货数小时内售罄，甚至有报道称黑社会盯上了这批稀缺机器，足见玩家对任天堂次世代的期待。",
+      "sources": []
+    },
+    {
+      "id": "chrono_trigger_x2",
+      "type": "role",
+      "target": "super_famicom",
+      "text": "《时空之轮》是 SFC RPG 黄金年代的巅峰，集结坂口博信、堀井雄二、鸟山明、光田康典、植松伸夫等梦幻阵容，被誉为 JRPG 的顶点。",
+      "sources": []
+    },
+    {
+      "id": "superfx_x3",
+      "type": "role",
+      "target": "cartridge",
+      "text": "增强芯片在整机中是 SFC 卡带的冷知识，Super FX 芯片让《星际火狐》在 16 位主机上实现了多边形 3D，卡带里的芯片突破了主机的图形上限。",
+      "sources": []
+    },
+    {
+      "id": "mode7_ppu_x4",
+      "type": "role",
+      "target": "ppu",
+      "text": "双 PPU 在整机中是 Mode 7 的硬件基础，S-PPU1 与 S-PPU2 协作对背景做仿射变换，实现旋转缩放的伪 3D，是拆解讲解 SFC 图形能力时的看点。",
+      "sources": []
+    },
+    {
+      "id": "four_button_x5",
+      "type": "role",
+      "target": "controllers",
+      "text": "四键菱形手柄在整机中是 SFC 的创新，ABXY 四键菱形布局加 LR 肩键，成了此后所有手柄的标配，是现代手柄的鼻祖。",
+      "sources": []
+    },
+    {
+      "id": "game_sfc_mode7_z1",
+      "type": "role",
+      "target": "super_famicom",
+      "text": "SFC 的 Mode 7 让《超级马力欧赛车》实现了伪 3D 赛道，玩家在旋转缩放的赛道上漂移过弯，是 16 位时代最惊艳的玩法体验之一。",
+      "sources": []
+    },
+    {
+      "id": "game_sfc_rpg_z2",
+      "type": "role",
+      "target": "super_famicom",
+      "text": "SFC 是日式 RPG 的黄金平台，《最终幻想 VI》的歌剧院、《时空之轮》的时空穿梭，用采样音源把 RPG 的叙事与配乐推到了艺术高度。",
+      "sources": []
+    }
+  ]
+}

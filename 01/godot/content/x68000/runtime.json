@@ -1,0 +1,74 @@
+{
+  "emulator": "none",
+  "version": "1.0.0",
+  "system": "Sharp X68000",
+  "media_hint": "floppy",
+  "bios_required": true,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {
+      "id": "external_crt_0",
+      "surface": "external_crt",
+      "type": "video",
+      "format": "rgb"
+    },
+    {
+      "id": "speaker_0",
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16"
+    },
+    {
+      "id": "led_0",
+      "surface": "led",
+      "type": "hid",
+      "format": "status"
+    }
+  ],
+  "input_map": {
+    "power": {
+      "map": "keyboard",
+      "key": "KEY_POWER"
+    },
+    "reset": {
+      "map": "keyboard",
+      "key": "KEY_RESET"
+    },
+    "enter": {
+      "map": "keyboard",
+      "key": "KEY_ENTER"
+    },
+    "space": {
+      "map": "keyboard",
+      "key": "KEY_SPACE"
+    },
+    "up": {
+      "map": "keyboard",
+      "key": "KEY_UP"
+    },
+    "down": {
+      "map": "keyboard",
+      "key": "KEY_DOWN"
+    },
+    "left": {
+      "map": "keyboard",
+      "key": "KEY_LEFT"
+    },
+    "right": {
+      "map": "keyboard",
+      "key": "KEY_RIGHT"
+    },
+    "mouse_move": {
+      "map": "mouse",
+      "key": "motion"
+    },
+    "mouse_left": {
+      "map": "mouse",
+      "key": "btn_left"
+    },
+    "mouse_right": {
+      "map": "mouse",
+      "key": "btn_right"
+    }
+  }
+}

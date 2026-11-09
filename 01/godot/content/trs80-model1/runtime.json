@@ -1,0 +1,44 @@
+{
+  "emulator": "none",
+  "version": "1.0.0",
+  "system": "TRS-80 Model I",
+  "media_hint": "tape",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {
+      "id": "external_crt_0",
+      "surface": "external_crt",
+      "type": "video",
+      "format": "mono1"
+    },
+    {
+      "id": "speaker_0",
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16"
+    }
+  ],
+  "input_map": {
+    "power": {
+      "map": "keyboard",
+      "key": "KEY_POWER"
+    },
+    "reset": {
+      "map": "keyboard",
+      "key": "KEY_RESET"
+    },
+    "enter": {
+      "map": "keyboard",
+      "key": "KEY_ENTER"
+    },
+    "space": {
+      "map": "keyboard",
+      "key": "KEY_SPACE"
+    },
+    "break": {
+      "map": "keyboard",
+      "key": "KEY_ESCAPE"
+    }
+  }
+}

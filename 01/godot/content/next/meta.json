@@ -1,0 +1,484 @@
+{
+  "meta": {
+    "id": "next",
+    "name": {
+      "zh": "NeXT Computer",
+      "en": "NeXT Computer"
+    },
+    "intro": {
+      "zh": "NeXT Computer 是乔布斯离开苹果后创立的 NeXT 公司于 1988 年推出的黑色立方体工作站，以 NeXTSTEP 系统闻名，是万维网诞生的机器。",
+      "en": "The NeXT Computer, launched in 1988 by Steve Jobs' NeXT, was a black-cube workstation famous for NeXTSTEP and known as the machine on which the World Wide Web was born."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1988,
+    "manufacturer": "NeXT",
+    "category": "workstation",
+    "description": "NeXT Computer（1988），乔布斯的黑色立方体工作站：68030+DSP56001、磁光盘 256MB、NeXTSTEP 系统、万维网诞生地。演示向（Previous/OpenStep 预留）。",
+    "authors": [
+      {
+        "name": "TASK-131 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — NeXT Computer",
+        "url": "https://en.wikipedia.org/wiki/NeXT_Computer",
+        "license": "cc",
+        "accessed_at": "2026-11-06"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — NeXTSTEP",
+        "url": "https://en.wikipedia.org/wiki/NeXTSTEP",
+        "license": "cc",
+        "accessed_at": "2026-11-06"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — World Wide Web",
+        "url": "https://en.wikipedia.org/wiki/World_Wide_Web",
+        "license": "cc",
+        "accessed_at": "2026-11-06"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "NeXT Computer 整机，1988 年乔布斯创立 NeXT 后推出的黑色立方体工作站，以 NeXTSTEP 系统与孕育万维网闻名。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "chassis",
+        "motherboard",
+        "mo_drive",
+        "monitor",
+        "keyboard",
+        "mouse"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "black_cube",
+        "web_birth",
+        "jobs_return"
+      ]
+    },
+    {
+      "id": "chassis",
+      "name": "主机塔（黑色立方机箱）",
+      "role": {
+        "zh": "主机塔在整机中作为约一英尺见方的黑色镁合金立方体机箱，承载主板、磁光盘位与电源，是极具辨识度的工业设计。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "brand_badge",
+        "power_switch",
+        "expansion_slots"
+      ],
+      "annotations": [
+        "chassis_role"
+      ],
+      "mesh_ref": "assemblies/chassis.gltf"
+    },
+    {
+      "id": "motherboard",
+      "name": "主板（68030+DSP）",
+      "role": {
+        "zh": "主板在整机中承载 68030 处理器与 DSP56001 数字信号处理器、内存与 ROM，是系统的运算与音频核心。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cpu_68030",
+        "dsp56001",
+        "ram",
+        "rom"
+      ],
+      "annotations": [
+        "motherboard_role"
+      ],
+      "mesh_ref": "assemblies/motherboard.gltf"
+    },
+    {
+      "id": "mo_drive",
+      "name": "磁光盘位",
+      "role": {
+        "zh": "磁光盘位在整机中位于机箱正面，安装可插拔 256MB 磁光盘（MO）驱动器，是那个年代罕见的可擦写大容量存储。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "mo_slot"
+      ],
+      "annotations": [
+        "mo_drive_role"
+      ],
+      "mesh_ref": "assemblies/mo_drive.gltf"
+    },
+    {
+      "id": "monitor",
+      "name": "显示器",
+      "role": {
+        "zh": "显示器在整机中显示灰度高分辨率画面，与主机塔分立，是工作站标配的大尺寸 CRT 显示单元。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "crt_tube"
+      ],
+      "annotations": [
+        "monitor_role"
+      ],
+      "mesh_ref": "assemblies/monitor.gltf"
+    },
+    {
+      "id": "keyboard",
+      "name": "键盘",
+      "role": {
+        "zh": "键盘在整机中作为独立 85 键输入设备，是 NeXT 工作站的主要文字输入界面。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "key_matrix"
+      ],
+      "annotations": [
+        "keyboard_role"
+      ],
+      "mesh_ref": "assemblies/keyboard.gltf"
+    },
+    {
+      "id": "mouse",
+      "name": "鼠标",
+      "role": {
+        "zh": "鼠标在整机中作为方形双键指针设备，配合 NeXTSTEP 图形界面进行点选操作。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "trackball"
+      ],
+      "annotations": [
+        "mouse_role"
+      ],
+      "mesh_ref": "assemblies/mouse.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "brand_badge",
+      "name": "品牌徽标",
+      "type": "badge",
+      "role": {
+        "zh": "品牌徽标在整机中标明 NeXT 品牌，是乔布斯离开苹果后创立新公司的标志。"
+      },
+      "assembly": "chassis",
+      "annotations": [
+        "brand_badge_role"
+      ]
+    },
+    {
+      "id": "power_switch",
+      "name": "电源开关",
+      "type": "switch",
+      "role": {
+        "zh": "电源开关在整机中控制立方机箱的供电通断，是系统的上电入口。"
+      },
+      "assembly": "chassis",
+      "annotations": [
+        "power_switch_role"
+      ]
+    },
+    {
+      "id": "expansion_slots",
+      "name": "内部扩展槽",
+      "type": "slot",
+      "role": {
+        "zh": "内部扩展槽在整机中为显卡、内存等扩展卡提供插接位，支持工作站级扩展。"
+      },
+      "assembly": "chassis",
+      "annotations": [
+        "expansion_slots_role"
+      ]
+    },
+    {
+      "id": "cpu_68030",
+      "name": "68030 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "68030 处理器在整机中作为计算核心，是摩托罗拉 68k 家族的高性能 32 位处理器。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "cpu_68030_role"
+      ]
+    },
+    {
+      "id": "dsp56001",
+      "name": "DSP56001 数字信号处理器",
+      "type": "ic",
+      "role": {
+        "zh": "DSP56001 数字信号处理器在整机中专责音频信号处理，是 NeXT 出色的声音能力的基础。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "dsp56001_role"
+      ]
+    },
+    {
+      "id": "ram",
+      "name": "内存",
+      "type": "ram",
+      "role": {
+        "zh": "内存在整机中存放运行中的程序与数据，容量按配置可扩展。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ram_role"
+      ]
+    },
+    {
+      "id": "rom",
+      "name": "ROM",
+      "type": "rom",
+      "role": {
+        "zh": "ROM 在整机中固化系统引导固件，是 NeXT 开机自举的只读存储器。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "rom_role"
+      ]
+    },
+    {
+      "id": "mo_slot",
+      "name": "磁光盘插槽",
+      "type": "slot",
+      "role": {
+        "zh": "磁光盘插槽在整机中接纳可插拔磁光盘，容量 256MB，是当时罕见的可擦写大容量存储入口。"
+      },
+      "assembly": "mo_drive",
+      "annotations": [
+        "mo_slot_role"
+      ]
+    },
+    {
+      "id": "crt_tube",
+      "name": "显像管",
+      "type": "crt",
+      "role": {
+        "zh": "显像管在整机中显示灰度高分辨率画面，是工作站显示输出部件。"
+      },
+      "assembly": "monitor",
+      "annotations": [
+        "crt_tube_role"
+      ]
+    },
+    {
+      "id": "key_matrix",
+      "name": "键盘矩阵",
+      "type": "keyboard",
+      "role": {
+        "zh": "键盘矩阵在整机中承载 85 键按键，是 NeXT 工作站的主要文字输入部件。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "key_matrix_role"
+      ]
+    },
+    {
+      "id": "trackball",
+      "name": "滚球",
+      "type": "trackball",
+      "role": {
+        "zh": "滚球在整机中位于鼠标底部，通过滚动检测位移，是鼠标指针定位的核心部件。"
+      },
+      "assembly": "mouse",
+      "annotations": [
+        "trackball_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "NeXT Computer",
+    "media_hint": "disk",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "external_crt_0",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "rgb"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "enter": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "space": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      },
+      "mouse_move": {
+        "map": "mouse",
+        "key": "motion"
+      },
+      "mouse_left": {
+        "map": "mouse",
+        "key": "btn_left"
+      },
+      "mouse_right": {
+        "map": "mouse",
+        "key": "btn_right"
+      }
+    }
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "annotations": [
+    {
+      "id": "case_role",
+      "type": "role",
+      "target": "case",
+      "text": "一体机身壳在整机中作为键盘主机一体的白色外壳，集成散热口与徽标。"
+    },
+    {
+      "id": "keyboard_role",
+      "type": "role",
+      "target": "keyboard",
+      "text": "键盘在整机中与主机一体，是 VIC-20 的文字与命令输入界面。"
+    },
+    {
+      "id": "motherboard_role",
+      "type": "role",
+      "target": "motherboard",
+      "text": "主板在整机中承载 6502 处理器、VIC 图形芯片、内存与 BASIC ROM。"
+    },
+    {
+      "id": "power_role",
+      "type": "role",
+      "target": "power",
+      "text": "电源在整机中为各部件供电，是机器的供电单元。"
+    },
+    {
+      "id": "datasette_role",
+      "type": "role",
+      "target": "datasette",
+      "text": "数据磁带机在整机中作为程序与数据的外置存储设备，通过磁带接口读写。"
+    },
+    {
+      "id": "monitor_role",
+      "type": "role",
+      "target": "monitor",
+      "text": "显示器在整机中显示彩色画面，VIC-20 通常接入家用电视作为显示设备。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "Commodore VIC-20 整机，1980 年推出的首台销量破百万的个人电脑。"
+    },
+    {
+      "id": "vent_slots_role",
+      "type": "role",
+      "target": "vent_slots",
+      "text": "散热通风口在整机中为机身内部提供空气流通，帮助系统散热。"
+    },
+    {
+      "id": "brand_badge_role",
+      "type": "role",
+      "target": "brand_badge",
+      "text": "品牌徽标在整机中标明 Commodore 品牌与 VIC-20 型号。"
+    },
+    {
+      "id": "key_matrix_role",
+      "type": "role",
+      "target": "key_matrix",
+      "text": "键盘矩阵在整机中承载按键，与主机一体，是 VIC-20 的输入界面。"
+    },
+    {
+      "id": "cpu_6502_role",
+      "type": "role",
+      "target": "cpu_6502",
+      "text": "6502 处理器在整机中作为计算核心，主频 1.02 MHz，是 8 位时代的经典 CPU。"
+    },
+    {
+      "id": "vic_chip_role",
+      "type": "role",
+      "target": "vic_chip",
+      "text": "VIC 图形芯片在整机中负责彩色图形显示与声音，是 VIC-20 命名的由来。"
+    },
+    {
+      "id": "ram_role",
+      "type": "role",
+      "target": "ram",
+      "text": "5KB 内存在整机中存放程序与数据，其中约 3.5KB 供用户使用。"
+    },
+    {
+      "id": "rom_role",
+      "type": "role",
+      "target": "rom",
+      "text": "BASIC ROM 在整机中固化 Commodore BASIC，开机即进入 BASIC 环境。"
+    },
+    {
+      "id": "power_jack_role",
+      "type": "role",
+      "target": "power_jack",
+      "text": "电源接口在整机中接纳外接电源适配器，为整机供电，是机器的供电入口。"
+    },
+    {
+      "id": "power_led_role",
+      "type": "role",
+      "target": "power_led",
+      "text": "电源指示灯在整机中点亮表示系统已上电，是判断机器开启的状态指示。"
+    },
+    {
+      "id": "cassette_bay_role",
+      "type": "role",
+      "target": "cassette_bay",
+      "text": "磁带仓在整机中接纳卡式磁带，是程序与数据的主要存储载体。"
+    },
+    {
+      "id": "play_button_role",
+      "type": "role",
+      "target": "play_button",
+      "text": "播放按键在整机中控制磁带播放，用于载入或保存程序与数据。"
+    },
+    {
+      "id": "crt_tube_role",
+      "type": "role",
+      "target": "crt_tube",
+      "text": "显像管在整机中显示彩色画面，VIC-20 通常接入家用电视作为显示设备。"
+    },
+    {
+      "id": "million_seller",
+      "type": "flow",
+      "target": "whole",
+      "text": "销量破百万讲解：VIC-20 是首台销量突破 100 万台的个人电脑，验证了低价家用电脑市场的存在。"
+    },
+    {
+      "id": "affordable_price",
+      "type": "flow",
+      "target": "whole",
+      "text": "面向家庭的价格讲解：299.95 美元的定价把电脑第一次压到普通家庭预算内，是 Commodore 家用电器战略的开端。"
+    },
+    {
+      "id": "colour_graphics",
+      "type": "flow",
+      "target": "vic_chip",
+      "text": "彩色图形讲解：VIC 芯片带来彩色显示与游戏能力，是后来 C64 的直系前身。"
+    },
+    {
+      "id": "vic_chip_explain",
+      "type": "flow",
+      "target": "vic_chip",
+      "text": "VIC 芯片命名讲解：VIC-20 的名字正来自这颗 VIC（Video Interface Chip）图形芯片。"
+    },
+    {
+      "id": "tape_storage",
+      "type": "flow",
+      "target": "datasette",
+      "text": "磁带存储讲解：程序与数据存于外置数据磁带机上，加载需播放磁带并等待，是那一代用户的共同记忆。"
+    },
+    {
+      "id": "c64_predecessor",
+      "type": "flow",
+      "target": "whole",
+      "text": "C64 前身讲解：VIC-20 是 Commodore 64 的直系前身，为 C64 的辉煌铺平了道路。"
+    },
+    {
+      "id": "builtin_basic",
+      "type": "flow",
+      "target": "rom",
+      "text": "内置 BASIC 讲解：VIC-20 开机即进入 Commodore BASIC 环境，无需额外软件，是「开箱即编程」的早期典范。"
+    },
+    {
+      "id": "tv_display",
+      "type": "flow",
+      "target": "monitor",
+      "text": "接电视显示讲解：VIC-20 通常接入家用电视作为显示设备，把电脑变成了客厅里的家用电器。"
+    },
+    {
+      "id": "commodore_strategy",
+      "type": "flow",
+      "target": "whole",
+      "text": "Commodore 家用电器战略讲解：从 VIC-20 起，Commodore 把电脑当作普通家用电器在零售渠道销售，奠定其市场地位。"
+    },
+    {
+      "id": "game_library",
+      "type": "flow",
+      "target": "whole",
+      "text": "游戏库讲解：VIC-20 拥有庞大的卡带游戏库，是许多人第一次在家用电脑上玩到游戏的记忆。"
+    },
+    {
+      "id": "keyboard_case",
+      "type": "flow",
+      "target": "case",
+      "text": "键盘主机一体讲解：VIC-20 延续 PET 的一体式设计，键盘与主机集成在一个白色外壳里，小巧紧凑。"
+    }
+  ]
+}

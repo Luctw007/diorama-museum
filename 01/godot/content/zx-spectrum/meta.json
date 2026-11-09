@@ -1,0 +1,452 @@
+{
+  "meta": {
+    "id": "zx-spectrum",
+    "name": {
+      "zh": "ZX Spectrum",
+      "en": "ZX Spectrum"
+    },
+    "intro": {
+      "zh": "ZX Spectrum 是 1982 年辛克莱推出的英国国民家用电脑，以 Z80 处理器、48KB 内存、彩色图形与橡胶键盘催生了英国卧室编程与独立游戏文化。",
+      "en": "The ZX Spectrum, launched by Sinclair in 1982, was Britain's national home computer and the cradle of bedroom coding and the indie games scene."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1982,
+    "manufacturer": "Sinclair Research",
+    "category": "personal-computer",
+    "description": "ZX Spectrum（1982），英国国民家用电脑：Z80 CPU 3.5MHz、48KB 内存、7 色图形、橡胶键盘 40 键 keyword 体系、磁带存储。",
+    "authors": [
+      {
+        "name": "TASK-63A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — ZX Spectrum",
+        "url": "https://en.wikipedia.org/wiki/ZX_Spectrum",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Zilog Z80",
+        "url": "https://en.wikipedia.org/wiki/Zilog_Z80",
+        "license": "cc",
+        "accessed_at": "2026-11-04"
+      },
+      {
+        "type": "documentation",
+        "title": "Fuse — ZX Spectrum emulator",
+        "url": "https://fuse-emulator.sourceforge.net/",
+        "license": "licensed",
+        "accessed_at": "2026-11-04"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "ZX Spectrum 整机，1982 年推出的英国国民家用电脑。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "case",
+        "keyboard",
+        "motherboard",
+        "power",
+        "expansion_port"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "bedroom_coding",
+        "rainbow_stripe",
+        "tape_load"
+      ]
+    },
+    {
+      "id": "case",
+      "name": "机身壳",
+      "role": {
+        "zh": "机身壳在整机中作为紧凑的黑色外壳，右侧的彩虹条纹是 Spectrum 的标志性外观。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "rainbow_stripe",
+        "brand_badge"
+      ],
+      "annotations": [
+        "case_role"
+      ],
+      "mesh_ref": "assemblies/case.gltf"
+    },
+    {
+      "id": "keyboard",
+      "name": "橡胶键盘矩阵",
+      "role": {
+        "zh": "橡胶键盘矩阵在整机中提供 40 键输入，每个键身兼多职，采用 keyword 体系录入 BASIC 命令。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "rubber_key_matrix",
+        "keyword_overlay"
+      ],
+      "annotations": [
+        "keyboard_role",
+        "keyword_system"
+      ],
+      "mesh_ref": "assemblies/keyboard.gltf"
+    },
+    {
+      "id": "motherboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 Z80 处理器、ULA 芯片与 48KB 内存，是系统的核心电路板。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cpu_z80",
+        "ula_chip",
+        "ram_48k",
+        "rom"
+      ],
+      "annotations": [
+        "motherboard_role"
+      ],
+      "mesh_ref": "assemblies/motherboard.gltf"
+    },
+    {
+      "id": "power",
+      "name": "电源",
+      "role": {
+        "zh": "电源在整机中把市电转换为机器所需电压，为整机供电。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "power_jack",
+        "regulator"
+      ],
+      "annotations": [
+        "power_role"
+      ],
+      "mesh_ref": "assemblies/power.gltf"
+    },
+    {
+      "id": "expansion_port",
+      "name": "边框扩展口",
+      "role": {
+        "zh": "边框扩展口在整机中位于机身后缘，供外接打印机、软驱与游戏外设。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "edge_connector"
+      ],
+      "annotations": [
+        "expansion_port_role",
+        "peripheral_era"
+      ],
+      "mesh_ref": "assemblies/expansion_port.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "rainbow_stripe",
+      "name": "彩虹条纹",
+      "type": "feature",
+      "role": {
+        "zh": "彩虹条纹在整机中位于机身右侧，是 ZX Spectrum 最醒目的视觉标识。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "rainbow_stripe_role"
+      ]
+    },
+    {
+      "id": "brand_badge",
+      "name": "品牌徽标",
+      "type": "badge",
+      "role": {
+        "zh": "品牌徽标在整机中标明 Sinclair 品牌与型号。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "brand_badge_role"
+      ]
+    },
+    {
+      "id": "rubber_key_matrix",
+      "name": "橡胶按键矩阵（40 键）",
+      "type": "keyboard",
+      "role": {
+        "zh": "橡胶按键矩阵在整机中提供 40 个橡胶按键，每个键同时对应字母、数字、符号与 BASIC 关键字。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "rubber_key_matrix_role"
+      ]
+    },
+    {
+      "id": "keyword_overlay",
+      "name": "keyword 体系",
+      "type": "feature",
+      "role": {
+        "zh": "keyword 体系在整机中让每个按键对应一个 BASIC 关键字，按下即可整词录入，是 Spectrum 的独特输入方式。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "keyword_overlay_role"
+      ]
+    },
+    {
+      "id": "cpu_z80",
+      "name": "Z80 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "Z80 处理器在整机中作为计算核心，主频 3.5 MHz，是 8 位时代的经典 CPU。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "cpu_z80_role"
+      ]
+    },
+    {
+      "id": "ula_chip",
+      "name": "ULA 芯片",
+      "type": "ic",
+      "role": {
+        "zh": "ULA 芯片在整机中集成显示、键盘扫描与磁带接口，是 Sinclair 自研的万能逻辑阵列。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ula_chip_role"
+      ]
+    },
+    {
+      "id": "ram_48k",
+      "name": "内存（48KB）",
+      "type": "ram",
+      "role": {
+        "zh": "48KB 内存在整机中存放程序与数据，是系统运行时的主存储。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ram_48k_role"
+      ]
+    },
+    {
+      "id": "rom",
+      "name": "系统 ROM（16KB）",
+      "type": "rom",
+      "role": {
+        "zh": "系统 ROM 在整机中固化 BASIC 解释器与系统例程，开机即进入 BASIC 环境。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "rom_role"
+      ]
+    },
+    {
+      "id": "power_jack",
+      "name": "电源接口",
+      "type": "connector",
+      "role": {
+        "zh": "电源接口在整机中接纳外置电源，为整机供电。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "power_jack_role"
+      ]
+    },
+    {
+      "id": "regulator",
+      "name": "稳压电路",
+      "type": "ic",
+      "role": {
+        "zh": "稳压电路在整机中把输入电压稳定为芯片所需电压。"
+      },
+      "assembly": "power",
+      "annotations": [
+        "regulator_role"
+      ]
+    },
+    {
+      "id": "edge_connector",
+      "name": "边框连接器",
+      "type": "connector",
+      "role": {
+        "zh": "边框连接器在整机中位于机身尾部，供扩展外设接入，是外设时代的接口。"
+      },
+      "assembly": "expansion_port",
+      "annotations": [
+        "edge_connector_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "ZX Spectrum",
+    "media_hint": "tape",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "external_crt_0",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "rgb"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "enter": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "space": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      },
+      "shift": {
+        "map": "keyboard",
+        "key": "KEY_SHIFT"
+      },
+      "symbol_shift": {
+        "map": "keyboard",
+        "key": "KEY_ALT"
+      }
+    }
+  }
+}

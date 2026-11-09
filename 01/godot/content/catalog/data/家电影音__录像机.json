@@ -1,508 +1,730 @@
 [
  {
-  "id": "A-AV-000016",
-  "名称": "VHS 录像机",
-  "别名": [
-   "Video Home System"
-  ],
-  "厂商": "JVC",
-  "产地": "日本",
-  "年代": 1976,
-  "分类路径": [
-   "家电影音",
-   "录像机"
-  ],
-  "影响力理由": "VHS 标准录像机，赢得录像带格式战，家庭录像主流。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-VR-000001",
   "name": "VHS 录像机",
   "aliases": [
    "Video Home System"
   ],
-  "maker": "JVC",
+  "manufacturer": "JVC",
   "origin": "日本",
+  "era": 1976,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "VHS 标准录像机，赢得录像带格式战，家庭录像主流。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "JVC",
   "year": 1976,
   "path": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ],
   "reason": "VHS 标准录像机，赢得录像带格式战，家庭录像主流。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ]
  },
  {
-  "id": "A-AV-000017",
-  "名称": "Betamax 录像机",
-  "别名": [
-   "Beta"
-  ],
-  "厂商": "Sony",
-  "产地": "日本",
-  "年代": 1975,
-  "分类路径": [
-   "家电影音",
-   "录像机"
-  ],
-  "影响力理由": "索尼录像格式，画质更优但输掉格式战。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "Betamax 录像机",
-  "aliases": [
-   "Beta"
-  ],
-  "maker": "Sony",
-  "origin": "日本",
-  "year": 1975,
-  "path": [
-   "家电影音",
-   "录像机",
-   "未细分"
-  ],
-  "reason": "索尼录像格式，画质更优但输掉格式战。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "家电影音",
-   "录像机",
-   "未细分"
-  ]
- },
- {
-  "id": "A-AV-000018",
-  "名称": "VHS-C 摄像机",
-  "别名": [
-   "Compact VHS"
-  ],
-  "厂商": "JVC",
-  "产地": "日本",
-  "年代": 1982,
-  "分类路径": [
-   "家电影音",
-   "录像机"
-  ],
-  "影响力理由": "紧凑型 VHS 摄像机，家庭录像普及。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-VR-000003",
   "name": "VHS-C 摄像机",
   "aliases": [
    "Compact VHS"
   ],
-  "maker": "JVC",
+  "manufacturer": "JVC",
   "origin": "日本",
+  "era": 1982,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "紧凑型 VHS 摄像机，家庭录像普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "JVC",
   "year": 1982,
   "path": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ],
   "reason": "紧凑型 VHS 摄像机，家庭录像普及。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ]
  },
  {
-  "id": "A-AV-000019",
-  "名称": "8mm 摄像机",
-  "别名": [
-   "Video8"
-  ],
-  "厂商": "Sony",
-  "产地": "日本",
-  "年代": 1985,
-  "分类路径": [
-   "家电影音",
-   "录像机"
-  ],
-  "影响力理由": "8mm 磁带摄像机，掌上家庭录像代表。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-VR-000004",
   "name": "8mm 摄像机",
   "aliases": [
    "Video8"
   ],
-  "maker": "Sony",
+  "manufacturer": "Sony",
   "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "8mm 磁带摄像机，掌上家庭录像代表。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
   "year": 1985,
   "path": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ],
   "reason": "8mm 磁带摄像机，掌上家庭录像代表。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ]
  },
  {
-  "id": "A-AV-000020",
-  "名称": "Hi8 摄像机",
-  "别名": [],
-  "厂商": "Sony",
-  "产地": "日本",
-  "年代": 1989,
-  "分类路径": [
-   "家电影音",
-   "录像机"
-  ],
-  "影响力理由": "8mm 的高画质版本，家用摄像机升级。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-VR-000005",
   "name": "Hi8 摄像机",
   "aliases": [],
-  "maker": "Sony",
+  "manufacturer": "Sony",
   "origin": "日本",
+  "era": 1989,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "8mm 高画质版本，家用摄像机升级。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
   "year": 1989,
   "path": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ],
-  "reason": "8mm 的高画质版本，家用摄像机升级。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
+  "reason": "8mm 高画质版本，家用摄像机升级。",
   "_taxonomy": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ]
  },
  {
-  "id": "A-AV-000021",
-  "名称": "MiniDV 摄像机",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "日本",
-  "年代": 1995,
-  "分类路径": [
-   "家电影音",
-   "录像机"
-  ],
-  "影响力理由": "数字磁带摄像机，家用录像数字化的里程碑。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-VR-000006",
   "name": "MiniDV 摄像机",
   "aliases": [],
-  "maker": "多家厂商",
+  "manufacturer": "多家厂商",
   "origin": "日本",
+  "era": 1995,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "数字磁带摄像机，家用录像数字化的里程碑。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
   "year": 1995,
   "path": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ],
   "reason": "数字磁带摄像机，家用录像数字化的里程碑。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ]
  },
  {
-  "id": "A-AV-000022",
-  "名称": "硬盘摄像机",
-  "别名": [],
-  "厂商": "JVC/Sony",
-  "产地": "日本",
-  "年代": 2004,
-  "分类路径": [
-   "家电影音",
-   "录像机"
-  ],
-  "影响力理由": "硬盘存储的摄像机，告别磁带。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-VR-000007",
   "name": "硬盘摄像机",
   "aliases": [],
-  "maker": "JVC/Sony",
+  "manufacturer": "JVC/Sony",
   "origin": "日本",
+  "era": 2004,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "硬盘存储的摄像机，告别磁带。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "JVC/Sony",
   "year": 2004,
   "path": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ],
   "reason": "硬盘存储的摄像机，告别磁带。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ]
  },
  {
-  "id": "A-AV-000023",
-  "名称": "蓝光录像机",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "日本",
-  "年代": 2008,
-  "分类路径": [
-   "家电影音",
-   "录像机"
-  ],
-  "影响力理由": "蓝光录像机，高清家庭录像。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "蓝光录像机",
-  "aliases": [],
-  "maker": "多家厂商",
-  "origin": "日本",
-  "year": 2008,
-  "path": [
-   "家电影音",
-   "录像机",
-   "未细分"
-  ],
-  "reason": "蓝光录像机，高清家庭录像。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "家电影音",
-   "录像机",
-   "未细分"
-  ]
- },
- {
-  "id": "A-AV-000024",
-  "名称": "时间码录像机",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "日本",
-  "年代": 1990,
-  "分类路径": [
-   "家电影音",
-   "录像机"
-  ],
-  "影响力理由": "带时间码的准专业录像机。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "时间码录像机",
-  "aliases": [],
-  "maker": "多家厂商",
-  "origin": "日本",
-  "year": 1990,
-  "path": [
-   "家电影音",
-   "录像机",
-   "未细分"
-  ],
-  "reason": "带时间码的准专业录像机。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "家电影音",
-   "录像机",
-   "未细分"
-  ]
- },
- {
-  "id": "A-AV-000025",
-  "名称": "幻灯机",
-  "别名": [],
-  "厂商": "Kodak",
-  "产地": "美国",
-  "年代": 1950,
-  "分类路径": [
-   "家电影音",
-   "录像机"
-  ],
-  "影响力理由": "胶片幻灯片放映机，家庭与教学常见。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-VR-000009",
   "name": "幻灯机",
   "aliases": [],
-  "maker": "Kodak",
+  "manufacturer": "Kodak",
   "origin": "美国",
+  "era": 1950,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "胶片幻灯片放映机，家庭与教学常见。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Kodak",
   "year": 1950,
   "path": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ],
   "reason": "胶片幻灯片放映机，家庭与教学常见。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ]
  },
  {
-  "id": "A-AV-000026",
-  "名称": "8mm 放映机",
-  "别名": [],
-  "厂商": "Kodak/Bell & Howell",
-  "产地": "美国",
-  "年代": 1932,
-  "分类路径": [
-   "家电影音",
-   "录像机"
-  ],
-  "影响力理由": "8mm 电影放映机，家庭电影先驱。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-VR-000010",
   "name": "8mm 放映机",
   "aliases": [],
-  "maker": "Kodak/Bell & Howell",
+  "manufacturer": "Kodak/Bell & Howell",
   "origin": "美国",
+  "era": 1932,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "8mm 电影放映机，家庭电影先驱。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Kodak/Bell & Howell",
   "year": 1932,
   "path": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ],
   "reason": "8mm 电影放映机，家庭电影先驱。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ]
  },
  {
-  "id": "A-AV-000027",
-  "名称": "16mm 放映机",
-  "别名": [],
-  "厂商": "Bell & Howell",
-  "产地": "美国",
-  "年代": 1923,
-  "分类路径": [
-   "家电影音",
-   "录像机"
-  ],
-  "影响力理由": "16mm 电影放映机，教育与家庭影院。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-VR-000011",
   "name": "16mm 放映机",
   "aliases": [],
-  "maker": "Bell & Howell",
+  "manufacturer": "Bell & Howell",
   "origin": "美国",
+  "era": 1923,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "16mm 电影放映机，教育与家庭影院。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Bell & Howell",
   "year": 1923,
   "path": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ],
   "reason": "16mm 电影放映机，教育与家庭影院。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ]
  },
  {
-  "id": "A-AV-000066",
-  "名称": "随身录像机",
-  "别名": [],
-  "厂商": "Sony/JVC",
-  "产地": "日本",
-  "年代": 1985,
-  "分类路径": [
-   "家电影音",
-   "录像机"
-  ],
-  "影响力理由": "便携录像机，肩扛式摄录。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-VR-000012",
   "name": "随身录像机",
   "aliases": [],
-  "maker": "Sony/JVC",
+  "manufacturer": "Sony/JVC",
   "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "便携录像机，肩扛式摄录。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony/JVC",
   "year": 1985,
   "path": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ],
   "reason": "便携录像机，肩扛式摄录。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ]
  },
  {
-  "id": "A-AV-000077",
-  "名称": "录像带倒带机",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "日本",
-  "年代": 1980,
-  "分类路径": [
-   "家电影音",
-   "录像机"
-  ],
-  "影响力理由": "专用倒带设备，录像带时代小物。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "A-VR-000013",
   "name": "录像带倒带机",
   "aliases": [],
-  "maker": "多家厂商",
+  "manufacturer": "多家厂商",
   "origin": "日本",
+  "era": 1980,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "专用倒带设备，录像带时代小物。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
   "year": 1980,
   "path": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
   ],
   "reason": "专用倒带设备，录像带时代小物。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "家电影音",
    "录像机",
-   "未细分"
+   "VHS"
+  ]
+ },
+ {
+  "id": "A-VR-000014",
+  "name": "S-VHS 录像机",
+  "aliases": [],
+  "manufacturer": "JVC",
+  "origin": "日本",
+  "era": 1987,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "S-VHS 高画质录像机，准专业级。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "JVC",
+  "year": 1987,
+  "path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "reason": "S-VHS 高画质录像机，准专业级。",
+  "_taxonomy": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ]
+ },
+ {
+  "id": "A-VR-000015",
+  "name": "D-VHS 录像机",
+  "aliases": [],
+  "manufacturer": "JVC",
+  "origin": "日本",
+  "era": 1998,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "数字 VHS 录像机，高清录像。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "JVC",
+  "year": 1998,
+  "path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "reason": "数字 VHS 录像机，高清录像。",
+  "_taxonomy": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ]
+ },
+ {
+  "id": "A-VR-000017",
+  "name": "VHS-C 一体机",
+  "aliases": [],
+  "manufacturer": "JVC",
+  "origin": "日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "VHS-C 摄录一体机。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "JVC",
+  "year": 1984,
+  "path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "reason": "VHS-C 摄录一体机。",
+  "_taxonomy": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ]
+ },
+ {
+  "id": "A-VR-000018",
+  "name": "Digital8 摄像机",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1999,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "Digital8 数字摄像机，兼容 8mm。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1999,
+  "path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "reason": "Digital8 数字摄像机，兼容 8mm。",
+  "_taxonomy": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ]
+ },
+ {
+  "id": "A-VR-000019",
+  "name": "DV 摄像机",
+  "aliases": [],
+  "manufacturer": "Sony/Panasonic",
+  "origin": "日本",
+  "era": 1998,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "DV 格式摄像机，数字录像普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony/Panasonic",
+  "year": 1998,
+  "path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "reason": "DV 格式摄像机，数字录像普及。",
+  "_taxonomy": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ]
+ },
+ {
+  "id": "A-VR-000020",
+  "name": "VHS 录放一体",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "VHS 录放一体机，家庭录像主力。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1990,
+  "path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "reason": "VHS 录放一体机，家庭录像主力。",
+  "_taxonomy": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ]
+ },
+ {
+  "id": "A-VR-000021",
+  "name": "幻灯机（自动）",
+  "aliases": [],
+  "manufacturer": "Kodak",
+  "origin": "美国",
+  "era": 1960,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "自动幻灯机，家庭放映。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Kodak",
+  "year": 1960,
+  "path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "reason": "自动幻灯机，家庭放映。",
+  "_taxonomy": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ]
+ },
+ {
+  "id": "A-VR-000022",
+  "name": "8mm 摄影机",
+  "aliases": [],
+  "manufacturer": "Kodak",
+  "origin": "美国",
+  "era": 1932,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "8mm 电影摄影机，家庭电影拍摄。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Kodak",
+  "year": 1932,
+  "path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "reason": "8mm 电影摄影机，家庭电影拍摄。",
+  "_taxonomy": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ]
+ },
+ {
+  "id": "A-VR-000023",
+  "name": "16mm 摄影机",
+  "aliases": [],
+  "manufacturer": "Bell & Howell",
+  "origin": "美国",
+  "era": 1923,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "16mm 电影摄影机。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Bell & Howell",
+  "year": 1923,
+  "path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "reason": "16mm 电影摄影机。",
+  "_taxonomy": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ]
+ },
+ {
+  "id": "A-VR-000024",
+  "name": "录像带（VHS 介质）",
+  "aliases": [],
+  "manufacturer": "JVC",
+  "origin": "日本",
+  "era": 1976,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "influence": "VHS 录像带介质。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "JVC",
+  "year": 1976,
+  "path": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ],
+  "reason": "VHS 录像带介质。",
+  "_taxonomy": [
+   "家电影音",
+   "录像机",
+   "VHS"
+  ]
+ },
+ {
+  "id": "A-VR-000002",
+  "name": "Betamax 录像机",
+  "aliases": [
+   "Beta"
+  ],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1975,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "Betamax"
+  ],
+  "influence": "索尼录像格式，画质更优但输掉格式战。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1975,
+  "path": [
+   "家电影音",
+   "录像机",
+   "Betamax"
+  ],
+  "reason": "索尼录像格式，画质更优但输掉格式战。",
+  "_taxonomy": [
+   "家电影音",
+   "录像机",
+   "Betamax"
+  ]
+ },
+ {
+  "id": "A-VR-000008",
+  "name": "蓝光录像机",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2008,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "Betamax"
+  ],
+  "influence": "蓝光录像机，高清家庭录像。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2008,
+  "path": [
+   "家电影音",
+   "录像机",
+   "Betamax"
+  ],
+  "reason": "蓝光录像机，高清家庭录像。",
+  "_taxonomy": [
+   "家电影音",
+   "录像机",
+   "Betamax"
+  ]
+ },
+ {
+  "id": "A-VR-000016",
+  "name": "Betamovie 摄像机",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1983,
+  "taxonomy_path": [
+   "家电影音",
+   "录像机",
+   "Betamax"
+  ],
+  "influence": "Betamax 一体摄像机，早期摄录一体。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1983,
+  "path": [
+   "家电影音",
+   "录像机",
+   "Betamax"
+  ],
+  "reason": "Betamax 一体摄像机，早期摄录一体。",
+  "_taxonomy": [
+   "家电影音",
+   "录像机",
+   "Betamax"
   ]
  }
 ]

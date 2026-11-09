@@ -1,438 +1,1002 @@
 [
  {
-  "id": "P-PER-000001",
-  "名称": "点阵打印机",
-  "别名": [
-   "Dot matrix printer"
-  ],
-  "厂商": "Epson",
-  "产地": "日本",
-  "年代": 1978,
-  "分类路径": [
-   "办公与计算外设",
-   "打印机"
-  ],
-  "影响力理由": "击打式打印机，复写纸打印，早期办公主力。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "P-PR-000001",
   "name": "点阵打印机",
   "aliases": [
    "Dot matrix printer"
   ],
-  "maker": "Epson",
+  "manufacturer": "Epson",
   "origin": "日本",
+  "era": 1978,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "influence": "击打式打印机，复写纸打印，早期办公主力。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Epson",
   "year": 1978,
   "path": [
    "办公与计算外设",
    "打印机",
-   "未细分"
+   "针式"
   ],
   "reason": "击打式打印机，复写纸打印，早期办公主力。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "办公与计算外设",
    "打印机",
-   "未细分"
+   "针式"
   ]
  },
  {
-  "id": "P-PER-000002",
-  "名称": "喷墨打印机",
-  "别名": [
-   "Inkjet printer"
-  ],
-  "厂商": "HP/Canon",
-  "产地": "美国/日本",
-  "年代": 1984,
-  "分类路径": [
-   "办公与计算外设",
-   "打印机"
-  ],
-  "影响力理由": "喷墨打印，家庭打印普及的关键。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "喷墨打印机",
-  "aliases": [
-   "Inkjet printer"
-  ],
-  "maker": "HP/Canon",
-  "origin": "美国/日本",
-  "year": 1984,
-  "path": [
-   "办公与计算外设",
-   "打印机",
-   "未细分"
-  ],
-  "reason": "喷墨打印，家庭打印普及的关键。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "办公与计算外设",
-   "打印机",
-   "未细分"
-  ]
- },
- {
-  "id": "P-PER-000003",
-  "名称": "激光打印机",
-  "别名": [
-   "Laser printer"
-  ],
-  "厂商": "HP/Xerox",
-  "产地": "美国",
-  "年代": 1984,
-  "分类路径": [
-   "办公与计算外设",
-   "打印机"
-  ],
-  "影响力理由": "激光打印，办公文档打印标准。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "激光打印机",
-  "aliases": [
-   "Laser printer"
-  ],
-  "maker": "HP/Xerox",
-  "origin": "美国",
-  "year": 1984,
-  "path": [
-   "办公与计算外设",
-   "打印机",
-   "未细分"
-  ],
-  "reason": "激光打印，办公文档打印标准。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "办公与计算外设",
-   "打印机",
-   "未细分"
-  ]
- },
- {
-  "id": "P-PER-000004",
-  "名称": "热敏打印机",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "日本",
-  "年代": 1980,
-  "分类路径": [
-   "办公与计算外设",
-   "打印机"
-  ],
-  "影响力理由": "热敏打印，收据与标签打印。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "P-PR-000004",
   "name": "热敏打印机",
   "aliases": [],
-  "maker": "多家厂商",
+  "manufacturer": "多家厂商",
   "origin": "日本",
+  "era": 1980,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "influence": "热敏打印，收据与标签打印。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
   "year": 1980,
   "path": [
    "办公与计算外设",
    "打印机",
-   "未细分"
+   "针式"
   ],
   "reason": "热敏打印，收据与标签打印。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "办公与计算外设",
    "打印机",
-   "未细分"
+   "针式"
   ]
  },
  {
-  "id": "P-PER-000005",
-  "名称": "针式打印机",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "日本",
-  "年代": 1970,
-  "分类路径": [
-   "办公与计算外设",
-   "打印机"
-  ],
-  "影响力理由": "针式打印，早期计算机输出。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "针式打印机",
-  "aliases": [],
-  "maker": "多家厂商",
-  "origin": "日本",
-  "year": 1970,
-  "path": [
-   "办公与计算外设",
-   "打印机",
-   "未细分"
-  ],
-  "reason": "针式打印，早期计算机输出。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "办公与计算外设",
-   "打印机",
-   "未细分"
-  ]
- },
- {
-  "id": "P-PER-000006",
-  "名称": "3D 打印机",
-  "别名": [],
-  "厂商": "多家厂商",
-  "产地": "美国",
-  "年代": 2009,
-  "分类路径": [
-   "办公与计算外设",
-   "打印机"
-  ],
-  "影响力理由": "三维打印，个人制造时代。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "3D 打印机",
-  "aliases": [],
-  "maker": "多家厂商",
-  "origin": "美国",
-  "year": 2009,
-  "path": [
-   "办公与计算外设",
-   "打印机",
-   "未细分"
-  ],
-  "reason": "三维打印，个人制造时代。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "办公与计算外设",
-   "打印机",
-   "未细分"
-  ]
- },
- {
-  "id": "P-PER-000007",
-  "名称": "多功能一体机",
-  "别名": [
-   "All-in-one"
-  ],
-  "厂商": "HP/Canon",
-  "产地": "美国/日本",
-  "年代": 1995,
-  "分类路径": [
-   "办公与计算外设",
-   "打印机"
-  ],
-  "影响力理由": "打印复印扫描传真一体，办公设备。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "多功能一体机",
-  "aliases": [
-   "All-in-one"
-  ],
-  "maker": "HP/Canon",
-  "origin": "美国/日本",
-  "year": 1995,
-  "path": [
-   "办公与计算外设",
-   "打印机",
-   "未细分"
-  ],
-  "reason": "打印复印扫描传真一体，办公设备。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "办公与计算外设",
-   "打印机",
-   "未细分"
-  ]
- },
- {
-  "id": "P-PER-000008",
-  "名称": "照片打印机",
-  "别名": [],
-  "厂商": "Canon/Epson",
-  "产地": "日本",
-  "年代": 1995,
-  "分类路径": [
-   "办公与计算外设",
-   "打印机"
-  ],
-  "影响力理由": "照片级打印，数码摄影输出。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "照片打印机",
-  "aliases": [],
-  "maker": "Canon/Epson",
-  "origin": "日本",
-  "year": 1995,
-  "path": [
-   "办公与计算外设",
-   "打印机",
-   "未细分"
-  ],
-  "reason": "照片级打印，数码摄影输出。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "办公与计算外设",
-   "打印机",
-   "未细分"
-  ]
- },
- {
-  "id": "P-PER-000057",
-  "名称": "激光打印机（彩色）",
-  "别名": [],
-  "厂商": "HP/Canon",
-  "产地": "美国/日本",
-  "年代": 1990,
-  "分类路径": [
-   "办公与计算外设",
-   "打印机"
-  ],
-  "影响力理由": "彩色激光打印，办公彩色输出。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "激光打印机（彩色）",
-  "aliases": [],
-  "maker": "HP/Canon",
-  "origin": "美国/日本",
-  "year": 1990,
-  "path": [
-   "办公与计算外设",
-   "打印机",
-   "未细分"
-  ],
-  "reason": "彩色激光打印，办公彩色输出。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
-  "_taxonomy": [
-   "办公与计算外设",
-   "打印机",
-   "未细分"
-  ]
- },
- {
-  "id": "P-PER-000058",
-  "名称": "票据打印机",
-  "别名": [],
-  "厂商": "Epson/Star",
-  "产地": "日本",
-  "年代": 1985,
-  "分类路径": [
-   "办公与计算外设",
-   "打印机"
-  ],
-  "影响力理由": "票据打印，零售收银。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "P-PR-000009",
   "name": "票据打印机",
   "aliases": [],
-  "maker": "Epson/Star",
+  "manufacturer": "Epson/Star",
   "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "influence": "票据打印，零售收银。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Epson/Star",
   "year": 1985,
   "path": [
    "办公与计算外设",
    "打印机",
-   "未细分"
+   "针式"
   ],
   "reason": "票据打印，零售收银。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "办公与计算外设",
    "打印机",
-   "未细分"
+   "针式"
   ]
  },
  {
-  "id": "P-PER-000059",
-  "名称": "标签打印机",
-  "别名": [],
-  "厂商": "Brother/DYMO",
-  "产地": "日本/美国",
-  "年代": 1990,
-  "分类路径": [
-   "办公与计算外设",
-   "打印机"
-  ],
-  "影响力理由": "标签打印，整理标识。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
+  "id": "P-PR-000010",
   "name": "标签打印机",
   "aliases": [],
-  "maker": "Brother/DYMO",
+  "manufacturer": "Brother/DYMO",
   "origin": "日本/美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "influence": "标签打印，整理标识。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Brother/DYMO",
   "year": 1990,
   "path": [
    "办公与计算外设",
    "打印机",
-   "未细分"
+   "针式"
   ],
   "reason": "标签打印，整理标识。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
   "_taxonomy": [
    "办公与计算外设",
    "打印机",
-   "未细分"
+   "针式"
   ]
  },
  {
-  "id": "P-PER-000060",
-  "名称": "大幅面打印机",
-  "别名": [],
-  "厂商": "HP/Epson",
-  "产地": "美国/日本",
-  "年代": 1990,
-  "分类路径": [
-   "办公与计算外设",
-   "打印机"
+  "id": "P-PR-000012",
+  "name": "绘图仪",
+  "aliases": [
+   "Plotter"
   ],
-  "影响力理由": "大幅面打印，工程图纸与海报。",
-  "状态": "planned",
-  "关联包": null,
-  "来源编号": [],
-  "name": "大幅面打印机",
+  "manufacturer": "HP/Calcomp",
+  "origin": "美国",
+  "era": 1959,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "influence": "大幅面矢量绘图，工程制图（归打印机系）。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP/Calcomp",
+  "year": 1959,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "reason": "大幅面矢量绘图，工程制图（归打印机系）。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ]
+ },
+ {
+  "id": "P-PR-000013",
+  "name": "针式打印机（高速）",
   "aliases": [],
-  "maker": "HP/Epson",
-  "origin": "美国/日本",
+  "manufacturer": "Epson/OKI",
+  "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "influence": "高速针式打印，票据报表。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Epson/OKI",
+  "year": 1985,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "reason": "高速针式打印，票据报表。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ]
+ },
+ {
+  "id": "P-PR-000016",
+  "name": "针式打印机（24 针）",
+  "aliases": [],
+  "manufacturer": "Epson",
+  "origin": "日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "influence": "24 针针式打印机，汉字打印。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Epson",
+  "year": 1985,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "reason": "24 针针式打印机，汉字打印。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ]
+ },
+ {
+  "id": "P-PR-000019",
+  "name": "热敏票据打印机",
+  "aliases": [],
+  "manufacturer": "Epson",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "influence": "热敏票据打印，收银小票。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Epson",
   "year": 1990,
   "path": [
    "办公与计算外设",
    "打印机",
-   "未细分"
+   "针式"
   ],
-  "reason": "大幅面打印，工程图纸与海报。",
-  "status": "planned",
-  "device_id": null,
-  "sources": [],
+  "reason": "热敏票据打印，收银小票。",
   "_taxonomy": [
    "办公与计算外设",
    "打印机",
-   "未细分"
+   "针式"
+  ]
+ },
+ {
+  "id": "P-PR-000020",
+  "name": "热转印标签机",
+  "aliases": [],
+  "manufacturer": "Brother",
+  "origin": "日本",
+  "era": 1995,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "influence": "热转印标签打印，标识。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Brother",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "reason": "热转印标签打印，标识。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ]
+ },
+ {
+  "id": "P-PR-000022",
+  "name": "大幅面绘图仪",
+  "aliases": [],
+  "manufacturer": "HP/Canon",
+  "origin": "美国/日本",
+  "era": 1995,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "influence": "大幅面绘图打印，工程出图。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP/Canon",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "reason": "大幅面绘图打印，工程出图。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ]
+ },
+ {
+  "id": "P-PR-000026",
+  "name": "针式打印机（票据）",
+  "aliases": [],
+  "manufacturer": "Star",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "influence": "票据针式打印，多联复写。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Star",
+  "year": 1990,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "reason": "票据针式打印，多联复写。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ]
+ },
+ {
+  "id": "P-PR-000028",
+  "name": "绘图仪（滚筒）",
+  "aliases": [],
+  "manufacturer": "Calcomp",
+  "origin": "美国",
+  "era": 1970,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "influence": "滚筒绘图仪，工程制图。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Calcomp",
+  "year": 1970,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "reason": "滚筒绘图仪，工程制图。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ]
+ },
+ {
+  "id": "P-PR-000029",
+  "name": "绘图仪（平板）",
+  "aliases": [],
+  "manufacturer": "HP",
+  "origin": "美国",
+  "era": 1975,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "influence": "平板绘图仪，精密绘图。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP",
+  "year": 1975,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "reason": "平板绘图仪，精密绘图。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ]
+ },
+ {
+  "id": "P-PR-000030",
+  "name": "打印机（针式 9 针）",
+  "aliases": [],
+  "manufacturer": "Epson",
+  "origin": "日本",
+  "era": 1980,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "influence": "9 针针式打印机，早期打印。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Epson",
+  "year": 1980,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "reason": "9 针针式打印机，早期打印。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ]
+ },
+ {
+  "id": "P-PR-000033",
+  "name": "打印机（针式平推）",
+  "aliases": [],
+  "manufacturer": "Epson",
+  "origin": "日本",
+  "era": 1995,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "influence": "平推针式打印机，票据存折。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Epson",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ],
+  "reason": "平推针式打印机，票据存折。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "针式"
+  ]
+ },
+ {
+  "id": "P-PR-000002",
+  "name": "喷墨打印机",
+  "aliases": [
+   "Inkjet printer"
+  ],
+  "manufacturer": "HP/Canon",
+  "origin": "美国/日本",
+  "era": 1984,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "influence": "喷墨打印，家庭打印普及的关键。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP/Canon",
+  "year": 1984,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "reason": "喷墨打印，家庭打印普及的关键。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ]
+ },
+ {
+  "id": "P-PR-000007",
+  "name": "照片打印机",
+  "aliases": [],
+  "manufacturer": "Canon/Epson",
+  "origin": "日本",
+  "era": 1995,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "influence": "照片级打印，数码摄影输出。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Canon/Epson",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "reason": "照片级打印，数码摄影输出。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ]
+ },
+ {
+  "id": "P-PR-000011",
+  "name": "大幅面打印机",
+  "aliases": [],
+  "manufacturer": "HP/Epson",
+  "origin": "美国/日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "influence": "大幅面打印，工程图纸与海报。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP/Epson",
+  "year": 1990,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "reason": "大幅面打印，工程图纸与海报。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ]
+ },
+ {
+  "id": "P-PR-000014",
+  "name": "喷墨照片打印机",
+  "aliases": [],
+  "manufacturer": "Epson/Canon",
+  "origin": "日本",
+  "era": 1998,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "influence": "六色喷墨照片打印，家庭照片输出。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Epson/Canon",
+  "year": 1998,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "reason": "六色喷墨照片打印，家庭照片输出。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ]
+ },
+ {
+  "id": "P-PR-000017",
+  "name": "喷墨打印机（彩色）",
+  "aliases": [],
+  "manufacturer": "HP/Canon",
+  "origin": "美国/日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "influence": "彩色喷墨打印，家庭彩色输出。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP/Canon",
+  "year": 1990,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "reason": "彩色喷墨打印，家庭彩色输出。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ]
+ },
+ {
+  "id": "P-PR-000021",
+  "name": "喷墨一体机",
+  "aliases": [],
+  "manufacturer": "HP/Canon",
+  "origin": "美国/日本",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "influence": "喷墨多功能一体机，家庭办公。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP/Canon",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "reason": "喷墨多功能一体机，家庭办公。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ]
+ },
+ {
+  "id": "P-PR-000024",
+  "name": "照片打印机（热升华）",
+  "aliases": [],
+  "manufacturer": "Canon/Epson",
+  "origin": "日本",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "influence": "热升华照片打印，证件照。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Canon/Epson",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "reason": "热升华照片打印，证件照。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ]
+ },
+ {
+  "id": "P-PR-000027",
+  "name": "便携照片打印机",
+  "aliases": [],
+  "manufacturer": "Canon/Polaroid",
+  "origin": "日本/美国",
+  "era": 2010,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "influence": "便携照片打印，手机直连。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Canon/Polaroid",
+  "year": 2010,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "reason": "便携照片打印，手机直连。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ]
+ },
+ {
+  "id": "P-PR-000031",
+  "name": "打印机（喷墨连续供墨）",
+  "aliases": [],
+  "manufacturer": "Epson",
+  "origin": "日本",
+  "era": 2005,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "influence": "连续供墨喷墨，低成本打印。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Epson",
+  "year": 2005,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ],
+  "reason": "连续供墨喷墨，低成本打印。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "喷墨"
+  ]
+ },
+ {
+  "id": "P-PR-000003",
+  "name": "激光打印机",
+  "aliases": [
+   "Laser printer"
+  ],
+  "manufacturer": "HP/Xerox",
+  "origin": "美国",
+  "era": 1984,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "influence": "激光打印，办公文档打印标准。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP/Xerox",
+  "year": 1984,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "reason": "激光打印，办公文档打印标准。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ]
+ },
+ {
+  "id": "P-PR-000005",
+  "name": "3D 打印机",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 2009,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "influence": "三维打印，个人制造时代。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2009,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "reason": "三维打印，个人制造时代。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ]
+ },
+ {
+  "id": "P-PR-000006",
+  "name": "多功能一体机",
+  "aliases": [
+   "All-in-one"
+  ],
+  "manufacturer": "HP/Canon",
+  "origin": "美国/日本",
+  "era": 1995,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "influence": "打印复印扫描传真一体，办公设备。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP/Canon",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "reason": "打印复印扫描传真一体，办公设备。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ]
+ },
+ {
+  "id": "P-PR-000008",
+  "name": "彩色激光打印机",
+  "aliases": [],
+  "manufacturer": "HP/Canon",
+  "origin": "美国/日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "influence": "彩色激光打印，办公彩色输出。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP/Canon",
+  "year": 1990,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "reason": "彩色激光打印，办公彩色输出。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ]
+ },
+ {
+  "id": "P-PR-000015",
+  "name": "激光一体机",
+  "aliases": [],
+  "manufacturer": "HP/Brother",
+  "origin": "美国/日本",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "influence": "激光多功能一体机，办公标配。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP/Brother",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "reason": "激光多功能一体机，办公标配。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ]
+ },
+ {
+  "id": "P-PR-000018",
+  "name": "激光打印机（网络）",
+  "aliases": [],
+  "manufacturer": "HP",
+  "origin": "美国",
+  "era": 1995,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "influence": "网络激光打印机，办公共享。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "reason": "网络激光打印机，办公共享。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ]
+ },
+ {
+  "id": "P-PR-000023",
+  "name": "3D 打印机（桌面）",
+  "aliases": [],
+  "manufacturer": "MakerBot",
+  "origin": "美国",
+  "era": 2012,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "influence": "桌面 3D 打印，创客时代。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "MakerBot",
+  "year": 2012,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "reason": "桌面 3D 打印，创客时代。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ]
+ },
+ {
+  "id": "P-PR-000025",
+  "name": "激光彩色一体机",
+  "aliases": [],
+  "manufacturer": "HP/Canon",
+  "origin": "美国/日本",
+  "era": 2005,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "influence": "彩色激光一体机，办公旗舰。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP/Canon",
+  "year": 2005,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "reason": "彩色激光一体机，办公旗舰。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ]
+ },
+ {
+  "id": "P-PR-000032",
+  "name": "打印机（激光黑白）",
+  "aliases": [],
+  "manufacturer": "HP",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "influence": "黑白激光打印，办公文档。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP",
+  "year": 1990,
+  "path": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
+  ],
+  "reason": "黑白激光打印，办公文档。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "打印机",
+   "激光"
   ]
  }
 ]

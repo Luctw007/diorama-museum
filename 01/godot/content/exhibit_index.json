@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T23:49:09",
+  "generated": "2026-11-10T01:30:45",
   "halls": [
     {
       "hall": "黎明厅（Dawn Hall）",
@@ -11,7 +11,7 @@
           "category": "early-computer",
           "emulator": "qedsac",
           "demo_mode": false,
-          "annotation_count": 32,
+          "annotation_count": 39,
           "meshes": 4
         },
         {
@@ -21,7 +21,7 @@
           "category": "early-computer",
           "emulator": "none",
           "demo_mode": true,
-          "annotation_count": 27,
+          "annotation_count": 36,
           "meshes": 3
         },
         {
@@ -31,7 +31,7 @@
           "category": "early-computer",
           "emulator": "none",
           "demo_mode": true,
-          "annotation_count": 17,
+          "annotation_count": 25,
           "meshes": 4
         },
         {
@@ -56,7 +56,7 @@
           "category": "minicomputer",
           "emulator": "none",
           "demo_mode": true,
-          "annotation_count": 39,
+          "annotation_count": 47,
           "meshes": 0
         },
         {
@@ -66,7 +66,7 @@
           "category": "minicomputer",
           "emulator": "simh-pdp8",
           "demo_mode": false,
-          "annotation_count": 44,
+          "annotation_count": 53,
           "meshes": 0
         },
         {
@@ -76,7 +76,7 @@
           "category": "mainframe",
           "emulator": "none",
           "demo_mode": true,
-          "annotation_count": 50,
+          "annotation_count": 58,
           "meshes": 0
         },
         {
@@ -86,7 +86,7 @@
           "category": "minicomputer",
           "emulator": "none",
           "demo_mode": true,
-          "annotation_count": 38,
+          "annotation_count": 46,
           "meshes": 0
         }
       ]
@@ -95,14 +95,144 @@
       "hall": "个人计算机厅（Personal Computer Hall）",
       "devices": [
         {
+          "id": "altair-8800",
+          "name": "MITS Altair 8800（个人电脑套件）",
+          "era": 1975,
+          "category": "personal-computer",
+          "emulator": "simh-altair8800",
+          "demo_mode": false,
+          "annotation_count": 46,
+          "meshes": 0
+        },
+        {
+          "id": "amiga500",
+          "name": "Amiga 500",
+          "era": 1987,
+          "category": "personal-computer",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 31,
+          "meshes": 0
+        },
+        {
           "id": "apple-ii",
           "name": "Apple II",
           "era": 1977,
           "category": "computer",
           "emulator": "mame",
           "demo_mode": false,
-          "annotation_count": 72,
+          "annotation_count": 79,
           "meshes": 4
+        },
+        {
+          "id": "atari-st",
+          "name": "Atari ST",
+          "era": 1985,
+          "category": "personal-computer",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 31,
+          "meshes": 0
+        },
+        {
+          "id": "bbcmicro",
+          "name": "BBC Micro",
+          "era": 1981,
+          "category": "personal-computer",
+          "emulator": "beebem",
+          "demo_mode": false,
+          "annotation_count": 43,
+          "meshes": 0
+        },
+        {
+          "id": "commodore64",
+          "name": "Commodore 64",
+          "era": 1982,
+          "category": "personal-computer",
+          "emulator": "vice",
+          "demo_mode": false,
+          "annotation_count": 39,
+          "meshes": 0
+        },
+        {
+          "id": "ibm5150",
+          "name": "IBM PC 5150",
+          "era": 1981,
+          "category": "personal-computer",
+          "emulator": "pc86box",
+          "demo_mode": false,
+          "annotation_count": 40,
+          "meshes": 0
+        },
+        {
+          "id": "macintosh128k",
+          "name": "Macintosh 128K",
+          "era": 1984,
+          "category": "personal-computer",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 36,
+          "meshes": 0
+        },
+        {
+          "id": "next",
+          "name": "NeXT Computer",
+          "era": 1988,
+          "category": "workstation",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 30,
+          "meshes": 0
+        },
+        {
+          "id": "pet2001",
+          "name": "Commodore PET 2001",
+          "era": 1977,
+          "category": "personal-computer",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 30,
+          "meshes": 0
+        },
+        {
+          "id": "trs80-model1",
+          "name": "TRS-80 Model I",
+          "era": 1977,
+          "category": "personal-computer",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 30,
+          "meshes": 0
+        },
+        {
+          "id": "vic20",
+          "name": "Commodore VIC-20",
+          "era": 1980,
+          "category": "personal-computer",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 30,
+          "meshes": 0
+        },
+        {
+          "id": "x68000",
+          "name": "Sharp X68000",
+          "era": 1987,
+          "category": "personal-computer",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 34,
+          "meshes": 0
+        },
+        {
+          "id": "zx-spectrum",
+          "name": "ZX Spectrum",
+          "era": 1982,
+          "category": "personal-computer",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 30,
+          "meshes": 0
         }
       ]
     },
@@ -116,7 +246,7 @@
           "category": "game-console",
           "emulator": "stella",
           "demo_mode": false,
-          "annotation_count": 28,
+          "annotation_count": 35,
           "meshes": 0
         },
         {
@@ -126,7 +256,92 @@
           "category": "game-console",
           "emulator": "mesen",
           "demo_mode": false,
-          "annotation_count": 30,
+          "annotation_count": 47,
+          "meshes": 0
+        },
+        {
+          "id": "game-boy",
+          "name": "Game Boy",
+          "era": 1989,
+          "category": "game-console",
+          "emulator": "sameboy",
+          "demo_mode": false,
+          "annotation_count": 39,
+          "meshes": 0
+        },
+        {
+          "id": "neo-geo-mvs",
+          "name": "Neo Geo MVS 街机柜",
+          "era": 1990,
+          "category": "game-console",
+          "emulator": "mame",
+          "demo_mode": false,
+          "annotation_count": 43,
+          "meshes": 0
+        },
+        {
+          "id": "sega-md",
+          "name": "Sega Mega Drive",
+          "era": 1988,
+          "category": "game-console",
+          "emulator": "blastem",
+          "demo_mode": false,
+          "annotation_count": 37,
+          "meshes": 0
+        },
+        {
+          "id": "sfc",
+          "name": "Super Famicom",
+          "era": 1990,
+          "category": "game-console",
+          "emulator": "snes9x",
+          "demo_mode": false,
+          "annotation_count": 42,
+          "meshes": 0
+        }
+      ]
+    },
+    {
+      "hall": "手机与手持（Mobile & Handheld）",
+      "devices": [
+        {
+          "id": "dynatac-8000x",
+          "name": "Motorola DynaTAC 8000X",
+          "era": 1983,
+          "category": "phone",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 32,
+          "meshes": 0
+        },
+        {
+          "id": "iphone",
+          "name": "Apple iPhone（初代）",
+          "era": 2007,
+          "category": "phone",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 33,
+          "meshes": 0
+        },
+        {
+          "id": "nokia-3310",
+          "name": "Nokia 3310",
+          "era": 2000,
+          "category": "phone",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 33,
+          "meshes": 0
+        },
+        {
+          "id": "palm-pilot",
+          "name": "Palm Pilot 1000",
+          "era": 1996,
+          "category": "pda",
+          "emulator": "none",
+          "demo_mode": true,
+          "annotation_count": 31,
           "meshes": 0
         }
       ]
@@ -134,6 +349,16 @@
     {
       "hall": "示例（Samples）",
       "devices": [
+        {
+          "id": "catalog",
+          "name": null,
+          "era": null,
+          "category": "placeholder",
+          "emulator": null,
+          "demo_mode": true,
+          "annotation_count": 0,
+          "meshes": 0
+        },
         {
           "id": "test-device",
           "name": "验证方块机",

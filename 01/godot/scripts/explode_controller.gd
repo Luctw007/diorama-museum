@@ -90,8 +90,10 @@ func _compute_depth(nodes: Dictionary, aid: String, acc: int) -> int:
 func _guess_axis(nodes: Dictionary, aid: String) -> Vector3:
 	# 推拉主轴：读取该装配体相对父级的平移方向；无父级 → +X
 	var entry: Dictionary = nodes[aid].get_meta("asmb_entry", {})
-	var tr: Variant = entry.get("transform")
-	var t: Array = tr.get("translation", [0, 0, 0]) if tr is Dictionary else []
+	var tf: Variant = entry.get("transform")
+	var t: Array = []
+	if tf is Dictionary:
+		t = tf.get("translation", [0, 0, 0])
 	if not t.is_empty():
 		var v := Vector3(float(t[0]), float(t[1]), float(t[2]))
 		if v.length() > 0.001:
@@ -144,6 +146,9 @@ func set_open() -> void:
 
 func set_exploded() -> void:
 	_set_state(State.EXPLODED)
+	# RUN-08 复测：进入拆解即演示展开，给可见反馈；滑杆可继续调（0..1）
+	if _state == State.EXPLODED and not _base_transform.is_empty():
+		_target_value = 0.35
 
 
 func set_close() -> void:

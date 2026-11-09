@@ -1,0 +1,362 @@
+[
+ {
+  "id": "P-CA-000001",
+  "name": "电子计算器",
+  "aliases": [],
+  "manufacturer": "Sharp/Casio",
+  "origin": "日本",
+  "era": 1964,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ],
+  "influence": "电子计算器，商用计算普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sharp/Casio",
+  "year": 1964,
+  "path": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ],
+  "reason": "电子计算器，商用计算普及。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ]
+ },
+ {
+  "id": "P-CA-000005",
+  "name": "科学计算器",
+  "aliases": [],
+  "manufacturer": "Casio/Sharp",
+  "origin": "日本",
+  "era": 1972,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ],
+  "influence": "科学计算器，函数计算。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Casio/Sharp",
+  "year": 1972,
+  "path": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ],
+  "reason": "科学计算器，函数计算。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ]
+ },
+ {
+  "id": "P-CA-000008",
+  "name": "Casio fx 计算器",
+  "aliases": [],
+  "manufacturer": "Casio",
+  "origin": "日本",
+  "era": 1974,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ],
+  "influence": "Casio 函数计算器，学生工具。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Casio",
+  "year": 1974,
+  "path": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ],
+  "reason": "Casio 函数计算器，学生工具。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ]
+ },
+ {
+  "id": "P-CA-000009",
+  "name": "财务计算器",
+  "aliases": [],
+  "manufacturer": "HP/TI",
+  "origin": "美国",
+  "era": 1980,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ],
+  "influence": "财务计算器，金融从业工具。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP/TI",
+  "year": 1980,
+  "path": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ],
+  "reason": "财务计算器，金融从业工具。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ]
+ },
+ {
+  "id": "P-CA-000010",
+  "name": "打印计算器",
+  "aliases": [],
+  "manufacturer": "Sharp/Casio",
+  "origin": "日本",
+  "era": 1975,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ],
+  "influence": "打印计算器，会计办公。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sharp/Casio",
+  "year": 1975,
+  "path": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ],
+  "reason": "打印计算器，会计办公。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ]
+ },
+ {
+  "id": "P-CA-000011",
+  "name": "计算器（太阳能）",
+  "aliases": [],
+  "manufacturer": "Casio",
+  "origin": "日本",
+  "era": 1980,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ],
+  "influence": "太阳能计算器，免电池。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Casio",
+  "year": 1980,
+  "path": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ],
+  "reason": "太阳能计算器，免电池。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "计算器",
+   "电子计算器"
+  ]
+ },
+ {
+  "id": "P-CA-000002",
+  "name": "可编程计算器",
+  "aliases": [],
+  "manufacturer": "HP/TI",
+  "origin": "美国",
+  "era": 1972,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ],
+  "influence": "可编程计算器，工程师工具。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP/TI",
+  "year": 1972,
+  "path": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ],
+  "reason": "可编程计算器，工程师工具。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ]
+ },
+ {
+  "id": "P-CA-000003",
+  "name": "HP-65 计算器",
+  "aliases": [],
+  "manufacturer": "HP",
+  "origin": "美国",
+  "era": 1974,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ],
+  "influence": "首台可编程口袋计算器，计算器里程碑。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP",
+  "year": 1974,
+  "path": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ],
+  "reason": "首台可编程口袋计算器，计算器里程碑。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ]
+ },
+ {
+  "id": "P-CA-000004",
+  "name": "图形计算器",
+  "aliases": [],
+  "manufacturer": "TI/Casio",
+  "origin": "美国/日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ],
+  "influence": "图形计算器，教育用绘图计算。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "TI/Casio",
+  "year": 1985,
+  "path": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ],
+  "reason": "图形计算器，教育用绘图计算。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ]
+ },
+ {
+  "id": "P-CA-000006",
+  "name": "HP-35 计算器",
+  "aliases": [],
+  "manufacturer": "HP",
+  "origin": "美国",
+  "era": 1972,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ],
+  "influence": "首台科学计算器，口袋计算革命。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP",
+  "year": 1972,
+  "path": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ],
+  "reason": "首台科学计算器，口袋计算革命。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ]
+ },
+ {
+  "id": "P-CA-000007",
+  "name": "TI-84 图形计算器",
+  "aliases": [],
+  "manufacturer": "TI",
+  "origin": "美国",
+  "era": 2004,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ],
+  "influence": "TI-84 图形计算器，教育标配。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "TI",
+  "year": 2004,
+  "path": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ],
+  "reason": "TI-84 图形计算器，教育标配。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ]
+ },
+ {
+  "id": "P-CA-000012",
+  "name": "计算器（编程）",
+  "aliases": [],
+  "manufacturer": "HP",
+  "origin": "美国",
+  "era": 1975,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ],
+  "influence": "可编程计算器，科学计算。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "HP",
+  "year": 1975,
+  "path": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ],
+  "reason": "可编程计算器，科学计算。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "计算器",
+   "可编程计算器"
+  ]
+ }
+]

@@ -1,0 +1,524 @@
+{
+  "meta": {
+    "id": "iphone",
+    "name": {
+      "zh": "Apple iPhone（初代）",
+      "en": "Apple iPhone (first generation)"
+    },
+    "intro": {
+      "zh": "Apple iPhone 初代是苹果 2007 年发布的智能手机，以 3.5 英寸多点触控屏与无物理键盘重新定义了手机，开启智能手机与触屏革命。",
+      "en": "The original Apple iPhone, launched in 2007, redefined the phone with a 3.5-inch multi-touch display and no physical keyboard, igniting the smartphone and touchscreen revolution."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 2007,
+    "manufacturer": "Apple",
+    "category": "phone",
+    "description": "Apple iPhone 初代（2007）：3.5 英寸多点触控屏、ARM11、无物理键盘、EDGE 网络、iPhone OS、内置不可拆卸电池。演示向（无模拟器，iOS 红线）。",
+    "authors": [
+      {
+        "name": "TASK-108A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — iPhone (first generation)",
+        "url": "https://en.wikipedia.org/wiki/IPhone_(first_generation)",
+        "license": "cc",
+        "accessed_at": "2026-11-05"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Multi-touch",
+        "url": "https://en.wikipedia.org/wiki/Multi-touch",
+        "license": "cc",
+        "accessed_at": "2026-11-05"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — iOS",
+        "url": "https://en.wikipedia.org/wiki/IOS",
+        "license": "cc",
+        "accessed_at": "2026-11-05"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Apple iPhone 初代整机，2007 年发布的智能手机，以多点触控与无物理键盘重新定义了手机。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "case",
+        "display",
+        "pcb",
+        "battery",
+        "dock_connector"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "macworld_2007",
+        "multi_touch",
+        "touch_revolution"
+      ]
+    },
+    {
+      "id": "case",
+      "name": "机身",
+      "role": {
+        "zh": "机身外壳在整机中作为铝制后壳与前玻璃面板构成的一体机身，承载 Home 键、电源键与摄像头。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "home_button",
+        "sleep_wake_button",
+        "camera",
+        "sim_tray",
+        "speaker_grill",
+        "mic_hole"
+      ],
+      "annotations": [
+        "case_role"
+      ],
+      "mesh_ref": "assemblies/case.gltf"
+    },
+    {
+      "id": "display",
+      "name": "显示屏",
+      "role": {
+        "zh": "显示屏在整机中由玻璃盖板、触控层与 LCD 面板叠合而成，是 3.5 英寸多点触控的显示界面。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "lcd_panel",
+        "touch_digitizer",
+        "glass_cover"
+      ],
+      "annotations": [
+        "display_role"
+      ],
+      "mesh_ref": "assemblies/display.gltf"
+    },
+    {
+      "id": "pcb",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 ARM11 处理器、内存、闪存与基带、WiFi 芯片，是整机的运算与通信核心。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cpu_arm11",
+        "ram",
+        "flash_storage",
+        "gsm_chip",
+        "wifi_chip",
+        "accelerometer"
+      ],
+      "annotations": [
+        "pcb_role"
+      ],
+      "mesh_ref": "assemblies/pcb.gltf"
+    },
+    {
+      "id": "battery",
+      "name": "电池",
+      "role": {
+        "zh": "电池在整机中作为内置不可拆卸锂离子电池，为整机供电，是机身一体设计的一部分。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "battery_cell"
+      ],
+      "annotations": [
+        "battery_role"
+      ],
+      "mesh_ref": "assemblies/battery.gltf"
+    },
+    {
+      "id": "dock_connector",
+      "name": "Dock 接口",
+      "role": {
+        "zh": "Dock 接口在整机中位于机身底部，是 30 针充电与数据同步接口，也是整机唯一的外部有线接口。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "dock_port"
+      ],
+      "annotations": [
+        "dock_connector_role"
+      ],
+      "mesh_ref": "assemblies/dock_connector.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "home_button",
+      "name": "Home 键",
+      "type": "button",
+      "role": {
+        "zh": "Home 键在整机中位于屏幕下方，是唯一的正面实体按键，用于返回主屏幕。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "home_button_role"
+      ]
+    },
+    {
+      "id": "sleep_wake_button",
+      "name": "电源键",
+      "type": "button",
+      "role": {
+        "zh": "电源键在整机中位于机身顶部，用于锁屏、唤醒与开关机。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "sleep_wake_button_role"
+      ]
+    },
+    {
+      "id": "camera",
+      "name": "后置摄像头",
+      "type": "camera",
+      "role": {
+        "zh": "后置摄像头在整机中位于机身背部上方，为 200 万像素定焦摄像头。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "camera_role"
+      ]
+    },
+    {
+      "id": "sim_tray",
+      "name": "SIM 卡槽",
+      "type": "slot",
+      "role": {
+        "zh": "SIM 卡槽在整机中位于机身顶部，容纳 SIM 卡以接入蜂窝网络。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "sim_tray_role"
+      ]
+    },
+    {
+      "id": "speaker_grill",
+      "name": "扬声器孔",
+      "type": "port",
+      "role": {
+        "zh": "扬声器孔在整机中位于机身底部，外放通话、铃声与媒体声音。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "speaker_grill_role"
+      ]
+    },
+    {
+      "id": "mic_hole",
+      "name": "麦克风孔",
+      "type": "port",
+      "role": {
+        "zh": "麦克风孔在整机中位于机身底部，采集用户语音用于通话与录音。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "mic_hole_role"
+      ]
+    },
+    {
+      "id": "lcd_panel",
+      "name": "LCD 面板",
+      "type": "lcd",
+      "role": {
+        "zh": "LCD 面板在整机中显示画面，为 3.5 英寸、320×480 分辨率的彩色液晶屏。"
+      },
+      "assembly": "display",
+      "annotations": [
+        "lcd_panel_role"
+      ]
+    },
+    {
+      "id": "touch_digitizer",
+      "name": "触控层",
+      "type": "sensor",
+      "role": {
+        "zh": "触控层在整机中感知多点电容触控，是 iPhone 多点触控交互的核心传感器。"
+      },
+      "assembly": "display",
+      "annotations": [
+        "touch_digitizer_role"
+      ]
+    },
+    {
+      "id": "glass_cover",
+      "name": "玻璃盖板",
+      "type": "cover",
+      "role": {
+        "zh": "玻璃盖板在整机中覆盖显示屏表面，保护内层并为手指滑动提供顺滑表面。"
+      },
+      "assembly": "display",
+      "annotations": [
+        "glass_cover_role"
+      ]
+    },
+    {
+      "id": "cpu_arm11",
+      "name": "ARM11 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "ARM11 处理器在整机中作为计算核心，是苹果向 ARM 架构转型后的早期移动处理器。"
+      },
+      "assembly": "pcb",
+      "annotations": [
+        "cpu_arm11_role"
+      ]
+    },
+    {
+      "id": "ram",
+      "name": "内存",
+      "type": "ram",
+      "role": {
+        "zh": "内存在整机中存放运行中的程序与数据，容量 128MB。"
+      },
+      "assembly": "pcb",
+      "annotations": [
+        "ram_role"
+      ]
+    },
+    {
+      "id": "flash_storage",
+      "name": "闪存",
+      "type": "storage",
+      "role": {
+        "zh": "闪存在整机中存储操作系统、应用与用户数据，初代提供 4GB 或 8GB 容量。"
+      },
+      "assembly": "pcb",
+      "annotations": [
+        "flash_storage_role"
+      ]
+    },
+    {
+      "id": "gsm_chip",
+      "name": "基带芯片",
+      "type": "ic",
+      "role": {
+        "zh": "基带芯片在整机中处理蜂窝通信，初代支持 GSM/EDGE（2.5G）网络，不支持 3G。"
+      },
+      "assembly": "pcb",
+      "annotations": [
+        "gsm_chip_role"
+      ]
+    },
+    {
+      "id": "wifi_chip",
+      "name": "WiFi 芯片",
+      "type": "ic",
+      "role": {
+        "zh": "WiFi 芯片在整机中提供 802.11b/g 无线网络连接，用于上网与数据同步。"
+      },
+      "assembly": "pcb",
+      "annotations": [
+        "wifi_chip_role"
+      ]
+    },
+    {
+      "id": "accelerometer",
+      "name": "加速度计",
+      "type": "sensor",
+      "role": {
+        "zh": "加速度计在整机中感知机身姿态，使屏幕画面随横竖旋转自动切换。"
+      },
+      "assembly": "pcb",
+      "annotations": [
+        "accelerometer_role"
+      ]
+    },
+    {
+      "id": "battery_cell",
+      "name": "锂离子电池",
+      "type": "battery",
+      "role": {
+        "zh": "锂离子电池在整机中储存电能，为整机供电，且为不可拆卸的内置设计。"
+      },
+      "assembly": "battery",
+      "annotations": [
+        "battery_cell_role"
+      ]
+    },
+    {
+      "id": "dock_port",
+      "name": "30 针 Dock 接口",
+      "type": "connector",
+      "role": {
+        "zh": "30 针 Dock 接口在整机中用于充电与连接电脑同步数据，是初代 iPhone 的唯一有线接口。"
+      },
+      "assembly": "dock_connector",
+      "annotations": [
+        "dock_port_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Apple iPhone (first generation)",
+    "media_hint": "firmware",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "handheld_lcd_0",
+        "surface": "handheld_lcd",
+        "type": "video",
+        "format": "rgb"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "home": {
+        "map": "keyboard",
+        "key": "KEY_HOME"
+      },
+      "volume_up": {
+        "map": "keyboard",
+        "key": "KEY_UP"
+      },
+      "volume_down": {
+        "map": "keyboard",
+        "key": "KEY_DOWN"
+      },
+      "tap": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      }
+    }
+  }
+}

@@ -124,6 +124,54 @@
       "sources": [
         "http://www.bitsavers.org/pdf/univOfPennsylvania/eniac/ENIAC_Operating_Manual_Jun46.pdf"
       ]
+    },
+    {
+      "id": "first_general_computer",
+      "type": "flow",
+      "target": "whole",
+      "text": "首台通用电子计算机讲解：ENIAC 是公认的首台通用电子数字计算机，把「可编程计算」从理论带进了现实，是电子计算机时代的起点。"
+    },
+    {
+      "id": "women_programmers",
+      "type": "flow",
+      "target": "whole",
+      "text": "女性程序员讲解：ENIAC 的首批程序员是六位女性，她们在无手册的情况下摸清机器、编写程序，是最早的编程先驱之一。"
+    },
+    {
+      "id": "plugboard_programming",
+      "type": "flow",
+      "target": "whole",
+      "text": "插板编程讲解：ENIAC 靠插拔电缆与拨动开关来「编程」，改一次程序往往要忙上好几天，是「编程」最原始的模样。"
+    },
+    {
+      "id": "vacuum_tubes",
+      "type": "flow",
+      "target": "cabinet",
+      "text": "真空管讲解：ENIAC 用了约 1.8 万只真空管，坏一只灯就要排查半天，是电子管计算机时代「庞大而脆弱」的真实写照。"
+    },
+    {
+      "id": "decimal_arithmetic",
+      "type": "flow",
+      "target": "accumulator_bank",
+      "text": "十进制运算讲解：ENIAC 采用十进制而非二进制运算，用一排排累加器做加法，是早期计算机设计的一次重要选择。"
+    },
+    {
+      "id": "ww2_ballistics",
+      "type": "flow",
+      "target": "whole",
+      "text": "二战弹道计算讲解：ENIAC 诞生于二战，最初为计算火炮弹道表而建，是军用需求催生计算革命的代表。"
+    },
+    {
+      "id": "reprogramming",
+      "type": "flow",
+      "target": "whole",
+      "text": "重编程繁琐讲解：与后来的存储程序计算机不同，ENIAC 换一个任务就要重新接线，这一局限直接催生了存储程序概念。"
+    },
+    {
+      "id": "thirty_tons",
+      "type": "flow",
+      "target": "whole",
+      "text": "三十吨巨兽讲解：ENIAC 占地一间大房、重约 30 吨、耗电惊人，是「计算机曾经是一栋房子」的最直观物证。"
     }
   ]
 }

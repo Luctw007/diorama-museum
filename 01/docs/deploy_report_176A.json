@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-11-10 01:01:58",
+  "binaries": {
+    "mame": {
+      "status": "OK",
+      "detail": "D:\\work\\01\\repo\\01\\third_party\\mame\\mame.exe"
+    },
+    "simh": {
+      "status": "OK",
+      "detail": "D:\\work\\01\\repo\\01\\third_party\\simh\\pdp8.exe"
+    },
+    "stella": {
+      "status": "OK",
+      "detail": "D:\\work\\01\\repo\\01\\third_party\\stella\\stella.exe"
+    }
+  },
+  "media_dirs": 0,
+  "media_count": 0,
+  "ready": true
+}

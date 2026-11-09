@@ -53,9 +53,14 @@ def measure(pkg_dir: str) -> dict[str, str]:
     def has(name: str) -> str:
         return "✓" if os.path.isfile(os.path.join(pkg_dir, name)) else "✗"
 
-    gltf_count = len([f for f in os.listdir(os.path.join(pkg_dir, "meshes"))
-                      if f.endswith(".gltf")]) \
-        if os.path.isdir(os.path.join(pkg_dir, "meshes")) else 0
+    # TASK-176-B：glTF 计数兼容 meshes/ 与 assemblies/ 双目录（v0.4 后新包用
+    # assemblies/；只改计数口径，不改校验语义/退出码）
+    gltf_count = 0
+    for sub in ("meshes", "assemblies"):
+        sub_dir = os.path.join(pkg_dir, sub)
+        if os.path.isdir(sub_dir):
+            gltf_count += len([f for f in os.listdir(sub_dir)
+                               if f.endswith(".gltf")])
     rt = "runtime.json" if os.path.isfile(os.path.join(pkg_dir, "runtime.json")) else "✗"
     enc = has("encyclopedia.md")
     ipf = has("input_profile.json")

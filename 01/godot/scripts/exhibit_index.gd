@@ -87,3 +87,25 @@ func get_summary() -> Dictionary:
 				runnable += 1
 	return {"total": total, "runnable": runnable,
 			"generated": _data.get("generated", "")}
+
+
+## 分页访问器（TASK-176-B）：全馆设备平铺后按 name 稳定排序（不区分大小写，
+## 同 catalog_data.sort_shard_rows 语义）切片，供 60+ 台图鉴画廊分批渲染。
+## 返回 {"page":…, "page_size":…, "total":…, "items":[…]}
+## （命名避开 get_index/get_meta/get_name 等 Object/Node 原生方法名）。
+func get_paged_devices(page: int, page_size: int) -> Dictionary:
+	var flat: Array = []
+	for hall in get_halls():
+		for dev in hall.get("devices", []):
+			flat.append(dev)
+	flat.sort_custom(func(a, b) -> bool:
+		var an: String = str(a.get("name", "")).to_lower()
+		var bn: String = str(b.get("name", "")).to_lower()
+		return an < bn)
+	var total: int = flat.size()
+	var size: int = maxi(page_size, 1)
+	var start: int = page * size
+	var items: Array = []
+	if start < total:
+		items = flat.slice(start, mini(start + size, total))
+	return {"page": page, "page_size": size, "total": total, "items": items}

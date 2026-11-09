@@ -1,0 +1,86 @@
+PASS  R-001  meta.json                  meta.json 存在且为合法 JSON
+PASS  R-002  meta.json                  meta.json 通过 device_spec.schema.json 校验
+PASS  R-003  runtime.json               runtime.json 通过 $defs/runtime 校验
+PASS  R-004  runtime.json               runtime.json 与 meta.json.runtime 一致
+PASS  R-005  annotations/annotations.json annotations.json 通过 $defs/annotations_document 校验
+PASS  R-010  -                          所有 parent 引用存在
+PASS  R-011  -                          所有 children 引用存在
+PASS  R-012  -                          装配树无环
+PASS  R-013  -                          parent/children 双向一致
+PASS  R-014  -                          所有 component.assembly 引用存在
+PASS  R-015  -                          所有 annotation.target 引用存在
+PASS  R-016  -                          所有 mesh_ref 文件存在
+PASS  R-017  -                          所有 materials 文件存在
+PASS  R-018  -                          所有 annotations 引用存在
+PASS  R-020  meta.id                    device-id 'altair-8800' 符合 kebab-case
+PASS  R-021  nodes                      所有节点 id 符合 snake_case
+PASS  R-022  annotations/output_sinks   annotation/sink id 符合 snake_case
+PASS  R-023  nodes                      节点 id 全局唯一
+PASS  R-030  assemblies[whole]          translation 为 3 个有限实数
+PASS  R-031  assemblies[whole]          rotation 为单位四元数
+PASS  R-032  assemblies[whole]          scale 各分量 > 0
+PASS  R-033  assemblies[whole]          scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[chassis]        translation 为 3 个有限实数
+PASS  R-031  assemblies[chassis]        rotation 为单位四元数
+PASS  R-032  assemblies[chassis]        scale 各分量 > 0
+PASS  R-033  assemblies[chassis]        scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[front_panel]    translation 为 3 个有限实数
+PASS  R-031  assemblies[front_panel]    rotation 为单位四元数
+PASS  R-032  assemblies[front_panel]    scale 各分量 > 0
+PASS  R-033  assemblies[front_panel]    scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[cpu_board]      translation 为 3 个有限实数
+PASS  R-031  assemblies[cpu_board]      rotation 为单位四元数
+PASS  R-032  assemblies[cpu_board]      scale 各分量 > 0
+PASS  R-033  assemblies[cpu_board]      scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[s100_backplane] translation 为 3 个有限实数
+PASS  R-031  assemblies[s100_backplane] rotation 为单位四元数
+PASS  R-032  assemblies[s100_backplane] scale 各分量 > 0
+PASS  R-033  assemblies[s100_backplane] scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[power_supply]   translation 为 3 个有限实数
+PASS  R-031  assemblies[power_supply]   rotation 为单位四元数
+PASS  R-032  assemblies[power_supply]   scale 各分量 > 0
+PASS  R-033  assemblies[power_supply]   scale 各分量在 [1e-6, 1e6]
+PASS  R-030  assemblies[expansion_card] translation 为 3 个有限实数
+PASS  R-031  assemblies[expansion_card] rotation 为单位四元数
+PASS  R-032  assemblies[expansion_card] scale 各分量 > 0
+PASS  R-033  assemblies[expansion_card] scale 各分量在 [1e-6, 1e6]
+PASS  R-040  meta.precision_level       precision_level=L2 合法
+PASS  R-041  assemblies[chassis]        glTF 可解析（version=2.0）
+PASS  R-042  assemblies[chassis]        预算统计：nodes=1, triangles=12；超限由 budget_check.py 报告，不阻塞（可调）
+PASS  R-041  assemblies[front_panel]    glTF 可解析（version=2.0）
+PASS  R-042  assemblies[front_panel]    预算统计：nodes=1, triangles=12；超限由 budget_check.py 报告，不阻塞（可调）
+PASS  R-041  assemblies[cpu_board]      glTF 可解析（version=2.0）
+PASS  R-042  assemblies[cpu_board]      预算统计：nodes=1, triangles=12；超限由 budget_check.py 报告，不阻塞（可调）
+PASS  R-041  assemblies[s100_backplane] glTF 可解析（version=2.0）
+PASS  R-042  assemblies[s100_backplane] 预算统计：nodes=1, triangles=12；超限由 budget_check.py 报告，不阻塞（可调）
+PASS  R-041  assemblies[power_supply]   glTF 可解析（version=2.0）
+PASS  R-042  assemblies[power_supply]   预算统计：nodes=1, triangles=12；超限由 budget_check.py 报告，不阻塞（可调）
+PASS  R-041  assemblies[expansion_card] glTF 可解析（version=2.0）
+PASS  R-042  assemblies[expansion_card] 预算统计：nodes=1, triangles=12；超限由 budget_check.py 报告，不阻塞（可调）
+PASS  R-050  THIRD_PARTY.md             THIRD_PARTY.md 存在
+PASS  R-051  THIRD_PARTY.md             第三方资产行均含来源 URL 与获取日期
+PASS  R-052  meta.sources               所有 source.url 为 http/https
+PASS  R-053  meta.sources               所有 source.license 为四档枚举
+PASS  R-054  meta.sources               所有 source.accessed_at 为 YYYY-MM-DD
+PASS  R-060  annotations                标注文本不含未定标记
+PASS  R-061  role                       role 文案均含「在整机」
+PASS  R-062  annotations                role 标注字数 20-200
+PASS  R-063  annotations                标注 sources URL 合法
+PASS  R-070  meta.version               version='1.0.0' 为合法 semver
+PASS  R-071  meta.spec_version          spec_version='0.2' 为 0.2
+PASS  R-072  meta.engine_min_version    engine_min_version='0.1.0' 为合法 semver
+PASS  R-080  annotations.timeline       timeline 结构合法
+PASS  R-080  annotations.timeline       timeline highlight 引用存在
+PASS  R-081  annotations.timeline       timeline 总时长≤预算(180s)
+PASS  R-082  annotations.timeline       C4 级 anim 每镜头 caption 齐全
+PASS  R-083  annotations.timeline       caption 无未定标记
+PASS  R-084  runtime.output_sinks       sink surface 为命名枚举
+PASS  R-085  annotations                annotation.surface 均已声明
+PASS  R-086  runtime.input_map          input_map 键名合法
+PASS  R-087  localized                  localized 结构完整；警告：以下字段缺 en（回退 zh）：['assembly.whole.role', 'assembly.chassis.role', 'assembly.front_panel.role', 'assembly.cpu_board.role', 'assembly.s100_backplane.role', 'assembly.power_supply.role', 'assembly.expansion_card.role', 'component.sw_data_00.role', 'component.sw_data_01.role', 'component.sw_data_02.role', 'component.sw_data_03.role', 'component.sw_data_04.role', 'component.sw_data_05.role', 'component.sw_data_06.role', 'component.sw_data_07.role', 'component.sw_load_addr.role', 'component.sw_exam.role', 'component.sw_dep.role', 'component.sw_start.role', 'component.sw_continue.role', 'component.sw_stop.role', 'component.sw_clear.role', 'component.lamp_data_00.role', 'component.lamp_data_01.role', 'component.lamp_data_02.role', 'component.lamp_data_03.role', 'component.lamp_data_04.role', 'component.lamp_data_05.role', 'component.lamp_data_06.role', 'component.lamp_data_07.role', 'component.lamp_run.role', 'component.cpu_8080.role', 'component.bus_slots.role', 'component.power_unit.role', 'component.io_card.role']
+PASS  R-088  meta.name_en               无 deprecated name_en（已迁移）
+PASS  R-089  meta.era                   era=1975 合法
+PASS  R-090  gltf                       glTF 网格节点名与 node_id 对应
+PASS  R-091  THIRD_PARTY.md             THIRD_PARTY 行三件套（分档+URL+日期）合法
+------------------------------------------------------------------------------
+总计 84 条：PASS 84，FAIL 0

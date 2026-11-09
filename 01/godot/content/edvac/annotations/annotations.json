@@ -194,6 +194,60 @@
       "sources": [
         "https://en.wikipedia.org/wiki/First_Draft_of_a_Report_on_the_EDVAC"
       ]
+    },
+    {
+      "id": "von_neumann_report",
+      "type": "flow",
+      "target": "whole",
+      "text": "冯·诺依曼报告讲解：EDVAC 与《初稿报告》紧密相连，这份报告系统阐述了存储程序计算机的设计，成为此后计算机的蓝图。"
+    },
+    {
+      "id": "stored_program_concept",
+      "type": "flow",
+      "target": "whole",
+      "text": "存储程序概念讲解：EDVAC 首次把「程序与数据同存内存」作为核心设计写进报告，是计算机架构史上的分水岭。"
+    },
+    {
+      "id": "edvac_vs_eniac",
+      "type": "flow",
+      "target": "whole",
+      "text": "与 ENIAC 对比讲解：相比靠插板编程的 ENIAC，EDVAC 用存储程序实现「改程序不动硬件」，是一次根本性的架构跃迁。"
+    },
+    {
+      "id": "five_units",
+      "type": "flow",
+      "target": "whole",
+      "text": "五大部件讲解：冯·诺依曼架构把计算机分为运算、控制、存储、输入、输出五大部件，EDVAC 是这一划分的首次系统化。"
+    },
+    {
+      "id": "mercury_delay_edvac",
+      "type": "flow",
+      "target": "delay_line_unit",
+      "text": "水银延迟线讲解：EDVAC 同样采用水银延迟线作内存，延续了早期电子管计算机的存储路线。"
+    },
+    {
+      "id": "binary_arithmetic",
+      "type": "flow",
+      "target": "central_arithmetic",
+      "text": "二进制运算讲解：EDVAC 报告主张采用二进制运算，为计算机内部统一用 0/1 表示奠定了理论基础。"
+    },
+    {
+      "id": "first_draft",
+      "type": "flow",
+      "target": "whole",
+      "text": "初稿报告讲解：冯·诺依曼的《初稿报告》因署名之争流传甚广，也让「冯·诺依曼架构」成了计算机的代名词。"
+    },
+    {
+      "id": "never_built",
+      "type": "flow",
+      "target": "whole",
+      "text": "未完全建成讲解：EDVAC 因团队分歧与工程波折，直到 1951 年才建成，且已非初稿原貌，是「理念先于机器」的典型。"
+    },
+    {
+      "id": "conceptual_milestone",
+      "type": "flow",
+      "target": "whole",
+      "text": "概念里程碑讲解：EDVAC 的历史意义更多在「概念」而非「机器」——它定义的设计范式，影响了此后数十年的计算机。"
     }
   ]
 }

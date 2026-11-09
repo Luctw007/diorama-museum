@@ -1,7 +1,7 @@
 {
-  "time": "2026-11-09 00:16:36",
-  "total": 38,
-  "passed": 38,
+  "time": "2026-11-10 01:42:01",
+  "total": 39,
+  "passed": 39,
   "steps": [
     {
       "name": "m0",
@@ -16,12 +16,12 @@
     {
       "name": "slots",
       "ok": true,
-      "note": "汇总：完工包 31，声明 slot 0，SC-01 违规 0"
+      "note": "汇总：完工包 32，声明 slot 0，SC-01 违规 0"
     },
     {
       "name": "catalog",
       "ok": true,
-      "note": "verify：28 片 / 1484 行，通过"
+      "note": "verify：24 片 / 1582 行，通过"
     },
     {
       "name": "catalog_ref",
@@ -31,12 +31,17 @@
     {
       "name": "gd",
       "ok": true,
-      "note": "汇总：15 文件；符号池 funcs 130 / signals 7；MISS 0；已知缺口 KG 0"
+      "note": "汇总：15 文件；符号池 funcs 133 / signals 7；MISS 0；已知缺口 KG 0"
     },
     {
       "name": "gd_naming",
       "ok": true,
       "note": "扫描 15 个 gd；class_name 5 个；FAIL 0"
+    },
+    {
+      "name": "pkg:altair-8800",
+      "ok": true,
+      "note": "FAIL 0"
     },
     {
       "name": "pkg:amiga500",

@@ -29,6 +29,13 @@ BUNDLE_ROOT = os.path.join(REPO, "godot", "content", "catalog")
 DATA_DIR = os.path.join(BUNDLE_ROOT, "data")
 
 
+def _safe_name(name: str) -> str:
+    """文件名安全化（TASK-176-B）：工作源中分类名可能含路径分隔符
+    （如 05 线「键鼠/输入」），落盘文件名与 meta.mid 统一换成全角斜杠，
+    避免被当作路径炸掉；引擎侧按 meta.mid 建路径，天然一致。"""
+    return str(name).replace("/", "／").replace("\\", "＼")
+
+
 def build_bundle() -> dict:
     files = ci.find_catalog_files()
     if not files:
@@ -45,7 +52,7 @@ def build_bundle() -> dict:
     for big, mids in cat.tree.items():
         for mid, subs in mids.items():
             rows = [r for s in subs.values() for r in s]
-            name = "%s__%s.json" % (big, mid)
+            name = "%s__%s.json" % (big, _safe_name(mid))
             payload = []
             for r in rows:
                 item = {k: v for k, v in r.items() if not k.startswith("_")}
@@ -55,7 +62,7 @@ def build_bundle() -> dict:
                 json.dump(payload, fh, ensure_ascii=False, indent=1)
             shard_rows.append((name, len(rows)))
             total += len(rows)
-            tree.setdefault(big, {})[mid] = sorted(subs)
+            tree.setdefault(big, {})[mid] = sorted(subs)   # 分类树保留原文 mid
     meta = {"generated": time.strftime("%Y-%m-%dT%H:%M:%S"),
             "total_rows": total, "taxonomy": tree,
             "shards": [{"file": n, "rows": c, "big": n.split("__")[0],

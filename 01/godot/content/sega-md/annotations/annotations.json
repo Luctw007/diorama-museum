@@ -209,6 +209,55 @@
       "target": "sega_md",
       "text": "Model 1 造型在整机中是 MD 初代的标志，机身圆润、带耳机孔与音量滑杆、金色 16-BIT 铭牌，icon 性最强。",
       "sources": []
+    },
+    {
+      "id": "blast_processing_x1",
+      "type": "role",
+      "target": "sega_md",
+      "text": "Blast Processing 是世嘉北美的营销口号，虽非严格技术术语，却把 MD 的速度感卖成了文化符号，是主机战争时代最著名的营销梗之一。",
+      "sources": []
+    },
+    {
+      "id": "sonic_x2",
+      "type": "role",
+      "target": "sega_md",
+      "text": "《索尼克》是 MD 的招牌，蓝色刺猬用高速卷轴定义了 MD 的速度形象，也让世嘉第一次有了能与马里奥分庭抗礼的吉祥物。",
+      "sources": []
+    },
+    {
+      "id": "headphone_jack_x3",
+      "type": "role",
+      "target": "sega_md",
+      "text": "耳机孔在整机中是 MD 初代特有的设计，带独立音量滑杆，玩家可插耳机听 FM 音源，是当时家用机少见的音频发烧配置。",
+      "sources": []
+    },
+    {
+      "id": "dual_cpu_x4",
+      "type": "role",
+      "target": "mainboard",
+      "text": "双 CPU 在整机中是 MD 的架构特色，68000 主算、Z80 声响，两颗处理器各司其职，是拆解时最能体现街机味家用机设计的分工看点。",
+      "sources": []
+    },
+    {
+      "id": "six_button_x5",
+      "type": "role",
+      "target": "controller",
+      "text": "六键手柄在整机中是 MD 后期为格斗游戏推出的扩展，A/B/C/X/Y/Z 六键支持复杂搓招，是手柄向格斗友好演进的重要一步。",
+      "sources": []
+    },
+    {
+      "id": "game_md_6btn_z1",
+      "type": "role",
+      "target": "sega_md",
+      "text": "MD 后期推出的 6 键手柄专为格斗游戏设计，A/B/C/X/Y/Z 六键让《街头霸王 II》的复杂搓招第一次能在家用机手柄上完整施展。",
+      "sources": []
+    },
+    {
+      "id": "game_md_fm_z2",
+      "type": "role",
+      "target": "sega_md",
+      "text": "MD 的 YM2612 FM 音源能合成尖锐金属感的贝斯与鼓点，插上耳机听《怒之铁拳》的配乐，是 MD 玩家独有的听觉记忆。",
+      "sources": []
     }
   ]
 }

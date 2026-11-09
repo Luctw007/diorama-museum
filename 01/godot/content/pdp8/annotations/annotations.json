@@ -263,6 +263,60 @@
       "type": "role",
       "target": "io_expansion_rack",
       "text": "I/O 扩展架在整机中挂载纸带读入机与电传打字机等外设接口，负责程序与数据的进出。"
+    },
+    {
+      "id": "minicomputer_category",
+      "type": "flow",
+      "target": "whole",
+      "text": "小型机品类讲解：PDP-8 以约 1.8 万美元的低价开创了「小型机」新品类，让计算机第一次能属于一个实验室、一条产线。"
+    },
+    {
+      "id": "dec_lineage",
+      "type": "flow",
+      "target": "whole",
+      "text": "DEC 血脉讲解：PDP-8 是 DEC 小型机帝国的开端，此后 PDP-11、VAX 一脉相承，成就了小型机数十年的辉煌。"
+    },
+    {
+      "id": "front_panel_programming",
+      "type": "flow",
+      "target": "panel",
+      "text": "拨键编程讲解：PDP-8 前面板的一排拨动开关与指示灯，是最早的「人机界面」——程序员拨开关、看灯，一字节一字节地输入程序。"
+    },
+    {
+      "id": "core_memory",
+      "type": "flow",
+      "target": "core_stack",
+      "text": "磁芯内存讲解：PDP-8 采用磁芯存储器，靠磁环的磁化方向存位，断电不丢数据，是那个年代的内存基石。"
+    },
+    {
+      "id": "paper_tape",
+      "type": "flow",
+      "target": "tape_reader",
+      "text": "纸带载入讲解：程序常存于打孔纸带，经高速纸带读入机加载，读带声是早期机房最具辨识度的声音。"
+    },
+    {
+      "id": "teletype_io",
+      "type": "flow",
+      "target": "teleprinter",
+      "text": "电传打字讲解：电传打字机既是输入键盘也是输出打印机，是 PDP-8 时代「人与机器对话」的主要终端。"
+    },
+    {
+      "id": "minimal_isa",
+      "type": "flow",
+      "target": "whole",
+      "text": "极简指令集讲解：PDP-8 的指令集简朴得近乎诗意——累加器加链接位、几条基本指令，就能写程序，是理解计算机原理的最佳教材。"
+    },
+    {
+      "id": "edusystem",
+      "type": "flow",
+      "target": "whole",
+      "text": "Edusystem 讲解：DEC 借 PDP-8 推出 Edusystem 教育方案，让整整一代程序员在 PDP-8 上写下人生第一行代码。"
+    },
+    {
+      "id": "first_commercial_mini",
+      "type": "flow",
+      "target": "whole",
+      "text": "首台商用小型机讲解：PDP-8 以远低于大型机的价格开创「小型机」品类，让计算机第一次能被单个实验室、产线买下。"
     }
   ]
 }

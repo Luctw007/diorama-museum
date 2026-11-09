@@ -1,0 +1,1374 @@
+[
+ {
+  "id": "M-PG-000001",
+  "name": "Motorola PageBoy",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1974,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "首台商用寻呼机，开启个人寻呼时代。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1974,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "首台商用寻呼机，开启个人寻呼时代。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000002",
+  "name": "Motorola PageBoy II",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1981,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "PageBoy 改进型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1981,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "PageBoy 改进型号。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000003",
+  "name": "Motorola Bravo",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1986,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "数字寻呼机经典，广泛普及。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1986,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "数字寻呼机经典，广泛普及。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000004",
+  "name": "Motorola Bravo Plus",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "Bravo 数字寻呼机增强型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1990,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "Bravo 数字寻呼机增强型号。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000005",
+  "name": "Motorola Spirit",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "数字寻呼机型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1990,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "数字寻呼机型号。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000006",
+  "name": "Motorola Ultra Express",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "数字寻呼机普及型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1994,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "数字寻呼机普及型号。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000007",
+  "name": "Motorola Memo Express",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1995,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "数字寻呼机，学生族流行。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1995,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "数字寻呼机，学生族流行。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000008",
+  "name": "Motorola KeyNote",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1995,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "数字寻呼机型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1995,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "数字寻呼机型号。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000009",
+  "name": "Motorola Jazz",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1997,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "数字寻呼机，时尚造型。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1997,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "数字寻呼机，时尚造型。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000010",
+  "name": "NEC Pager",
+  "aliases": [
+   "NEC 寻呼机"
+  ],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "日本寻呼机代表。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1990,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "日本寻呼机代表。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000011",
+  "name": "Panasonic Pager",
+  "aliases": [
+   "松下寻呼机"
+  ],
+  "manufacturer": "松下",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "日本寻呼机代表。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "松下",
+  "year": 1990,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "日本寻呼机代表。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000012",
+  "name": "Philips Pager",
+  "aliases": [
+   "飞利浦寻呼机"
+  ],
+  "manufacturer": "飞利浦",
+  "origin": "荷兰",
+  "era": 1992,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "欧洲寻呼机代表。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "飞利浦",
+  "year": 1992,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "欧洲寻呼机代表。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000013",
+  "name": "Sony Pager",
+  "aliases": [
+   "索尼寻呼机"
+  ],
+  "manufacturer": "索尼",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "日本寻呼机代表。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "索尼",
+  "year": 1990,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "日本寻呼机代表。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000014",
+  "name": "Sanyo Pager",
+  "aliases": [
+   "三洋寻呼机"
+  ],
+  "manufacturer": "三洋",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "日本寻呼机代表。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "三洋",
+  "year": 1990,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "日本寻呼机代表。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000015",
+  "name": "Panasonic EK-2098",
+  "aliases": [],
+  "manufacturer": "松下",
+  "origin": "日本",
+  "era": 1992,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "日本数字寻呼机型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "松下",
+  "year": 1992,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "日本数字寻呼机型号。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000016",
+  "name": "Philips PRC 系列",
+  "aliases": [],
+  "manufacturer": "飞利浦",
+  "origin": "荷兰",
+  "era": 1993,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "欧洲数字寻呼机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "飞利浦",
+  "year": 1993,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "欧洲数字寻呼机。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000017",
+  "name": "POCSAG 寻呼机",
+  "aliases": [],
+  "manufacturer": "多家（POCSAG 标准）",
+  "origin": "英国",
+  "era": 1982,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "POCSAG 数字寻呼标准机型，寻呼时代基石。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "多家（POCSAG 标准）",
+  "year": 1982,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "POCSAG 数字寻呼标准机型，寻呼时代基石。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000018",
+  "name": "摩托罗拉 大顾问",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1992,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "中国 1990 年代数字寻呼机代表。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1992,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "中国 1990 年代数字寻呼机代表。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000019",
+  "name": "摩托罗拉 精英王",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1996,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "中国数字寻呼机经典。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1996,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "中国数字寻呼机经典。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000020",
+  "name": "摩托罗拉 火凤凰",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1997,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "中国数字寻呼机型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1997,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "中国数字寻呼机型号。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000021",
+  "name": "摩托罗拉 进取",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1998,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "中国数字寻呼机型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1998,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "中国数字寻呼机型号。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000022",
+  "name": "波导寻呼机",
+  "aliases": [],
+  "manufacturer": "波导",
+  "origin": "中国",
+  "era": 1995,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "国产寻呼机代表。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "波导",
+  "year": 1995,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "国产寻呼机代表。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000023",
+  "name": "国脉寻呼机",
+  "aliases": [],
+  "manufacturer": "国脉",
+  "origin": "中国",
+  "era": 1994,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "国产寻呼机代表。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "国脉",
+  "year": 1994,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "国产寻呼机代表。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000024",
+  "name": "中北寻呼机",
+  "aliases": [],
+  "manufacturer": "中北",
+  "origin": "中国",
+  "era": 1995,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "国产寻呼机代表。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "中北",
+  "year": 1995,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "国产寻呼机代表。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000035",
+  "name": "Motorola Pronto",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1995,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "数字寻呼机型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1995,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "数字寻呼机型号。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000036",
+  "name": "Motorola Confidant",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "数字寻呼机型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1994,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "数字寻呼机型号。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000037",
+  "name": "Motorola LS550",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1999,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "influence": "数字寻呼机后续型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1999,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ],
+  "reason": "数字寻呼机后续型号。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "数字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000025",
+  "name": "Motorola Advisor",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1991,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "influence": "字母数字寻呼机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1991,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "reason": "字母数字寻呼机。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000026",
+  "name": "Motorola Tango",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "influence": "字母数字寻呼机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1994,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "reason": "字母数字寻呼机。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000027",
+  "name": "Motorola Director",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1993,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "influence": "字母数字寻呼机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1993,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "reason": "字母数字寻呼机。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000028",
+  "name": "Motorola Wordline FLX",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1996,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "influence": "文字寻呼机，汉字显示。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1996,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "reason": "文字寻呼机，汉字显示。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000029",
+  "name": "Motorola Gold Line",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1993,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "influence": "文字寻呼机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1993,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "reason": "文字寻呼机。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000030",
+  "name": "摩托罗拉汉显寻呼机（中国）",
+  "aliases": [
+   "汉显 BP 机"
+  ],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1995,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "influence": "中国 1990 年代寻呼机浪潮主角。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1995,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "reason": "中国 1990 年代寻呼机浪潮主角。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000031",
+  "name": "Motorola PageWriter 2000",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1997,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "influence": "双向寻呼机，可收发信息。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1997,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "reason": "双向寻呼机，可收发信息。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000032",
+  "name": "Motorola PageWriter 2000X",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1998,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "influence": "双向寻呼机增强型号。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1998,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "reason": "双向寻呼机增强型号。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000033",
+  "name": "Motorola Timeport P935",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 2000,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "influence": "双向寻呼机，黑莓前夜。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 2000,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "reason": "双向寻呼机，黑莓前夜。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000034",
+  "name": "RIM Inter@ctive Pager 950",
+  "aliases": [],
+  "manufacturer": "RIM",
+  "origin": "加拿大",
+  "era": 1998,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "influence": "双向寻呼，黑莓设备前身。",
+  "status": "planned",
+  "device_id": null,
+  "verify": false,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "RIM",
+  "year": 1998,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "reason": "双向寻呼，黑莓设备前身。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000038",
+  "name": "摩托罗拉 中文寻呼机",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1996,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "influence": "中国汉字寻呼机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1996,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "reason": "中国汉字寻呼机。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000039",
+  "name": "NEC 汉字寻呼机",
+  "aliases": [],
+  "manufacturer": "NEC",
+  "origin": "日本",
+  "era": 1995,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "influence": "日本汉字寻呼机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "NEC",
+  "year": 1995,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "reason": "日本汉字寻呼机。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ]
+ },
+ {
+  "id": "M-PG-000040",
+  "name": "Motorola Advisor Gold",
+  "aliases": [],
+  "manufacturer": "Motorola",
+  "origin": "美国",
+  "era": 1992,
+  "taxonomy_path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "influence": "字母数字寻呼机。",
+  "status": "planned",
+  "device_id": null,
+  "verify": true,
+  "sources": [
+   "S63B"
+  ],
+  "research_doc": null,
+  "maker": "Motorola",
+  "year": 1992,
+  "path": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ],
+  "reason": "字母数字寻呼机。",
+  "_taxonomy": [
+   "通讯与移动",
+   "寻呼机",
+   "汉字寻呼"
+  ]
+ }
+]

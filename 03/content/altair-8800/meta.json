@@ -1,0 +1,712 @@
+{
+  "meta": {
+    "id": "altair-8800",
+    "name": {
+      "zh": "MITS Altair 8800（个人电脑套件）",
+      "en": "MITS Altair 8800 (Personal Computer Kit)"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1975,
+    "manufacturer": "MITS (Micro Instrumentation and Telemetry Systems)",
+    "category": "personal-computer",
+    "description": "1975 年推出的首台成功的个人电脑套件，以 Intel 8080 为运算核心、S-100 总线扩展，以前面板拨键与 LED 灯条操作，并催生了微软的首款产品 Altair BASIC，点燃了个人电脑革命。",
+    "authors": [
+      {
+        "name": "TASK-178-A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Altair 8800（索引）",
+        "url": "https://en.wikipedia.org/wiki/Altair_8800",
+        "license": "cc",
+        "accessed_at": "2026-11-10"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — S-100 bus（索引）",
+        "url": "https://en.wikipedia.org/wiki/S-100_bus",
+        "license": "cc",
+        "accessed_at": "2026-11-10"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Altair BASIC（索引）",
+        "url": "https://en.wikipedia.org/wiki/Altair_BASIC",
+        "license": "cc",
+        "accessed_at": "2026-11-10"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum — Altair 8800",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-10"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "MITS Altair 8800 整机，1975 年推出的首台成功的个人电脑套件，以前面板拨键与 LED 灯条操作，点燃了个人电脑革命。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "chassis",
+        "front_panel",
+        "cpu_board",
+        "s100_backplane",
+        "power_supply",
+        "expansion_card"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role"
+      ]
+    },
+    {
+      "id": "chassis",
+      "name": "机箱",
+      "role": {
+        "zh": "机箱在整机中作为金属箱体骨架，承载前面板、S-100 背板与电源，提供结构支撑与散热通道。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": [
+        "chassis_role"
+      ],
+      "mesh_ref": "assemblies/chassis.gltf"
+    },
+    {
+      "id": "front_panel",
+      "name": "前面板",
+      "role": {
+        "zh": "前面板在整机中提供拨键开关与 LED 灯条，是操作员手动检视、写入与启动程序的直接接口。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "sw_data_00",
+        "sw_data_01",
+        "sw_data_02",
+        "sw_data_03",
+        "sw_data_04",
+        "sw_data_05",
+        "sw_data_06",
+        "sw_data_07",
+        "sw_load_addr",
+        "sw_exam",
+        "sw_dep",
+        "sw_start",
+        "sw_continue",
+        "sw_stop",
+        "sw_clear",
+        "lamp_data_00",
+        "lamp_data_01",
+        "lamp_data_02",
+        "lamp_data_03",
+        "lamp_data_04",
+        "lamp_data_05",
+        "lamp_data_06",
+        "lamp_data_07",
+        "lamp_run"
+      ],
+      "annotations": [
+        "front_panel_role"
+      ],
+      "mesh_ref": "assemblies/front_panel.gltf"
+    },
+    {
+      "id": "cpu_board",
+      "name": "CPU 板",
+      "role": {
+        "zh": "CPU 板在整机中承载 Intel 8080 处理器及其时钟与总线驱动电路，是运算与控制的核心。"
+      },
+      "transform": {
+        "translation": [
+          0.2,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cpu_8080"
+      ],
+      "annotations": [
+        "cpu_board_role"
+      ],
+      "mesh_ref": "assemblies/cpu_board.gltf"
+    },
+    {
+      "id": "s100_backplane",
+      "name": "S-100 总线背板",
+      "role": {
+        "zh": "S-100 总线背板在整机中提供多组扩展插槽，把 CPU 板、内存卡与外设卡连成一体，是开放扩展的标准载体。"
+      },
+      "transform": {
+        "translation": [
+          0.4,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "bus_slots"
+      ],
+      "annotations": [
+        "s100_backplane_role"
+      ],
+      "mesh_ref": "assemblies/s100_backplane.gltf"
+    },
+    {
+      "id": "power_supply",
+      "name": "电源",
+      "role": {
+        "zh": "电源在整机中把交流电转换为多路直流电压，为各电路板供电，是整机的能量来源。"
+      },
+      "transform": {
+        "translation": [
+          0.6,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "power_unit"
+      ],
+      "annotations": [
+        "power_supply_role"
+      ],
+      "mesh_ref": "assemblies/power_supply.gltf"
+    },
+    {
+      "id": "expansion_card",
+      "name": "扩展接口卡",
+      "role": {
+        "zh": "扩展接口卡在整机中插入 S-100 插槽，提供内存扩展或串行/并行外设接口，负责程序与数据的进出。"
+      },
+      "transform": {
+        "translation": [
+          0.8,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "io_card"
+      ],
+      "annotations": [
+        "expansion_card_role"
+      ],
+      "mesh_ref": "assemblies/expansion_card.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "sw_data_00",
+      "name": "数据拨动开关 0",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 0 位在整机中设定 8 位数据总线的第 0 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "sw_data_00_role"
+      ]
+    },
+    {
+      "id": "sw_data_01",
+      "name": "数据拨动开关 1",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 1 位在整机中设定 8 位数据总线的第 1 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "sw_data_01_role"
+      ]
+    },
+    {
+      "id": "sw_data_02",
+      "name": "数据拨动开关 2",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 2 位在整机中设定 8 位数据总线的第 2 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "sw_data_02_role"
+      ]
+    },
+    {
+      "id": "sw_data_03",
+      "name": "数据拨动开关 3",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 3 位在整机中设定 8 位数据总线的第 3 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "sw_data_03_role"
+      ]
+    },
+    {
+      "id": "sw_data_04",
+      "name": "数据拨动开关 4",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 4 位在整机中设定 8 位数据总线的第 4 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "sw_data_04_role"
+      ]
+    },
+    {
+      "id": "sw_data_05",
+      "name": "数据拨动开关 5",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 5 位在整机中设定 8 位数据总线的第 5 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "sw_data_05_role"
+      ]
+    },
+    {
+      "id": "sw_data_06",
+      "name": "数据拨动开关 6",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 6 位在整机中设定 8 位数据总线的第 6 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "sw_data_06_role"
+      ]
+    },
+    {
+      "id": "sw_data_07",
+      "name": "数据拨动开关 7",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 7 位在整机中设定 8 位数据总线的第 7 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "sw_data_07_role"
+      ]
+    },
+    {
+      "id": "sw_load_addr",
+      "name": "装载地址开关",
+      "type": "switch",
+      "role": {
+        "zh": "装载地址开关在整机中把拨键设定的地址送入地址总线，定位要检视或写入的内存单元。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "sw_load_addr_role"
+      ]
+    },
+    {
+      "id": "sw_exam",
+      "name": "检视开关",
+      "type": "switch",
+      "role": {
+        "zh": "检视开关在整机中把当前地址单元的内容读出并显示在数据 LED 灯上，供操作员查看。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "sw_exam_role"
+      ]
+    },
+    {
+      "id": "sw_dep",
+      "name": "写入开关",
+      "type": "switch",
+      "role": {
+        "zh": "写入开关在整机中把拨键设定的 8 位数据写入当前地址单元，完成一次手动存数。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "sw_dep_role"
+      ]
+    },
+    {
+      "id": "sw_start",
+      "name": "运行开关",
+      "type": "switch",
+      "role": {
+        "zh": "运行开关在整机中使处理器从程序计数器当前地址开始连续执行程序。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "sw_start_role"
+      ]
+    },
+    {
+      "id": "sw_continue",
+      "name": "单步开关",
+      "type": "switch",
+      "role": {
+        "zh": "单步开关在整机中使处理器每次只执行一条指令，便于逐条调试程序。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "sw_continue_role"
+      ]
+    },
+    {
+      "id": "sw_stop",
+      "name": "停机开关",
+      "type": "switch",
+      "role": {
+        "zh": "停机开关在整机中暂停处理器的执行，使机器回到手动控制状态。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "sw_stop_role"
+      ]
+    },
+    {
+      "id": "sw_clear",
+      "name": "复位开关",
+      "type": "switch",
+      "role": {
+        "zh": "复位开关在整机中复位处理器与各状态标志，使机器回到初始状态。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "sw_clear_role"
+      ]
+    },
+    {
+      "id": "lamp_data_00",
+      "name": "数据指示灯 0",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 0 位在整机中点亮表示数据总线第 0 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "lamp_data_00_role"
+      ]
+    },
+    {
+      "id": "lamp_data_01",
+      "name": "数据指示灯 1",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 1 位在整机中点亮表示数据总线第 1 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "lamp_data_01_role"
+      ]
+    },
+    {
+      "id": "lamp_data_02",
+      "name": "数据指示灯 2",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 2 位在整机中点亮表示数据总线第 2 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "lamp_data_02_role"
+      ]
+    },
+    {
+      "id": "lamp_data_03",
+      "name": "数据指示灯 3",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 3 位在整机中点亮表示数据总线第 3 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "lamp_data_03_role"
+      ]
+    },
+    {
+      "id": "lamp_data_04",
+      "name": "数据指示灯 4",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 4 位在整机中点亮表示数据总线第 4 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "lamp_data_04_role"
+      ]
+    },
+    {
+      "id": "lamp_data_05",
+      "name": "数据指示灯 5",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 5 位在整机中点亮表示数据总线第 5 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "lamp_data_05_role"
+      ]
+    },
+    {
+      "id": "lamp_data_06",
+      "name": "数据指示灯 6",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 6 位在整机中点亮表示数据总线第 6 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "lamp_data_06_role"
+      ]
+    },
+    {
+      "id": "lamp_data_07",
+      "name": "数据指示灯 7",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 7 位在整机中点亮表示数据总线第 7 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "lamp_data_07_role"
+      ]
+    },
+    {
+      "id": "lamp_run",
+      "name": "运行指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "运行指示灯在整机中于处理器执行程序期间持续点亮，是判断机器是否在运行的状态指示。"
+      },
+      "assembly": "front_panel",
+      "annotations": [
+        "lamp_run_role"
+      ]
+    },
+    {
+      "id": "cpu_8080",
+      "name": "Intel 8080 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "Intel 8080 处理器在整机中作为 8 位中央处理器，执行取指、译码与运算，是机器的运算核心。"
+      },
+      "assembly": "cpu_board",
+      "annotations": [
+        "cpu_8080_role"
+      ]
+    },
+    {
+      "id": "bus_slots",
+      "name": "S-100 扩展插槽",
+      "type": "connector",
+      "role": {
+        "zh": "S-100 扩展插槽在整机中接纳 CPU 板、内存卡与外设卡，通过标准总线信号把它们连成一体。"
+      },
+      "assembly": "s100_backplane",
+      "annotations": [
+        "bus_slots_role"
+      ]
+    },
+    {
+      "id": "power_unit",
+      "name": "电源单元",
+      "type": "power_supply",
+      "role": {
+        "zh": "电源单元在整机中提供 +8V 与 ±16V 等多路直流电压，为各电路板供电。"
+      },
+      "assembly": "power_supply",
+      "annotations": [
+        "power_unit_role"
+      ]
+    },
+    {
+      "id": "io_card",
+      "name": "I/O 接口卡",
+      "type": "expansion_card",
+      "role": {
+        "zh": "I/O 接口卡在整机中插入 S-100 插槽，提供串行接口连接终端或纸带读入机，是程序与数据进出的通道。"
+      },
+      "assembly": "expansion_card",
+      "annotations": [
+        "io_card_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "simh-altair8800",
+    "version": "0.0.0",
+    "system": "MITS Altair 8800 (Personal Computer Kit)",
+    "media_hint": "tape",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "indicator_lamps_0",
+        "surface": "indicator_lamps",
+        "type": "video",
+        "format": "mono1"
+      },
+      {
+        "id": "terminal_0",
+        "surface": "terminal",
+        "type": "video",
+        "format": "text"
+      }
+    ],
+    "input_map": {
+      "load_addr": {
+        "map": "keyboard",
+        "key": "KEY_L"
+      },
+      "exam": {
+        "map": "keyboard",
+        "key": "KEY_E"
+      },
+      "dep": {
+        "map": "keyboard",
+        "key": "KEY_D"
+      },
+      "start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "continue": {
+        "map": "keyboard",
+        "key": "KEY_C"
+      },
+      "stop": {
+        "map": "keyboard",
+        "key": "KEY_STOP"
+      },
+      "clear": {
+        "map": "keyboard",
+        "key": "KEY_CLEAR"
+      },
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      }
+    }
+  }
+}

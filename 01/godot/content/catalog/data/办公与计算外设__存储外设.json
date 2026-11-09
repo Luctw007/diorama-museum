@@ -1,0 +1,1824 @@
+[
+ {
+  "id": "P-ST-000001",
+  "name": "软盘驱动器",
+  "aliases": [
+   "Floppy disk drive"
+  ],
+  "manufacturer": "Shugart/IBM",
+  "origin": "美国",
+  "era": 1976,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "influence": "软驱，可换磁盘存储，早期计算机标配。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Shugart/IBM",
+  "year": 1976,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "reason": "软驱，可换磁盘存储，早期计算机标配。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ]
+ },
+ {
+  "id": "P-ST-000002",
+  "name": "5.25 英寸软驱",
+  "aliases": [],
+  "manufacturer": "Shugart",
+  "origin": "美国",
+  "era": 1976,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "influence": "5.25 软驱，早期 PC 存储。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Shugart",
+  "year": 1976,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "reason": "5.25 软驱，早期 PC 存储。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ]
+ },
+ {
+  "id": "P-ST-000003",
+  "name": "3.5 英寸软驱",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1981,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "influence": "3.5 软驱，软盘存储的标准形态。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1981,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "reason": "3.5 软驱，软盘存储的标准形态。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ]
+ },
+ {
+  "id": "P-ST-000010",
+  "name": "Zip 驱动器",
+  "aliases": [
+   "Zip drive"
+  ],
+  "manufacturer": "Iomega",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "influence": "Zip 大容量软盘，短暂流行。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Iomega",
+  "year": 1994,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "reason": "Zip 大容量软盘，短暂流行。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ]
+ },
+ {
+  "id": "P-ST-000016",
+  "name": "软盘（5.25 英寸）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1976,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "influence": "5.25 软盘介质，早期存储。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1976,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "reason": "5.25 软盘介质，早期存储。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ]
+ },
+ {
+  "id": "P-ST-000017",
+  "name": "软盘（3.5 英寸）",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1981,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "influence": "3.5 软盘介质，软盘标准形态。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1981,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "reason": "3.5 软盘介质，软盘标准形态。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ]
+ },
+ {
+  "id": "P-ST-000023",
+  "name": "5.25 软驱（半高）",
+  "aliases": [],
+  "manufacturer": "Shugart",
+  "origin": "美国",
+  "era": 1978,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "influence": "半高 5.25 软驱，PC 标配。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Shugart",
+  "year": 1978,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "reason": "半高 5.25 软驱，PC 标配。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ]
+ },
+ {
+  "id": "P-ST-000024",
+  "name": "3.5 软驱（1.44M）",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1987,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "influence": "1.44M 3.5 软驱，软盘终结形态。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1987,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "reason": "1.44M 3.5 软驱，软盘终结形态。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ]
+ },
+ {
+  "id": "P-ST-000036",
+  "name": "Zip 驱动器（100MB）",
+  "aliases": [],
+  "manufacturer": "Iomega",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "influence": "Zip 100MB，大容量软盘。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Iomega",
+  "year": 1994,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "reason": "Zip 100MB，大容量软盘。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ]
+ },
+ {
+  "id": "P-ST-000045",
+  "name": "软驱（外置 USB）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "influence": "USB 外置软驱，兼容老盘。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "reason": "USB 外置软驱，兼容老盘。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ]
+ },
+ {
+  "id": "P-ST-000053",
+  "name": "软盘驱动器（8 寸）",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1972,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "influence": "8 寸软驱，早期大软盘。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "IBM",
+  "year": 1972,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ],
+  "reason": "8 寸软驱，早期大软盘。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "软驱"
+  ]
+ },
+ {
+  "id": "P-ST-000004",
+  "name": "硬盘驱动器",
+  "aliases": [
+   "HDD"
+  ],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1956,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "硬盘，大容量存储的基石。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "IBM",
+  "year": 1956,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "硬盘，大容量存储的基石。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000005",
+  "name": "SCSI 硬盘",
+  "aliases": [],
+  "manufacturer": "Seagate/Quantum",
+  "origin": "美国",
+  "era": 1986,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "SCSI 硬盘，工作站与服务器存储。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Seagate/Quantum",
+  "year": 1986,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "SCSI 硬盘，工作站与服务器存储。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000011",
+  "name": "固态硬盘",
+  "aliases": [
+   "SSD"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "韩国/美国",
+  "era": 2007,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "固态硬盘，闪存存储革命。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2007,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "固态硬盘，闪存存储革命。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000012",
+  "name": "USB 闪存盘",
+  "aliases": [
+   "U盘"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "以色列/中国",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "USB 闪存盘，便携存储普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "USB 闪存盘，便携存储普及。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000015",
+  "name": "网络硬盘",
+  "aliases": [
+   "NAS"
+  ],
+  "manufacturer": "Synology/QNAP",
+  "origin": "台湾",
+  "era": 2004,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "网络附加存储，家庭私有云。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Synology/QNAP",
+  "year": 2004,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "网络附加存储，家庭私有云。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000021",
+  "name": "内存卡",
+  "aliases": [
+   "Memory card"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "日本/美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "闪存存储卡，相机与掌机。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1994,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "闪存存储卡，相机与掌机。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000022",
+  "name": "UPS 不间断电源",
+  "aliases": [],
+  "manufacturer": "APC",
+  "origin": "美国",
+  "era": 1984,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "不间断电源，计算机供电保护（官方树未收录，归存储外设系占位）。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "APC",
+  "year": 1984,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "不间断电源，计算机供电保护（官方树未收录，归存储外设系占位）。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000025",
+  "name": "硬盘（10MB）",
+  "aliases": [],
+  "manufacturer": "IBM",
+  "origin": "美国",
+  "era": 1983,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "10MB 硬盘，早期 PC 存储。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "IBM",
+  "year": 1983,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "10MB 硬盘，早期 PC 存储。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000026",
+  "name": "硬盘（IDE）",
+  "aliases": [],
+  "manufacturer": "Seagate/Western Digital",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "IDE 硬盘，PC 主流接口。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Seagate/Western Digital",
+  "year": 1990,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "IDE 硬盘，PC 主流接口。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000027",
+  "name": "硬盘（SATA）",
+  "aliases": [],
+  "manufacturer": "Seagate/Western Digital",
+  "origin": "美国",
+  "era": 2003,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "SATA 硬盘，现代 PC 存储。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Seagate/Western Digital",
+  "year": 2003,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "SATA 硬盘，现代 PC 存储。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000028",
+  "name": "SSD（SATA）",
+  "aliases": [],
+  "manufacturer": "Samsung/Intel",
+  "origin": "韩国/美国",
+  "era": 2010,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "SATA 固态硬盘，PC 加速。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Samsung/Intel",
+  "year": 2010,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "SATA 固态硬盘，PC 加速。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000029",
+  "name": "SSD（NVMe）",
+  "aliases": [],
+  "manufacturer": "Samsung/Western Digital",
+  "origin": "韩国/美国",
+  "era": 2015,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "NVMe 固态硬盘，高速存储。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Samsung/Western Digital",
+  "year": 2015,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "NVMe 固态硬盘，高速存储。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000037",
+  "name": "Jaz 驱动器",
+  "aliases": [],
+  "manufacturer": "Iomega",
+  "origin": "美国",
+  "era": 1996,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "Jaz 1GB 可换盘，便携大容量。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Iomega",
+  "year": 1996,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "Jaz 1GB 可换盘，便携大容量。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000038",
+  "name": "USB 闪存盘（1GB）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "中国",
+  "era": 2005,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "1GB U盘，便携存储普及。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2005,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "1GB U盘，便携存储普及。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000039",
+  "name": "内存卡（SD）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本/美国",
+  "era": 1999,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "SD 卡，数码设备存储。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1999,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "SD 卡，数码设备存储。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000040",
+  "name": "内存卡（CF）",
+  "aliases": [],
+  "manufacturer": "SanDisk",
+  "origin": "美国",
+  "era": 1994,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "CF 卡，早期数码相机存储。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "SanDisk",
+  "year": 1994,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "CF 卡，早期数码相机存储。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000041",
+  "name": "NAS（家用）",
+  "aliases": [],
+  "manufacturer": "Synology",
+  "origin": "台湾",
+  "era": 2010,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "家用 NAS，私有云存储。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Synology",
+  "year": 2010,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "家用 NAS，私有云存储。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000042",
+  "name": "外置硬盘",
+  "aliases": [],
+  "manufacturer": "Seagate/Western Digital",
+  "origin": "美国",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "外置硬盘，备份与扩容。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Seagate/Western Digital",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "外置硬盘，备份与扩容。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000043",
+  "name": "UPS（在线式）",
+  "aliases": [],
+  "manufacturer": "APC",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "在线式 UPS，服务器供电保护。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "APC",
+  "year": 1990,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "在线式 UPS，服务器供电保护。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000044",
+  "name": "UPS（后备式）",
+  "aliases": [],
+  "manufacturer": "APC",
+  "origin": "美国",
+  "era": 1985,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "后备式 UPS，家庭电脑保护。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "APC",
+  "year": 1985,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "后备式 UPS，家庭电脑保护。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000047",
+  "name": "硬盘（外置 USB 2.0）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 2005,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "USB 2.0 外置硬盘，备份。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2005,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "USB 2.0 外置硬盘，备份。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000048",
+  "name": "移动硬盘（2.5 寸）",
+  "aliases": [],
+  "manufacturer": "Seagate",
+  "origin": "美国",
+  "era": 2006,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "2.5 寸移动硬盘，便携备份。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Seagate",
+  "year": 2006,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "2.5 寸移动硬盘，便携备份。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000049",
+  "name": "U盘（金属防水）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "中国",
+  "era": 2010,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "金属防水 U盘，耐用便携。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2010,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "金属防水 U盘，耐用便携。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000050",
+  "name": "UPS（在线双变换）",
+  "aliases": [],
+  "manufacturer": "APC/Eaton",
+  "origin": "美国",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "在线双变换 UPS，数据中心。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "APC/Eaton",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "在线双变换 UPS，数据中心。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000054",
+  "name": "硬盘（MFM 接口）",
+  "aliases": [],
+  "manufacturer": "Seagate",
+  "origin": "美国",
+  "era": 1980,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "MFM 硬盘，早期 PC 存储。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Seagate",
+  "year": 1980,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "MFM 硬盘，早期 PC 存储。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000055",
+  "name": "内存条（SIMM）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "SIMM 内存条，早期内存（占位归存储）。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1990,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "SIMM 内存条，早期内存（占位归存储）。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000056",
+  "name": "内存条（DIMM）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1998,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "DIMM 内存条，现代内存（占位归存储）。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1998,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "DIMM 内存条，现代内存（占位归存储）。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000057",
+  "name": "读卡器（多合一）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "中国",
+  "era": 2005,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "多合一读卡器，存储卡读取。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2005,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "多合一读卡器，存储卡读取。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000059",
+  "name": "硬盘（监控级）",
+  "aliases": [],
+  "manufacturer": "Western Digital",
+  "origin": "美国",
+  "era": 2012,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "监控级硬盘，安防存储。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Western Digital",
+  "year": 2012,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "监控级硬盘，安防存储。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000060",
+  "name": "U盘（加密）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "中国",
+  "era": 2012,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "influence": "加密 U盘，数据安全。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2012,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ],
+  "reason": "加密 U盘，数据安全。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "硬盘"
+  ]
+ },
+ {
+  "id": "P-ST-000006",
+  "name": "光盘驱动器",
+  "aliases": [
+   "CD-ROM drive"
+  ],
+  "manufacturer": "Philips/Sony",
+  "origin": "荷兰/日本",
+  "era": 1985,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "influence": "CD-ROM 光驱，软件分发的革命。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Philips/Sony",
+  "year": 1985,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "reason": "CD-ROM 光驱，软件分发的革命。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ]
+ },
+ {
+  "id": "P-ST-000007",
+  "name": "DVD 光驱",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1997,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "influence": "DVD 光驱，大容量光盘。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1997,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "reason": "DVD 光驱，大容量光盘。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ]
+ },
+ {
+  "id": "P-ST-000008",
+  "name": "刻录机",
+  "aliases": [
+   "CD-RW drive"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1996,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "influence": "可刻录光驱，个人数据刻录。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1996,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "reason": "可刻录光驱，个人数据刻录。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ]
+ },
+ {
+  "id": "P-ST-000013",
+  "name": "磁光驱动器",
+  "aliases": [
+   "MO drive"
+  ],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1988,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "influence": "磁光存储，可擦写高可靠。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1988,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "reason": "磁光存储，可擦写高可靠。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ]
+ },
+ {
+  "id": "P-ST-000014",
+  "name": "光驱（外置）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "influence": "外置光驱，轻薄本补充。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "reason": "外置光驱，轻薄本补充。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ]
+ },
+ {
+  "id": "P-ST-000018",
+  "name": "CD-R 光盘",
+  "aliases": [],
+  "manufacturer": "Philips/Sony",
+  "origin": "荷兰/日本",
+  "era": 1988,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "influence": "可刻录光盘介质。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Philips/Sony",
+  "year": 1988,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "reason": "可刻录光盘介质。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ]
+ },
+ {
+  "id": "P-ST-000019",
+  "name": "DVD-R 光盘",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1997,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "influence": "可刻录 DVD 介质。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1997,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "reason": "可刻录 DVD 介质。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ]
+ },
+ {
+  "id": "P-ST-000020",
+  "name": "蓝光光盘",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 2006,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "influence": "蓝光介质，高清存储。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 2006,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "reason": "蓝光介质，高清存储。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ]
+ },
+ {
+  "id": "P-ST-000030",
+  "name": "CD-ROM 光驱（倍速）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 1990,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "influence": "倍速 CD-ROM，软件安装。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1990,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "reason": "倍速 CD-ROM，软件安装。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ]
+ },
+ {
+  "id": "P-ST-000031",
+  "name": "DVD-RW 光驱",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2002,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "influence": "DVD 刻录机，数据备份。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2002,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "reason": "DVD 刻录机，数据备份。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ]
+ },
+ {
+  "id": "P-ST-000032",
+  "name": "蓝光光驱",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2008,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "influence": "蓝光光驱，高清存储。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2008,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "reason": "蓝光光驱，高清存储。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ]
+ },
+ {
+  "id": "P-ST-000035",
+  "name": "MO 磁光驱",
+  "aliases": [],
+  "manufacturer": "Sony",
+  "origin": "日本",
+  "era": 1991,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "influence": "磁光驱，可擦写高可靠。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony",
+  "year": 1991,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "reason": "磁光驱，可擦写高可靠。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ]
+ },
+ {
+  "id": "P-ST-000046",
+  "name": "光驱（吸入式）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2005,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "influence": "吸入式光驱，笔记本。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2005,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "reason": "吸入式光驱，笔记本。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ]
+ },
+ {
+  "id": "P-ST-000051",
+  "name": "光驱（刻录 CD-RW）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "influence": "CD-RW 刻录机，数据刻录。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "reason": "CD-RW 刻录机，数据刻录。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ]
+ },
+ {
+  "id": "P-ST-000058",
+  "name": "光驱（蓝光刻录）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "日本",
+  "era": 2010,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "influence": "蓝光刻录机，大容量存档。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2010,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ],
+  "reason": "蓝光刻录机，大容量存档。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "光驱"
+  ]
+ },
+ {
+  "id": "P-ST-000009",
+  "name": "磁带驱动器",
+  "aliases": [
+   "Tape drive"
+  ],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 1952,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "磁带机"
+  ],
+  "influence": "磁带机，数据备份。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 1952,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "磁带机"
+  ],
+  "reason": "磁带机，数据备份。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "磁带机"
+  ]
+ },
+ {
+  "id": "P-ST-000033",
+  "name": "磁带机（DLT）",
+  "aliases": [],
+  "manufacturer": "Quantum",
+  "origin": "美国",
+  "era": 1995,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "磁带机"
+  ],
+  "influence": "DLT 磁带机，企业备份。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Quantum",
+  "year": 1995,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "磁带机"
+  ],
+  "reason": "DLT 磁带机，企业备份。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "磁带机"
+  ]
+ },
+ {
+  "id": "P-ST-000034",
+  "name": "磁带机（LTO）",
+  "aliases": [],
+  "manufacturer": "多家厂商",
+  "origin": "美国",
+  "era": 2000,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "磁带机"
+  ],
+  "influence": "LTO 磁带机，现代备份。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "多家厂商",
+  "year": 2000,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "磁带机"
+  ],
+  "reason": "LTO 磁带机，现代备份。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "磁带机"
+  ]
+ },
+ {
+  "id": "P-ST-000052",
+  "name": "磁带机（DAT）",
+  "aliases": [],
+  "manufacturer": "Sony/HP",
+  "origin": "日本/美国",
+  "era": 1989,
+  "taxonomy_path": [
+   "办公与计算外设",
+   "存储外设",
+   "磁带机"
+  ],
+  "influence": "DAT 磁带机，音频数据备份。",
+  "status": "planned",
+  "device_id": null,
+  "sources": [],
+  "maker": "Sony/HP",
+  "year": 1989,
+  "path": [
+   "办公与计算外设",
+   "存储外设",
+   "磁带机"
+  ],
+  "reason": "DAT 磁带机，音频数据备份。",
+  "_taxonomy": [
+   "办公与计算外设",
+   "存储外设",
+   "磁带机"
+  ]
+ }
+]

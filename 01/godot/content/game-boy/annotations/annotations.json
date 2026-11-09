@@ -1,0 +1,277 @@
+{
+  "annotations": [
+    {
+      "id": "game_boy_role",
+      "type": "role",
+      "target": "game_boy",
+      "text": "Game Boy 整机，1989 年任天堂推出的 8 位掌上游戏机，由前壳、后壳、主板、屏模组、十字键模组与卡带组成，是掌机第二台正式入包设备。",
+      "sources": []
+    },
+    {
+      "id": "front_shell_role",
+      "type": "role",
+      "target": "front_shell",
+      "text": "前壳在整机中作为机身正面壳体，带屏幕窗与 AB 键位，构成掌机的操作面板。",
+      "sources": []
+    },
+    {
+      "id": "back_shell_role",
+      "type": "role",
+      "target": "back_shell",
+      "text": "后壳在整机中作为机身背面壳体，带电池仓与卡带仓，与前壳扣合构成完整机身。",
+      "sources": []
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中承载 LR35902 处理器与 LCD 控制器，是掌机的核心电路板。",
+      "sources": []
+    },
+    {
+      "id": "screen_module_role",
+      "type": "role",
+      "target": "screen_module",
+      "text": "屏模组在整机中显示 160×144 点阵 4 级灰度画面，是掌机的绿点阵显示核心。",
+      "sources": []
+    },
+    {
+      "id": "dpad_module_role",
+      "type": "role",
+      "target": "dpad_module",
+      "text": "十字键模组在整机中提供十字键与 AB 键输入，是掌机的主要操作方式。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_role",
+      "type": "role",
+      "target": "cartridge",
+      "text": "卡带在整机中存放游戏程序，通过背部插槽插入主机，是掌机的游戏内容载体。",
+      "sources": []
+    },
+    {
+      "id": "cpu_lr35902_role",
+      "type": "role",
+      "target": "cpu_lr35902",
+      "text": "Sharp LR35902 处理器在整机中负责取指译码执行游戏程序，是 GB 专用定制芯片，是掌机的运算核心。",
+      "sources": []
+    },
+    {
+      "id": "lcd_controller_role",
+      "type": "role",
+      "target": "lcd_controller",
+      "text": "LCD 控制器在整机中驱动 160×144 点阵 4 级灰度屏，是掌机画面的显示核心。",
+      "sources": []
+    },
+    {
+      "id": "boot_flow",
+      "type": "flow",
+      "target": "game_boy",
+      "text": "开机流程：接通电源后，LR35902 从卡带程序入口启动，初始化屏幕与声音，进入游戏主循环，画面经点阵屏显示。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_insert_anim",
+      "type": "anim",
+      "target": "cartridge",
+      "text": "卡带插拔动画：玩家将卡带对准背部插槽插入触发，卡带沿竖直方向滑入，金手指啮合，拔出时反向抽出，单次约 1 秒。",
+      "sources": []
+    },
+    {
+      "id": "tetris_role",
+      "type": "role",
+      "target": "game_boy",
+      "text": "俄罗斯方块捆绑在整机中是 GB 成为现象级产品的关键，规则极简的方块游戏与掌机碎片时间完美契合，是掌机杀手级应用的典范。",
+      "sources": []
+    },
+    {
+      "id": "green_lcd_role",
+      "type": "role",
+      "target": "screen_module",
+      "text": "绿点阵屏在整机中是 GB 初代的标志，无背光反射式液晶屏呈黄绿色，是掌机省电耐用的硬件哲学体现。",
+      "sources": []
+    },
+    {
+      "id": "dot_matrix_role",
+      "type": "role",
+      "target": "screen_module",
+      "text": "点阵屏在整机中是 GB 的显示方式，160×144 点阵 4 级灰度可显示任意画面，区别于 G&W 的段码预制图形。",
+      "sources": []
+    },
+    {
+      "id": "screen_bez_role",
+      "type": "role",
+      "target": "front_shell",
+      "text": "屏幕窗在整机中位于前壳中央，四周凹陷带倒角，是屏模组的配合面，构成掌机屏幕的视觉框。",
+      "sources": []
+    },
+    {
+      "id": "battery_role",
+      "type": "role",
+      "target": "back_shell",
+      "text": "电池仓在整机中位于后壳，容纳 4 节 AA 电池，是掌机长续航供电的基础。",
+      "sources": []
+    },
+    {
+      "id": "dpad_origin_role",
+      "type": "role",
+      "target": "dpad_module",
+      "text": "十字键模组在整机中是横井军平十字键在掌机的延续，四向按压是掌机操作的经典方式。",
+      "sources": []
+    },
+    {
+      "id": "cart_swap_role",
+      "type": "role",
+      "target": "cartridge",
+      "text": "更换卡带生态在整机中体现为 GB 卡带可自由更换，数千款游戏构成庞大游戏库，是掌机长寿命的秘密。",
+      "sources": []
+    },
+    {
+      "id": "handheld_kingdom_role",
+      "type": "role",
+      "target": "game_boy",
+      "text": "手提机第一王朝在整机中体现为 GB 开创了手提机品类，以 1.18 亿台销量（含 GBC）成为史上最畅销掌机之一。",
+      "sources": []
+    },
+    {
+      "id": "yokoi_philosophy_role",
+      "type": "role",
+      "target": "game_boy",
+      "text": "横井哲平线在整机中体现为横井军平枯萎技术的水平思考，用成熟廉价技术做出耐用省电的掌机，是 GB 设计哲学的核心。",
+      "sources": []
+    },
+    {
+      "id": "game_link_role",
+      "type": "role",
+      "target": "game_boy",
+      "text": "联机对战线在整机中是 GB 的社交创新，两台 GB 可对战交换，宝可梦的联机对战由此开启。",
+      "sources": []
+    },
+    {
+      "id": "four_gray_role",
+      "type": "role",
+      "target": "screen_module",
+      "text": "4 级灰度在整机中是 GB 点阵屏的色阶，四档灰阶呈现画面，是当时掌机显示的标配。",
+      "sources": []
+    },
+    {
+      "id": "ab_button_role",
+      "type": "role",
+      "target": "dpad_module",
+      "text": "AB 键在整机中是 GB 的两颗圆形按键，与十字键配合构成掌机的核心操作。",
+      "sources": []
+    },
+    {
+      "id": "cart_32pin_role",
+      "type": "role",
+      "target": "cartridge",
+      "text": "32 针接口在整机中连接卡带与主机，是 GB 卡带的物理规格。",
+      "sources": []
+    },
+    {
+      "id": "tetris_blocks_role",
+      "type": "role",
+      "target": "screen_module",
+      "text": "俄罗斯方块画面在整机中是 GB 屏最经典的显示内容，七种方块落下的画面是无数人的第一台掌机记忆。",
+      "sources": []
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "game_boy",
+      "text": "电源开关在整机中位于机身顶部，滑动式开关控制掌机通断电。",
+      "sources": []
+    },
+    {
+      "id": "volume_role",
+      "type": "role",
+      "target": "game_boy",
+      "text": "音量旋钮在整机中位于机身侧面，调节耳机与扬声器音量。",
+      "sources": []
+    },
+    {
+      "id": "headphone_role",
+      "type": "role",
+      "target": "game_boy",
+      "text": "耳机孔在整机中位于机身底部，连接耳机聆听掌机音效。",
+      "sources": []
+    },
+    {
+      "id": "contrast_role",
+      "type": "role",
+      "target": "front_shell",
+      "text": "对比度旋钮在整机中调节点阵屏显示对比度，是反射式液晶屏的调校方式。",
+      "sources": []
+    },
+    {
+      "id": "mono_sound_role",
+      "type": "role",
+      "target": "game_boy",
+      "text": "单声道声音在整机中是 GB 的音效输出，4 声道合成经单扬声器播放。",
+      "sources": []
+    },
+    {
+      "id": "durable_role",
+      "type": "role",
+      "target": "game_boy",
+      "text": "耐用性在整机中是 GB 的硬件特色，厚实机身经摔耐用，是掌机能被儿童长期使用的原因。",
+      "sources": []
+    },
+    {
+      "id": "pocket_role",
+      "type": "role",
+      "target": "game_boy",
+      "text": "便携性在整机中是 GB 的核心价值，可装进口袋随身携带，开创了随时随地玩游戏的品类。",
+      "sources": []
+    },
+    {
+      "id": "tetris_rights_x1",
+      "type": "role",
+      "target": "game_boy",
+      "text": "任天堂为把《俄罗斯方块》随 Game Boy 捆绑，经历了一场著名的版权争夺，最终拿下掌机版权，这一决策让俄罗斯方块成为 GB 的杀手级应用。",
+      "sources": []
+    },
+    {
+      "id": "tetris_game_x2",
+      "type": "role",
+      "target": "game_boy",
+      "text": "《俄罗斯方块》是 GB 的捆绑传奇，七种方块的消除玩法规则极简、上手即玩，与掌机碎片时间完美契合，是无数人买 GB 的第一理由。",
+      "sources": []
+    },
+    {
+      "id": "sunlight_lcd_x3",
+      "type": "role",
+      "target": "screen_module",
+      "text": "GB 的无背光反射式点阵屏在整机中是省电冷知识，它靠环境光反射显示，阳光下反而更清晰，因此 GB 能用 4 节 AA 电池续航十几到几十小时。",
+      "sources": []
+    },
+    {
+      "id": "dot_matrix_teardown_x4",
+      "type": "role",
+      "target": "screen_module",
+      "text": "点阵屏在整机中是 GB 的显示核心，160×144 点阵 4 级灰度，与 G&W 的段码预制图形不同，是拆解讲解掌机显示演进时的看点。",
+      "sources": []
+    },
+    {
+      "id": "game_link_x5",
+      "type": "role",
+      "target": "game_boy",
+      "text": "Game Link 联机线在整机中是 GB 的社交创新，两台 GB 用一根线相连即可对战交换，宝可梦的联机对战由此开启，是掌机社交的开端。",
+      "sources": []
+    },
+    {
+      "id": "game_gb_tetris_z1",
+      "type": "role",
+      "target": "game_boy",
+      "text": "俄罗斯方块是 GB 的杀手级玩法，规则极简却越玩越上头，碎片时间消一局的体验让 GB 成了通勤与午休的随身伴侣。",
+      "sources": []
+    },
+    {
+      "id": "game_gb_link_z2",
+      "type": "role",
+      "target": "game_boy",
+      "text": "Game Link 联机线让两台 GB 能对战交换，《宝可梦》必须交换才能集齐图鉴，这种面对面联机是 GB 独有的社交玩法。",
+      "sources": []
+    }
+  ]
+}

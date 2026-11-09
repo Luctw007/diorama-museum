@@ -1,0 +1,280 @@
+{
+  "annotations": [
+    {
+      "id": "sw_data_00_role",
+      "type": "role",
+      "target": "sw_data_00",
+      "text": "数据拨动开关第 0 位在整机中设定 8 位数据总线的第 0 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_01_role",
+      "type": "role",
+      "target": "sw_data_01",
+      "text": "数据拨动开关第 1 位在整机中设定 8 位数据总线的第 1 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_02_role",
+      "type": "role",
+      "target": "sw_data_02",
+      "text": "数据拨动开关第 2 位在整机中设定 8 位数据总线的第 2 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_03_role",
+      "type": "role",
+      "target": "sw_data_03",
+      "text": "数据拨动开关第 3 位在整机中设定 8 位数据总线的第 3 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_04_role",
+      "type": "role",
+      "target": "sw_data_04",
+      "text": "数据拨动开关第 4 位在整机中设定 8 位数据总线的第 4 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_05_role",
+      "type": "role",
+      "target": "sw_data_05",
+      "text": "数据拨动开关第 5 位在整机中设定 8 位数据总线的第 5 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_06_role",
+      "type": "role",
+      "target": "sw_data_06",
+      "text": "数据拨动开关第 6 位在整机中设定 8 位数据总线的第 6 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_07_role",
+      "type": "role",
+      "target": "sw_data_07",
+      "text": "数据拨动开关第 7 位在整机中设定 8 位数据总线的第 7 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_load_addr_role",
+      "type": "role",
+      "target": "sw_load_addr",
+      "text": "装载地址开关在整机中把拨键设定的地址送入地址总线，定位要检视或写入的内存单元。"
+    },
+    {
+      "id": "sw_exam_role",
+      "type": "role",
+      "target": "sw_exam",
+      "text": "检视开关在整机中把当前地址单元的内容读出并显示在数据 LED 灯上，供操作员查看。"
+    },
+    {
+      "id": "sw_dep_role",
+      "type": "role",
+      "target": "sw_dep",
+      "text": "写入开关在整机中把拨键设定的 8 位数据写入当前地址单元，完成一次手动存数。"
+    },
+    {
+      "id": "sw_start_role",
+      "type": "role",
+      "target": "sw_start",
+      "text": "运行开关在整机中使处理器从程序计数器当前地址开始连续执行程序。"
+    },
+    {
+      "id": "sw_continue_role",
+      "type": "role",
+      "target": "sw_continue",
+      "text": "单步开关在整机中使处理器每次只执行一条指令，便于逐条调试程序。"
+    },
+    {
+      "id": "sw_stop_role",
+      "type": "role",
+      "target": "sw_stop",
+      "text": "停机开关在整机中暂停处理器的执行，使机器回到手动控制状态。"
+    },
+    {
+      "id": "sw_clear_role",
+      "type": "role",
+      "target": "sw_clear",
+      "text": "复位开关在整机中复位处理器与各状态标志，使机器回到初始状态。"
+    },
+    {
+      "id": "lamp_data_00_role",
+      "type": "role",
+      "target": "lamp_data_00",
+      "text": "数据指示灯第 0 位在整机中点亮表示数据总线第 0 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_01_role",
+      "type": "role",
+      "target": "lamp_data_01",
+      "text": "数据指示灯第 1 位在整机中点亮表示数据总线第 1 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_02_role",
+      "type": "role",
+      "target": "lamp_data_02",
+      "text": "数据指示灯第 2 位在整机中点亮表示数据总线第 2 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_03_role",
+      "type": "role",
+      "target": "lamp_data_03",
+      "text": "数据指示灯第 3 位在整机中点亮表示数据总线第 3 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_04_role",
+      "type": "role",
+      "target": "lamp_data_04",
+      "text": "数据指示灯第 4 位在整机中点亮表示数据总线第 4 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_05_role",
+      "type": "role",
+      "target": "lamp_data_05",
+      "text": "数据指示灯第 5 位在整机中点亮表示数据总线第 5 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_06_role",
+      "type": "role",
+      "target": "lamp_data_06",
+      "text": "数据指示灯第 6 位在整机中点亮表示数据总线第 6 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_07_role",
+      "type": "role",
+      "target": "lamp_data_07",
+      "text": "数据指示灯第 7 位在整机中点亮表示数据总线第 7 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_run_role",
+      "type": "role",
+      "target": "lamp_run",
+      "text": "运行指示灯在整机中于处理器执行程序期间持续点亮，是判断机器是否在运行的状态指示。"
+    },
+    {
+      "id": "cpu_8080_role",
+      "type": "role",
+      "target": "cpu_8080",
+      "text": "Intel 8080 处理器在整机中作为 8 位中央处理器，执行取指、译码与运算，是机器的运算核心。"
+    },
+    {
+      "id": "bus_slots_role",
+      "type": "role",
+      "target": "bus_slots",
+      "text": "S-100 扩展插槽在整机中接纳 CPU 板、内存卡与外设卡，通过标准总线信号把它们连成一体。"
+    },
+    {
+      "id": "power_unit_role",
+      "type": "role",
+      "target": "power_unit",
+      "text": "电源单元在整机中提供 +8V 与 ±16V 等多路直流电压，为各电路板供电。"
+    },
+    {
+      "id": "io_card_role",
+      "type": "role",
+      "target": "io_card",
+      "text": "I/O 接口卡在整机中插入 S-100 插槽，提供串行接口连接终端或纸带读入机，是程序与数据进出的通道。"
+    },
+    {
+      "id": "front_panel_boot",
+      "type": "flow",
+      "target": "whole",
+      "text": "前面板拨键 boot 流程：拨动数据开关设定地址或数据 → 按装载地址键定位内存 → 按写入键存入 → 按运行键从当前地址执行程序，这是没有键盘与显示器时代最原始的程序装载方式。"
+    },
+    {
+      "id": "intel_8080",
+      "type": "flow",
+      "target": "cpu_8080",
+      "text": "Intel 8080 讲解：8080 是 8 位微处理器，Altair 8800 用它做运算核心，是 1970 年代微型电脑最具代表性的 CPU 之一。"
+    },
+    {
+      "id": "s100_bus",
+      "type": "flow",
+      "target": "bus_slots",
+      "text": "S-100 总线讲解：Altair 8800 的扩展总线后来被行业采纳为 S-100 标准，催生了 IMSAI 8080 等大量兼容机与第三方扩展卡，是开放硬件标准的早期范本。"
+    },
+    {
+      "id": "led_status",
+      "type": "flow",
+      "target": "front_panel",
+      "text": "LED 跑灯状态讲解：前面板的一排 LED 灯逐位亮起，是早期程序员观察地址、数据与运行状态的唯一「显示器」，跑灯闪烁也是那个时代的标志性画面。"
+    },
+    {
+      "id": "altair_basic",
+      "type": "flow",
+      "target": "whole",
+      "text": "Altair BASIC 讲解：Paul Allen 与 Bill Gates 为 Altair 8800 编写了 Altair BASIC，这是微软的第一款产品，两人由此创立了微软，改变了软件产业走向。"
+    },
+    {
+      "id": "pc_revolution",
+      "type": "flow",
+      "target": "whole",
+      "text": "个人电脑革命起点讲解：Altair 8800 登载于《Popular Electronics》1975 年 1 月号封面，让「拥有一台自己的电脑」第一次变成可实现的梦想，引爆了个人电脑热潮。"
+    },
+    {
+      "id": "microsoft_founding",
+      "type": "flow",
+      "target": "whole",
+      "text": "微软创立契机讲解：为 Altair 编写 BASIC 的两位年轻人——Allen 与 Gates——由此成立了微软，这家日后统治软件世界的公司，第一行创业代码就是为这台机器写的。"
+    },
+    {
+      "id": "first_kit",
+      "type": "flow",
+      "target": "whole",
+      "text": "首台成功套件讲解：Altair 8800 以套件形式发售，买家自行焊接组装，是首台取得商业成功的个人电脑套件，确立了「组装机」这一历史形态。"
+    },
+    {
+      "id": "s100_standard",
+      "type": "flow",
+      "target": "s100_backplane",
+      "text": "开放标准讲解：Altair 8800 的 S-100 背板让第三方厂商能自由设计扩展卡，一个开放的硬件生态由此形成，是「开放架构」理念的早期实践。"
+    },
+    {
+      "id": "popular_electronics",
+      "type": "flow",
+      "target": "whole",
+      "text": "《Popular Electronics》封面讲解：1975 年 1 月号的封面让 Altair 8800 一夜成名，一份大众电子杂志成了个人电脑革命的发令枪。"
+    },
+    {
+      "id": "manual_program",
+      "type": "flow",
+      "target": "front_panel",
+      "text": "拨键手动编程讲解：前面板的拨键开关是最早的人机界面，程序员拨开关、看灯，一字节一字节地把程序敲进机器，亲身体会计算机最底层的工作方式。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "MITS Altair 8800 整机，1975 年推出的首台成功的个人电脑套件，以前面板拨键与 LED 灯条操作，点燃了个人电脑革命。"
+    },
+    {
+      "id": "chassis_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "机箱在整机中作为金属箱体骨架，承载前面板、S-100 背板与电源，提供结构支撑与散热通道。"
+    },
+    {
+      "id": "front_panel_role",
+      "type": "role",
+      "target": "front_panel",
+      "text": "前面板在整机中提供拨键开关与 LED 灯条，是操作员手动检视、写入与启动程序的直接接口。"
+    },
+    {
+      "id": "cpu_board_role",
+      "type": "role",
+      "target": "cpu_board",
+      "text": "CPU 板在整机中承载 Intel 8080 处理器及其时钟与总线驱动电路，是运算与控制的核心。"
+    },
+    {
+      "id": "s100_backplane_role",
+      "type": "role",
+      "target": "s100_backplane",
+      "text": "S-100 总线背板在整机中提供多组扩展插槽，把 CPU 板、内存卡与外设卡连成一体，是开放扩展的标准载体。"
+    },
+    {
+      "id": "power_supply_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源在整机中把交流电转换为多路直流电压，为各电路板供电，是整机的能量来源。"
+    },
+    {
+      "id": "expansion_card_role",
+      "type": "role",
+      "target": "expansion_card",
+      "text": "扩展接口卡在整机中插入 S-100 插槽，提供内存扩展或串行/并行外设接口，负责程序与数据的进出。"
+    }
+  ]
+}

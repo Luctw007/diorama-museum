@@ -38,11 +38,11 @@ func _check_content_dir() -> String:
 		return "目录 FAIL：res://content 不可打开"
 	dir.list_dir_begin()
 	var count := 0
-	var name := dir.get_next()
-	while name != "":
-		if dir.current_is_dir() and not name.begins_with("."):
+	var entry_name := dir.get_next()
+	while entry_name != "":
+		if dir.current_is_dir() and not entry_name.begins_with("."):
 			count += 1
-		name = dir.get_next()
+		entry_name = dir.get_next()
 	dir.list_dir_end()
 	return "目录 OK：%d 个子目录" % count if count > 0 else "目录 FAIL：枚举为空"
 
@@ -52,18 +52,18 @@ func _check_meta() -> String:
 	if dir == null:
 		return "meta FAIL：res://content 不可打开"
 	dir.list_dir_begin()
-	var name := dir.get_next()
-	while name != "":
-		if dir.current_is_dir() and not name.begins_with("."):
-			var pkg_meta := CONTENT_ROOT + "/" + name + "/meta.json"
+	var entry_name := dir.get_next()
+	while entry_name != "":
+		if dir.current_is_dir() and not entry_name.begins_with("."):
+			var pkg_meta := CONTENT_ROOT + "/" + entry_name + "/meta.json"
 			if FileAccess.file_exists(pkg_meta):
 				var f := FileAccess.open(pkg_meta, FileAccess.READ)
 				if f != null:
 					var parsed: Variant = JSON.parse_string(f.get_as_text())
 					f.close()
 					if typeof(parsed) == TYPE_DICTIONARY:
-						return "meta OK：%s/meta.json 解析为 Dictionary" % name
-		name = dir.get_next()
+						return "meta OK：%s/meta.json 解析为 Dictionary" % entry_name
+		entry_name = dir.get_next()
 	dir.list_dir_end()
 	return "meta FAIL：未发现可解析的包 meta.json"
 
@@ -75,13 +75,13 @@ func _check_slots() -> String:
 		return "槽位表 OK：走内置登记口径（res://slots 未导出）"
 	var manifests := 0
 	dir.list_dir_begin()
-	var name := dir.get_next()
-	while name != "":
+	var entry_name := dir.get_next()
+	while entry_name != "":
 		if dir.current_is_dir():
-			var mpath := SLOTS_ROOT + "/" + name + "/manifest.json"
+			var mpath := SLOTS_ROOT + "/" + entry_name + "/manifest.json"
 			if FileAccess.file_exists(mpath):
 				manifests += 1
-		name = dir.get_next()
+		entry_name = dir.get_next()
 	dir.list_dir_end()
 	return "槽位表 OK：%d 个 manifest" % manifests if manifests > 0 else "槽位表 FAIL：slots 目录无 manifest"
 

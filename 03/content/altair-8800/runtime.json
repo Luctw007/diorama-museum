@@ -1,0 +1,56 @@
+{
+  "emulator": "simh-altair8800",
+  "version": "0.0.0",
+  "system": "MITS Altair 8800 (Personal Computer Kit)",
+  "media_hint": "tape",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {
+      "id": "indicator_lamps_0",
+      "surface": "indicator_lamps",
+      "type": "video",
+      "format": "mono1"
+    },
+    {
+      "id": "terminal_0",
+      "surface": "terminal",
+      "type": "video",
+      "format": "text"
+    }
+  ],
+  "input_map": {
+    "load_addr": {
+      "map": "keyboard",
+      "key": "KEY_L"
+    },
+    "exam": {
+      "map": "keyboard",
+      "key": "KEY_E"
+    },
+    "dep": {
+      "map": "keyboard",
+      "key": "KEY_D"
+    },
+    "start": {
+      "map": "keyboard",
+      "key": "KEY_ENTER"
+    },
+    "continue": {
+      "map": "keyboard",
+      "key": "KEY_C"
+    },
+    "stop": {
+      "map": "keyboard",
+      "key": "KEY_STOP"
+    },
+    "clear": {
+      "map": "keyboard",
+      "key": "KEY_CLEAR"
+    },
+    "power": {
+      "map": "keyboard",
+      "key": "KEY_POWER"
+    }
+  }
+}

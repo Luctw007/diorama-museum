@@ -251,6 +251,55 @@
       "target": "neo_geo_mvs",
       "text": "街机厅文化在整机中体现为投币、对战、围观与呐喊的社交体验，Neo Geo MVS 街机柜是这一文化的物理载体，也是游戏机厅街机区的叙事核心。",
       "sources": []
+    },
+    {
+      "id": "aes_price_x1",
+      "type": "role",
+      "target": "neo_geo_mvs",
+      "text": "Neo Geo AES 家用机与卡带都以天价著称，一张卡带动辄数万日元，是史上最昂贵的家用机之一，也因此成了当时玩家眼里的奢侈品。",
+      "sources": []
+    },
+    {
+      "id": "kof_x2",
+      "type": "role",
+      "target": "neo_geo_mvs",
+      "text": "《拳皇》是 Neo Geo 的旗帜，1994 年的拳皇'94 首创三对三组队战，此后几乎每年一作，成为街机厅格斗对战文化的图腾。",
+      "sources": []
+    },
+    {
+      "id": "cart_swap_x3",
+      "type": "role",
+      "target": "mvs_board",
+      "text": "换卡不停机在整机中是 MVS 多槽位的招牌设计，基板可装多张卡带并在运行中切换，运营商无需关机即可换游戏，是街机运营效率的关键冷知识。",
+      "sources": []
+    },
+    {
+      "id": "coin_mech_teardown_x4",
+      "type": "role",
+      "target": "coin_mechanism",
+      "text": "投币机构在整机中是街机最精密的机械部件，投币口、轨道、微动开关、退币口环环相扣，是拆解街机柜时最值得细看的机械看点。",
+      "sources": []
+    },
+    {
+      "id": "marquee_x5",
+      "type": "role",
+      "target": "cabinet",
+      "text": "灯箱在整机中位于框体顶部，展示游戏标题与插画，是街机框体的招牌，也是街机厅视觉氛围的标志，是自由选题的展示亮点。",
+      "sources": []
+    },
+    {
+      "id": "game_mvs_credit_z1",
+      "type": "role",
+      "target": "neo_geo_mvs",
+      "text": "MVS 框体的投币文化让一币通关成为街机玩家的终极追求，输一局就再投一币，币就是命，这种玩法紧张感是家用机永远无法复制的。",
+      "sources": []
+    },
+    {
+      "id": "game_mvs_swap_z2",
+      "type": "role",
+      "target": "neo_geo_mvs",
+      "text": "MVS 多槽位支持换卡不停机，玩家在一台框体上就能轮流打拳皇、侍魂、合金弹头，一台机器就是一个迷你街机厅。",
+      "sources": []
     }
   ]
 }
