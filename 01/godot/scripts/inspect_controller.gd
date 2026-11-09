@@ -295,6 +295,8 @@ func _ready() -> void:
 		_diag_label.position = Vector2(16, 150)
 		_diag_label.add_theme_font_size_override("font_size", 13)
 		_diag_label.add_theme_color_override("font_color", Color(0.5, 1.0, 0.6))
+		# 初始文本立即可见（不依赖 _process），target 异常也能定位
+		_diag_label.text = "[inspect] 初始: target=%s" % (str(target))
 		hud.add_child(_diag_label)
 	# 拆解入口布尔开关与 ExplodeController 状态同步（TASK-106B）
 	var explode := _explode_ref()
