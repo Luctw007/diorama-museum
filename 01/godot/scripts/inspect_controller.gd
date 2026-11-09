@@ -35,8 +35,10 @@ var _pan := Vector2.ZERO
 var _dragging := false
 var _panning := false
 var _hovered: Node3D
-var _selected: Node3D
+var _selected: Node3D      # 选中的"装配体"（role/文案载体）
+var _sel_mesh: Node3D      # 实际命中的 MeshInstance3D（高亮作用点）
 var _hud_label: Label
+var _diag_label: Label     # RUN-08 诊断行（实机排障用）
 
 ## 状态布尔开关（TASK-106B，拆解入口）：
 ##   _explode_mode == false → 行走/观察（默认，玩家自由环视、界面点选）
@@ -117,6 +119,17 @@ func _process(_delta: float) -> void:
 	if target == null:
 		return
 	_apply_view()
+	if _diag_label != null:
+		var cam := get_viewport().get_camera_3d()
+		var mesh_count := 0
+		for mi in target.find_children("*", "MeshInstance3D", true, false):
+			if (mi as MeshInstance3D).mesh != null:
+				mesh_count += 1
+		_diag_label.text = ("[inspect] target=%s meshes=%d camera=%s sel=%s"
+				% [target.name, mesh_count,
+				   ("%.1f,%.1f,%.1f" % [cam.global_position.x, cam.global_position.y,
+										cam.global_position.z]) if cam != null else "无",
+				   _selected.name if _selected != null else "无"])
 
 
 func _apply_view() -> void:
@@ -137,28 +150,43 @@ func _update_hover(screen_pos: Vector2) -> void:
 	var best: Node3D = null
 	var best_dist := PICK_RADIUS_PX
 	var best_cam_z := INF
-	for child in target.find_children("*", "Node3D", true, false):
-		if not child.name.to_lower().begins_with("mesh") and child.get_child_count() == 0:
-			continue  # 只有叶子装配体参与点选（M1 简化）
-		var projected := camera.unproject_position(child.global_position)
-		if camera.is_position_behind(child.global_position):
+	# RUN-08：按"真实网格 AABB 中心"投影拾取（原装配体原点叠加在原点，多部件互相遮挡无从点选）
+	for child in target.find_children("*", "MeshInstance3D", true, false):
+		var mi := child as MeshInstance3D
+		if mi == null or mi.mesh == null:
 			continue
+		var center := mi.global_transform * mi.mesh.get_aabb().get_center()
+		if camera.is_position_behind(center):
+			continue
+		var projected := camera.unproject_position(center)
 		var d := screen_pos.distance_to(projected)
-		var camz := camera.global_position.distance_to(child.global_position)
+		var camz := camera.global_position.distance_to(center)
 		if d <= best_dist and camz < best_cam_z:
 			best_dist = d
 			best_cam_z = camz
-			best = child
+			best = mi
 	_set_selected(best)
 
 
-func _set_selected(node: Node3D) -> void:
-	if _selected == node:
+## 命中的 MeshInstance3D → 向上找"装配体"（有 asmb_id/component_entry 的祖先）做文案载体。
+func _assembly_of(mesh_node: Node3D) -> Node3D:
+	var cur: Node = mesh_node
+	while cur != null:
+		if cur.has_meta("asmb_id") or cur.has_meta("component_entry"):
+			return cur as Node3D
+		cur = cur.get_parent()
+	return mesh_node
+
+
+func _set_selected(mesh_node: Node3D) -> void:
+	var owner: Node3D = _assembly_of(mesh_node) if mesh_node != null else null
+	if _selected == owner and _sel_mesh == mesh_node:
 		return
-	_clear_highlight(_selected)
-	_selected = node
-	if _selected != null:
-		var mi := _first_mesh(_selected)
+	_clear_highlight(_sel_mesh)
+	_selected = owner
+	_sel_mesh = mesh_node
+	if _sel_mesh != null:
+		var mi := _sel_mesh as MeshInstance3D
 		if mi != null:
 			var mat := mi.material_override as StandardMaterial3D
 			if mat == null:   # 白模无材质 → 现建 override，保证高亮可见
@@ -168,15 +196,16 @@ func _set_selected(node: Node3D) -> void:
 			mat.emission = Color(1.0, 0.6, 0.1)
 			mat.emission_energy_multiplier = 0.6
 		if _hud_label != null:
-			var role: String = device_loader_hint.get_node_role(_selected) if device_loader_hint != null else ""
-			_hud_label.text = "[选中] %s\n%s" % [_selected.name, role if role != "" else "（无 role 标注）"]
+			var disp: String = owner.name if owner != null else mesh_node.name
+			var role: String = device_loader_hint.get_node_role(owner) if device_loader_hint != null else ""
+			_hud_label.text = "[选中] %s\n%s" % [disp, role if role != "" else "（无 role 标注）"]
 	node_picked.emit(_selected)
 
 
-func _clear_highlight(node: Node3D) -> void:
-	if node == null:
+func _clear_highlight(mesh_node: Node3D) -> void:
+	if mesh_node == null:
 		return
-	var mi := _first_mesh(node)
+	var mi := mesh_node as MeshInstance3D
 	if mi != null and mi.material_override is StandardMaterial3D:
 		(mi.material_override as StandardMaterial3D).emission_enabled = false
 
@@ -261,6 +290,12 @@ func _ready() -> void:
 		_hud_label.position = Vector2(16, 40)
 		_hud_label.add_theme_font_size_override("font_size", 16)
 		hud.add_child(_hud_label)
+		# RUN-08 诊断行：实时显示 target/mesh 数/相机/选中，实机排障用
+		_diag_label = Label.new()
+		_diag_label.position = Vector2(16, 150)
+		_diag_label.add_theme_font_size_override("font_size", 13)
+		_diag_label.add_theme_color_override("font_color", Color(0.5, 1.0, 0.6))
+		hud.add_child(_diag_label)
 	# 拆解入口布尔开关与 ExplodeController 状态同步（TASK-106B）
 	var explode := _explode_ref()
 	if explode != null and explode.has_signal("state_changed"):
