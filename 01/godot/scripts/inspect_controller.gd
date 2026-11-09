@@ -115,7 +115,15 @@ func _unhandled_input(event: InputEvent) -> void:
 				_exit_explode_to_walk()
 
 
+var _frame_tick := 0
+
+
 func _process(_delta: float) -> void:
+	_frame_tick += 1
+	if _frame_tick % 60 == 1:
+		# RUN-08 探针：输出面板直接可见（HUD 可能被遮挡时用这个排查）
+		print("[inspect-proc] frame=%d target=%s label_ok=%s" % [
+			_frame_tick, str(target), str(_diag_label != null)])
 	if target == null:
 		return
 	_apply_view()
