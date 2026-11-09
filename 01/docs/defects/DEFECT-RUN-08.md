@@ -1,6 +1,6 @@
 # DEFECT-RUN-08 面板可点 / 方块点选失效
 
-- **状态**：closed（修复已落盘，待用户实机确认）
+- **状态**：open（2026-11-09 晚已移交 06 线 debug 专员接棒；现场见 `D:\work\06\RUN-08_现场交接.md`）
 - **日期**：2026-11-09
 - **报告来源**：用户实机报告——「看到的都是黑色或白色方块；按 F1 出计算机选项但不能选择；方块不能点击」
 - **影响范围**：F1 设备面板 / Tab 图鉴面板 / M 四厅导航面板不可点选；设备白模点选无反馈；背光面全黑
@@ -44,3 +44,15 @@
 - **加 HUD 实时诊断行**（绿色，y=150）：`[inspect] target=… meshes=N camera=x,y,z sel=…`
   —— 用户复测时把这一行内容报回即可定位。
 - `_selected` 语义保持"装配体"（role 文案载体），高亮作用于实际命中网格。
+
+## 第三轮（2026-11-09 晚，移交前现场）
+
+- 用户确认新代码已在跑：绿色诊断行显示 `[inspect] 初始: target=DeviceRoot:<Node3D#…>`，
+  但**始终停留在"初始"文本**，未被 `_process` 每帧刷新为 `meshes=…` 实时行（用户：`没有meshs`）。
+- Godot 4.3 headless 验证：脚本无 SCRIPT ERROR/Parse Error（exit=0）。
+- 已加探针：`_process` 每 60 帧 `print("[inspect-proc] frame=… target=… label_ok=…")`。
+- **未解之谜**：`_process` 是否在跑、为何不刷新诊断行（疑点：`_process` 未执行 / 异常退出 /
+  文本被覆盖 / 用户观察窗口与运行实例不一致）。
+- 下一步排查方向（供 debug 专员）：先让用户在输出面板确认 `[inspect-proc]` 是否出现——
+  无 → 查脚本生命周期（节点是否被移出场景树、pause 状态）；有且 label_ok=True →
+  查 Label 覆盖/绘制顺序（gateway_client 音频行位置）；有且 label_ok=False → 查 _ready 分支。
