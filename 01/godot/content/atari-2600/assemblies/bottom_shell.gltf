@@ -1,7 +1,7 @@
 {
   "asset": {
     "version": "2.0",
-    "generator": "TASK-25A placeholder box (real size)"
+    "generator": "TASK-190-A low-poly"
   },
   "scene": 0,
   "scenes": [
@@ -27,19 +27,56 @@
           },
           "indices": 1,
           "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 2
+          },
+          "indices": 3,
+          "material": 1
+        },
+        {
+          "attributes": {
+            "POSITION": 4
+          },
+          "indices": 5,
+          "material": 2
         }
       ]
     }
   ],
   "materials": [
     {
-      "name": "bottom_shell_mat",
+      "name": "beige",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.75,
-          0.7,
-          0.55,
-          1.0
+          0.82,
+          0.8,
+          0.62
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.85
+      }
+    },
+    {
+      "name": "black",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.05,
+          0.05,
+          0.06
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.85
+      }
+    },
+    {
+      "name": "silver",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.72,
+          0.74,
+          0.78
         ],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.85
@@ -54,19 +91,63 @@
       "type": "VEC3",
       "min": [
         -0.1725,
-        -0.1725,
-        -0.1725
+        -0.0235,
+        -0.116
       ],
       "max": [
         0.1725,
-        0.1725,
-        0.1725
+        0.0235,
+        0.116
       ]
     },
     {
       "bufferView": 1,
       "componentType": 5123,
       "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC3",
+      "min": [
+        -0.1725,
+        -0.0265,
+        -0.1
+      ],
+      "max": [
+        0.1275,
+        -0.017499999999999998,
+        0.10600000000000001
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 396,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 16,
+      "type": "VEC3",
+      "min": [
+        -0.13,
+        -0.0245,
+        -0.136
+      ],
+      "max": [
+        0.13,
+        -0.020499999999999997,
+        -0.096
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 72,
       "type": "SCALAR"
     }
   ],
@@ -79,15 +160,39 @@
     },
     {
       "buffer": 0,
-      "byteOffset": 96,
+      "byteOffset": 0,
       "byteLength": 72,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 96,
+      "byteLength": 1056,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 72,
+      "byteLength": 792,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1152,
+      "byteLength": 192,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 864,
+      "byteLength": 144,
       "target": 34963
     }
   ],
   "buffers": [
     {
-      "uri": "data:application/octet-stream;base64,16MwvhKDwLxoke2916MwPhKDwLxoke2916MwPhKDwDxoke2916MwvhKDwDxoke2916MwvhKDwLxoke0916MwPhKDwLxoke0916MwPhKDwDxoke0916MwvhKDwDxoke09AAABAAIAAAACAAMABAAGAAUABAAHAAYAAAADAAcAAAAHAAQAAQAFAAYAAQAGAAIAAAAEAAUAAAAFAAEAAwACAAYAAwAGAAcA",
-      "byteLength": 168
+      "uri": "data:application/octet-stream;base64,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KAArAC8AKAAvACwAKQAtAC4AKQAuACoAKAAsAC0AKAAtACkAKwAqAC4AKwAuAC8AMAAxADIAMAAyADMANAA2ADUANAA3ADYAMAAzADcAMAA3ADQAMQA1ADYAMQA2ADIAMAA0ADUAMAA1ADEAMwAyADYAMwA2ADcAOAA5ADoAOAA6ADsAPAA+AD0APAA/AD4AOAA7AD8AOAA/ADwAOQA9AD4AOQA+ADoAOAA8AD0AOAA9ADkAOwA6AD4AOwA+AD8AQABBAEIAQABCAEMARABGAEUARABHAEYAQABDAEcAQABHAEQAQQBFAEYAQQBGAEIAQABEAEUAQABFAEEAQwBCAEYAQwBGAEcASABJAEoASABKAEsATABOAE0ATABPAE4ASABLAE8ASABPAEwASQBNAE4ASQBOAEoASABMAE0ASABNAEkASwBKAE4ASwBOAE8AUABRAFIAUABSAFMAVABWAFUAVABXAFYAUABTAFcAUABXAFQAUQBVAFYAUQBWAFIAUABUAFUAUABVAFEAUwBSAFYAUwBWAFcAAAABAAIAAAACAAMABAAGAAUABAAHAAYAAAADAAcAAAAHAAQAAQAFAAYAAQAGAAIAAAAEAAUAAAAFAAEAAwACAAYAAwAGAAcACAAJAAoACAAKAAsADAAOAA0ADAAPAA4ACAALAA8ACAAPAAwACQANAA4ACQAOAAoACAAMAA0ACAANAAkACwAKAA4ACwAOAA8A",
+      "byteLength": 2352
     }
   ]
 }

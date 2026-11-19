@@ -1,0 +1,286 @@
+{
+  "annotations": [
+    {
+      "id": "sw_data_00_role",
+      "type": "role",
+      "target": "sw_data_00",
+      "text": "数据拨动开关第 0 位在整机中设定 16 位数据总线的第 0 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_01_role",
+      "type": "role",
+      "target": "sw_data_01",
+      "text": "数据拨动开关第 1 位在整机中设定 16 位数据总线的第 1 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_02_role",
+      "type": "role",
+      "target": "sw_data_02",
+      "text": "数据拨动开关第 2 位在整机中设定 16 位数据总线的第 2 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_03_role",
+      "type": "role",
+      "target": "sw_data_03",
+      "text": "数据拨动开关第 3 位在整机中设定 16 位数据总线的第 3 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_04_role",
+      "type": "role",
+      "target": "sw_data_04",
+      "text": "数据拨动开关第 4 位在整机中设定 16 位数据总线的第 4 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_05_role",
+      "type": "role",
+      "target": "sw_data_05",
+      "text": "数据拨动开关第 5 位在整机中设定 16 位数据总线的第 5 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_06_role",
+      "type": "role",
+      "target": "sw_data_06",
+      "text": "数据拨动开关第 6 位在整机中设定 16 位数据总线的第 6 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_07_role",
+      "type": "role",
+      "target": "sw_data_07",
+      "text": "数据拨动开关第 7 位在整机中设定 16 位数据总线的第 7 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_load_addr_role",
+      "type": "role",
+      "target": "sw_load_addr",
+      "text": "装载地址开关在整机中把拨键设定的地址送入地址总线，定位要检视或写入的内存单元。"
+    },
+    {
+      "id": "sw_exam_role",
+      "type": "role",
+      "target": "sw_exam",
+      "text": "检视开关在整机中把当前地址单元的内容读出并显示在数据指示灯上，供操作员查看。"
+    },
+    {
+      "id": "sw_dep_role",
+      "type": "role",
+      "target": "sw_dep",
+      "text": "写入开关在整机中把拨键设定的 16 位数据写入当前地址单元，完成一次手动存数。"
+    },
+    {
+      "id": "sw_start_role",
+      "type": "role",
+      "target": "sw_start",
+      "text": "运行开关在整机中使处理器从程序计数器当前地址开始连续执行程序。"
+    },
+    {
+      "id": "sw_continue_role",
+      "type": "role",
+      "target": "sw_continue",
+      "text": "单步开关在整机中使处理器每次只执行一条指令，便于逐条调试程序。"
+    },
+    {
+      "id": "sw_stop_role",
+      "type": "role",
+      "target": "sw_stop",
+      "text": "停机开关在整机中暂停处理器的执行，使机器回到手动控制状态。"
+    },
+    {
+      "id": "sw_clear_role",
+      "type": "role",
+      "target": "sw_clear",
+      "text": "复位开关在整机中复位处理器与各状态标志，使机器回到初始状态。"
+    },
+    {
+      "id": "lamp_data_00_role",
+      "type": "role",
+      "target": "lamp_data_00",
+      "text": "数据指示灯第 0 位在整机中点亮表示数据总线第 0 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_01_role",
+      "type": "role",
+      "target": "lamp_data_01",
+      "text": "数据指示灯第 1 位在整机中点亮表示数据总线第 1 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_02_role",
+      "type": "role",
+      "target": "lamp_data_02",
+      "text": "数据指示灯第 2 位在整机中点亮表示数据总线第 2 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_03_role",
+      "type": "role",
+      "target": "lamp_data_03",
+      "text": "数据指示灯第 3 位在整机中点亮表示数据总线第 3 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_04_role",
+      "type": "role",
+      "target": "lamp_data_04",
+      "text": "数据指示灯第 4 位在整机中点亮表示数据总线第 4 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_05_role",
+      "type": "role",
+      "target": "lamp_data_05",
+      "text": "数据指示灯第 5 位在整机中点亮表示数据总线第 5 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_06_role",
+      "type": "role",
+      "target": "lamp_data_06",
+      "text": "数据指示灯第 6 位在整机中点亮表示数据总线第 6 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_07_role",
+      "type": "role",
+      "target": "lamp_data_07",
+      "text": "数据指示灯第 7 位在整机中点亮表示数据总线第 7 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_run_role",
+      "type": "role",
+      "target": "lamp_run",
+      "text": "运行指示灯在整机中于处理器执行程序期间持续点亮，是判断机器是否在运行的状态指示。"
+    },
+    {
+      "id": "cpu_16bit_role",
+      "type": "role",
+      "target": "cpu_16bit",
+      "text": "16 位处理器在整机中作为中央处理器，执行取指、译码与运算，以 16 位字长处理数据，是机器的运算核心。"
+    },
+    {
+      "id": "core_memory_role",
+      "type": "role",
+      "target": "core_memory",
+      "text": "磁芯存储阵列在整机中作为主存，用磁环的磁化方向保存 16 位字，断电不丢失，是那个年代的内存基石。"
+    },
+    {
+      "id": "power_unit_role",
+      "type": "role",
+      "target": "power_unit",
+      "text": "电源单元在整机中提供多路直流电压，为各电路板供电。"
+    },
+    {
+      "id": "paper_tape_reader_role",
+      "type": "role",
+      "target": "paper_tape_reader",
+      "text": "纸带读入机在整机中读取穿孔纸带上的程序与数据，是程序进入内存的主要入口。"
+    },
+    {
+      "id": "terminal_role",
+      "type": "role",
+      "target": "terminal",
+      "text": "终端接口在整机中连接电传打字机或仪器设备，是人与机器、机器与仪器交互的通道。"
+    },
+    {
+      "id": "front_panel_boot",
+      "type": "flow",
+      "target": "whole",
+      "text": "前面板拨键 boot 流程：拨动数据开关设定地址或数据 → 按装载地址键定位内存 → 按写入键存入 → 按运行键从当前地址执行程序，这是没有键盘与显示器时代最原始的程序装载方式。"
+    },
+    {
+      "id": "instrument_origin",
+      "type": "flow",
+      "target": "whole",
+      "text": "仪器出身讲解：HP 以测试测量仪器起家，HP 2100 是它从「造仪器」到「造电脑」的关键一步，诠释了工程公司跨界做计算机的路径。"
+    },
+    {
+      "id": "bit16_realtime",
+      "type": "flow",
+      "target": "cpu_16bit",
+      "text": "16 位实时控制讲解：HP 2100 以 16 位字长与实时控制能力著称，广泛用于工业控制与仪器采集，是「小型机服务实业」的典型。"
+    },
+    {
+      "id": "hp2116a_lineage",
+      "type": "flow",
+      "target": "whole",
+      "text": "HP 2116A 谱系讲解：HP 2100 是 HP 2116A（1966 年，HP 首台计算机）开启的计算机谱系的一环，展现了惠普在小型机领域数十年的延续。"
+    },
+    {
+      "id": "timeshare_basic",
+      "type": "flow",
+      "target": "whole",
+      "text": "时间共享 BASIC 讲解：HP 2000 Timeshared BASIC 让多用户通过终端同时运行 BASIC 程序，是「计算机走进学校与工程现场」的早期推手。"
+    },
+    {
+      "id": "pdp_competition",
+      "type": "flow",
+      "target": "whole",
+      "text": "与 PDP 竞争讲解：HP 2100 与 DEC PDP-8 同属小型机竞争阵营，是小型机战国时代惠普的一支劲旅，竞争推动了小型机性能与价格的进步。"
+    },
+    {
+      "id": "core_memory",
+      "type": "flow",
+      "target": "core_memory",
+      "text": "磁芯内存讲解：HP 2100 采用磁芯存储器，靠磁环的磁化方向存位，断电不丢数据，是那个年代小型机的内存基石。"
+    },
+    {
+      "id": "paper_tape",
+      "type": "flow",
+      "target": "paper_tape_reader",
+      "text": "纸带装载讲解：程序常存于打孔纸带，经纸带读入机加载，读带声是早期小型机机房最具辨识度的声音。"
+    },
+    {
+      "id": "led_status",
+      "type": "flow",
+      "target": "front_panel",
+      "text": "指示灯状态讲解：前面板的一排指示灯逐位亮起，是早期程序员观察地址、数据与运行状态的唯一「显示器」，指示灯闪烁是那个时代的标志性画面。"
+    },
+    {
+      "id": "minicomputer_era",
+      "type": "flow",
+      "target": "whole",
+      "text": "小型机时代讲解：HP 2100 处在 1970 年代初的小型机繁荣期，多家厂商同台竞争，共同把「小型机」做成了一个服务实业的繁荣品类。"
+    },
+    {
+      "id": "industrial_control",
+      "type": "flow",
+      "target": "io_interface",
+      "text": "工业控制应用讲解：HP 2100 通过 I/O 接口连接仪器与产线设备，是早期计算机参与实时工业控制与实验室自动化的代表。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "HP 2100 整机，1971 年推出的 16 位小型计算机，仪器出身的惠普跨界之作，以前面板拨键与指示灯操作，广泛用于实时控制与工业采集。"
+    },
+    {
+      "id": "chassis_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "机箱在整机中作为金属箱体骨架，承载前面板、CPU 板、内存与电源，提供结构支撑与散热通道。"
+    },
+    {
+      "id": "front_panel_role",
+      "type": "role",
+      "target": "front_panel",
+      "text": "前面板在整机中提供拨键开关与指示灯，是操作员手动检视、写入与启动程序的直接接口。"
+    },
+    {
+      "id": "cpu_board_role",
+      "type": "role",
+      "target": "cpu_board",
+      "text": "CPU 板在整机中承载 16 位处理器及其微程序控制与总线驱动电路，是运算与控制的核心。"
+    },
+    {
+      "id": "memory_role",
+      "type": "role",
+      "target": "memory",
+      "text": "内存在整机中承载磁芯存储阵列及其读写电路，是 16 位主存的物理载体。"
+    },
+    {
+      "id": "power_supply_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源在整机中把交流电转换为多路直流电压，为各电路板供电，是整机的能量来源。"
+    },
+    {
+      "id": "io_interface_role",
+      "type": "role",
+      "target": "io_interface",
+      "text": "I/O 接口在整机中挂载纸带读入机与终端或仪器接口，负责程序、数据与实时控制信号的进出。"
+    }
+  ]
+}

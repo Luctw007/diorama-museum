@@ -1,0 +1,253 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "crt-tv",
+    "name": {
+      "zh": "CRT 彩色电视",
+      "en": "CRT Color Television"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "1970s–90s 家庭客厅中心的彩色电视，采用阴极射线管（CRT）显像，是家电影音厅站 2「客厅中心」的代表展品。",
+    "category": "appliance",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Cathode-ray tube",
+        "url": "https://en.wikipedia.org/wiki/Cathode-ray_tube",
+        "license": "cc",
+        "accessed_at": "2026-11-19"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Television",
+        "url": "https://en.wikipedia.org/wiki/Television",
+        "license": "cc",
+        "accessed_at": "2026-11-19"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-19"
+      }
+    ],
+    "intro": {
+      "zh": "CRT 彩色电视是 1970s–90s 家庭客厅的中心设备，用阴极射线管把广播信号还原为彩色画面，让客厅第一次有了共同的视听焦点。它贯穿从旋钮调台到遥控器、从无线广播到有线网络的影音时代变迁，是家电影音厅「客厅中心」叙事的第一站。",
+      "en": "The CRT color television was the centerpiece of the living room from the 1970s to the 1990s, using a cathode-ray tube to turn broadcast signals into color pictures and giving the living room its first shared audiovisual focal point."
+    },
+    "era": 1980,
+    "manufacturer": "通用（品类代表）"
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "CRT 彩色电视整机，由木壳机箱、显像管、主板、调谐器与控制面板组成，是家电影音厅站 2「客厅中心」的核心展品。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": null,
+      "children": ["cabinet", "crt_tube", "mainboard", "tuner_module", "control_panel"],
+      "components": [],
+      "annotations": ["whole_role", "living_room_flow", "crt_principle_flow"],
+      "mesh_ref": "assemblies/whole.gltf"
+    },
+    {
+      "id": "cabinet",
+      "name": "机箱（木壳）",
+      "role": {
+        "zh": "机箱在整机中作为立式木壳主体，包覆并固定显像管、主板与调谐器等内部部件，同时承载屏面前框、扬声器与拉杆天线。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": ["cabinet_role", "speaker_role", "antenna_role"],
+      "mesh_ref": "assemblies/cabinet.gltf"
+    },
+    {
+      "id": "crt_tube",
+      "name": "显像管",
+      "role": {
+        "zh": "显像管在整机中把视频信号还原为彩色画面，电子枪发射电子束逐行扫描屏面，撞击三色荧光粉发光成像。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": ["crt_tube_role", "crt_glass_role", "screen_role", "electron_gun_flow"],
+      "mesh_ref": "assemblies/crt_tube.gltf"
+    },
+    {
+      "id": "mainboard",
+      "name": "主板（机芯板）",
+      "role": {
+        "zh": "主板在整机中承载视频、扫描与伴音电路，把调谐器送来的信号处理为驱动显像管与扬声器的电信号。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": ["video_processor", "audio_ic", "deflection_ic"],
+      "annotations": ["mainboard_role", "signal_path_flow"],
+      "mesh_ref": "assemblies/mainboard.gltf"
+    },
+    {
+      "id": "tuner_module",
+      "name": "调谐器（高频头）",
+      "role": {
+        "zh": "调谐器在整机中接收并选择 VHF/UHF 广播频道，把射频信号变频为中频后送给主板解调。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": ["tuner_ic"],
+      "annotations": ["tuner_module_role", "tuner_flow", "vhf_uhf_flow"],
+      "mesh_ref": "assemblies/tuner_module.gltf"
+    },
+    {
+      "id": "control_panel",
+      "name": "控制面板",
+      "role": {
+        "zh": "控制面板在整机中提供调台、音量旋钮与电源开关，是用户与电视交互的前面板操作区。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": ["control_panel_role", "control_knob_role", "power_switch_role", "knob_tune_flow"],
+      "mesh_ref": "assemblies/control_panel.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "video_processor",
+      "name": "视频处理 IC",
+      "type": "ic",
+      "role": {
+        "zh": "视频处理 IC 在整机中解调亮度与色度信号，生成驱动显像管的 RGB 视频信号。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["video_processor_role"]
+    },
+    {
+      "id": "audio_ic",
+      "name": "伴音 IC",
+      "type": "ic",
+      "role": {
+        "zh": "伴音 IC 在整机中解调伴音信号并放大，驱动扬声器还原电视伴音。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["audio_ic_role"]
+    },
+    {
+      "id": "deflection_ic",
+      "name": "扫描/偏转 IC",
+      "type": "ic",
+      "role": {
+        "zh": "扫描/偏转 IC 在整机中产生行场扫描波形，控制电子束在屏面逐行偏转扫描。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["deflection_ic_role"]
+    },
+    {
+      "id": "tuner_ic",
+      "name": "调谐器 IC",
+      "type": "ic",
+      "role": {
+        "zh": "调谐器 IC 在整机中执行频道选择与变频，把选中的射频信号转换为中频信号。"
+      },
+      "assembly": "tuner_module",
+      "annotations": ["tuner_ic_role"]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "CRT 彩色电视（静态展示）",
+    "media_hint": "none",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "crt_display_0",
+        "surface": "crt_display",
+        "type": "video",
+        "format": "rgba8"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_P"
+      },
+      "channel_up": {
+        "map": "keyboard",
+        "key": "KEY_UP"
+      },
+      "channel_down": {
+        "map": "keyboard",
+        "key": "KEY_DOWN"
+      },
+      "volume_up": {
+        "map": "keyboard",
+        "key": "KEY_RIGHT"
+      },
+      "volume_down": {
+        "map": "keyboard",
+        "key": "KEY_LEFT"
+      },
+      "band_vhf": {
+        "map": "keyboard",
+        "key": "KEY_V"
+      },
+      "band_uhf": {
+        "map": "keyboard",
+        "key": "KEY_U"
+      },
+      "demo_next": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      }
+    }
+  }
+}

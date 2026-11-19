@@ -463,8 +463,8 @@
    "功能机"
   ],
   "influence": "弧形滑盖设计，黑客帝国电影出镜。",
-  "status": "researching",
-  "device_id": null,
+  "status": "done",
+  "device_id": "nokia-8110",
   "verify": false,
   "sources": [
    "S63B"

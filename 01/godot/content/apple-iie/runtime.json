@@ -1,0 +1,56 @@
+{
+  "emulator": "mame",
+  "version": "0.287",
+  "system": "apple2e",
+  "media_hint": "floppy",
+  "bios_required": true,
+  "bios_guide_url": "https://wiki.mamedev.org/index.php/Driver:Apple_II",
+  "output_sinks": [
+    {
+      "id": "crt_external",
+      "surface": "external_crt",
+      "type": "video",
+      "format": "rgba8"
+    },
+    {
+      "id": "speaker_0",
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16"
+    }
+  ],
+  "input_map": {
+    "key_left": {
+      "map": "keyboard",
+      "key": "KEY_LEFT"
+    },
+    "key_right": {
+      "map": "keyboard",
+      "key": "KEY_RIGHT"
+    },
+    "key_up": {
+      "map": "keyboard",
+      "key": "KEY_UP"
+    },
+    "key_down": {
+      "map": "keyboard",
+      "key": "KEY_DOWN"
+    },
+    "key_return": {
+      "map": "keyboard",
+      "key": "KEY_ENTER"
+    },
+    "key_escape": {
+      "map": "keyboard",
+      "key": "KEY_ESCAPE"
+    },
+    "key_space": {
+      "map": "keyboard",
+      "key": "KEY_SPACE"
+    },
+    "key_reset": {
+      "map": "keyboard",
+      "key": "KEY_RESET"
+    }
+  }
+}

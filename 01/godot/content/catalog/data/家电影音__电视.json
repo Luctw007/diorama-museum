@@ -74,8 +74,8 @@
    "CRT"
   ],
   "influence": "彩色电视，家庭视听进入彩色时代。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "crt-tv",
   "sources": [],
   "maker": "多家厂商",
   "year": 1954,

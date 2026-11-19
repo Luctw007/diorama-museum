@@ -2930,6 +2930,42 @@
   ]
  },
  {
+  "id": "C-PC-000208",
+  "name": "Apple IIe",
+  "aliases": [
+   "Apple //e"
+  ],
+  "manufacturer": "Apple",
+  "origin": "美国",
+  "era": 1983,
+  "taxonomy_path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "influence": "Apple II 系列增强型，长寿产品线中坚。",
+  "status": "done",
+  "device_id": "apple-iie",
+  "verify": false,
+  "sources": [
+   "S58A"
+  ],
+  "research_doc": "docs/research/hall-personal-batch2/11_AppleIIe.md",
+  "maker": "Apple",
+  "year": 1983,
+  "path": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ],
+  "reason": "Apple II 系列增强型，长寿产品线中坚。",
+  "_taxonomy": [
+   "计算机",
+   "个人机",
+   "8 位家用"
+  ]
+ },
+ {
   "id": "C-PC-000005",
   "name": "Apple III",
   "aliases": [
@@ -3222,13 +3258,13 @@
    "16 位"
   ],
   "influence": "Amiga 系列开端，协处理器多媒体架构。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "amiga-1000",
   "verify": false,
   "sources": [
    "S58A"
   ],
-  "research_doc": null,
+  "research_doc": "docs/research/hall-personal-batch2/10_Amiga1000.md",
   "maker": "Commodore",
   "year": 1985,
   "path": [

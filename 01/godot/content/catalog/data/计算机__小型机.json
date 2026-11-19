@@ -906,13 +906,13 @@
    "Data General"
   ],
   "influence": "低价小型机，与 PDP 系列激烈竞争。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "data-general-nova",
   "verify": false,
   "sources": [
    "S58A"
   ],
-  "research_doc": null,
+  "research_doc": "docs/research/hall-mainframe/09_DataGeneralNova.md",
   "maker": "Data General",
   "year": 1969,
   "path": [
@@ -1566,13 +1566,13 @@
    "HP"
   ],
   "influence": "HP 小型机主力，实时控制。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "hp-2100",
   "verify": false,
   "sources": [
    "S58A"
   ],
-  "research_doc": null,
+  "research_doc": "docs/research/hall-mainframe/10_HP2100.md",
   "maker": "Hewlett-Packard",
   "year": 1971,
   "path": [

@@ -1,0 +1,214 @@
+{
+  "annotations": [
+    {
+      "id": "apple_iie_role",
+      "type": "role",
+      "target": "whole",
+      "text": "Apple IIe 整机，一台 1983 年发布的 8 位个人计算机，由机箱、键盘、外接显示器、Disk II 软驱与电源组成，是博物馆垂直切片展示的核心设备。",
+      "sources": []
+    },
+    {
+      "id": "case_role",
+      "type": "role",
+      "target": "case",
+      "text": "机箱在整机中负责包覆并保护主板、电源与扩展槽等内部部件，同时承载内置键盘，构成整机的外观壳体。",
+      "sources": []
+    },
+    {
+      "id": "keyboard_role",
+      "type": "role",
+      "target": "keyboard",
+      "text": "键盘组件在整机中负责把用户的按键动作编码为数据，经主板送入处理器，是整机的主要输入设备。",
+      "sources": []
+    },
+    {
+      "id": "monitor_role",
+      "type": "role",
+      "target": "monitor",
+      "text": "外接显示器在整机中负责显示 80 列文本与彩色图形，是整机的图像输出设备。",
+      "sources": []
+    },
+    {
+      "id": "floppy_role",
+      "type": "role",
+      "target": "floppy",
+      "text": "Disk II 软驱在整机中负责读写 5.25 英寸软盘，为整机提供磁介质存储能力。",
+      "sources": []
+    },
+    {
+      "id": "power_supply_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源模块在整机中负责把市电转换为多路直流电，为整机各部件稳定供电。",
+      "sources": []
+    },
+    {
+      "id": "cpu_role",
+      "type": "role",
+      "target": "cpu",
+      "text": "6502 中央处理器在整机中负责取指、译码与执行指令，是整机的运算与控制核心。",
+      "sources": []
+    },
+    {
+      "id": "rom_monitor_role",
+      "type": "role",
+      "target": "rom_monitor",
+      "text": "Monitor ROM 在整机中提供系统监控程序，负责开机复位后的自检与命令行交互。",
+      "sources": []
+    },
+    {
+      "id": "rom_basic_role",
+      "type": "role",
+      "target": "rom_basic",
+      "text": "Applesoft BASIC ROM 在整机中存放 BASIC 解释器，是开机即可编程的语言环境。",
+      "sources": []
+    },
+    {
+      "id": "ram_chip_role",
+      "type": "role",
+      "target": "ram_chip",
+      "text": "动态内存芯片在整机中提供工作内存，暂存运行时的程序与数据，可扩展至 128 KB。",
+      "sources": []
+    },
+    {
+      "id": "expansion_slot_role",
+      "type": "role",
+      "target": "case",
+      "text": "扩展槽阵列在整机中提供七个 50 针开放式外设插槽，是整机可扩展性的根基。",
+      "sources": []
+    },
+    {
+      "id": "keycap_role",
+      "type": "role",
+      "target": "keyboard",
+      "text": "键帽矩阵在整机中覆盖在键开关之上，标注字符并供用户按压，是键盘的触按表面。",
+      "sources": []
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源开关在整机中控制整机的通断电，位于电源后板，由用户拨动操作。",
+      "sources": []
+    },
+    {
+      "id": "video_connector_role",
+      "type": "role",
+      "target": "monitor",
+      "text": "视频接口在整机中把复合视频信号送往外接显示设备，是整机的图像输出通道。",
+      "sources": []
+    },
+    {
+      "id": "floppy_door_role",
+      "type": "role",
+      "target": "floppy",
+      "text": "软驱门在整机中检测磁盘是否插入到位，并把状态告知磁盘控制器。",
+      "sources": []
+    },
+    {
+      "id": "monitor_crt_role",
+      "type": "role",
+      "target": "monitor",
+      "text": "CRT 显像管在整机中把视频信号转换为可见图像，是显示器的核心显示器件。",
+      "sources": []
+    },
+    {
+      "id": "boot_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "开机自检流程：按下电源开关，电源输出多路直流；6502 从复位向量读取 Monitor ROM 入口，执行自检并进入 BASIC 提示符；若检测到引导卡则经扩展槽启动磁盘系统。",
+      "sources": []
+    },
+    {
+      "id": "product_line_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "长寿产品线的中坚：Apple IIe 是 Apple II 系列从 1977 年到 1993 年超长生命周期的中坚机型，是「一条成功产品线如何通过迭代延续生命」的典范。",
+      "sources": []
+    },
+    {
+      "id": "education_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "教育市场的主力：Apple IIe 广泛进入学校计算机教室，是无数学生人生中第一台电脑，串起「计算机普及教育」的线索。",
+      "sources": []
+    },
+    {
+      "id": "open_arch_flow",
+      "type": "flow",
+      "target": "case",
+      "text": "开放架构的延续：Apple IIe 延续 Apple II 的开放扩展槽设计，七个 50 针插槽催生了庞大的第三方生态。",
+      "sources": []
+    },
+    {
+      "id": "monitor_rom_flow",
+      "type": "flow",
+      "target": "case",
+      "text": "Monitor ROM 固件机制：开机即用的固件程序存放系统监控、BASIC 解释器与字符字形，是 Apple IIe 无需外部系统即可工作的关键。",
+      "sources": []
+    },
+    {
+      "id": "ibm_pc_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "与 IBM PC 竞争：Apple IIe 与 IBM PC 形成开放架构之争，前者靠教育与生态延续生命，后者靠兼容机标准崛起，共同定义 1980 年代个人电脑格局。",
+      "sources": []
+    },
+    {
+      "id": "third_party_flow",
+      "type": "flow",
+      "target": "case",
+      "text": "第三方扩展卡生态：七个扩展槽让磁盘控制器、语言卡、打印机接口等第三方卡大量涌现，是「开放架构如何催生生态」的生动注脚。",
+      "sources": []
+    },
+    {
+      "id": "display_flow",
+      "type": "flow",
+      "target": "monitor",
+      "text": "80 列文本显示：Apple IIe 内置 80 列文本与彩色图形显示，支持小写字母，把文本处理能力提升到办公可用水平。",
+      "sources": []
+    },
+    {
+      "id": "keyboard_flow",
+      "type": "flow",
+      "target": "keyboard",
+      "text": "键盘输入流程：按键动作经键开关矩阵扫描、编码为数据后送入 6502 处理器，是整机的主要交互入口。",
+      "sources": []
+    },
+    {
+      "id": "floppy_flow",
+      "type": "flow",
+      "target": "floppy",
+      "text": "Disk II 软驱读写流程：软盘插入后驱动电机带动盘片旋转，磁头沿径向寻道读写 140 KB 数据，是整机的主要存储入口。",
+      "sources": []
+    },
+    {
+      "id": "basic_flow",
+      "type": "flow",
+      "target": "rom_basic",
+      "text": "Applesoft BASIC 编程：开机即进入 BASIC 提示符，用户可直接输入程序，是无数学生编程启蒙的第一门语言。",
+      "sources": []
+    },
+    {
+      "id": "memory_flow",
+      "type": "flow",
+      "target": "ram_chip",
+      "text": "内存扩展：Apple IIe 基础 64 KB RAM，可经扩展卡扩展至 128 KB，为大型程序与 80 列文本提供空间。",
+      "sources": []
+    },
+    {
+      "id": "disk_read_anim",
+      "type": "anim",
+      "target": "floppy",
+      "text": "磁盘读写动画：收到读写命令后触发；驱动电机带动盘片匀速旋转，磁头组件沿径向寻道至目标磁道，完成读写；单次全程约 2 秒。",
+      "sources": []
+    },
+    {
+      "id": "boot_anim",
+      "type": "anim",
+      "target": "whole",
+      "text": "开机动画：电源灯点亮，显示器由暗转亮并浮现自检画面，随后进入 BASIC 提示符；全程约 3 秒。",
+      "sources": []
+    }
+  ]
+}

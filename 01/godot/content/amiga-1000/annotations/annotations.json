@@ -1,0 +1,190 @@
+{
+  "annotations": [
+    {
+      "id": "cpu_68000_role",
+      "type": "role",
+      "target": "cpu_68000",
+      "text": "68000 处理器在整机中作为 16/32 位中央处理器，执行取指、译码与运算，是机器的运算核心。"
+    },
+    {
+      "id": "agnus_role",
+      "type": "role",
+      "target": "agnus",
+      "text": "Agnus 芯片在整机中负责内存与总线控制，协调各芯片对内存的访问，是三芯片组的中枢。"
+    },
+    {
+      "id": "denise_role",
+      "type": "role",
+      "target": "denise",
+      "text": "Denise 芯片在整机中负责图形输出，生成彩色画面与硬件精灵动画，是多媒体显示的核心。"
+    },
+    {
+      "id": "paula_role",
+      "type": "role",
+      "target": "paula",
+      "text": "Paula 芯片在整机中负责四声道音频与软驱控制，生成立体声音效，是多媒体声音的核心。"
+    },
+    {
+      "id": "multimedia_pc",
+      "type": "flow",
+      "target": "whole",
+      "text": "多媒体电脑讲解：Amiga 1000 用三芯片组提前把「多媒体」做进了个人电脑，是「多媒体电脑」概念最早也最惊艳的实践。"
+    },
+    {
+      "id": "multitask_1985",
+      "type": "flow",
+      "target": "whole",
+      "text": "预占多任务讲解：Amiga 1000 于 1985 年发布即支持抢占式多任务，可同时运行多个程序，远超同期的单任务个人电脑。"
+    },
+    {
+      "id": "warhol_painting",
+      "type": "flow",
+      "target": "whole",
+      "text": "沃霍尔现场作画讲解：1985 年发布会上，安迪·沃霍尔现场用 Amiga 1000 作画，是计算机与艺术跨界的历史性瞬间。"
+    },
+    {
+      "id": "commodore_amiga",
+      "type": "flow",
+      "target": "whole",
+      "text": "Commodore 与 Amiga 渊源讲解：Commodore 收购了 Amiga 团队，把这家由 Jay Miner 带领的芯片设计团队纳入麾下，才有了 Amiga 1000 的诞生。"
+    },
+    {
+      "id": "chip_division",
+      "type": "flow",
+      "target": "motherboard",
+      "text": "图形音频芯片分工讲解：Agnus 管总线、Denise 管图形、Paula 管音频，三颗芯片各司其职，把图形与音频从 CPU 上解放出来。"
+    },
+    {
+      "id": "kickstart",
+      "type": "flow",
+      "target": "whole",
+      "text": "Kickstart 固件机制讲解：Amiga 1000 的系统固件 Kickstart 从软盘加载，这种设计让系统可升级，也成了 Amiga 系列的一个标志。"
+    },
+    {
+      "id": "mac_competition",
+      "type": "flow",
+      "target": "whole",
+      "text": "与 Macintosh 竞争讲解：Amiga 1000 与同年发布的 Macintosh 正面竞争，以更强的多媒体能力争夺图形界面的定义权。"
+    },
+    {
+      "id": "amiga_family",
+      "type": "flow",
+      "target": "whole",
+      "text": "Amiga 家族开端讲解：Amiga 1000 为 Amiga 500、Amiga 2000 等后续机型奠基，开启了一代传奇家族。"
+    },
+    {
+      "id": "three_chipset",
+      "type": "flow",
+      "target": "motherboard",
+      "text": "三芯片组讲解：Agnus、Denise、Paula 组成的三芯片组，是 Amiga 系列多媒体能力的硬件基石，也是硬件加速的早期范本。"
+    },
+    {
+      "id": "desktop_animation",
+      "type": "flow",
+      "target": "denise",
+      "text": "桌面动画讲解：Denise 芯片支持硬件精灵与动画，让 Amiga 1000 的界面与游戏拥有同代机器难以企及的流畅画面。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "Commodore Amiga 1000 整机，1985 年推出的 Amiga 系列首作，以三芯片组提前带来多媒体能力，是「多媒体电脑」概念最早也最惊艳的实践。"
+    },
+    {
+      "id": "case_role",
+      "type": "role",
+      "target": "case",
+      "text": "机身在整机中作为一体式机箱骨架，键盘可收纳于机身下方，承载主板、软驱与电源。"
+    },
+    {
+      "id": "keyboard_role",
+      "type": "role",
+      "target": "keyboard",
+      "text": "键盘在整机中提供文字输入，可翻转收纳于机身下方，是主要的输入设备。"
+    },
+    {
+      "id": "motherboard_role",
+      "type": "role",
+      "target": "motherboard",
+      "text": "主板在整机中承载 68000 处理器与 Agnus、Denise、Paula 三颗芯片，是运算与多媒体的核心。"
+    },
+    {
+      "id": "floppy_role",
+      "type": "role",
+      "target": "floppy",
+      "text": "软驱在整机中读写 3.5 英寸软盘，是程序与数据的存储与加载设备。"
+    },
+    {
+      "id": "mouse_role",
+      "type": "role",
+      "target": "mouse",
+      "text": "鼠标在整机中提供指针定位与点击输入，是图形界面操作的主要设备。"
+    },
+    {
+      "id": "monitor_role",
+      "type": "role",
+      "target": "monitor",
+      "text": "显示器在整机中呈现彩色图形界面与动画，是多媒体输出的主要窗口。"
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "power_switch",
+      "text": "电源开关在整机中控制整机供电的通断，是机器的启停入口。"
+    },
+    {
+      "id": "power_led_role",
+      "type": "role",
+      "target": "power_led",
+      "text": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的状态指示。"
+    },
+    {
+      "id": "keyboard_keys_role",
+      "type": "role",
+      "target": "keyboard_keys",
+      "text": "键盘按键在整机中接收字符输入，把按键转换为电信号送入主板，是文字输入的核心部件。"
+    },
+    {
+      "id": "ram_chips_role",
+      "type": "role",
+      "target": "ram_chips",
+      "text": "内存芯片在整机中提供运行时的数据暂存空间，为程序与图形提供内存。"
+    },
+    {
+      "id": "eject_button_role",
+      "type": "role",
+      "target": "eject_button",
+      "text": "弹出按钮在整机中推出软盘，采用机械式操作，完成退盘动作。"
+    },
+    {
+      "id": "mouse_button_role",
+      "type": "role",
+      "target": "mouse_button",
+      "text": "鼠标按键在整机中产生点击信号，配合指针完成选择与确认操作。"
+    },
+    {
+      "id": "crt_tube_role",
+      "type": "role",
+      "target": "crt_tube",
+      "text": "显像管在整机中把电信号转换为彩色画面，是图形界面的显示核心。"
+    },
+    {
+      "id": "serial_port_role",
+      "type": "role",
+      "target": "serial_port",
+      "text": "串行接口在整机中连接外部设备，是机器与外设通信的通道之一。"
+    },
+    {
+      "id": "rgb_port_role",
+      "type": "role",
+      "target": "rgb_port",
+      "text": "视频接口在整机中输出视频信号给显示器，是图形输出的通道。"
+    },
+    {
+      "id": "expansion_port_role",
+      "type": "role",
+      "target": "expansion_port",
+      "text": "扩展接口在整机中连接扩展设备，为机器扩展功能提供通道。"
+    }
+  ]
+}

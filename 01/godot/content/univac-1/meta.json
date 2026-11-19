@@ -1,0 +1,665 @@
+{
+  "meta": {
+    "id": "univac-1",
+    "name": {
+      "zh": "UNIVAC I（通用自动计算机）",
+      "en": "UNIVAC I (Universal Automatic Computer)"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1951,
+    "manufacturer": "Eckert-Mauchly / Remington Rand",
+    "category": "mainframe",
+    "description": "1951 年交付的首台量产商用电子计算机，由 ENIAC 设计者 Eckert 与 Mauchly 打造，以真空管逻辑、水银延迟线内存与磁带存储运行，因准确预测 1952 年美国大选而闻名。",
+    "authors": [
+      {
+        "name": "TASK-193-A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — UNIVAC I（索引）",
+        "url": "https://en.wikipedia.org/wiki/UNIVAC_I",
+        "license": "cc",
+        "accessed_at": "2026-11-13"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum — UNIVAC",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-13"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "UNIVAC I 整机，1951 年交付的首台量产商用电子计算机，以真空管逻辑与磁带存储运行，因准确预测 1952 年美国大选而闻名。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "central_processor",
+        "memory",
+        "tape_drive",
+        "console",
+        "printer"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role"
+      ]
+    },
+    {
+      "id": "central_processor",
+      "name": "中央处理机柜",
+      "role": {
+        "zh": "中央处理机柜在整机中承载真空管逻辑电路，执行十进制串行运算，是运算与控制的核心。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "vacuum_tube"
+      ],
+      "annotations": [
+        "central_processor_role"
+      ],
+      "mesh_ref": "assemblies/central_processor.gltf"
+    },
+    {
+      "id": "memory",
+      "name": "内存",
+      "role": {
+        "zh": "内存在整机中承载水银延迟线存储器，用声波在水银中的传播延迟暂存数据，是主存的物理载体。"
+      },
+      "transform": {
+        "translation": [
+          0.4,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "delay_line"
+      ],
+      "annotations": [
+        "memory_role"
+      ],
+      "mesh_ref": "assemblies/memory.gltf"
+    },
+    {
+      "id": "tape_drive",
+      "name": "磁带机",
+      "role": {
+        "zh": "磁带机在整机中读写金属磁带，是程序与数据的大容量存储与进出通道。"
+      },
+      "transform": {
+        "translation": [
+          0.8,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "tape_unit"
+      ],
+      "annotations": [
+        "tape_drive_role"
+      ],
+      "mesh_ref": "assemblies/tape_drive.gltf"
+    },
+    {
+      "id": "console",
+      "name": "控制台",
+      "role": {
+        "zh": "控制台在整机中提供拨键开关与指示灯，是操作员检视、写入与启动程序的直接接口。"
+      },
+      "transform": {
+        "translation": [
+          1.2,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "sw_data_00",
+        "sw_data_01",
+        "sw_data_02",
+        "sw_data_03",
+        "sw_data_04",
+        "sw_data_05",
+        "sw_data_06",
+        "sw_data_07",
+        "sw_load_addr",
+        "sw_exam",
+        "sw_dep",
+        "sw_start",
+        "sw_continue",
+        "sw_stop",
+        "sw_clear",
+        "lamp_data_00",
+        "lamp_data_01",
+        "lamp_data_02",
+        "lamp_data_03",
+        "lamp_data_04",
+        "lamp_data_05",
+        "lamp_data_06",
+        "lamp_data_07",
+        "lamp_run"
+      ],
+      "annotations": [
+        "console_role"
+      ],
+      "mesh_ref": "assemblies/console.gltf"
+    },
+    {
+      "id": "printer",
+      "name": "打印机",
+      "role": {
+        "zh": "打印机在整机中输出计算结果与报表，是机器向外界呈现结果的主要输出设备。"
+      },
+      "transform": {
+        "translation": [
+          1.6,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "print_unit"
+      ],
+      "annotations": [
+        "printer_role"
+      ],
+      "mesh_ref": "assemblies/printer.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "sw_data_00",
+      "name": "数据拨动开关 0",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 0 位在整机中设定数据的第 0 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_data_00_role"
+      ]
+    },
+    {
+      "id": "sw_data_01",
+      "name": "数据拨动开关 1",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 1 位在整机中设定数据的第 1 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_data_01_role"
+      ]
+    },
+    {
+      "id": "sw_data_02",
+      "name": "数据拨动开关 2",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 2 位在整机中设定数据的第 2 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_data_02_role"
+      ]
+    },
+    {
+      "id": "sw_data_03",
+      "name": "数据拨动开关 3",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 3 位在整机中设定数据的第 3 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_data_03_role"
+      ]
+    },
+    {
+      "id": "sw_data_04",
+      "name": "数据拨动开关 4",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 4 位在整机中设定数据的第 4 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_data_04_role"
+      ]
+    },
+    {
+      "id": "sw_data_05",
+      "name": "数据拨动开关 5",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 5 位在整机中设定数据的第 5 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_data_05_role"
+      ]
+    },
+    {
+      "id": "sw_data_06",
+      "name": "数据拨动开关 6",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 6 位在整机中设定数据的第 6 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_data_06_role"
+      ]
+    },
+    {
+      "id": "sw_data_07",
+      "name": "数据拨动开关 7",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 7 位在整机中设定数据的第 7 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_data_07_role"
+      ]
+    },
+    {
+      "id": "sw_load_addr",
+      "name": "装载地址开关",
+      "type": "switch",
+      "role": {
+        "zh": "装载地址开关在整机中把拨键设定的地址送入地址寄存器，定位要检视或写入的内存单元。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_load_addr_role"
+      ]
+    },
+    {
+      "id": "sw_exam",
+      "name": "检视开关",
+      "type": "switch",
+      "role": {
+        "zh": "检视开关在整机中把当前地址单元的内容读出并显示在数据指示灯上，供操作员查看。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_exam_role"
+      ]
+    },
+    {
+      "id": "sw_dep",
+      "name": "写入开关",
+      "type": "switch",
+      "role": {
+        "zh": "写入开关在整机中把拨键设定的数据写入当前地址单元，完成一次手动存数。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_dep_role"
+      ]
+    },
+    {
+      "id": "sw_start",
+      "name": "运行开关",
+      "type": "switch",
+      "role": {
+        "zh": "运行开关在整机中使处理器从当前地址开始连续执行程序。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_start_role"
+      ]
+    },
+    {
+      "id": "sw_continue",
+      "name": "单步开关",
+      "type": "switch",
+      "role": {
+        "zh": "单步开关在整机中使处理器每次只执行一步运算，便于逐步调试程序。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_continue_role"
+      ]
+    },
+    {
+      "id": "sw_stop",
+      "name": "停机开关",
+      "type": "switch",
+      "role": {
+        "zh": "停机开关在整机中暂停处理器的执行，使机器回到手动控制状态。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_stop_role"
+      ]
+    },
+    {
+      "id": "sw_clear",
+      "name": "复位开关",
+      "type": "switch",
+      "role": {
+        "zh": "复位开关在整机中复位处理器与各状态标志，使机器回到初始状态。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_clear_role"
+      ]
+    },
+    {
+      "id": "lamp_data_00",
+      "name": "数据指示灯 0",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 0 位在整机中点亮表示数据第 0 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_00_role"
+      ]
+    },
+    {
+      "id": "lamp_data_01",
+      "name": "数据指示灯 1",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 1 位在整机中点亮表示数据第 1 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_01_role"
+      ]
+    },
+    {
+      "id": "lamp_data_02",
+      "name": "数据指示灯 2",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 2 位在整机中点亮表示数据第 2 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_02_role"
+      ]
+    },
+    {
+      "id": "lamp_data_03",
+      "name": "数据指示灯 3",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 3 位在整机中点亮表示数据第 3 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_03_role"
+      ]
+    },
+    {
+      "id": "lamp_data_04",
+      "name": "数据指示灯 4",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 4 位在整机中点亮表示数据第 4 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_04_role"
+      ]
+    },
+    {
+      "id": "lamp_data_05",
+      "name": "数据指示灯 5",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 5 位在整机中点亮表示数据第 5 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_05_role"
+      ]
+    },
+    {
+      "id": "lamp_data_06",
+      "name": "数据指示灯 6",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 6 位在整机中点亮表示数据第 6 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_06_role"
+      ]
+    },
+    {
+      "id": "lamp_data_07",
+      "name": "数据指示灯 7",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 7 位在整机中点亮表示数据第 7 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_07_role"
+      ]
+    },
+    {
+      "id": "lamp_run",
+      "name": "运行指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "运行指示灯在整机中于处理器执行程序期间持续点亮，是判断机器是否在运行的状态指示。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_run_role"
+      ]
+    },
+    {
+      "id": "vacuum_tube",
+      "name": "真空管逻辑单元",
+      "type": "tube",
+      "role": {
+        "zh": "真空管逻辑单元在整机中由数千根真空管组成，通过电子管的导通与截止实现十进制串行运算。"
+      },
+      "assembly": "central_processor",
+      "annotations": [
+        "vacuum_tube_role"
+      ]
+    },
+    {
+      "id": "delay_line",
+      "name": "水银延迟线存储器",
+      "type": "delay_line",
+      "role": {
+        "zh": "水银延迟线存储器在整机中用声波在水银中的传播延迟暂存数据，是早期主存的物理载体。"
+      },
+      "assembly": "memory",
+      "annotations": [
+        "delay_line_role"
+      ]
+    },
+    {
+      "id": "tape_unit",
+      "name": "磁带驱动器",
+      "type": "tape_drive",
+      "role": {
+        "zh": "磁带驱动器在整机中读写金属磁带，为程序与数据提供大容量存储。"
+      },
+      "assembly": "tape_drive",
+      "annotations": [
+        "tape_unit_role"
+      ]
+    },
+    {
+      "id": "print_unit",
+      "name": "打印单元",
+      "type": "printer",
+      "role": {
+        "zh": "打印单元在整机中把计算结果打印成报表，是机器向外界输出结果的主要设备。"
+      },
+      "assembly": "printer",
+      "annotations": [
+        "print_unit_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "0.0.0",
+    "system": "UNIVAC I (Mainframe)",
+    "media_hint": "tape",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "indicator_lamps_0",
+        "surface": "indicator_lamps",
+        "type": "video",
+        "format": "mono1"
+      },
+      {
+        "id": "terminal_0",
+        "surface": "terminal",
+        "type": "video",
+        "format": "text"
+      }
+    ],
+    "input_map": {
+      "load_addr": {
+        "map": "keyboard",
+        "key": "KEY_L"
+      },
+      "exam": {
+        "map": "keyboard",
+        "key": "KEY_E"
+      },
+      "dep": {
+        "map": "keyboard",
+        "key": "KEY_D"
+      },
+      "start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "continue": {
+        "map": "keyboard",
+        "key": "KEY_C"
+      },
+      "stop": {
+        "map": "keyboard",
+        "key": "KEY_STOP"
+      },
+      "clear": {
+        "map": "keyboard",
+        "key": "KEY_CLEAR"
+      },
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      }
+    }
+  }
+}

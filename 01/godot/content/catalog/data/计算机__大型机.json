@@ -1481,13 +1481,13 @@
    "CDC 系"
   ],
   "influence": "公认世界首台超级计算机，RISC 思想先驱。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "cdc-6600",
   "verify": false,
   "sources": [
    "S58A"
   ],
-  "research_doc": null,
+  "research_doc": "docs/research/hall-mainframe/12_CDC6600.md",
   "maker": "Control Data Corporation",
   "year": 1964,
   "path": [
@@ -1721,13 +1721,13 @@
    "Univac 系"
   ],
   "influence": "美国首台量产商用计算机，因预测大选闻名。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "univac-1",
   "verify": false,
   "sources": [
    "S58A"
   ],
-  "research_doc": null,
+  "research_doc": "docs/research/hall-mainframe/11_UNIVAC1.md",
   "maker": "Eckert-Mauchly / Remington Rand",
   "year": 1951,
   "path": [

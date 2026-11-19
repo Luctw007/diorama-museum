@@ -1,20 +1,49 @@
-# MESHES.md — 占位网格说明（game-boy）
+# MESHES.md — 网格清单与制作口径（低模样板）
 
-本目录（`assemblies/`）下 6 个 glTF 均为 TASK-70B 自产**占位盒**（8 顶点 / 12 三角面，**真实尺寸**、居中于原点），用于让 `mesh_ref` 通过 R-016/R-041/R-090 校验并占住装配层级中的网格引用位。未来替换为真实网格时的目标外观与尺寸依据如下。
+> TASK-195-A：6 个占位盒（各 8 顶点 / 12 三角面）已重制为**低模样板**（多材质分色、程序化几何）。
+> 节点名 = node_id（R-090 契约），mesh_ref 不变；meta.json / annotations **未改动**。
 
-| 文件 | node 名 | 占位盒尺寸（米，1:1） | 未来目标外观 | 尺寸依据 |
-|---|---|---|---|---|
-| front_shell.gltf | front_shell | 0.09 × 0.01 × 0.15 | 前壳：灰白，屏窗 + AB 键位 | GB DMG-01 约 148×90×32 mm |
-| back_shell.gltf | back_shell | 0.09 × 0.01 × 0.15 | 后壳：电池仓（4 节 AA）+ 卡带仓 | 同上 |
-| mainboard.gltf | mainboard | 0.08 × 0.008 × 0.13 | 主板：LR35902 + LCD 控制器位 | 主机内部主板 |
-| screen_module.gltf | screen_module | 0.06 × 0.005 × 0.07 | 屏模组：绿点阵屏（160×144 点阵 4 级灰度） | GB 屏约 2.6 英寸 |
-| dpad_module.gltf | dpad_module | 0.03 × 0.005 × 0.03 | 十字键模组：十字键 + AB 键 | GB 按键区 |
-| cartridge.gltf | cartridge | 0.06 × 0.008 × 0.06 | 卡带：剖面展示 32 针接口 + PCB + ROM | GB 卡带约 60×8×60 mm |
+## 网格清单（低模）
 
-> **点阵屏像素注记说明**：GB 屏幕为 **160×144 点阵、4 级灰度**（任务书"91x78 像素"为笔误，以权威规格 160×144 为准）。屏模组的建模要点（点阵像素级网格 vs 纹理模拟的两级方案）见 `console-batch2/07_GB_建模任务卡.md` 卡片 4 的"屏幕模块专项"。
+| 文件 | 节点名 | 顶点数 | 三角面数 | 材质数 | 内容 |
+|---|---|---|---|---|---|
+| front_shell.gltf | front_shell | 112 | 168 | 4 | 灰白前壳 + 屏窗 + 按键区面板 + 十字键/AB/START/SELECT 键位 + 卡带槽口 + 顶部格栅 |
+| back_shell.gltf | back_shell | 104 | 156 | 5 | 灰白后壳 + 电池仓×2 + 卡带仓 + 铭牌 + 机脚×4 + 联机口触点 + 通风孔 |
+| mainboard.gltf | mainboard | 176 | 264 | 3 | 绿基板 + LR35902 CPU + 其它 IC + 屏接口/卡带槽触点 |
+| screen_module.gltf | screen_module | 112 | 168 | 5 | 黄绿点阵屏 + 屏框 + 屏背板 + 排线触点 + 保护玻璃 + 排线接头 |
+| dpad_module.gltf | dpad_module | 112 | 168 | 3 | 十字键（四臂+中心）+ A/B + START/SELECT + 按键底座 + 导电胶触点 |
+| cartridge.gltf | cartridge | 120 | 180 | 4 | 深灰卡带壳 + 绿 PCB + 底部金手指（双面）+ ROM |
 
-## 替换注意
+> 面数 = 顶点数 × 1.5（每盒 8 顶点 / 12 三角面）。均 >100 顶点、<4000 顶点，保持低模口径。
 
-- 真实网格须遵守规范 §1.3（米、Y-up、右手系）与 §1.4（glTF 2.0，节点名 = node_id）。
-- 绿点阵屏（无背光反射式、4 级灰度）是 GB 的标志，正式建模须还原黄绿色反射式液晶的质感。
-- 尺寸依据为 GB DMG-01 公开近似值，正式建模前建议以实机复核（记入 70-B 完成报告开放问题）。
+## 材质清单（baseColorFactor，无贴图、无外部文件）
+
+| 材质 | baseColorFactor | 用途 |
+|---|---|---|
+| gray 灰白 | (0.78, 0.78, 0.76) | 前/后壳机身 |
+| darkgray 深灰 | (0.35, 0.35, 0.38) | 按键区面板 / 屏框 |
+| green 绿 PCB | (0.08, 0.25, 0.12) | 主板基板 / 卡带 PCB |
+| lcd 黄绿 LCD | (0.55, 0.65, 0.30) | 点阵屏 |
+| black 芯片黑 | (0.05, 0.05, 0.05) | 芯片 / ROM / 触点 |
+| key 深灰按键 | (0.30, 0.30, 0.32) | 十字键 / AB / START/SELECT / 卡带壳 |
+| gold 金手指金 | (0.85, 0.70, 0.20) | 卡带金手指 / 接口触点 |
+
+## 与 node_id 对应表
+
+| mesh_ref | node_id | 装配体（meta.json） |
+|---|---|---|
+| assemblies/front_shell.gltf | front_shell | front_shell |
+| assemblies/back_shell.gltf | back_shell | back_shell |
+| assemblies/mainboard.gltf | mainboard | mainboard |
+| assemblies/screen_module.gltf | screen_module | screen_module |
+| assemblies/dpad_module.gltf | dpad_module | dpad_module |
+| assemblies/cartridge.gltf | cartridge | cartridge |
+
+## 制作口径
+
+- **低模**：程序化盒子几何，多材质分色表达部件，不做贴图、不做复杂曲面。
+- **坐标**：模型原点在装配体原点，Y 向上、面朝 -Z（transform 语义保持，未改装配体树）。
+- **尺寸比例**：沿用占位盒 MESHES.md（GB DMG-01 公开近似值），正式建模前需实测定值（无来源标「需核实」）。
+- **面板布局**：十字方向键 + A/B 键 + START/SELECT + 屏幕 + 卡带槽 + 电源开关/音量旋钮/耳机孔/联机线口（低模以壳体开孔/触点示意，细节纹理留待纹理建模卡 07_GB_建模任务卡 还原）。
+- **点阵屏**：屏模组为 160×144 点阵、4 级灰度，低模以黄绿纯色示意，像素级网格/纹理在纹理建模卡还原。
+- 校验：`verify_all.py --only pkg:game-boy` → 84 PASS / 0 FAIL；`--only catalog_ref` → FAIL 0。

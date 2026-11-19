@@ -8,18 +8,25 @@
 | device-id | 名称 | 来源（原位） | validate |
 |---|---|---|---|
 | altair-8800 | ? | `D:\work\03\repo\content\altair-8800` | FAIL 0（通过） |
+| amiga-1000 | ? | `D:\work\03\repo\content\amiga-1000` | FAIL 0（通过） |
 | amiga500 | ? | `D:\work\03\repo\content\amiga500` | FAIL 0（通过） |
 | apple-ii | ? | `D:\work\05\repo\content\apple-ii` | FAIL 0（通过） |
+| apple-iie | ? | `D:\work\05\repo\content\apple-iie` | FAIL 0（通过） |
 | atari-2600 | ? | `D:\work\05\repo\content\atari-2600` | FAIL 0（通过） |
 | atari-st | ? | `D:\work\03\repo\content\atari-st` | FAIL 0（通过） |
 | bbcmicro | ? | `D:\work\03\repo\content\bbcmicro` | FAIL 0（通过） |
+| cdc-6600 | ? | `D:\work\03\repo\content\cdc-6600` | FAIL 0（通过） |
 | commodore64 | ? | `D:\work\03\repo\content\commodore64` | FAIL 0（通过） |
+| cray-1 | ? | `D:\work\03\repo\content\cray-1` | FAIL 0（通过） |
+| crt-tv | ? | `D:\work\05\repo\content\crt-tv` | FAIL 0（通过） |
+| data-general-nova | ? | `D:\work\03\repo\content\data-general-nova` | FAIL 0（通过） |
 | dynatac-8000x | ? | `D:\work\03\repo\content\dynatac-8000x` | FAIL 0（通过） |
 | edsac | ? | `D:\work\03\repo\content\edsac` | FAIL 0（通过） |
 | edvac | ? | `D:\work\03\repo\content\edvac` | FAIL 0（通过） |
 | eniac | ? | `D:\work\03\repo\content\eniac` | FAIL 0（通过） |
 | famicom | ? | `D:\work\05\repo\content\famicom` | FAIL 0（通过） |
 | game-boy | ? | `D:\work\05\repo\content\game-boy` | FAIL 0（通过） |
+| hp-2100 | ? | `D:\work\03\repo\content\hp-2100` | FAIL 0（通过） |
 | ibm5150 | ? | `D:\work\03\repo\content\ibm5150` | FAIL 0（通过） |
 | iphone | ? | `D:\work\03\repo\content\iphone` | FAIL 0（通过） |
 | macintosh128k | ? | `D:\work\03\repo\content\macintosh128k` | FAIL 0（通过） |
@@ -27,14 +34,17 @@
 | neo-geo-mvs | ? | `D:\work\05\repo\content\neo-geo-mvs` | FAIL 0（通过） |
 | next | ? | `D:\work\03\repo\content\next` | FAIL 0（通过） |
 | nokia-3310 | ? | `D:\work\03\repo\content\nokia-3310` | FAIL 0（通过） |
+| nokia-8110 | ? | `D:\work\03\repo\content\nokia-8110` | FAIL 0（通过） |
 | palm-pilot | ? | `D:\work\03\repo\content\palm-pilot` | FAIL 0（通过） |
 | pdp11 | ? | `D:\work\03\repo\content\pdp11` | FAIL 0（通过） |
 | pdp8 | ? | `D:\work\03\repo\content\pdp8` | FAIL 0（通过） |
 | pet2001 | ? | `D:\work\03\repo\content\pet2001` | FAIL 0（通过） |
 | sega-md | ? | `D:\work\05\repo\content\sega-md` | FAIL 0（通过） |
 | sfc | ? | `D:\work\05\repo\content\sfc` | FAIL 0（通过） |
+| sparcstation-1 | ? | `D:\work\03\repo\content\sparcstation-1` | FAIL 0（通过） |
 | system360 | ? | `D:\work\03\repo\content\system360` | FAIL 0（通过） |
 | trs80-model1 | ? | `D:\work\03\repo\content\trs80-model1` | FAIL 0（通过） |
+| univac-1 | ? | `D:\work\03\repo\content\univac-1` | FAIL 0（通过） |
 | vax11 | ? | `D:\work\03\repo\content\vax11` | FAIL 0（通过） |
 | vic20 | ? | `D:\work\03\repo\content\vic20` | FAIL 0（通过） |
 | x68000 | ? | `D:\work\03\repo\content\x68000` | FAIL 0（通过） |
@@ -42,7 +52,7 @@
 
 ## 目录包（catalog bundle，61-A 流水线自动再生）
 
-- 目录行数 1582 / 分片 24 / 生成 2026-11-10T01:24:41（`res://content/catalog/`）
+- 目录行数 1583 / 分片 24 / 生成 2026-11-19T23:27:58（`res://content/catalog/`）
 
 
 ## 字段齐备性自查表（loader 视角，自动探测）
@@ -50,18 +60,25 @@
 | device-id | meta.json | runtime | annotations.json | glTF | encyclopedia.md | input_profile.json | 备注 |
 |---|---|---|---|---|---|---|---|
 | altair-8800 | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
+| amiga-1000 | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
 | amiga500 | ✓ | runtime.json | ✓ | 5 | ✓ | ✗ |  |
 | apple-ii | ✓ | runtime.json | ✓ | 4 | ✗ | ✓ |  |
+| apple-iie | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
 | atari-2600 | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
 | atari-st | ✓ | runtime.json | ✓ | 5 | ✓ | ✗ |  |
 | bbcmicro | ✓ | runtime.json | ✓ | 5 | ✓ | ✗ |  |
+| cdc-6600 | ✓ | runtime.json | ✓ | 5 | ✓ | ✗ |  |
 | commodore64 | ✓ | runtime.json | ✓ | 5 | ✓ | ✗ |  |
+| cray-1 | ✓ | runtime.json | ✓ | 5 | ✓ | ✗ |  |
+| crt-tv | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
+| data-general-nova | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
 | dynatac-8000x | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
 | edsac | ✓ | runtime.json | ✓ | 4 | ✓ | ✓ |  |
 | edvac | ✓ | runtime.json | ✓ | 3 | ✓ | ✓ |  |
 | eniac | ✓ | runtime.json | ✓ | 4 | ✓ | ✓ |  |
 | famicom | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
 | game-boy | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
+| hp-2100 | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
 | ibm5150 | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
 | iphone | ✓ | runtime.json | ✓ | 5 | ✓ | ✗ |  |
 | macintosh128k | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
@@ -69,14 +86,17 @@
 | neo-geo-mvs | ✓ | runtime.json | ✓ | 7 | ✓ | ✗ |  |
 | next | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
 | nokia-3310 | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
+| nokia-8110 | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
 | palm-pilot | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
 | pdp11 | ✓ | runtime.json | ✓ | 5 | ✓ | ✗ |  |
 | pdp8 | ✓ | runtime.json | ✓ | 4 | ✓ | ✗ |  |
 | pet2001 | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
 | sega-md | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
 | sfc | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
+| sparcstation-1 | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
 | system360 | ✓ | runtime.json | ✓ | 5 | ✓ | ✗ |  |
 | trs80-model1 | ✓ | runtime.json | ✓ | 5 | ✓ | ✗ |  |
+| univac-1 | ✓ | runtime.json | ✓ | 5 | ✓ | ✗ |  |
 | vax11 | ✓ | runtime.json | ✓ | 5 | ✓ | ✗ |  |
 | vic20 | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |
 | x68000 | ✓ | runtime.json | ✓ | 6 | ✓ | ✗ |  |

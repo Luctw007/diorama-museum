@@ -1,0 +1,286 @@
+{
+  "annotations": [
+    {
+      "id": "sw_data_00_role",
+      "type": "role",
+      "target": "sw_data_00",
+      "text": "数据拨动开关第 0 位在整机中设定 16 位数据总线的第 0 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_01_role",
+      "type": "role",
+      "target": "sw_data_01",
+      "text": "数据拨动开关第 1 位在整机中设定 16 位数据总线的第 1 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_02_role",
+      "type": "role",
+      "target": "sw_data_02",
+      "text": "数据拨动开关第 2 位在整机中设定 16 位数据总线的第 2 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_03_role",
+      "type": "role",
+      "target": "sw_data_03",
+      "text": "数据拨动开关第 3 位在整机中设定 16 位数据总线的第 3 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_04_role",
+      "type": "role",
+      "target": "sw_data_04",
+      "text": "数据拨动开关第 4 位在整机中设定 16 位数据总线的第 4 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_05_role",
+      "type": "role",
+      "target": "sw_data_05",
+      "text": "数据拨动开关第 5 位在整机中设定 16 位数据总线的第 5 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_06_role",
+      "type": "role",
+      "target": "sw_data_06",
+      "text": "数据拨动开关第 6 位在整机中设定 16 位数据总线的第 6 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_data_07_role",
+      "type": "role",
+      "target": "sw_data_07",
+      "text": "数据拨动开关第 7 位在整机中设定 16 位数据总线的第 7 位，向上为 1、向下为 0，用于手动输入地址或数据。"
+    },
+    {
+      "id": "sw_load_addr_role",
+      "type": "role",
+      "target": "sw_load_addr",
+      "text": "装载地址开关在整机中把拨键设定的地址送入地址总线，定位要检视或写入的内存单元。"
+    },
+    {
+      "id": "sw_exam_role",
+      "type": "role",
+      "target": "sw_exam",
+      "text": "检视开关在整机中把当前地址单元的内容读出并显示在数据 LED 灯上，供操作员查看。"
+    },
+    {
+      "id": "sw_dep_role",
+      "type": "role",
+      "target": "sw_dep",
+      "text": "写入开关在整机中把拨键设定的 16 位数据写入当前地址单元，完成一次手动存数。"
+    },
+    {
+      "id": "sw_start_role",
+      "type": "role",
+      "target": "sw_start",
+      "text": "运行开关在整机中使处理器从程序计数器当前地址开始连续执行程序。"
+    },
+    {
+      "id": "sw_continue_role",
+      "type": "role",
+      "target": "sw_continue",
+      "text": "单步开关在整机中使处理器每次只执行一条指令，便于逐条调试程序。"
+    },
+    {
+      "id": "sw_stop_role",
+      "type": "role",
+      "target": "sw_stop",
+      "text": "停机开关在整机中暂停处理器的执行，使机器回到手动控制状态。"
+    },
+    {
+      "id": "sw_clear_role",
+      "type": "role",
+      "target": "sw_clear",
+      "text": "复位开关在整机中复位处理器与各状态标志，使机器回到初始状态。"
+    },
+    {
+      "id": "lamp_data_00_role",
+      "type": "role",
+      "target": "lamp_data_00",
+      "text": "数据指示灯第 0 位在整机中点亮表示数据总线第 0 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_01_role",
+      "type": "role",
+      "target": "lamp_data_01",
+      "text": "数据指示灯第 1 位在整机中点亮表示数据总线第 1 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_02_role",
+      "type": "role",
+      "target": "lamp_data_02",
+      "text": "数据指示灯第 2 位在整机中点亮表示数据总线第 2 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_03_role",
+      "type": "role",
+      "target": "lamp_data_03",
+      "text": "数据指示灯第 3 位在整机中点亮表示数据总线第 3 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_04_role",
+      "type": "role",
+      "target": "lamp_data_04",
+      "text": "数据指示灯第 4 位在整机中点亮表示数据总线第 4 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_05_role",
+      "type": "role",
+      "target": "lamp_data_05",
+      "text": "数据指示灯第 5 位在整机中点亮表示数据总线第 5 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_06_role",
+      "type": "role",
+      "target": "lamp_data_06",
+      "text": "数据指示灯第 6 位在整机中点亮表示数据总线第 6 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_data_07_role",
+      "type": "role",
+      "target": "lamp_data_07",
+      "text": "数据指示灯第 7 位在整机中点亮表示数据总线第 7 位为 1、熄灭表示 0，是操作员读取地址与数据的主要窗口。"
+    },
+    {
+      "id": "lamp_run_role",
+      "type": "role",
+      "target": "lamp_run",
+      "text": "运行指示灯在整机中于处理器执行程序期间持续点亮，是判断机器是否在运行的状态指示。"
+    },
+    {
+      "id": "cpu_16bit_role",
+      "type": "role",
+      "target": "cpu_16bit",
+      "text": "16 位处理器在整机中作为中央处理器，执行取指、译码与运算，以 16 位字长处理数据，是机器的运算核心。"
+    },
+    {
+      "id": "core_memory_role",
+      "type": "role",
+      "target": "core_memory",
+      "text": "磁芯存储阵列在整机中作为主存，用磁环的磁化方向保存 16 位字，断电不丢失，是那个年代的内存基石。"
+    },
+    {
+      "id": "power_unit_role",
+      "type": "role",
+      "target": "power_unit",
+      "text": "电源单元在整机中提供多路直流电压，为各电路板供电。"
+    },
+    {
+      "id": "paper_tape_reader_role",
+      "type": "role",
+      "target": "paper_tape_reader",
+      "text": "纸带读入机在整机中读取穿孔纸带上的程序与数据，是程序进入内存的主要入口。"
+    },
+    {
+      "id": "terminal_role",
+      "type": "role",
+      "target": "terminal",
+      "text": "电传打字机在整机中打印运算结果并输入操作命令，是主要的人机交互终端。"
+    },
+    {
+      "id": "front_panel_boot",
+      "type": "flow",
+      "target": "whole",
+      "text": "前面板拨键 boot 流程：拨动数据开关设定地址或数据 → 按装载地址键定位内存 → 按写入键存入 → 按运行键从当前地址执行程序，这是没有键盘与显示器时代最原始的程序装载方式。"
+    },
+    {
+      "id": "bit16_arch",
+      "type": "flow",
+      "target": "cpu_16bit",
+      "text": "16 位架构讲解：Nova 的 16 位字长比 PDP-8 的 12 位更接近现代计算机的数据宽度，是小型机从「够用」走向「好用」的一步。"
+    },
+    {
+      "id": "low_cost_mini",
+      "type": "flow",
+      "target": "whole",
+      "text": "低价小型机讲解：Nova 以低于 PDP-8 的价格切入市场，让更多实验室与产线买得起自己的计算机，开创了小型机「性价比竞争」的新局面。"
+    },
+    {
+      "id": "dec_defection",
+      "type": "flow",
+      "target": "whole",
+      "text": "出走 DEC 讲解：Data General 创始人 Edson de Castro 原为 DEC 工程师，出走创业后打造的 Nova 正面挑战老东家的 PDP 系列，是小型机战国时代最生动的商业故事。"
+    },
+    {
+      "id": "pdp_competition",
+      "type": "flow",
+      "target": "whole",
+      "text": "与 PDP 竞争讲解：Nova 与 PDP-8、PDP-11 展开正面竞争，DEC 一家独大的局面被打破，竞争反过来催生了小型机性能与价格的持续进步。"
+    },
+    {
+      "id": "core_memory",
+      "type": "flow",
+      "target": "core_memory",
+      "text": "磁芯内存讲解：Nova 采用磁芯存储器，靠磁环的磁化方向存位，断电不丢数据，是那个年代小型机的内存基石。"
+    },
+    {
+      "id": "paper_tape",
+      "type": "flow",
+      "target": "paper_tape_reader",
+      "text": "纸带装载讲解：程序常存于打孔纸带，经纸带读入机加载，读带声是早期小型机机房最具辨识度的声音。"
+    },
+    {
+      "id": "nova_naming",
+      "type": "flow",
+      "target": "whole",
+      "text": "命名讲解：「Nova」意为「新星」，恰如其分——它确实是小型机星空中一颗耀眼的新星，也预示了 Data General 这家年轻公司的崛起。"
+    },
+    {
+      "id": "djs130",
+      "type": "flow",
+      "target": "whole",
+      "text": "中国兼容仿制讲解：中国早期小型机 DJS-130 系列与 Nova 兼容，Nova 因此成为新中国计算机工业仿制史上的一支支线，是技术扩散跨越国界的生动一页。"
+    },
+    {
+      "id": "led_status",
+      "type": "flow",
+      "target": "front_panel",
+      "text": "LED 跑灯状态讲解：前面板的一排 LED 灯逐位亮起，是早期程序员观察地址、数据与运行状态的唯一「显示器」，跑灯闪烁是那个时代的标志性画面。"
+    },
+    {
+      "id": "minicomputer_era",
+      "type": "flow",
+      "target": "whole",
+      "text": "小型机战国时代讲解：Nova 处在 PDP-8 之后、PDP-11 之前的小型机战国时代，多家厂商同台竞争，共同把「小型机」做成了一个繁荣的品类。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "Data General Nova 整机，1969 年推出的 16 位低价小型计算机，以前面板拨键与 LED 跑灯操作，是 PDP 系列之外小型机战国时代的代表。"
+    },
+    {
+      "id": "chassis_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "机箱在整机中作为金属箱体骨架，承载前面板、CPU 板、内存背板与电源，提供结构支撑与散热通道。"
+    },
+    {
+      "id": "front_panel_role",
+      "type": "role",
+      "target": "front_panel",
+      "text": "前面板在整机中提供拨键开关与 LED 跑灯，是操作员手动检视、写入与启动程序的直接接口。"
+    },
+    {
+      "id": "cpu_board_role",
+      "type": "role",
+      "target": "cpu_board",
+      "text": "CPU 板在整机中承载 16 位处理器及其时钟与总线驱动电路，是运算与控制的核心。"
+    },
+    {
+      "id": "memory_backplane_role",
+      "type": "role",
+      "target": "memory_backplane",
+      "text": "内存背板在整机中承载磁芯存储阵列及其读写电路，是 16 位主存的物理载体。"
+    },
+    {
+      "id": "power_supply_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源在整机中把交流电转换为多路直流电压，为各电路板供电，是整机的能量来源。"
+    },
+    {
+      "id": "io_interface_role",
+      "type": "role",
+      "target": "io_interface",
+      "text": "I/O 接口在整机中挂载纸带读入机与电传打字机等外设，负责程序与数据的进出。"
+    }
+  ]
+}

@@ -150,13 +150,13 @@
    "Sun"
   ],
   "influence": "RISC 工作站，SPARC 架构普及。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "sparcstation-1",
   "verify": false,
   "sources": [
    "S58A"
   ],
-  "research_doc": null,
+  "research_doc": "docs/research/hall-workstation/02_SPARCstation1.md",
   "maker": "Sun Microsystems",
   "year": 1989,
   "path": [

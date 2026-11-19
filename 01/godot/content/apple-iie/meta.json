@@ -1,0 +1,264 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "apple-iie",
+    "name": {
+      "zh": "Apple IIe",
+      "en": "Apple IIe"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "1983 年苹果公司发布的 Apple II 系列增强型 8 位个人计算机。",
+    "category": "personal",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "S116 Wikipedia: Apple IIe",
+        "url": "https://en.wikipedia.org/wiki/Apple_IIe",
+        "license": "cc",
+        "accessed_at": "2026-11-14"
+      },
+      {
+        "type": "documentation",
+        "title": "S117 Wikipedia: Apple II",
+        "url": "https://en.wikipedia.org/wiki/Apple_II",
+        "license": "cc",
+        "accessed_at": "2026-11-14"
+      },
+      {
+        "type": "documentation",
+        "title": "S118 Computer History Museum: Apple II",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-14"
+      },
+      {
+        "type": "documentation",
+        "title": "S-MAME MAME Driver: Apple II",
+        "url": "https://wiki.mamedev.org/index.php/Driver:Apple_II",
+        "license": "licensed",
+        "accessed_at": "2026-11-14"
+      }
+    ],
+    "intro": {
+      "zh": "Apple IIe 是苹果公司 1983 年 1 月发布的 Apple II 系列增强型 8 位个人计算机，是个人电脑史上最长寿、最成功产品线之一的中坚机型。「e」代表 enhanced（增强）。它延续 Apple II 的开放架构与 6502 平台，内置 80 列文本显示、支持小写字母并扩展内存，在教育与家用市场畅销十余年，一直生产到 1993 年，是整整一代学生与家庭的第一台电脑。",
+      "en": "The Apple IIe is Apple Computer's enhanced 8-bit personal computer of the Apple II line, released in January 1983. The 'e' stands for enhanced. It continued the open architecture and 6502 platform of the Apple II, added built-in 80-column text and lowercase support and expanded memory, remaining a mainstay of education and home markets for over a decade."
+    },
+    "era": 1983,
+    "manufacturer": "Apple Computer, Inc."
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Apple IIe 整机，一台 1983 年发布的 8 位个人计算机，由机箱、键盘、外接显示器、Disk II 软驱与电源组成，是博物馆垂直切片展示的核心设备。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": null,
+      "children": ["case", "keyboard", "monitor", "floppy", "power_supply"],
+      "components": [],
+      "annotations": ["apple_iie_role", "boot_flow", "product_line_flow"],
+      "mesh_ref": "assemblies/whole.gltf"
+    },
+    {
+      "id": "case",
+      "name": "机箱",
+      "role": {
+        "zh": "机箱在整机中负责包覆并保护主板、电源与扩展槽等内部部件，同时承载内置键盘，构成整机的外观壳体。"
+      },
+      "transform": {
+        "translation": [0.0, 0.06, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": ["cpu", "rom_monitor", "rom_basic", "ram_chip"],
+      "annotations": ["case_role", "open_arch_flow", "monitor_rom_flow", "expansion_slot_role"],
+      "mesh_ref": "assemblies/case.gltf"
+    },
+    {
+      "id": "keyboard",
+      "name": "键盘组件",
+      "role": {
+        "zh": "键盘组件在整机中负责把用户的按键动作编码为数据，经主板送入处理器，是整机的主要输入设备。"
+      },
+      "transform": {
+        "translation": [0.0, 0.02, -0.22],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": ["keyboard_role", "keyboard_flow", "keycap_role"],
+      "mesh_ref": "assemblies/keyboard.gltf"
+    },
+    {
+      "id": "monitor",
+      "name": "外接显示器",
+      "role": {
+        "zh": "外接显示器在整机中负责显示 80 列文本与彩色图形，是整机的图像输出设备。"
+      },
+      "transform": {
+        "translation": [0.0, 0.22, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": ["monitor_role", "display_flow", "monitor_crt_role"],
+      "mesh_ref": "assemblies/monitor.gltf"
+    },
+    {
+      "id": "floppy",
+      "name": "Disk II 软驱",
+      "role": {
+        "zh": "Disk II 软驱在整机中负责读写 5.25 英寸软盘，为整机提供磁介质存储能力。"
+      },
+      "transform": {
+        "translation": [0.24, 0.06, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": ["floppy_role", "floppy_flow", "floppy_door_role"],
+      "mesh_ref": "assemblies/floppy.gltf"
+    },
+    {
+      "id": "power_supply",
+      "name": "电源模块",
+      "role": {
+        "zh": "电源模块在整机中负责把市电转换为多路直流电，为整机各部件稳定供电。"
+      },
+      "transform": {
+        "translation": [0.0, 0.06, 0.15],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": ["power_supply_role", "power_switch_role"],
+      "mesh_ref": "assemblies/power_supply.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "cpu",
+      "name": "6502 中央处理器",
+      "type": "ic",
+      "role": {
+        "zh": "6502 中央处理器在整机中负责取指、译码与执行指令，是整机的运算与控制核心。"
+      },
+      "assembly": "case",
+      "annotations": ["cpu_role"],
+      "part_no": "6502"
+    },
+    {
+      "id": "rom_monitor",
+      "name": "Monitor ROM",
+      "type": "ic",
+      "role": {
+        "zh": "Monitor ROM 在整机中提供系统监控程序，负责开机复位后的自检与命令行交互。"
+      },
+      "assembly": "case",
+      "annotations": ["rom_monitor_role"],
+      "part_no": "Monitor ROM"
+    },
+    {
+      "id": "rom_basic",
+      "name": "Applesoft BASIC ROM",
+      "type": "ic",
+      "role": {
+        "zh": "Applesoft BASIC ROM 在整机中存放 BASIC 解释器，是开机即可编程的语言环境。"
+      },
+      "assembly": "case",
+      "annotations": ["rom_basic_role"],
+      "part_no": "Applesoft BASIC"
+    },
+    {
+      "id": "ram_chip",
+      "name": "动态内存芯片",
+      "type": "ic",
+      "role": {
+        "zh": "动态内存芯片在整机中提供工作内存，暂存运行时的程序与数据，可扩展至 128 KB。"
+      },
+      "assembly": "case",
+      "annotations": ["ram_chip_role", "memory_flow"],
+      "part_no": "4164"
+    }
+  ],
+  "runtime": {
+    "emulator": "mame",
+    "version": "0.287",
+    "system": "apple2e",
+    "media_hint": "floppy",
+    "bios_required": true,
+    "bios_guide_url": "https://wiki.mamedev.org/index.php/Driver:Apple_II",
+    "output_sinks": [
+      {
+        "id": "crt_external",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "rgba8"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "key_left": {
+        "map": "keyboard",
+        "key": "KEY_LEFT"
+      },
+      "key_right": {
+        "map": "keyboard",
+        "key": "KEY_RIGHT"
+      },
+      "key_up": {
+        "map": "keyboard",
+        "key": "KEY_UP"
+      },
+      "key_down": {
+        "map": "keyboard",
+        "key": "KEY_DOWN"
+      },
+      "key_return": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "key_escape": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      },
+      "key_space": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      },
+      "key_reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      }
+    }
+  }
+}

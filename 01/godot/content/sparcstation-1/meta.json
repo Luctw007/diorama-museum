@@ -1,0 +1,511 @@
+{
+  "meta": {
+    "id": "sparcstation-1",
+    "name": {
+      "zh": "Sun SPARCstation 1（RISC 工作站）",
+      "en": "Sun SPARCstation 1 (RISC Workstation)"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1989,
+    "manufacturer": "Sun Microsystems",
+    "category": "workstation",
+    "description": "1989 年推出的 RISC 桌面工作站，以紧凑的「披萨盒」机箱把工作站推向桌面普及，是 Sun 微系统黄金年代的开端，也是 RISC 架构走向企业机房的标志。",
+    "authors": [
+      {
+        "name": "TASK-213-A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — SPARCstation（索引）",
+        "url": "https://en.wikipedia.org/wiki/SPARCstation",
+        "license": "cc",
+        "accessed_at": "2026-11-16"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Sun Microsystems（索引）",
+        "url": "https://en.wikipedia.org/wiki/Sun_Microsystems",
+        "license": "cc",
+        "accessed_at": "2026-11-16"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum — SPARCstation",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-16"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Sun SPARCstation 1 整机，1989 年推出的 RISC 桌面工作站，以紧凑的「披萨盒」机箱把工作站推向桌面普及，是 Sun 黄金年代的开端。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "case",
+        "motherboard",
+        "power_supply",
+        "disk",
+        "io_ports",
+        "monitor"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role"
+      ]
+    },
+    {
+      "id": "case",
+      "name": "机身",
+      "role": {
+        "zh": "机身在整机中作为紧凑桌面机箱骨架，承载主板、电源与硬盘，是「披萨盒」形态的主体。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "power_switch",
+        "power_led"
+      ],
+      "annotations": [
+        "case_role"
+      ],
+      "mesh_ref": "assemblies/case.gltf"
+    },
+    {
+      "id": "motherboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 SPARC 处理器与内存模块，是 RISC 运算的核心。"
+      },
+      "transform": {
+        "translation": [
+          0.2,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "sparc_cpu",
+        "ram",
+        "cpu_socket",
+        "ram_slot"
+      ],
+      "annotations": [
+        "motherboard_role"
+      ],
+      "mesh_ref": "assemblies/motherboard.gltf"
+    },
+    {
+      "id": "power_supply",
+      "name": "电源",
+      "role": {
+        "zh": "电源在整机中把交流电转换为直流电压，为主板与各部件供电。"
+      },
+      "transform": {
+        "translation": [
+          0.4,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "power_unit"
+      ],
+      "annotations": [
+        "power_supply_role"
+      ],
+      "mesh_ref": "assemblies/power_supply.gltf"
+    },
+    {
+      "id": "disk",
+      "name": "硬盘",
+      "role": {
+        "zh": "硬盘在整机中存储操作系统与数据，是工作站的持久化存储设备。"
+      },
+      "transform": {
+        "translation": [
+          0.6,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "disk_platter"
+      ],
+      "annotations": [
+        "disk_role"
+      ],
+      "mesh_ref": "assemblies/disk.gltf"
+    },
+    {
+      "id": "io_ports",
+      "name": "I/O 接口",
+      "role": {
+        "zh": "I/O 接口在整机中提供串行、并行与网络接口，是机器与外设、网络通信的通道。"
+      },
+      "transform": {
+        "translation": [
+          0.8,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "serial_port",
+        "ethernet_port",
+        "scsi_port",
+        "keyboard_port"
+      ],
+      "annotations": [
+        "io_ports_role"
+      ],
+      "mesh_ref": "assemblies/io_ports.gltf"
+    },
+    {
+      "id": "monitor",
+      "name": "显示器",
+      "role": {
+        "zh": "显示器在整机中呈现图形界面与终端输出，是操作员与系统交互的窗口。"
+      },
+      "transform": {
+        "translation": [
+          1.0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "crt_tube"
+      ],
+      "annotations": [
+        "monitor_role"
+      ],
+      "mesh_ref": "assemblies/monitor.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "sparc_cpu",
+      "name": "SPARC 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "SPARC 处理器在整机中作为 RISC 中央处理器，以精简指令集执行运算，是工作站的计算核心。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "sparc_cpu_role"
+      ]
+    },
+    {
+      "id": "ram",
+      "name": "内存模块",
+      "type": "memory",
+      "role": {
+        "zh": "内存模块在整机中提供运行时数据暂存空间，为操作系统与程序提供内存。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ram_role"
+      ]
+    },
+    {
+      "id": "power_switch",
+      "name": "电源开关",
+      "type": "switch",
+      "role": {
+        "zh": "电源开关在整机中控制整机供电的通断，是机器的启停入口。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "power_switch_role"
+      ]
+    },
+    {
+      "id": "power_led",
+      "name": "电源指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的状态指示。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "power_led_role"
+      ]
+    },
+    {
+      "id": "power_unit",
+      "name": "电源单元",
+      "type": "power_supply",
+      "role": {
+        "zh": "电源单元在整机中提供多路直流电压，为各部件供电。"
+      },
+      "assembly": "power_supply",
+      "annotations": [
+        "power_unit_role"
+      ]
+    },
+    {
+      "id": "disk_platter",
+      "name": "磁盘盘片",
+      "type": "disk",
+      "role": {
+        "zh": "磁盘盘片在整机中存储操作系统与数据，是工作站的持久化存储介质。"
+      },
+      "assembly": "disk",
+      "annotations": [
+        "disk_platter_role"
+      ]
+    },
+    {
+      "id": "serial_port",
+      "name": "串行接口",
+      "type": "connector",
+      "role": {
+        "zh": "串行接口在整机中连接串行外设，是机器与外设通信的通道之一。"
+      },
+      "assembly": "io_ports",
+      "annotations": [
+        "serial_port_role"
+      ]
+    },
+    {
+      "id": "ethernet_port",
+      "name": "以太网接口",
+      "type": "connector",
+      "role": {
+        "zh": "以太网接口在整机中连接网络，是机器接入局域网与互联网的通道。"
+      },
+      "assembly": "io_ports",
+      "annotations": [
+        "ethernet_port_role"
+      ]
+    },
+    {
+      "id": "scsi_port",
+      "name": "SCSI 接口",
+      "type": "connector",
+      "role": {
+        "zh": "SCSI 接口在整机中连接硬盘与外设，是机器扩展存储与设备的通道。"
+      },
+      "assembly": "io_ports",
+      "annotations": [
+        "scsi_port_role"
+      ]
+    },
+    {
+      "id": "keyboard_port",
+      "name": "键盘接口",
+      "type": "connector",
+      "role": {
+        "zh": "键盘接口在整机中连接键盘，是文字输入的通道。"
+      },
+      "assembly": "io_ports",
+      "annotations": [
+        "keyboard_port_role"
+      ]
+    },
+    {
+      "id": "cpu_socket",
+      "name": "处理器插座",
+      "type": "socket",
+      "role": {
+        "zh": "处理器插座在整机中固定 SPARC 处理器，是处理器与主板连接的接口。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "cpu_socket_role"
+      ]
+    },
+    {
+      "id": "ram_slot",
+      "name": "内存插槽",
+      "type": "socket",
+      "role": {
+        "zh": "内存插槽在整机中安装内存模块，为系统提供可扩展的内存容量。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ram_slot_role"
+      ]
+    },
+    {
+      "id": "crt_tube",
+      "name": "显像管",
+      "type": "crt",
+      "role": {
+        "zh": "显像管在整机中把电信号转换为画面，是图形界面与终端的显示核心。"
+      },
+      "assembly": "monitor",
+      "annotations": [
+        "crt_tube_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "0.0.0",
+    "system": "Sun SPARCstation 1 (RISC Workstation)",
+    "media_hint": "disk",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "external_crt_0",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "rgb"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "enter": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "space": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      },
+      "escape": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      },
+      "mouse_move": {
+        "map": "mouse",
+        "key": "motion"
+      },
+      "mouse_click": {
+        "map": "mouse",
+        "key": "btn_left"
+      },
+      "mouse_right": {
+        "map": "mouse",
+        "key": "btn_right"
+      }
+    }
+  }
+}

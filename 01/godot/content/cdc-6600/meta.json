@@ -1,0 +1,665 @@
+{
+  "meta": {
+    "id": "cdc-6600",
+    "name": {
+      "zh": "CDC 6600（超级计算机）",
+      "en": "CDC 6600 (Supercomputer)"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1964,
+    "manufacturer": "Control Data Corporation",
+    "category": "mainframe",
+    "description": "1964 年推出的世界首台超级计算机，由 Seymour Cray 设计，以超标量架构与多个外围处理器分工实现并行计算，长期稳坐世界最快计算机宝座。",
+    "authors": [
+      {
+        "name": "TASK-198-A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — CDC 6600（索引）",
+        "url": "https://en.wikipedia.org/wiki/CDC_6600",
+        "license": "cc",
+        "accessed_at": "2026-11-15"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum — CDC 6600",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-15"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "CDC 6600 整机，1964 年推出的世界首台超级计算机，以超标量设计与外围处理器分工闻名，由 Seymour Cray 设计。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "central_processor",
+        "ppu",
+        "memory",
+        "console",
+        "cooling"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role"
+      ]
+    },
+    {
+      "id": "central_processor",
+      "name": "中央处理机柜",
+      "role": {
+        "zh": "中央处理机柜在整机中承载超标量功能单元，多个运算部件并行工作，是算力的核心。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "scalar_unit"
+      ],
+      "annotations": [
+        "central_processor_role"
+      ],
+      "mesh_ref": "assemblies/central_processor.gltf"
+    },
+    {
+      "id": "ppu",
+      "name": "外围处理器",
+      "role": {
+        "zh": "外围处理器在整机中由多个 I/O 处理器组成，负责输入输出与调度，让中央处理器专注计算。"
+      },
+      "transform": {
+        "translation": [
+          0.4,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "ppu_unit"
+      ],
+      "annotations": [
+        "ppu_role"
+      ],
+      "mesh_ref": "assemblies/ppu.gltf"
+    },
+    {
+      "id": "memory",
+      "name": "内存",
+      "role": {
+        "zh": "内存在整机中承载磁芯存储阵列，为处理器与外围设备提供主存空间。"
+      },
+      "transform": {
+        "translation": [
+          0.8,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "core_memory"
+      ],
+      "annotations": [
+        "memory_role"
+      ],
+      "mesh_ref": "assemblies/memory.gltf"
+    },
+    {
+      "id": "console",
+      "name": "控制台",
+      "role": {
+        "zh": "控制台在整机中提供拨键开关与指示灯，是操作员检视、写入与启动程序的直接接口。"
+      },
+      "transform": {
+        "translation": [
+          1.2,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "sw_data_00",
+        "sw_data_01",
+        "sw_data_02",
+        "sw_data_03",
+        "sw_data_04",
+        "sw_data_05",
+        "sw_data_06",
+        "sw_data_07",
+        "sw_load_addr",
+        "sw_exam",
+        "sw_dep",
+        "sw_start",
+        "sw_continue",
+        "sw_stop",
+        "sw_clear",
+        "lamp_data_00",
+        "lamp_data_01",
+        "lamp_data_02",
+        "lamp_data_03",
+        "lamp_data_04",
+        "lamp_data_05",
+        "lamp_data_06",
+        "lamp_data_07",
+        "lamp_run"
+      ],
+      "annotations": [
+        "console_role"
+      ],
+      "mesh_ref": "assemblies/console.gltf"
+    },
+    {
+      "id": "cooling",
+      "name": "冷却系统",
+      "role": {
+        "zh": "冷却系统在整机中用氟利昂循环带走处理器热量，维持高速运算下的稳定工作温度。"
+      },
+      "transform": {
+        "translation": [
+          1.6,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cooling_unit"
+      ],
+      "annotations": [
+        "cooling_role"
+      ],
+      "mesh_ref": "assemblies/cooling.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "sw_data_00",
+      "name": "数据拨动开关 0",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 0 位在整机中设定数据的第 0 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_data_00_role"
+      ]
+    },
+    {
+      "id": "sw_data_01",
+      "name": "数据拨动开关 1",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 1 位在整机中设定数据的第 1 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_data_01_role"
+      ]
+    },
+    {
+      "id": "sw_data_02",
+      "name": "数据拨动开关 2",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 2 位在整机中设定数据的第 2 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_data_02_role"
+      ]
+    },
+    {
+      "id": "sw_data_03",
+      "name": "数据拨动开关 3",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 3 位在整机中设定数据的第 3 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_data_03_role"
+      ]
+    },
+    {
+      "id": "sw_data_04",
+      "name": "数据拨动开关 4",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 4 位在整机中设定数据的第 4 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_data_04_role"
+      ]
+    },
+    {
+      "id": "sw_data_05",
+      "name": "数据拨动开关 5",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 5 位在整机中设定数据的第 5 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_data_05_role"
+      ]
+    },
+    {
+      "id": "sw_data_06",
+      "name": "数据拨动开关 6",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 6 位在整机中设定数据的第 6 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_data_06_role"
+      ]
+    },
+    {
+      "id": "sw_data_07",
+      "name": "数据拨动开关 7",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 7 位在整机中设定数据的第 7 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_data_07_role"
+      ]
+    },
+    {
+      "id": "sw_load_addr",
+      "name": "装载地址开关",
+      "type": "switch",
+      "role": {
+        "zh": "装载地址开关在整机中把拨键设定的地址送入地址寄存器，定位要检视或写入的内存单元。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_load_addr_role"
+      ]
+    },
+    {
+      "id": "sw_exam",
+      "name": "检视开关",
+      "type": "switch",
+      "role": {
+        "zh": "检视开关在整机中把当前地址单元的内容读出并显示在数据指示灯上，供操作员查看。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_exam_role"
+      ]
+    },
+    {
+      "id": "sw_dep",
+      "name": "写入开关",
+      "type": "switch",
+      "role": {
+        "zh": "写入开关在整机中把拨键设定的数据写入当前地址单元，完成一次手动存数。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_dep_role"
+      ]
+    },
+    {
+      "id": "sw_start",
+      "name": "运行开关",
+      "type": "switch",
+      "role": {
+        "zh": "运行开关在整机中使处理器从当前地址开始连续执行程序。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_start_role"
+      ]
+    },
+    {
+      "id": "sw_continue",
+      "name": "单步开关",
+      "type": "switch",
+      "role": {
+        "zh": "单步开关在整机中使处理器每次只执行一步运算，便于逐步调试程序。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_continue_role"
+      ]
+    },
+    {
+      "id": "sw_stop",
+      "name": "停机开关",
+      "type": "switch",
+      "role": {
+        "zh": "停机开关在整机中暂停处理器的执行，使机器回到手动控制状态。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_stop_role"
+      ]
+    },
+    {
+      "id": "sw_clear",
+      "name": "复位开关",
+      "type": "switch",
+      "role": {
+        "zh": "复位开关在整机中复位处理器与各状态标志，使机器回到初始状态。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "sw_clear_role"
+      ]
+    },
+    {
+      "id": "lamp_data_00",
+      "name": "数据指示灯 0",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 0 位在整机中点亮表示数据第 0 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_00_role"
+      ]
+    },
+    {
+      "id": "lamp_data_01",
+      "name": "数据指示灯 1",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 1 位在整机中点亮表示数据第 1 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_01_role"
+      ]
+    },
+    {
+      "id": "lamp_data_02",
+      "name": "数据指示灯 2",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 2 位在整机中点亮表示数据第 2 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_02_role"
+      ]
+    },
+    {
+      "id": "lamp_data_03",
+      "name": "数据指示灯 3",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 3 位在整机中点亮表示数据第 3 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_03_role"
+      ]
+    },
+    {
+      "id": "lamp_data_04",
+      "name": "数据指示灯 4",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 4 位在整机中点亮表示数据第 4 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_04_role"
+      ]
+    },
+    {
+      "id": "lamp_data_05",
+      "name": "数据指示灯 5",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 5 位在整机中点亮表示数据第 5 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_05_role"
+      ]
+    },
+    {
+      "id": "lamp_data_06",
+      "name": "数据指示灯 6",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 6 位在整机中点亮表示数据第 6 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_06_role"
+      ]
+    },
+    {
+      "id": "lamp_data_07",
+      "name": "数据指示灯 7",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 7 位在整机中点亮表示数据第 7 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_data_07_role"
+      ]
+    },
+    {
+      "id": "lamp_run",
+      "name": "运行指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "运行指示灯在整机中于处理器执行程序期间持续点亮，是判断机器是否在运行的状态指示。"
+      },
+      "assembly": "console",
+      "annotations": [
+        "lamp_run_role"
+      ]
+    },
+    {
+      "id": "scalar_unit",
+      "name": "超标量功能单元",
+      "type": "cpu",
+      "role": {
+        "zh": "超标量功能单元在整机中由多个运算部件并行组成，可同时执行多条指令，是并行计算的早期实践。"
+      },
+      "assembly": "central_processor",
+      "annotations": [
+        "scalar_unit_role"
+      ]
+    },
+    {
+      "id": "ppu_unit",
+      "name": "外围处理器单元",
+      "type": "ppu",
+      "role": {
+        "zh": "外围处理器单元在整机中负责输入输出与任务调度，让中央处理器专注运算，是分工协作架构的早期典范。"
+      },
+      "assembly": "ppu",
+      "annotations": [
+        "ppu_unit_role"
+      ]
+    },
+    {
+      "id": "core_memory",
+      "name": "磁芯存储阵列",
+      "type": "core_memory",
+      "role": {
+        "zh": "磁芯存储阵列在整机中作为主存，用磁环的磁化方向保存数据，断电不丢失。"
+      },
+      "assembly": "memory",
+      "annotations": [
+        "core_memory_role"
+      ]
+    },
+    {
+      "id": "cooling_unit",
+      "name": "氟利昂冷却单元",
+      "type": "cooling",
+      "role": {
+        "zh": "氟利昂冷却单元在整机中循环制冷剂带走处理器热量，维持高速运算下的稳定温度。"
+      },
+      "assembly": "cooling",
+      "annotations": [
+        "cooling_unit_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "0.0.0",
+    "system": "CDC 6600 (Supercomputer)",
+    "media_hint": "tape",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "indicator_lamps_0",
+        "surface": "indicator_lamps",
+        "type": "video",
+        "format": "mono1"
+      },
+      {
+        "id": "terminal_0",
+        "surface": "terminal",
+        "type": "video",
+        "format": "text"
+      }
+    ],
+    "input_map": {
+      "load_addr": {
+        "map": "keyboard",
+        "key": "KEY_L"
+      },
+      "exam": {
+        "map": "keyboard",
+        "key": "KEY_E"
+      },
+      "dep": {
+        "map": "keyboard",
+        "key": "KEY_D"
+      },
+      "start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "continue": {
+        "map": "keyboard",
+        "key": "KEY_C"
+      },
+      "stop": {
+        "map": "keyboard",
+        "key": "KEY_STOP"
+      },
+      "clear": {
+        "map": "keyboard",
+        "key": "KEY_CLEAR"
+      },
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      }
+    }
+  }
+}

@@ -80,13 +80,13 @@
    "向量机"
   ],
   "influence": "标志性向量超级计算机，C 形机柜名垂青史。",
-  "status": "planned",
-  "device_id": null,
+  "status": "done",
+  "device_id": "cray-1",
   "verify": false,
   "sources": [
    "S58A"
   ],
-  "research_doc": null,
+  "research_doc": "docs/research/hall-mainframe/13_Cray1.md",
   "maker": "Cray Research",
   "year": 1976,
   "path": [
