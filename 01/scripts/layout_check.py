@@ -2,13 +2,19 @@
 # MIT License
 # Copyright (c) 2026 箱庭电子博物馆（Diorama Computer Museum）项目作者
 # SPDX-License-Identifier: MIT
-"""展陈布局校验（TASK-21B）：校验展厅布局 JSON（exhibit_host.gd 的配置输入）。
+"""展陈布局校验（TASK-21B；TASK-231-B 扩展 P-01~P-03）：校验展厅布局 JSON
+（exhibit_host.gd 的配置输入）。
 
-规则（与 docs/exhibit_layout_spec.md 一致）：
+规则（与 docs/exhibit_layout_spec.md、02 线 layout扩展规格_v1（227-A）一致）：
   L-01 top：hall_name 非空字符串、devices 为非空数组；
   L-02 devices[]：id 必须存在于 godot/content（同名目录）；
   L-03 position 必填 3 元数值数组，且在大厅边界 [-w/2..w/2, 0.., -d/2..d/2] 内（默认 20×12）；
   L-04 同厅 device id 不得重复；可选项 rotation[4]/scale[3]/slot 类型合法。
+  P-01（L-11）portals 若存在：数组，元素 target 非空 string 且可解析（存在布局文件名不含 .json
+       或 hall_group 标识）、position 3 元数值且在厅界内（P-02 同款）、rotation 若在须 4 元数值；
+  P-03（L-12/L-13）hall_group 若存在 ∈ {hub,dawn,mainframe,personal,console}；
+       lod_scale 若存在须数值 >0。
+  三字段均为可选（缺省等价旧行为），存量布局零破坏。
 
 用法：python scripts/layout_check.py <布局.json> [--width 20 --depth 12]
 退出码：0=合法；1=非法（逐条打印）。
@@ -23,6 +29,9 @@ import sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT_ROOT = os.path.join(REPO, "godot", "content")
+
+# TASK-231-B（227-A L-12）：hall_group 取值域
+HALL_GROUPS = ("hub", "dawn", "mainframe", "personal", "console")
 
 
 def known_device_ids() -> set[str]:
@@ -84,6 +93,41 @@ def validate(layout: dict, width: float, depth: float) -> list[str]:
             errors.append("%s.scale 必须是 3 元数值数组" % tag)
         if "slot" in d and not isinstance(d.get("slot"), int):
             errors.append("%s.slot 必须是整数" % tag)
+    # ---- TASK-231-B：P-01/P-02 portals（227-A L-11）----
+    layout_names = {f[:-5] for f in os.listdir(CONTENT_ROOT)
+                    if f.endswith(".json")} if os.path.isdir(CONTENT_ROOT) else set()
+    portals = layout.get("portals")
+    if portals is not None:
+        if not isinstance(portals, list):
+            errors.append("P-01 portals 必须是数组")
+        else:
+            for i, p in enumerate(portals):
+                tag = "portals[%d]" % i
+                if not isinstance(p, dict):
+                    errors.append("%s 必须是对象" % tag)
+                    continue
+                target = p.get("target")
+                if not isinstance(target, str) or not target.strip():
+                    errors.append("P-01 %s.target 必须是非空字符串" % tag)
+                elif target not in layout_names and target not in HALL_GROUPS:
+                    errors.append("P-01 %s.target=%r 不可解析（非存在布局/%s）"
+                                  % (tag, target, "/".join(HALL_GROUPS)))
+                if not check_number_list(p.get("position"), 3, "position"):
+                    errors.append("P-02 %s.position 必须是 3 元数值数组" % tag)
+                else:
+                    px, py, pz = p["position"]
+                    if abs(px) > width / 2 or abs(pz) > depth / 2 or py < 0:
+                        errors.append("P-02 %s.position=(%s,%s,%s) 超出大厅 %s×%s（y≥0）"
+                                      % (tag, px, py, pz, width, depth))
+                if "rotation" in p and not check_number_list(p.get("rotation"), 4, "rotation"):
+                    errors.append("%s.rotation 必须是 4 元数值数组（四元数）" % tag)
+    # ---- TASK-231-B：P-03 hall_group / lod_scale（227-A L-12/L-13）----
+    if "hall_group" in layout and layout["hall_group"] not in HALL_GROUPS:
+        errors.append("P-03 hall_group=%r 不在 %s" % (layout["hall_group"],
+                                                      "/".join(HALL_GROUPS)))
+    if "lod_scale" in layout and not (isinstance(layout["lod_scale"], (int, float))
+                                      and layout["lod_scale"] > 0):
+        errors.append("P-03 lod_scale 必须是 >0 的数值")
     return errors
 
 

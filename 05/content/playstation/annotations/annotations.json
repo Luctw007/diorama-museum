@@ -1,0 +1,214 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "PlayStation 整机，一台 1994 年索尼发布的首代家用游戏机，由机箱、光驱、主板、电源、手柄接口与记忆卡槽组成，是游戏机厅第五代主机与光盘叙事线的核心展品。",
+      "sources": []
+    },
+    {
+      "id": "cd_drive_role",
+      "type": "role",
+      "target": "cd_drive",
+      "text": "光驱在整机中读取 CD-ROM 游戏光盘，光盘盖可开合以便放入与取出光盘，是可开合的识别部件。",
+      "sources": []
+    },
+    {
+      "id": "cd_cover_role",
+      "type": "role",
+      "target": "cd_drive",
+      "text": "光盘盖在整机中覆盖光驱顶部的光盘舱，开盖放入光盘、合盖进入读盘状态。",
+      "sources": []
+    },
+    {
+      "id": "disc_role",
+      "type": "role",
+      "target": "cd_drive",
+      "text": "光盘在整机中作为游戏的物理载体，表面记录游戏数据，由光驱读取后送入主机运行。",
+      "sources": []
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中承载 CPU、图形处理器与内存，是整机运行游戏的计算与图形核心。",
+      "sources": []
+    },
+    {
+      "id": "power_supply_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源模块在整机中把市电转换为多路直流电，为主板、光驱等部件稳定供电。",
+      "sources": []
+    },
+    {
+      "id": "controller_port_role",
+      "type": "role",
+      "target": "controller_port",
+      "text": "手柄接口在整机中连接游戏手柄，把玩家的按键操作送入主机，是整机的主要输入接口。",
+      "sources": []
+    },
+    {
+      "id": "controller_connector_role",
+      "type": "role",
+      "target": "controller_port",
+      "text": "手柄连接口在整机中固定手柄插头，确保按键信号稳定传输到主机。",
+      "sources": []
+    },
+    {
+      "id": "memory_card_slot_role",
+      "type": "role",
+      "target": "memory_card_slot",
+      "text": "记忆卡槽在整机中插入记忆卡，为游戏存档提供可插拔的存储，是整机保存进度的接口。",
+      "sources": []
+    },
+    {
+      "id": "memory_card_role",
+      "type": "role",
+      "target": "memory_card_slot",
+      "text": "记忆卡在整机中保存游戏的存档数据，让玩家可以跨会话延续游戏进度。",
+      "sources": []
+    },
+    {
+      "id": "cpu_role",
+      "type": "role",
+      "target": "cpu",
+      "text": "R3000A 中央处理器在整机中执行游戏逻辑与运算，是整机的运算核心。",
+      "sources": []
+    },
+    {
+      "id": "gpu_role",
+      "type": "role",
+      "target": "gpu",
+      "text": "图形处理器在整机中绘制多边形 3D 画面，是整机的图形渲染核心。",
+      "sources": []
+    },
+    {
+      "id": "ram_chip_role",
+      "type": "role",
+      "target": "ram_chip",
+      "text": "内存芯片在整机中提供工作内存，暂存运行时的程序与图形数据。",
+      "sources": []
+    },
+    {
+      "id": "cd_motor_role",
+      "type": "role",
+      "target": "cd_motor",
+      "text": "光盘电机在整机中驱动 CD-ROM 光盘旋转，配合激光头读取游戏数据。",
+      "sources": []
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源开关在整机中控制整机的通断电，位于前面板，由用户按压操作。",
+      "sources": []
+    },
+    {
+      "id": "reset_button_role",
+      "type": "role",
+      "target": "whole",
+      "text": "复位键在整机中让主机重新启动，位于前面板，供用户在不关机的情况下重启游戏。",
+      "sources": []
+    },
+    {
+      "id": "cd_replace_cart_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "光盘介质取代卡带：PS1 用 650MB 的 CD-ROM 取代几 MB 的卡带，游戏容量跃升一个量级，装得下大量 CG、语音与音乐。",
+      "sources": []
+    },
+    {
+      "id": "gpu_3d_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "3D 图形家用机标配：PS1 把多边形 3D 图形从街机与工作站带进千家万户，让 3D 成为家用机的标配。",
+      "sources": []
+    },
+    {
+      "id": "mass_market_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "游戏大众化转折点：PS1 把游戏从儿童与青少年的小众娱乐，推向 18 岁以上的成人主流市场。",
+      "sources": []
+    },
+    {
+      "id": "launch_lineup_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "首发阵容：PS1 首发携多款 3D 大作登场，以成熟的市场与发行策略赢得开局。",
+      "sources": []
+    },
+    {
+      "id": "three_way_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "与任天堂世嘉三分天下：PS1 的崛起让家用机市场从任天堂与世嘉的双雄之争，演变为索尼、任天堂、世嘉的三方格局。",
+      "sources": []
+    },
+    {
+      "id": "cd_drive_flow",
+      "type": "flow",
+      "target": "cd_drive",
+      "text": "光驱读盘：开盖放入 CD-ROM、合盖后光盘电机带动光盘旋转，激光头读取游戏数据。",
+      "sources": []
+    },
+    {
+      "id": "controller_flow",
+      "type": "flow",
+      "target": "controller_port",
+      "text": "手柄输入：手柄经接口连接主机，十字键与三角、圆、叉、方键的按压被送入主机处理。",
+      "sources": []
+    },
+    {
+      "id": "memory_card_flow",
+      "type": "flow",
+      "target": "memory_card_slot",
+      "text": "记忆卡存档：记忆卡插入卡槽，游戏进度写入记忆卡，实现跨会话的进度延续。",
+      "sources": []
+    },
+    {
+      "id": "cpu_gpu_flow",
+      "type": "flow",
+      "target": "mainboard",
+      "text": "CPU 与图形处理器协同：CPU 执行游戏逻辑与物理，图形处理器绘制 3D 画面，两者协同渲染出游戏世界。",
+      "sources": []
+    },
+    {
+      "id": "cd_read_flow",
+      "type": "flow",
+      "target": "cd_drive",
+      "text": "CD 读盘：激光聚焦光盘数据面读取数字信息，游戏数据被源源不断送入主机内存。",
+      "sources": []
+    },
+    {
+      "id": "save_game_flow",
+      "type": "flow",
+      "target": "memory_card_slot",
+      "text": "存档机制：记忆卡让游戏进度得以保存与携带，是家用机存档外置化的标志。",
+      "sources": []
+    },
+    {
+      "id": "gaming_era_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "第五代主机时代：PS1 是第五代家用主机的代表，与同代主机共同开启 3D 光盘游戏时代。",
+      "sources": []
+    },
+    {
+      "id": "cd_open_anim",
+      "type": "anim",
+      "target": "cd_drive",
+      "text": "开盖放碟动画：打开光盘盖、放入 CD-ROM、合上盖，演示放入游戏光盘的过程；单次全程约 2 秒。",
+      "sources": []
+    },
+    {
+      "id": "boot_anim",
+      "type": "anim",
+      "target": "whole",
+      "text": "开机动画：按下电源键，电源灯点亮、画面渐亮并进入游戏启动界面，演示开机启动过程；全程约 2 秒。",
+      "sources": []
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://cnubnd2mailh"]
+[gd_scene load_steps=19 format=3 uid="uid://cnubnd2mailh"]
 
 [ext_resource type="Script" path="res://scripts/gateway_client.gd" id="1_gw"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="2_player"]
@@ -12,6 +12,7 @@
 [ext_resource type="Script" path="res://scripts/narr_player.gd" id="10_narr"]
 [ext_resource type="Script" path="res://scripts/startup_check.gd" id="11_startup"]
 [ext_resource type="Script" path="res://scripts/hall_nav_panel.gd" id="12_hallnav"]
+[ext_resource type="Script" path="res://scripts/portal_hub.gd" id="13_portalhub"]
 
 [sub_resource type="PlaneMesh" id="plane_1"]
 size = Vector2(20, 20)
@@ -78,6 +79,9 @@ script = ExtResource("11_startup")
 
 [node name="ExhibitHost" type="Node3D" parent="."]
 script = ExtResource("8_host")
+
+[node name="PortalHub" type="Node3D" parent="."]
+script = ExtResource("13_portalhub")
 
 [node name="DeviceRoot" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, -2)

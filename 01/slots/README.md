@@ -55,6 +55,18 @@ slots/
 | simh-nova | **转正（201-A）** | gw.emulators.simh_nova | SIMH_NOVA_BIN | tape, disk（[需核实]） |
 | simh-altair-8800 | **转正（201-B）** | gw.emulators.simh_altair_8800 | SIMH_ALTAIR_BIN | tape（[需核实]） |
 
+## 第三批真跑候选槽位预留（TASK-251-B）
+
+| 槽位（预留，未建 manifest） | backend_type 建议 | binary_env 建议 | binary_hint 建议 | 许可隔离 |
+|---|---|---|---|---|
+| hercules-s370（IBM System/370） | dedicated | HERCULES_BIN | third_party/hercules | QPL 已核实，S/370 支持需核实；二进制不进仓 |
+| openmsx-msx2（MSX2 FS-A1） | dedicated | OPENMSX_BIN | third_party/openmsx | GPLv2 已核实；二进制不进仓 |
+| mini-vmac-macplus（Macintosh Plus） | dedicated | MINIVMAC_BIN | third_party/minivmac | GPL 许可需核实；二进制不进仓；ROM 路径需核实 |
+| 86box-pcxt（IBM PC XT） | dedicated | EIGHTYSIXBOX_BIN | third_party/86box | GPLv2 已核实；二进制不进仓；BIOS ROM 路径需核实 |
+
+> 预留态说明：仅登记方案（不建 manifest/module=null），待 03 线产包定案后按第二批 SIMH 先例
+> 一步建 manifest 转正；四台 media_classes 均为 [需核实]（详见 docs/第三批真跑候选槽位预留_v1.md）。
+
 ## launch_device 支持说明（TASK-216-B）
 
 `launch_device.py --device <id> --dry-run` 对第二批 SIMH 三台已可用（决策链泛化，无需改启动器代码）：

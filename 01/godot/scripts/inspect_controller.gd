@@ -46,6 +46,11 @@ var _diag_label: Label     # RUN-08 诊断行（实机排障用）
 ## 本布尔与 ExplodeController 的 State 同步（_ready 里监听 state_changed 信号），
 ## 避免两处状态漂移；拆解算法本体在 explode_controller.gd，此处只做入口转发。
 var _explode_mode := false
+## F-6（TASK-256-A）最近拆解台续接：退出拆解时记录最近拆解设备与层级。
+## 提示式口径（251-A 预口径）：HUD 诊断行常驻「上次拆解」提示，不自动跳回；
+## 层级精确回放（L2/L3 分档）依赖 explode_controller 状态导出，待实装验证。
+var _last_exploded := ""
+var _last_exploded_level := ""
 
 
 func set_target(node: Node3D) -> void:
@@ -155,11 +160,12 @@ func _process(_delta: float) -> void:
 		for mi in target.find_children("*", "MeshInstance3D", true, false):
 			if (mi as MeshInstance3D).mesh != null:
 				mesh_count += 1
-		_diag_label.text = ("[inspect] target=%s meshes=%d mode=%s camera=%s sel=%s"
+		_diag_label.text = ("[inspect] target=%s meshes=%d mode=%s camera=%s sel=%s%s"
 				% [target.name, mesh_count, "拆解" if _explode_mode else "观察",
 				   ("%.1f,%.1f,%.1f" % [cam.global_position.x, cam.global_position.y,
 										cam.global_position.z]) if cam != null else "无",
-				   _selected.name if _selected != null else "无"])
+				   _selected.name if _selected != null else "无",
+				   " | 上次拆解:%s" % _last_exploded if _last_exploded != "" else ""])
 
 
 func _apply_view() -> void:
@@ -286,6 +292,11 @@ func _try_enter_explode() -> void:
 	if explode == null:
 		_explode_mode = false
 		return
+	# F-6（256-A）：进入拆解即记录最近拆解台（设备 id + 层级标记）。
+	if device_loader_hint != null and device_loader_hint.has_method("get_current_device"):
+		@warning_ignore("unsafe_method_access")
+		_last_exploded = str(device_loader_hint.get_current_device())
+		_last_exploded_level = "exploded"
 	_explode_mode = true
 	@warning_ignore("unsafe_method_access")
 	explode.set_exploded()
@@ -309,6 +320,16 @@ func _exit_explode_to_walk() -> void:
 
 # 由 Main 装配注入（避免 device_loader 与 inspect_controller 的循环引用）
 var device_loader_hint: Node = null
+
+
+## F-6（256-A）：最近拆解台查询（续接入口，HUD/导览可调用；空串=无记录）。
+func last_exploded_device() -> String:
+	return _last_exploded
+
+
+## F-6（256-A）：最近拆解层级查询（当前仅"exploded"标记；L2/L3 精确回放待实装验证）。
+func last_exploded_level() -> String:
+	return _last_exploded_level
 
 
 func _ready() -> void:

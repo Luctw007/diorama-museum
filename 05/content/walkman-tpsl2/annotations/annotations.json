@@ -1,0 +1,214 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "Sony Walkman TPS-L2 整机，一台 1979 年发布的首台随身听，由机身、磁带舱、磁头组件、主板、电池仓与按键面板组成，是家电影音厅「音乐上街头」叙事线的核心展品。",
+      "sources": []
+    },
+    {
+      "id": "cassette_bay_role",
+      "type": "role",
+      "target": "cassette_bay",
+      "text": "磁带舱在整机中容纳卡式磁带，舱盖可开合以便装入与取出磁带，是可开合的识别部件。",
+      "sources": []
+    },
+    {
+      "id": "cassette_role",
+      "type": "role",
+      "target": "cassette_bay",
+      "text": "磁带在整机中作为音乐的物理载体，装入磁带舱后由走带机构带动卷动，磁头读取其上记录的音频。",
+      "sources": []
+    },
+    {
+      "id": "head_module_role",
+      "type": "role",
+      "target": "head_module",
+      "text": "磁头组件在整机中读取磁带上记录的音频磁迹，配合压带轮稳定走带，是整机放音的核心部件。",
+      "sources": []
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中承载放音与功放电路，把磁头读出的微弱音频信号放大后送往耳机输出。",
+      "sources": []
+    },
+    {
+      "id": "battery_compartment_role",
+      "type": "role",
+      "target": "battery_compartment",
+      "text": "电池仓在整机中容纳两节 AA 电池，为放音与走带电路提供便携电源。",
+      "sources": []
+    },
+    {
+      "id": "battery_role",
+      "type": "role",
+      "target": "battery_compartment",
+      "text": "电池在整机中为整机供电，让随身听脱离交流电源、可以随身携带使用。",
+      "sources": []
+    },
+    {
+      "id": "control_panel_role",
+      "type": "role",
+      "target": "control_panel",
+      "text": "按键面板在整机中提供播放、快进、快退、停止等操作，并含耳机插孔，是用户与随身听交互的操作区。",
+      "sources": []
+    },
+    {
+      "id": "play_button_role",
+      "type": "role",
+      "target": "control_panel",
+      "text": "播放键在整机中启动磁带放音，通常为绿色按键，是随身听最常用的操作键。",
+      "sources": []
+    },
+    {
+      "id": "ff_rew_role",
+      "type": "role",
+      "target": "control_panel",
+      "text": "快进与快退键在整机中控制磁带快速卷绕，供用户跳过或回听磁带上的内容。",
+      "sources": []
+    },
+    {
+      "id": "headphone_jack_role",
+      "type": "role",
+      "target": "control_panel",
+      "text": "耳机插孔在整机中连接耳机，把放大后的音频信号输出给耳机，是随身听的听音接口。",
+      "sources": []
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "control_panel",
+      "text": "电源开关在整机中控制整机的通断电，供用户在不使用时关闭以节省电池。",
+      "sources": []
+    },
+    {
+      "id": "playback_ic_role",
+      "type": "role",
+      "target": "playback_ic",
+      "text": "放音 IC 在整机中处理磁头读出的音频信号，完成前置放大与均衡。",
+      "sources": []
+    },
+    {
+      "id": "amplifier_ic_role",
+      "type": "role",
+      "target": "amplifier_ic",
+      "text": "功放 IC 在整机中把音频信号放大到足以驱动耳机的电平，输出到耳机插孔。",
+      "sources": []
+    },
+    {
+      "id": "tape_motor_role",
+      "type": "role",
+      "target": "tape_motor",
+      "text": "磁带电机在整机中驱动磁带卷带轮转动，维持稳定的走带速度。",
+      "sources": []
+    },
+    {
+      "id": "magnetic_head_role",
+      "type": "role",
+      "target": "magnetic_head",
+      "text": "磁头在整机中把磁带上的磁信号转换为电信号，是放音的拾音器件。",
+      "sources": []
+    },
+    {
+      "id": "music_street_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "音乐上街头：随身听把音乐从客厅音响旁解放到街头，走路、通勤、运动时都能戴上耳机听音乐，开创个人便携音乐时代。",
+      "sources": []
+    },
+    {
+      "id": "tpsl2_first_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "首台随身听：1979 年索尼发布 TPS-L2，是 Walkman 系列的起点，也是随身听品类的开山之作。",
+      "sources": []
+    },
+    {
+      "id": "portable_music_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "随身音乐文化：随身听催生了「边走边听」的生活方式，耳机成为个人音乐空间的象征，音乐消费走向个人化。",
+      "sources": []
+    },
+    {
+      "id": "cassette_bay_flow",
+      "type": "flow",
+      "target": "cassette_bay",
+      "text": "磁带舱开合：打开舱盖放入磁带、合上舱盖准备播放，是随身听使用的基本动作。",
+      "sources": []
+    },
+    {
+      "id": "vinyl_change_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "听音方式变迁：从唱片机的固定聆听，到随身听的移动聆听，音乐从集体活动变成个人活动。",
+      "sources": []
+    },
+    {
+      "id": "headphone_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "耳机听音：随身听配一副耳机，把声音直接送入耳朵，在公共空间里营造出私人的听觉世界。",
+      "sources": []
+    },
+    {
+      "id": "tape_play_flow",
+      "type": "flow",
+      "target": "cassette_bay",
+      "text": "磁带放音：磁带电机带动磁带卷动，磁头读取音频磁迹，把音乐还原出来。",
+      "sources": []
+    },
+    {
+      "id": "signal_path_flow",
+      "type": "flow",
+      "target": "mainboard",
+      "text": "信号通路：磁头读出的微弱音频信号经放音与功放电路放大后，送往耳机插孔输出。",
+      "sources": []
+    },
+    {
+      "id": "battery_flow",
+      "type": "flow",
+      "target": "battery_compartment",
+      "text": "电池供电：两节 AA 电池为整机供电，让随身听可以脱离插座随身使用。",
+      "sources": []
+    },
+    {
+      "id": "button_flow",
+      "type": "flow",
+      "target": "control_panel",
+      "text": "按键操作：按播放键放音、快进快退键跳转、停止键暂停，是随身听的交互方式。",
+      "sources": []
+    },
+    {
+      "id": "personal_audio_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "个人音频时代：随身听开启了个人音频时代，为后来的便携 CD、MP3 播放器与手机音乐铺平了道路。",
+      "sources": []
+    },
+    {
+      "id": "walkman_culture_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "随身听文化：Walkman 成为一种文化符号，耳机、磁带与随身听共同构成 1980 年代青年的流行记忆。",
+      "sources": []
+    },
+    {
+      "id": "cassette_open_anim",
+      "type": "anim",
+      "target": "cassette_bay",
+      "text": "磁带舱开合动画：打开舱盖、放入磁带、合上舱盖，演示装入磁带的过程；单次全程约 2 秒。",
+      "sources": []
+    },
+    {
+      "id": "tape_spin_anim",
+      "type": "anim",
+      "target": "cassette_bay",
+      "text": "磁带卷动动画：按下播放键后磁带卷动、耳机图标亮起，演示随身听放音时的状态；全程约 2 秒。",
+      "sources": []
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "emulator": "none",
+  "version": "1.0.0",
+  "system": "DVD 播放机（静态展示）",
+  "media_hint": "none",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {
+      "id": "crt_display_0",
+      "surface": "crt_display",
+      "type": "video",
+      "format": "rgba8"
+    },
+    {
+      "id": "speaker_0",
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16"
+    }
+  ],
+  "input_map": {
+    "power": {
+      "map": "keyboard",
+      "key": "KEY_P"
+    },
+    "play": {
+      "map": "keyboard",
+      "key": "KEY_ENTER"
+    },
+    "stop": {
+      "map": "keyboard",
+      "key": "KEY_S"
+    },
+    "pause": {
+      "map": "keyboard",
+      "key": "KEY_SPACE"
+    },
+    "fast_forward": {
+      "map": "keyboard",
+      "key": "KEY_F"
+    },
+    "rewind": {
+      "map": "keyboard",
+      "key": "KEY_B"
+    },
+    "eject": {
+      "map": "keyboard",
+      "key": "KEY_E"
+    },
+    "demo_next": {
+      "map": "keyboard",
+      "key": "KEY_DOWN"
+    }
+  }
+}

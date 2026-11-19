@@ -13,6 +13,8 @@ extends Control
 ## 宿主：/root/Main/ExhibitHost（class_name ExhibitHost，直接类型引用，无字符串 has_method）。
 
 const CONTENT_ROOT := "res://content"
+## 枢纽布局（TASK-241-A F-3）：hall_group=hub 的布局文件，面板「枢纽」组唯一成员
+const HUB_FILE := "exhibit_hub.json"
 ## 兜底清单：与 ExhibitHost.hall_files 默认值一致（宿主可用时以宿主为准，单一真相源）
 const HALL_FILES_FALLBACK: Array = [
 	"exhibit_dawn.json",
@@ -116,7 +118,8 @@ func _close_siblings() -> void:
 		enc.close_panel()
 
 
-## 重绘四厅列表：hall_name/台数取布局 JSON；当前厅「●」高亮。
+## 重绘分组列表（TASK-241-A F-3 归类）：枢纽组（hall_group=hub）+ 子厅组（四厅），
+## hall_name/台数取布局 JSON；当前厅「●」高亮。
 func _refresh() -> void:
 	for child in _hall_box.get_children():
 		child.queue_free()
@@ -124,16 +127,31 @@ func _refresh() -> void:
 			and not _host.hall_files.is_empty()) else HALL_FILES_FALLBACK
 	var current: String = _host.current_hall() if _host != null else ""
 	_hint.text = "当前厅布局：%s" % (current if current != "" else "（未装载）")
+	_add_group_label("枢纽（hall_group=hub）")
+	_add_hall_button(HUB_FILE, current)
+	_add_group_label("子厅（hall_group 缺省视为子厅）")
 	for f in files:
-		var fname: String = str(f)
-		var info: Dictionary = _read_hall(fname)
-		var prefix: String = "● " if current == fname else "○ "
-		var btn := Button.new()
-		btn.text = "%s%s（%d 台）" % [prefix, str(info.get("hall_name", fname)),
+		_add_hall_button(str(f), current)
+
+
+## 分组标题行（F-3 归类：hub 与四厅分组显示）。
+func _add_group_label(text: String) -> void:
+	var group_label := Label.new()
+	group_label.text = text
+	group_label.add_theme_color_override("font_color", Color(0.7, 0.85, 1.0))
+	_hall_box.add_child(group_label)
+
+
+## 单个厅按钮（F-3 归类共用）：● 当前厅 / ○ 其它，点击切厅。
+func _add_hall_button(fname: String, current: String) -> void:
+	var info: Dictionary = _read_hall(fname)
+	var prefix: String = "● " if current == fname else "○ "
+	var btn := Button.new()
+	btn.text = "%s%s（%d 台）" % [prefix, str(info.get("hall_name", fname)),
 								int(info.get("count", 0))]
-		btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
-		btn.pressed.connect(func() -> void: _switch_to(fname))
-		_hall_box.add_child(btn)
+	btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
+	btn.pressed.connect(func() -> void: _switch_to(fname))
+	_hall_box.add_child(btn)
 
 
 func _read_hall(layout_file: String) -> Dictionary:

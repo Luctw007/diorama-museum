@@ -1,0 +1,56 @@
+{
+  "emulator": "none",
+  "version": "1.0.0",
+  "system": "Sony Walkman TPS-L2（静态展示）",
+  "media_hint": "none",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {
+      "id": "led_headphone",
+      "surface": "led",
+      "type": "video",
+      "format": "mono1"
+    },
+    {
+      "id": "speaker_0",
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16"
+    }
+  ],
+  "input_map": {
+    "play": {
+      "map": "keyboard",
+      "key": "KEY_ENTER"
+    },
+    "stop": {
+      "map": "keyboard",
+      "key": "KEY_S"
+    },
+    "fast_forward": {
+      "map": "keyboard",
+      "key": "KEY_F"
+    },
+    "rewind": {
+      "map": "keyboard",
+      "key": "KEY_B"
+    },
+    "eject": {
+      "map": "keyboard",
+      "key": "KEY_E"
+    },
+    "volume_up": {
+      "map": "keyboard",
+      "key": "KEY_RIGHT"
+    },
+    "volume_down": {
+      "map": "keyboard",
+      "key": "KEY_LEFT"
+    },
+    "demo_next": {
+      "map": "keyboard",
+      "key": "KEY_SPACE"
+    }
+  }
+}

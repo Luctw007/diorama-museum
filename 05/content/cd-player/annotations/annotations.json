@@ -1,0 +1,214 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "CD 播放机整机，一台 1982 年诞生的数字光盘播放设备，由机箱、光盘托盘、激光头组件、前面板、主板与电源组成，是家电影音厅「数字音频」叙事线的核心展品。",
+      "sources": []
+    },
+    {
+      "id": "disc_tray_role",
+      "type": "role",
+      "target": "disc_tray",
+      "text": "光盘托盘在整机中承载 CD 光盘，从前面板入碟口伸出与收回，供用户放碟并送入机内读盘，是可抽拉的进出仓机构。",
+      "sources": []
+    },
+    {
+      "id": "tray_mechanism_role",
+      "type": "role",
+      "target": "disc_tray",
+      "text": "托盘进出机构在整机中驱动光盘托盘伸出与收回，把光盘送到主轴上方进入读盘位置。",
+      "sources": []
+    },
+    {
+      "id": "disc_role",
+      "type": "role",
+      "target": "disc_tray",
+      "text": "光盘在整机中作为音乐的数字载体，表面布满数据凹坑，由激光头读取还原为数字音频。",
+      "sources": []
+    },
+    {
+      "id": "laser_pickup_role",
+      "type": "role",
+      "target": "laser_pickup",
+      "text": "激光头组件在整机中发射激光读取光盘上的数字音频数据，沿径向寻道扫描，是整机读取光盘的核心部件。",
+      "sources": []
+    },
+    {
+      "id": "front_panel_role",
+      "type": "role",
+      "target": "front_panel",
+      "text": "前面板在整机中承载按键、显示窗与入碟口，是用户操作播放、暂停、跳轨等功能的交互面板。",
+      "sources": []
+    },
+    {
+      "id": "control_buttons_role",
+      "type": "role",
+      "target": "front_panel",
+      "text": "面板按键组在整机中提供播放、停止、暂停、快进、快退等操作，位于前面板，是播放机的主要操作控件。",
+      "sources": []
+    },
+    {
+      "id": "eject_button_role",
+      "type": "role",
+      "target": "front_panel",
+      "text": "出仓键在整机中控制光盘托盘伸出与收回，位于前面板入碟口旁，由用户按压操作。",
+      "sources": []
+    },
+    {
+      "id": "display_role",
+      "type": "role",
+      "target": "front_panel",
+      "text": "显示窗在整机中以荧光数码显示音轨号与播放时间，位于前面板，供用户观察播放进度。",
+      "sources": []
+    },
+    {
+      "id": "power_supply_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源模块在整机中把市电转换为多路直流电，为主轴电机、激光头与解码电路稳定供电。",
+      "sources": []
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源开关在整机中控制整机的通断电，位于前面板，由用户按压操作。",
+      "sources": []
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中承载解码、伺服与音频电路，把激光头读出的数字音频还原为可输出的模拟音频。",
+      "sources": []
+    },
+    {
+      "id": "decoder_ic_role",
+      "type": "role",
+      "target": "decoder_ic",
+      "text": "解码 IC 在整机中处理 CD 的数字音频码流，完成纠错与数模转换。",
+      "sources": []
+    },
+    {
+      "id": "servo_ic_role",
+      "type": "role",
+      "target": "servo_ic",
+      "text": "伺服控制 IC 在整机中控制主轴转速与激光头寻道，维持读盘的聚焦与循迹稳定。",
+      "sources": []
+    },
+    {
+      "id": "audio_ic_role",
+      "type": "role",
+      "target": "audio_ic",
+      "text": "音频数模转换 IC 在整机中把数字音频码流转换为模拟音频，输出到放大器。",
+      "sources": []
+    },
+    {
+      "id": "laser_diode_role",
+      "type": "role",
+      "target": "laser_diode",
+      "text": "激光二极管在整机中发射激光，经聚焦后照射光盘数据面，是读盘的光源。",
+      "sources": []
+    },
+    {
+      "id": "digital_audio_revolution_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "数字音频革命：CD 把音乐以数字形式存储与还原，音质纯净、无底噪，第一次把高保真数字音频带进家庭。",
+      "sources": []
+    },
+    {
+      "id": "cd_first_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "首台 CD 播放机：1982 年 CD 播放机与 CD 光盘同步问世，开创了数字音乐介质的时代。",
+      "sources": []
+    },
+    {
+      "id": "disc_replace_tape_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "光盘取代磁带：CD 以无磨损、可随机访问的优势逐步取代磁带与黑胶，成为音乐的主流介质。",
+      "sources": []
+    },
+    {
+      "id": "dvd_succession_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "与 DVD 的接力：CD 开创的数字光盘技术，为后来 DVD 与数字影音铺平了道路，是家电影音厅数字叙事的先声。",
+      "sources": []
+    },
+    {
+      "id": "hifi_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "高保真时代：CD 的低底噪与宽动态范围，让普通家庭第一次能体验到接近录音室的高保真音质。",
+      "sources": []
+    },
+    {
+      "id": "av_upgrade_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "家庭影音升级：CD 播放机推动家庭音响向数字高保真升级，成为家庭影音生态的重要一环。",
+      "sources": []
+    },
+    {
+      "id": "laser_read_flow",
+      "type": "flow",
+      "target": "laser_pickup",
+      "text": "激光读盘：激光聚焦在光盘数据面，识别数据凹坑与平面的反射差异，把数字音频信号读出。",
+      "sources": []
+    },
+    {
+      "id": "tray_flow",
+      "type": "flow",
+      "target": "disc_tray",
+      "text": "托盘进出仓：按出仓键托盘伸出，放碟后再按收回，光盘被主轴夹持旋转进入读盘状态。",
+      "sources": []
+    },
+    {
+      "id": "decode_flow",
+      "type": "flow",
+      "target": "mainboard",
+      "text": "解码链路：激光头读出的数字音频码流经主板纠错与数模转换，还原为模拟音频信号输出。",
+      "sources": []
+    },
+    {
+      "id": "pcm_flow",
+      "type": "flow",
+      "target": "mainboard",
+      "text": "PCM 编码：CD 采用脉冲编码调制，以高采样率把模拟波形量化为数字信号，实现高保真存储。",
+      "sources": []
+    },
+    {
+      "id": "chapter_flow",
+      "type": "flow",
+      "target": "front_panel",
+      "text": "音轨跳转：CD 支持按音轨跳转，观众第一次可以在音乐中任意选曲，告别磁带的倒带等待。",
+      "sources": []
+    },
+    {
+      "id": "home_audio_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "家庭音响：CD 播放机与功放、音箱共同构成数字家庭音响系统，客厅听音体验全面升级。",
+      "sources": []
+    },
+    {
+      "id": "tray_load_anim",
+      "type": "anim",
+      "target": "disc_tray",
+      "text": "托盘进出仓动画：按出仓键托盘伸出、放上光盘、再按收回托盘入机，演示放碟流程；单次全程约 2 秒。",
+      "sources": []
+    },
+    {
+      "id": "disc_read_anim",
+      "type": "anim",
+      "target": "laser_pickup",
+      "text": "读盘动画：光盘旋转、激光头沿径向寻道扫描，演示激光读取数字音频的过程；全程约 2 秒。",
+      "sources": []
+    }
+  ]
+}

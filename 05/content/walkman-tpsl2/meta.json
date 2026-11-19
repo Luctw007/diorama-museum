@@ -1,0 +1,253 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "walkman-tpsl2",
+    "name": {
+      "zh": "Sony Walkman TPS-L2",
+      "en": "Sony Walkman TPS-L2"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "1979 年索尼发布的首台随身听，把音乐从客厅解放到街头，开创了个人便携音乐时代，是家电影音厅站 5「音乐上街头」的代表展品。",
+    "category": "appliance",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Walkman",
+        "url": "https://en.wikipedia.org/wiki/Walkman",
+        "license": "cc",
+        "accessed_at": "2026-11-20"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Sony Walkman TPS-L2",
+        "url": "https://en.wikipedia.org/wiki/Sony_Walkman_TPS-L2",
+        "license": "cc",
+        "accessed_at": "2026-11-20"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-20"
+      }
+    ],
+    "intro": {
+      "zh": "Sony Walkman TPS-L2 是 1979 年索尼发布的首台随身听，用一盒卡式磁带和一副耳机，把音乐从客厅的音响旁解放到街头、地铁与运动场。它开创了「个人便携音乐」的全新品类，是随身听文化的起点，也是家电影音厅「音乐上街头」叙事的主角。",
+      "en": "The Sony Walkman TPS-L2, released in 1979, was the first portable cassette player, using a cassette and a pair of headphones to free music from the living room stereo and take it onto the street, the subway and the running track. It created the personal portable music category and remains the origin of Walkman culture."
+    },
+    "era": 1979,
+    "manufacturer": "Sony"
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Sony Walkman TPS-L2 整机，由机身、磁带舱、磁头组件、主板、电池仓与按键面板组成，是家电影音厅站 5「音乐上街头」的核心展品。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": null,
+      "children": ["cassette_bay", "head_module", "mainboard", "battery_compartment", "control_panel"],
+      "components": [],
+      "annotations": ["whole_role", "music_street_flow", "tpsl2_first_flow"],
+      "mesh_ref": "assemblies/whole.gltf"
+    },
+    {
+      "id": "cassette_bay",
+      "name": "磁带舱",
+      "role": {
+        "zh": "磁带舱在整机中容纳卡式磁带，舱盖可开合以便装入与取出磁带，是可开合的识别部件。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": ["tape_motor"],
+      "annotations": ["cassette_bay_role", "cassette_role", "cassette_bay_flow", "tape_play_flow"],
+      "mesh_ref": "assemblies/cassette_bay.gltf"
+    },
+    {
+      "id": "head_module",
+      "name": "磁头组件",
+      "role": {
+        "zh": "磁头组件在整机中读取磁带上记录的音频磁迹，配合压带轮稳定走带，是整机放音的核心部件。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": ["magnetic_head"],
+      "annotations": ["head_module_role"],
+      "mesh_ref": "assemblies/head_module.gltf"
+    },
+    {
+      "id": "mainboard",
+      "name": "主板（机芯板）",
+      "role": {
+        "zh": "主板在整机中承载放音与功放电路，把磁头读出的微弱音频信号放大后送往耳机输出。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": ["playback_ic", "amplifier_ic"],
+      "annotations": ["mainboard_role", "signal_path_flow"],
+      "mesh_ref": "assemblies/mainboard.gltf"
+    },
+    {
+      "id": "battery_compartment",
+      "name": "电池仓",
+      "role": {
+        "zh": "电池仓在整机中容纳两节 AA 电池，为放音与走带电路提供便携电源。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": ["battery_compartment_role", "battery_role", "battery_flow"],
+      "mesh_ref": "assemblies/battery_compartment.gltf"
+    },
+    {
+      "id": "control_panel",
+      "name": "按键面板",
+      "role": {
+        "zh": "按键面板在整机中提供播放、快进、快退、停止等操作，并含耳机插孔，是用户与随身听交互的操作区。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": ["control_panel_role", "play_button_role", "ff_rew_role", "headphone_jack_role", "power_switch_role", "button_flow"],
+      "mesh_ref": "assemblies/control_panel.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "playback_ic",
+      "name": "放音 IC",
+      "type": "ic",
+      "role": {
+        "zh": "放音 IC 在整机中处理磁头读出的音频信号，完成前置放大与均衡。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["playback_ic_role"]
+    },
+    {
+      "id": "amplifier_ic",
+      "name": "功放 IC",
+      "type": "ic",
+      "role": {
+        "zh": "功放 IC 在整机中把音频信号放大到足以驱动耳机的电平，输出到耳机插孔。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["amplifier_ic_role"]
+    },
+    {
+      "id": "tape_motor",
+      "name": "磁带电机",
+      "type": "motor",
+      "role": {
+        "zh": "磁带电机在整机中驱动磁带卷带轮转动，维持稳定的走带速度。"
+      },
+      "assembly": "cassette_bay",
+      "annotations": ["tape_motor_role"]
+    },
+    {
+      "id": "magnetic_head",
+      "name": "磁头",
+      "type": "transducer",
+      "role": {
+        "zh": "磁头在整机中把磁带上的磁信号转换为电信号，是放音的拾音器件。"
+      },
+      "assembly": "head_module",
+      "annotations": ["magnetic_head_role"]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Sony Walkman TPS-L2（静态展示）",
+    "media_hint": "none",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "led_headphone",
+        "surface": "led",
+        "type": "video",
+        "format": "mono1"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "play": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "stop": {
+        "map": "keyboard",
+        "key": "KEY_S"
+      },
+      "fast_forward": {
+        "map": "keyboard",
+        "key": "KEY_F"
+      },
+      "rewind": {
+        "map": "keyboard",
+        "key": "KEY_B"
+      },
+      "eject": {
+        "map": "keyboard",
+        "key": "KEY_E"
+      },
+      "volume_up": {
+        "map": "keyboard",
+        "key": "KEY_RIGHT"
+      },
+      "volume_down": {
+        "map": "keyboard",
+        "key": "KEY_LEFT"
+      },
+      "demo_next": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      }
+    }
+  }
+}

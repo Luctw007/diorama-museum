@@ -22,7 +22,9 @@ class_name ExhibitHost
 
 const CONTENT_ROOT := "res://content"
 const DEVICE_LOADER := preload("res://scripts/device_loader.gd")
-const DEFAULT_LAYOUT := "exhibit_dawn.json"
+## 默认布局（TASK-241-A F-3 启动厅定案）：以枢纽大厅（exhibit_hub.json，hall_group=hub）为
+## 启动厅——对齐 04 线 03 号动线「大厅为入口动线枢纽、一眼可见三步可达」；四厅经传送点可达。
+const DEFAULT_LAYOUT := "exhibit_hub.json"
 
 ## 布局 JSON 顶层字段（与 docs/exhibit_layout_spec.md L1 一致）
 const LAYOUT_HALL_NAME := "hall_name"
@@ -213,7 +215,15 @@ func switch_hall(new_layout_file: String) -> bool:
 		_hall_cursor = idx
 	if _debug_circles_on:
 		toggle_debug_circles(true)
+	_notify_portal_hub()
 	return placed > 0
+
+
+## 切厅成功后通知 PortalHub 重建传送点（TASK-236-A 反向 portal：子厅→hub）。
+func _notify_portal_hub() -> void:
+	var hub := get_node_or_null("/root/Main/PortalHub") as PortalHub
+	if hub != null:
+		hub.refresh_portals(layout_file)
 
 
 ## 下一厅（TASK-114）：按 hall_files 顺序循环切厅；目标布局非法时回退 DEFAULT_LAYOUT。

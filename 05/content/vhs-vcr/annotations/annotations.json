@@ -1,0 +1,214 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "VHS 录像机整机，一台 1976 年诞生的家用磁带录像设备，由机箱、磁带加载机构、磁头鼓、前面板、主板与电源组成，是家电影音厅「录下回看」叙事线的核心展品。",
+      "sources": []
+    },
+    {
+      "id": "cassette_mechanism_role",
+      "type": "role",
+      "target": "cassette_mechanism",
+      "text": "磁带加载机构在整机中承接入带口的磁带，把磁带从带盒中拉出并绕到磁头鼓上，是整机加载与退出磁带的核心机构。",
+      "sources": []
+    },
+    {
+      "id": "cassette_role",
+      "type": "role",
+      "target": "cassette_mechanism",
+      "text": "磁带盒在整机中作为录像的物理载体，内部缠绕磁带，插入带仓后由加载机构拉出磁带供磁头鼓读写。",
+      "sources": []
+    },
+    {
+      "id": "head_drum_role",
+      "type": "role",
+      "target": "head_drum",
+      "text": "磁头鼓在整机中以斜装方式高速旋转，用旋转磁头在磁带上螺旋扫描读写视频信号，是录像机最核心的识别部件。",
+      "sources": []
+    },
+    {
+      "id": "drum_rotation_role",
+      "type": "role",
+      "target": "head_drum",
+      "text": "磁鼓旋转在整机中由磁鼓电机驱动，让磁头高速掠过磁带表面，实现高密度的视频信号读写。",
+      "sources": []
+    },
+    {
+      "id": "front_panel_role",
+      "type": "role",
+      "target": "front_panel",
+      "text": "前面板在整机中承载按键、显示窗与入带口，是用户操作录像机录制、播放与回看的交互面板。",
+      "sources": []
+    },
+    {
+      "id": "control_buttons_role",
+      "type": "role",
+      "target": "front_panel",
+      "text": "面板按键组在整机中提供播放、停止、快进、快退等操作，位于前面板，是录像机的主要操作控件。",
+      "sources": []
+    },
+    {
+      "id": "record_button_role",
+      "type": "role",
+      "target": "front_panel",
+      "text": "录音键在整机中触发录制功能，通常为红色按键，与停止键配合完成一次录像操作。",
+      "sources": []
+    },
+    {
+      "id": "display_role",
+      "type": "role",
+      "target": "front_panel",
+      "text": "显示窗在整机中以荧光数码显示磁带计数与工作状态，位于前面板，供用户观察走带情况。",
+      "sources": []
+    },
+    {
+      "id": "power_supply_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源模块在整机中把市电转换为多路直流电，为磁鼓电机、伺服与信号电路稳定供电。",
+      "sources": []
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源开关在整机中控制整机的通断电，位于前面板，由用户按压操作。",
+      "sources": []
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中承载伺服、视频信号处理与伴音电路，把磁头鼓读出的信号还原为可输出的视频与伴音。",
+      "sources": []
+    },
+    {
+      "id": "servo_ic_role",
+      "type": "role",
+      "target": "servo_ic",
+      "text": "伺服控制 IC 在整机中控制磁头鼓转速与磁带走带速度，维持螺旋扫描的相位稳定。",
+      "sources": []
+    },
+    {
+      "id": "video_signal_ic_role",
+      "type": "role",
+      "target": "video_signal_ic",
+      "text": "视频信号处理 IC 在整机中处理磁头鼓读出的亮度与色度信号，还原为复合视频输出。",
+      "sources": []
+    },
+    {
+      "id": "audio_ic_role",
+      "type": "role",
+      "target": "audio_ic",
+      "text": "音频信号 IC 在整机中处理磁带上的音频磁迹信号，还原为伴音输出。",
+      "sources": []
+    },
+    {
+      "id": "drum_motor_role",
+      "type": "role",
+      "target": "drum_motor",
+      "text": "磁鼓电机在整机中驱动磁头鼓高速旋转，使旋转磁头以斜向螺旋方式扫描磁带。",
+      "sources": []
+    },
+    {
+      "id": "vhs_birth_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "家庭录像革命：1976 年 JVC 推出 VHS 家用录像标准，把电视节目录到磁带上的能力第一次进入普通家庭。",
+      "sources": []
+    },
+    {
+      "id": "record_playback_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "录下回看：按下录音键再按停止，一段电视节目被录到磁带上，之后随时可回放，打破错过即错过的线性播出。",
+      "sources": []
+    },
+    {
+      "id": "format_war_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "格式大战：VHS 与 Betamax 争夺家用录像标准，VHS 以更长的录像时长与更开放的标准赢得市场，成为家用录像的主流。",
+      "sources": []
+    },
+    {
+      "id": "cassette_loading_flow",
+      "type": "flow",
+      "target": "cassette_mechanism",
+      "text": "磁带加载：磁带插入带仓后，加载机构把磁带从带盒中拉出并绕到磁头鼓上，进入可读写状态。",
+      "sources": []
+    },
+    {
+      "id": "drum_rotation_flow",
+      "type": "flow",
+      "target": "head_drum",
+      "text": "磁头鼓旋转：磁头鼓以斜装方式高速旋转，旋转磁头在移动的磁带上划出斜向磁迹，实现螺旋扫描读写。",
+      "sources": []
+    },
+    {
+      "id": "helical_scan_flow",
+      "type": "flow",
+      "target": "head_drum",
+      "text": "螺旋扫描：视频磁头随磁鼓旋转、磁带以一定角度绕过磁鼓，磁迹在磁带上呈斜向排列，用较低走带速度记录高密度视频。",
+      "sources": []
+    },
+    {
+      "id": "rental_era_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "租赁录像带时代：录像机普及催生了录像带租赁店，租一盘电影回家看成为 1980 年代到 1990 年代的家庭娱乐方式。",
+      "sources": []
+    },
+    {
+      "id": "record_flow",
+      "type": "flow",
+      "target": "front_panel",
+      "text": "录音流程：按录音键开始录制、按停止键结束，磁带窗口随走带转动，实时反映录制进度。",
+      "sources": []
+    },
+    {
+      "id": "signal_path_flow",
+      "type": "flow",
+      "target": "mainboard",
+      "text": "信号通路：磁头鼓从磁带读出信号，经主板伺服与信号处理，视频送电视显示、伴音送扬声器发声，构成录像机的信号链。",
+      "sources": []
+    },
+    {
+      "id": "tv_ecosystem_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "与电视的影音生态：录像机通过射频或复合视频接到电视，电视作为显示中心，录像机扩展了它的内容来源。",
+      "sources": []
+    },
+    {
+      "id": "time_shift_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "时间平移：录像机让节目可以脱离播出时刻被观看，错过的节目录下后随时回看，是时间平移概念的早期实践。",
+      "sources": []
+    },
+    {
+      "id": "playback_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "回看流程：按下播放键，磁头鼓旋转、磁带窗口转动，录下的节目在电视上重现，完成录下回看的闭环。",
+      "sources": []
+    },
+    {
+      "id": "tape_load_anim",
+      "type": "anim",
+      "target": "cassette_mechanism",
+      "text": "磁带加载动画：磁带插入带仓，加载机构把磁带拉出并绕到磁头鼓上，演示磁带上载过程；单次全程约 2 秒。",
+      "sources": []
+    },
+    {
+      "id": "drum_spin_anim",
+      "type": "anim",
+      "target": "head_drum",
+      "text": "磁鼓旋转动画：按下播放键后磁头鼓高速旋转、磁带窗口转动，演示录像机回看时的机械运动；全程约 2 秒。",
+      "sources": []
+    }
+  ]
+}
