@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T01:30:45",
+  "generated": "2026-11-11T23:54:57",
   "halls": [
     {
       "hall": "黎明厅（Dawn Hall）",
@@ -349,16 +349,6 @@
     {
       "hall": "示例（Samples）",
       "devices": [
-        {
-          "id": "catalog",
-          "name": null,
-          "era": null,
-          "category": "placeholder",
-          "emulator": null,
-          "demo_mode": true,
-          "annotation_count": 0,
-          "meshes": 0
-        },
         {
           "id": "test-device",
           "name": "验证方块机",

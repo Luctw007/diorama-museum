@@ -120,6 +120,43 @@ def probe_stella(binary: str) -> None:
         pass_or_fail(True, "stella", "无参启动", "进程能起（超时仍在运行，[需核实]）")
 
 
+# TASK-206-A：第二批 SIMH 四台 presmoke 矩阵（零二进制适配）：
+# 槽位 id → 后端模块 → 内容包设备 id（None=已装二进制，不跑决策链缺失态）
+SIMH_MATRIX = [
+    ("simh-pdp8", "gw.emulators.simh_pdp8", None),
+    ("simh-hp2100", "gw.emulators.simh_hp2100", "hp-2100"),
+    ("simh-nova", "gw.emulators.simh_nova", "data-general-nova"),
+    ("simh-altair-8800", "gw.emulators.simh_altair_8800", "altair-8800"),
+]
+
+
+def probe_simh_matrix() -> None:
+    """四台 SIMH：--check-binary 路径打印（rc=0 就位 / rc=2 缺失）+
+    三台新槽位的决策链缺失态文案（不 Popen 模拟器、零下载）。"""
+    print("== 第二批 SIMH 四台 presmoke（零二进制 · 只跑 --check-binary 与 --dry-run） ==")
+    for slot_id, module, dev_id in SIMH_MATRIX:
+        cp = subprocess.run([sys.executable, "-m", module, "--check-binary"],
+                            cwd=REPO, capture_output=True, text=True,
+                            encoding="utf-8", errors="replace", timeout=120)
+        out = (cp.stdout or "") + (cp.stderr or "")
+        print("       %s --check-binary: %s" % (slot_id, out.strip().splitlines()[0][:110] if out.strip() else "（无输出）"))
+        ok_cb = (cp.returncode == 0 and "二进制" in out) or (cp.returncode == 2 and "缺失" in out)
+        pass_or_fail(ok_cb, slot_id, "check-binary", "rc=%d" % cp.returncode)
+        if dev_id is None:
+            continue
+        cp = subprocess.run([sys.executable, os.path.join(REPO, "scripts", "launch_device.py"),
+                             "--device", dev_id, "--dry-run"],
+                            cwd=REPO, capture_output=True, text=True,
+                            encoding="utf-8", errors="replace", timeout=120)
+        out = (cp.stdout or "") + (cp.stderr or "")
+        for line in out.strip().splitlines():
+            if "决策:" in line:
+                print("      " + line[:120])
+        ok_dc = (cp.returncode == 0 and ("EMULATOR_BINARY_MISSING" in out
+                 or "槽位未建立" in out or "不在完工包" in out))
+        pass_or_fail(ok_dc, slot_id, "决策链缺失态", "rc=%d" % cp.returncode)
+
+
 def main(argv: list[str] | None = None) -> int:
     del argv
     print("== 三台真跑预启动检查 smoke（零介质 · 零下载 · 零联网） ==")
@@ -137,7 +174,8 @@ def main(argv: list[str] | None = None) -> int:
             probe(binary)
         except subprocess.TimeoutExpired:
             pass_or_fail(False, slot_id, "探针", "超时未返回（判 FAIL）")
-    print("汇总：三台预启动检查，FAIL %d 处（全 PASS 则 rc=0）" % fails)
+    probe_simh_matrix()
+    print("汇总：三台真跑 + 第二批 SIMH 四台 presmoke，FAIL %d 处（全 PASS 则 rc=0）" % fails)
     return 1 if fails else 0
 
 

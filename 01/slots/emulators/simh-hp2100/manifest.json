@@ -1,0 +1,12 @@
+{
+  "slot_id": "simh-hp2100",
+  "device_class": "minicomputer",
+  "backend_type": "simh",
+  "module": "gw.emulators.simh_hp2100",
+  "description": "SIMH HP 2100（后端骨架已接，与 simh-pdp8 同构；二进制由用户自备，见 licenses/SIMH.md）",
+  "license": "SIMH 许可（需核实，见 licenses/SIMH.md）",
+  "binary_env": "SIMH_HP2100_BIN",
+  "binary_hint": "third_party/simh/hp2100",
+  "media_classes": ["tape"],
+  "keymap": null
+}

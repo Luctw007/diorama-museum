@@ -1,0 +1,12 @@
+{
+  "slot_id": "simh-nova",
+  "device_class": "minicomputer",
+  "backend_type": "simh",
+  "module": "gw.emulators.simh_nova",
+  "description": "SIMH Data General Nova（后端骨架已接，与 simh-pdp8 同构；二进制由用户自备，见 licenses/SIMH.md）",
+  "license": "SIMH 许可（需核实，见 licenses/SIMH.md）",
+  "binary_env": "SIMH_NOVA_BIN",
+  "binary_hint": "third_party/simh/nova",
+  "media_classes": ["tape", "disk"],
+  "keymap": null
+}

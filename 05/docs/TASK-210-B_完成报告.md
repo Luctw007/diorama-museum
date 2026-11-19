@@ -1,0 +1,25 @@
+# TASK-210-B 完成报告（Sony Walkman TPS-L2 预研卡）
+
+> 任务 210-B（05 线）· 完成日期：2026-11-14。
+
+## 交付
+`console-batch1/17_Walkman预研卡.md`（唯一新增研究文件，未新增/修改任何 gltf、meta.json、annotations、目录 jsonl）。
+
+## 核对清单自查（对应任务第 4 章）
+
+1. **预研卡文件存在且 >800 字节**：实测 **6144 字节** ✅。
+2. **五要素齐 + 部件草图 + 建模参数建议**：五要素——机型 Sony Walkman TPS-L2 / 年代 1979 / 归属谱系 手持/随身（音频）/ 是否已有包 否（无包）/ 定案理由 站 5「音乐上街头」；部件草图 8 件（chassis / cassette_bay / head_module / mainboard / battery_compartment / control_panel / headphone_jack / cassette，含整机+磁带舱/磁头/主板/电池仓/按键面板）；建模参数建议（baseColorFactor 纯色无贴图、低模不分 LOD、cassette_bay 为可开合识别件）✅。
+3. **「需核实」已标注，无编造史实断言**：8 件尺寸、10 组配色、5 项面板布局均标 [需核实]，年代 1979 沿用 69 号/03 开题卡口径标 [需核实] ✅。
+4. **只新增 17 号预研卡 + 本报告两个文件**：无其它文件改动 ✅。
+5. **门禁只读复测**：`python D:\work\01\repo\01\scripts\verify_all.py --daily --no-ref-hard` → **46/46 通过，rc=0** ✅。
+6. 本报告正文 500–600 字区间 ✅。
+
+## 门禁复测说明（环境差异 + 既有项如实标注）
+汇总行：`m0 PASS / m1b PASS / slots PASS / catalog PASS / catalog_ref PASS / gd PASS / gd_naming PASS / 内容包全 PASS`，`结果：46/46 通过`，退出码 **rc=0**。
+
+- 本机无 `py -3.7` 启动器，改用 `python`（3.13）执行，功能等价。
+- `--cache` 写 `docs/verify_last.json` 因网络盘对命令行进程只读被拒，故以只读复测输出为准。
+- 本轮 `catalog_ref` 已 FAIL 0（cdc-6600 反链经镜像收口修复）；本机 D 盘符经 `subst D: \\tsclient\D` 重新挂载后，门禁扫描恢复全量 46 项。
+
+## 红线遵守
+不下载 ROM/二进制/贴图（纯预研卡）；尺寸/配色/布局无来源标「需核实」；只改 05 目录（仅新增 17 号卡 + 本报告）；未做 gltf、未动 meta.json/annotations/目录 jsonl；设备包 id `walkman-tpsl2` 为建议命名，待与 02 线目录规范对齐。

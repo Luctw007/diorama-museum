@@ -33,8 +33,35 @@ slots/
 | license | ✓ | 许可说明字符串（三件套详见 v0.5） |
 | binary | 可选 | 二进制文件名（相对槽位目录）；缺省=后端无需外部二进制 |
 | binary_env | 可选 | 环境变量覆盖名 |
+| binary_hint | 可选 | 二进制唯一内置定位路径（如 third_party/simh/nova；缺省按「binary」相对槽位目录） |
 | media_classes | 可选 | 支持的介质类目列表 |
 | keymap | 可选 | 键码表路径（默认 keys/keymap_<machine>.json 三级回退不变） |
+
+## manifest 字段补充（TASK-191-A/B 口径）
+
+- `media_classes` 枚举（`slot_loader.MEDIA_CLASSES`）：`disk / firmware / cartridge / tape /
+  cd / dvd / card / app_package / none`——**`none` 为正式合法枚举值**（187-B 裁决：计入
+  CC-10「有值」口径，不视为缺失）；未知值放行但在 slot_loader 输出 stderr 提示对齐。
+- `module`（可选）：显式声明后端模块；**`null` = reserved 预留槽位**（后端未实现、登记可见），
+  缺省时按 `backend_type` 家族映射（见 slot_loader.py `BACKEND_TYPE_MODULE`）。
+  预留槽位不声称可玩、不下发二进制。
+
+## 第二批 SIMH 槽位登记（TASK-196-A）
+
+| 槽位 | 状态 | module | binary_env | media_classes |
+|---|---|---|---|---|
+| simh-pdp8 | 已接（161-A） | gw.emulators.simh_pdp8 | SIMH_PDP8_BIN | firmware |
+| simh-hp2100 | **转正（196-A）** | gw.emulators.simh_hp2100 | SIMH_HP2100_BIN | tape |
+| simh-nova | **转正（201-A）** | gw.emulators.simh_nova | SIMH_NOVA_BIN | tape, disk（[需核实]） |
+| simh-altair-8800 | **转正（201-B）** | gw.emulators.simh_altair_8800 | SIMH_ALTAIR_BIN | tape（[需核实]） |
+
+## launch_device 支持说明（TASK-216-B）
+
+`launch_device.py --device <id> --dry-run` 对第二批 SIMH 三台已可用（决策链泛化，无需改启动器代码）：
+`hp-2100` → `simh-hp2100`、`data-general-nova` → `simh-nova`、`altair-8800` →
+`simh-altair8800`（runtime 语义名，经 slot_loader ALIASES 归一为 `simh-altair-8800`）。
+三台均落「二进制未就位 → EMULATOR_BINARY_MISSING + 把二进制放入 third_party/simh/<target>
+或设环境变量 SIMH_*_BIN」分支（实测 rc=0，206-A/216-B）。
 
 ## 使用三步（以 MAME apple2 为例，其余设备同理）
 

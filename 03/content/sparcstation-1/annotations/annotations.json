@@ -1,0 +1,184 @@
+{
+  "annotations": [
+    {
+      "id": "sparc_cpu_role",
+      "type": "role",
+      "target": "sparc_cpu",
+      "text": "SPARC 处理器在整机中作为 RISC 中央处理器，以精简指令集执行运算，是工作站的计算核心。"
+    },
+    {
+      "id": "ram_role",
+      "type": "role",
+      "target": "ram",
+      "text": "内存模块在整机中提供运行时数据暂存空间，为操作系统与程序提供内存。"
+    },
+    {
+      "id": "risc_desktop",
+      "type": "flow",
+      "target": "whole",
+      "text": "RISC 走向桌面讲解：SPARCstation 1 把 RISC 架构的算力装进紧凑的桌面机箱，是 RISC 从实验室走向普及的关键一步。"
+    },
+    {
+      "id": "sun_golden_age",
+      "type": "flow",
+      "target": "whole",
+      "text": "Sun 黄金年代讲解：SPARCstation 1 的成功为 Sun 带来巨大市场，开启了 Sun 在 1990 年代 Unix 工作站领域的辉煌。"
+    },
+    {
+      "id": "sparc_arch",
+      "type": "flow",
+      "target": "sparc_cpu",
+      "text": "SPARC 架构讲解：SPARC 是 Sun 主导的 RISC 架构，以精简指令集换取高频与高效，是 1990 年代工作站的主流架构之一。"
+    },
+    {
+      "id": "workstation_competition",
+      "type": "flow",
+      "target": "whole",
+      "text": "与 DEC/HP 竞争讲解：SPARCstation 1 与 DEC 的 VAX 工作站、HP 的 PA-RISC 工作站展开竞争，推动 RISC 工作站普及。"
+    },
+    {
+      "id": "unix_popularization",
+      "type": "flow",
+      "target": "whole",
+      "text": "UNIX 工作站普及讲解：SPARCstation 1 让 Unix 工作站的算力进入更多企业与工程机构，推动了专业计算的普及。"
+    },
+    {
+      "id": "internet_node",
+      "type": "flow",
+      "target": "whole",
+      "text": "Internet 时代节点讲解：SPARCstation 1 所在的 Sun 以「网络就是计算机」为理念，是互联网时代早期的重要硬件节点。"
+    },
+    {
+      "id": "open_hardware",
+      "type": "flow",
+      "target": "whole",
+      "text": "开放式硬件生态讲解：SPARC 架构的开放与授权，催生了一个多元的硬件生态，是开放标准的早期实践。"
+    },
+    {
+      "id": "pizza_box",
+      "type": "flow",
+      "target": "case",
+      "text": "披萨盒工业设计讲解：SPARCstation 1 的紧凑桌面机箱颠覆了「工作站等于大机柜」的印象，是工作站小型化的标志。"
+    },
+    {
+      "id": "network_computer",
+      "type": "flow",
+      "target": "whole",
+      "text": "网络即计算机讲解：Sun 提出「网络就是计算机」的口号，SPARCstation 1 正是这一理念的硬件载体。"
+    },
+    {
+      "id": "risc_vs_cisc",
+      "type": "flow",
+      "target": "sparc_cpu",
+      "text": "RISC 与 CISC 讲解：SPARC 的精简指令集与 x86 的复杂指令集形成对照，是 1990 年代处理器架构之争的重要一页。"
+    },
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "Sun SPARCstation 1 整机，1989 年推出的 RISC 桌面工作站，以紧凑的「披萨盒」机箱把工作站推向桌面普及，是 Sun 黄金年代的开端。"
+    },
+    {
+      "id": "case_role",
+      "type": "role",
+      "target": "case",
+      "text": "机身在整机中作为紧凑桌面机箱骨架，承载主板、电源与硬盘，是「披萨盒」形态的主体。"
+    },
+    {
+      "id": "motherboard_role",
+      "type": "role",
+      "target": "motherboard",
+      "text": "主板在整机中承载 SPARC 处理器与内存模块，是 RISC 运算的核心。"
+    },
+    {
+      "id": "power_supply_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源在整机中把交流电转换为直流电压，为主板与各部件供电。"
+    },
+    {
+      "id": "disk_role",
+      "type": "role",
+      "target": "disk",
+      "text": "硬盘在整机中存储操作系统与数据，是工作站的持久化存储设备。"
+    },
+    {
+      "id": "io_ports_role",
+      "type": "role",
+      "target": "io_ports",
+      "text": "I/O 接口在整机中提供串行、并行与网络接口，是机器与外设、网络通信的通道。"
+    },
+    {
+      "id": "monitor_role",
+      "type": "role",
+      "target": "monitor",
+      "text": "显示器在整机中呈现图形界面与终端输出，是操作员与系统交互的窗口。"
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "power_switch",
+      "text": "电源开关在整机中控制整机供电的通断，是机器的启停入口。"
+    },
+    {
+      "id": "power_led_role",
+      "type": "role",
+      "target": "power_led",
+      "text": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的状态指示。"
+    },
+    {
+      "id": "power_unit_role",
+      "type": "role",
+      "target": "power_unit",
+      "text": "电源单元在整机中提供多路直流电压，为各部件供电。"
+    },
+    {
+      "id": "disk_platter_role",
+      "type": "role",
+      "target": "disk_platter",
+      "text": "磁盘盘片在整机中存储操作系统与数据，是工作站的持久化存储介质。"
+    },
+    {
+      "id": "serial_port_role",
+      "type": "role",
+      "target": "serial_port",
+      "text": "串行接口在整机中连接串行外设，是机器与外设通信的通道之一。"
+    },
+    {
+      "id": "ethernet_port_role",
+      "type": "role",
+      "target": "ethernet_port",
+      "text": "以太网接口在整机中连接网络，是机器接入局域网与互联网的通道。"
+    },
+    {
+      "id": "scsi_port_role",
+      "type": "role",
+      "target": "scsi_port",
+      "text": "SCSI 接口在整机中连接硬盘与外设，是机器扩展存储与设备的通道。"
+    },
+    {
+      "id": "keyboard_port_role",
+      "type": "role",
+      "target": "keyboard_port",
+      "text": "键盘接口在整机中连接键盘，是文字输入的通道。"
+    },
+    {
+      "id": "cpu_socket_role",
+      "type": "role",
+      "target": "cpu_socket",
+      "text": "处理器插座在整机中固定 SPARC 处理器，是处理器与主板连接的接口。"
+    },
+    {
+      "id": "ram_slot_role",
+      "type": "role",
+      "target": "ram_slot",
+      "text": "内存插槽在整机中安装内存模块，为系统提供可扩展的内存容量。"
+    },
+    {
+      "id": "crt_tube_role",
+      "type": "role",
+      "target": "crt_tube",
+      "text": "显像管在整机中把电信号转换为画面，是图形界面与终端的显示核心。"
+    }
+  ]
+}

@@ -43,6 +43,8 @@ import pkg_registry  # noqa: E402
 import slot_loader   # noqa: E402
 
 REQUIRED_SLOTS = ("mame-apple2", "simh-pdp8", "stella")
+# TASK-196-B：第二批 SIMH 槽位（预留态 run_status=missing 合法；转正后按三台口径断言）
+SECOND_BATCH_SLOTS = ("simh-hp2100", "simh-nova", "simh-altair-8800")
 LICENSES = ("licenses/MAME.md", "licenses/SIMH.md", "licenses/Stella.md")
 MIN_READY = 30
 SCAN_GLOBS = ("gw/**/*.py", "scripts/**/*.py", "godot/scripts/**/*.gd")
@@ -70,7 +72,19 @@ def check_r1() -> None:
          "R1", "验收基线 %d/%d 通过（%s）" % (passed, total, data.get("time", "")))
 
 
+def run_status_of(entry: dict) -> str:
+    """TASK-191-A（D-2）：run_status 判定（01 线门禁主权）——
+    live=二进制就位；dry-run=有后端模块但二进制缺失（决策链优雅失败可干跑）；
+    missing=无后端模块（预留）。"""
+    if not entry.get("module"):
+        return "missing"
+    return "live" if entry.get("binary_path") else "dry-run"
+
+
 def check_r2() -> None:
+    # D-2 落地（TASK-191-A）+ 第二批 SIMH 扩展（TASK-196-B）：run_status 并入 R2 断言。
+    # 01 线裁定：真跑阈值维持 ≥3（三台真跑），随真跑台数实测后按 66 号上调（≥5），
+    # 当前 run_status 合法集合 = {live, dry-run}（三台真跑槽位 missing 判 FAIL）。
     table = slot_loader.slots_available()
     for sid in REQUIRED_SLOTS:
         entry = table.get(sid) or {}
@@ -81,6 +95,22 @@ def check_r2() -> None:
             mark(False, "R2", "槽位 %s desc 仍含「预留」字样" % sid)
             continue
         mark(True, "R2", "槽位 %s 已登记后端 %s" % (sid, entry.get("module")))
+        st = run_status_of(entry)
+        mark(st in ("live", "dry-run"), "R2",
+             "槽位 %s run_status=%s（live/dry-run 合法；missing 判 FAIL）" % (sid, st))
+    # TASK-196-B：第二批 SIMH 槽位——预留态（module 空）run_status=missing 判合法不 FAIL；
+    # 转正且模块就绪态要求 run_status ∈ {live, dry-run}（缺二进制=可干跑）。
+    for sid in SECOND_BATCH_SLOTS:
+        entry = table.get(sid) or {}
+        if not entry:
+            mark(True, "R2", "第二批槽位 %s 未登记（本轮按预留口径放行，见 196-B）" % sid)
+            continue
+        if not entry.get("module"):
+            mark(True, "R2", "第二批槽位 %s run_status=missing（预留合法，不 FAIL）" % sid)
+            continue
+        st = run_status_of(entry)
+        mark(st in ("live", "dry-run"), "R2",
+             "第二批槽位 %s 已转正，run_status=%s（live/dry-run 合法）" % (sid, st))
     for lic in LICENSES:
         mark(os.path.isfile(os.path.join(REPO, lic)), "R2", "许可记录存在 %s" % lic)
 
@@ -88,7 +118,7 @@ def check_r2() -> None:
 def check_r3() -> None:
     ready, wip = pkg_registry.discover_packages_full()
     print("[INFO] R3 wip 清单（不计入 rc）：%s"
-          % (", ".join(wip) if wip else "（无）"))
+          % (", ".join(str(x[0]) for x in wip) if wip else "（无）"))
     mark(len(ready) >= MIN_READY,
          "R3", "完工包 %d ≥ %d" % (len(ready), MIN_READY))
 

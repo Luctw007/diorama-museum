@@ -1,7 +1,7 @@
 {
-  "time": "2026-11-10 01:42:01",
-  "total": 39,
-  "passed": 39,
+  "time": "2026-11-19 23:22:15",
+  "total": 49,
+  "passed": 49,
   "steps": [
     {
       "name": "m0",
@@ -16,7 +16,7 @@
     {
       "name": "slots",
       "ok": true,
-      "note": "汇总：完工包 32，声明 slot 0，SC-01 违规 0"
+      "note": "汇总：完工包 42，声明 slot 0，SC-01 违规 0"
     },
     {
       "name": "catalog",
@@ -44,12 +44,22 @@
       "note": "FAIL 0"
     },
     {
+      "name": "pkg:amiga-1000",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
       "name": "pkg:amiga500",
       "ok": true,
       "note": "FAIL 0"
     },
     {
       "name": "pkg:apple-ii",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:apple-iie",
       "ok": true,
       "note": "FAIL 0"
     },
@@ -69,7 +79,27 @@
       "note": "FAIL 0"
     },
     {
+      "name": "pkg:cdc-6600",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
       "name": "pkg:commodore64",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:cray-1",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:crt-tv",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:data-general-nova",
       "ok": true,
       "note": "FAIL 0"
     },
@@ -100,6 +130,11 @@
     },
     {
       "name": "pkg:game-boy",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:hp-2100",
       "ok": true,
       "note": "FAIL 0"
     },
@@ -139,6 +174,11 @@
       "note": "FAIL 0"
     },
     {
+      "name": "pkg:nokia-8110",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
       "name": "pkg:palm-pilot",
       "ok": true,
       "note": "FAIL 0"
@@ -169,12 +209,22 @@
       "note": "FAIL 0"
     },
     {
+      "name": "pkg:sparcstation-1",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
       "name": "pkg:system360",
       "ok": true,
       "note": "FAIL 0"
     },
     {
       "name": "pkg:trs80-model1",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:univac-1",
       "ok": true,
       "note": "FAIL 0"
     },

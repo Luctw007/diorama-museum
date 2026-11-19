@@ -1,0 +1,12 @@
+{
+  "slot_id": "simh-altair-8800",
+  "device_class": "computer",
+  "backend_type": "simh",
+  "module": "gw.emulators.simh_altair_8800",
+  "description": "SIMH Altair 8800（后端骨架已接，与 simh-pdp8 同构；二进制由用户自备，见 licenses/SIMH.md）",
+  "license": "SIMH 许可（需核实，见 licenses/SIMH.md）",
+  "binary_env": "SIMH_ALTAIR_BIN",
+  "binary_hint": "third_party/simh/altair8800",
+  "media_classes": ["tape"],
+  "keymap": null
+}

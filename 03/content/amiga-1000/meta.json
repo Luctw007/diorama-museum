@@ -1,0 +1,524 @@
+{
+  "meta": {
+    "id": "amiga-1000",
+    "name": {
+      "zh": "Commodore Amiga 1000（多媒体电脑）",
+      "en": "Commodore Amiga 1000 (Multimedia Computer)"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1985,
+    "manufacturer": "Commodore",
+    "category": "personal-computer",
+    "description": "1985 年推出的 Amiga 系列首作，由 Jay Miner 团队设计，以 Agnus、Denise、Paula 三芯片组带来多媒体能力，是「多媒体电脑」概念最早也最惊艳的实践。",
+    "authors": [
+      {
+        "name": "TASK-208-A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Amiga 1000（索引）",
+        "url": "https://en.wikipedia.org/wiki/Amiga_1000",
+        "license": "cc",
+        "accessed_at": "2026-11-15"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Amiga（索引）",
+        "url": "https://en.wikipedia.org/wiki/Amiga",
+        "license": "cc",
+        "accessed_at": "2026-11-15"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum — Amiga",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-15"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Commodore Amiga 1000 整机，1985 年推出的 Amiga 系列首作，以三芯片组提前带来多媒体能力，是「多媒体电脑」概念最早也最惊艳的实践。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "case",
+        "keyboard",
+        "motherboard",
+        "floppy",
+        "mouse",
+        "monitor"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role"
+      ]
+    },
+    {
+      "id": "case",
+      "name": "机身",
+      "role": {
+        "zh": "机身在整机中作为一体式机箱骨架，键盘可收纳于机身下方，承载主板、软驱与电源。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "power_switch",
+        "power_led",
+        "serial_port",
+        "rgb_port",
+        "expansion_port"
+      ],
+      "annotations": [
+        "case_role"
+      ],
+      "mesh_ref": "assemblies/case.gltf"
+    },
+    {
+      "id": "keyboard",
+      "name": "键盘",
+      "role": {
+        "zh": "键盘在整机中提供文字输入，可翻转收纳于机身下方，是主要的输入设备。"
+      },
+      "transform": {
+        "translation": [
+          0.2,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "keyboard_keys"
+      ],
+      "annotations": [
+        "keyboard_role"
+      ],
+      "mesh_ref": "assemblies/keyboard.gltf"
+    },
+    {
+      "id": "motherboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 68000 处理器与 Agnus、Denise、Paula 三颗芯片，是运算与多媒体的核心。"
+      },
+      "transform": {
+        "translation": [
+          0.4,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cpu_68000",
+        "agnus",
+        "denise",
+        "paula",
+        "ram_chips"
+      ],
+      "annotations": [
+        "motherboard_role"
+      ],
+      "mesh_ref": "assemblies/motherboard.gltf"
+    },
+    {
+      "id": "floppy",
+      "name": "软驱",
+      "role": {
+        "zh": "软驱在整机中读写 3.5 英寸软盘，是程序与数据的存储与加载设备。"
+      },
+      "transform": {
+        "translation": [
+          0.6,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "eject_button"
+      ],
+      "annotations": [
+        "floppy_role"
+      ],
+      "mesh_ref": "assemblies/floppy.gltf"
+    },
+    {
+      "id": "mouse",
+      "name": "鼠标",
+      "role": {
+        "zh": "鼠标在整机中提供指针定位与点击输入，是图形界面操作的主要设备。"
+      },
+      "transform": {
+        "translation": [
+          0.8,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "mouse_button"
+      ],
+      "annotations": [
+        "mouse_role"
+      ],
+      "mesh_ref": "assemblies/mouse.gltf"
+    },
+    {
+      "id": "monitor",
+      "name": "显示器",
+      "role": {
+        "zh": "显示器在整机中呈现彩色图形界面与动画，是多媒体输出的主要窗口。"
+      },
+      "transform": {
+        "translation": [
+          1.0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "crt_tube"
+      ],
+      "annotations": [
+        "monitor_role"
+      ],
+      "mesh_ref": "assemblies/monitor.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "cpu_68000",
+      "name": "68000 处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "68000 处理器在整机中作为 16/32 位中央处理器，执行取指、译码与运算，是机器的运算核心。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "cpu_68000_role"
+      ]
+    },
+    {
+      "id": "agnus",
+      "name": "Agnus 芯片",
+      "type": "chip",
+      "role": {
+        "zh": "Agnus 芯片在整机中负责内存与总线控制，协调各芯片对内存的访问，是三芯片组的中枢。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "agnus_role"
+      ]
+    },
+    {
+      "id": "denise",
+      "name": "Denise 芯片",
+      "type": "chip",
+      "role": {
+        "zh": "Denise 芯片在整机中负责图形输出，生成彩色画面与硬件精灵动画，是多媒体显示的核心。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "denise_role"
+      ]
+    },
+    {
+      "id": "paula",
+      "name": "Paula 芯片",
+      "type": "chip",
+      "role": {
+        "zh": "Paula 芯片在整机中负责四声道音频与软驱控制，生成立体声音效，是多媒体声音的核心。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "paula_role"
+      ]
+    },
+    {
+      "id": "power_switch",
+      "name": "电源开关",
+      "type": "switch",
+      "role": {
+        "zh": "电源开关在整机中控制整机供电的通断，是机器的启停入口。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "power_switch_role"
+      ]
+    },
+    {
+      "id": "power_led",
+      "name": "电源指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "电源指示灯在整机中点亮表示系统已上电，是判断机器是否开启的状态指示。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "power_led_role"
+      ]
+    },
+    {
+      "id": "keyboard_keys",
+      "name": "键盘按键",
+      "type": "key",
+      "role": {
+        "zh": "键盘按键在整机中接收字符输入，把按键转换为电信号送入主板，是文字输入的核心部件。"
+      },
+      "assembly": "keyboard",
+      "annotations": [
+        "keyboard_keys_role"
+      ]
+    },
+    {
+      "id": "ram_chips",
+      "name": "内存芯片",
+      "type": "memory",
+      "role": {
+        "zh": "内存芯片在整机中提供运行时的数据暂存空间，为程序与图形提供内存。"
+      },
+      "assembly": "motherboard",
+      "annotations": [
+        "ram_chips_role"
+      ]
+    },
+    {
+      "id": "eject_button",
+      "name": "弹出按钮",
+      "type": "button",
+      "role": {
+        "zh": "弹出按钮在整机中推出软盘，采用机械式操作，完成退盘动作。"
+      },
+      "assembly": "floppy",
+      "annotations": [
+        "eject_button_role"
+      ]
+    },
+    {
+      "id": "mouse_button",
+      "name": "鼠标按键",
+      "type": "button",
+      "role": {
+        "zh": "鼠标按键在整机中产生点击信号，配合指针完成选择与确认操作。"
+      },
+      "assembly": "mouse",
+      "annotations": [
+        "mouse_button_role"
+      ]
+    },
+    {
+      "id": "crt_tube",
+      "name": "显像管",
+      "type": "crt",
+      "role": {
+        "zh": "显像管在整机中把电信号转换为彩色画面，是图形界面的显示核心。"
+      },
+      "assembly": "monitor",
+      "annotations": [
+        "crt_tube_role"
+      ]
+    },
+    {
+      "id": "serial_port",
+      "name": "串行接口",
+      "type": "connector",
+      "role": {
+        "zh": "串行接口在整机中连接外部设备，是机器与外设通信的通道之一。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "serial_port_role"
+      ]
+    },
+    {
+      "id": "rgb_port",
+      "name": "视频接口",
+      "type": "connector",
+      "role": {
+        "zh": "视频接口在整机中输出视频信号给显示器，是图形输出的通道。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "rgb_port_role"
+      ]
+    },
+    {
+      "id": "expansion_port",
+      "name": "扩展接口",
+      "type": "connector",
+      "role": {
+        "zh": "扩展接口在整机中连接扩展设备，为机器扩展功能提供通道。"
+      },
+      "assembly": "case",
+      "annotations": [
+        "expansion_port_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "uae",
+    "version": "0.0.0",
+    "system": "Commodore Amiga 1000 (Multimedia Computer)",
+    "media_hint": "floppy",
+    "bios_required": true,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "external_crt_0",
+        "surface": "external_crt",
+        "type": "video",
+        "format": "rgb"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "reset": {
+        "map": "keyboard",
+        "key": "KEY_RESET"
+      },
+      "enter": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "space": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      },
+      "escape": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      },
+      "mouse_move": {
+        "map": "mouse",
+        "key": "motion"
+      },
+      "mouse_click": {
+        "map": "mouse",
+        "key": "btn_left"
+      },
+      "mouse_right": {
+        "map": "mouse",
+        "key": "btn_right"
+      }
+    }
+  }
+}

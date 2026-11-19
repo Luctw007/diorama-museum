@@ -1,0 +1,15 @@
+# THIRD_PARTY.md — 第三方资产许可清册
+
+> UNIVAC I 设备包（TASK-193-A 生产）。本包全部网格资产（`assemblies/*.gltf`）为**原创占位盒**，不包含任何第三方二进制资产。
+> 下列行登记本包**引用为参考来源**的第三方资料（用于文案与技术参数，非再分发资产）。
+
+| 资产 | 类型 | 许可分档 | 来源 URL | 获取日期 | 说明 |
+|---|---|---|---|---|---|
+| Wikipedia — UNIVAC I | 文档（索引） | cc | https://en.wikipedia.org/wiki/UNIVAC_I | 2026-11-13 | 史实底稿与百科文案，仅转述未复制 |
+| Computer History Museum — UNIVAC | 文档（索引） | visual_reference_only | https://www.computerhistory.org/ | 2026-11-13 | 史实交叉核对，仅视觉参考 |
+
+## 声明
+- 本包未包含任何无授权或版权不明的第三方资产；`assemblies/*.gltf` 均为原创占位盒（8 顶点 / 12 三角面）。
+- 上表第三方条目仅作**清单级引用**（文字转述 + 出处），未下载、未再分发任何受版权保护的图片、文本全文或二进制。
+- **无成熟模拟器**：UNIVAC I 无广泛可用的开源模拟器，`runtime.emulator="none"` 为静态 + 动画演示的显式声明；SIMH 候选许可「需核实」，本包未内嵌、未下载任何二进制。
+- **未下载任何磁带镜像 / 固件 / 二进制**：UNIVAC I 的软件与数据以金属磁带为载体，本包未下载、未再分发任何磁带镜像或固件（详见 `docs/research/hall-mainframe/11_UNIVAC1.md`）。

@@ -1,0 +1,56 @@
+{
+  "emulator": "none",
+  "version": "1.0.0",
+  "system": "CRT 彩色电视（静态展示）",
+  "media_hint": "none",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {
+      "id": "crt_display_0",
+      "surface": "crt_display",
+      "type": "video",
+      "format": "rgba8"
+    },
+    {
+      "id": "speaker_0",
+      "surface": "speaker",
+      "type": "audio",
+      "format": "pcm16"
+    }
+  ],
+  "input_map": {
+    "power": {
+      "map": "keyboard",
+      "key": "KEY_P"
+    },
+    "channel_up": {
+      "map": "keyboard",
+      "key": "KEY_UP"
+    },
+    "channel_down": {
+      "map": "keyboard",
+      "key": "KEY_DOWN"
+    },
+    "volume_up": {
+      "map": "keyboard",
+      "key": "KEY_RIGHT"
+    },
+    "volume_down": {
+      "map": "keyboard",
+      "key": "KEY_LEFT"
+    },
+    "band_vhf": {
+      "map": "keyboard",
+      "key": "KEY_V"
+    },
+    "band_uhf": {
+      "map": "keyboard",
+      "key": "KEY_U"
+    },
+    "demo_next": {
+      "map": "keyboard",
+      "key": "KEY_ENTER"
+    }
+  }
+}

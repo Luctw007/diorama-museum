@@ -25,7 +25,9 @@ PY = sys.executable
 TARGET_ROOT = os.path.join(REPO, "godot", "content")
 README_PATH = os.path.join(TARGET_ROOT, "README.md")
 
-VALIDATOR = r"D:\work\02\repo\tools\validate\validate.py"
+# TASK-226-B：校验器路径随共享工作根参数化（DCM_WORK 优先，回退 D:\work）
+VALIDATOR = os.path.join(os.environ.get("DCM_WORK", r"D:\work"),
+                         "02", "repo", "tools", "validate", "validate.py")
 # 门禁数据驱动化（TASK-41A）：来源清单自动发现，不再手工维护
 import pkg_registry as _reg  # noqa: E402
 SOURCES = _reg.discover_packages()

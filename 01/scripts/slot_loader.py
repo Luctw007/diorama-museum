@@ -37,8 +37,16 @@ BACKEND_TYPE_MODULE = {
     "dedicated": None, # 预留（家电通用类）
 }
 
+# TASK-191-A（A-1）：media_class 显式枚举（187-B 裁决：none 为正式合法枚举值，
+# 计入 CC-10「有值」口径，不视为缺失）。未知值允许通过但 stderr 提示对齐。
+MEDIA_CLASSES = ("disk", "firmware", "cartridge", "tape", "cd", "dvd", "card",
+                 "app_package", "none")
+
 # TASK-76A：运行时 emulator 语义名 → 规范槽位 id（单一真相源别名表）
-ALIASES = {"mame": "mame-apple2", "simh": "simh-pdp8"}
+ALIASES = {"mame": "mame-apple2", "simh": "simh-pdp8",
+           # TASK-206-A：03 线 altair-8800 runtime 声明 simh-altair8800（无连字符），
+           # 与槽位 id simh-altair-8800 对齐（[需核实] 建议 03 线后续统一命名）
+           "simh-altair8800": "simh-altair-8800"}
 
 
 def canonical(slot_or_emulator: str) -> str:
@@ -82,12 +90,19 @@ def load_manifests() -> list[dict]:
 
 
 def resolve_entry(manifest: dict) -> dict | None:
-    """manifest → 网关注册表条目；无法映射（后端模块缺失）返回 None。"""
+    """manifest → 网关注册表条目；无法映射（后端模块缺失）返回 None。
+
+    TASK-191-A：manifest 可显式声明 "module"（含 null=reserved 预留槽位，
+    如 simh-hp2100），优先于 backend_type 家族映射；未声明时按 BACKEND_TYPE_MODULE。
+    """
     slot_id = manifest.get("slot_id")
     backend = manifest.get("backend_type")
-    module = BACKEND_TYPE_MODULE.get(backend)
-    if module is None:
-        return None
+    if "module" in manifest:
+        module = manifest.get("module")          # 显式声明（null=预留，无后端）
+    else:
+        module = BACKEND_TYPE_MODULE.get(backend)
+        if module is None:
+            return None
     entry: dict = {
         "desc": manifest.get("description", slot_id),
         "license": manifest.get("license", "未声明（需核实）"),
@@ -95,9 +110,18 @@ def resolve_entry(manifest: dict) -> dict | None:
         "device_class": manifest.get("device_class", "other"),
         "media_classes": manifest.get("media_classes", []),
     }
+    # A-1：media_class 枚举核对（none 为正式合法值不告警；未知值放行但提示）
+    for mc in entry["media_classes"]:
+        if mc not in MEDIA_CLASSES:
+            print("[slot_loader] 槽位 %s media_class=%r 不在枚举 %s（放行，建议对齐）"
+                  % (slot_id, mc, "/".join(MEDIA_CLASSES)), file=sys.stderr)
     binary = manifest.get("binary")
     if binary:   # 相对 slots/emulators/<slot_id>/ 的二进制名
         entry["binary_hint"] = os.path.join("slots", "emulators", slot_id, binary)
+    # TASK-206-A：manifest 可显式 binary_hint（如 third_party/simh/nova），
+    # 使决策链缺失态提示与部署手册唯一内置定位路径一致
+    if manifest.get("binary_hint"):
+        entry["binary_hint"] = manifest["binary_hint"]
     if manifest.get("binary_env"):
         entry["binary_env"] = manifest["binary_env"]
     if manifest.get("keymap"):

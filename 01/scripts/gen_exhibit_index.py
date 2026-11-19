@@ -40,6 +40,10 @@ HALL_OF = {
     # TASK-176-B 第二批新品类：已实际出现者才映射（未出现的值不硬造）
     "phone": "手机与手持（Mobile & Handheld）",
     "pda": "手机与手持（Mobile & Handheld）",
+    # TASK-181-A 第二批候选预登记（173-A《第二批候选31-60_名单_v1》归类厅/大类口径；
+    # 本轮若包未命中不产生告警、不留空厅）：
+    "supercomputer": "大型机与小型机厅（Mainframe Hall）",   # CDC 6600/Cray-1：173-A 归「大型机/超级计算机」同组
+    "portable": "个人计算机厅（Personal Computer Hall）",     # Osborne 1/Compaq Portable：173-A「个人机（便携）」
     "placeholder": "示例（Samples）",
 }
 HALL_ORDER = [
@@ -49,6 +53,10 @@ HALL_ORDER = [
 ]
 # TASK-176-B：未登记 category 不再静默沉入示例厅，归入置末的未归类厅（stderr 告警可见）
 UNCLASSIFIED = "未归类（Unclassified）"
+# TASK-181-A：未归类落表路径（无未归类时也写 entries: []，供统筹/门禁扫描）
+UNCLASSIFIED_PATH = os.path.join(CONTENT, "unclassified_categories.json")
+# collect() 期间积累的未归类清单（main 写盘）
+_unclassified_entries: list[dict] = []
 
 
 def read_meta(pkg: str) -> dict:
@@ -104,11 +112,24 @@ def mesh_count(pkg: str) -> int:
     return len([f for f in os.listdir(meshes) if f.endswith(".gltf")])
 
 
+def is_device_pkg(pkg: str) -> bool:
+    """TASK-181-A：meta.json 含 meta 块才视为设备包。
+    godot/content/catalog（目录数据包，meta.json 无 meta 块）不再误入图鉴索引。"""
+    try:
+        with open(os.path.join(pkg, "meta.json"), encoding="utf-8") as fh:
+            data = json.load(fh)
+    except (OSError, ValueError):
+        return False
+    return isinstance(data.get("meta"), dict)
+
+
 def collect() -> dict:
+    global _unclassified_entries
+    _unclassified_entries = []
     packages: list[dict] = []
     for name in sorted(os.listdir(CONTENT)):
         pkg = os.path.join(CONTENT, name)
-        if not os.path.isdir(pkg) or not os.path.isfile(os.path.join(pkg, "meta.json")):
+        if not os.path.isdir(pkg) or not is_device_pkg(pkg):
             continue
         meta = read_meta(pkg)
         runtime = read_runtime(pkg)
@@ -130,6 +151,7 @@ def collect() -> dict:
         if hall is None:
             print("[需核实] 未归类 category=%s（设备 %s）" % (cat, d["id"]),
                   file=sys.stderr)
+            _unclassified_entries.append({"id": d["id"], "category": cat})
             hall = UNCLASSIFIED
         halls.setdefault(hall, []).append(d)
     hall_list = [{"hall": h, "devices": halls[h]} for h in HALL_ORDER if h in halls]
@@ -156,7 +178,8 @@ def verify(index: dict) -> bool:
     flat = {(d["id"]): d for hall in index["halls"] for d in hall["devices"]}
     for name in sorted(os.listdir(CONTENT)):
         pkg = os.path.join(CONTENT, name)
-        if not os.path.isdir(pkg) or not os.path.isfile(os.path.join(pkg, "meta.json")):
+        # TASK-181-A：与 collect() 同一 is_device_pkg 判定，避免 catalog 误报「索引缺条目」
+        if not os.path.isdir(pkg) or not is_device_pkg(pkg):
             continue
         meta = read_meta(pkg)
         runtime = read_runtime(pkg)
@@ -194,6 +217,12 @@ def main(argv: list[str] | None = None) -> int:
     with open(INDEX_PATH, "w", encoding="utf-8") as fh:
         json.dump(index, fh, ensure_ascii=False, indent=2)
     print("已写 %s" % INDEX_PATH)
+    # TASK-181-A：未归类落表（无未归类时 entries 为空数组，仍写文件）
+    payload = {"generated": __import__("datetime").datetime.now().isoformat(timespec="seconds"),
+               "entries": _unclassified_entries}
+    with open(UNCLASSIFIED_PATH, "w", encoding="utf-8") as fh:
+        json.dump(payload, fh, ensure_ascii=False, indent=2)
+    print("未归类落表 %s（%d 条）" % (UNCLASSIFIED_PATH, len(_unclassified_entries)))
     if args.verify:
         return 0 if verify(index) else 1
     return 0

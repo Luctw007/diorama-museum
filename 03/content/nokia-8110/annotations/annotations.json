@@ -1,0 +1,196 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "Nokia 8110 整机，1996 年诺基亚推出的弧形滑盖功能机，因「香蕉机」外号与《黑客帝国》出镜成为 GSM 时代流行文化的符号。"
+    },
+    {
+      "id": "slider_cover_role",
+      "type": "role",
+      "target": "slider_cover",
+      "text": "滑盖上盖在整机中构成弧形上盖，向上滑开露出话筒与键盘并接听电话，向下合上挂断，是「香蕉机」形态与滑盖接听交互的核心。"
+    },
+    {
+      "id": "body_role",
+      "type": "role",
+      "target": "body",
+      "text": "机身主体在整机中构成弧形机身下半部，承载主板、基带与射频芯片，是整机的结构骨架与运算核心。"
+    },
+    {
+      "id": "keypad_role",
+      "type": "role",
+      "target": "keypad",
+      "text": "键盘在整机中承载数字键与导航键，藏在滑盖下方，滑开后露出，是拨号与发短信的输入界面。"
+    },
+    {
+      "id": "lcd_role",
+      "type": "role",
+      "target": "lcd",
+      "text": "单色 LCD 屏在整机中显示文字、菜单与短信，位于机身上部，是 8110 的显示界面。"
+    },
+    {
+      "id": "microphone_role",
+      "type": "role",
+      "target": "microphone",
+      "text": "话筒在整机中位于滑盖前端，滑开后露出，负责拾取通话语音，是语音通话的输入部件。"
+    },
+    {
+      "id": "battery_role",
+      "type": "role",
+      "target": "battery",
+      "text": "电池在整机中为整机供电，可拆卸更换，是 8110 续航的来源。"
+    },
+    {
+      "id": "slider_shell_role",
+      "type": "role",
+      "target": "slider_shell",
+      "text": "滑盖外壳在整机中构成弧形上盖的外层，滑开露出话筒与键盘，是「香蕉机」弧线造型的直接来源。"
+    },
+    {
+      "id": "body_shell_role",
+      "type": "role",
+      "target": "body_shell",
+      "text": "机身壳在整机中构成弧形机身下半部的外层，承载主板与电池，是整机结构的主框架。"
+    },
+    {
+      "id": "baseband_chip_role",
+      "type": "role",
+      "target": "baseband_chip",
+      "text": "基带芯片在整机中处理 GSM 数字信号与协议，是通话与短信的运算核心。"
+    },
+    {
+      "id": "rf_chip_role",
+      "type": "role",
+      "target": "rf_chip",
+      "text": "射频芯片在整机中负责信号的发射与接收，是手机与基站通信的射频前端。"
+    },
+    {
+      "id": "sim_slot_role",
+      "type": "role",
+      "target": "sim_slot",
+      "text": "SIM 卡座在整机中容纳 SIM 卡，存储用户身份与网络鉴权信息，是 GSM「换机不换号」的关键。"
+    },
+    {
+      "id": "antenna_element_role",
+      "type": "role",
+      "target": "antenna_element",
+      "text": "天线元件在整机中位于机身内部，接收与发射 GSM 射频信号，实现无线通信。"
+    },
+    {
+      "id": "key_matrix_role",
+      "type": "role",
+      "target": "key_matrix",
+      "text": "数字键在整机中承载 0 至 9 数字键，是多键输入法打字与拨号的核心按键区。"
+    },
+    {
+      "id": "nav_keys_role",
+      "type": "role",
+      "target": "nav_keys",
+      "text": "导航键在整机中位于屏幕下方，上下左右移动光标，是菜单操作的关键。"
+    },
+    {
+      "id": "power_key_role",
+      "type": "role",
+      "target": "power_key",
+      "text": "电源键在整机中控制开关机，是 8110 的上电入口。"
+    },
+    {
+      "id": "lcd_panel_role",
+      "type": "role",
+      "target": "lcd_panel",
+      "text": "LCD 面板在整机中显示单色画面，是 8110 的信息与短信显示部件。"
+    },
+    {
+      "id": "backlight_role",
+      "type": "role",
+      "target": "backlight",
+      "text": "背光在整机中为单色 LCD 提供照明，让屏幕在暗处也清晰可读。"
+    },
+    {
+      "id": "mic_element_role",
+      "type": "role",
+      "target": "mic_element",
+      "text": "话筒元件在整机中拾取通话语音，滑开后露出，是语音通话的输入部件。"
+    },
+    {
+      "id": "battery_cell_role",
+      "type": "role",
+      "target": "battery_cell",
+      "text": "锂离子电池在整机中储存电能，为整机供电，可拆卸更换。"
+    },
+    {
+      "id": "charge_contact_role",
+      "type": "role",
+      "target": "charge_contact",
+      "text": "充电触点在整机中与充电器对接，为电池补充电能，是 8110 的充电接口。"
+    },
+    {
+      "id": "banana_phone",
+      "type": "flow",
+      "target": "whole",
+      "text": "香蕉机外号讲解：Nokia 8110 因独特的弧形机身被戏称为「香蕉机」，其流畅的弧线与滑盖设计让它成为 GSM 时代最具辨识度的手机造型之一。"
+    },
+    {
+      "id": "matrix_cameo",
+      "type": "flow",
+      "target": "whole",
+      "text": "《黑客帝国》出镜讲解：1999 年 Nokia 8110 在电影《黑客帝国》中出镜，Neo 手中那部弧形手机让「香蕉机」成为流行文化符号，一部手机由此走进一代人的共同记忆。"
+    },
+    {
+      "id": "gsm_2g",
+      "type": "flow",
+      "target": "whole",
+      "text": "GSM 2G 讲解：Nokia 8110 运行于第二代 GSM 数字网络，通话与短信以数字信号承载，比第一代模拟网络更抗干扰、更安全、容量更大。"
+    },
+    {
+      "id": "sms_link",
+      "type": "flow",
+      "target": "whole",
+      "text": "短信链路讲解：短信经「键入→SMS 编码→射频上行→基站→短消息中心→对方手机」的链路传递，几乎不占额外资源，却意外成为那个年代最主流的沟通方式。"
+    },
+    {
+      "id": "nokia_golden",
+      "type": "flow",
+      "target": "whole",
+      "text": "诺基亚黄金年代讲解：8110 与 3310 见证了诺基亚的巅峰，那个年代的诺基亚几乎就是「手机」的代名词，把芬兰这个北欧小国一度推向全球手机产业顶峰。"
+    },
+    {
+      "id": "lineage_3310",
+      "type": "flow",
+      "target": "whole",
+      "text": "谱系衔接讲解：从 1996 年的弧形滑盖 8110 到 2000 年耐摔可换壳的 3310，诺基亚用一串爆款定义了「手机属于每一个人」的 GSM 短信时代。"
+    },
+    {
+      "id": "era_symbol",
+      "type": "flow",
+      "target": "whole",
+      "text": "2G 时代符号讲解：Nokia 8110 是 2G 数字时代一个鲜明的符号，滑盖接听、短信、单色屏，共同构成了功能机黄金年代的生活图景。"
+    },
+    {
+      "id": "arc_design",
+      "type": "flow",
+      "target": "body",
+      "text": "弧形机身设计讲解：8110 的弧形机身贴合面部曲线，滑盖既保护键盘又能滑开接听，是「形式追随功能」的经典工业设计。"
+    },
+    {
+      "id": "monochrome_lcd",
+      "type": "flow",
+      "target": "lcd_panel",
+      "text": "单色 LCD 讲解：8110 的单色屏虽简陋却极其省电、阳光下清晰可读，是「用克制的硬件换可靠的体验」的功能机哲学。"
+    },
+    {
+      "id": "slider_answer",
+      "type": "flow",
+      "target": "slider_cover",
+      "text": "滑盖接听讲解：滑盖「咔哒」一声滑开即接听、合上即挂断，是 8110 区别于直板机的核心交互，也是那个年代最帅的接电话姿势。"
+    },
+    {
+      "id": "slider_anim",
+      "type": "anim",
+      "target": "slider_cover",
+      "text": "滑盖开合动画：上盖向上滑开，露出话筒与键盘，进入拨号界面；向下合上，挂断通话，回到待机状态。"
+    }
+  ]
+}

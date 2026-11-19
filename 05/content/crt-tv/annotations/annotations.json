@@ -1,0 +1,214 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "CRT 彩色电视整机，一台 1970 年代到 1990 年代家庭客厅中心的彩色电视，由木壳机箱、显像管、主板、调谐器与控制面板组成，是家电影音厅「客厅中心」叙事线的核心展品。",
+      "sources": []
+    },
+    {
+      "id": "cabinet_role",
+      "type": "role",
+      "target": "cabinet",
+      "text": "机箱在整机中作为立式木壳主体，包覆并固定显像管、主板与调谐器等内部部件，同时承载屏面前框、扬声器与拉杆天线，构成整机的外观壳体。",
+      "sources": []
+    },
+    {
+      "id": "speaker_role",
+      "type": "role",
+      "target": "cabinet",
+      "text": "扬声器在整机中把伴音电信号还原为声音，位于屏幕下方或机箱侧面，是整机的声音输出器件。",
+      "sources": []
+    },
+    {
+      "id": "antenna_role",
+      "type": "role",
+      "target": "cabinet",
+      "text": "拉杆天线在整机中接收空中广播射频信号，位于机箱顶部或背部，是无线电视时代的信号入口。",
+      "sources": []
+    },
+    {
+      "id": "crt_tube_role",
+      "type": "role",
+      "target": "crt_tube",
+      "text": "显像管在整机中把视频信号还原为彩色画面，电子枪发射电子束逐行扫描屏面，撞击红绿蓝三色荧光粉发光成像，是整机最核心的显示器件。",
+      "sources": []
+    },
+    {
+      "id": "crt_glass_role",
+      "type": "role",
+      "target": "crt_tube",
+      "text": "玻壳在整机中构成显像管的真空玻璃外壳，前部为屏面、后部收窄为管颈，内部维持高真空以保证电子束自由飞行。",
+      "sources": []
+    },
+    {
+      "id": "screen_role",
+      "type": "role",
+      "target": "crt_tube",
+      "text": "屏面在整机中作为显像管前端的显示窗口，以四比三比例呈现画面，关机态呈深灰纯色，亮机时由电子束激发荧光粉发光。",
+      "sources": []
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中承载视频、扫描与伴音电路，把调谐器送来的中频信号解调处理为驱动显像管与扬声器的电信号。",
+      "sources": []
+    },
+    {
+      "id": "tuner_module_role",
+      "type": "role",
+      "target": "tuner_module",
+      "text": "调谐器在整机中接收并选择 VHF 与 UHF 广播频道，把选中的射频信号变频为中频后送给主板解调，是整机的信号接收前端。",
+      "sources": []
+    },
+    {
+      "id": "control_panel_role",
+      "type": "role",
+      "target": "control_panel",
+      "text": "控制面板在整机中提供调台、音量旋钮与电源开关，位于前面板下方，是用户与电视交互的主要操作区。",
+      "sources": []
+    },
+    {
+      "id": "control_knob_role",
+      "type": "role",
+      "target": "control_panel",
+      "text": "调台与音量旋钮在整机中供用户转动选择频道或调节音量，位于控制面板上，是旋钮时代电视最典型的交互部件。",
+      "sources": []
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "control_panel",
+      "text": "电源开关在整机中控制整机的通断电，位于前面板或顶部，由用户拨动或按压操作。",
+      "sources": []
+    },
+    {
+      "id": "video_processor_role",
+      "type": "role",
+      "target": "video_processor",
+      "text": "视频处理 IC 在整机中解调亮度与色度信号，生成驱动显像管的 RGB 视频信号，是图像通路的核心芯片。",
+      "sources": []
+    },
+    {
+      "id": "audio_ic_role",
+      "type": "role",
+      "target": "audio_ic",
+      "text": "伴音 IC 在整机中解调伴音信号并放大，驱动扬声器还原电视伴音，是声音通路的核心芯片。",
+      "sources": []
+    },
+    {
+      "id": "deflection_ic_role",
+      "type": "role",
+      "target": "deflection_ic",
+      "text": "扫描偏转 IC 在整机中产生行场扫描波形，控制电子束在屏面逐行偏转扫描，是成像时序的关键芯片。",
+      "sources": []
+    },
+    {
+      "id": "tuner_ic_role",
+      "type": "role",
+      "target": "tuner_ic",
+      "text": "调谐器 IC 在整机中执行频道选择与变频，把选中的射频信号转换为中频信号，是调谐器的核心芯片。",
+      "sources": []
+    },
+    {
+      "id": "living_room_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "客厅中心的诞生：彩色电视把家庭成员的视听注意力汇聚到客厅，让客厅第一次有了共同的中心，串起家电影音厅站 2 的叙事线索。",
+      "sources": []
+    },
+    {
+      "id": "crt_principle_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "阴极射线管原理：电子枪发射的电子束在偏转线圈作用下逐行扫描，击中屏面荧光粉发光，快速刷新形成完整画面。",
+      "sources": []
+    },
+    {
+      "id": "electron_gun_flow",
+      "type": "flow",
+      "target": "crt_tube",
+      "text": "电子枪扫描：三束电子分别对应红绿蓝三色，经栅极调制强度后聚焦，在屏面逐点逐行扫描成像。",
+      "sources": []
+    },
+    {
+      "id": "color_phosphor_flow",
+      "type": "flow",
+      "target": "crt_tube",
+      "text": "三色荧光粉：屏面内壁按规律涂布红绿蓝荧光粉，电子束激发不同荧光粉发出对应色光，混合出彩色画面。",
+      "sources": []
+    },
+    {
+      "id": "tuner_flow",
+      "type": "flow",
+      "target": "tuner_module",
+      "text": "调谐接收流程：天线收到射频信号后送入调谐器，经频道选择与变频转为中频信号，再送主板解调。",
+      "sources": []
+    },
+    {
+      "id": "vhf_uhf_flow",
+      "type": "flow",
+      "target": "tuner_module",
+      "text": "VHF 与 UHF 频段：早期电视广播分 VHF 与 UHF 两段，用户通过旋钮在频段内逐台选择频道。",
+      "sources": []
+    },
+    {
+      "id": "knob_tune_flow",
+      "type": "flow",
+      "target": "control_panel",
+      "text": "旋钮调台：转动调台旋钮改变调谐器频率，屏面从雪花噪声跳转到对应频道的清晰画面。",
+      "sources": []
+    },
+    {
+      "id": "volume_flow",
+      "type": "flow",
+      "target": "control_panel",
+      "text": "音量调节：转动音量旋钮改变伴音放大增益，扬声器音量随之增大或减小。",
+      "sources": []
+    },
+    {
+      "id": "broadcast_era_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "广播电视时代：无线广播电视是 1970 年代到 1990 年代家庭获取视听内容的主要渠道，彩色电视是这一时代的标志。",
+      "sources": []
+    },
+    {
+      "id": "home_av_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "家庭影音生态：彩色电视与录像机、影碟机共同构成客厅影音生态，电视作为显示中心串联起家电影音厅后续各站。",
+      "sources": []
+    },
+    {
+      "id": "remote_control_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "遥控交互变迁：从机顶旋钮调台到红外遥控器换台，电视的交互方式随年代演进，遥控器把操作从机前解放到沙发。",
+      "sources": []
+    },
+    {
+      "id": "signal_path_flow",
+      "type": "flow",
+      "target": "mainboard",
+      "text": "信号通路：天线接收的射频信号经调谐器变频、主板解调后，视频送显像管成像、伴音送扬声器发声，构成完整的电视信号链。",
+      "sources": []
+    },
+    {
+      "id": "tune_anim",
+      "type": "anim",
+      "target": "control_panel",
+      "text": "旋钮调台动画：转动调台旋钮，屏面由黑白雪花噪声过渡到清晰的彩色画面，演示旋钮调台原理；单次全程约 2 秒。",
+      "sources": []
+    },
+    {
+      "id": "screen_on_anim",
+      "type": "anim",
+      "target": "whole",
+      "text": "开机亮屏动画：按下电源开关，电源指示灯点亮，显像管屏面由暗渐亮并浮现画面，演示开机成像过程；全程约 2 秒。",
+      "sources": []
+    }
+  ]
+}

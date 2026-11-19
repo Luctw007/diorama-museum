@@ -1,0 +1,665 @@
+{
+  "meta": {
+    "id": "cray-1",
+    "name": {
+      "zh": "Cray-1（向量超级计算机）",
+      "en": "Cray-1 (Vector Supercomputer)"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1976,
+    "manufacturer": "Cray Research",
+    "category": "supercomputer",
+    "description": "1976 年推出的向量超级计算机，由 Seymour Cray 设计，以环形机柜与 C 形座椅成为超级计算机的视觉象征，首台交付洛斯阿拉莫斯国家实验室。",
+    "authors": [
+      {
+        "name": "TASK-203-A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Cray-1（索引）",
+        "url": "https://en.wikipedia.org/wiki/Cray-1",
+        "license": "cc",
+        "accessed_at": "2026-11-15"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum — Cray-1",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-15"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Cray-1 整机，1976 年推出的向量超级计算机，以环形机柜与 C 形座椅闻名，是超级计算机的视觉象征，由 Seymour Cray 设计。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "ring_cabinet",
+        "vector_unit",
+        "memory",
+        "cooling",
+        "seat"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role"
+      ]
+    },
+    {
+      "id": "ring_cabinet",
+      "name": "环形机柜",
+      "role": {
+        "zh": "环形机柜在整机中由立柱围成 C 形，承载向量处理单元与内存，并提供控制面板供操作员交互。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "sw_data_00",
+        "sw_data_01",
+        "sw_data_02",
+        "sw_data_03",
+        "sw_data_04",
+        "sw_data_05",
+        "sw_data_06",
+        "sw_data_07",
+        "sw_load_addr",
+        "sw_exam",
+        "sw_dep",
+        "sw_start",
+        "sw_continue",
+        "sw_stop",
+        "sw_clear",
+        "lamp_data_00",
+        "lamp_data_01",
+        "lamp_data_02",
+        "lamp_data_03",
+        "lamp_data_04",
+        "lamp_data_05",
+        "lamp_data_06",
+        "lamp_data_07",
+        "lamp_run"
+      ],
+      "annotations": [
+        "ring_cabinet_role"
+      ],
+      "mesh_ref": "assemblies/ring_cabinet.gltf"
+    },
+    {
+      "id": "vector_unit",
+      "name": "向量处理单元",
+      "role": {
+        "zh": "向量处理单元在整机中执行向量运算，一条指令处理一串数据，是算力的核心。"
+      },
+      "transform": {
+        "translation": [
+          0.4,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "vector_processor"
+      ],
+      "annotations": [
+        "vector_unit_role"
+      ],
+      "mesh_ref": "assemblies/vector_unit.gltf"
+    },
+    {
+      "id": "memory",
+      "name": "内存",
+      "role": {
+        "zh": "内存在整机中承载高速内存模块，为向量运算提供数据吞吐。"
+      },
+      "transform": {
+        "translation": [
+          0.8,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "memory_module"
+      ],
+      "annotations": [
+        "memory_role"
+      ],
+      "mesh_ref": "assemblies/memory.gltf"
+    },
+    {
+      "id": "cooling",
+      "name": "冷却系统",
+      "role": {
+        "zh": "冷却系统在整机中用氟利昂循环带走处理器热量，维持高速运算下的稳定温度。"
+      },
+      "transform": {
+        "translation": [
+          1.2,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "cooling_loop"
+      ],
+      "annotations": [
+        "cooling_role"
+      ],
+      "mesh_ref": "assemblies/cooling.gltf"
+    },
+    {
+      "id": "seat",
+      "name": "C 形座椅",
+      "role": {
+        "zh": "C 形座椅在整机中嵌于机柜内侧，供操作员就座维护，是 Cray-1 标志性工业设计的一部分。"
+      },
+      "transform": {
+        "translation": [
+          1.6,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "operator_seat"
+      ],
+      "annotations": [
+        "seat_role"
+      ],
+      "mesh_ref": "assemblies/seat.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "sw_data_00",
+      "name": "数据拨动开关 0",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 0 位在整机中设定数据的第 0 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "sw_data_00_role"
+      ]
+    },
+    {
+      "id": "sw_data_01",
+      "name": "数据拨动开关 1",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 1 位在整机中设定数据的第 1 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "sw_data_01_role"
+      ]
+    },
+    {
+      "id": "sw_data_02",
+      "name": "数据拨动开关 2",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 2 位在整机中设定数据的第 2 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "sw_data_02_role"
+      ]
+    },
+    {
+      "id": "sw_data_03",
+      "name": "数据拨动开关 3",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 3 位在整机中设定数据的第 3 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "sw_data_03_role"
+      ]
+    },
+    {
+      "id": "sw_data_04",
+      "name": "数据拨动开关 4",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 4 位在整机中设定数据的第 4 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "sw_data_04_role"
+      ]
+    },
+    {
+      "id": "sw_data_05",
+      "name": "数据拨动开关 5",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 5 位在整机中设定数据的第 5 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "sw_data_05_role"
+      ]
+    },
+    {
+      "id": "sw_data_06",
+      "name": "数据拨动开关 6",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 6 位在整机中设定数据的第 6 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "sw_data_06_role"
+      ]
+    },
+    {
+      "id": "sw_data_07",
+      "name": "数据拨动开关 7",
+      "type": "switch",
+      "role": {
+        "zh": "数据拨动开关第 7 位在整机中设定数据的第 7 位，向上为 1、向下为 0，用于手动输入数据。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "sw_data_07_role"
+      ]
+    },
+    {
+      "id": "sw_load_addr",
+      "name": "装载地址开关",
+      "type": "switch",
+      "role": {
+        "zh": "装载地址开关在整机中把拨键设定的地址送入地址寄存器，定位要检视或写入的内存单元。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "sw_load_addr_role"
+      ]
+    },
+    {
+      "id": "sw_exam",
+      "name": "检视开关",
+      "type": "switch",
+      "role": {
+        "zh": "检视开关在整机中把当前地址单元的内容读出并显示在数据指示灯上，供操作员查看。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "sw_exam_role"
+      ]
+    },
+    {
+      "id": "sw_dep",
+      "name": "写入开关",
+      "type": "switch",
+      "role": {
+        "zh": "写入开关在整机中把拨键设定的数据写入当前地址单元，完成一次手动存数。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "sw_dep_role"
+      ]
+    },
+    {
+      "id": "sw_start",
+      "name": "运行开关",
+      "type": "switch",
+      "role": {
+        "zh": "运行开关在整机中使处理器从当前地址开始连续执行程序。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "sw_start_role"
+      ]
+    },
+    {
+      "id": "sw_continue",
+      "name": "单步开关",
+      "type": "switch",
+      "role": {
+        "zh": "单步开关在整机中使处理器每次只执行一步运算，便于逐步调试程序。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "sw_continue_role"
+      ]
+    },
+    {
+      "id": "sw_stop",
+      "name": "停机开关",
+      "type": "switch",
+      "role": {
+        "zh": "停机开关在整机中暂停处理器的执行，使机器回到手动控制状态。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "sw_stop_role"
+      ]
+    },
+    {
+      "id": "sw_clear",
+      "name": "复位开关",
+      "type": "switch",
+      "role": {
+        "zh": "复位开关在整机中复位处理器与各状态标志，使机器回到初始状态。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "sw_clear_role"
+      ]
+    },
+    {
+      "id": "lamp_data_00",
+      "name": "数据指示灯 0",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 0 位在整机中点亮表示数据第 0 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "lamp_data_00_role"
+      ]
+    },
+    {
+      "id": "lamp_data_01",
+      "name": "数据指示灯 1",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 1 位在整机中点亮表示数据第 1 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "lamp_data_01_role"
+      ]
+    },
+    {
+      "id": "lamp_data_02",
+      "name": "数据指示灯 2",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 2 位在整机中点亮表示数据第 2 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "lamp_data_02_role"
+      ]
+    },
+    {
+      "id": "lamp_data_03",
+      "name": "数据指示灯 3",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 3 位在整机中点亮表示数据第 3 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "lamp_data_03_role"
+      ]
+    },
+    {
+      "id": "lamp_data_04",
+      "name": "数据指示灯 4",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 4 位在整机中点亮表示数据第 4 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "lamp_data_04_role"
+      ]
+    },
+    {
+      "id": "lamp_data_05",
+      "name": "数据指示灯 5",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 5 位在整机中点亮表示数据第 5 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "lamp_data_05_role"
+      ]
+    },
+    {
+      "id": "lamp_data_06",
+      "name": "数据指示灯 6",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 6 位在整机中点亮表示数据第 6 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "lamp_data_06_role"
+      ]
+    },
+    {
+      "id": "lamp_data_07",
+      "name": "数据指示灯 7",
+      "type": "lamp",
+      "role": {
+        "zh": "数据指示灯第 7 位在整机中点亮表示数据第 7 位为 1、熄灭表示 0，是操作员读取数据的主要窗口。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "lamp_data_07_role"
+      ]
+    },
+    {
+      "id": "lamp_run",
+      "name": "运行指示灯",
+      "type": "lamp",
+      "role": {
+        "zh": "运行指示灯在整机中于处理器执行程序期间持续点亮，是判断机器是否在运行的状态指示。"
+      },
+      "assembly": "ring_cabinet",
+      "annotations": [
+        "lamp_run_role"
+      ]
+    },
+    {
+      "id": "vector_processor",
+      "name": "向量处理器",
+      "type": "cpu",
+      "role": {
+        "zh": "向量处理器在整机中一次处理一串数据，大幅提升科学计算的吞吐，是向量处理革命的核心。"
+      },
+      "assembly": "vector_unit",
+      "annotations": [
+        "vector_processor_role"
+      ]
+    },
+    {
+      "id": "memory_module",
+      "name": "内存模块",
+      "type": "memory",
+      "role": {
+        "zh": "内存模块在整机中作为高速主存，为向量运算提供持续的数据吞吐。"
+      },
+      "assembly": "memory",
+      "annotations": [
+        "memory_module_role"
+      ]
+    },
+    {
+      "id": "cooling_loop",
+      "name": "氟利昂冷却回路",
+      "type": "cooling",
+      "role": {
+        "zh": "氟利昂冷却回路在整机中循环制冷剂带走处理器热量，维持高速运算的稳定温度。"
+      },
+      "assembly": "cooling",
+      "annotations": [
+        "cooling_loop_role"
+      ]
+    },
+    {
+      "id": "operator_seat",
+      "name": "操作员座椅",
+      "type": "seat",
+      "role": {
+        "zh": "操作员座椅在整机中嵌于环形机柜内侧，供操作员就座维护，是 Cray-1 标志性设计的一部分。"
+      },
+      "assembly": "seat",
+      "annotations": [
+        "operator_seat_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "0.0.0",
+    "system": "Cray-1 (Vector Supercomputer)",
+    "media_hint": "tape",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "indicator_lamps_0",
+        "surface": "indicator_lamps",
+        "type": "video",
+        "format": "mono1"
+      },
+      {
+        "id": "terminal_0",
+        "surface": "terminal",
+        "type": "video",
+        "format": "text"
+      }
+    ],
+    "input_map": {
+      "load_addr": {
+        "map": "keyboard",
+        "key": "KEY_L"
+      },
+      "exam": {
+        "map": "keyboard",
+        "key": "KEY_E"
+      },
+      "dep": {
+        "map": "keyboard",
+        "key": "KEY_D"
+      },
+      "start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "continue": {
+        "map": "keyboard",
+        "key": "KEY_C"
+      },
+      "stop": {
+        "map": "keyboard",
+        "key": "KEY_STOP"
+      },
+      "clear": {
+        "map": "keyboard",
+        "key": "KEY_CLEAR"
+      },
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      }
+    }
+  }
+}

@@ -1,0 +1,546 @@
+{
+  "meta": {
+    "id": "nokia-8110",
+    "name": {
+      "zh": "Nokia 8110",
+      "en": "Nokia 8110"
+    },
+    "intro": {
+      "zh": "Nokia 8110 是诺基亚 1996 年推出的弧形滑盖功能机，因「香蕉机」外号与《黑客帝国》出镜成为流行文化符号，是 GSM 短信时代最富辨识度的手机之一。",
+      "en": "The Nokia 8110, launched in 1996, became a pop-culture icon with its curved slider 'banana' design and its cameo in The Matrix, one of the most recognizable phones of the GSM era."
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "era": 1996,
+    "manufacturer": "Nokia",
+    "category": "phone",
+    "description": "Nokia 8110（1996），GSM 2G 数字功能机：弧形滑盖「香蕉机」、单色 LCD（需核实）、SMS 短信、滑盖接听、《黑客帝国》出镜。演示向（无成熟模拟器，固件红线）。",
+    "authors": [
+      {
+        "name": "TASK-218-A 生产",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Nokia 8110",
+        "url": "https://en.wikipedia.org/wiki/Nokia_8110",
+        "license": "cc",
+        "accessed_at": "2026-11-16"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — Nokia",
+        "url": "https://en.wikipedia.org/wiki/Nokia",
+        "license": "cc",
+        "accessed_at": "2026-11-16"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — SMS",
+        "url": "https://en.wikipedia.org/wiki/SMS",
+        "license": "cc",
+        "accessed_at": "2026-11-16"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia — The Matrix",
+        "url": "https://en.wikipedia.org/wiki/The_Matrix",
+        "license": "cc",
+        "accessed_at": "2026-11-16"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Nokia 8110 整机，1996 年诺基亚推出的弧形滑盖功能机，因「香蕉机」外号与《黑客帝国》出镜成为 GSM 时代流行文化的符号。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": null,
+      "children": [
+        "slider_cover",
+        "body",
+        "keypad",
+        "lcd",
+        "microphone",
+        "battery"
+      ],
+      "components": [],
+      "annotations": [
+        "whole_role",
+        "banana_phone",
+        "matrix_cameo",
+        "gsm_2g",
+        "sms_link",
+        "nokia_golden",
+        "lineage_3310",
+        "era_symbol"
+      ]
+    },
+    {
+      "id": "slider_cover",
+      "name": "滑盖上盖",
+      "role": {
+        "zh": "滑盖上盖在整机中构成弧形上盖，向上滑开露出话筒与键盘并接听电话，向下合上挂断，是「香蕉机」形态与滑盖接听交互的核心。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "slider_shell"
+      ],
+      "annotations": [
+        "slider_cover_role",
+        "slider_answer",
+        "slider_anim"
+      ],
+      "mesh_ref": "assemblies/slider_cover.gltf"
+    },
+    {
+      "id": "body",
+      "name": "机身主体",
+      "role": {
+        "zh": "机身主体在整机中构成弧形机身下半部，承载主板、基带与射频芯片，是整机的结构骨架与运算核心。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "body_shell",
+        "baseband_chip",
+        "rf_chip",
+        "sim_slot",
+        "antenna_element"
+      ],
+      "annotations": [
+        "body_role",
+        "arc_design"
+      ],
+      "mesh_ref": "assemblies/body.gltf"
+    },
+    {
+      "id": "keypad",
+      "name": "键盘",
+      "role": {
+        "zh": "键盘在整机中承载数字键与导航键，藏在滑盖下方，滑开后露出，是拨号与发短信的输入界面。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "key_matrix",
+        "nav_keys",
+        "power_key"
+      ],
+      "annotations": [
+        "keypad_role"
+      ],
+      "mesh_ref": "assemblies/keypad.gltf"
+    },
+    {
+      "id": "lcd",
+      "name": "单色 LCD 屏",
+      "role": {
+        "zh": "单色 LCD 屏在整机中显示文字、菜单与短信，位于机身上部，是 8110 的显示界面。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "lcd_panel",
+        "backlight"
+      ],
+      "annotations": [
+        "lcd_role",
+        "monochrome_lcd"
+      ],
+      "mesh_ref": "assemblies/lcd.gltf"
+    },
+    {
+      "id": "microphone",
+      "name": "话筒",
+      "role": {
+        "zh": "话筒在整机中位于滑盖前端，滑开后露出，负责拾取通话语音，是语音通话的输入部件。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "mic_element"
+      ],
+      "annotations": [
+        "microphone_role"
+      ],
+      "mesh_ref": "assemblies/microphone.gltf"
+    },
+    {
+      "id": "battery",
+      "name": "电池",
+      "role": {
+        "zh": "电池在整机中为整机供电，可拆卸更换，是 8110 续航的来源。"
+      },
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [
+        "battery_cell",
+        "charge_contact"
+      ],
+      "annotations": [
+        "battery_role"
+      ],
+      "mesh_ref": "assemblies/battery.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "slider_shell",
+      "name": "滑盖外壳",
+      "type": "cover",
+      "assembly": "slider_cover",
+      "role": {
+        "zh": "滑盖外壳在整机中构成弧形上盖的外层，滑开露出话筒与键盘，是「香蕉机」弧线造型的直接来源。"
+      },
+      "annotations": [
+        "slider_shell_role"
+      ]
+    },
+    {
+      "id": "body_shell",
+      "name": "机身壳",
+      "type": "cover",
+      "assembly": "body",
+      "role": {
+        "zh": "机身壳在整机中构成弧形机身下半部的外层，承载主板与电池，是整机结构的主框架。"
+      },
+      "annotations": [
+        "body_shell_role"
+      ]
+    },
+    {
+      "id": "baseband_chip",
+      "name": "基带芯片",
+      "type": "ic",
+      "assembly": "body",
+      "role": {
+        "zh": "基带芯片在整机中处理 GSM 数字信号与协议，是通话与短信的运算核心。"
+      },
+      "annotations": [
+        "baseband_chip_role"
+      ]
+    },
+    {
+      "id": "rf_chip",
+      "name": "射频芯片",
+      "type": "ic",
+      "assembly": "body",
+      "role": {
+        "zh": "射频芯片在整机中负责信号的发射与接收，是手机与基站通信的射频前端。"
+      },
+      "annotations": [
+        "rf_chip_role"
+      ]
+    },
+    {
+      "id": "sim_slot",
+      "name": "SIM 卡座",
+      "type": "slot",
+      "assembly": "body",
+      "role": {
+        "zh": "SIM 卡座在整机中容纳 SIM 卡，存储用户身份与网络鉴权信息，是 GSM「换机不换号」的关键。"
+      },
+      "annotations": [
+        "sim_slot_role"
+      ]
+    },
+    {
+      "id": "antenna_element",
+      "name": "天线元件",
+      "type": "antenna",
+      "assembly": "body",
+      "role": {
+        "zh": "天线元件在整机中位于机身内部，接收与发射 GSM 射频信号，实现无线通信。"
+      },
+      "annotations": [
+        "antenna_element_role"
+      ]
+    },
+    {
+      "id": "key_matrix",
+      "name": "数字键",
+      "type": "keypad",
+      "assembly": "keypad",
+      "role": {
+        "zh": "数字键在整机中承载 0 至 9 数字键，是多键输入法打字与拨号的核心按键区。"
+      },
+      "annotations": [
+        "key_matrix_role"
+      ]
+    },
+    {
+      "id": "nav_keys",
+      "name": "导航键",
+      "type": "button",
+      "assembly": "keypad",
+      "role": {
+        "zh": "导航键在整机中位于屏幕下方，上下左右移动光标，是菜单操作的关键。"
+      },
+      "annotations": [
+        "nav_keys_role"
+      ]
+    },
+    {
+      "id": "power_key",
+      "name": "电源键",
+      "type": "button",
+      "assembly": "keypad",
+      "role": {
+        "zh": "电源键在整机中控制开关机，是 8110 的上电入口。"
+      },
+      "annotations": [
+        "power_key_role"
+      ]
+    },
+    {
+      "id": "lcd_panel",
+      "name": "LCD 面板",
+      "type": "lcd",
+      "assembly": "lcd",
+      "role": {
+        "zh": "LCD 面板在整机中显示单色画面，是 8110 的信息与短信显示部件。"
+      },
+      "annotations": [
+        "lcd_panel_role"
+      ]
+    },
+    {
+      "id": "backlight",
+      "name": "背光",
+      "type": "light",
+      "assembly": "lcd",
+      "role": {
+        "zh": "背光在整机中为单色 LCD 提供照明，让屏幕在暗处也清晰可读。"
+      },
+      "annotations": [
+        "backlight_role"
+      ]
+    },
+    {
+      "id": "mic_element",
+      "name": "话筒元件",
+      "type": "speaker",
+      "assembly": "microphone",
+      "role": {
+        "zh": "话筒元件在整机中拾取通话语音，滑开后露出，是语音通话的输入部件。"
+      },
+      "annotations": [
+        "mic_element_role"
+      ]
+    },
+    {
+      "id": "battery_cell",
+      "name": "锂离子电池",
+      "type": "battery",
+      "assembly": "battery",
+      "role": {
+        "zh": "锂离子电池在整机中储存电能，为整机供电，可拆卸更换。"
+      },
+      "annotations": [
+        "battery_cell_role"
+      ]
+    },
+    {
+      "id": "charge_contact",
+      "name": "充电触点",
+      "type": "connector",
+      "assembly": "battery",
+      "role": {
+        "zh": "充电触点在整机中与充电器对接，为电池补充电能，是 8110 的充电接口。"
+      },
+      "annotations": [
+        "charge_contact_role"
+      ]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Nokia 8110",
+    "media_hint": "firmware",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "handheld_lcd_0",
+        "surface": "handheld_lcd",
+        "type": "video",
+        "format": "mono"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "power": {
+        "map": "keyboard",
+        "key": "KEY_POWER"
+      },
+      "up": {
+        "map": "keyboard",
+        "key": "KEY_UP"
+      },
+      "down": {
+        "map": "keyboard",
+        "key": "KEY_DOWN"
+      },
+      "left": {
+        "map": "keyboard",
+        "key": "KEY_LEFT"
+      },
+      "right": {
+        "map": "keyboard",
+        "key": "KEY_RIGHT"
+      },
+      "enter": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      },
+      "clear": {
+        "map": "keyboard",
+        "key": "KEY_ESCAPE"
+      },
+      "dial": {
+        "map": "keyboard",
+        "key": "KEY_0"
+      }
+    }
+  }
+}
