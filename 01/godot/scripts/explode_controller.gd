@@ -207,6 +207,17 @@ func get_state() -> int:
 	return _state
 
 
+## F-6 深化（TASK-261-A）：实际拆解深度分档导出（depth_model.md L0-L3）。
+## 现行状态机仅全树一次爆炸（depth_model §4：EXPLODED = L1 展开），
+## L2/L3 需级联爆炸（子树视图）未实装——导出上限 L1，如实回退不臆造。
+func get_depth_level() -> int:
+	match _state:
+		State.EXPLODED:
+			return 1   # L1 大部件级（全树按深度爆炸）
+		_:
+			return 0   # L0 整机（CLOSED/OPENED 无展开形变）
+
+
 ## §4 运行锁接入点：网关 status(state=running) → 置 true；stopped/degraded → false
 func set_device_running(running: bool) -> void:
 	if running != _device_running:

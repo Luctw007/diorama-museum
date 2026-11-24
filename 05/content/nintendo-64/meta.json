@@ -1,0 +1,287 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "nintendo-64",
+    "name": {
+      "zh": "Nintendo 64（N64）",
+      "en": "Nintendo 64 (N64)"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "1996 年任天堂发布的 64 位家用游戏机，坚持卡带介质，以《超级马力欧 64》确立 3D 平台游戏范式、首次引入模拟摇杆，是游戏机厅第五代主机的卡带 3D 教科书。",
+    "category": "game-console",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Nintendo 64",
+        "url": "https://en.wikipedia.org/wiki/Nintendo_64",
+        "license": "cc",
+        "accessed_at": "2026-11-21"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Nintendo",
+        "url": "https://en.wikipedia.org/wiki/Nintendo",
+        "license": "cc",
+        "accessed_at": "2026-11-21"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-21"
+      }
+    ],
+    "intro": {
+      "zh": "Nintendo 64 是任天堂 1996 年发布的 64 位家用游戏机，在光盘世代逆流而上坚持卡带介质，却凭借《超级马力欧 64》等第一方大作确立了 3D 平台游戏的范式，并首次引入模拟摇杆，重新定义了 3D 游戏的操作方式。它是游戏机厅第五代主机中「卡带 3D 教科书」的独特存在。",
+      "en": "The Nintendo 64, released by Nintendo in 1996, was a 64-bit home console that held to cartridge media against the optical-disc tide, yet established the 3D platformer paradigm with first-party titles like Super Mario 64 and introduced the analog stick, redefining 3D game controls."
+    },
+    "era": 1996,
+    "manufacturer": "Nintendo"
+  },
+  "assemblies": [
+    {
+      "id": "chassis",
+      "name": "整机",
+      "role": {
+        "zh": "Nintendo 64 整机，由机箱、卡带槽、卡带、主板、电源、手柄接口、扩展槽与手柄组成，是游戏机厅第五代主机与卡带 3D 教科书叙事线的核心展品。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": null,
+      "children": ["cartridge_slot", "cartridge", "mainboard", "power_supply", "controller_port", "expansion_slot", "controller"],
+      "components": [],
+      "annotations": ["chassis_role", "cart_3d_flow", "mario64_flow", "reset_button_role"],
+      "mesh_ref": "assemblies/chassis.gltf"
+    },
+    {
+      "id": "cartridge_slot",
+      "name": "卡带槽",
+      "role": {
+        "zh": "卡带槽在整机中插入游戏卡带，把卡带上的游戏数据接入主机，是整机加载游戏的插口。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["cartridge_slot_role", "cart_connector_role", "cart_insert_flow"],
+      "mesh_ref": "assemblies/cartridge_slot.gltf"
+    },
+    {
+      "id": "cartridge",
+      "name": "卡带",
+      "role": {
+        "zh": "卡带在整机中作为游戏的物理载体，内部存储游戏程序与数据，插入卡带槽后由主机读取运行。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["cartridge_role"],
+      "mesh_ref": "assemblies/cartridge.gltf"
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 R4300i CPU、RCP 图形芯片与 RDRAM 内存，是整机运行游戏的计算与图形核心。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": ["cpu", "rcp", "rdram", "pif"],
+      "annotations": ["mainboard_role", "cpu_gpu_flow"],
+      "mesh_ref": "assemblies/mainboard.gltf"
+    },
+    {
+      "id": "power_supply",
+      "name": "电源模块",
+      "role": {
+        "zh": "电源模块在整机中把市电转换为多路直流电，为主板等部件稳定供电。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["power_supply_role", "power_switch_role"],
+      "mesh_ref": "assemblies/power_supply.gltf"
+    },
+    {
+      "id": "controller_port",
+      "name": "手柄接口",
+      "role": {
+        "zh": "手柄接口在整机中连接最多四个手柄，把玩家的按键操作送入主机，是整机的主要输入接口。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["controller_port_role", "controller_flow", "four_player_flow"],
+      "mesh_ref": "assemblies/controller_port.gltf"
+    },
+    {
+      "id": "expansion_slot",
+      "name": "扩展槽",
+      "role": {
+        "zh": "扩展槽在整机中插入扩展内存或存储设备，为整机提供功能扩展的底部端口。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["expansion_slot_role", "expansion_flow"],
+      "mesh_ref": "assemblies/expansion_slot.gltf"
+    },
+    {
+      "id": "controller",
+      "name": "手柄",
+      "role": {
+        "zh": "手柄在整机中作为玩家的输入设备，三叉戟造型与模拟摇杆是 N64 手柄的标志性设计。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["controller_role", "analog_stick_role", "analog_stick_flow", "rumble_flow"],
+      "mesh_ref": "assemblies/controller.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "cpu",
+      "name": "R4300i 中央处理器",
+      "type": "ic",
+      "role": {
+        "zh": "R4300i 中央处理器在整机中执行游戏逻辑与运算，是整机的运算核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["cpu_role"]
+    },
+    {
+      "id": "rcp",
+      "name": "RCP 图形芯片",
+      "type": "ic",
+      "role": {
+        "zh": "RCP 图形芯片在整机中绘制 3D 画面，是整机的图形渲染核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["rcp_role"]
+    },
+    {
+      "id": "rdram",
+      "name": "RDRAM 内存芯片",
+      "type": "ic",
+      "role": {
+        "zh": "RDRAM 内存芯片在整机中提供高速工作内存，暂存运行时的程序与图形数据。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["rdram_role"]
+    },
+    {
+      "id": "pif",
+      "name": "PIF 引导芯片",
+      "type": "ic",
+      "role": {
+        "zh": "PIF 引导芯片在整机中负责开机引导与外设接口，是整机启动的控制芯片。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["pif_role"]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Nintendo 64（静态展示）",
+    "media_hint": "cartridge",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "crt_display_0",
+        "surface": "crt_display",
+        "type": "video",
+        "format": "rgba8"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "d_pad_up": {
+        "map": "keyboard",
+        "key": "KEY_UP"
+      },
+      "d_pad_down": {
+        "map": "keyboard",
+        "key": "KEY_DOWN"
+      },
+      "d_pad_left": {
+        "map": "keyboard",
+        "key": "KEY_LEFT"
+      },
+      "d_pad_right": {
+        "map": "keyboard",
+        "key": "KEY_RIGHT"
+      },
+      "button_a": {
+        "map": "keyboard",
+        "key": "KEY_A"
+      },
+      "button_b": {
+        "map": "keyboard",
+        "key": "KEY_B"
+      },
+      "button_c": {
+        "map": "keyboard",
+        "key": "KEY_C"
+      },
+      "start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      }
+    }
+  }
+}

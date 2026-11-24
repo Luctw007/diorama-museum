@@ -1,0 +1,253 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "sega-saturn",
+    "name": {
+      "zh": "Sega Saturn",
+      "en": "Sega Saturn"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "1994 年世嘉发布的 32 位家用游戏机，以双 SH-2 CPU 的复杂架构与 CD-ROM 介质迎战第五代主机之争，是世嘉由盛转衰的转折点。",
+    "category": "game-console",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Sega Saturn",
+        "url": "https://en.wikipedia.org/wiki/Sega_Saturn",
+        "license": "cc",
+        "accessed_at": "2026-11-21"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Sega",
+        "url": "https://en.wikipedia.org/wiki/Sega",
+        "license": "cc",
+        "accessed_at": "2026-11-21"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-21"
+      }
+    ],
+    "intro": {
+      "zh": "Sega Saturn 是世嘉 1994 年发布的 32 位家用游戏机，以双 SH-2 CPU 的复杂架构与 CD-ROM 介质，与同期的 PlayStation、Nintendo 64 展开第五代主机之争。它在日本市场一度热销，却因架构复杂、欧美市场失守，成为世嘉由盛转衰的转折点，是游戏机厅第五代主机叙事的重要锚点。",
+      "en": "The Sega Saturn, released by Sega in 1994, was a 32-bit home console with a complex dual SH-2 CPU architecture and CD-ROM media, competing against the PlayStation and Nintendo 64 in the fifth console generation. It sold well in Japan but lost ground in the West, marking the turning point of Sega's decline."
+    },
+    "era": 1994,
+    "manufacturer": "Sega"
+  },
+  "assemblies": [
+    {
+      "id": "whole",
+      "name": "整机",
+      "role": {
+        "zh": "Sega Saturn 整机，由机箱、光驱、主板、电源、手柄接口与扩展槽组成，是游戏机厅第五代主机与世嘉由盛转衰叙事线的核心展品。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": null,
+      "children": ["cd_drive", "mainboard", "power_supply", "controller_port", "expansion_slot"],
+      "components": [],
+      "annotations": ["whole_role", "dual_cpu_flow", "sega_decline_flow", "reset_button_role"],
+      "mesh_ref": "assemblies/whole.gltf"
+    },
+    {
+      "id": "cd_drive",
+      "name": "光驱（CD-ROM 驱动器）",
+      "role": {
+        "zh": "光驱在整机中读取 CD-ROM 游戏光盘，光盘盖可开合以便放入与取出光盘，是可开合的识别部件。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": ["cd_motor"],
+      "annotations": ["cd_drive_role", "cd_cover_role", "disc_role", "cd_drive_flow", "cd_read_flow"],
+      "mesh_ref": "assemblies/cd_drive.gltf"
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载双 SH-2 CPU、图形芯片与内存，是整机运行游戏的计算与图形核心。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": ["cpu_a", "cpu_b", "gpu"],
+      "annotations": ["mainboard_role", "cpu_gpu_flow"],
+      "mesh_ref": "assemblies/mainboard.gltf"
+    },
+    {
+      "id": "power_supply",
+      "name": "电源模块",
+      "role": {
+        "zh": "电源模块在整机中把市电转换为多路直流电，为主板、光驱等部件稳定供电。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": ["power_supply_role", "power_switch_role"],
+      "mesh_ref": "assemblies/power_supply.gltf"
+    },
+    {
+      "id": "controller_port",
+      "name": "手柄接口",
+      "role": {
+        "zh": "手柄接口在整机中连接游戏手柄，把玩家的按键操作送入主机，是整机的主要输入接口。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": ["controller_port_role", "controller_connector_role", "controller_flow"],
+      "mesh_ref": "assemblies/controller_port.gltf"
+    },
+    {
+      "id": "expansion_slot",
+      "name": "扩展槽（卡带/记忆卡槽）",
+      "role": {
+        "zh": "扩展槽在整机中插入卡带式备份记忆或扩展卡，为游戏存档与功能扩展提供插槽。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "whole",
+      "children": [],
+      "components": [],
+      "annotations": ["expansion_slot_role", "memory_card_role", "expansion_flow", "save_game_flow"],
+      "mesh_ref": "assemblies/expansion_slot.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "cpu_a",
+      "name": "SH-2 CPU（主）",
+      "type": "ic",
+      "role": {
+        "zh": "SH-2 CPU（主）在整机中执行游戏逻辑与运算，是整机的主运算核心之一。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["cpu_a_role"]
+    },
+    {
+      "id": "cpu_b",
+      "name": "SH-2 CPU（从）",
+      "type": "ic",
+      "role": {
+        "zh": "SH-2 CPU（从）在整机中与主 CPU 协同处理游戏运算，构成双 CPU 架构。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["cpu_b_role"]
+    },
+    {
+      "id": "gpu",
+      "name": "图形芯片（VDP）",
+      "type": "ic",
+      "role": {
+        "zh": "图形芯片（VDP）在整机中绘制 2D 与 3D 画面，是整机的图形渲染核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["gpu_role"]
+    },
+    {
+      "id": "cd_motor",
+      "name": "光盘电机",
+      "type": "motor",
+      "role": {
+        "zh": "光盘电机在整机中驱动 CD-ROM 光盘旋转，配合激光头读取游戏数据。"
+      },
+      "assembly": "cd_drive",
+      "annotations": ["cd_motor_role"]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Sega Saturn（静态展示）",
+    "media_hint": "cd_rom",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "crt_display_0",
+        "surface": "crt_display",
+        "type": "video",
+        "format": "rgba8"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "d_pad_up": {
+        "map": "keyboard",
+        "key": "KEY_UP"
+      },
+      "d_pad_down": {
+        "map": "keyboard",
+        "key": "KEY_DOWN"
+      },
+      "d_pad_left": {
+        "map": "keyboard",
+        "key": "KEY_LEFT"
+      },
+      "d_pad_right": {
+        "map": "keyboard",
+        "key": "KEY_RIGHT"
+      },
+      "button_a": {
+        "map": "keyboard",
+        "key": "KEY_A"
+      },
+      "button_b": {
+        "map": "keyboard",
+        "key": "KEY_B"
+      },
+      "button_c": {
+        "map": "keyboard",
+        "key": "KEY_C"
+      },
+      "start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      }
+    }
+  }
+}

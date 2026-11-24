@@ -32,6 +32,9 @@ var _shown_rows: Array = []        # 与右侧列表顺序一致的行（排序�
 var _sort_button: Button
 var _sort_enabled := true          # 排序开关（TASK-111，默认开，可关闭）
 var _invalid_rows := 0             # 当前分片非法行数（降级提示用）
+## F-7（TASK-266-A）：当前选中行的 device_id + 「定位到厅」按钮（图鉴→大厅接线）
+var _current_device_id := ""
+var _locate_button: Button
 
 
 func _ready() -> void:
@@ -86,6 +89,12 @@ func _ready() -> void:
 	_sort_button.tooltip_text = "条目按名称排序（同名按年代升序）；点击关闭，回退为分片源码顺序"
 	_sort_button.pressed.connect(_on_sort_toggled)
 	entry_row.add_child(_sort_button)
+	_locate_button = Button.new()
+	_locate_button.text = "定位到厅"
+	_locate_button.tooltip_text = "图鉴→大厅（F-7，266-A）：切到该设备所在厅并高亮该台"
+	_locate_button.disabled = true
+	_locate_button.pressed.connect(_on_locate_pressed)
+	entry_row.add_child(_locate_button)
 	_row_list = ItemList.new()
 	_row_list.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	_row_list.item_selected.connect(_on_row_selected)
@@ -221,7 +230,52 @@ func _on_row_selected(index: int) -> void:
 	var r: Dictionary = row
 	var tx: Array = r.get("_taxonomy", r.get("taxonomy_path", []))
 	var influence := str(r.get("influence", r.get("reason", "")))
+	_current_device_id = str(r.get("device_id", ""))
+	if _locate_button != null:
+		_locate_button.disabled = _current_device_id.is_empty()
 	_detail.text = "%s\n状态 %s · 包 %s · %s" % [
 		" › ".join(tx) if not tx.is_empty() else "（无分类路径）",
 		str(r.get("status", "-")), str(r.get("device_id", "-")),
 		influence.left(INFLUENCE_LEN)]
+
+
+## F-7（TASK-266-A）：图鉴→大厅「定位到厅」——切到该设备所在厅并高亮该台（261-B §②口径）。
+func _on_locate_pressed() -> void:
+	if _current_device_id.is_empty():
+		return
+	var host := get_node_or_null("/root/Main/ExhibitHost") as ExhibitHost
+	if host == null:
+		_detail.text = "ExhibitHost 未找到，无法定位"
+		return
+	var layout_file: String = _find_hall_for(_current_device_id)
+	if layout_file == "":
+		_detail.text = "设备 %s 未在任何厅布局中" % _current_device_id
+		return
+	var ok: bool = host.switch_hall(layout_file)
+	if ok:
+		host.set_device_highlight(_current_device_id, true)
+	_detail.text = "已定位：%s（%s）" % [layout_file, _current_device_id] if ok else "定位失败：%s" % layout_file
+
+
+## 扫描全部展陈布局，找包含 device_id 的布局文件（无则空串）。
+## 多厅同 id（跨厅复用允许）取首个命中；「列全部厅供选」待实机（261-B §④-5）。
+func _find_hall_for(device_id: String) -> String:
+	var dir := DirAccess.open("res://content")
+	if dir == null:
+		return ""
+	for f in dir.get_files():
+		if not (f.begins_with("exhibit_") and f.ends_with(".json")
+				and not f.begins_with("exhibit_index")):
+			continue
+		var fd := FileAccess.open("res://content/" + f, FileAccess.READ)
+		if fd == null:
+			continue
+		var parsed: Variant = JSON.parse_string(fd.get_as_text())
+		fd.close()
+		if typeof(parsed) != TYPE_DICTIONARY:
+			continue
+		var devices: Array = parsed.get("devices", []) if typeof(parsed.get("devices", [])) == TYPE_ARRAY else []
+		for d in devices:
+			if d is Dictionary and str((d as Dictionary).get("id", "")) == device_id:
+				return f
+	return ""

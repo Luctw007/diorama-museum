@@ -60,6 +60,11 @@ func _build_ui() -> void:
 	vbox.add_child(_hall_box)
 	var row := HBoxContainer.new()
 	vbox.add_child(row)
+	var btn_enc := Button.new()
+	btn_enc.text = "本厅图鉴"
+	btn_enc.tooltip_text = "大厅→图鉴（F-7，266-A）：打开图鉴并提示本厅设备（device_id 反查目录 [需核实]）"
+	btn_enc.pressed.connect(_open_encyclopedia_for_hall)
+	row.add_child(btn_enc)
 	var btn_prev := Button.new()
 	btn_prev.text = "上一厅"
 	btn_prev.pressed.connect(func() -> void: _nav(-1))
@@ -185,6 +190,21 @@ func _nav(dir: int) -> void:
 	var next_hall: String = _host.next_hall() if dir > 0 else _host.prev_hall()
 	_hint.text = "当前厅布局：%s" % (next_hall if next_hall != "" else "（切换失败）")
 	_refresh()
+
+
+## F-7（TASK-266-A）：大厅→图鉴「本厅图鉴」——打开图鉴并提示本厅清单（261-B §②口径）。
+## 按 device_id 反查目录依赖 02 线目录字段，[需核实] 不落定论。
+func _open_encyclopedia_for_hall() -> void:
+	var enc := get_node_or_null("/root/Main/HUD/EncyclopediaPanel")
+	if enc == null:
+		_hint.text = "图鉴面板未找到"
+		return
+	if not enc.visible:
+		@warning_ignore("unsafe_method_access")
+		enc.toggle()
+	var current: String = _host.current_hall() if _host != null else ""
+	var info: Dictionary = _read_hall(current) if current != "" else {}
+	_hint.text = "本厅图鉴：%s（%d 台）——按 device_id 反查目录，[需核实]（待实机）" % [str(info.get("hall_name", current)), int(info.get("count", 0))]
 
 
 func _unhandled_input(event: InputEvent) -> void:

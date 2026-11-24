@@ -39,6 +39,13 @@ const DEV_FIELDS_SLOT := "slot"           # 导览参观序号，可选
 ## 运行配额：全厅同时运行设备上限（模拟器进程数预算）
 @export_range(1, 4) var max_running: int = 1
 
+## B-4（TASK-291-A，按 282-A 需求卡）：同屏激活上限——同一画面内同时处于
+## 「激活态」（拆解中 / 运行中）的设备数上限。与 max_running（同厅运行配额，
+## 全厅同时接模拟器真跑的台数）**独立、不合并、不互相覆盖**：一个管同屏激活并发，
+## 一个管模拟器进程预算。默认 3 为 02 线规范 v0.7 章 B 占位值（待实测权威值回写；
+## B-04 断言仍 SKIP，不在本实装轮次转 PASS）。
+@export_range(1, 6) var co_active_max: int = 3
+
 ## 布局文件名（相对 res://content）
 @export var layout_file: String = DEFAULT_LAYOUT
 
@@ -63,6 +70,9 @@ var _load_error: String = ""
 var _placed: Dictionary = {}
 ## 当前运行设备（配额内）
 var _running_id: String = ""
+## B-4（TASK-291-A）：同屏激活设备 id 列表（激活态 = 进入拆解/运行且未退出的设备；
+## 退出激活态即释放名额——对齐 261-A get_depth_level 退出时分档记录语义）。
+var _active_ids: Array = []
 ## 切厅游标（TASK-114）：按 hall_files 顺序循环切厅
 var _hall_cursor := 0
 ## 调试圈当前开关（TASK-114）：切厅后保留该设置
@@ -167,6 +177,39 @@ func release_run(device_id: String) -> void:
 		_running_id = ""
 
 
+# ============================================================ B-4 同屏激活配额（TASK-291-A）
+## 领取"激活名额"：同屏激活计数达到 co_active_max 时拒绝新增激活（提示
+## 「同屏激活已达上限」）；已激活设备重复领取幂等返回 true。
+## 与 acquire_run（max_running 运行配额）独立——两者判据与字段互不覆盖
+## （282-A 需求卡 §四-4）；运行中设备如需占激活名额由调用方显式申请。
+func acquire_activation(device_id: String) -> bool:
+	if not _placed.has(device_id):
+		push_warning("ExhibitHost: 未放置的设备申请激活 %s" % device_id)
+		return false
+	if _active_ids.has(device_id):
+		return true   # 已激活：幂等
+	if _active_ids.size() >= co_active_max:
+		push_warning("ExhibitHost: 同屏激活已达上限（%d/%d），拒绝 %s"
+				% [_active_ids.size(), co_active_max, device_id])
+		return false
+	_active_ids.append(device_id)
+	return true
+
+
+## 释放激活名额（退出拆解/运行态时调用；未激活设备释放为幂等空操作）。
+func release_activation(device_id: String) -> void:
+	_active_ids.erase(device_id)
+
+
+## 查询：当前同屏激活计数 / 是否已激活。
+func active_count() -> int:
+	return _active_ids.size()
+
+
+func is_active(device_id: String) -> bool:
+	return _active_ids.has(device_id)
+
+
 ## 玩家位置是否进入某台设备的围观圈。
 func find_audience(player_pos: Vector3) -> String:
 	var best := ""
@@ -196,6 +239,8 @@ func get_layout_summary() -> Dictionary:
 		"placed": _placed.size(),
 		"running": _running_id,
 		"max_running": max_running,
+		"co_active_max": co_active_max,
+		"active_count": _active_ids.size(),
 	}
 
 
@@ -219,11 +264,42 @@ func switch_hall(new_layout_file: String) -> bool:
 	return placed > 0
 
 
-## 切厅成功后通知 PortalHub 重建传送点（TASK-236-A 反向 portal：子厅→hub）。
+## 切厅成功后通知 PortalHub 重建传送点（TASK-236-A 反向 portal：子厅→hub），
+## 并检查回厅续接高亮（TASK-266-A F-7）。
 func _notify_portal_hub() -> void:
 	var hub := get_node_or_null("/root/Main/PortalHub") as PortalHub
 	if hub != null:
 		hub.refresh_portals(layout_file)
+	_resume_highlight_check()
+	_notify_hall_narr()
+
+
+## F-9（TASK-271-A）：切厅后触发本厅导览口播（narr_player.play_hall_narr，单口播互斥）。
+func _notify_hall_narr() -> void:
+	var narr := get_node_or_null("/root/Main/NarrPlayer")
+	if narr != null and narr.has_method("play_hall_narr"):
+		@warning_ignore("unsafe_method_access")
+		narr.play_hall_narr(layout_file)
+
+
+## F-7（TASK-266-A）：回厅续接高亮——最近拆解设备在本厅时高亮该台（261-B §①口径）。
+## 数据源 = InspectController.last_exploded_device()；高亮复用 set_device_highlight；
+## 拆解锁定中跳过（261-B §③：续接高亮不与拆解锁定态并存）。
+func _resume_highlight_check() -> void:
+	var insp := get_node_or_null("/root/Main/DeviceRoot/InspectController")
+	if insp == null:
+		return
+	var explode := get_node_or_null("/root/Main/DeviceRoot/ExplodeController")
+	if explode != null and explode.has_method("is_explode_locked"):
+		@warning_ignore("unsafe_method_access")
+		if explode.is_explode_locked():
+			return
+	var last: String = ""
+	if insp.has_method("last_exploded_device"):
+		@warning_ignore("unsafe_method_access")
+		last = str(insp.last_exploded_device())
+	if last != "" and _placed.has(last):
+		set_device_highlight(last, true)
 
 
 ## 下一厅（TASK-114）：按 hall_files 顺序循环切厅；目标布局非法时回退 DEFAULT_LAYOUT。
@@ -261,6 +337,7 @@ func clear_devices() -> void:
 			loader.queue_free()
 	_placed.clear()
 	_running_id = ""
+	_active_ids.clear()
 	_layout = {}
 
 

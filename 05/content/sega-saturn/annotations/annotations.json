@@ -1,0 +1,214 @@
+{
+  "annotations": [
+    {
+      "id": "whole_role",
+      "type": "role",
+      "target": "whole",
+      "text": "Sega Saturn 整机，一台 1994 年世嘉发布的 32 位家用游戏机，由机箱、光驱、主板、电源、手柄接口与扩展槽组成，是游戏机厅第五代主机与世嘉由盛转衰叙事线的核心展品。",
+      "sources": []
+    },
+    {
+      "id": "cd_drive_role",
+      "type": "role",
+      "target": "cd_drive",
+      "text": "光驱在整机中读取 CD-ROM 游戏光盘，光盘盖可开合以便放入与取出光盘，是可开合的识别部件。",
+      "sources": []
+    },
+    {
+      "id": "cd_cover_role",
+      "type": "role",
+      "target": "cd_drive",
+      "text": "光盘盖在整机中覆盖光驱顶部的光盘舱，开盖放入光盘、合盖进入读盘状态。",
+      "sources": []
+    },
+    {
+      "id": "disc_role",
+      "type": "role",
+      "target": "cd_drive",
+      "text": "光盘在整机中作为游戏的物理载体，表面记录游戏数据，由光驱读取后送入主机运行。",
+      "sources": []
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中承载双 SH-2 CPU、图形芯片与内存，是整机运行游戏的计算与图形核心。",
+      "sources": []
+    },
+    {
+      "id": "power_supply_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源模块在整机中把市电转换为多路直流电，为主板、光驱等部件稳定供电。",
+      "sources": []
+    },
+    {
+      "id": "controller_port_role",
+      "type": "role",
+      "target": "controller_port",
+      "text": "手柄接口在整机中连接游戏手柄，把玩家的按键操作送入主机，是整机的主要输入接口。",
+      "sources": []
+    },
+    {
+      "id": "controller_connector_role",
+      "type": "role",
+      "target": "controller_port",
+      "text": "手柄连接口在整机中固定手柄插头，确保按键信号稳定传输到主机。",
+      "sources": []
+    },
+    {
+      "id": "expansion_slot_role",
+      "type": "role",
+      "target": "expansion_slot",
+      "text": "扩展槽在整机中插入卡带式备份记忆或扩展卡，为游戏存档与功能扩展提供插槽。",
+      "sources": []
+    },
+    {
+      "id": "memory_card_role",
+      "type": "role",
+      "target": "expansion_slot",
+      "text": "备份记忆卡在整机中保存游戏的存档数据，让玩家可以跨会话延续游戏进度。",
+      "sources": []
+    },
+    {
+      "id": "cpu_a_role",
+      "type": "role",
+      "target": "cpu_a",
+      "text": "SH-2 CPU（主）在整机中执行游戏逻辑与运算，是整机的主运算核心之一。",
+      "sources": []
+    },
+    {
+      "id": "cpu_b_role",
+      "type": "role",
+      "target": "cpu_b",
+      "text": "SH-2 CPU（从）在整机中与主 CPU 协同处理游戏运算，构成双 CPU 架构。",
+      "sources": []
+    },
+    {
+      "id": "gpu_role",
+      "type": "role",
+      "target": "gpu",
+      "text": "图形芯片（VDP）在整机中绘制 2D 与 3D 画面，是整机的图形渲染核心。",
+      "sources": []
+    },
+    {
+      "id": "cd_motor_role",
+      "type": "role",
+      "target": "cd_motor",
+      "text": "光盘电机在整机中驱动 CD-ROM 光盘旋转，配合激光头读取游戏数据。",
+      "sources": []
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源开关在整机中控制整机的通断电，位于前面板，由用户按压操作。",
+      "sources": []
+    },
+    {
+      "id": "reset_button_role",
+      "type": "role",
+      "target": "whole",
+      "text": "复位键在整机中让主机重新启动，位于前面板，供用户在不关机的情况下重启游戏。",
+      "sources": []
+    },
+    {
+      "id": "dual_cpu_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "双 CPU 架构：Saturn 采用双 SH-2 CPU 协同运算，架构复杂、性能强劲，却也给第三方开发带来不小的门槛。",
+      "sources": []
+    },
+    {
+      "id": "sega_decline_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "世嘉由盛转衰：Saturn 在日本一度热销，却因欧美市场失守与开发困难，成为世嘉由盛转衰的转折点。",
+      "sources": []
+    },
+    {
+      "id": "cd_media_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "CD-ROM 介质：Saturn 用 CD-ROM 取代卡带，游戏容量跃升，得以容纳更丰富的画面、语音与音乐。",
+      "sources": []
+    },
+    {
+      "id": "fifth_gen_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "第五代主机：Saturn 是第五代家用主机的代表，与同代主机共同开启 3D 光盘游戏时代。",
+      "sources": []
+    },
+    {
+      "id": "three_way_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "三方竞争：Saturn 与 PlayStation、Nintendo 64 展开第五代主机之争，最终让位于索尼与任天堂。",
+      "sources": []
+    },
+    {
+      "id": "cd_drive_flow",
+      "type": "flow",
+      "target": "cd_drive",
+      "text": "光驱读盘：开盖放入 CD-ROM、合盖后光盘电机带动光盘旋转，激光头读取游戏数据。",
+      "sources": []
+    },
+    {
+      "id": "controller_flow",
+      "type": "flow",
+      "target": "controller_port",
+      "text": "手柄输入：手柄经接口连接主机，十字键与按键的按压被送入主机处理。",
+      "sources": []
+    },
+    {
+      "id": "expansion_flow",
+      "type": "flow",
+      "target": "expansion_slot",
+      "text": "扩展槽：卡带式备份记忆与扩展卡插入扩展槽，为存档与功能扩展提供支持。",
+      "sources": []
+    },
+    {
+      "id": "cpu_gpu_flow",
+      "type": "flow",
+      "target": "mainboard",
+      "text": "双 CPU 与图形芯片协同：双 SH-2 CPU 执行游戏逻辑，图形芯片绘制画面，协同渲染出游戏世界。",
+      "sources": []
+    },
+    {
+      "id": "cd_read_flow",
+      "type": "flow",
+      "target": "cd_drive",
+      "text": "CD 读盘：激光聚焦光盘数据面读取数字信息，游戏数据被源源不断送入主机内存。",
+      "sources": []
+    },
+    {
+      "id": "save_game_flow",
+      "type": "flow",
+      "target": "expansion_slot",
+      "text": "存档机制：备份记忆卡让游戏进度得以保存，是 Saturn 存档外置化的设计。",
+      "sources": []
+    },
+    {
+      "id": "arcade_port_flow",
+      "type": "flow",
+      "target": "whole",
+      "text": "街机移植：Saturn 凭借强劲的 2D 性能，成为世嘉街机游戏移植的主力平台。",
+      "sources": []
+    },
+    {
+      "id": "cd_open_anim",
+      "type": "anim",
+      "target": "cd_drive",
+      "text": "开盖放碟动画：打开光盘盖、放入 CD-ROM、合上盖，演示放入游戏光盘的过程；单次全程约 2 秒。",
+      "sources": []
+    },
+    {
+      "id": "boot_anim",
+      "type": "anim",
+      "target": "whole",
+      "text": "开机动画：按下电源键，电源灯点亮、画面渐亮并进入游戏启动界面，演示开机启动过程；全程约 2 秒。",
+      "sources": []
+    }
+  ]
+}

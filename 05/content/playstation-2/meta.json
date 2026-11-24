@@ -1,0 +1,297 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "playstation-2",
+    "name": {
+      "zh": "PlayStation 2（PS2）",
+      "en": "PlayStation 2 (PS2)"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "2000 年索尼发布的第六代家用游戏机，以 Emotion Engine 处理器与 DVD 播放功能驱动普及，成为史上销量最高的游戏机，是游戏机厅第六代主机「DVD 助推普及」叙事线的核心展品。",
+    "category": "game-console",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: PlayStation 2",
+        "url": "https://en.wikipedia.org/wiki/PlayStation_2",
+        "license": "cc",
+        "accessed_at": "2026-11-24"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Sony",
+        "url": "https://en.wikipedia.org/wiki/Sony",
+        "license": "cc",
+        "accessed_at": "2026-11-24"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-24"
+      }
+    ],
+    "intro": {
+      "zh": "PlayStation 2 是索尼 2000 年发布的第六代家用游戏机，搭载 Emotion Engine 处理器与 DVD 播放功能，凭借庞大的游戏库与影音播放能力成为史上销量最高的游戏机。它是游戏机厅第六代主机「DVD 助推普及」叙事线的核心锚点，也是一代人的客厅娱乐记忆。",
+      "en": "The PlayStation 2, released by Sony in 2000, was a sixth-generation home console powered by the Emotion Engine and featuring DVD playback, becoming the best-selling game console in history through its vast game library and multimedia capabilities."
+    },
+    "era": 2000,
+    "manufacturer": "Sony"
+  },
+  "assemblies": [
+    {
+      "id": "chassis",
+      "name": "整机",
+      "role": {
+        "zh": "PlayStation 2 整机，由机箱、吸入式光驱、主板、电源、手柄接口、记忆卡槽、手柄与扩展槽组成，是游戏机厅第六代主机与 DVD 助推普及叙事线的核心展品。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": null,
+      "children": ["dvd_drive", "mainboard", "power_supply", "controller_port", "memory_card_slot", "controller", "expansion_bay"],
+      "components": [],
+      "annotations": ["chassis_role", "power_switch_role", "best_seller_flow", "sixth_gen_flow", "dvd_playback_flow", "sony_legacy_flow"],
+      "mesh_ref": "assemblies/chassis.gltf"
+    },
+    {
+      "id": "dvd_drive",
+      "name": "吸入式光驱（DVD-ROM 驱动器）",
+      "role": {
+        "zh": "吸入式光驱在整机中读取 DVD 游戏光盘，光盘从前面板吸入并由电机带动读取，是可抽拉/吸入的识别部件。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": ["cd_motor"],
+      "annotations": ["dvd_drive_role", "dvd_slot_role", "disc_role", "disc_insert_flow", "dvd_media_flow"],
+      "mesh_ref": "assemblies/dvd_drive.gltf"
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 Emotion Engine 处理器、Graphics Synthesizer 图形芯片与主内存，是整机运行游戏的计算与图形核心。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": ["emotion_engine", "gs", "ram", "iop"],
+      "annotations": ["mainboard_role", "cpu_gpu_flow", "ps1_compat_flow"],
+      "mesh_ref": "assemblies/mainboard.gltf"
+    },
+    {
+      "id": "power_supply",
+      "name": "电源模块",
+      "role": {
+        "zh": "电源模块在整机中把市电转换为多路直流电，为主板、光驱等部件稳定供电。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["power_supply_role"],
+      "mesh_ref": "assemblies/power_supply.gltf"
+    },
+    {
+      "id": "controller_port",
+      "name": "手柄接口",
+      "role": {
+        "zh": "手柄接口在整机中连接游戏手柄，把玩家的按键操作送入主机，是整机的主要输入接口。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["controller_port_role", "controller_connector_role", "controller_flow"],
+      "mesh_ref": "assemblies/controller_port.gltf"
+    },
+    {
+      "id": "memory_card_slot",
+      "name": "记忆卡槽",
+      "role": {
+        "zh": "记忆卡槽在整机中插入记忆卡，用于保存游戏存档，是整机的存储扩展接口。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["memory_card_slot_role", "memory_card_role", "memory_card_flow"],
+      "mesh_ref": "assemblies/memory_card_slot.gltf"
+    },
+    {
+      "id": "controller",
+      "name": "手柄（DualShock 2）",
+      "role": {
+        "zh": "DualShock 2 手柄在整机中作为玩家的输入设备，含双模拟摇杆与震动马达，是可识别的可选部件。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["controller_role", "analog_stick_role", "analog_stick_flow"],
+      "mesh_ref": "assemblies/controller.gltf"
+    },
+    {
+      "id": "expansion_bay",
+      "name": "扩展槽",
+      "role": {
+        "zh": "扩展槽在整机中可接网络适配器或硬盘，为整机提供联网与存储扩展的背部端口。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["expansion_bay_role", "expansion_flow"],
+      "mesh_ref": "assemblies/expansion_bay.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "emotion_engine",
+      "name": "Emotion Engine 处理器",
+      "type": "ic",
+      "role": {
+        "zh": "Emotion Engine 处理器在整机中执行游戏逻辑与运算，是整机的运算核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["emotion_engine_role"]
+    },
+    {
+      "id": "gs",
+      "name": "Graphics Synthesizer 图形芯片",
+      "type": "ic",
+      "role": {
+        "zh": "Graphics Synthesizer 图形芯片在整机中绘制 3D 画面，是整机的图形渲染核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["gs_role"]
+    },
+    {
+      "id": "ram",
+      "name": "主内存芯片",
+      "type": "ic",
+      "role": {
+        "zh": "主内存芯片在整机中提供工作内存，暂存运行时的程序与图形数据。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["ram_role"]
+    },
+    {
+      "id": "iop",
+      "name": "IOP 输入输出处理器",
+      "type": "ic",
+      "role": {
+        "zh": "IOP 输入输出处理器在整机中负责外设输入输出，并承担对初代 PlayStation 游戏的兼容。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["iop_role"]
+    },
+    {
+      "id": "cd_motor",
+      "name": "光盘电机",
+      "type": "motor",
+      "role": {
+        "zh": "光盘电机在整机中驱动 DVD 光盘旋转，配合激光头读取游戏数据。"
+      },
+      "assembly": "dvd_drive",
+      "annotations": ["cd_motor_role"]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "PlayStation 2（静态展示）",
+    "media_hint": "cd_rom",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "crt_display_0",
+        "surface": "crt_display",
+        "type": "video",
+        "format": "rgba8"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "d_pad_up": {
+        "map": "keyboard",
+        "key": "KEY_UP"
+      },
+      "d_pad_down": {
+        "map": "keyboard",
+        "key": "KEY_DOWN"
+      },
+      "d_pad_left": {
+        "map": "keyboard",
+        "key": "KEY_LEFT"
+      },
+      "d_pad_right": {
+        "map": "keyboard",
+        "key": "KEY_RIGHT"
+      },
+      "button_triangle": {
+        "map": "keyboard",
+        "key": "KEY_A"
+      },
+      "button_circle": {
+        "map": "keyboard",
+        "key": "KEY_B"
+      },
+      "button_cross": {
+        "map": "keyboard",
+        "key": "KEY_X"
+      },
+      "start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      }
+    }
+  }
+}

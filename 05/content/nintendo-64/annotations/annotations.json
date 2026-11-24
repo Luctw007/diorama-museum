@@ -1,0 +1,214 @@
+{
+  "annotations": [
+    {
+      "id": "chassis_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "Nintendo 64 整机，一台 1996 年任天堂发布的 64 位家用游戏机，由机箱、卡带槽、卡带、主板、电源、手柄接口、扩展槽与手柄组成，是游戏机厅第五代主机与卡带 3D 教科书叙事线的核心展品。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_slot_role",
+      "type": "role",
+      "target": "cartridge_slot",
+      "text": "卡带槽在整机中插入游戏卡带，把卡带上的游戏数据接入主机，是整机加载游戏的插口。",
+      "sources": []
+    },
+    {
+      "id": "cart_connector_role",
+      "type": "role",
+      "target": "cartridge_slot",
+      "text": "卡带连接触点在整机中与卡带金手指接触，把游戏数据与程序从卡带送入主机。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_role",
+      "type": "role",
+      "target": "cartridge",
+      "text": "卡带在整机中作为游戏的物理载体，内部存储游戏程序与数据，插入卡带槽后由主机读取运行。",
+      "sources": []
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中承载 R4300i CPU、RCP 图形芯片与 RDRAM 内存，是整机运行游戏的计算与图形核心。",
+      "sources": []
+    },
+    {
+      "id": "power_supply_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源模块在整机中把市电转换为多路直流电，为主板等部件稳定供电。",
+      "sources": []
+    },
+    {
+      "id": "controller_port_role",
+      "type": "role",
+      "target": "controller_port",
+      "text": "手柄接口在整机中连接最多四个手柄，把玩家的按键操作送入主机，是整机的主要输入接口。",
+      "sources": []
+    },
+    {
+      "id": "expansion_slot_role",
+      "type": "role",
+      "target": "expansion_slot",
+      "text": "扩展槽在整机中插入扩展内存或存储设备，为整机提供功能扩展的底部端口。",
+      "sources": []
+    },
+    {
+      "id": "controller_role",
+      "type": "role",
+      "target": "controller",
+      "text": "手柄在整机中作为玩家的输入设备，三叉戟造型与模拟摇杆是 N64 手柄的标志性设计。",
+      "sources": []
+    },
+    {
+      "id": "analog_stick_role",
+      "type": "role",
+      "target": "controller",
+      "text": "模拟摇杆在整机中提供连续的方向输入，让玩家可以精确控制 3D 空间中的移动，是 N64 手柄的关键创新。",
+      "sources": []
+    },
+    {
+      "id": "cpu_role",
+      "type": "role",
+      "target": "cpu",
+      "text": "R4300i 中央处理器在整机中执行游戏逻辑与运算，是整机的运算核心。",
+      "sources": []
+    },
+    {
+      "id": "rcp_role",
+      "type": "role",
+      "target": "rcp",
+      "text": "RCP 图形芯片在整机中绘制 3D 画面，是整机的图形渲染核心。",
+      "sources": []
+    },
+    {
+      "id": "rdram_role",
+      "type": "role",
+      "target": "rdram",
+      "text": "RDRAM 内存芯片在整机中提供高速工作内存，暂存运行时的程序与图形数据。",
+      "sources": []
+    },
+    {
+      "id": "pif_role",
+      "type": "role",
+      "target": "pif",
+      "text": "PIF 引导芯片在整机中负责开机引导与外设接口，是整机启动的控制芯片。",
+      "sources": []
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源开关在整机中控制整机的通断电，位于前面板，由用户按压操作。",
+      "sources": []
+    },
+    {
+      "id": "reset_button_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "复位键在整机中让主机重新启动，位于前面板，供用户在不关机的情况下重启游戏。",
+      "sources": []
+    },
+    {
+      "id": "cart_3d_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "卡带时代的 3D 教科书：N64 在光盘世代坚持卡带介质，却凭借高品质 3D 游戏成为卡带 3D 时代的教科书。",
+      "sources": []
+    },
+    {
+      "id": "mario64_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "超级马力欧 64：这款首发作品确立了 3D 平台游戏的范式，自由镜头与关卡探索成为后世 3D 游戏的基石。",
+      "sources": []
+    },
+    {
+      "id": "analog_stick_flow",
+      "type": "flow",
+      "target": "controller",
+      "text": "模拟摇杆确立范式：N64 首次引入模拟摇杆，让玩家在 3D 空间中精确移动，重新定义了 3D 游戏操作。",
+      "sources": []
+    },
+    {
+      "id": "fifth_gen_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "第五代主机：N64 是第五代家用主机的代表，与 PS、Saturn 共同开启 3D 游戏时代。",
+      "sources": []
+    },
+    {
+      "id": "cart_media_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "卡带介质：N64 逆流而上选择卡带，换来更快的读取速度，却也受限于容量与成本。",
+      "sources": []
+    },
+    {
+      "id": "cart_insert_flow",
+      "type": "flow",
+      "target": "cartridge_slot",
+      "text": "卡带插拔：把游戏卡带插入顶部卡带槽，主机读取卡带数据后启动游戏。",
+      "sources": []
+    },
+    {
+      "id": "controller_flow",
+      "type": "flow",
+      "target": "controller_port",
+      "text": "手柄输入：手柄经接口连接主机，十字键、模拟摇杆与按键的输入被送入主机处理。",
+      "sources": []
+    },
+    {
+      "id": "expansion_flow",
+      "type": "flow",
+      "target": "expansion_slot",
+      "text": "扩展端口：底部扩展端口可插入扩展内存或存储设备，为整机提供扩展能力。",
+      "sources": []
+    },
+    {
+      "id": "cpu_gpu_flow",
+      "type": "flow",
+      "target": "mainboard",
+      "text": "CPU 与图形芯片协同：R4300i 执行游戏逻辑，RCP 绘制 3D 画面，协同渲染出游戏世界。",
+      "sources": []
+    },
+    {
+      "id": "rumble_flow",
+      "type": "flow",
+      "target": "controller",
+      "text": "震动包：N64 手柄可插入震动包，让玩家在游戏中获得震动反馈，开创了主机震动体验。",
+      "sources": []
+    },
+    {
+      "id": "four_player_flow",
+      "type": "flow",
+      "target": "controller_port",
+      "text": "四手柄支持：N64 原生支持四个手柄接口，让四人对战成为可能，开创了家用机多人同乐。",
+      "sources": []
+    },
+    {
+      "id": "nintendo_legacy_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "任天堂 3D 遗产：N64 的第一方 3D 大作奠定了任天堂在 3D 时代的地位，影响延续至今。",
+      "sources": []
+    },
+    {
+      "id": "cart_insert_anim",
+      "type": "anim",
+      "target": "cartridge_slot",
+      "text": "卡带插拔动画：把游戏卡带插入顶部卡带槽、按下后启动游戏，演示卡带加载过程；单次全程约 2 秒。",
+      "sources": []
+    },
+    {
+      "id": "boot_anim",
+      "type": "anim",
+      "target": "chassis",
+      "text": "开机动画：按下电源键，电源灯点亮、画面渐亮并进入游戏启动界面，演示开机启动过程；全程约 2 秒。",
+      "sources": []
+    }
+  ]
+}

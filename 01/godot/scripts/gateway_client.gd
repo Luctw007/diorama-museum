@@ -11,6 +11,10 @@ const HOST := "127.0.0.1"
 const PORT := 7331
 const DEVICE_ID := "demo"
 
+## F-8（TASK-281-A）：真跑候选槽位标记——静态数据源 = 251-B 槽位预留登记
+## （docs/第三批真跑候选槽位预留_v1.md：四台仅登记方案、未建 manifest）。
+const RUN_CANDIDATE_SLOTS := ["hercules-s370", "openmsx-msx2", "mini-vmac-macplus", "86box-pcxt"]
+
 var _tcp := StreamPeerTCP.new()
 var _recv_buf := ""
 var _screen_tex := ImageTexture.new()
@@ -24,6 +28,7 @@ var _frame_parts := {}  # frame_id -> {total, seqs:{seq:data_b64}, meta}（frame
 var _status_label: Label
 var _info_label: Label
 var _audio_label: Label
+var _candidate_label: Label
 var _audio_player: AudioStreamPlayer
 var _audio_chunks := 0        # 累计收到的 audio_chunk 数
 var _audio_degraded := false  # 是否处于占位 WAV 降级路径
@@ -67,11 +72,27 @@ func _build_hud() -> void:
 	_audio_label.add_theme_color_override("font_color", Color(0.6, 0.9, 0.7))
 	hud.add_child(_audio_label)
 	_set_audio("音频：未收到 chunk")
+	# F-8（TASK-281-A）：真跑候选槽位标记行（静态提示；真跑需用户编译二进制后验）
+	_candidate_label = Label.new()
+	_candidate_label.position = Vector2(16, 38)
+	_candidate_label.add_theme_color_override("font_color", Color(0.95, 0.8, 0.4))
+	hud.add_child(_candidate_label)
+	_candidate_label.text = "真跑候选：%s（预留态，待产包定案+用户编译二进制）" % ", ".join(RUN_CANDIDATE_SLOTS)
 
 
 func _set_status(text: String) -> void:
 	if _status_label != null:
 		_status_label.text = "[网关] " + text
+
+
+## F-8（TASK-281-A）：launch_device 直起入口静态定义——真跑条件满足时才触发；
+## 当前四台为预留槽位（未转正、二进制待用户编译）→ 一律 false + 提示，不实际启动。
+func request_direct_launch(slot_id: String) -> bool:
+	if slot_id in RUN_CANDIDATE_SLOTS:
+		_set_status("直起拒绝：%s 为真跑候选预留槽位（待产包定案+用户编译二进制）" % slot_id)
+		return false
+	_set_status("直起拒绝：%s 未登记真跑槽位" % slot_id)
+	return false
 
 
 func _set_info(text: String) -> void:

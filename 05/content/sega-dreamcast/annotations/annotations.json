@@ -1,0 +1,228 @@
+{
+  "annotations": [
+    {
+      "id": "chassis_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "Sega Dreamcast 整机，一台 1998 年世嘉发布的 32 位家用游戏机，由机箱、光驱、主板、电源、手柄接口、VMU 记忆卡、手柄与调制解调器组成，是游戏机厅「世嘉谢幕」与联网先驱叙事线的核心展品。",
+      "sources": []
+    },
+    {
+      "id": "gd_drive_role",
+      "type": "role",
+      "target": "gd_drive",
+      "text": "光驱在整机中读取 GD-ROM 游戏光盘，把游戏数据接入主机，是整机加载游戏的读盘部件。",
+      "sources": []
+    },
+    {
+      "id": "gd_cover_role",
+      "type": "role",
+      "target": "gd_drive",
+      "text": "光盘盖在整机中采用翻盖式开合，放入或取出游戏光盘时可向上翻开，是可开合的识别部件。",
+      "sources": []
+    },
+    {
+      "id": "disc_role",
+      "type": "role",
+      "target": "gd_drive",
+      "text": "GD-ROM 光盘在整机中作为游戏的物理载体，采用专用高密度光盘介质，放入光驱后由主机读取运行。",
+      "sources": []
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中承载 SH-4 CPU、PowerVR2 图形芯片与主内存，是整机运行游戏的计算与图形核心。",
+      "sources": []
+    },
+    {
+      "id": "power_supply_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源模块在整机中把市电转换为多路直流电，为主板、光驱等部件稳定供电。",
+      "sources": []
+    },
+    {
+      "id": "controller_port_role",
+      "type": "role",
+      "target": "controller_port",
+      "text": "手柄接口在整机中连接游戏手柄，把玩家的按键操作送入主机，是整机的主要输入接口。",
+      "sources": []
+    },
+    {
+      "id": "controller_connector_role",
+      "type": "role",
+      "target": "controller_port",
+      "text": "手柄连接触点在整机中与手柄插头接触，把按键输入从手柄送入主机处理。",
+      "sources": []
+    },
+    {
+      "id": "vmu_role",
+      "type": "role",
+      "target": "vmu",
+      "text": "VMU 记忆卡在整机中插入手柄，用于保存游戏存档，是可识别的可选部件。",
+      "sources": []
+    },
+    {
+      "id": "vmu_screen_role",
+      "type": "role",
+      "target": "vmu",
+      "text": "VMU 小屏幕在整机中显示游戏信息，玩家在游戏之外也能查看存档与提示信息。",
+      "sources": []
+    },
+    {
+      "id": "controller_role",
+      "type": "role",
+      "target": "controller",
+      "text": "手柄在整机中作为玩家的输入设备，内置 VMU 插槽，是 Dreamcast 的主要操作设备。",
+      "sources": []
+    },
+    {
+      "id": "modem_role",
+      "type": "role",
+      "target": "modem",
+      "text": "调制解调器在整机中提供拨号上网能力，让玩家可以联网游戏，是 Dreamcast 首开先河的联网部件。",
+      "sources": []
+    },
+    {
+      "id": "modem_port_role",
+      "type": "role",
+      "target": "modem",
+      "text": "调制解调器端口在整机中连接电话线，提供网络接入，是 Dreamcast 联网功能的入口。",
+      "sources": []
+    },
+    {
+      "id": "sh4_cpu_role",
+      "type": "role",
+      "target": "sh4_cpu",
+      "text": "SH-4 中央处理器在整机中执行游戏逻辑与运算，是整机的运算核心。",
+      "sources": []
+    },
+    {
+      "id": "powervr2_gpu_role",
+      "type": "role",
+      "target": "powervr2_gpu",
+      "text": "PowerVR2 图形芯片在整机中绘制 3D 画面，是整机的图形渲染核心。",
+      "sources": []
+    },
+    {
+      "id": "ram_role",
+      "type": "role",
+      "target": "ram",
+      "text": "主内存芯片在整机中提供工作内存，暂存运行时的程序与图形数据。",
+      "sources": []
+    },
+    {
+      "id": "cd_motor_role",
+      "type": "role",
+      "target": "cd_motor",
+      "text": "光盘电机在整机中驱动 GD-ROM 光盘旋转，配合激光头读取游戏数据。",
+      "sources": []
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "电源键在整机中控制整机的通断电，位于前面板，由用户按压操作。",
+      "sources": []
+    },
+    {
+      "id": "sega_finale_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "世嘉谢幕：Dreamcast 是世嘉的最后一台主机，它的落幕标志着世嘉退出硬件市场，转型为第三方软件商。",
+      "sources": []
+    },
+    {
+      "id": "online_pioneer_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "联网先驱：Dreamcast 首台内置调制解调器的家用主机，率先把联网游戏带入客厅。",
+      "sources": []
+    },
+    {
+      "id": "gd_rom_media_flow",
+      "type": "flow",
+      "target": "gd_drive",
+      "text": "GD-ROM 介质：Dreamcast 使用专用高密度 GD-ROM 光盘，容量高于普通 CD-ROM，存储 3D 游戏数据。",
+      "sources": []
+    },
+    {
+      "id": "open_lid_flow",
+      "type": "flow",
+      "target": "gd_drive",
+      "text": "开盖放碟：翻开光驱盖、放入 GD-ROM 光盘、合上盖子，主机读取光盘后启动游戏。",
+      "sources": []
+    },
+    {
+      "id": "cpu_gpu_flow",
+      "type": "flow",
+      "target": "mainboard",
+      "text": "CPU 与图形芯片协同：SH-4 执行游戏逻辑，PowerVR2 绘制 3D 画面，协同渲染出游戏世界。",
+      "sources": []
+    },
+    {
+      "id": "controller_flow",
+      "type": "flow",
+      "target": "controller_port",
+      "text": "手柄输入：手柄经接口连接主机，十字键、模拟摇杆与按键的输入被送入主机处理。",
+      "sources": []
+    },
+    {
+      "id": "vmu_flow",
+      "type": "flow",
+      "target": "vmu",
+      "text": "VMU 记忆卡：插入手柄的记忆卡既可存档，又有小屏幕显示游戏信息，是 Dreamcast 的独特设计。",
+      "sources": []
+    },
+    {
+      "id": "vmu_insert_flow",
+      "type": "flow",
+      "target": "controller",
+      "text": "VMU 插拔：把 VMU 记忆卡插入手柄背部的插槽，即可在游戏中保存存档。",
+      "sources": []
+    },
+    {
+      "id": "online_gaming_flow",
+      "type": "flow",
+      "target": "modem",
+      "text": "联网游戏：通过内置调制解调器拨号上网，玩家可以在线对战，开启了家用机联网游戏时代。",
+      "sources": []
+    },
+    {
+      "id": "arcade_heritage_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "街机基因：Dreamcast 继承了世嘉的街机基因，大量街机移植作品是其游戏库的重要组成。",
+      "sources": []
+    },
+    {
+      "id": "sixth_gen_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "第六代主机：Dreamcast 是第六代主机之争的先行者，率先吹响了 128 位世代的号角。",
+      "sources": []
+    },
+    {
+      "id": "dreamcast_legacy_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "Dreamcast 遗产：尽管商业失利，Dreamcast 的联网、GD-ROM 与街机移植理念，深刻影响了后来的主机设计。",
+      "sources": []
+    },
+    {
+      "id": "open_lid_anim",
+      "type": "anim",
+      "target": "gd_drive",
+      "text": "开盖放碟动画：翻开 GD-ROM 光驱盖、放入光盘、合盖开机，演示光盘加载过程；单次全程约 2 秒。",
+      "sources": []
+    },
+    {
+      "id": "vmu_light_anim",
+      "type": "anim",
+      "target": "vmu",
+      "text": "VMU 屏幕点亮动画：VMU 记忆卡插入手柄后小屏幕点亮显示信息，演示记忆卡工作过程；单次全程约 2 秒。",
+      "sources": []
+    }
+  ]
+}

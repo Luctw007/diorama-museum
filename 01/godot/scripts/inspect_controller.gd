@@ -165,7 +165,8 @@ func _process(_delta: float) -> void:
 				   ("%.1f,%.1f,%.1f" % [cam.global_position.x, cam.global_position.y,
 										cam.global_position.z]) if cam != null else "无",
 				   _selected.name if _selected != null else "无",
-				   " | 上次拆解:%s" % _last_exploded if _last_exploded != "" else ""])
+				   (" | 上次拆解:%s(%s)" % [_last_exploded, _last_exploded_level])
+				   if _last_exploded != "" else ""])
 
 
 func _apply_view() -> void:
@@ -292,11 +293,10 @@ func _try_enter_explode() -> void:
 	if explode == null:
 		_explode_mode = false
 		return
-	# F-6（256-A）：进入拆解即记录最近拆解台（设备 id + 层级标记）。
+	# F-6（256-A）：进入拆解即记录最近拆解台设备 id；层级由退出时按实际深度分档记录（261-A）。
 	if device_loader_hint != null and device_loader_hint.has_method("get_current_device"):
 		@warning_ignore("unsafe_method_access")
 		_last_exploded = str(device_loader_hint.get_current_device())
-		_last_exploded_level = "exploded"
 	_explode_mode = true
 	@warning_ignore("unsafe_method_access")
 	explode.set_exploded()
@@ -313,6 +313,11 @@ func _exit_explode_to_walk() -> void:
 	_explode_mode = false
 	var explode := _explode_ref()
 	if explode != null:
+		# F-6 深化（261-A）：退出时按 explode_controller 导出实际深度分档记录层级。
+		if explode.has_method("get_depth_level"):
+			@warning_ignore("unsafe_method_access")
+			var level: int = int(explode.get_depth_level())
+			_last_exploded_level = _level_label(level)
 		@warning_ignore("unsafe_method_access")
 		explode.set_close()
 	get_viewport().set_input_as_handled()
@@ -327,7 +332,17 @@ func last_exploded_device() -> String:
 	return _last_exploded
 
 
-## F-6（256-A）：最近拆解层级查询（当前仅"exploded"标记；L2/L3 精确回放待实装验证）。
+## F-6 深化（261-A）：深度分档 → 显示标签（depth_model.md L0-L3 口径）。
+func _level_label(level: int) -> String:
+	match level:
+		0: return "L0"
+		1: return "L1"
+		2: return "L2"
+		3: return "L3"
+		_: return "L?"
+
+
+## F-6（256-A）：最近拆解层级查询（261-A 起为实际深度分档标签；空串=无记录）。
 func last_exploded_level() -> String:
 	return _last_exploded_level
 

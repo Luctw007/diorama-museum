@@ -1,7 +1,7 @@
 {
-  "time": "2026-11-20 02:00:49",
-  "total": 54,
-  "passed": 54,
+  "time": "2026-11-25 00:10:19",
+  "total": 59,
+  "passed": 59,
   "steps": [
     {
       "name": "m0",
@@ -16,7 +16,7 @@
     {
       "name": "slots",
       "ok": true,
-      "note": "汇总：完工包 47，声明 slot 0，SC-01 违规 0"
+      "note": "汇总：完工包 51，声明 slot 0，SC-01 违规 0"
     },
     {
       "name": "catalog",
@@ -31,12 +31,17 @@
     {
       "name": "gd",
       "ok": true,
-      "note": "汇总：16 文件；符号池 funcs 148 / signals 7；MISS 0；已知缺口 KG 0"
+      "note": "汇总：17 文件；符号池 funcs 171 / signals 7；MISS 0；已知缺口 KG 0"
     },
     {
       "name": "gd_naming",
       "ok": true,
-      "note": "扫描 16 个 gd；class_name 6 个；FAIL 0"
+      "note": "扫描 17 个 gd；class_name 7 个；FAIL 0"
+    },
+    {
+      "name": "budget",
+      "ok": true,
+      "note": "汇总：PASS 9 行 / SKIP 2 项 / FAIL 0 处"
     },
     {
       "name": "pkg:altair-8800",
@@ -179,6 +184,11 @@
       "note": "FAIL 0"
     },
     {
+      "name": "pkg:nintendo-64",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
       "name": "pkg:nokia-3310",
       "ok": true,
       "note": "FAIL 0"
@@ -214,7 +224,22 @@
       "note": "FAIL 0"
     },
     {
+      "name": "pkg:playstation-2",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:sega-dreamcast",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
       "name": "pkg:sega-md",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:sega-saturn",
       "ok": true,
       "note": "FAIL 0"
     },

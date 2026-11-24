@@ -1,0 +1,235 @@
+{
+  "annotations": [
+    {
+      "id": "chassis_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "PlayStation 2 整机，一台 2000 年索尼发布的第六代家用游戏机，由机箱、吸入式光驱、主板、电源、手柄接口、记忆卡槽、手柄与扩展槽组成，是游戏机厅第六代主机与 DVD 助推普及叙事线的核心展品。",
+      "sources": []
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "电源键在整机中控制整机的通断电，位于前面板，由用户按压操作。",
+      "sources": []
+    },
+    {
+      "id": "dvd_drive_role",
+      "type": "role",
+      "target": "dvd_drive",
+      "text": "吸入式光驱在整机中读取 DVD 游戏光盘，把游戏数据接入主机，是整机加载游戏的读盘部件。",
+      "sources": []
+    },
+    {
+      "id": "dvd_slot_role",
+      "type": "role",
+      "target": "dvd_drive",
+      "text": "吸入式光盘入口在整机中位于前面板，光盘从入口吸入后由光驱读取，是整机的进盘通道。",
+      "sources": []
+    },
+    {
+      "id": "disc_role",
+      "type": "role",
+      "target": "dvd_drive",
+      "text": "DVD 光盘在整机中作为游戏的物理载体，采用 DVD-ROM 介质，吸入光驱后由主机读取运行。",
+      "sources": []
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中承载 Emotion Engine 处理器、Graphics Synthesizer 图形芯片与主内存，是整机运行游戏的计算与图形核心。",
+      "sources": []
+    },
+    {
+      "id": "power_supply_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源模块在整机中把市电转换为多路直流电，为主板、光驱等部件稳定供电。",
+      "sources": []
+    },
+    {
+      "id": "controller_port_role",
+      "type": "role",
+      "target": "controller_port",
+      "text": "手柄接口在整机中连接游戏手柄，把玩家的按键操作送入主机，是整机的主要输入接口。",
+      "sources": []
+    },
+    {
+      "id": "controller_connector_role",
+      "type": "role",
+      "target": "controller_port",
+      "text": "手柄连接触点在整机中与手柄插头接触，把按键输入从手柄送入主机处理。",
+      "sources": []
+    },
+    {
+      "id": "memory_card_slot_role",
+      "type": "role",
+      "target": "memory_card_slot",
+      "text": "记忆卡槽在整机中插入记忆卡，把游戏存档写入记忆卡，是整机的存储扩展接口。",
+      "sources": []
+    },
+    {
+      "id": "memory_card_role",
+      "type": "role",
+      "target": "memory_card_slot",
+      "text": "记忆卡在整机中用于保存游戏存档，插入记忆卡槽后由主机读写存档数据。",
+      "sources": []
+    },
+    {
+      "id": "controller_role",
+      "type": "role",
+      "target": "controller",
+      "text": "DualShock 2 手柄在整机中作为玩家的输入设备，含双模拟摇杆与震动马达，是可识别的可选部件。",
+      "sources": []
+    },
+    {
+      "id": "analog_stick_role",
+      "type": "role",
+      "target": "controller",
+      "text": "模拟摇杆在整机中提供连续的方向输入，让玩家在 3D 空间中精确移动，是 DualShock 2 手柄的关键部件。",
+      "sources": []
+    },
+    {
+      "id": "expansion_bay_role",
+      "type": "role",
+      "target": "expansion_bay",
+      "text": "扩展槽在整机中可接网络适配器或硬盘，为整机提供联网与存储扩展的背部端口。",
+      "sources": []
+    },
+    {
+      "id": "emotion_engine_role",
+      "type": "role",
+      "target": "emotion_engine",
+      "text": "Emotion Engine 处理器在整机中执行游戏逻辑与运算，是整机的运算核心。",
+      "sources": []
+    },
+    {
+      "id": "gs_role",
+      "type": "role",
+      "target": "gs",
+      "text": "Graphics Synthesizer 图形芯片在整机中绘制 3D 画面，是整机的图形渲染核心。",
+      "sources": []
+    },
+    {
+      "id": "ram_role",
+      "type": "role",
+      "target": "ram",
+      "text": "主内存芯片在整机中提供工作内存，暂存运行时的程序与图形数据。",
+      "sources": []
+    },
+    {
+      "id": "iop_role",
+      "type": "role",
+      "target": "iop",
+      "text": "IOP 输入输出处理器在整机中负责外设输入输出，并承担对初代 PlayStation 游戏的兼容。",
+      "sources": []
+    },
+    {
+      "id": "cd_motor_role",
+      "type": "role",
+      "target": "cd_motor",
+      "text": "光盘电机在整机中驱动 DVD 光盘旋转，配合激光头读取游戏数据。",
+      "sources": []
+    },
+    {
+      "id": "best_seller_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "史上销量最高：PS2 凭借庞大的游戏库与 DVD 播放功能，成为史上销量最高的游戏机。",
+      "sources": []
+    },
+    {
+      "id": "sixth_gen_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "第六代主机：PS2 是第六代主机的代表，与 Dreamcast、Xbox、GameCube 共同开启 128 位世代。",
+      "sources": []
+    },
+    {
+      "id": "dvd_playback_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "DVD 助推普及：PS2 内置 DVD 播放功能，把影音播放与游戏结合，助推主机走进千家万户。",
+      "sources": []
+    },
+    {
+      "id": "sony_legacy_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "索尼主机遗产：PS2 延续初代 PlayStation 的光盘与 3D 路线，巩固了索尼在游戏产业的霸主地位。",
+      "sources": []
+    },
+    {
+      "id": "disc_insert_flow",
+      "type": "flow",
+      "target": "dvd_drive",
+      "text": "光盘进仓：把 DVD 光盘放入吸入式入口，光驱吸入光盘后读取并启动游戏。",
+      "sources": []
+    },
+    {
+      "id": "dvd_media_flow",
+      "type": "flow",
+      "target": "dvd_drive",
+      "text": "DVD 介质：PS2 使用 DVD-ROM 介质，容量高于 CD-ROM，为 3D 游戏与影音内容提供更大空间。",
+      "sources": []
+    },
+    {
+      "id": "cpu_gpu_flow",
+      "type": "flow",
+      "target": "mainboard",
+      "text": "CPU 与图形芯片协同：Emotion Engine 执行游戏逻辑，Graphics Synthesizer 绘制 3D 画面，协同渲染游戏世界。",
+      "sources": []
+    },
+    {
+      "id": "ps1_compat_flow",
+      "type": "flow",
+      "target": "mainboard",
+      "text": "PS1 兼容：PS2 通过 IOP 处理器兼容初代 PlayStation 游戏，保护了老玩家庞大的游戏收藏。",
+      "sources": []
+    },
+    {
+      "id": "controller_flow",
+      "type": "flow",
+      "target": "controller_port",
+      "text": "手柄输入：手柄经接口连接主机，十字键、模拟摇杆与按键的输入被送入主机处理。",
+      "sources": []
+    },
+    {
+      "id": "memory_card_flow",
+      "type": "flow",
+      "target": "memory_card_slot",
+      "text": "记忆卡存档：把记忆卡插入记忆卡槽，游戏进度即可保存到记忆卡中。",
+      "sources": []
+    },
+    {
+      "id": "analog_stick_flow",
+      "type": "flow",
+      "target": "controller",
+      "text": "模拟摇杆操作：DualShock 2 的双模拟摇杆提供精确的 3D 操作，成为第六代主机手柄的标配。",
+      "sources": []
+    },
+    {
+      "id": "expansion_flow",
+      "type": "flow",
+      "target": "expansion_bay",
+      "text": "扩展端口：背部扩展槽可接网络适配器或硬盘，让 PS2 具备联网与海量存储能力。",
+      "sources": []
+    },
+    {
+      "id": "disc_insert_anim",
+      "type": "anim",
+      "target": "dvd_drive",
+      "text": "光盘进仓动画：把 DVD 光盘放入吸入式入口、光驱吸入光盘后开机，演示光盘加载过程；单次全程约 2 秒。",
+      "sources": []
+    },
+    {
+      "id": "boot_anim",
+      "type": "anim",
+      "target": "chassis",
+      "text": "开机动画：按下电源键，电源灯点亮、画面渐亮并进入游戏启动界面，演示开机启动过程；全程约 2 秒。",
+      "sources": []
+    }
+  ]
+}

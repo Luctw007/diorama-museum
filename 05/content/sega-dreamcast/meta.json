@@ -1,0 +1,287 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "sega-dreamcast",
+    "name": {
+      "zh": "Sega Dreamcast",
+      "en": "Sega Dreamcast"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "1998 年世嘉发布的 32 位家用游戏机，首台内置调制解调器的家用主机，以 SH-4 CPU 与 GD-ROM 介质推动 3D 与联网游戏，却因市场环境成为世嘉的谢幕之作。",
+    "category": "game-console",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Dreamcast",
+        "url": "https://en.wikipedia.org/wiki/Dreamcast",
+        "license": "cc",
+        "accessed_at": "2026-11-22"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Sega",
+        "url": "https://en.wikipedia.org/wiki/Sega",
+        "license": "cc",
+        "accessed_at": "2026-11-22"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-22"
+      }
+    ],
+    "intro": {
+      "zh": "Sega Dreamcast 是世嘉 1998 年发布的 32 位家用游戏机，是首台内置调制解调器的家用主机，以 SH-4 CPU 与 GD-ROM 介质推动 3D 图形与联网游戏的发展。它在技术上极具前瞻性，却因市场环境与竞争格局，成为世嘉的最后一台主机，是游戏机厅「世嘉谢幕」这一叙事的关键锚点。",
+      "en": "The Sega Dreamcast, released by Sega in 1998, was a 32-bit home console and the first with a built-in modem, advancing 3D graphics and online gaming with its SH-4 CPU and GD-ROM media. Technologically ahead of its time, it nevertheless became Sega's final console, marking the close of Sega's hardware era."
+    },
+    "era": 1998,
+    "manufacturer": "Sega"
+  },
+  "assemblies": [
+    {
+      "id": "chassis",
+      "name": "整机",
+      "role": {
+        "zh": "Sega Dreamcast 整机，由机箱、光驱、主板、电源、手柄接口、VMU 记忆卡、手柄与调制解调器组成，是游戏机厅「世嘉谢幕」与联网先驱叙事线的核心展品。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": null,
+      "children": ["gd_drive", "mainboard", "power_supply", "controller_port", "vmu", "controller", "modem"],
+      "components": [],
+      "annotations": ["chassis_role", "sega_finale_flow", "online_pioneer_flow", "power_switch_role"],
+      "mesh_ref": "assemblies/chassis.gltf"
+    },
+    {
+      "id": "gd_drive",
+      "name": "光驱（GD-ROM 驱动器）",
+      "role": {
+        "zh": "光驱在整机中读取 GD-ROM 游戏光盘，翻盖式光盘盖可开合以便放入与取出光盘，是可开合的识别部件。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": ["cd_motor"],
+      "annotations": ["gd_drive_role", "gd_cover_role", "disc_role", "open_lid_flow", "gd_rom_media_flow"],
+      "mesh_ref": "assemblies/gd_drive.gltf"
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 SH-4 CPU、PowerVR2 图形芯片与主内存，是整机运行游戏的计算与图形核心。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": ["sh4_cpu", "powervr2_gpu", "ram"],
+      "annotations": ["mainboard_role", "cpu_gpu_flow"],
+      "mesh_ref": "assemblies/mainboard.gltf"
+    },
+    {
+      "id": "power_supply",
+      "name": "电源模块",
+      "role": {
+        "zh": "电源模块在整机中把市电转换为多路直流电，为主板、光驱等部件稳定供电。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["power_supply_role"],
+      "mesh_ref": "assemblies/power_supply.gltf"
+    },
+    {
+      "id": "controller_port",
+      "name": "手柄接口",
+      "role": {
+        "zh": "手柄接口在整机中连接游戏手柄，把玩家的按键操作送入主机，是整机的主要输入接口。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["controller_port_role", "controller_connector_role", "controller_flow"],
+      "mesh_ref": "assemblies/controller_port.gltf"
+    },
+    {
+      "id": "vmu",
+      "name": "VMU 记忆卡",
+      "role": {
+        "zh": "VMU 记忆卡在整机中插入手柄，用于保存游戏存档，自带小屏幕可显示游戏信息，是可识别的可选部件。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["vmu_role", "vmu_screen_role", "vmu_flow"],
+      "mesh_ref": "assemblies/vmu.gltf"
+    },
+    {
+      "id": "controller",
+      "name": "手柄",
+      "role": {
+        "zh": "手柄在整机中作为玩家的输入设备，内置 VMU 插槽，是 Dreamcast 的主要操作设备。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["controller_role", "vmu_insert_flow"],
+      "mesh_ref": "assemblies/controller.gltf"
+    },
+    {
+      "id": "modem",
+      "name": "调制解调器",
+      "role": {
+        "zh": "调制解调器在整机中提供拨号上网能力，让玩家可以联网游戏，是 Dreamcast 首开先河的联网部件。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["modem_role", "modem_port_role", "online_gaming_flow"],
+      "mesh_ref": "assemblies/modem.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "sh4_cpu",
+      "name": "SH-4 中央处理器",
+      "type": "ic",
+      "role": {
+        "zh": "SH-4 中央处理器在整机中执行游戏逻辑与运算，是整机的运算核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["sh4_cpu_role"]
+    },
+    {
+      "id": "powervr2_gpu",
+      "name": "PowerVR2 图形芯片",
+      "type": "ic",
+      "role": {
+        "zh": "PowerVR2 图形芯片在整机中绘制 3D 画面，是整机的图形渲染核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["powervr2_gpu_role"]
+    },
+    {
+      "id": "ram",
+      "name": "主内存芯片",
+      "type": "ic",
+      "role": {
+        "zh": "主内存芯片在整机中提供工作内存，暂存运行时的程序与图形数据。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["ram_role"]
+    },
+    {
+      "id": "cd_motor",
+      "name": "光盘电机",
+      "type": "motor",
+      "role": {
+        "zh": "光盘电机在整机中驱动 GD-ROM 光盘旋转，配合激光头读取游戏数据。"
+      },
+      "assembly": "gd_drive",
+      "annotations": ["cd_motor_role"]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Sega Dreamcast（静态展示）",
+    "media_hint": "cd_rom",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "crt_display_0",
+        "surface": "crt_display",
+        "type": "video",
+        "format": "rgba8"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "d_pad_up": {
+        "map": "keyboard",
+        "key": "KEY_UP"
+      },
+      "d_pad_down": {
+        "map": "keyboard",
+        "key": "KEY_DOWN"
+      },
+      "d_pad_left": {
+        "map": "keyboard",
+        "key": "KEY_LEFT"
+      },
+      "d_pad_right": {
+        "map": "keyboard",
+        "key": "KEY_RIGHT"
+      },
+      "button_a": {
+        "map": "keyboard",
+        "key": "KEY_A"
+      },
+      "button_b": {
+        "map": "keyboard",
+        "key": "KEY_B"
+      },
+      "button_x": {
+        "map": "keyboard",
+        "key": "KEY_X"
+      },
+      "start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      }
+    }
+  }
+}

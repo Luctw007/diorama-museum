@@ -9,6 +9,15 @@ const LOOK_SPEED := 0.0025
 const FOV_DEFAULT := 70.0
 const FOV_MAX := 85.0
 
+## 57 号行走相机手感参数卡 v2（TASK-148，只读引用）双档限速常量静态落地（TASK-291-I）：
+## 运行时不切换档位——M0 运行时仍用上方 MOVE_SPEED=3.0 单档；档位切换与 F-10
+## 导览镜头联动（291-B narr_tour_controller.gd 同款常量），标「待实机」。
+const WALK_SPEED_NORMAL := 2.5        # 常态行走（57 号 v2 建议值）
+const WALK_SPEED_NARR := 1.4          # 播报中限速档（16 号全程规则加档）
+const TURN_SPEED_REDLINE := 200.0     # 转身角速度红线（°/s，12 号晕动红线）
+const PITCH_CLAMP_DEG := 70.0         # 环视俯仰上限 ±70°（57 号 v2 建议值；M0 现值 ±85 待切换）
+const MOVE_DAMP_SEC := 0.15           # 起停线性阻尼（s，防急停晕动）
+
 var _captured := false
 
 
