@@ -40,6 +40,9 @@ var _target_value := 0.0
 var _depth := {}             # node -> depth
 var _axis := {}              # node -> Vector3（推拉主轴，默认 +X）
 var _base_transform := {}    # node -> Transform3D（闭合基准）
+## F-6 深化（TASK-301-I）：子树聚焦 asmb_id（空=整机 L1 视图）与 L3 代表件 role 焦点。
+var _subtree_focus := ""
+var _rep_focus := ""
 
 # 运行锁占位（见 §4）：由网关状态信号驱动；M1 阶段无真实运行态，默认 false
 var _device_running := false
@@ -58,6 +61,8 @@ func _on_device_loaded(_device_id: String) -> void:
 	_set_state(State.CLOSED)
 	_value = 0.0
 	_target_value = 0.0
+	_subtree_focus = ""
+	_rep_focus = ""
 	_build_topology()
 
 
@@ -153,6 +158,8 @@ func set_exploded() -> void:
 
 func set_close() -> void:
 	_set_state(State.CLOSED)
+	_subtree_focus = ""
+	_rep_focus = ""
 
 
 func reset_explode() -> void:
@@ -207,15 +214,62 @@ func get_state() -> int:
 	return _state
 
 
-## F-6 深化（TASK-261-A）：实际拆解深度分档导出（depth_model.md L0-L3）。
-## 现行状态机仅全树一次爆炸（depth_model §4：EXPLODED = L1 展开），
-## L2/L3 需级联爆炸（子树视图）未实装——导出上限 L1，如实回退不臆造。
+## F-6 深化（TASK-301-I）：L2/L3 级联爆炸分档导出（depth_model.md L0-L3）。
+## L2 = 子树级视图（EXPLODED 中点选某件 → 子树聚焦，depth_model §4「子树视图」）；
+## L3 = 零件级视图（子树内点选带 role 节点 → 代表件高亮，不位移，depth_model §1 L3）。
+## 缺口如实标注：子树运镜（0.9–1.2s 目标框缩放）与子树局部位移/面包屑属引擎后续
+## 实现（depth_model §4/§6），本任务只落视图分档状态，标「待核实」不臆造。
 func get_depth_level() -> int:
 	match _state:
 		State.EXPLODED:
-			return 1   # L1 大部件级（全树按深度爆炸）
+			if _rep_focus != "":
+				return 3   # L3 零件级视图（代表件高亮）
+			if _subtree_focus != "":
+				return 2   # L2 子树级视图（某件聚焦）
+			return 1       # L1 大部件级（全树按深度爆炸）
 		_:
-			return 0   # L0 整机（CLOSED/OPENED 无展开形变）
+			return 0       # L0 整机（CLOSED/OPENED 无展开形变）
+
+
+## F-6 深化（TASK-301-I）：进入子树视图（L2）——EXPLODED 中点选 asmb_id 聚焦该件；
+## 需该件在拓扑中（_depth 有记录）。位移仍复用全树 _apply_explode（子树局部形变
+## 与 0.9–1.2s 运镜待引擎后续实现，标待核实）。返回是否成功。
+func enter_subtree(asmb_id: String) -> bool:
+	if _state != State.EXPLODED or asmb_id.is_empty():
+		return false
+	var found := false
+	for node in _depth:
+		if node.has_meta("asmb_id") and str(node.get_meta("asmb_id")) == asmb_id:
+			found = true
+			break
+	if not found:
+		return false
+	_subtree_focus = asmb_id
+	_rep_focus = ""
+	return true
+
+
+## F-6 深化（TASK-301-I）：退出子树视图，回 L1（EXPLODED 全树爆炸）。
+func exit_subtree() -> void:
+	_subtree_focus = ""
+	_rep_focus = ""
+
+
+## F-6 深化（TASK-301-I）：子树内点选带 role 标注节点 → L3 代表件高亮（不位移）。
+## role 标注来源 = annotations（03 线），缺失时按无 role 处理（待核实：L3 代表件
+## 选择标准见 depth_model §7-3）。返回是否成功。
+func focus_rep(node: Node3D) -> bool:
+	if _state != State.EXPLODED or _subtree_focus == "":
+		return false
+	if node == null or not node.has_meta("role"):
+		return false
+	_rep_focus = str(node.get_meta("role"))
+	return true
+
+
+## 当前视图分档查询（L0-L3 语义同 get_depth_level；供 HUD/复盘显示）。
+func current_view_level() -> int:
+	return get_depth_level()
 
 
 ## §4 运行锁接入点：网关 status(state=running) → 置 true；stopped/degraded → false

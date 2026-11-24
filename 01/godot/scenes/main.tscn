@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://cnubnd2mailh"]
+[gd_scene load_steps=22 format=3 uid="uid://cnubnd2mailh"]
 
 [ext_resource type="Script" path="res://scripts/gateway_client.gd" id="1_gw"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="2_player"]
@@ -13,9 +13,16 @@
 [ext_resource type="Script" path="res://scripts/startup_check.gd" id="11_startup"]
 [ext_resource type="Script" path="res://scripts/hall_nav_panel.gd" id="12_hallnav"]
 [ext_resource type="Script" path="res://scripts/portal_hub.gd" id="13_portalhub"]
+[ext_resource type="Script" path="res://scripts/narr_tour_controller.gd" id="14_tour"]
 
 [sub_resource type="PlaneMesh" id="plane_1"]
 size = Vector2(20, 20)
+
+[sub_resource type="BoxShape3D" id="box_shape_wall_z"]
+size = Vector3(20, 3, 0.3)
+
+[sub_resource type="BoxShape3D" id="box_shape_wall_x"]
+size = Vector3(0.3, 3, 20)
 
 [sub_resource type="BoxMesh" id="box_wall_z"]
 size = Vector3(20, 3, 0.3)
@@ -42,17 +49,37 @@ mesh = SubResource("plane_1")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, -10)
 mesh = SubResource("box_wall_z")
 
+[node name="Body" type="StaticBody3D" parent="Room/WallN"]
+
+[node name="Shape" type="CollisionShape3D" parent="Room/WallN/Body"]
+shape = SubResource("box_shape_wall_z")
+
 [node name="WallS" type="MeshInstance3D" parent="Room"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 10)
 mesh = SubResource("box_wall_z")
+
+[node name="Body" type="StaticBody3D" parent="Room/WallS"]
+
+[node name="Shape" type="CollisionShape3D" parent="Room/WallS/Body"]
+shape = SubResource("box_shape_wall_z")
 
 [node name="WallW" type="MeshInstance3D" parent="Room"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 1.5, 0)
 mesh = SubResource("box_wall_x")
 
+[node name="Body" type="StaticBody3D" parent="Room/WallW"]
+
+[node name="Shape" type="CollisionShape3D" parent="Room/WallW/Body"]
+shape = SubResource("box_shape_wall_x")
+
 [node name="WallE" type="MeshInstance3D" parent="Room"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 1.5, 0)
 mesh = SubResource("box_wall_x")
+
+[node name="Body" type="StaticBody3D" parent="Room/WallE"]
+
+[node name="Shape" type="CollisionShape3D" parent="Room/WallE/Body"]
+shape = SubResource("box_shape_wall_x")
 
 [node name="Screen" type="MeshInstance3D" parent="Room"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6, -9.6)
@@ -73,6 +100,9 @@ script = ExtResource("1_gw")
 
 [node name="NarrPlayer" type="Node" parent="."]
 script = ExtResource("10_narr")
+
+[node name="NarrTourController" type="Node" parent="."]
+script = ExtResource("14_tour")
 
 [node name="StartupCheck" type="Node" parent="."]
 script = ExtResource("11_startup")

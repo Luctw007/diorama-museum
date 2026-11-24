@@ -19,11 +19,26 @@ const PITCH_CLAMP_DEG := 70.0         # 环视俯仰上限 ±70°（57 号 v2 �
 const MOVE_DAMP_SEC := 0.15           # 起停线性阻尼（s，防急停晕动）
 
 var _captured := false
+## F-14⑥（TASK-301-J）：玩家碰撞体——Camera3D 下挂 CharacterBody3D 子节点 + CapsuleShape3D，
+## 并 add_to_group("player") 与 portal_hub PLAYER_GROUP 契约对齐（portal 碰撞传送前置）。
+## 位置每帧同步相机；本文件运行时移动仍沿用现有 WASD 直改 global_position（M0 无碰撞
+## 自由移动口径不变，不臆造新增手感参数）。待实机：碰撞传送（F-14⑥）与墙体碰撞走查。
+var _body = null
 
 
 func _ready() -> void:
 	fov = FOV_DEFAULT
 	set_captured(true)
+	_body = CharacterBody3D.new()
+	_body.name = "PlayerBody"
+	add_child(_body)
+	var shape := CollisionShape3D.new()
+	var capsule := CapsuleShape3D.new()
+	capsule.height = 1.7    # 站姿高度（57 号 v2 眼高 1.55 m 口径加余量）
+	capsule.radius = 0.35
+	shape.shape = capsule
+	_body.add_child(shape)
+	_body.add_to_group("player")   # portal_hub PLAYER_GROUP := "player" 契约
 
 
 ## 鼠标捕获开关（RUN-08 公开化）：面板打开时由 UI 调 set_captured(false) 释放鼠标，
@@ -63,3 +78,5 @@ func _process(delta: float) -> void:
 	dir.y = 0.0  # 水平移动不受俯仰影响
 	if dir != Vector3.ZERO:
 		global_position += dir.normalized() * MOVE_SPEED * delta
+	if _body != null:
+		_body.global_position = global_position   # 碰撞体跟随相机（portal 触发检测体）

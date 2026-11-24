@@ -1,0 +1,287 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "gamecube",
+    "name": {
+      "zh": "Nintendo GameCube（NGC）",
+      "en": "Nintendo GameCube"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "2001 年任天堂发布的第六代家用游戏机，任天堂首台采用光盘（miniDVD）介质的主机，以方块机身与提手设计展开差异化探索，是游戏机厅第六代主机叙事的重要成员。",
+    "category": "game-console",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: GameCube",
+        "url": "https://en.wikipedia.org/wiki/GameCube",
+        "license": "cc",
+        "accessed_at": "2026-11-25"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Nintendo",
+        "url": "https://en.wikipedia.org/wiki/Nintendo",
+        "license": "cc",
+        "accessed_at": "2026-11-25"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-25"
+      }
+    ],
+    "intro": {
+      "zh": "Nintendo GameCube 是任天堂 2001 年发布的第六代家用游戏机，是任天堂首台采用光盘介质的主机，以方块机身、顶部提手与 miniDVD 光驱展开差异化探索。它在与 PS2、Xbox 的第六代竞争中独树一帜，是游戏机厅第六代主机「迷你 DVD 差异化探索」叙事线的核心展品。",
+      "en": "The Nintendo GameCube, released by Nintendo in 2001, was a sixth-generation home console and Nintendo's first to use optical-disc media, exploring differentiation with its cube design, top handle, and miniDVD drive."
+    },
+    "era": 2001,
+    "manufacturer": "Nintendo"
+  },
+  "assemblies": [
+    {
+      "id": "chassis",
+      "name": "整机",
+      "role": {
+        "zh": "Nintendo GameCube 整机，由方块机箱、光驱、主板、电源、手柄接口、记忆卡槽、手柄与扩展槽组成，是游戏机厅第六代主机与迷你 DVD 差异化探索叙事线的核心展品。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": null,
+      "children": ["disc_drive", "mainboard", "power_supply", "controller_port", "memory_card_slot", "controller", "expansion_slot"],
+      "components": [],
+      "annotations": ["chassis_role", "handle_role", "power_switch_role", "mini_dvd_flow", "sixth_gen_flow", "nintendo_legacy_flow"],
+      "mesh_ref": "assemblies/chassis.gltf"
+    },
+    {
+      "id": "disc_drive",
+      "name": "光驱（miniDVD 驱动器）",
+      "role": {
+        "zh": "光驱在整机中读取 miniDVD 游戏光盘，翻盖式光盘盖可开合以便放入与取出光盘，是可开合的识别部件。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": ["cd_motor"],
+      "annotations": ["disc_drive_role", "disc_cover_role", "disc_role", "open_lid_flow"],
+      "mesh_ref": "assemblies/disc_drive.gltf"
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 Gekko CPU、Flipper 图形芯片与主内存，是整机运行游戏的计算与图形核心。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": ["gekko", "flipper", "ram"],
+      "annotations": ["mainboard_role", "cpu_gpu_flow"],
+      "mesh_ref": "assemblies/mainboard.gltf"
+    },
+    {
+      "id": "power_supply",
+      "name": "电源模块",
+      "role": {
+        "zh": "电源模块在整机中把市电转换为多路直流电，为主板、光驱等部件稳定供电。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["power_supply_role"],
+      "mesh_ref": "assemblies/power_supply.gltf"
+    },
+    {
+      "id": "controller_port",
+      "name": "手柄接口",
+      "role": {
+        "zh": "手柄接口在整机中连接最多四个手柄，把玩家的按键操作送入主机，是整机的主要输入接口。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["controller_port_role", "controller_connector_role", "controller_flow", "four_player_flow"],
+      "mesh_ref": "assemblies/controller_port.gltf"
+    },
+    {
+      "id": "memory_card_slot",
+      "name": "记忆卡槽",
+      "role": {
+        "zh": "记忆卡槽在整机中插入记忆卡，用于保存游戏存档，是整机的存储扩展接口。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["memory_card_slot_role", "memory_card_role", "memory_card_flow"],
+      "mesh_ref": "assemblies/memory_card_slot.gltf"
+    },
+    {
+      "id": "controller",
+      "name": "手柄",
+      "role": {
+        "zh": "手柄在整机中作为玩家的输入设备，含双模拟摇杆与肩键，是可识别的可选部件。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["controller_role", "analog_stick_role", "analog_stick_flow"],
+      "mesh_ref": "assemblies/controller.gltf"
+    },
+    {
+      "id": "expansion_slot",
+      "name": "扩展槽",
+      "role": {
+        "zh": "扩展槽在整机中提供底部扩展端口，可接串口或高速端口，为整机提供功能扩展。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["expansion_slot_role", "expansion_flow"],
+      "mesh_ref": "assemblies/expansion_slot.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "gekko",
+      "name": "Gekko CPU",
+      "type": "ic",
+      "role": {
+        "zh": "Gekko CPU 在整机中执行游戏逻辑与运算，是整机的运算核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["gekko_role"]
+    },
+    {
+      "id": "flipper",
+      "name": "Flipper 图形芯片",
+      "type": "ic",
+      "role": {
+        "zh": "Flipper 图形芯片在整机中绘制 3D 画面，是整机的图形渲染核心。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["flipper_role"]
+    },
+    {
+      "id": "ram",
+      "name": "主内存芯片",
+      "type": "ic",
+      "role": {
+        "zh": "主内存芯片在整机中提供工作内存，暂存运行时的程序与图形数据。"
+      },
+      "assembly": "mainboard",
+      "annotations": ["ram_role"]
+    },
+    {
+      "id": "cd_motor",
+      "name": "光盘电机",
+      "type": "motor",
+      "role": {
+        "zh": "光盘电机在整机中驱动 miniDVD 光盘旋转，配合激光头读取游戏数据。"
+      },
+      "assembly": "disc_drive",
+      "annotations": ["cd_motor_role"]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Nintendo GameCube（静态展示）",
+    "media_hint": "cd_rom",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "crt_display_0",
+        "surface": "crt_display",
+        "type": "video",
+        "format": "rgba8"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "d_pad_up": {
+        "map": "keyboard",
+        "key": "KEY_UP"
+      },
+      "d_pad_down": {
+        "map": "keyboard",
+        "key": "KEY_DOWN"
+      },
+      "d_pad_left": {
+        "map": "keyboard",
+        "key": "KEY_LEFT"
+      },
+      "d_pad_right": {
+        "map": "keyboard",
+        "key": "KEY_RIGHT"
+      },
+      "button_a": {
+        "map": "keyboard",
+        "key": "KEY_A"
+      },
+      "button_b": {
+        "map": "keyboard",
+        "key": "KEY_B"
+      },
+      "button_x": {
+        "map": "keyboard",
+        "key": "KEY_X"
+      },
+      "start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      }
+    }
+  }
+}

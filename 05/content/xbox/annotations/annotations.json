@@ -1,0 +1,235 @@
+{
+  "annotations": [
+    {
+      "id": "chassis_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "Microsoft Xbox 整机，一台 2001 年微软发布的第六代家用游戏机，由黑色方块机箱、光驱、主板、电源、手柄接口、硬盘仓、手柄与以太网接口组成，是游戏机厅第六代主机与微软入局叙事线的核心展品。",
+      "sources": []
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "电源键在整机中控制整机的通断电，位于前面板，由用户按压操作。",
+      "sources": []
+    },
+    {
+      "id": "green_ring_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "电源环在整机中位于前面板中央，通电时亮起绿色光环，是 Xbox 标志性的视觉元素。",
+      "sources": []
+    },
+    {
+      "id": "dvd_drive_role",
+      "type": "role",
+      "target": "dvd_drive",
+      "text": "光驱在整机中读取 DVD 游戏光盘，把游戏数据接入主机，是整机加载游戏的读盘部件。",
+      "sources": []
+    },
+    {
+      "id": "tray_role",
+      "type": "role",
+      "target": "dvd_drive",
+      "text": "光驱托盘在整机中可从前面板弹出，放入或取出 DVD 光盘后收回，是可弹出的识别部件。",
+      "sources": []
+    },
+    {
+      "id": "disc_role",
+      "type": "role",
+      "target": "dvd_drive",
+      "text": "DVD 光盘在整机中作为游戏的物理载体，采用 DVD-ROM 介质，放入光驱后由主机读取运行。",
+      "sources": []
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中承载 Pentium III 级 CPU、NVIDIA 图形芯片与主内存，是整机运行游戏的计算与图形核心。",
+      "sources": []
+    },
+    {
+      "id": "power_supply_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源模块在整机中把市电转换为多路直流电，为主板、光驱等部件稳定供电。",
+      "sources": []
+    },
+    {
+      "id": "controller_port_role",
+      "type": "role",
+      "target": "controller_port",
+      "text": "手柄接口在整机中连接最多四个手柄，把玩家的按键操作送入主机，是整机的主要输入接口。",
+      "sources": []
+    },
+    {
+      "id": "controller_connector_role",
+      "type": "role",
+      "target": "controller_port",
+      "text": "手柄连接触点在整机中与手柄插头接触，把按键输入从手柄送入主机处理。",
+      "sources": []
+    },
+    {
+      "id": "hard_drive_role",
+      "type": "role",
+      "target": "hard_drive",
+      "text": "硬盘仓在整机中内置硬盘，用于存储游戏数据、存档与系统软件，是 Xbox 标志性的内置存储部件。",
+      "sources": []
+    },
+    {
+      "id": "hard_disk_role",
+      "type": "role",
+      "target": "hard_drive",
+      "text": "内置硬盘在整机中提供大容量存储，让游戏无需反复读盘，也支持存档与系统软件的存放。",
+      "sources": []
+    },
+    {
+      "id": "controller_role",
+      "type": "role",
+      "target": "controller",
+      "text": "手柄在整机中作为玩家的输入设备，含双模拟摇杆与电源环，是可识别的可选部件。",
+      "sources": []
+    },
+    {
+      "id": "analog_stick_role",
+      "type": "role",
+      "target": "controller",
+      "text": "模拟摇杆在整机中提供连续的方向输入，让玩家在 3D 空间中精确移动，是 Xbox 手柄的关键部件。",
+      "sources": []
+    },
+    {
+      "id": "ethernet_port_role",
+      "type": "role",
+      "target": "ethernet_port",
+      "text": "以太网接口在整机中提供有线网络接入，让玩家可以联网游戏，是 Xbox 在线服务的硬件基础。",
+      "sources": []
+    },
+    {
+      "id": "pentium3_role",
+      "type": "role",
+      "target": "pentium3",
+      "text": "Pentium III 级 CPU 在整机中执行游戏逻辑与运算，是整机的运算核心。",
+      "sources": []
+    },
+    {
+      "id": "nvidia_gpu_role",
+      "type": "role",
+      "target": "nvidia_gpu",
+      "text": "NVIDIA 图形芯片在整机中绘制 3D 画面，是整机的图形渲染核心。",
+      "sources": []
+    },
+    {
+      "id": "ram_role",
+      "type": "role",
+      "target": "ram",
+      "text": "主内存芯片在整机中提供工作内存，暂存运行时的程序与图形数据。",
+      "sources": []
+    },
+    {
+      "id": "cd_motor_role",
+      "type": "role",
+      "target": "cd_motor",
+      "text": "光盘电机在整机中驱动 DVD 光盘旋转，配合激光头读取游戏数据。",
+      "sources": []
+    },
+    {
+      "id": "microsoft_entry_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "微软入局：Xbox 是微软进军游戏主机市场的首台作品，凭借雄厚资金与技术实力切入市场。",
+      "sources": []
+    },
+    {
+      "id": "sixth_gen_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "第六代主机：Xbox 与 PS2、GameCube 同属第六代主机，共同开启 128 位世代。",
+      "sources": []
+    },
+    {
+      "id": "three_way_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "三足鼎立：Xbox 的入局让主机之争从任索双雄演变为索尼、微软、任天堂三足鼎立。",
+      "sources": []
+    },
+    {
+      "id": "tray_eject_flow",
+      "type": "flow",
+      "target": "dvd_drive",
+      "text": "托盘弹出：按弹出键，光驱托盘从前面板弹出，放入 DVD 光盘后收回并启动游戏。",
+      "sources": []
+    },
+    {
+      "id": "cpu_gpu_flow",
+      "type": "flow",
+      "target": "mainboard",
+      "text": "CPU 与图形芯片协同：Pentium III 级 CPU 执行游戏逻辑，NVIDIA 图形芯片绘制 3D 画面。",
+      "sources": []
+    },
+    {
+      "id": "pentium_flow",
+      "type": "flow",
+      "target": "mainboard",
+      "text": "PC 架构：Xbox 采用类 PC 架构，接近 x86 的硬件让跨平台移植更为便捷。",
+      "sources": []
+    },
+    {
+      "id": "controller_flow",
+      "type": "flow",
+      "target": "controller_port",
+      "text": "手柄输入：手柄经接口连接主机，十字键、模拟摇杆与按键的输入被送入主机处理。",
+      "sources": []
+    },
+    {
+      "id": "analog_stick_flow",
+      "type": "flow",
+      "target": "controller",
+      "text": "模拟摇杆操作：Xbox 手柄的双模拟摇杆提供精确的 3D 操作。",
+      "sources": []
+    },
+    {
+      "id": "hdd_flow",
+      "type": "flow",
+      "target": "hard_drive",
+      "text": "内置硬盘：Xbox 首创内置硬盘，让游戏加载更快、存档更方便，也支持系统软件。",
+      "sources": []
+    },
+    {
+      "id": "ethernet_flow",
+      "type": "flow",
+      "target": "ethernet_port",
+      "text": "以太网接入：Xbox 内置以太网接口，为在线游戏提供高速网络连接。",
+      "sources": []
+    },
+    {
+      "id": "xbox_live_flow",
+      "type": "flow",
+      "target": "ethernet_port",
+      "text": "Xbox Live：Xbox 率先推出统一在线服务，为家用机在线游戏树立了标杆。",
+      "sources": []
+    },
+    {
+      "id": "green_ring_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "电源环：Xbox 的绿色电源环成为其标志性视觉符号，通电点亮、关机熄灭。",
+      "sources": []
+    },
+    {
+      "id": "tray_eject_anim",
+      "type": "anim",
+      "target": "dvd_drive",
+      "text": "托盘弹出动画：按弹出键，光驱托盘从前面板弹出、放入光盘、收回并开机；单次全程约 2 秒。",
+      "sources": []
+    },
+    {
+      "id": "boot_anim",
+      "type": "anim",
+      "target": "chassis",
+      "text": "开机动画：按下电源键，绿色电源环点亮、画面渐亮并进入启动界面；全程约 2 秒。",
+      "sources": []
+    }
+  ]
+}

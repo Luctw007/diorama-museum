@@ -1,0 +1,235 @@
+{
+  "annotations": [
+    {
+      "id": "chassis_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "Nintendo GameCube 整机，一台 2001 年任天堂发布的第六代家用游戏机，由方块机箱、光驱、主板、电源、手柄接口、记忆卡槽、手柄与扩展槽组成，是游戏机厅第六代主机与迷你 DVD 差异化探索叙事线的核心展品。",
+      "sources": []
+    },
+    {
+      "id": "handle_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "提手在整机中位于顶部后侧，方便玩家拎起主机随身携带，是 GameCube 方块机身的标志性设计。",
+      "sources": []
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "电源键在整机中控制整机的通断电，位于前面板，由用户按压操作。",
+      "sources": []
+    },
+    {
+      "id": "disc_drive_role",
+      "type": "role",
+      "target": "disc_drive",
+      "text": "光驱在整机中读取 miniDVD 游戏光盘，把游戏数据接入主机，是整机加载游戏的读盘部件。",
+      "sources": []
+    },
+    {
+      "id": "disc_cover_role",
+      "type": "role",
+      "target": "disc_drive",
+      "text": "光盘盖在整机中采用翻盖式开合，放入或取出 miniDVD 光盘时可向上翻开，是可开合的识别部件。",
+      "sources": []
+    },
+    {
+      "id": "disc_role",
+      "type": "role",
+      "target": "disc_drive",
+      "text": "miniDVD 光盘在整机中作为游戏的物理载体，采用专用迷你 DVD 介质，放入光驱后由主机读取运行。",
+      "sources": []
+    },
+    {
+      "id": "mainboard_role",
+      "type": "role",
+      "target": "mainboard",
+      "text": "主板在整机中承载 Gekko CPU、Flipper 图形芯片与主内存，是整机运行游戏的计算与图形核心。",
+      "sources": []
+    },
+    {
+      "id": "power_supply_role",
+      "type": "role",
+      "target": "power_supply",
+      "text": "电源模块在整机中把市电转换为多路直流电，为主板、光驱等部件稳定供电。",
+      "sources": []
+    },
+    {
+      "id": "controller_port_role",
+      "type": "role",
+      "target": "controller_port",
+      "text": "手柄接口在整机中连接最多四个手柄，把玩家的按键操作送入主机，是整机的主要输入接口。",
+      "sources": []
+    },
+    {
+      "id": "controller_connector_role",
+      "type": "role",
+      "target": "controller_port",
+      "text": "手柄连接触点在整机中与手柄插头接触，把按键输入从手柄送入主机处理。",
+      "sources": []
+    },
+    {
+      "id": "memory_card_slot_role",
+      "type": "role",
+      "target": "memory_card_slot",
+      "text": "记忆卡槽在整机中插入记忆卡，把游戏存档写入记忆卡，是整机的存储扩展接口。",
+      "sources": []
+    },
+    {
+      "id": "memory_card_role",
+      "type": "role",
+      "target": "memory_card_slot",
+      "text": "记忆卡在整机中用于保存游戏存档，插入记忆卡槽后由主机读写存档数据。",
+      "sources": []
+    },
+    {
+      "id": "controller_role",
+      "type": "role",
+      "target": "controller",
+      "text": "手柄在整机中作为玩家的输入设备，含双模拟摇杆与肩键，是可识别的可选部件。",
+      "sources": []
+    },
+    {
+      "id": "analog_stick_role",
+      "type": "role",
+      "target": "controller",
+      "text": "模拟摇杆在整机中提供连续的方向输入，让玩家在 3D 空间中精确移动，是 GameCube 手柄的关键部件。",
+      "sources": []
+    },
+    {
+      "id": "expansion_slot_role",
+      "type": "role",
+      "target": "expansion_slot",
+      "text": "扩展槽在整机中提供底部扩展端口，可接串口或高速端口，为整机提供功能扩展。",
+      "sources": []
+    },
+    {
+      "id": "gekko_role",
+      "type": "role",
+      "target": "gekko",
+      "text": "Gekko CPU 在整机中执行游戏逻辑与运算，是整机的运算核心。",
+      "sources": []
+    },
+    {
+      "id": "flipper_role",
+      "type": "role",
+      "target": "flipper",
+      "text": "Flipper 图形芯片在整机中绘制 3D 画面，是整机的图形渲染核心。",
+      "sources": []
+    },
+    {
+      "id": "ram_role",
+      "type": "role",
+      "target": "ram",
+      "text": "主内存芯片在整机中提供工作内存，暂存运行时的程序与图形数据。",
+      "sources": []
+    },
+    {
+      "id": "cd_motor_role",
+      "type": "role",
+      "target": "cd_motor",
+      "text": "光盘电机在整机中驱动 miniDVD 光盘旋转，配合激光头读取游戏数据。",
+      "sources": []
+    },
+    {
+      "id": "mini_dvd_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "迷你 DVD 探索：GameCube 是任天堂首台采用光盘介质的主机，用专用 miniDVD 展开差异化探索。",
+      "sources": []
+    },
+    {
+      "id": "sixth_gen_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "第六代主机：GameCube 与 PS2、Xbox 同属第六代主机，共同开启 128 位世代。",
+      "sources": []
+    },
+    {
+      "id": "nintendo_legacy_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "任天堂主机遗产：GameCube 延续任天堂第一方内容为王的路线，其经典作品影响深远。",
+      "sources": []
+    },
+    {
+      "id": "open_lid_flow",
+      "type": "flow",
+      "target": "disc_drive",
+      "text": "开盖放碟：翻开光驱盖、放入 miniDVD 光盘、合上盖子，主机读取光盘后启动游戏。",
+      "sources": []
+    },
+    {
+      "id": "cpu_gpu_flow",
+      "type": "flow",
+      "target": "mainboard",
+      "text": "CPU 与图形芯片协同：Gekko 执行游戏逻辑，Flipper 绘制 3D 画面，协同渲染游戏世界。",
+      "sources": []
+    },
+    {
+      "id": "controller_flow",
+      "type": "flow",
+      "target": "controller_port",
+      "text": "手柄输入：手柄经接口连接主机，十字键、模拟摇杆与按键的输入被送入主机处理。",
+      "sources": []
+    },
+    {
+      "id": "four_player_flow",
+      "type": "flow",
+      "target": "controller_port",
+      "text": "四手柄支持：GameCube 支持四个手柄接口，让四人对战成为可能。",
+      "sources": []
+    },
+    {
+      "id": "memory_card_flow",
+      "type": "flow",
+      "target": "memory_card_slot",
+      "text": "记忆卡存档：把记忆卡插入记忆卡槽，游戏进度即可保存到记忆卡中。",
+      "sources": []
+    },
+    {
+      "id": "analog_stick_flow",
+      "type": "flow",
+      "target": "controller",
+      "text": "模拟摇杆操作：GameCube 手柄的双模拟摇杆提供精确的 3D 操作。",
+      "sources": []
+    },
+    {
+      "id": "expansion_flow",
+      "type": "flow",
+      "target": "expansion_slot",
+      "text": "扩展端口：底部扩展槽可接串口或高速端口，为整机提供功能扩展。",
+      "sources": []
+    },
+    {
+      "id": "handle_design_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "提手设计：GameCube 的顶部提手让主机可随身携带，是它区别于其他第六代主机的独特设计。",
+      "sources": []
+    },
+    {
+      "id": "first_disc_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "任天堂首台光盘主机：GameCube 是任天堂从卡带转向光盘的关键一步，标志着任天堂介质策略的转折。",
+      "sources": []
+    },
+    {
+      "id": "open_lid_anim",
+      "type": "anim",
+      "target": "disc_drive",
+      "text": "开盖放碟动画：翻开 miniDVD 光驱盖、放入光盘、合盖开机，演示光盘加载过程；单次全程约 2 秒。",
+      "sources": []
+    },
+    {
+      "id": "boot_anim",
+      "type": "anim",
+      "target": "chassis",
+      "text": "开机动画：按下电源键，电源灯点亮、画面渐亮并进入游戏启动界面，演示开机启动过程；全程约 2 秒。",
+      "sources": []
+    }
+  ]
+}
