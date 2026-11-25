@@ -1,0 +1,50 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "wii",
+    "name": {"zh": "Nintendo Wii", "en": "Nintendo Wii"},
+    "spec_version": "0.2", "version": "1.0.0", "engine_min_version": "0.1.0", "precision_level": "L2",
+    "authors": [{"name": "箱庭电子博物馆项目组", "role": "author"}],
+    "description": "2006 年任天堂发布的第七代家用游戏机，以体感遥控器 Wii Remote 与蓝海战略成为现象级主机，是游戏机厅第七代主机「体感革命」叙事线的核心展品。",
+    "category": "game-console",
+    "sources": [
+      {"type": "documentation", "title": "Wikipedia: Wii", "url": "https://en.wikipedia.org/wiki/Wii", "license": "cc", "accessed_at": "2026-11-25"},
+      {"type": "documentation", "title": "Wikipedia: Nintendo", "url": "https://en.wikipedia.org/wiki/Nintendo", "license": "cc", "accessed_at": "2026-11-25"},
+      {"type": "documentation", "title": "Computer History Museum", "url": "https://www.computerhistory.org/", "license": "visual_reference_only", "accessed_at": "2026-11-25"}
+    ],
+    "intro": {
+      "zh": "Nintendo Wii 是任天堂 2006 年发布的第七代家用游戏机，以体感遥控器 Wii Remote 与蓝海战略开辟了体感游戏的新纪元，成为现象级主机，是游戏机厅第七代主机「体感革命」叙事线的核心展品。",
+      "en": "The Nintendo Wii, released in 2006, was a seventh-generation home console that pioneered motion gaming with its Wii Remote, becoming a phenomenon through its blue-ocean strategy."
+    },
+    "era": 2006, "manufacturer": "Nintendo"
+  },
+  "assemblies": [
+    {"id": "chassis", "name": "整机", "role": {"zh": "Nintendo Wii 整机，由白色竖条机箱、光驱、主板、电源、手柄接口、Wii Remote、Nunchuk 与感应条组成，是游戏机厅第七代主机与体感革命叙事线的核心展品。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": null, "children": ["disc_drive","mainboard","power_supply","controller_port","wii_remote","nunchuk","sensor_bar"], "components": [], "annotations": ["chassis_role","power_switch_role","motion_revolution_flow","blue_ocean_flow"], "mesh_ref": "assemblies/chassis.gltf"},
+    {"id": "disc_drive", "name": "光驱（DVD-ROM 驱动器）", "role": {"zh": "光驱在整机中读取 DVD 游戏光盘，光盘从前面板吸入，是可吸入的识别部件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": ["cd_motor"], "annotations": ["disc_drive_role","disc_role","disc_insert_flow"], "mesh_ref": "assemblies/disc_drive.gltf"},
+    {"id": "mainboard", "name": "主板", "role": {"zh": "主板在整机中承载 Broadway CPU、Hollywood GPU 与主内存，是整机运行游戏的计算与图形核心。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": ["broadway","hollywood","ram"], "annotations": ["mainboard_role","cpu_gpu_flow"], "mesh_ref": "assemblies/mainboard.gltf"},
+    {"id": "power_supply", "name": "电源模块", "role": {"zh": "电源模块在整机中把市电转换为多路直流电，为主板、光驱等部件稳定供电。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["power_supply_role"], "mesh_ref": "assemblies/power_supply.gltf"},
+    {"id": "controller_port", "name": "手柄接口", "role": {"zh": "手柄接口在整机中连接体感遥控器与副柄，把玩家的操作送入主机。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["controller_port_role","controller_flow"], "mesh_ref": "assemblies/controller_port.gltf"},
+    {"id": "wii_remote", "name": "Wii Remote 体感遥控器", "role": {"zh": "Wii Remote 在整机中作为体感遥控器，含运动感应与指针功能，可作挥动手臂示意，是体感革命的核心部件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["wii_remote_role","motion_sensing_flow"], "mesh_ref": "assemblies/wii_remote.gltf"},
+    {"id": "nunchuk", "name": "Nunchuk 副柄", "role": {"zh": "Nunchuk 副柄在整机中与 Wii Remote 相连，提供模拟摇杆与附加按键，是体感操作的扩展部件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["nunchuk_role","analog_stick_flow"], "mesh_ref": "assemblies/nunchuk.gltf"},
+    {"id": "sensor_bar", "name": "感应条", "role": {"zh": "感应条在整机中置于电视顶部，用于体感遥控器的指针定位，是体感操作的空间定位部件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["sensor_bar_role","pointer_flow"], "mesh_ref": "assemblies/sensor_bar.gltf"}
+  ],
+  "components": [
+    {"id": "broadway", "name": "Broadway CPU", "type": "ic", "role": {"zh": "Broadway CPU 在整机中执行游戏逻辑与运算，是整机的运算核心。"}, "assembly": "mainboard", "annotations": ["broadway_role"]},
+    {"id": "hollywood", "name": "Hollywood GPU", "type": "ic", "role": {"zh": "Hollywood GPU 在整机中绘制画面，是整机的图形渲染核心。"}, "assembly": "mainboard", "annotations": ["hollywood_role"]},
+    {"id": "ram", "name": "主内存芯片", "type": "ic", "role": {"zh": "主内存芯片在整机中提供工作内存，暂存运行时的程序与图形数据。"}, "assembly": "mainboard", "annotations": ["ram_role"]},
+    {"id": "cd_motor", "name": "光盘电机", "type": "motor", "role": {"zh": "光盘电机在整机中驱动 DVD 光盘旋转，配合激光头读取游戏数据。"}, "assembly": "disc_drive", "annotations": ["cd_motor_role"]}
+  ],
+  "runtime": {
+    "emulator": "none", "version": "1.0.0", "system": "Nintendo Wii（静态展示）", "media_hint": "cd_rom", "bios_required": false, "bios_guide_url": null,
+    "output_sinks": [
+      {"id": "crt_display_0", "surface": "crt_display", "type": "video", "format": "rgba8"},
+      {"id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16"}
+    ],
+    "input_map": {
+      "d_pad_up": {"map": "keyboard", "key": "KEY_UP"}, "d_pad_down": {"map": "keyboard", "key": "KEY_DOWN"},
+      "d_pad_left": {"map": "keyboard", "key": "KEY_LEFT"}, "d_pad_right": {"map": "keyboard", "key": "KEY_RIGHT"},
+      "button_a": {"map": "keyboard", "key": "KEY_A"}, "button_b": {"map": "keyboard", "key": "KEY_B"},
+      "button_x": {"map": "keyboard", "key": "KEY_X"}, "start": {"map": "keyboard", "key": "KEY_ENTER"}
+    }
+  }
+}

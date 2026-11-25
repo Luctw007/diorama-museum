@@ -1,7 +1,7 @@
 {
-  "time": "2026-11-25 01:17:58",
-  "total": 61,
-  "passed": 61,
+  "time": "2026-11-26 00:35:59",
+  "total": 67,
+  "passed": 67,
   "steps": [
     {
       "name": "m0",
@@ -16,7 +16,7 @@
     {
       "name": "slots",
       "ok": true,
-      "note": "汇总：完工包 53，声明 slot 0，SC-01 违规 0"
+      "note": "汇总：完工包 59，声明 slot 0，SC-01 违规 0"
     },
     {
       "name": "catalog",
@@ -31,7 +31,7 @@
     {
       "name": "gd",
       "ok": true,
-      "note": "汇总：17 文件；符号池 funcs 175 / signals 7；MISS 0；已知缺口 KG 0"
+      "note": "汇总：17 文件；符号池 funcs 182 / signals 8；MISS 0；已知缺口 KG 0"
     },
     {
       "name": "gd_naming",
@@ -154,6 +154,11 @@
       "note": "FAIL 0"
     },
     {
+      "name": "pkg:gba",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
       "name": "pkg:hp-2100",
       "ok": true,
       "note": "FAIL 0"
@@ -194,12 +199,22 @@
       "note": "FAIL 0"
     },
     {
+      "name": "pkg:nintendo-switch",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
       "name": "pkg:nokia-3310",
       "ok": true,
       "note": "FAIL 0"
     },
     {
       "name": "pkg:nokia-8110",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:pac-man-arcade",
       "ok": true,
       "note": "FAIL 0"
     },
@@ -230,6 +245,11 @@
     },
     {
       "name": "pkg:playstation-2",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:playstation-3",
       "ok": true,
       "note": "FAIL 0"
     },
@@ -294,12 +314,22 @@
       "note": "FAIL 0"
     },
     {
+      "name": "pkg:wii",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
       "name": "pkg:x68000",
       "ok": true,
       "note": "FAIL 0"
     },
     {
       "name": "pkg:xbox",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:xbox-360",
       "ok": true,
       "note": "FAIL 0"
     },

@@ -1,0 +1,213 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "pac-man-arcade",
+    "name": {
+      "zh": "Pac-Man 街机框体",
+      "en": "Pac-Man Arcade Cabinet"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "1980 年南梦宫推出的街机框体，史上最知名的街机之一，开辟了角色 IP 与迷宫追逐类型，黄色吃豆人形象深入人心，是街机暗房区的核心展品。",
+    "category": "arcade",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Pac-Man",
+        "url": "https://en.wikipedia.org/wiki/Pac-Man",
+        "license": "cc",
+        "accessed_at": "2026-11-25"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Namco",
+        "url": "https://en.wikipedia.org/wiki/Namco",
+        "license": "cc",
+        "accessed_at": "2026-11-25"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-25"
+      }
+    ],
+    "intro": {
+      "zh": "Pac-Man 街机框体是南梦宫 1980 年推出的经典街机，黄色吃豆人在迷宫中追逐豆子、躲避幽灵的玩法风靡全球，开辟了角色 IP 与迷宫追逐类型。它是街机暗房「投币文化」与「角色 IP」叙事线的核心展品。",
+      "en": "The Pac-Man arcade cabinet, released by Namco in 1980, became one of the most famous arcade machines in history, pioneering character IP and the maze-chase genre with its iconic yellow hero."
+    },
+    "era": 1980,
+    "manufacturer": "Namco"
+  },
+  "assemblies": [
+    {
+      "id": "cabinet",
+      "name": "框体",
+      "role": {
+        "zh": "Pac-Man 街机框体，由黄色立式机箱、控制面板、投币门、CRT 显示器、摇杆、按键、主板与扬声器组成，是街机暗房区「投币文化」与「角色 IP」叙事线的核心展品。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": null,
+      "children": ["control_panel", "coin_door", "crt_display", "joystick", "button", "mainboard", "speaker"],
+      "components": [],
+      "annotations": ["cabinet_role", "pacman_ip_flow", "maze_chase_flow"],
+      "mesh_ref": "assemblies/cabinet.gltf"
+    },
+    {
+      "id": "control_panel",
+      "name": "控制面板",
+      "role": {
+        "zh": "控制面板在整机中承载摇杆与按键，是玩家操作吃豆人的输入区域。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["control_panel_role", "joystick_flow"],
+      "mesh_ref": "assemblies/control_panel.gltf"
+    },
+    {
+      "id": "coin_door",
+      "name": "投币门",
+      "role": {
+        "zh": "投币门在整机中用于投入硬币，投币后游戏开始，是可开合的识别部件。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": ["coin_mechanism"],
+      "annotations": ["coin_door_role", "coin_mechanism_role", "coin_culture_flow"],
+      "mesh_ref": "assemblies/coin_door.gltf"
+    },
+    {
+      "id": "crt_display",
+      "name": "CRT 显示器",
+      "role": {
+        "zh": "CRT 显示器在整机中显示游戏画面，吃豆人在迷宫中的追逐在此呈现。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["crt_display_role", "game_screen_flow"],
+      "mesh_ref": "assemblies/crt_display.gltf"
+    },
+    {
+      "id": "joystick",
+      "name": "摇杆",
+      "role": {
+        "zh": "摇杆在整机中控制吃豆人的四方向移动，红色摇杆球是 Pac-Man 框体的标志性操作件。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["joystick_role"],
+      "mesh_ref": "assemblies/joystick.gltf"
+    },
+    {
+      "id": "button",
+      "name": "按键",
+      "role": {
+        "zh": "按键在整机中用于开始游戏或触发动作，是玩家的输入按键。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["button_role"],
+      "mesh_ref": "assemblies/button.gltf"
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 Z80 CPU、图形芯片与音源芯片，是框体运行游戏的计算核心。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": ["z80_cpu", "graphics_chip", "sound_chip"],
+      "annotations": ["mainboard_role", "cpu_gpu_flow"],
+      "mesh_ref": "assemblies/mainboard.gltf"
+    },
+    {
+      "id": "speaker",
+      "name": "扬声器",
+      "role": {
+        "zh": "扬声器在整机中播放游戏音效与吃豆人的标志性音效，是框体的音频输出。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["speaker_role", "sound_flow"],
+      "mesh_ref": "assemblies/speaker.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "z80_cpu",
+      "name": "Z80 CPU",
+      "type": "ic",
+      "role": {"zh": "Z80 CPU 在整机中执行游戏逻辑，是框体的运算核心。"},
+      "assembly": "mainboard",
+      "annotations": ["z80_cpu_role"]
+    },
+    {
+      "id": "graphics_chip",
+      "name": "图形芯片",
+      "type": "ic",
+      "role": {"zh": "图形芯片在整机中绘制游戏画面，呈现吃豆人与迷宫。"},
+      "assembly": "mainboard",
+      "annotations": ["graphics_chip_role"]
+    },
+    {
+      "id": "sound_chip",
+      "name": "音源芯片",
+      "type": "ic",
+      "role": {"zh": "音源芯片在整机中生成游戏音效与吃豆人的标志性音效。"},
+      "assembly": "mainboard",
+      "annotations": ["sound_chip_role"]
+    },
+    {
+      "id": "coin_mechanism",
+      "name": "投币机构",
+      "type": "mechanism",
+      "role": {"zh": "投币机构在整机中识别投入的硬币，触发游戏开始。"},
+      "assembly": "coin_door",
+      "annotations": ["coin_mechanism_role"]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Pac-Man 街机框体（静态展示）",
+    "media_hint": "none",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {"id": "crt_display_0", "surface": "crt_display", "type": "video", "format": "rgba8"},
+      {"id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16"}
+    ],
+    "input_map": {
+      "joystick_up": {"map": "keyboard", "key": "KEY_UP"},
+      "joystick_down": {"map": "keyboard", "key": "KEY_DOWN"},
+      "joystick_left": {"map": "keyboard", "key": "KEY_LEFT"},
+      "joystick_right": {"map": "keyboard", "key": "KEY_RIGHT"},
+      "button_a": {"map": "keyboard", "key": "KEY_A"},
+      "button_b": {"map": "keyboard", "key": "KEY_B"},
+      "coin": {"map": "keyboard", "key": "KEY_C"},
+      "start": {"map": "keyboard", "key": "KEY_ENTER"}
+    }
+  }
+}

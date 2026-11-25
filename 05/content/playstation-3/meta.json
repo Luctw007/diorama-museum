@@ -1,0 +1,50 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "playstation-3",
+    "name": {"zh": "Sony PlayStation 3", "en": "Sony PlayStation 3"},
+    "spec_version": "0.2", "version": "1.0.0", "engine_min_version": "0.1.0", "precision_level": "L2",
+    "authors": [{"name": "箱庭电子博物馆项目组", "role": "author"}],
+    "description": "2006 年索尼发布的第七代家用游戏机，以 Cell 处理器与蓝光光驱为标志，早期因高价受挫，是游戏机厅第七代主机叙事线的核心展品。",
+    "category": "game-console",
+    "sources": [
+      {"type": "documentation", "title": "Wikipedia: PlayStation 3", "url": "https://en.wikipedia.org/wiki/PlayStation_3", "license": "cc", "accessed_at": "2026-11-25"},
+      {"type": "documentation", "title": "Wikipedia: Sony", "url": "https://en.wikipedia.org/wiki/Sony", "license": "cc", "accessed_at": "2026-11-25"},
+      {"type": "documentation", "title": "Computer History Museum", "url": "https://www.computerhistory.org/", "license": "visual_reference_only", "accessed_at": "2026-11-25"}
+    ],
+    "intro": {
+      "zh": "Sony PlayStation 3 是索尼 2006 年发布的第七代家用游戏机，以 Cell 处理器与蓝光光驱为标志，早期因高价受挫后逐步回暖，是游戏机厅第七代主机「Cell 与蓝光」叙事线的核心展品。",
+      "en": "The Sony PlayStation 3, released in 2006, was a seventh-generation home console defined by its Cell processor and Blu-ray drive, initially struggling on price before recovering."
+    },
+    "era": 2006, "manufacturer": "Sony"
+  },
+  "assemblies": [
+    {"id": "chassis", "name": "整机", "role": {"zh": "Sony PlayStation 3 整机，由黑色弧线机箱、蓝光光驱、主板、电源、手柄接口、硬盘仓、手柄与读卡器组成，是游戏机厅第七代主机与 Cell 蓝光叙事线的核心展品。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": null, "children": ["blu_ray_drive","mainboard","power_supply","controller_port","hard_drive","controller","card_reader"], "components": [], "annotations": ["chassis_role","power_switch_role","cell_bluray_flow","seventh_gen_flow"], "mesh_ref": "assemblies/chassis.gltf"},
+    {"id": "blu_ray_drive", "name": "蓝光光驱", "role": {"zh": "蓝光光驱在整机中读取蓝光游戏光盘，光盘从前面板吸入，是可吸入的识别部件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": ["cd_motor"], "annotations": ["blu_ray_drive_role","disc_role","disc_insert_flow"], "mesh_ref": "assemblies/blu_ray_drive.gltf"},
+    {"id": "mainboard", "name": "主板", "role": {"zh": "主板在整机中承载 Cell 处理器、RSX GPU 与主内存，是整机运行游戏的计算与图形核心。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": ["cell","rsx","ram"], "annotations": ["mainboard_role","cpu_gpu_flow"], "mesh_ref": "assemblies/mainboard.gltf"},
+    {"id": "power_supply", "name": "电源模块", "role": {"zh": "电源模块在整机中把市电转换为多路直流电，为主板、光驱等部件稳定供电。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["power_supply_role"], "mesh_ref": "assemblies/power_supply.gltf"},
+    {"id": "controller_port", "name": "手柄接口", "role": {"zh": "手柄接口在整机中连接手柄与 USB 设备，把玩家的操作送入主机。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["controller_port_role","controller_flow"], "mesh_ref": "assemblies/controller_port.gltf"},
+    {"id": "hard_drive", "name": "硬盘仓", "role": {"zh": "硬盘仓在整机中内置可拆卸硬盘，用于存储游戏数据与存档。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["hard_drive_role","hdd_flow"], "mesh_ref": "assemblies/hard_drive.gltf"},
+    {"id": "controller", "name": "手柄", "role": {"zh": "手柄在整机中作为玩家的输入设备，含六轴感应与双模拟摇杆，是可识别的可选部件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["controller_role","analog_stick_role","analog_stick_flow"], "mesh_ref": "assemblies/controller.gltf"},
+    {"id": "card_reader", "name": "读卡器", "role": {"zh": "读卡器在整机中读取记忆卡，用于保存存档与媒体文件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["card_reader_role","media_flow"], "mesh_ref": "assemblies/card_reader.gltf"}
+  ],
+  "components": [
+    {"id": "cell", "name": "Cell 处理器", "type": "ic", "role": {"zh": "Cell 处理器在整机中执行游戏逻辑与运算，是整机的运算核心。"}, "assembly": "mainboard", "annotations": ["cell_role"]},
+    {"id": "rsx", "name": "RSX GPU", "type": "ic", "role": {"zh": "RSX GPU 在整机中绘制 3D 画面，是整机的图形渲染核心。"}, "assembly": "mainboard", "annotations": ["rsx_role"]},
+    {"id": "ram", "name": "主内存芯片", "type": "ic", "role": {"zh": "主内存芯片在整机中提供工作内存，暂存运行时的程序与图形数据。"}, "assembly": "mainboard", "annotations": ["ram_role"]},
+    {"id": "cd_motor", "name": "光盘电机", "type": "motor", "role": {"zh": "光盘电机在整机中驱动蓝光光盘旋转，配合激光头读取游戏数据。"}, "assembly": "blu_ray_drive", "annotations": ["cd_motor_role"]}
+  ],
+  "runtime": {
+    "emulator": "none", "version": "1.0.0", "system": "Sony PlayStation 3（静态展示）", "media_hint": "cd_rom", "bios_required": false, "bios_guide_url": null,
+    "output_sinks": [
+      {"id": "crt_display_0", "surface": "crt_display", "type": "video", "format": "rgba8"},
+      {"id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16"}
+    ],
+    "input_map": {
+      "d_pad_up": {"map": "keyboard", "key": "KEY_UP"}, "d_pad_down": {"map": "keyboard", "key": "KEY_DOWN"},
+      "d_pad_left": {"map": "keyboard", "key": "KEY_LEFT"}, "d_pad_right": {"map": "keyboard", "key": "KEY_RIGHT"},
+      "button_a": {"map": "keyboard", "key": "KEY_A"}, "button_b": {"map": "keyboard", "key": "KEY_B"},
+      "button_x": {"map": "keyboard", "key": "KEY_X"}, "start": {"map": "keyboard", "key": "KEY_ENTER"}
+    }
+  }
+}

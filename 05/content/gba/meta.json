@@ -1,0 +1,47 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "gba",
+    "name": {"zh": "Game Boy Advance（GBA）", "en": "Game Boy Advance"},
+    "spec_version": "0.2", "version": "1.0.0", "engine_min_version": "0.1.0", "precision_level": "L2",
+    "authors": [{"name": "箱庭电子博物馆项目组", "role": "author"}],
+    "description": "2001 年任天堂发布的 32 位掌机，横版造型、游戏库庞大，是 Game Boy 系向 32 位过渡的关键一代，是掌机线的主力续作。",
+    "category": "game-console",
+    "sources": [
+      {"type": "documentation", "title": "Wikipedia: Game Boy Advance", "url": "https://en.wikipedia.org/wiki/Game_Boy_Advance", "license": "cc", "accessed_at": "2026-11-25"},
+      {"type": "documentation", "title": "Wikipedia: Nintendo", "url": "https://en.wikipedia.org/wiki/Nintendo", "license": "cc", "accessed_at": "2026-11-25"},
+      {"type": "documentation", "title": "Computer History Museum", "url": "https://www.computerhistory.org/", "license": "visual_reference_only", "accessed_at": "2026-11-25"}
+    ],
+    "intro": {
+      "zh": "Game Boy Advance 是任天堂 2001 年发布的 32 位掌机，横版造型、游戏库庞大，是 Game Boy 系向 32 位过渡的关键一代，是掌机线的主力续作。",
+      "en": "The Game Boy Advance, released by Nintendo in 2001, was a 32-bit handheld with a landscape design and vast game library, a key generation in the Game Boy lineage."
+    },
+    "era": 2001, "manufacturer": "Nintendo"
+  },
+  "assemblies": [
+    {"id": "chassis", "name": "横置机身", "role": {"zh": "Game Boy Advance 横置机身，含十字键区与 AB 键，是掌机整机主体，也是横置双手握持的识别件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": null, "children": ["screen","cartridge_slot","shoulder_buttons","battery_compartment"], "components": ["arm7","ppu","ram","sound_ic"], "annotations": ["chassis_role","dpad_role","landscape_flow"], "mesh_ref": "assemblies/chassis.gltf"},
+    {"id": "screen", "name": "屏幕", "role": {"zh": "屏幕在整机中位于正面中央，显示游戏画面，是掌机的显示核心。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["screen_role","screen_flow"], "mesh_ref": "assemblies/screen.gltf"},
+    {"id": "cartridge_slot", "name": "卡带槽", "role": {"zh": "卡带槽在整机中位于顶部，插入游戏卡带，是可插拔的识别件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["cartridge_slot_role","cartridge_flow"], "mesh_ref": "assemblies/cartridge_slot.gltf"},
+    {"id": "shoulder_buttons", "name": "肩键区", "role": {"zh": "肩键区在整机中位于顶部两侧，L/R 肩键为掌机操作提供额外输入。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["shoulder_buttons_role","shoulder_flow"], "mesh_ref": "assemblies/shoulder_buttons.gltf"},
+    {"id": "battery_compartment", "name": "电池仓", "role": {"zh": "电池仓在整机中位于背部，装载电池为掌机供电。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["battery_compartment_role","battery_flow"], "mesh_ref": "assemblies/battery_compartment.gltf"}
+  ],
+  "components": [
+    {"id": "arm7", "name": "ARM7TDMI CPU", "type": "ic", "role": {"zh": "ARM7TDMI CPU 在整机中执行游戏逻辑与运算，是整机的运算核心。"}, "assembly": "chassis", "annotations": ["arm7_role"]},
+    {"id": "ppu", "name": "图形芯片", "type": "ic", "role": {"zh": "图形芯片在整机中绘制画面，是整机的图形处理核心。"}, "assembly": "chassis", "annotations": ["ppu_role"]},
+    {"id": "ram", "name": "主内存芯片", "type": "ic", "role": {"zh": "主内存芯片在整机中提供工作内存，暂存运行时的程序与图形数据。"}, "assembly": "chassis", "annotations": ["ram_role"]},
+    {"id": "sound_ic", "name": "音源芯片", "type": "ic", "role": {"zh": "音源芯片在整机中生成游戏音效，是整机的音频核心。"}, "assembly": "chassis", "annotations": ["sound_ic_role"]}
+  ],
+  "runtime": {
+    "emulator": "none", "version": "1.0.0", "system": "Game Boy Advance（静态展示）", "media_hint": "cartridge", "bios_required": false, "bios_guide_url": null,
+    "output_sinks": [
+      {"id": "handheld_lcd_0", "surface": "handheld_lcd", "type": "video", "format": "rgba8"},
+      {"id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16"}
+    ],
+    "input_map": {
+      "d_pad_up": {"map": "keyboard", "key": "KEY_UP"}, "d_pad_down": {"map": "keyboard", "key": "KEY_DOWN"},
+      "d_pad_left": {"map": "keyboard", "key": "KEY_LEFT"}, "d_pad_right": {"map": "keyboard", "key": "KEY_RIGHT"},
+      "button_a": {"map": "keyboard", "key": "KEY_A"}, "button_b": {"map": "keyboard", "key": "KEY_B"},
+      "shoulder_l": {"map": "keyboard", "key": "KEY_Q"}, "start": {"map": "keyboard", "key": "KEY_ENTER"}
+    }
+  }
+}

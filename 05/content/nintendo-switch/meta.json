@@ -1,0 +1,50 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "nintendo-switch",
+    "name": {"zh": "Nintendo Switch", "en": "Nintendo Switch"},
+    "spec_version": "0.2", "version": "1.0.0", "engine_min_version": "0.1.0", "precision_level": "L2",
+    "authors": [{"name": "箱庭电子博物馆项目组", "role": "author"}],
+    "description": "2017 年任天堂发布的融合型游戏机，主机掌机二合一，以平板主体、底座 Dock 与可拆 Joy-Con 手柄实现形态自由切换，是游戏机厅融合路线叙事线的核心展品。",
+    "category": "game-console",
+    "sources": [
+      {"type": "documentation", "title": "Wikipedia: Nintendo Switch", "url": "https://en.wikipedia.org/wiki/Nintendo_Switch", "license": "cc", "accessed_at": "2026-11-25"},
+      {"type": "documentation", "title": "Wikipedia: Nintendo", "url": "https://en.wikipedia.org/wiki/Nintendo", "license": "cc", "accessed_at": "2026-11-25"},
+      {"type": "documentation", "title": "Computer History Museum", "url": "https://www.computerhistory.org/", "license": "visual_reference_only", "accessed_at": "2026-11-25"}
+    ],
+    "intro": {
+      "zh": "Nintendo Switch 是任天堂 2017 年发布的融合型游戏机，主机掌机二合一，以平板主体、底座 Dock 与可拆 Joy-Con 手柄实现形态自由切换，是游戏机厅「融合路线破亿」叙事线的核心展品。",
+      "en": "The Nintendo Switch, released in 2017, is a hybrid console combining home and handheld play through its tablet, Dock, and detachable Joy-Con controllers."
+    },
+    "era": 2017, "manufacturer": "Nintendo"
+  },
+  "assemblies": [
+    {"id": "tablet", "name": "平板主体", "role": {"zh": "Nintendo Switch 平板主体，由屏幕、主板、电池与卡带槽组成，是主机掌机二合一的整机核心。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": null, "children": ["dock","joycon_left","joycon_right","mainboard","battery","cartridge_slot","screen"], "components": [], "annotations": ["tablet_role","hybrid_flow","fusion_flow"], "mesh_ref": "assemblies/tablet.gltf"},
+    {"id": "dock", "name": "底座 Dock", "role": {"zh": "底座 Dock 在整机中用于承载平板主体，入坞后切换到电视模式，是主机掌机切换的关键部件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "tablet", "children": [], "components": [], "annotations": ["dock_role","dock_flow"], "mesh_ref": "assemblies/dock.gltf"},
+    {"id": "joycon_left", "name": "左 Joy-Con", "role": {"zh": "左 Joy-Con 在整机中作为左侧可拆手柄，通过滑轨卡合到平板两侧，是可拆识别件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "tablet", "children": [], "components": [], "annotations": ["joycon_left_role","joycon_flow"], "mesh_ref": "assemblies/joycon_left.gltf"},
+    {"id": "joycon_right", "name": "右 Joy-Con", "role": {"zh": "右 Joy-Con 在整机中作为右侧可拆手柄，通过滑轨卡合到平板两侧，是可拆识别件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "tablet", "children": [], "components": [], "annotations": ["joycon_right_role","joycon_flow"], "mesh_ref": "assemblies/joycon_right.gltf"},
+    {"id": "mainboard", "name": "主板", "role": {"zh": "主板在整机中承载 Tegra X1 处理器与主内存，是整机运行游戏的计算核心。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "tablet", "children": [], "components": ["tegra_x1","ram","gpu"], "annotations": ["mainboard_role","cpu_gpu_flow"], "mesh_ref": "assemblies/mainboard.gltf"},
+    {"id": "battery", "name": "电池", "role": {"zh": "电池在整机中为平板主体供电，支撑掌机模式的续航。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "tablet", "children": [], "components": ["battery_ic"], "annotations": ["battery_role","handheld_flow"], "mesh_ref": "assemblies/battery.gltf"},
+    {"id": "cartridge_slot", "name": "卡带槽", "role": {"zh": "卡带槽在整机中位于平板顶部，插入游戏卡带，是游戏介质入口。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "tablet", "children": [], "components": [], "annotations": ["cartridge_slot_role","cartridge_flow"], "mesh_ref": "assemblies/cartridge_slot.gltf"},
+    {"id": "screen", "name": "屏幕", "role": {"zh": "屏幕在整机中位于平板正面，显示游戏画面，是掌机模式的显示核心。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "tablet", "children": [], "components": [], "annotations": ["screen_role","screen_flow"], "mesh_ref": "assemblies/screen.gltf"}
+  ],
+  "components": [
+    {"id": "tegra_x1", "name": "Tegra X1 处理器", "type": "ic", "role": {"zh": "Tegra X1 处理器在整机中执行游戏逻辑与运算，是整机的运算核心。"}, "assembly": "mainboard", "annotations": ["tegra_x1_role"]},
+    {"id": "ram", "name": "主内存芯片", "type": "ic", "role": {"zh": "主内存芯片在整机中提供工作内存，暂存运行时的程序与图形数据。"}, "assembly": "mainboard", "annotations": ["ram_role"]},
+    {"id": "gpu", "name": "图形核心", "type": "ic", "role": {"zh": "图形核心在整机中绘制画面，是 Tegra X1 集成的图形处理核心。"}, "assembly": "mainboard", "annotations": ["gpu_role"]},
+    {"id": "battery_ic", "name": "电池管理芯片", "type": "ic", "role": {"zh": "电池管理芯片在整机中管理电池充放电，保障续航与安全。"}, "assembly": "battery", "annotations": ["battery_ic_role"]}
+  ],
+  "runtime": {
+    "emulator": "none", "version": "1.0.0", "system": "Nintendo Switch（静态展示）", "media_hint": "cartridge", "bios_required": false, "bios_guide_url": null,
+    "output_sinks": [
+      {"id": "crt_display_0", "surface": "crt_display", "type": "video", "format": "rgba8"},
+      {"id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16"}
+    ],
+    "input_map": {
+      "d_pad_up": {"map": "keyboard", "key": "KEY_UP"}, "d_pad_down": {"map": "keyboard", "key": "KEY_DOWN"},
+      "d_pad_left": {"map": "keyboard", "key": "KEY_LEFT"}, "d_pad_right": {"map": "keyboard", "key": "KEY_RIGHT"},
+      "button_a": {"map": "keyboard", "key": "KEY_A"}, "button_b": {"map": "keyboard", "key": "KEY_B"},
+      "button_x": {"map": "keyboard", "key": "KEY_X"}, "start": {"map": "keyboard", "key": "KEY_ENTER"}
+    }
+  }
+}
