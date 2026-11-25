@@ -1,0 +1,17 @@
+{
+  "emulator": "none",
+  "version": "1.0.0",
+  "system": "Galaga 街机框体（静态展示）",
+  "media_hint": "none",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [
+    {"id": "crt_display_0", "surface": "crt_display", "type": "video", "format": "rgba8"},
+    {"id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16"}
+  ],
+  "input_map": {
+    "move_left": {"map": "keyboard", "key": "KEY_LEFT"},
+    "move_right": {"map": "keyboard", "key": "KEY_RIGHT"},
+    "fire": {"map": "keyboard", "key": "KEY_SPACE"}
+  }
+}

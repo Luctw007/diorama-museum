@@ -1,0 +1,208 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "donkey-kong-arcade",
+    "name": {
+      "zh": "Donkey Kong 街机框体",
+      "en": "Donkey Kong Arcade Cabinet"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "1981 年任天堂推出的街机框体，平台跳跃类型的开创名作，玩家操控 Jumpman 攀爬跳跃躲避滚桶营救女主角，是马里奥这一传奇角色的前身起点。",
+    "category": "arcade",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Donkey Kong (arcade game)",
+        "url": "https://en.wikipedia.org/wiki/Donkey_Kong_(arcade_game)",
+        "license": "cc",
+        "accessed_at": "2026-11-26"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Nintendo",
+        "url": "https://en.wikipedia.org/wiki/Nintendo",
+        "license": "cc",
+        "accessed_at": "2026-11-26"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-26"
+      }
+    ],
+    "intro": {
+      "zh": "Donkey Kong 街机框体是任天堂 1981 年推出的经典街机，宫本茂主导开发，玩家操控 Jumpman 攀爬梯子、跳跃躲避滚桶，营救被大金刚劫持的女主角。它是平台跳跃类型的开创之作，也是任天堂标志角色马里奥的前身起点，是街机暗房区「平台跳跃鼻祖」叙事线的核心展品。",
+      "en": "The Donkey Kong arcade cabinet, released by Nintendo in 1981 and designed by Shigeru Miyamoto, let players control Jumpman to climb ladders and leap over rolling barrels to rescue the heroine from Donkey Kong. It pioneered the platforming genre and introduced Jumpman, the forerunner of Mario."
+    },
+    "era": 1981,
+    "manufacturer": "Nintendo"
+  },
+  "assemblies": [
+    {
+      "id": "cabinet",
+      "name": "框体",
+      "role": {
+        "zh": "Donkey Kong 街机框体，一台 1981 年任天堂推出的经典街机；在整机中，蓝色立式机箱统摄控制面板、投币门、CRT 显示器、摇杆、跳跃键、主板与扬声器，是街机暗房区「平台跳跃鼻祖」叙事线的核心展品。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": null,
+      "children": ["control_panel", "coin_door", "crt_display", "joystick", "button", "mainboard", "speaker"],
+      "components": [],
+      "annotations": ["cabinet_role", "marquee_role", "platforming_flow", "arcade_history_flow", "jumpman_flow", "high_score_flow"],
+      "mesh_ref": "assemblies/cabinet.gltf"
+    },
+    {
+      "id": "control_panel",
+      "name": "控制面板",
+      "role": {
+        "zh": "控制面板在整机中承载摇杆与跳跃键，是玩家操控 Jumpman 移动、攀爬与跳跃的输入区域。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["control_panel_role"],
+      "mesh_ref": "assemblies/control_panel.gltf"
+    },
+    {
+      "id": "coin_door",
+      "name": "投币门",
+      "role": {
+        "zh": "投币门在整机中用于投入硬币，投币后游戏开始，是可开合的识别部件。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": ["coin_mechanism"],
+      "annotations": ["coin_door_role", "coin_mechanism_role", "coin_slot_role", "coin_culture_flow", "coin_insert_anim"],
+      "mesh_ref": "assemblies/coin_door.gltf"
+    },
+    {
+      "id": "crt_display",
+      "name": "CRT 显示器",
+      "role": {
+        "zh": "CRT 显示器在整机中显示游戏画面，大金刚、滚桶与 Jumpman 的平台对决在此呈现。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["crt_display_role", "game_screen_flow", "barrel_flow", "level_flow"],
+      "mesh_ref": "assemblies/crt_display.gltf"
+    },
+    {
+      "id": "joystick",
+      "name": "摇杆",
+      "role": {
+        "zh": "摇杆在整机中控制 Jumpman 的左右移动与攀爬，四向摇杆是 Donkey Kong 框体的标志性操作件。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["joystick_role", "joystick_ball_role", "climbing_flow", "jump_demo_anim"],
+      "mesh_ref": "assemblies/joystick.gltf"
+    },
+    {
+      "id": "button",
+      "name": "跳跃键",
+      "role": {
+        "zh": "跳跃键在整机中用于让 Jumpman 起跳，躲避滚桶与跨越障碍，是 Donkey Kong 标志性的单键操作。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["button_role", "jump_flow"],
+      "mesh_ref": "assemblies/button.gltf"
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 Z80 CPU、图形芯片与音源芯片，是框体运行游戏的计算核心。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": ["z80_cpu", "graphics_chip", "sound_chip"],
+      "annotations": ["mainboard_role", "pcb_role", "cpu_gpu_flow"],
+      "mesh_ref": "assemblies/mainboard.gltf"
+    },
+    {
+      "id": "speaker",
+      "name": "扬声器",
+      "role": {
+        "zh": "扬声器在整机中播放游戏配乐与音效，大金刚的咆哮与跳跃音由此输出。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["speaker_role", "sound_flow"],
+      "mesh_ref": "assemblies/speaker.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "z80_cpu",
+      "name": "Z80 CPU",
+      "type": "ic",
+      "role": {"zh": "Z80 CPU 在整机中执行游戏逻辑，是 Donkey Kong 框体的运算核心。"},
+      "assembly": "mainboard",
+      "annotations": ["z80_cpu_role"]
+    },
+    {
+      "id": "graphics_chip",
+      "name": "图形芯片",
+      "type": "ic",
+      "role": {"zh": "图形芯片在整机中绘制游戏画面，呈现大金刚、滚桶与 Jumpman 的角色形象。"},
+      "assembly": "mainboard",
+      "annotations": ["graphics_chip_role"]
+    },
+    {
+      "id": "sound_chip",
+      "name": "音源芯片",
+      "type": "ic",
+      "role": {"zh": "音源芯片在整机中生成游戏配乐与音效，跳跃与滚桶滚动声由此产生。"},
+      "assembly": "mainboard",
+      "annotations": ["sound_chip_role"]
+    },
+    {
+      "id": "coin_mechanism",
+      "name": "投币机构",
+      "type": "mechanism",
+      "role": {"zh": "投币机构在整机中识别投入的硬币，触发游戏开始。"},
+      "assembly": "coin_door",
+      "annotations": ["coin_mechanism_role"]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Donkey Kong 街机框体（静态展示）",
+    "media_hint": "none",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {"id": "crt_display_0", "surface": "crt_display", "type": "video", "format": "rgba8"},
+      {"id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16"}
+    ],
+    "input_map": {
+      "move_left": {"map": "keyboard", "key": "KEY_LEFT"},
+      "move_right": {"map": "keyboard", "key": "KEY_RIGHT"},
+      "jump": {"map": "keyboard", "key": "KEY_SPACE"}
+    }
+  }
+}

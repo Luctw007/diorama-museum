@@ -1,0 +1,57 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "nintendo-3ds",
+    "name": {"zh": "Nintendo 3DS", "en": "Nintendo 3DS"},
+    "spec_version": "0.2", "version": "1.0.0", "engine_min_version": "0.1.0", "precision_level": "L2",
+    "authors": [{"name": "箱庭电子博物馆项目组", "role": "author"}],
+    "description": "2011 年任天堂发布的裸眼 3D 双屏掌机，上屏支持裸眼 3D 显示、下屏触控，向下兼容 DS，销量超 7500 万台，是掌机史上极具影响力的机型。",
+    "category": "game-console",
+    "sources": [
+      {"type": "documentation", "title": "Wikipedia: Nintendo 3DS", "url": "https://en.wikipedia.org/wiki/Nintendo_3DS", "license": "cc", "accessed_at": "2026-11-26"},
+      {"type": "documentation", "title": "Wikipedia: Nintendo", "url": "https://en.wikipedia.org/wiki/Nintendo", "license": "cc", "accessed_at": "2026-11-26"},
+      {"type": "documentation", "title": "Computer History Museum", "url": "https://www.computerhistory.org/", "license": "visual_reference_only", "accessed_at": "2026-11-26"}
+    ],
+    "intro": {
+      "zh": "Nintendo 3DS 是任天堂 2011 年发布的裸眼 3D 双屏掌机，上屏支持无需眼镜的裸眼 3D 显示、下屏触控，向下兼容 DS，销量超 7500 万台，延续并拓展了双屏触控掌机的成功。",
+      "en": "The Nintendo 3DS, released by Nintendo in 2011, is an autostereoscopic dual-screen handheld whose upper display shows glasses-free 3D and lower screen is a touch screen; backward compatible with the DS, it sold over 75 million units and extended the success of the dual-screen touch handheld."
+    },
+    "era": 2011, "manufacturer": "Nintendo"
+  },
+  "assemblies": [
+    {"id": "chassis", "name": "翻盖机身", "role": {"zh": "翻盖式机身，在整机中作为主体结构，经铰链将裸眼 3D 上屏与下触屏连为一体，内含按键区、圆盘摇杆、卡带槽与电池仓，是裸眼 3D 双屏掌机的识别件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": null, "children": ["top_screen","touch_screen","cartridge_slot","shoulder_buttons","battery_compartment"], "components": ["arm11_cpu","gpu","ram","sound_ic"], "annotations": ["chassis_role","dpad_role","abxy_role","circle_pad_role","hinge_role","dual_screen_flow","clamshell_flow","best_seller_flow","clamshell_anim"], "mesh_ref": "assemblies/chassis.gltf"},
+    {"id": "top_screen", "name": "裸眼 3D 上屏", "role": {"zh": "裸眼 3D 上屏在整机中位于翻盖上盖内侧，作为主显示屏幕，通过视差屏障呈现无需眼镜的裸眼 3D 画面，与下触屏共同构成双屏布局。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["top_screen_role","stereoscopic_role","stereoscopic_flow","handheld_lcd_flow"], "mesh_ref": "assemblies/top_screen.gltf"},
+    {"id": "touch_screen", "name": "下触屏", "role": {"zh": "下触屏在整机中位于机身下半部，既是显示屏幕又是触控输入面，配合触控笔实现点击、书写与滑动操作，是标志性识别件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["touch_screen_role","stylus_role","touch_flow","touch_game_flow"], "mesh_ref": "assemblies/touch_screen.gltf"},
+    {"id": "cartridge_slot", "name": "卡带槽", "role": {"zh": "卡带槽在整机中位于机身背部，用于插入 3DS 游戏卡带，主机读取卡带后启动游戏，是可插拔的识别件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["cartridge_slot_role","cartridge_flow","ds_compat_flow","cartridge_insert_anim"], "mesh_ref": "assemblies/cartridge_slot.gltf"},
+    {"id": "shoulder_buttons", "name": "肩键区", "role": {"zh": "肩键区在整机中位于机身两侧顶部，L/R 肩键为食指提供额外输入，是掌机握持操作的重要组成。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["shoulder_buttons_role","shoulder_flow"], "mesh_ref": "assemblies/shoulder_buttons.gltf"},
+    {"id": "battery_compartment", "name": "电池仓", "role": {"zh": "电池仓在整机中位于机身底部，装载电池为掌机供电，是便携续航的保障。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["battery_compartment_role","battery_flow"], "mesh_ref": "assemblies/battery_compartment.gltf"}
+  ],
+  "components": [
+    {"id": "arm11_cpu", "name": "ARM11 CPU", "type": "ic", "role": {"zh": "ARM11 CPU 在整机中作为主处理器，以双核架构执行游戏逻辑与运算，兼顾性能与功耗，是整机的运算中枢。"}, "assembly": "chassis", "annotations": ["arm11_cpu_role","arm11_gpu_flow"]},
+    {"id": "gpu", "name": "GPU", "type": "ic", "role": {"zh": "GPU 在整机中负责图形处理与裸眼 3D 渲染，将游戏画面输出到上屏，是图形与立体显示的核心。"}, "assembly": "chassis", "annotations": ["gpu_role"]},
+    {"id": "ram", "name": "主内存芯片", "type": "ic", "role": {"zh": "主内存芯片在整机中提供工作内存，暂存运行时的程序、画面与声音数据，支撑系统与游戏流畅运行。"}, "assembly": "chassis", "annotations": ["ram_role"]},
+    {"id": "sound_ic", "name": "音源芯片", "type": "ic", "role": {"zh": "音源芯片在整机中生成游戏音效与音乐，驱动扬声器发声，是音频核心。"}, "assembly": "chassis", "annotations": ["sound_ic_role"]}
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Nintendo 3DS（静态展示）",
+    "media_hint": "cartridge",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {"id": "handheld_lcd_0", "surface": "handheld_lcd", "type": "video", "format": "rgba8"},
+      {"id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16"}
+    ],
+    "input_map": {
+      "d_pad_up": {"map": "keyboard", "key": "KEY_UP"},
+      "d_pad_down": {"map": "keyboard", "key": "KEY_DOWN"},
+      "d_pad_left": {"map": "keyboard", "key": "KEY_LEFT"},
+      "d_pad_right": {"map": "keyboard", "key": "KEY_RIGHT"},
+      "button_a": {"map": "keyboard", "key": "KEY_A"},
+      "button_b": {"map": "keyboard", "key": "KEY_B"},
+      "button_x": {"map": "keyboard", "key": "KEY_X"},
+      "start": {"map": "keyboard", "key": "KEY_ENTER"}
+    }
+  }
+}

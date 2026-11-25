@@ -1,0 +1,208 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "galaga-arcade",
+    "name": {
+      "zh": "Galaga 街机框体",
+      "en": "Galaga Arcade Cabinet"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "1981 年南梦宫推出的街机框体，经典固定射击游戏《Galaga》的运行载体，以蜜蜂战机阵列与「捕获救援、双机合体」的双重火力机制闻名，是街机黄金时代射击谱系的代表作。",
+    "category": "arcade",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Galaga",
+        "url": "https://en.wikipedia.org/wiki/Galaga",
+        "license": "cc",
+        "accessed_at": "2026-11-26"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Namco",
+        "url": "https://en.wikipedia.org/wiki/Namco",
+        "license": "cc",
+        "accessed_at": "2026-11-26"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-26"
+      }
+    ],
+    "intro": {
+      "zh": "Galaga 街机框体是南梦宫 1981 年推出的经典街机，玩家操控战机在屏幕底部左右移动、连续射击，击退列队俯冲的蜜蜂战机阵列。其标志性的「捕获救援」机制——敌机俘获玩家战机后，玩家可救回并与之合体形成双重火力——让它成为街机黄金时代固定射击谱系中承前启后的代表作，上接《Galaxian》、下启无数空战射击游戏。",
+      "en": "The Galaga arcade cabinet, released by Namco in 1981, lets players steer a fighter at the bottom of the screen to shoot down diving formations of bee-like enemy ships. Its signature capture-and-rescue mechanic—rescuing a captured fighter to combine into dual firepower—makes it a landmark of the fixed shooter lineage between Galaxian and the shmups that followed."
+    },
+    "era": 1981,
+    "manufacturer": "Namco"
+  },
+  "assemblies": [
+    {
+      "id": "cabinet",
+      "name": "框体",
+      "role": {
+        "zh": "Galaga 街机框体，一台 1981 年南梦宫推出的经典街机；在整机中，白色立式机箱统摄控制面板、投币门、CRT 显示器、摇杆、按键、主板与扬声器，是街机暗房区「蜜蜂战机射击经典」叙事线的核心展品。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": null,
+      "children": ["control_panel", "coin_door", "crt_display", "joystick", "button", "mainboard", "speaker"],
+      "components": [],
+      "annotations": ["cabinet_role", "marquee_role", "shooting_flow", "arcade_golden_age_flow", "high_score_flow"],
+      "mesh_ref": "assemblies/cabinet.gltf"
+    },
+    {
+      "id": "control_panel",
+      "name": "控制面板",
+      "role": {
+        "zh": "控制面板在整机中承载摇杆与射击按键，是玩家操控战机左右移动与开火的输入区域。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["control_panel_role", "joystick_flow"],
+      "mesh_ref": "assemblies/control_panel.gltf"
+    },
+    {
+      "id": "coin_door",
+      "name": "投币门",
+      "role": {
+        "zh": "投币门在整机中用于投入硬币，投币后游戏开始，是可开合的识别部件。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": ["coin_mechanism"],
+      "annotations": ["coin_door_role", "coin_slot_role", "coin_mechanism_role", "coin_culture_flow", "coin_insert_anim"],
+      "mesh_ref": "assemblies/coin_door.gltf"
+    },
+    {
+      "id": "crt_display",
+      "name": "CRT 显示器",
+      "role": {
+        "zh": "CRT 显示器在整机中显示游戏画面，蜜蜂战机阵列的下压与玩家的反击在此呈现。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["crt_display_role", "bee_fighter_flow", "capture_rescue_flow", "double_fighter_flow", "challenge_stage_flow"],
+      "mesh_ref": "assemblies/crt_display.gltf"
+    },
+    {
+      "id": "joystick",
+      "name": "摇杆",
+      "role": {
+        "zh": "摇杆在整机中控制战机的左右移动，红色摇杆球是 Galaga 框体的标志性操作件。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["joystick_role", "joystick_ball_role", "fire_demo_anim"],
+      "mesh_ref": "assemblies/joystick.gltf"
+    },
+    {
+      "id": "button",
+      "name": "按键",
+      "role": {
+        "zh": "按键在整机中用于发射子弹击退蜜蜂战机，是玩家的射击输入按键。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["button_role", "fire_button_flow"],
+      "mesh_ref": "assemblies/button.gltf"
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载三块 Z80 CPU、图形芯片与音源芯片，是框体运行游戏的计算核心。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": ["z80_cpu", "graphics_chip", "sound_chip"],
+      "annotations": ["mainboard_role", "pcb_role", "cpu_gpu_flow"],
+      "mesh_ref": "assemblies/mainboard.gltf"
+    },
+    {
+      "id": "speaker",
+      "name": "扬声器",
+      "role": {
+        "zh": "扬声器在整机中播放游戏音效，蜜蜂战机俯冲与开火的音效由此输出。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["speaker_role", "sound_flow"],
+      "mesh_ref": "assemblies/speaker.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "z80_cpu",
+      "name": "Z80 CPU",
+      "type": "ic",
+      "role": {"zh": "Z80 CPU 在整机中执行游戏逻辑，是框体的运算核心。"},
+      "assembly": "mainboard",
+      "annotations": ["z80_cpu_role"]
+    },
+    {
+      "id": "graphics_chip",
+      "name": "图形芯片",
+      "type": "ic",
+      "role": {"zh": "图形芯片在整机中绘制游戏画面，呈现蜜蜂战机阵列与玩家的战机。"},
+      "assembly": "mainboard",
+      "annotations": ["graphics_chip_role"]
+    },
+    {
+      "id": "sound_chip",
+      "name": "音源芯片",
+      "type": "ic",
+      "role": {"zh": "音源芯片在整机中生成游戏音效，蜜蜂战机俯冲与开火的声音由此产生。"},
+      "assembly": "mainboard",
+      "annotations": ["sound_chip_role"]
+    },
+    {
+      "id": "coin_mechanism",
+      "name": "投币机构",
+      "type": "mechanism",
+      "role": {"zh": "投币机构在整机中识别投入的硬币，触发游戏开始。"},
+      "assembly": "coin_door",
+      "annotations": ["coin_mechanism_role"]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Galaga 街机框体（静态展示）",
+    "media_hint": "none",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {"id": "crt_display_0", "surface": "crt_display", "type": "video", "format": "rgba8"},
+      {"id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16"}
+    ],
+    "input_map": {
+      "move_left": {"map": "keyboard", "key": "KEY_LEFT"},
+      "move_right": {"map": "keyboard", "key": "KEY_RIGHT"},
+      "fire": {"map": "keyboard", "key": "KEY_SPACE"}
+    }
+  }
+}

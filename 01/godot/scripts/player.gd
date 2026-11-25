@@ -39,6 +39,11 @@ func _ready() -> void:
 	shape.shape = capsule
 	_body.add_child(shape)
 	_body.add_to_group("player")   # portal_hub PLAYER_GROUP := "player" 契约
+	# TASK-316-M：相机聚焦插值本体（gap #3）——连接 ExplodeController.focus_requested 信号
+	# （306-H 已 emit {center, duration}），tween 运镜到目标框中心；节点/信号缺失时静默不崩。
+	var explode := get_node_or_null("/root/Main/DeviceRoot/ExplodeController")
+	if explode != null and explode.has_signal("focus_requested"):
+		explode.focus_requested.connect(_on_focus_requested)
 
 
 ## 鼠标捕获开关（RUN-08 公开化）：面板打开时由 UI 调 set_captured(false) 释放鼠标，
@@ -46,6 +51,16 @@ func _ready() -> void:
 func set_captured(on: bool) -> void:
 	_captured = on
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED if on else Input.MOUSE_MODE_VISIBLE
+
+
+## TASK-316-M：聚焦运镜插值（depth_model §4 gap #3 本体）——tween 把相机位置插值到
+## 目标框中心并朝向目标（look_at），时长取 signal 传入 duration（0.9~1.2s 区间，
+## 防御钳制 0.2~3.0s）。不改 WASD/FOV 移动语义、不新增手感参数；运镜观感待实机验证。
+func _on_focus_requested(target: Vector3, duration: float) -> void:
+	var tw := create_tween()
+	var dur := clampf(duration, 0.2, 3.0)
+	tw.tween_property(self, "global_position", target, dur)
+	tw.tween_callback(look_at.bind(target))
 
 
 func _unhandled_input(event: InputEvent) -> void:

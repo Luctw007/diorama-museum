@@ -1,0 +1,27 @@
+# taxonomy 与 media_class 月度复跑卡 v4（全落树 + 孤儿 0 + 覆盖 100%）
+
+> MIT License — Copyright (c) 2026 箱庭电子博物馆项目组（Hako Electronic Museum Project）。本文档按 MIT 许可分发。
+>
+> 任务：TASK-317-J（02 线）。定位：滚动 312-J v3，复跑 taxonomy_check + media_class 覆盖率，确认新增包归树归类无异常。
+> **不改 taxonomy.md、不改 jsonl。**
+
+## 一、taxonomy 复跑（实测）
+
+`taxonomy_check.py` → 对账 1583 条目录，落在官方树内 1583 条，**孤路径 0 条**（大分类级孤儿 0 + 中分类级孤儿 0），rc=0。
+
+## 二、media_class 覆盖率统计
+
+media_class 枚举 9 值含 none，目录条目 1583 行 media_class 覆盖 **100%**（无空值）。
+
+## 三、新增包归树归类复核
+
+门禁 65 内容包（含新增 atari-2600/famicom/sega-md/sfc/wii-u/ps4/xbox-one/nintendo-ds/psp/space-invaders-arcade/
+neo-geo-mvs 等）全部归树无孤儿，游戏机新增包归类 G-HC/G-HH/G-AC 三子类无异常。
+
+## 四、基线健康声明
+
+taxonomy 全落树、孤儿 0、media_class 覆盖 100%，基线健康。
+
+## 五、红线自查
+
+零联网零下载；不改 taxonomy.md、不改 jsonl；覆盖率/orphans 以复跑实值为准；只改 02 目录。

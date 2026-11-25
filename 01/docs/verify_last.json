@@ -1,7 +1,7 @@
 {
-  "time": "2026-11-26 01:43:24",
-  "total": 73,
-  "passed": 73,
+  "time": "2026-11-26 03:07:58",
+  "total": 77,
+  "passed": 77,
   "steps": [
     {
       "name": "m0",
@@ -16,7 +16,7 @@
     {
       "name": "slots",
       "ok": true,
-      "note": "汇总：完工包 65，声明 slot 0，SC-01 违规 0"
+      "note": "汇总：完工包 69，声明 slot 0，SC-01 违规 0"
     },
     {
       "name": "catalog",
@@ -31,7 +31,7 @@
     {
       "name": "gd",
       "ok": true,
-      "note": "汇总：17 文件；符号池 funcs 184 / signals 8；MISS 0；已知缺口 KG 0"
+      "note": "汇总：17 文件；符号池 funcs 185 / signals 8；MISS 0；已知缺口 KG 0"
     },
     {
       "name": "gd_naming",
@@ -114,6 +114,11 @@
       "note": "FAIL 0"
     },
     {
+      "name": "pkg:donkey-kong-arcade",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
       "name": "pkg:dvd-player",
       "ok": true,
       "note": "FAIL 0"
@@ -140,6 +145,11 @@
     },
     {
       "name": "pkg:famicom",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:galaga-arcade",
       "ok": true,
       "note": "FAIL 0"
     },
@@ -190,6 +200,11 @@
     },
     {
       "name": "pkg:next",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:nintendo-3ds",
       "ok": true,
       "note": "FAIL 0"
     },
@@ -265,6 +280,11 @@
     },
     {
       "name": "pkg:psp",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:psvita",
       "ok": true,
       "note": "FAIL 0"
     },

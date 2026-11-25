@@ -1,0 +1,57 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "psvita",
+    "name": {"zh": "PlayStation Vita", "en": "PlayStation Vita"},
+    "spec_version": "0.2", "version": "1.0.0", "engine_min_version": "0.1.0", "precision_level": "L2",
+    "authors": [{"name": "箱庭电子博物馆项目组", "role": "author"}],
+    "description": "2011 年索尼发布的 PSP 后继掌机，采用 5 英寸 OLED 宽屏、正面触屏与背部触控板、左右双摇杆，性能延续家用机化路线，是索尼掌机线的高性能代表作。",
+    "category": "game-console",
+    "sources": [
+      {"type": "documentation", "title": "Wikipedia: PlayStation Vita", "url": "https://en.wikipedia.org/wiki/PlayStation_Vita", "license": "cc", "accessed_at": "2026-11-26"},
+      {"type": "documentation", "title": "Wikipedia: Sony", "url": "https://en.wikipedia.org/wiki/Sony", "license": "cc", "accessed_at": "2026-11-26"},
+      {"type": "documentation", "title": "Computer History Museum", "url": "https://www.computerhistory.org/", "license": "visual_reference_only", "accessed_at": "2026-11-26"}
+    ],
+    "intro": {
+      "zh": "PlayStation Vita 是索尼 2011 年发布的 PSP 后继掌机，采用 5 英寸 OLED 宽屏、正面触屏与背部触控板、左右双摇杆，性能延续家用机化路线，是索尼掌机线的高性能代表作。",
+      "en": "The PlayStation Vita, released by Sony in 2011 as the successor to the PSP, features a 5-inch OLED widescreen, a front touch screen, a rear touchpad, and dual analog sticks, continuing the console-class performance path and standing as Sony's high-performance handheld."
+    },
+    "era": 2011, "manufacturer": "Sony"
+  },
+  "assemblies": [
+    {"id": "chassis", "name": "横置机身", "role": {"zh": "横置机身是 PlayStation Vita 整机主体，在整机中承载 OLED 屏幕、背部触控板、卡带槽、按键区与肩键区，是横置双摇杆掌机的识别件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": null, "children": ["screen","rear_touchpad","cartridge_slot","control_buttons","shoulder_buttons"], "components": ["arm_cortex_a9_cpu","gpu","ram","sound_ic"], "annotations": ["chassis_role","speaker_role","best_seller_flow"], "mesh_ref": "assemblies/chassis.gltf"},
+    {"id": "screen", "name": "OLED 屏幕", "role": {"zh": "OLED 屏幕在整机中位于正面中央，采用 5 英寸 OLED 宽屏显示游戏与多媒体画面，叠加触控层支持正面触控，是掌机的显示核心。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["screen_role","oled_role","oled_flow","front_touch_flow"], "mesh_ref": "assemblies/screen.gltf"},
+    {"id": "rear_touchpad", "name": "背部触控板", "role": {"zh": "背触板在整机中位于机身背部，提供背面多点触控输入，玩家握持时用中指即可滑动操作，是 PlayStation Vita 前后双触控的标志性识别件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["rear_touchpad_role","rear_touch_input_role","rear_touch_flow","touch_game_flow","rear_touch_demo_anim"], "mesh_ref": "assemblies/rear_touchpad.gltf"},
+    {"id": "cartridge_slot", "name": "卡带槽", "role": {"zh": "卡带槽在整机中位于机身顶部，用于插入 PSVita 专用卡带，主机读取卡带后启动游戏，是可插拔的识别件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["cartridge_slot_role","cartridge_flow","cartridge_media_flow","cartridge_insert_anim"], "mesh_ref": "assemblies/cartridge_slot.gltf"},
+    {"id": "control_buttons", "name": "按键区", "role": {"zh": "按键区在整机中位于正面，含十字键、△○×□ 键与左右双摇杆，是掌机的主要操作输入。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["control_buttons_role","dual_analog_role","face_buttons_role","dpad_role","dual_analog_flow"], "mesh_ref": "assemblies/control_buttons.gltf"},
+    {"id": "shoulder_buttons", "name": "肩键区", "role": {"zh": "肩键区在整机中位于顶部两侧，L/R 肩键为横置握持的食指提供额外输入，是掌机握持操作的重要组成。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["shoulder_buttons_role","shoulder_flow"], "mesh_ref": "assemblies/shoulder_buttons.gltf"}
+  ],
+  "components": [
+    {"id": "arm_cortex_a9_cpu", "name": "ARM Cortex-A9 CPU", "type": "ic", "role": {"zh": "ARM Cortex-A9 CPU 在整机中作为主处理器，采用四核架构执行游戏逻辑与系统运算，是整机的运算中枢。"}, "assembly": "chassis", "annotations": ["arm_cortex_a9_cpu_role","cpu_gpu_flow"]},
+    {"id": "gpu", "name": "GPU", "type": "ic", "role": {"zh": "GPU 在整机中负责图形渲染，绘制 OLED 宽屏游戏画面，是整机的图形处理核心。"}, "assembly": "chassis", "annotations": ["gpu_role"]},
+    {"id": "ram", "name": "主内存芯片", "type": "ic", "role": {"zh": "主内存芯片在整机中提供工作内存，暂存运行时的程序与图形数据，支撑系统与游戏流畅运行。"}, "assembly": "chassis", "annotations": ["ram_role","memory_flow"]},
+    {"id": "sound_ic", "name": "音源芯片", "type": "ic", "role": {"zh": "音源芯片在整机中生成游戏音效与音乐，驱动扬声器发声，是音频核心。"}, "assembly": "chassis", "annotations": ["sound_ic_role","sound_flow"]}
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "PlayStation Vita（静态展示）",
+    "media_hint": "cartridge",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {"id": "handheld_lcd_0", "surface": "handheld_lcd", "type": "video", "format": "rgba8"},
+      {"id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16"}
+    ],
+    "input_map": {
+      "d_pad_up": {"map": "keyboard", "key": "KEY_UP"},
+      "d_pad_down": {"map": "keyboard", "key": "KEY_DOWN"},
+      "d_pad_left": {"map": "keyboard", "key": "KEY_LEFT"},
+      "d_pad_right": {"map": "keyboard", "key": "KEY_RIGHT"},
+      "button_a": {"map": "keyboard", "key": "KEY_A"},
+      "button_b": {"map": "keyboard", "key": "KEY_B"},
+      "button_x": {"map": "keyboard", "key": "KEY_X"},
+      "start": {"map": "keyboard", "key": "KEY_ENTER"}
+    }
+  }
+}
