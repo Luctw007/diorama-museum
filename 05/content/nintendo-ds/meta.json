@@ -1,0 +1,48 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "nintendo-ds",
+    "name": {"zh": "Nintendo DS", "en": "Nintendo DS"},
+    "spec_version": "0.2", "version": "1.0.0", "engine_min_version": "0.1.0", "precision_level": "L2",
+    "authors": [{"name": "箱庭电子博物馆项目组", "role": "author"}],
+    "description": "2004 年任天堂发布的双屏触控掌机，上屏显示、下屏触控，开创触摸游戏大众化，销量超 1.5 亿台，是史上最畅销的掌机。",
+    "category": "game-console",
+    "sources": [
+      {"type": "documentation", "title": "Wikipedia: Nintendo DS", "url": "https://en.wikipedia.org/wiki/Nintendo_DS", "license": "cc", "accessed_at": "2026-11-26"},
+      {"type": "documentation", "title": "Wikipedia: Nintendo", "url": "https://en.wikipedia.org/wiki/Nintendo", "license": "cc", "accessed_at": "2026-11-26"},
+      {"type": "documentation", "title": "Computer History Museum", "url": "https://www.computerhistory.org/", "license": "visual_reference_only", "accessed_at": "2026-11-26"}
+    ],
+    "intro": {
+      "zh": "Nintendo DS 是任天堂 2004 年发布的双屏触控掌机，上屏显示、下屏触控，以触控笔与翻盖双屏开创触摸游戏大众化，销量超 1.5 亿台，是史上最畅销的掌机。",
+      "en": "The Nintendo DS, released by Nintendo in 2004, was a dual-screen touch handheld whose upper display and lower touch screen popularized touch-based gaming, selling over 150 million units to become the best-selling handheld of all time."
+    },
+    "era": 2004, "manufacturer": "Nintendo"
+  },
+  "assemblies": [
+    {"id": "chassis", "name": "翻盖机身", "role": {"zh": "翻盖式机身，在整机中作为主体结构，经铰链将上屏与下触屏连为一体，内含按键区、卡带槽与电池仓，是双屏触控掌机的识别件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": null, "children": ["top_screen","touch_screen","cartridge_slot","shoulder_buttons","battery_compartment"], "components": ["arm9","arm7","ram","sound_ic"], "annotations": ["chassis_role","dpad_role","abxy_role","start_select_role","hinge_role","speaker_role","dual_screen_flow","clamshell_flow","best_seller_flow","legacy_flow","clamshell_anim"], "mesh_ref": "assemblies/chassis.gltf"},
+    {"id": "top_screen", "name": "上屏", "role": {"zh": "上屏在整机中位于翻盖上盖内侧，作为主显示屏幕呈现游戏画面，与下触屏共同构成双屏布局。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["top_screen_role","handheld_lcd_flow"], "mesh_ref": "assemblies/top_screen.gltf"},
+    {"id": "touch_screen", "name": "下触屏", "role": {"zh": "下触屏在整机中位于机身下半部，既是显示屏幕又是触控输入面，配合触控笔实现点击、书写与滑动操作，是标志性识别件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["touch_screen_role","stylus_role","touch_flow","touch_game_flow"], "mesh_ref": "assemblies/touch_screen.gltf"},
+    {"id": "cartridge_slot", "name": "卡带槽", "role": {"zh": "卡带槽在整机中位于机身背部，用于插入 DS 游戏卡带，主机读取卡带后启动游戏，是可插拔的识别件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["cartridge_slot_role","cartridge_flow","ds_card_flow","cartridge_insert_anim"], "mesh_ref": "assemblies/cartridge_slot.gltf"},
+    {"id": "shoulder_buttons", "name": "肩键区", "role": {"zh": "肩键区在整机中位于机身两侧顶部，L/R 肩键为食指提供额外输入，是掌机握持操作的重要组成。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["shoulder_buttons_role","shoulder_flow"], "mesh_ref": "assemblies/shoulder_buttons.gltf"},
+    {"id": "battery_compartment", "name": "电池仓", "role": {"zh": "电池仓在整机中位于机身底部，装载电池为掌机供电，是便携续航的保障。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["battery_compartment_role","battery_flow"], "mesh_ref": "assemblies/battery_compartment.gltf"}
+  ],
+  "components": [
+    {"id": "arm9", "name": "ARM9 CPU", "type": "ic", "role": {"zh": "ARM9 CPU 在整机中执行游戏逻辑与图形运算，是双屏掌机的主处理器。"}, "assembly": "chassis", "annotations": ["arm9_role","arm9_arm7_flow"]},
+    {"id": "arm7", "name": "ARM7 副处理器", "type": "ic", "role": {"zh": "ARM7 副处理器在整机中负责触控输入、音频等外围处理，与主处理器协同工作。"}, "assembly": "chassis", "annotations": ["arm7_role"]},
+    {"id": "ram", "name": "主内存芯片", "type": "ic", "role": {"zh": "主内存芯片在整机中提供工作内存，暂存运行时的程序、画面与声音数据。"}, "assembly": "chassis", "annotations": ["ram_role"]},
+    {"id": "sound_ic", "name": "音源芯片", "type": "ic", "role": {"zh": "音源芯片在整机中生成游戏音效与音乐，驱动扬声器发声，是音频核心。"}, "assembly": "chassis", "annotations": ["sound_ic_role"]}
+  ],
+  "runtime": {
+    "emulator": "none", "version": "1.0.0", "system": "Nintendo DS（静态展示）", "media_hint": "cartridge", "bios_required": false, "bios_guide_url": null,
+    "output_sinks": [
+      {"id": "handheld_lcd_0", "surface": "handheld_lcd", "type": "video", "format": "rgba8"},
+      {"id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16"}
+    ],
+    "input_map": {
+      "d_pad_up": {"map": "keyboard", "key": "KEY_UP"}, "d_pad_down": {"map": "keyboard", "key": "KEY_DOWN"},
+      "d_pad_left": {"map": "keyboard", "key": "KEY_LEFT"}, "d_pad_right": {"map": "keyboard", "key": "KEY_RIGHT"},
+      "button_a": {"map": "keyboard", "key": "KEY_A"}, "button_b": {"map": "keyboard", "key": "KEY_B"},
+      "button_x": {"map": "keyboard", "key": "KEY_X"}, "start": {"map": "keyboard", "key": "KEY_ENTER"}
+    }
+  }
+}

@@ -186,11 +186,24 @@ func _handle_line(line: String) -> void:
 					% [str(data.get("sink", "?")), str(data.get("on", false)), _msg_count])
 		"audio_chunk":
 			_apply_audio(data)
-		"status", "stopped", "error", "input_ack":
+		"status":
+			_handle_status(data)
+		"stopped", "error", "input_ack":
 			_set_info("[%s] %s（消息计数 %d，R=重连）"
 					% [str(data.get("type")), str(data.get("message", data.get("state", data.get("code", "")))), _msg_count])
 		_:
 			_set_info("消息计数 %d（R=重连）" % _msg_count)
+
+
+## TASK-311-G：运行锁接线（depth_model §6 #4）——网关 status 消息驱动 ExplodeController
+## 运行锁：state=running → set_device_running(true)，stopped/degraded → false。
+## 节点缺失/方法缺失时静默（不崩）；真跑行为待 46 线 launch 后实机验证。
+func _handle_status(data: Dictionary) -> void:
+	var state := str(data.get("state", ""))
+	var explode := get_node_or_null("/root/Main/DeviceRoot/ExplodeController")
+	if explode != null and explode.has_method("set_device_running"):
+		explode.set_device_running(state == "running")
+	_set_info("[status] state=%s（消息计数 %d，R=重连）" % [state, _msg_count])
 
 
 func _apply_frame(fid: int, w: int, h: int, b64: String) -> void:

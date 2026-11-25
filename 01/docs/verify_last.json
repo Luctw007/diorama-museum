@@ -1,7 +1,7 @@
 {
-  "time": "2026-11-26 00:35:59",
-  "total": 67,
-  "passed": 67,
+  "time": "2026-11-26 01:43:24",
+  "total": 73,
+  "passed": 73,
   "steps": [
     {
       "name": "m0",
@@ -16,7 +16,7 @@
     {
       "name": "slots",
       "ok": true,
-      "note": "汇总：完工包 59，声明 slot 0，SC-01 违规 0"
+      "note": "汇总：完工包 65，声明 slot 0，SC-01 违规 0"
     },
     {
       "name": "catalog",
@@ -31,7 +31,7 @@
     {
       "name": "gd",
       "ok": true,
-      "note": "汇总：17 文件；符号池 funcs 182 / signals 8；MISS 0；已知缺口 KG 0"
+      "note": "汇总：17 文件；符号池 funcs 184 / signals 8；MISS 0；已知缺口 KG 0"
     },
     {
       "name": "gd_naming",
@@ -199,6 +199,11 @@
       "note": "FAIL 0"
     },
     {
+      "name": "pkg:nintendo-ds",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
       "name": "pkg:nintendo-switch",
       "ok": true,
       "note": "FAIL 0"
@@ -254,6 +259,16 @@
       "note": "FAIL 0"
     },
     {
+      "name": "pkg:playstation-4",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:psp",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
       "name": "pkg:sega-dreamcast",
       "ok": true,
       "note": "FAIL 0"
@@ -270,6 +285,11 @@
     },
     {
       "name": "pkg:sfc",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:space-invaders-arcade",
       "ok": true,
       "note": "FAIL 0"
     },
@@ -319,6 +339,11 @@
       "note": "FAIL 0"
     },
     {
+      "name": "pkg:wii-u",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
       "name": "pkg:x68000",
       "ok": true,
       "note": "FAIL 0"
@@ -330,6 +355,11 @@
     },
     {
       "name": "pkg:xbox-360",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:xbox-one",
       "ok": true,
       "note": "FAIL 0"
     },

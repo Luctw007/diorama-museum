@@ -1,0 +1,57 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "psp",
+    "name": {"zh": "PlayStation Portable", "en": "PlayStation Portable"},
+    "spec_version": "0.2", "version": "1.0.0", "engine_min_version": "0.1.0", "precision_level": "L2",
+    "authors": [{"name": "箱庭电子博物馆项目组", "role": "author"}],
+    "description": "2004 年索尼发布的首台掌机，采用横置宽屏与 UMD 光盘介质，性能接近当时家用机，多媒体能力强，是掌机谱系中索尼的里程碑之作。",
+    "category": "game-console",
+    "sources": [
+      {"type": "documentation", "title": "Wikipedia: PlayStation Portable", "url": "https://en.wikipedia.org/wiki/PlayStation_Portable", "license": "cc", "accessed_at": "2026-11-26"},
+      {"type": "documentation", "title": "Wikipedia: Sony", "url": "https://en.wikipedia.org/wiki/Sony", "license": "cc", "accessed_at": "2026-11-26"},
+      {"type": "documentation", "title": "Computer History Museum", "url": "https://www.computerhistory.org/", "license": "visual_reference_only", "accessed_at": "2026-11-26"}
+    ],
+    "intro": {
+      "zh": "PlayStation Portable 是索尼 2004 年发布的首台掌机，横置宽屏与 UMD 光盘介质，性能接近当时家用机，多媒体能力强，是掌机谱系中索尼的里程碑之作。",
+      "en": "The PlayStation Portable, released by Sony in 2004, was Sony's first handheld console, featuring a landscape widescreen and UMD optical discs, with home-console-like performance and strong multimedia capabilities."
+    },
+    "era": 2004, "manufacturer": "Sony"
+  },
+  "assemblies": [
+    {"id": "chassis", "name": "横置机身", "role": {"zh": "横置宽屏机身是 PlayStation Portable 整机主体，在整机中承载屏幕、按键、UMD 光盘仓等部件，是横置宽屏握持的识别件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": null, "children": ["screen","umd_drive","control_buttons","shoulder_buttons","battery_compartment"], "components": ["mips_cpu","gpu","ram"], "annotations": ["chassis_role","speaker_role","landscape_flow","multimedia_flow","performance_flow","boot_anim"], "mesh_ref": "assemblies/chassis.gltf"},
+    {"id": "screen", "name": "屏幕", "role": {"zh": "屏幕在整机中位于正面中央，采用 4.3 英寸宽屏显示游戏与多媒体画面，是掌机的显示核心。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["screen_role","widescreen_role","screen_flow"], "mesh_ref": "assemblies/screen.gltf"},
+    {"id": "umd_drive", "name": "UMD 光盘仓", "role": {"zh": "UMD 光盘仓在整机中位于背部，装载 UMD 光盘介质，是可开合的光盘仓识别件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": ["umd_motor"], "annotations": ["umd_drive_role","umd_media_role","umd_load_flow","umd_open_anim"], "mesh_ref": "assemblies/umd_drive.gltf"},
+    {"id": "control_buttons", "name": "按键区", "role": {"zh": "按键区在整机中位于正面，含十字键、△○×□ 键与摇杆，是掌机的主要操作输入。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["control_buttons_role","dpad_role","face_buttons_role","analog_stick_role","buttons_flow"], "mesh_ref": "assemblies/control_buttons.gltf"},
+    {"id": "shoulder_buttons", "name": "肩键区", "role": {"zh": "肩键区在整机中位于顶部两侧，L/R 肩键为横置握持提供额外输入。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["shoulder_buttons_role","shoulder_flow"], "mesh_ref": "assemblies/shoulder_buttons.gltf"},
+    {"id": "battery_compartment", "name": "电池仓", "role": {"zh": "电池仓在整机中位于底部，装载电池为掌机供电，保障便携续航。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["battery_compartment_role","battery_flow"], "mesh_ref": "assemblies/battery_compartment.gltf"}
+  ],
+  "components": [
+    {"id": "mips_cpu", "name": "MIPS CPU", "type": "ic", "role": {"zh": "MIPS CPU 在整机中执行游戏逻辑与系统运算，采用双核架构，是整机的运算核心。"}, "assembly": "chassis", "annotations": ["mips_cpu_role","cpu_flow"]},
+    {"id": "gpu", "name": "GPU", "type": "ic", "role": {"zh": "GPU 在整机中负责图形渲染，绘制宽屏游戏画面，是整机的图形处理核心。"}, "assembly": "chassis", "annotations": ["gpu_role","gpu_flow"]},
+    {"id": "ram", "name": "主内存芯片", "type": "ic", "role": {"zh": "主内存芯片在整机中提供工作内存，暂存运行时的程序与图形数据。"}, "assembly": "chassis", "annotations": ["ram_role","memory_flow"]},
+    {"id": "umd_motor", "name": "UMD 电机", "type": "motor", "role": {"zh": "UMD 电机在整机中驱动光盘旋转，配合读取机构完成数据读取，是光驱的动力核心。"}, "assembly": "umd_drive", "annotations": ["umd_motor_role","motor_flow"]}
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "PlayStation Portable（静态展示）",
+    "media_hint": "cd_rom",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {"id": "handheld_lcd_0", "surface": "handheld_lcd", "type": "video", "format": "rgba8"},
+      {"id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16"}
+    ],
+    "input_map": {
+      "d_pad_up": {"map": "keyboard", "key": "KEY_UP"},
+      "d_pad_down": {"map": "keyboard", "key": "KEY_DOWN"},
+      "d_pad_left": {"map": "keyboard", "key": "KEY_LEFT"},
+      "d_pad_right": {"map": "keyboard", "key": "KEY_RIGHT"},
+      "button_a": {"map": "keyboard", "key": "KEY_A"},
+      "button_b": {"map": "keyboard", "key": "KEY_B"},
+      "button_x": {"map": "keyboard", "key": "KEY_X"},
+      "start": {"map": "keyboard", "key": "KEY_ENTER"}
+    }
+  }
+}

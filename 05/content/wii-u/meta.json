@@ -1,0 +1,49 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "wii-u",
+    "name": {"zh": "Nintendo Wii U", "en": "Nintendo Wii U"},
+    "spec_version": "0.2", "version": "1.0.0", "engine_min_version": "0.1.0", "precision_level": "L2",
+    "authors": [{"name": "箱庭电子博物馆项目组", "role": "author"}],
+    "description": "Nintendo Wii U 是任天堂 2012 年发布的第八代家用游戏机，以 GamePad 触屏手柄与双屏理念为特色，向下兼容 Wii，是 Switch 的前身，是游戏机厅第八代主机叙事线的核心展品。",
+    "category": "game-console",
+    "sources": [
+      {"type": "documentation", "title": "Wikipedia: Wii U", "url": "https://en.wikipedia.org/wiki/Wii_U", "license": "cc", "accessed_at": "2026-11-26"},
+      {"type": "documentation", "title": "Wikipedia: Nintendo", "url": "https://en.wikipedia.org/wiki/Nintendo", "license": "cc", "accessed_at": "2026-11-26"},
+      {"type": "documentation", "title": "Computer History Museum", "url": "https://www.computerhistory.org/", "license": "visual_reference_only", "accessed_at": "2026-11-26"}
+    ],
+    "intro": {
+      "zh": "Nintendo Wii U 是任天堂 2012 年发布的第八代家用游戏机，以带 6.2 英寸触屏的 GamePad 手柄与双屏理念为标志，向下兼容 Wii 游戏与周边，虽商业失利却孕育了 Switch，是游戏机厅第八代主机叙事线的核心展品。",
+      "en": "The Nintendo Wii U, released in 2012, was an eighth-generation home console distinguished by its GamePad touch-screen controller and dual-screen concept, backward compatible with the Wii and the direct precursor to the Switch."
+    },
+    "era": 2012, "manufacturer": "Nintendo"
+  },
+  "assemblies": [
+    {"id": "console", "name": "整机", "role": {"zh": "Nintendo Wii U 主机在整机中作为第八代家用主机的机身主体，黑色横置机身内置光驱、主板、电源与闪存模块，是整机对外展示的核心展品。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": null, "children": ["gamepad","disc_drive","mainboard","power_supply","controller_port","flash_storage"], "components": [], "annotations": ["console_role","console_power_role","console_sd_role","backward_compat_flow","switch_legacy_flow","miiverse_flow","boot_anim"], "mesh_ref": "assemblies/console.gltf"},
+    {"id": "gamepad", "name": "GamePad 触屏手柄", "role": {"zh": "GamePad 触屏手柄在整机中作为标志性控制器，带 6.2 英寸触屏、双摇杆与按键，可作第二屏显示与触屏操作，是 Wii U 的核心识别件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "console", "children": [], "components": [], "annotations": ["gamepad_role","gamepad_touchscreen_role","gamepad_home_role","dual_screen_flow","touch_flow","second_screen_flow","gamepad_offtv_flow"], "mesh_ref": "assemblies/gamepad.gltf"},
+    {"id": "disc_drive", "name": "吸入式光驱", "role": {"zh": "吸入式光驱在整机中读取 Wii U 专用光盘，把游戏数据接入主机，光盘从前面板吸入，是整机加载游戏的读盘部件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "console", "children": [], "components": ["cd_motor"], "annotations": ["disc_drive_role","console_disc_slot_role","disc_insert_flow","disc_insert_anim"], "mesh_ref": "assemblies/disc_drive.gltf"},
+    {"id": "mainboard", "name": "主板", "role": {"zh": "主板在整机中承载 Espresso CPU、Latte GPU 与主内存，是整机运行游戏的计算与图形核心。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "console", "children": [], "components": ["espresso","latte","ram"], "annotations": ["mainboard_role","cpu_gpu_flow"], "mesh_ref": "assemblies/mainboard.gltf"},
+    {"id": "power_supply", "name": "电源模块", "role": {"zh": "电源模块在整机中把市电转换为多路直流电，为主板、光驱等部件稳定供电。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "console", "children": [], "components": [], "annotations": ["power_supply_role","power_flow"], "mesh_ref": "assemblies/power_supply.gltf"},
+    {"id": "controller_port", "name": "手柄接口", "role": {"zh": "手柄接口在整机中提供手柄同步口与 SD 卡槽区，用于配对 GamePad 等控制器并读取外置存储。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "console", "children": [], "components": [], "annotations": ["controller_port_role","sync_flow"], "mesh_ref": "assemblies/controller_port.gltf"},
+    {"id": "flash_storage", "name": "闪存模块", "role": {"zh": "闪存模块在整机中作为 eMMC 内置存储，提供 8GB 或 32GB 的系统与存档空间。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "console", "children": [], "components": [], "annotations": ["flash_storage_role","storage_flow"], "mesh_ref": "assemblies/flash_storage.gltf"}
+  ],
+  "components": [
+    {"id": "espresso", "name": "Espresso CPU", "type": "ic", "role": {"zh": "Espresso CPU 在整机中执行游戏逻辑与运算，是 IBM PowerPC 架构的三核处理器，是整机的运算核心。"}, "assembly": "mainboard", "annotations": ["espresso_role","espresso_flow"]},
+    {"id": "latte", "name": "Latte GPU", "type": "ic", "role": {"zh": "Latte GPU 在整机中绘制画面，是 AMD 提供的图形芯片，负责整机的图形渲染与输出。"}, "assembly": "mainboard", "annotations": ["latte_role","latte_flow"]},
+    {"id": "ram", "name": "主内存芯片", "type": "ic", "role": {"zh": "主内存芯片在整机中提供 2GB 工作内存，暂存运行时的程序与图形数据。"}, "assembly": "mainboard", "annotations": ["ram_role"]},
+    {"id": "cd_motor", "name": "光盘电机", "type": "motor", "role": {"zh": "光盘电机在整机中驱动 Wii U 专用光盘旋转，配合激光头读取游戏数据。"}, "assembly": "disc_drive", "annotations": ["cd_motor_role"]}
+  ],
+  "runtime": {
+    "emulator": "none", "version": "1.0.0", "system": "Nintendo Wii U（静态展示）", "media_hint": "cd_rom", "bios_required": false, "bios_guide_url": null,
+    "output_sinks": [
+      {"id": "crt_display_0", "surface": "crt_display", "type": "video", "format": "rgba8"},
+      {"id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16"}
+    ],
+    "input_map": {
+      "d_pad_up": {"map": "keyboard", "key": "KEY_UP"}, "d_pad_down": {"map": "keyboard", "key": "KEY_DOWN"},
+      "d_pad_left": {"map": "keyboard", "key": "KEY_LEFT"}, "d_pad_right": {"map": "keyboard", "key": "KEY_RIGHT"},
+      "button_a": {"map": "keyboard", "key": "KEY_A"}, "button_b": {"map": "keyboard", "key": "KEY_B"},
+      "button_x": {"map": "keyboard", "key": "KEY_X"}, "start": {"map": "keyboard", "key": "KEY_ENTER"}
+    }
+  }
+}

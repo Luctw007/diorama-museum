@@ -1,0 +1,208 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "space-invaders-arcade",
+    "name": {
+      "zh": "Space Invaders 街机框体",
+      "en": "Space Invaders Arcade Cabinet"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "1978 年太东推出的街机框体，史上引发街机热潮的现象级射击游戏，玩家操控激光炮击退下压的外星人阵列，开创了射击游戏类型，是街机暗房区的核心展品。",
+    "category": "arcade",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Space Invaders",
+        "url": "https://en.wikipedia.org/wiki/Space_Invaders",
+        "license": "cc",
+        "accessed_at": "2026-11-26"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Taito",
+        "url": "https://en.wikipedia.org/wiki/Taito",
+        "license": "cc",
+        "accessed_at": "2026-11-26"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-26"
+      }
+    ],
+    "intro": {
+      "zh": "Space Invaders 街机框体是太东 1978 年推出的经典街机，玩家操控激光炮左右移动、逐发发射，击退下压的外星人阵列，曾引发全球街机热潮，甚至让日本一度传出硬币短缺的说法。它是射击游戏的鼻祖，也是街机黄金时代的开端，是街机暗房区「射击游戏鼻祖」叙事线的核心展品。",
+      "en": "The Space Invaders arcade cabinet, released by Taito in 1978, let players move a laser cannon left and right to shoot down descending alien rows. It ignited a global arcade craze—legendarily causing a coin shortage in Japan—and pioneered the shooter genre and the golden age of arcades."
+    },
+    "era": 1978,
+    "manufacturer": "Taito"
+  },
+  "assemblies": [
+    {
+      "id": "cabinet",
+      "name": "框体",
+      "role": {
+        "zh": "Space Invaders 街机框体，一台 1978 年太东推出的经典街机；在整机中，立式机箱统摄控制面板、投币门、CRT 显示器、摇杆、按键、主板与扬声器，是街机暗房区「射击游戏鼻祖」叙事线的核心展品。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": null,
+      "children": ["control_panel", "coin_door", "crt_display", "joystick", "button", "mainboard", "speaker"],
+      "components": [],
+      "annotations": ["cabinet_role", "marquee_role", "shooting_flow", "arcade_golden_age_flow", "coin_shortage_flow", "high_score_flow"],
+      "mesh_ref": "assemblies/cabinet.gltf"
+    },
+    {
+      "id": "control_panel",
+      "name": "控制面板",
+      "role": {
+        "zh": "控制面板在整机中承载摇杆与发射按键，是玩家操控激光炮移动与开火的输入区域。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["control_panel_role", "joystick_flow"],
+      "mesh_ref": "assemblies/control_panel.gltf"
+    },
+    {
+      "id": "coin_door",
+      "name": "投币门",
+      "role": {
+        "zh": "投币门在整机中用于投入硬币，投币后游戏开始，是可开合的识别部件。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": ["coin_mechanism"],
+      "annotations": ["coin_door_role", "coin_mechanism_role", "coin_slot_role", "coin_culture_flow", "coin_insert_anim"],
+      "mesh_ref": "assemblies/coin_door.gltf"
+    },
+    {
+      "id": "crt_display",
+      "name": "CRT 显示器",
+      "role": {
+        "zh": "CRT 显示器在整机中显示游戏画面，外星人阵列的下压与玩家的反击在此呈现。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["crt_display_role", "invader_grid_flow", "game_screen_flow", "difficulty_ramp_flow"],
+      "mesh_ref": "assemblies/crt_display.gltf"
+    },
+    {
+      "id": "joystick",
+      "name": "摇杆",
+      "role": {
+        "zh": "摇杆在整机中控制激光炮的左右移动，红色摇杆球是 Space Invaders 框体的标志性操作件。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["joystick_role", "joystick_ball_role", "move_fire_anim"],
+      "mesh_ref": "assemblies/joystick.gltf"
+    },
+    {
+      "id": "button",
+      "name": "按键",
+      "role": {
+        "zh": "按键在整机中用于发射激光炮击退外星人，是玩家的射击输入按键。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["button_role", "fire_button_flow"],
+      "mesh_ref": "assemblies/button.gltf"
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 Intel 8080 CPU、图形芯片与音源芯片，是框体运行游戏的计算核心。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": ["i8080_cpu", "graphics_chip", "sound_chip"],
+      "annotations": ["mainboard_role", "pcb_role", "cpu_gpu_flow"],
+      "mesh_ref": "assemblies/mainboard.gltf"
+    },
+    {
+      "id": "speaker",
+      "name": "扬声器",
+      "role": {
+        "zh": "扬声器在整机中播放游戏音效，外星人下压时逐渐加快的节拍声由此输出。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["speaker_role", "sound_flow"],
+      "mesh_ref": "assemblies/speaker.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "i8080_cpu",
+      "name": "Intel 8080 CPU",
+      "type": "ic",
+      "role": {"zh": "Intel 8080 CPU 在整机中执行游戏逻辑，是框体的运算核心。"},
+      "assembly": "mainboard",
+      "annotations": ["i8080_cpu_role"]
+    },
+    {
+      "id": "graphics_chip",
+      "name": "图形芯片",
+      "type": "ic",
+      "role": {"zh": "图形芯片在整机中绘制游戏画面，呈现外星人阵列与玩家的激光炮。"},
+      "assembly": "mainboard",
+      "annotations": ["graphics_chip_role"]
+    },
+    {
+      "id": "sound_chip",
+      "name": "音源芯片",
+      "type": "ic",
+      "role": {"zh": "音源芯片在整机中生成游戏音效，随外星人减少而加快的节拍由此产生。"},
+      "assembly": "mainboard",
+      "annotations": ["sound_chip_role"]
+    },
+    {
+      "id": "coin_mechanism",
+      "name": "投币机构",
+      "type": "mechanism",
+      "role": {"zh": "投币机构在整机中识别投入的硬币，触发游戏开始。"},
+      "assembly": "coin_door",
+      "annotations": ["coin_mechanism_role"]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Space Invaders 街机框体（静态展示）",
+    "media_hint": "none",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {"id": "crt_display_0", "surface": "crt_display", "type": "video", "format": "rgba8"},
+      {"id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16"}
+    ],
+    "input_map": {
+      "move_left": {"map": "keyboard", "key": "KEY_LEFT"},
+      "move_right": {"map": "keyboard", "key": "KEY_RIGHT"},
+      "fire": {"map": "keyboard", "key": "KEY_SPACE"}
+    }
+  }
+}

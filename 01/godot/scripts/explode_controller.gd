@@ -38,6 +38,17 @@ const SLIDER_SPEED := 2.5   # 复原/展开插值速率（1/秒）
 const MAX_DEPTH := 8        # 层级深度上限（防御）
 const FOCUS_DURATION_MIN := 0.9  # 聚焦运镜时长下限（秒，depth_model §4 目标框缩放）
 const FOCUS_DURATION_MAX := 1.2  # 聚焦运镜时长上限（秒）
+## TASK-311-H：部件类轴预设表（depth_model §2 七类主轴方向预设）。
+## L1-ENC「沿开盖轴方向」取 +Y 占位（精确轴待 04 线开盖轴定义，标待核实不臆造）。
+const AXIS_PRESET := {
+	"L1-BOARD": Vector3.UP,     # 主板 +Y（向上抬出）
+	"L1-DISP": Vector3.FORWARD,  # 屏幕 -Z（朝观众推出）
+	"L1-PSU": Vector3.RIGHT,     # 电源 +X
+	"L1-IO": Vector3.UP,         # 键盘与输入 +Y
+	"L1-ENC": Vector3.UP,        # 外壳与结构 沿开盖轴方向（+Y 占位，待核实）
+	"L1-STO": Vector3.RIGHT,     # 存储 +X
+	"L1-THM": Vector3.UP,        # 散热与机电 +Y
+}
 
 var _loader: Node = null
 var _state: int = State.CLOSED
@@ -73,11 +84,7 @@ func _on_device_loaded(_device_id: String) -> void:
 	_set_state(State.CLOSED)
 	_value = 0.0
 	_target_value = 0.0
-	_subtree_focus = ""
-	_rep_focus = ""
-	_subtree_base = {}
-	_rep_highlight = []
-	_breadcrumb = []
+	_clear_subtree_state()
 	_build_topology()
 
 
@@ -108,8 +115,15 @@ func _compute_depth(nodes: Dictionary, aid: String, acc: int) -> int:
 
 
 func _guess_axis(nodes: Dictionary, aid: String) -> Vector3:
+	# TASK-311-H：类码预设优先——annotations 提供 class_code meta 时按 §2 七类主轴
+	# 预设表返回，否则退回父级位移方向自动猜。
+	var node: Node3D = nodes[aid]
+	if node.has_meta("class_code"):
+		var code: String = str(node.get_meta("class_code"))
+		if AXIS_PRESET.has(code):
+			return AXIS_PRESET[code]
 	# 推拉主轴：读取该装配体相对父级的平移方向；无父级 → +X
-	var entry: Dictionary = nodes[aid].get_meta("asmb_entry", {})
+	var entry: Dictionary = node.get_meta("asmb_entry", {})
 	var tf: Variant = entry.get("transform")
 	var t: Array = []
 	if tf is Dictionary:
@@ -144,6 +158,10 @@ func _set_state(next: int) -> void:
 			pass  # 开盖态：M1 以"允许拆解"为语义，不额外形变（见 explode_spec.md）
 		State.EXPLODED:
 			_set_locked(true)
+	# TASK-311-I：离开 EXPLODED（OPENED/CLOSED）时统一复位子树视图状态——
+	# set_open/reset_explode/set_close 三条退出路径共用，无残留。
+	if old == State.EXPLODED and _state != State.EXPLODED:
+		_clear_subtree_state()
 	state_changed.emit(old, _state)
 
 
@@ -172,13 +190,7 @@ func set_exploded() -> void:
 
 
 func set_close() -> void:
-	_set_state(State.CLOSED)  # 全树已按 _base_transform 复原（TASK-306-G：基准清空即可）
-	_set_subtree_visibility(false)
-	_subtree_base = {}
-	_subtree_focus = ""
-	_rep_focus = ""
-	_rep_highlight = []
-	_breadcrumb = []
+	_set_state(State.CLOSED)  # 全树已按 _base_transform 复原；子树状态由 _set_state 统一复位（311-I）
 
 
 func reset_explode() -> void:
@@ -279,16 +291,28 @@ func enter_subtree(asmb_id: String) -> bool:
 
 ## F-6 深化（TASK-301-I）：退出子树视图，回 L1（EXPLODED 全树爆炸）。
 ## 续实装：306-G 复原子树局部形变并清空基准；306-J 面包屑 pop 回 L1；
-## 306-K 全部节点恢复 show。
+## 306-K 全部节点恢复 show；311-I 状态清理收敛到 _clear_subtree_state。
 func exit_subtree() -> void:
 	for node in _subtree_base:
 		node.transform = _subtree_base[node]
+	_clear_subtree_state()
+
+
+## TASK-311-I：子树视图状态统一复位。复位矩阵（状态 × 复位点，✓=覆盖）：
+##   状态              设备加载   set_close   exit_subtree   reset_explode   set_open(离开EXPLODED)
+##   _subtree_focus        ✓         ✓(经_set_state)  ✓(本函数)   ✓(经_set_state)  ✓(经_set_state)
+##   _rep_focus            ✓         ✓             ✓             ✓               ✓
+##   _subtree_base         ✓         ✓             ✓(先复原)     ✓               ✓
+##   _rep_highlight        ✓         ✓             ✓             ✓               ✓
+##   _breadcrumb           ✓         ✓             ✓             ✓               ✓
+##   _device_running       —（网关 status 驱动，独立于视图复位，不在此清）
+## 本函数不写任何 transform（基准恢复由 _set_state(CLOSED) 或 exit_subtree 复原负责）。
+func _clear_subtree_state() -> void:
 	_subtree_base = {}
 	_subtree_focus = ""
 	_rep_focus = ""
 	_rep_highlight = []
-	while not _breadcrumb.is_empty():
-		_breadcrumb.pop_back()
+	_breadcrumb = []
 	_set_subtree_visibility(false)
 
 
@@ -436,7 +460,8 @@ func current_view_level() -> int:
 	return get_depth_level()
 
 
-## §4 运行锁接入点：网关 status(state=running) → 置 true；stopped/degraded → false
+## §4 运行锁接入点：网关 status(state=running) → 置 true；stopped/degraded → false。
+## TASK-311-G：已由 gateway_client.gd _handle_status 接线驱动（/root/Main/DeviceRoot/ExplodeController）。
 func set_device_running(running: bool) -> void:
 	if running != _device_running:
 		_device_running = running

@@ -1,0 +1,49 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "playstation-4",
+    "name": {"zh": "PlayStation 4", "en": "PlayStation 4"},
+    "spec_version": "0.2", "version": "1.0.0", "engine_min_version": "0.1.0", "precision_level": "L2",
+    "authors": [{"name": "箱庭电子博物馆项目组", "role": "author"}],
+    "description": "2013 年索尼发布的第八代家用游戏机，回归 x86 架构、大幅降低开发门槛，凭借易开发路线与丰富独占成为第八代主机销量冠军，是游戏机厅第八代主机叙事线的核心展品。",
+    "category": "game-console",
+    "sources": [
+      {"type": "documentation", "title": "Wikipedia: PlayStation 4", "url": "https://en.wikipedia.org/wiki/PlayStation_4", "license": "cc", "accessed_at": "2026-11-26"},
+      {"type": "documentation", "title": "Wikipedia: Sony", "url": "https://en.wikipedia.org/wiki/Sony", "license": "cc", "accessed_at": "2026-11-26"},
+      {"type": "documentation", "title": "Computer History Museum", "url": "https://www.computerhistory.org/", "license": "visual_reference_only", "accessed_at": "2026-11-26"}
+    ],
+    "intro": {
+      "zh": "Sony PlayStation 4 是索尼 2013 年发布的第八代家用游戏机，回归 x86 架构、大幅降低开发门槛，凭借易开发路线与丰富独占成为第八代主机销量冠军、累计销量破亿，是游戏机厅第八代主机「x86 易开发」叙事线的核心展品。",
+      "en": "The Sony PlayStation 4, released in 2013, returned to an x86 architecture that greatly lowered development barriers, and became the eighth-generation sales champion with over 100 million units sold."
+    },
+    "era": 2013, "manufacturer": "Sony"
+  },
+  "assemblies": [
+    {"id": "chassis", "name": "整机", "role": {"zh": "Sony PlayStation 4 整机，黑色斜切面双层机身，在整机中容纳蓝光光驱、主板、电源、手柄接口、硬盘与 DualShock 4 手柄，是游戏机厅第八代主机叙事线的核心展品。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": null, "children": ["blu_ray_drive","mainboard","power_supply","hard_drive","controller_port","controller"], "components": [], "annotations": ["chassis_role","power_switch_role","x86_flow","eighth_gen_flow","psn_flow","sales_flow","boot_anim"], "mesh_ref": "assemblies/chassis.gltf"},
+    {"id": "blu_ray_drive", "name": "蓝光光驱", "role": {"zh": "蓝光光驱在整机中读取蓝光游戏光盘，把游戏数据接入主机，是整机加载游戏的吸入式读盘部件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": ["cd_motor"], "annotations": ["blu_ray_drive_role","disc_role","disc_insert_flow","bluray_media_flow","disc_insert_anim"], "mesh_ref": "assemblies/blu_ray_drive.gltf"},
+    {"id": "mainboard", "name": "主板", "role": {"zh": "主板在整机中承载 Jaguar CPU、AMD GPU 与主内存，是整机运行游戏的计算与图形核心。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": ["jaguar","gpu","ram"], "annotations": ["mainboard_role","cpu_gpu_flow"], "mesh_ref": "assemblies/mainboard.gltf"},
+    {"id": "power_supply", "name": "电源模块", "role": {"zh": "电源模块在整机中把市电转换为多路直流电，为主板、光驱等部件稳定供电。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["power_supply_role"], "mesh_ref": "assemblies/power_supply.gltf"},
+    {"id": "hard_drive", "name": "硬盘", "role": {"zh": "硬盘在整机中作为 2.5 英寸可拆卸存储，用于保存游戏数据、存档与数字版游戏。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["hard_drive_role","hdd_flow"], "mesh_ref": "assemblies/hard_drive.gltf"},
+    {"id": "controller_port", "name": "手柄接口", "role": {"zh": "手柄接口在整机中连接 DualShock 4 手柄与 USB 设备，把玩家的操作送入主机。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["controller_port_role","controller_flow"], "mesh_ref": "assemblies/controller_port.gltf"},
+    {"id": "controller", "name": "DualShock 4 手柄", "role": {"zh": "DualShock 4 手柄在整机中作为玩家的输入设备，含触控板、光条与双模拟摇杆，是可识别的核心部件。"}, "transform": {"translation": [0.0,0.0,0.0], "rotation": [0.0,0.0,0.0,1.0], "scale": [1.0,1.0,1.0]}, "parent": "chassis", "children": [], "components": [], "annotations": ["controller_role","touchpad_role","lightbar_role","touchpad_flow","lightbar_flow"], "mesh_ref": "assemblies/controller.gltf"}
+  ],
+  "components": [
+    {"id": "jaguar", "name": "Jaguar CPU", "type": "ic", "role": {"zh": "Jaguar CPU 在整机中执行游戏逻辑与运算，采用 x86 架构八核设计，是整机的运算核心。"}, "assembly": "mainboard", "annotations": ["jaguar_role","jaguar_arch_role"]},
+    {"id": "gpu", "name": "GPU", "type": "ic", "role": {"zh": "AMD GPU 在整机中绘制 3D 画面，基于 GCN 架构，是整机的图形渲染核心。"}, "assembly": "mainboard", "annotations": ["gpu_role"]},
+    {"id": "ram", "name": "主内存芯片", "type": "ic", "role": {"zh": "主内存芯片在整机中提供 8GB GDDR5 统一内存，暂存运行时的程序与图形数据。"}, "assembly": "mainboard", "annotations": ["ram_role","gddr5_flow"]},
+    {"id": "cd_motor", "name": "光盘电机", "type": "motor", "role": {"zh": "光盘电机在整机中驱动蓝光光盘旋转，配合激光头读取游戏数据。"}, "assembly": "blu_ray_drive", "annotations": ["cd_motor_role"]}
+  ],
+  "runtime": {
+    "emulator": "none", "version": "1.0.0", "system": "PlayStation 4（静态展示）", "media_hint": "cd_rom", "bios_required": false, "bios_guide_url": null,
+    "output_sinks": [
+      {"id": "crt_display_0", "surface": "crt_display", "type": "video", "format": "rgba8"},
+      {"id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16"}
+    ],
+    "input_map": {
+      "d_pad_up": {"map": "keyboard", "key": "KEY_UP"}, "d_pad_down": {"map": "keyboard", "key": "KEY_DOWN"},
+      "d_pad_left": {"map": "keyboard", "key": "KEY_LEFT"}, "d_pad_right": {"map": "keyboard", "key": "KEY_RIGHT"},
+      "button_a": {"map": "keyboard", "key": "KEY_A"}, "button_b": {"map": "keyboard", "key": "KEY_B"},
+      "button_x": {"map": "keyboard", "key": "KEY_X"}, "start": {"map": "keyboard", "key": "KEY_ENTER"}
+    }
+  }
+}

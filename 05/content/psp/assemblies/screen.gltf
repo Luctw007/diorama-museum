@@ -1,0 +1,434 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "TASK-315 low-poly"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "screen"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "screen_mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "indices": 1,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 2
+          },
+          "indices": 3,
+          "material": 1
+        },
+        {
+          "attributes": {
+            "POSITION": 4
+          },
+          "indices": 5,
+          "material": 2
+        },
+        {
+          "attributes": {
+            "POSITION": 6
+          },
+          "indices": 7,
+          "material": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 8
+          },
+          "indices": 9,
+          "material": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 10
+          },
+          "indices": 11,
+          "material": 5
+        },
+        {
+          "attributes": {
+            "POSITION": 12
+          },
+          "indices": 13,
+          "material": 6
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "screen",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.02,
+          0.02,
+          0.03
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.85
+      }
+    },
+    {
+      "name": "panel",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.25,
+          0.25,
+          0.28
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.85
+      }
+    },
+    {
+      "name": "frame",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.15,
+          0.15,
+          0.17
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.85
+      }
+    },
+    {
+      "name": "body",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.05,
+          0.05,
+          0.06
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.85
+      }
+    },
+    {
+      "name": "pcb",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.08,
+          0.25,
+          0.12
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.85
+      }
+    },
+    {
+      "name": "chip",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.85
+      }
+    },
+    {
+      "name": "black",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.05,
+          0.05,
+          0.06
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.85
+      }
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "min": [
+        -0.0475,
+        0.01,
+        -0.027
+      ],
+      "max": [
+        0.0475,
+        0.014,
+        0.027
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 40,
+      "type": "VEC3",
+      "min": [
+        -0.051,
+        0.013000000000000001,
+        -0.0305
+      ],
+      "max": [
+        0.051,
+        0.02,
+        0.0305
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 180,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "min": [
+        -0.055,
+        0.014,
+        -0.034
+      ],
+      "max": [
+        0.055,
+        0.017,
+        0.034
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "min": [
+        -0.06,
+        0.016,
+        -0.037
+      ],
+      "max": [
+        0.06,
+        0.019999999999999997,
+        0.037
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "min": [
+        -0.025,
+        0.0155,
+        -0.015
+      ],
+      "max": [
+        0.025,
+        0.0165,
+        0.015
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        -0.019,
+        0.016,
+        -0.012
+      ],
+      "max": [
+        0.019,
+        0.018000000000000002,
+        0.012
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 108,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "min": [
+        -0.01,
+        0.013999999999999999,
+        -0.036000000000000004
+      ],
+      "max": [
+        0.01,
+        0.016,
+        -0.032
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 96,
+      "byteLength": 72,
+      "target": 34963
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 0,
+      "byteLength": 480,
+      "target": 34962
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 480,
+      "byteLength": 360,
+      "target": 34963
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 0,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 96,
+      "byteLength": 72,
+      "target": 34963
+    },
+    {
+      "buffer": 3,
+      "byteOffset": 0,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 3,
+      "byteOffset": 96,
+      "byteLength": 72,
+      "target": 34963
+    },
+    {
+      "buffer": 4,
+      "byteOffset": 0,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 4,
+      "byteOffset": 96,
+      "byteLength": 72,
+      "target": 34963
+    },
+    {
+      "buffer": 5,
+      "byteOffset": 0,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 5,
+      "byteOffset": 288,
+      "byteLength": 216,
+      "target": 34963
+    },
+    {
+      "buffer": 6,
+      "byteOffset": 0,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 6,
+      "byteOffset": 96,
+      "byteLength": 72,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "data:application/octet-stream;base64,XI9CvQrXIzwbL928XI9CPQrXIzwbL928XI9CPUJgZTwbL928XI9CvUJgZTwbL928XI9CvQrXIzwbL908XI9CPQrXIzwbL908XI9CPUJgZTwbL908XI9CvUJgZTwbL908AAABAAIAAAACAAMABAAGAAUABAAHAAYAAQAFAAYAAQAGAAIAAwACAAYAAwAGAAcABAAFAAEABAABAAAAAwAHAAQAAwAEAAAA",
+      "byteLength": 168
+    },
+    {
+      "uri": "data:application/octet-stream;base64,YOVQvfT9VDwj2/m8YOVQPfT9VDwj2/m8YOVQPY/CdTwj2/m8YOVQvY/CdTwj2/m8YOVQvfT9VDwj2/k8YOVQPfT9VDwj2/k8YOVQPY/CdTwj2/k8YOVQvY/CdTwj2/k87FE4vUJgZTzNzMy87FE4PUJgZTzNzMy87FE4PY/CdTzNzMy87FE4vY/CdTzNzMy87FE4vUJgZTzNzMw87FE4PUJgZTzNzMw87FE4PY/CdTzNzMw87FE4vY/CdTzNzMw8pptEvUJgZTzNzMy8MQgsvUJgZTzNzMy8MQgsvZZDizzNzMy8pptEvZZDizzNzMy8pptEvUJgZTzNzMw8MQgsvUJgZTzNzMw8MQgsvZZDizzNzMw8pptEvZZDizzNzMw8MQgsPUJgZTzNzMy8pptEPUJgZTzNzMy8pptEPZZDizzNzMy8MQgsPZZDizzNzMy8MQgsPUJgZTzNzMw8pptEPUJgZTzNzMw8pptEPZZDizzNzMw8MQgsPZZDizzNzMw8Ctcjvbx0kzwK16O8CtcjPbx0kzwK16O8CtcjPQrXozwK16O8CtcjvQrXozwK16O8Ctcjvbx0kzwK16M8CtcjPbx0kzwK16M8CtcjPQrXozwK16M8CtcjvQrXozwK16M8AAABAAIAAAACAAMABAAGAAUABAAHAAYAAQAFAAYAAQAGAAIAAwACAAYAAwAGAAcABAAFAAEABAABAAAAAwAHAAQAAwAEAAAACAAJAAoACAAKAAsADAAOAA0ADAAPAA4ACQANAA4ACQAOAAoACwAKAA4ACwAOAA8ADAANAAkADAAJAAgACwAPAAwACwAMAAgAEAARABIAEAASABMAFAAWABUAFAAXABYAEQAVABYAEQAWABIAEwASABYAEwAWABcAFAAVABEAFAARABAAEwAXABQAEwAUABAAGAAZABoAGAAaABsAHAAeAB0AHAAfAB4AGQAdAB4AGQAeABoAGwAaAB4AGwAeAB8AHAAdABkAHAAZABgAGwAfABwAGwAcABgAIAAhACIAIAAiACMAJAAmACUAJAAnACYAIQAlACYAIQAmACIAIwAiACYAIwAmACcAJAAlACEAJAAhACAAIwAnACQAIwAkACAA",
+      "byteLength": 840
+    },
+    {
+      "uri": "data:application/octet-stream;base64,rkdhvUJgZTyWQwu9rkdhPUJgZTyWQwu9rkdhPZZDizyWQwu9rkdhvZZDizyWQwu9rkdhvUJgZTyWQws9rkdhPUJgZTyWQws9rkdhPZZDizyWQws9rkdhvZZDizyWQws9AAABAAIAAAACAAMABAAGAAUABAAHAAYAAQAFAAYAAQAGAAIAAwACAAYAAwAGAAcABAAFAAEABAABAAAAAwAHAAQAAwAEAAAA",
+      "byteLength": 168
+    },
+    {
+      "uri": "data:application/octet-stream;base64,j8J1vW8SgzxQjRe9j8J1PW8SgzxQjRe9j8J1PQrXozxQjRe9j8J1vQrXozxQjRe9j8J1vW8SgzxQjRc9j8J1PW8SgzxQjRc9j8J1PQrXozxQjRc9j8J1vQrXozxQjRc9AAABAAIAAAACAAMABAAGAAUABAAHAAYAAQAFAAYAAQAGAAIAAwACAAYAAwAGAAcABAAFAAEABAABAAAAAwAHAAQAAwAEAAAA",
+      "byteLength": 168
+    },
+    {
+      "uri": "data:application/octet-stream;base64,zczMvLbzfTyPwnW8zczMPLbzfTyPwnW8zczMPAIrhzyPwnW8zczMvAIrhzyPwnW8zczMvLbzfTyPwnU8zczMPLbzfTyPwnU8zczMPAIrhzyPwnU8zczMvAIrhzyPwnU8AAABAAIAAAACAAMABAAGAAUABAAHAAYAAQAFAAYAAQAGAAIAAwACAAYAAwAGAAcABAAFAAEABAABAAAAAwAHAAQAAwAEAAAA",
+      "byteLength": 168
+    },
+    {
+      "uri": "data:application/octet-stream;base64,ppvEu7gehTymm8S7ppvEO7gehTymm8S7ppvEO3NokTymm8S7ppvEu3NokTymm8S7ppvEu7gehTymm8Q7ppvEO7gehTymm8Q7ppvEO3NokTymm8Q7ppvEu3NokTymm8Q746WbvG8SgzxvEoM7WDk0vG8SgzxvEoM7WDk0vLx0kzxvEoM746WbvLx0kzxvEoM746WbvG8Sgzymm0Q8WDk0vG8Sgzymm0Q8WDk0vLx0kzymm0Q846WbvLx0kzymm0Q8WDk0PG8Sgzymm0S846WbPG8Sgzymm0S846WbPLx0kzymm0S8WDk0PLx0kzymm0S8WDk0PG8SgzxvEoO746WbPG8SgzxvEoO746WbPLx0kzxvEoO7WDk0PLx0kzxvEoO7AAABAAIAAAACAAMABAAGAAUABAAHAAYAAQAFAAYAAQAGAAIAAwACAAYAAwAGAAcABAAFAAEABAABAAAAAwAHAAQAAwAEAAAACAAJAAoACAAKAAsADAAOAA0ADAAPAA4ACQANAA4ACQAOAAoACwAKAA4ACwAOAA8ADAANAAkADAAJAAgACwAPAAwACwAMAAgAEAARABIAEAASABMAFAAWABUAFAAXABYAEQAVABYAEQAWABIAEwASABYAEwAWABcAFAAVABEAFAARABAAEwAXABQAEwAUABAA",
+      "byteLength": 504
+    },
+    {
+      "uri": "data:application/octet-stream;base64,CtcjvEJgZTy8dBO9CtcjPEJgZTy8dBO9CtcjPG8Sgzy8dBO9CtcjvG8Sgzy8dBO9CtcjvEJgZTxvEgO9CtcjPEJgZTxvEgO9CtcjPG8SgzxvEgO9CtcjvG8SgzxvEgO9AAABAAIAAAACAAMABAAGAAUABAAHAAYAAQAFAAYAAQAGAAIAAwACAAYAAwAGAAcABAAFAAEABAABAAAAAwAHAAQAAwAEAAAA",
+      "byteLength": 168
+    }
+  ]
+}
