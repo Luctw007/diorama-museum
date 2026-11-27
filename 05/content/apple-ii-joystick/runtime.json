@@ -1,0 +1,31 @@
+{
+  "emulator": "none",
+  "version": "1.0.0",
+  "system": "Apple II 游戏摇杆（静态展示）",
+  "media_hint": "none",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [],
+  "input_map": {
+    "move_left": {
+      "map": "keyboard",
+      "key": "KEY_LEFT"
+    },
+    "move_right": {
+      "map": "keyboard",
+      "key": "KEY_RIGHT"
+    },
+    "move_up": {
+      "map": "keyboard",
+      "key": "KEY_UP"
+    },
+    "move_down": {
+      "map": "keyboard",
+      "key": "KEY_DOWN"
+    },
+    "fire": {
+      "map": "keyboard",
+      "key": "KEY_SPACE"
+    }
+  }
+}

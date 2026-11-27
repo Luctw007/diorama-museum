@@ -1,0 +1,209 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "frogger-arcade",
+    "name": {
+      "zh": "Frogger 街机框体",
+      "en": "Frogger Arcade Cabinet"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "1981 年 Konami（科乐美）推出的街机框体，玩家操控青蛙穿越车流滚滚的公路与漂浮原木的河流，是动作/躲避类黄金时代的经典名作。",
+    "category": "arcade",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Frogger",
+        "url": "https://en.wikipedia.org/wiki/Frogger",
+        "license": "cc",
+        "accessed_at": "2026-11-27"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Konami",
+        "url": "https://en.wikipedia.org/wiki/Konami",
+        "license": "cc",
+        "accessed_at": "2026-11-27"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-27"
+      }
+    ],
+    "intro": {
+      "zh": "Frogger 街机框体是 Konami 于 1981 年推出的经典街机，玩家操控一只青蛙先穿越多车道的公路、再跃过漂浮原木与乌龟的河流，抵达对岸的安全洞。它以「过马路 + 过河」的节奏与时机考验著称，是街机黄金时代动作/躲避类游戏的标志性名作，也是被移植到众多家用平台的经典之一。",
+      "en": "The Frogger arcade cabinet, released by Konami in 1981, has players guide a frog across a busy multi-lane road and then hop over a river of floating logs and turtles to reach safe spots on the far bank. Renowned for its timing-based road-and-river crossing, it is a landmark action title of the golden age of arcade games and was ported to a vast range of home platforms."
+    },
+    "era": 1981,
+    "manufacturer": "Konami"
+  },
+  "assemblies": [
+    {
+      "id": "cabinet",
+      "name": "框体",
+      "role": {
+        "zh": "Frogger 街机框体，一台 1981 年 Konami 推出的经典街机；在整机中，绿色立式机箱统摄控制面板、投币门、CRT 显示器、摇杆、按键、主板与扬声器，是街机暗房区「青蛙过街」叙事线的核心展品。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": null,
+      "children": ["control_panel", "coin_door", "crt_display", "joystick", "button", "mainboard", "speaker"],
+      "components": [],
+      "annotations": ["cabinet_role", "marquee_role", "road_crossing_flow", "river_crossing_flow", "arcade_history_flow", "high_score_flow"],
+      "mesh_ref": "assemblies/cabinet.gltf"
+    },
+    {
+      "id": "control_panel",
+      "name": "控制面板",
+      "role": {
+        "zh": "控制面板在整机中承载摇杆与按键，是玩家操控青蛙移动、过街过河的输入区域。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["control_panel_role"],
+      "mesh_ref": "assemblies/control_panel.gltf"
+    },
+    {
+      "id": "coin_door",
+      "name": "投币门",
+      "role": {
+        "zh": "投币门在整机中用于投入硬币，投币后游戏开始，是可开合的识别部件。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": ["coin_mechanism"],
+      "annotations": ["coin_door_role", "coin_mechanism_role", "coin_slot_role", "coin_culture_flow", "coin_insert_anim"],
+      "mesh_ref": "assemblies/coin_door.gltf"
+    },
+    {
+      "id": "crt_display",
+      "name": "CRT 显示器",
+      "role": {
+        "zh": "CRT 显示器在整机中显示游戏画面，青蛙穿越公路与河流的冒险在此呈现。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["crt_display_role", "game_screen_flow", "timing_flow", "frog_life_flow"],
+      "mesh_ref": "assemblies/crt_display.gltf"
+    },
+    {
+      "id": "joystick",
+      "name": "摇杆",
+      "role": {
+        "zh": "摇杆在整机中控制青蛙的上下左右移动，四向摇杆是 Frogger 框体的标志性操作件。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["joystick_role", "joystick_ball_role", "move_flow", "move_demo_anim"],
+      "mesh_ref": "assemblies/joystick.gltf"
+    },
+    {
+      "id": "button",
+      "name": "按键",
+      "role": {
+        "zh": "按键在整机中用于方向输入与跳跃确认，配合摇杆完成青蛙的移动操作。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["button_role", "jump_button_flow"],
+      "mesh_ref": "assemblies/button.gltf"
+    },
+    {
+      "id": "mainboard",
+      "name": "主板",
+      "role": {
+        "zh": "主板在整机中承载 Z80 CPU、图形芯片与音源芯片，是框体运行游戏的计算核心。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": ["z80_cpu", "graphics_chip", "sound_chip"],
+      "annotations": ["mainboard_role", "pcb_role", "cpu_gpu_flow"],
+      "mesh_ref": "assemblies/mainboard.gltf"
+    },
+    {
+      "id": "speaker",
+      "name": "扬声器",
+      "role": {
+        "zh": "扬声器在整机中播放游戏配乐与音效，青蛙跳跃、汽车鸣笛与河流水声由此输出。"
+      },
+      "transform": {"translation": [0.0, 0.0, 0.0], "rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.0, 1.0, 1.0]},
+      "parent": "cabinet",
+      "children": [],
+      "components": [],
+      "annotations": ["speaker_role", "sound_flow"],
+      "mesh_ref": "assemblies/speaker.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "z80_cpu",
+      "name": "Z80 CPU",
+      "type": "ic",
+      "role": {"zh": "Z80 CPU 在整机中执行游戏逻辑，是 Frogger 框体的运算核心。"},
+      "assembly": "mainboard",
+      "annotations": ["z80_cpu_role"]
+    },
+    {
+      "id": "graphics_chip",
+      "name": "图形芯片",
+      "type": "ic",
+      "role": {"zh": "图形芯片在整机中绘制游戏画面，呈现青蛙、汽车与原木的角色形象。"},
+      "assembly": "mainboard",
+      "annotations": ["graphics_chip_role"]
+    },
+    {
+      "id": "sound_chip",
+      "name": "音源芯片",
+      "type": "ic",
+      "role": {"zh": "音源芯片在整机中生成游戏配乐与音效，跳跃与车辆驶过声由此产生。"},
+      "assembly": "mainboard",
+      "annotations": ["sound_chip_role"]
+    },
+    {
+      "id": "coin_mechanism",
+      "name": "投币机构",
+      "type": "mechanism",
+      "role": {"zh": "投币机构在整机中识别投入的硬币，触发游戏开始。"},
+      "assembly": "coin_door",
+      "annotations": ["coin_mechanism_role"]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Frogger 街机框体（静态展示）",
+    "media_hint": "none",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {"id": "crt_display_0", "surface": "crt_display", "type": "video", "format": "rgba8"},
+      {"id": "speaker_0", "surface": "speaker", "type": "audio", "format": "pcm16"}
+    ],
+    "input_map": {
+      "move_left": {"map": "keyboard", "key": "KEY_LEFT"},
+      "move_right": {"map": "keyboard", "key": "KEY_RIGHT"},
+      "move_up": {"map": "keyboard", "key": "KEY_UP"},
+      "move_down": {"map": "keyboard", "key": "KEY_DOWN"}
+    }
+  }
+}

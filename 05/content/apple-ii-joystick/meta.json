@@ -1,0 +1,201 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "apple-ii-joystick",
+    "name": {
+      "zh": "Apple II 游戏摇杆",
+      "en": "Apple II Game Joystick"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "Apple II 早期配套的模拟摇杆外设，经游戏端口接入主机，提供双轴方向与动作键输入。",
+    "intro": {
+      "zh": "Apple II 游戏摇杆是苹果 II 个人电脑早期的游戏输入外设，与主机板载的游戏端口配合使用。它没有独立的处理器与固件，主体是安装在底座上的可摆动摇杆与动作按键：摇杆通过双轴电位器输出随偏转方向与幅度变化的模拟量，按键输出开关量，信号沿线缆送入 Apple II 的 game_port。作为一台纯输入外设，它不产生任何显示、声音或打印输出，也不携带 ROM、固件或任何存储介质。在箱庭电子博物馆中，它作为 Apple II 游戏生态的代表性外设，以静态展示配合摇杆摆动、按键按压演示呈现。",
+      "en": "The Apple II game joystick is an early analog input peripheral for the Apple II personal computer, used with the computer's onboard game port. It has no processor or firmware of its own; its body is a base with a deflectable stick and action buttons. The stick outputs analog values that vary with direction and magnitude through two-axis potentiometers, while the buttons output switch signals, all carried over a cable into the Apple II game port. As a pure input peripheral it produces no display, audio or print output and carries no ROM, firmware or storage media. In the Hako Electronic Museum it represents the game ecosystem of the Apple II and is shown as a static exhibit with stick-swing and button-press demonstrations."
+    },
+    "category": "input-device",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "S161 Wikipedia: Apple II",
+        "url": "https://en.wikipedia.org/wiki/Apple_II",
+        "license": "cc",
+        "accessed_at": "2026-11-27"
+      },
+      {
+        "type": "documentation",
+        "title": "S162 Wikipedia: Game controller",
+        "url": "https://en.wikipedia.org/wiki/Game_controller",
+        "license": "cc",
+        "accessed_at": "2026-11-27"
+      },
+      {
+        "type": "documentation",
+        "title": "S163 Computer History Museum: The Apple II",
+        "url": "https://www.computerhistory.org/revolution/personal-computers/17/300",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-27"
+      }
+    ],
+    "era": 1977,
+    "manufacturer": "Atari/多家"
+  },
+  "assemblies": [
+    {
+      "id": "base",
+      "name": "底座",
+      "role": {
+        "zh": "底座在整机中作为游戏摇杆的主体支撑与安装平台，承载摇杆、按键、线缆与底板，把内部机构固定为一个可手持操作的输入设备。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": null,
+      "children": ["stick", "button", "cable", "base_plate"],
+      "components": [],
+      "annotations": ["base_role", "base_grip_role", "flow_port_handshake"],
+      "mesh_ref": "assemblies/base.gltf"
+    },
+    {
+      "id": "stick",
+      "name": "摇杆",
+      "role": {
+        "zh": "摇杆在整机中是用户握住摆动的操作杆，绕根部前后左右偏转，把手的动作传递给下方电位器，产生双轴模拟输入。"
+      },
+      "transform": {
+        "translation": [0.0, 0.032, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "base",
+      "children": [],
+      "components": ["stick_switch"],
+      "annotations": ["stick_role", "stick_gate_role", "flow_stick_tilt", "flow_stick_center", "anim_stick_swing"],
+      "mesh_ref": "assemblies/stick.gltf"
+    },
+    {
+      "id": "button",
+      "name": "按键",
+      "role": {
+        "zh": "按键在整机中是独立的动作按钮，供用户按压触发开火或确认等游戏操作，产生开关量输入信号。"
+      },
+      "transform": {
+        "translation": [0.03, 0.032, 0.04],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "base",
+      "children": [],
+      "components": ["button_switch"],
+      "annotations": ["button_role", "button_return_role", "flow_button_press", "flow_button_release", "anim_button_press"],
+      "mesh_ref": "assemblies/button.gltf"
+    },
+    {
+      "id": "cable",
+      "name": "线缆",
+      "role": {
+        "zh": "线缆在整机中把摇杆与按键产生的输入信号从底座引出，经接头接入 Apple II 的 game_port 游戏端口，完成与主机的连接。"
+      },
+      "transform": {
+        "translation": [0.0, 0.01, -0.15],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "base",
+      "children": [],
+      "components": ["cable_wire"],
+      "annotations": ["cable_role", "cable_connector_role", "flow_cable_route"],
+      "mesh_ref": "assemblies/cable.gltf"
+    },
+    {
+      "id": "base_plate",
+      "name": "底板",
+      "role": {
+        "zh": "底板在整机中封闭底座底部，固定内部机构并承托整机重量，提供防滑与稳固的放置面。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "base",
+      "children": [],
+      "components": [],
+      "annotations": ["base_plate_role", "base_mount_role", "flow_base_mount"],
+      "mesh_ref": "assemblies/base_plate.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "stick_switch",
+      "name": "摇杆开关",
+      "type": "mechanism",
+      "role": {
+        "zh": "摇杆开关在整机中把摇杆的偏转转换为双轴模拟量，通过两组电位器的分压变化输出方向与幅度信号。"
+      },
+      "assembly": "stick",
+      "annotations": ["stick_switch_role", "stick_potentiometer_role", "flow_axis_measure", "flow_stick_axis_x", "flow_stick_axis_y"]
+    },
+    {
+      "id": "button_switch",
+      "name": "按键开关",
+      "type": "mechanism",
+      "role": {
+        "zh": "按键开关在整机中把按键的按压转换为通断开关量，按下闭合、松开断开，产生动作键输入信号。"
+      },
+      "assembly": "button",
+      "annotations": ["button_switch_role", "button_contact_role", "flow_button_switch"]
+    },
+    {
+      "id": "cable_wire",
+      "name": "线缆",
+      "type": "mechanism",
+      "role": {
+        "zh": "线缆在整机中把摇杆与按键产生的模拟量与开关量从底座传送到 game_port，经接口接入 Apple II 主机。"
+      },
+      "assembly": "cable",
+      "annotations": ["cable_wire_role", "cable_shield_role", "flow_axis_to_port"]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Apple II 游戏摇杆（静态展示）",
+    "media_hint": "none",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [],
+    "input_map": {
+      "move_left": {
+        "map": "keyboard",
+        "key": "KEY_LEFT"
+      },
+      "move_right": {
+        "map": "keyboard",
+        "key": "KEY_RIGHT"
+      },
+      "move_up": {
+        "map": "keyboard",
+        "key": "KEY_UP"
+      },
+      "move_down": {
+        "map": "keyboard",
+        "key": "KEY_DOWN"
+      },
+      "fire": {
+        "map": "keyboard",
+        "key": "KEY_SPACE"
+      }
+    }
+  }
+}

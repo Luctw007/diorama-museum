@@ -175,12 +175,20 @@ def check_r4() -> None:
 
 
 def _latest_doc(prefix: str) -> str:
-    """docs 目录内按文件名前缀取最新版路径（同名排序取末位）；无匹配回退 prefix 直名。"""
+    """docs 目录内按文件名前缀取最新版路径（按 v 号数字排序取最大，v10 > v9 不会被
+    字符串序误判）；无 v 号文件排末位；无匹配回退 prefix 直名。"""
     if not os.path.isdir(R5_DOCS):
         return os.path.join(R5_DOCS, prefix)
-    cands = sorted(f for f in os.listdir(R5_DOCS)
-                   if f.startswith(prefix) and f.endswith(".md"))
-    return os.path.join(R5_DOCS, cands[-1]) if cands else os.path.join(R5_DOCS, prefix)
+    cands = [f for f in os.listdir(R5_DOCS)
+             if f.startswith(prefix) and f.endswith(".md")]
+    if not cands:
+        return os.path.join(R5_DOCS, prefix)
+
+    def ver_key(name: str) -> tuple:
+        m = re.search(r"_v(\d+)\.md$", name)
+        return (int(m.group(1)),) if m else (-1,)
+
+    return os.path.join(R5_DOCS, max(cands, key=ver_key))
 
 
 def _ledger_section_rows(ledger: str, section: str) -> list[str]:

@@ -1,0 +1,253 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "neo-geo-pocket-color",
+    "name": {
+      "zh": "Neo Geo Pocket Color",
+      "en": "Neo Geo Pocket Color"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "1999 年 SNK 推出的彩色掌上游戏机，以 clicky 摇杆状十字键与格斗游戏阵容著称，是 SNK 破产前的最后一代掌机。",
+    "intro": {
+      "zh": "Neo Geo Pocket Color 是 SNK 于 1999 年推出的彩色掌上游戏机，是 Neo Geo Pocket 黑白初代的彩色升级版。它以独特的 clicky 摇杆状十字键著称——这颗可八方向微动按压、带清脆段落反馈的摇杆状十字键，为掌机格斗游戏带来了接近街机摇杆的精确出招手感。它延续了 SNK 的格斗基因，将《拳皇》《侍魂》等招牌格斗游戏便携化，是 SNK 破产前的最后一代掌机，也是掌机史上格斗游戏便携化的代表作。",
+      "en": "The Neo Geo Pocket Color is a color handheld console released by SNK in 1999, the color upgrade of the monochrome Neo Geo Pocket. It is renowned for its clicky joystick-style D-pad — an eight-way microswitch stick with crisp tactile feedback that delivers near-arcade precision for portable fighting games. Continuing SNK's fighting-game DNA, it brought signature titles such as The King of Fighters and Samurai Shodown to the handheld, and was SNK's last handheld before its bankruptcy — a landmark of portable fighting games."
+    },
+    "category": "handheld",
+    "era": 1999,
+    "manufacturer": "SNK",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "Wikipedia: Neo Geo Pocket Color",
+        "url": "https://en.wikipedia.org/wiki/Neo_Geo_Pocket_Color",
+        "license": "cc",
+        "accessed_at": "2026-11-27"
+      },
+      {
+        "type": "documentation",
+        "title": "Wikipedia: SNK",
+        "url": "https://en.wikipedia.org/wiki/SNK",
+        "license": "cc",
+        "accessed_at": "2026-11-27"
+      },
+      {
+        "type": "documentation",
+        "title": "Computer History Museum",
+        "url": "https://www.computerhistory.org/",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-27"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "id": "chassis",
+      "name": "竖版机身",
+      "role": {
+        "zh": "Neo Geo Pocket Color 竖版机身，是 SNK 于 1999 年推出的彩色掌上游戏机的整机主体，在整机中承载屏幕模块、摇杆状十字键、按键区、卡带槽与电池仓，是格斗游戏便携化的载体。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": null,
+      "children": ["screen_module", "d_pad", "buttons", "cartridge_slot", "battery_compartment"],
+      "components": ["cpu", "gpu", "ram", "sound_ic"],
+      "annotations": ["chassis_role", "option_btn_role", "speaker_role", "power_switch_role", "boot_flow", "fighting_portable_flow", "snk_legacy_flow", "portable_flow", "game_library_flow"],
+      "mesh_ref": "assemblies/chassis.gltf"
+    },
+    {
+      "id": "screen_module",
+      "name": "屏幕模块",
+      "role": {
+        "zh": "屏幕模块在整机中位于正面中央，是 160×152 分辨率的彩色液晶屏，负责显示游戏画面，是 NGPC 相较黑白初代 Neo Geo Pocket 的标志性升级。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["screen_module_role", "color_screen_role", "color_upgrade_flow", "display_flow"],
+      "mesh_ref": "assemblies/screen_module.gltf"
+    },
+    {
+      "id": "d_pad",
+      "name": "摇杆状十字键",
+      "role": {
+        "zh": "摇杆状十字键在整机中位于左侧，是 NGPC 特有的 clicky 微动摇杆式十字键，可八方向微动按压，是掌机格斗游戏精确出招的核心输入件。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["d_pad_role", "clicky_dpad_role", "dpad_input_flow", "eight_dir_flow", "clicky_dpad_anim"],
+      "mesh_ref": "assemblies/d_pad.gltf"
+    },
+    {
+      "id": "buttons",
+      "name": "按键区",
+      "role": {
+        "zh": "按键区在整机中位于右侧，包含 A/B 主键与 Option 键，配合摇杆状十字键构成掌机的主要操作方式。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["buttons_role", "ab_buttons_role", "ab_input_flow"],
+      "mesh_ref": "assemblies/buttons.gltf"
+    },
+    {
+      "id": "cartridge_slot",
+      "name": "卡带槽",
+      "role": {
+        "zh": "卡带槽在整机中位于顶部，插入 NGPC 专用卡带后由主机读取游戏程序，是可插拔的识别件。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["cartridge_slot_role", "cartridge_flow", "cartridge_insert_anim"],
+      "mesh_ref": "assemblies/cartridge_slot.gltf"
+    },
+    {
+      "id": "battery_compartment",
+      "name": "电池仓",
+      "role": {
+        "zh": "电池仓在整机中位于机身背部，装载电池为掌机供电，是 NGPC 便携续航的基础。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "chassis",
+      "children": [],
+      "components": [],
+      "annotations": ["battery_compartment_role", "battery_flow"],
+      "mesh_ref": "assemblies/battery_compartment.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "cpu",
+      "name": "CPU",
+      "type": "ic",
+      "role": {
+        "zh": "CPU 在整机中负责取指译码、执行游戏程序，是 NGPC 的主处理器与运算核心，驱动整机的游戏逻辑与系统运行。"
+      },
+      "assembly": "chassis",
+      "annotations": ["cpu_role"]
+    },
+    {
+      "id": "gpu",
+      "name": "GPU",
+      "type": "ic",
+      "role": {
+        "zh": "GPU 在整机中负责绘制 160×152 彩色画面，把游戏图形数据渲染到彩色液晶屏，是掌机的图形处理核心。"
+      },
+      "assembly": "chassis",
+      "annotations": ["gpu_role"]
+    },
+    {
+      "id": "ram",
+      "name": "主内存芯片",
+      "type": "ic",
+      "role": {
+        "zh": "主内存芯片在整机中提供工作内存，暂存运行时的程序与图形数据，是掌机快速读写的中转核心。"
+      },
+      "assembly": "chassis",
+      "annotations": ["ram_role"]
+    },
+    {
+      "id": "sound_ic",
+      "name": "音源芯片",
+      "type": "ic",
+      "role": {
+        "zh": "音源芯片在整机中合成与输出游戏音效，经扬声器播放，是掌机的音频处理核心。"
+      },
+      "assembly": "chassis",
+      "annotations": ["sound_ic_role"]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Neo Geo Pocket Color（静态展示）",
+    "media_hint": "cartridge",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [
+      {
+        "id": "handheld_lcd_0",
+        "surface": "handheld_lcd",
+        "type": "video",
+        "format": "rgba8"
+      },
+      {
+        "id": "speaker_0",
+        "surface": "speaker",
+        "type": "audio",
+        "format": "pcm16"
+      }
+    ],
+    "input_map": {
+      "d_pad_up": {
+        "map": "keyboard",
+        "key": "KEY_UP"
+      },
+      "d_pad_down": {
+        "map": "keyboard",
+        "key": "KEY_DOWN"
+      },
+      "d_pad_left": {
+        "map": "keyboard",
+        "key": "KEY_LEFT"
+      },
+      "d_pad_right": {
+        "map": "keyboard",
+        "key": "KEY_RIGHT"
+      },
+      "button_a": {
+        "map": "keyboard",
+        "key": "KEY_A"
+      },
+      "button_b": {
+        "map": "keyboard",
+        "key": "KEY_B"
+      },
+      "button_x": {
+        "map": "keyboard",
+        "key": "KEY_X"
+      },
+      "start": {
+        "map": "keyboard",
+        "key": "KEY_ENTER"
+      }
+    }
+  }
+}

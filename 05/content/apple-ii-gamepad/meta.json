@@ -1,0 +1,215 @@
+{
+  "$schema": "../schema/device_spec.schema.json",
+  "meta": {
+    "id": "apple-ii-gamepad",
+    "name": {
+      "zh": "Apple II 游戏手柄",
+      "en": "Apple II Game Pad"
+    },
+    "spec_version": "0.2",
+    "version": "1.0.0",
+    "engine_min_version": "0.1.0",
+    "precision_level": "L2",
+    "authors": [
+      {
+        "name": "箱庭电子博物馆项目组",
+        "role": "author"
+      }
+    ],
+    "description": "Apple II 早期配套的十字键游戏手柄外设，经游戏端口接入主机，提供八方向十字键、功能键与肩键的开关量输入。",
+    "intro": {
+      "zh": "Apple II 游戏手柄是苹果 II 个人电脑早期配套的十字键式游戏输入外设，与主机板载的游戏端口配合使用。它没有独立的处理器与固件，主体是一块横置握持的机身：机身左侧是十字方向键，右侧是功能键区，顶部是肩键，各键的按压都转换为开关量输入，信号沿线缆送入 Apple II 的 game_port。作为一台纯输入外设，它不产生任何显示、声音或打印输出，也不携带 ROM、固件或任何存储介质。在箱庭电子博物馆中，它作为 Apple II 游戏生态的代表性外设，以静态展示配合十字键、按键按压演示呈现。",
+      "en": "The Apple II game pad is an early cross-key game input peripheral for the Apple II personal computer, used with the computer's onboard game port. It has no processor or firmware of its own; its body is a horizontal handheld shell with a cross-shaped directional pad on the left, action buttons on the right and shoulder buttons on top. Each key press is converted into a switch-level input, and the signals are carried over a cable into the Apple II game port. As a pure input peripheral it produces no display, audio or print output and carries no ROM, firmware or storage media. In the Hako Electronic Museum it represents the game ecosystem of the Apple II and is shown as a static exhibit with directional-pad and button-press demonstrations."
+    },
+    "category": "input-device",
+    "sources": [
+      {
+        "type": "documentation",
+        "title": "S161 Wikipedia: Apple II",
+        "url": "https://en.wikipedia.org/wiki/Apple_II",
+        "license": "cc",
+        "accessed_at": "2026-11-27"
+      },
+      {
+        "type": "documentation",
+        "title": "S162 Wikipedia: Game controller",
+        "url": "https://en.wikipedia.org/wiki/Game_controller",
+        "license": "cc",
+        "accessed_at": "2026-11-27"
+      },
+      {
+        "type": "documentation",
+        "title": "S163 Computer History Museum: The Apple II",
+        "url": "https://www.computerhistory.org/revolution/personal-computers/17/300",
+        "license": "visual_reference_only",
+        "accessed_at": "2026-11-27"
+      }
+    ],
+    "era": 1980,
+    "manufacturer": "多家"
+  },
+  "assemblies": [
+    {
+      "id": "body",
+      "name": "机身",
+      "role": {
+        "zh": "机身是手柄的主体承重件，在整机中作为十字键、功能键、肩键与线缆的安装平台，把这些输入部件固定为一个可双手握持操作的横置手柄。"
+      },
+      "transform": {
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": null,
+      "children": ["d_pad", "buttons", "cable", "shoulder"],
+      "components": [],
+      "annotations": ["body_role", "body_grip_role", "flow_port_handshake"],
+      "mesh_ref": "assemblies/body.gltf"
+    },
+    {
+      "id": "d_pad",
+      "name": "十字键",
+      "role": {
+        "zh": "十字键在整机中是机身左侧的八方向方向键，供用户按压上、下、左、右及斜向，产生方向输入信号。"
+      },
+      "transform": {
+        "translation": [-0.03, 0.01, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "body",
+      "children": [],
+      "components": ["d_pad_switch"],
+      "annotations": ["d_pad_role", "d_pad_gate_role", "flow_d_pad_press", "flow_d_pad_release", "anim_d_pad_press"],
+      "mesh_ref": "assemblies/d_pad.gltf"
+    },
+    {
+      "id": "buttons",
+      "name": "功能键区",
+      "role": {
+        "zh": "功能键区在整机中是机身右侧的动作按键，供用户按压触发射击、动作等游戏操作，产生开关量输入信号。"
+      },
+      "transform": {
+        "translation": [0.03, 0.01, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "body",
+      "children": [],
+      "components": ["button_switch"],
+      "annotations": ["buttons_role", "buttons_return_role", "flow_button_press", "flow_button_release", "anim_button_press"],
+      "mesh_ref": "assemblies/buttons.gltf"
+    },
+    {
+      "id": "cable",
+      "name": "线缆",
+      "role": {
+        "zh": "线缆在整机中把十字键、功能键与肩键产生的输入信号从机身引出，经接头接入 Apple II 的 game_port 游戏端口。"
+      },
+      "transform": {
+        "translation": [0.0, 0.01, -0.12],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "body",
+      "children": [],
+      "components": ["cable_wire"],
+      "annotations": ["cable_role", "cable_connector_role", "flow_cable_route"],
+      "mesh_ref": "assemblies/cable.gltf"
+    },
+    {
+      "id": "shoulder",
+      "name": "肩键",
+      "role": {
+        "zh": "肩键在整机中是机身顶部两侧的肩部按键，供食指按压触发辅助动作，产生开关量输入信号。"
+      },
+      "transform": {
+        "translation": [0.0, 0.02, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "parent": "body",
+      "children": [],
+      "components": ["shoulder_switch"],
+      "annotations": ["shoulder_role", "shoulder_return_role", "flow_shoulder_press", "flow_shoulder_release"],
+      "mesh_ref": "assemblies/shoulder.gltf"
+    }
+  ],
+  "components": [
+    {
+      "id": "d_pad_switch",
+      "name": "十字键开关",
+      "type": "mechanism",
+      "role": {
+        "zh": "十字键开关在整机中把十字键八个方向的按压转换为对应的开关量，判定用户按压的方向。"
+      },
+      "assembly": "d_pad",
+      "annotations": ["d_pad_switch_role", "d_pad_contact_role", "flow_d_pad_switch"]
+    },
+    {
+      "id": "button_switch",
+      "name": "功能键开关",
+      "type": "mechanism",
+      "role": {
+        "zh": "功能键开关在整机中把功能键的按压转换为通断开关量，按下闭合、松开断开，产生动作键输入信号。"
+      },
+      "assembly": "buttons",
+      "annotations": ["button_switch_role", "button_contact_role", "flow_button_switch"]
+    },
+    {
+      "id": "shoulder_switch",
+      "name": "肩键开关",
+      "type": "mechanism",
+      "role": {
+        "zh": "肩键开关在整机中把肩键的按压转换为通断开关量，供食指快速触发辅助动作。"
+      },
+      "assembly": "shoulder",
+      "annotations": ["shoulder_switch_role", "flow_shoulder_switch"]
+    },
+    {
+      "id": "cable_wire",
+      "name": "线缆",
+      "type": "mechanism",
+      "role": {
+        "zh": "线缆在整机中把十字键与按键产生的开关量信号传送到 game_port，经接口接入 Apple II 主机。"
+      },
+      "assembly": "cable",
+      "annotations": ["cable_wire_role", "flow_signal_to_port"]
+    }
+  ],
+  "runtime": {
+    "emulator": "none",
+    "version": "1.0.0",
+    "system": "Apple II 游戏手柄（静态展示）",
+    "media_hint": "none",
+    "bios_required": false,
+    "bios_guide_url": null,
+    "output_sinks": [],
+    "input_map": {
+      "d_pad_left": {
+        "map": "keyboard",
+        "key": "KEY_LEFT"
+      },
+      "d_pad_right": {
+        "map": "keyboard",
+        "key": "KEY_RIGHT"
+      },
+      "d_pad_up": {
+        "map": "keyboard",
+        "key": "KEY_UP"
+      },
+      "d_pad_down": {
+        "map": "keyboard",
+        "key": "KEY_DOWN"
+      },
+      "button_a": {
+        "map": "keyboard",
+        "key": "KEY_A"
+      },
+      "button_b": {
+        "map": "keyboard",
+        "key": "KEY_B"
+      }
+    }
+  }
+}

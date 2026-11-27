@@ -1,0 +1,35 @@
+{
+  "emulator": "none",
+  "version": "1.0.0",
+  "system": "Apple II 游戏手柄（静态展示）",
+  "media_hint": "none",
+  "bios_required": false,
+  "bios_guide_url": null,
+  "output_sinks": [],
+  "input_map": {
+    "d_pad_left": {
+      "map": "keyboard",
+      "key": "KEY_LEFT"
+    },
+    "d_pad_right": {
+      "map": "keyboard",
+      "key": "KEY_RIGHT"
+    },
+    "d_pad_up": {
+      "map": "keyboard",
+      "key": "KEY_UP"
+    },
+    "d_pad_down": {
+      "map": "keyboard",
+      "key": "KEY_DOWN"
+    },
+    "button_a": {
+      "map": "keyboard",
+      "key": "KEY_A"
+    },
+    "button_b": {
+      "map": "keyboard",
+      "key": "KEY_B"
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "annotations": [
+    {
+      "id": "body_role",
+      "type": "role",
+      "target": "body",
+      "text": "机身是手柄的主体承重件，在整机中作为十字键、功能键、肩键与线缆的安装平台，把这些输入部件固定为一个可双手握持操作的横置手柄。",
+      "sources": []
+    },
+    {
+      "id": "body_grip_role",
+      "type": "role",
+      "target": "body",
+      "text": "机身是手柄握持手感的来源，在整机中提供双手握持的横置造型与重量，让十字键、功能键与肩键在握持时都处在手指易触的位置。",
+      "sources": []
+    },
+    {
+      "id": "d_pad_role",
+      "type": "role",
+      "target": "d_pad",
+      "text": "十字键在整机中是机身左侧的八方向方向键，用户按压上、下、左、右及斜向，向主机送出方向输入信号。",
+      "sources": []
+    },
+    {
+      "id": "d_pad_gate_role",
+      "type": "role",
+      "target": "d_pad",
+      "text": "十字键在整机中受机身开孔限位约束，按压行程被限制在一定幅度内，既保证按键回弹清晰，也避免过度按压损坏内部开关。",
+      "sources": []
+    },
+    {
+      "id": "buttons_role",
+      "type": "role",
+      "target": "buttons",
+      "text": "功能键区在整机中是机身右侧的动作按键，供用户按压触发射击、动作等游戏操作，产生开关量输入信号。",
+      "sources": []
+    },
+    {
+      "id": "buttons_return_role",
+      "type": "role",
+      "target": "buttons",
+      "text": "功能键区在整机中依靠回弹结构在松开后自动复位，使每一次按压都清晰可靠，适合高速连按的动作类游戏操作。",
+      "sources": []
+    },
+    {
+      "id": "shoulder_role",
+      "type": "role",
+      "target": "shoulder",
+      "text": "肩键在整机中是机身顶部两侧的肩部按键，供食指按压触发辅助动作，产生开关量输入信号。",
+      "sources": []
+    },
+    {
+      "id": "shoulder_return_role",
+      "type": "role",
+      "target": "shoulder",
+      "text": "肩键在整机中依靠回弹结构在松开后复位，让食指的每一次按压与松开都形成清晰通断，便于连续触发。",
+      "sources": []
+    },
+    {
+      "id": "cable_role",
+      "type": "role",
+      "target": "cable",
+      "text": "线缆在整机中把十字键、功能键与肩键产生的输入信号从机身引出，经接头接入 Apple II 的 game_port 游戏端口。",
+      "sources": []
+    },
+    {
+      "id": "cable_connector_role",
+      "type": "role",
+      "target": "cable",
+      "text": "线缆在整机中的末端接头负责与 Apple II game_port 对插，把手柄产生的开关量输入送入主机，是外设与主机之间的物理接口。",
+      "sources": []
+    },
+    {
+      "id": "d_pad_switch_role",
+      "type": "role",
+      "target": "d_pad_switch",
+      "text": "十字键开关在整机中把十字键八个方向的按压转换为对应的开关量，判定用户按压的方向。",
+      "sources": []
+    },
+    {
+      "id": "d_pad_contact_role",
+      "type": "role",
+      "target": "d_pad_switch",
+      "text": "十字键开关在整机中的触点随十字键按压而闭合，把八个方向的动作分别转换为清晰的通断信号，是方向输入的核心换能器件。",
+      "sources": []
+    },
+    {
+      "id": "button_switch_role",
+      "type": "role",
+      "target": "button_switch",
+      "text": "功能键开关在整机中把功能键的按压转换为通断开关量，按下闭合、松开断开，产生动作键输入信号。",
+      "sources": []
+    },
+    {
+      "id": "button_contact_role",
+      "type": "role",
+      "target": "button_switch",
+      "text": "功能键开关在整机中的触点随按压闭合、随松开断开，形成清晰的通断信号，动作简单可靠，适合高速连按。",
+      "sources": []
+    },
+    {
+      "id": "shoulder_switch_role",
+      "type": "role",
+      "target": "shoulder_switch",
+      "text": "肩键开关在整机中把肩键的按压转换为通断开关量，供食指快速触发辅助动作。",
+      "sources": []
+    },
+    {
+      "id": "cable_wire_role",
+      "type": "role",
+      "target": "cable_wire",
+      "text": "线缆在整机中把十字键与按键产生的开关量信号传送到 game_port，经接口接入 Apple II 主机。",
+      "sources": []
+    },
+    {
+      "id": "flow_d_pad_press",
+      "type": "flow",
+      "target": "d_pad",
+      "text": "十字键按压流程：用户按压十字键的某一方向，键体下沉触发下方开关，把按压动作转换为方向电信号。",
+      "sources": []
+    },
+    {
+      "id": "flow_d_pad_release",
+      "type": "flow",
+      "target": "d_pad",
+      "text": "十字键复位流程：用户松开十字键后，回弹结构使键体复位，开关断开，一次方向输入操作结束。",
+      "sources": []
+    },
+    {
+      "id": "flow_button_press",
+      "type": "flow",
+      "target": "buttons",
+      "text": "功能键按压流程：用户按下功能键，键体下沉触发下方开关，把按压动作转换为动作键电信号。",
+      "sources": []
+    },
+    {
+      "id": "flow_button_release",
+      "type": "flow",
+      "target": "buttons",
+      "text": "功能键复位流程：用户松开功能键后，回弹结构使键体复位，开关断开，一次动作键操作结束。",
+      "sources": []
+    },
+    {
+      "id": "flow_shoulder_press",
+      "type": "flow",
+      "target": "shoulder",
+      "text": "肩键按压流程：用户用食指按下肩键，键体下沉触发内部开关，把按压动作转换为辅助动作电信号。",
+      "sources": []
+    },
+    {
+      "id": "flow_shoulder_release",
+      "type": "flow",
+      "target": "shoulder",
+      "text": "肩键复位流程：用户松开肩键后，回弹结构使键体复位，开关断开，一次肩键操作结束。",
+      "sources": []
+    },
+    {
+      "id": "flow_d_pad_switch",
+      "type": "flow",
+      "target": "d_pad_switch",
+      "text": "方向开关量生成流程：十字键开关随八个方向的按压分别闭合，形成一组清晰的方向通断信号供主机判定。",
+      "sources": []
+    },
+    {
+      "id": "flow_button_switch",
+      "type": "flow",
+      "target": "button_switch",
+      "text": "开关量生成流程：功能键开关随按压闭合、随松开断开，形成一次清晰的通断脉冲作为动作键输入。",
+      "sources": []
+    },
+    {
+      "id": "flow_shoulder_switch",
+      "type": "flow",
+      "target": "shoulder_switch",
+      "text": "肩键开关量生成流程：肩键开关随按压闭合、随松开断开，形成肩键的辅助动作通断信号。",
+      "sources": []
+    },
+    {
+      "id": "flow_cable_route",
+      "type": "flow",
+      "target": "cable",
+      "text": "线缆走线流程：线缆从机身顶部引出，沿桌面弯曲布放，末端接头插入主机侧 game_port，是外设布线的物理路径。",
+      "sources": []
+    },
+    {
+      "id": "flow_signal_to_port",
+      "type": "flow",
+      "target": "cable_wire",
+      "text": "信号传输流程：十字键与按键的开关量信号沿线缆内导线传导，从机身经接头送入 Apple II game_port。",
+      "sources": []
+    },
+    {
+      "id": "flow_port_handshake",
+      "type": "flow",
+      "target": "body",
+      "text": "接口接入流程：手柄经线缆接头插入 Apple II 的 game_port，由主机提供参考电平，手柄回传开关量输入，完成外设与主机的对接。",
+      "sources": []
+    },
+    {
+      "id": "anim_d_pad_press",
+      "type": "anim",
+      "target": "d_pad",
+      "text": "十字键按压演示：十字键按演示节奏在八个方向依次下沉并回弹，展示方向按压的行程与开关触发的对应关系。",
+      "sources": []
+    },
+    {
+      "id": "anim_button_press",
+      "type": "anim",
+      "target": "buttons",
+      "text": "按键按压演示：功能键按演示节奏下沉并回弹，展示按压行程与开关触发的对应关系。",
+      "sources": []
+    }
+  ]
+}

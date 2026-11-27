@@ -1,7 +1,7 @@
 {
-  "time": "2026-11-26 03:07:58",
-  "total": 77,
-  "passed": 77,
+  "time": "2026-11-28 00:11:47",
+  "total": 83,
+  "passed": 83,
   "steps": [
     {
       "name": "m0",
@@ -16,7 +16,7 @@
     {
       "name": "slots",
       "ok": true,
-      "note": "汇总：完工包 69，声明 slot 0，SC-01 违规 0"
+      "note": "汇总：完工包 75，声明 slot 0，SC-01 违规 0"
     },
     {
       "name": "catalog",
@@ -60,6 +60,16 @@
     },
     {
       "name": "pkg:apple-ii",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:apple-ii-gamepad",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:apple-ii-joystick",
       "ok": true,
       "note": "FAIL 0"
     },
@@ -149,12 +159,22 @@
       "note": "FAIL 0"
     },
     {
+      "name": "pkg:frogger-arcade",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
       "name": "pkg:galaga-arcade",
       "ok": true,
       "note": "FAIL 0"
     },
     {
       "name": "pkg:game-boy",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:game-boy-color",
       "ok": true,
       "note": "FAIL 0"
     },
@@ -194,7 +214,17 @@
       "note": "FAIL 0"
     },
     {
+      "name": "pkg:ms-pac-man-arcade",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
       "name": "pkg:neo-geo-mvs",
+      "ok": true,
+      "note": "FAIL 0"
+    },
+    {
+      "name": "pkg:neo-geo-pocket-color",
       "ok": true,
       "note": "FAIL 0"
     },

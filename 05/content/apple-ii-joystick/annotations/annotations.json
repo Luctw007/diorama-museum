@@ -1,0 +1,214 @@
+{
+  "annotations": [
+    {
+      "id": "base_role",
+      "type": "role",
+      "target": "base",
+      "text": "底座在整机中作为游戏摇杆的主体支撑与安装平台，承载摇杆、按键、线缆与底板，把内部机构固定为一个可手持操作的输入设备。",
+      "sources": []
+    },
+    {
+      "id": "base_grip_role",
+      "type": "role",
+      "target": "base",
+      "text": "底座在整机中是摇杆的重量与手感来源，压重底座与宽大底面积让设备在桌面上放得稳，是街机风格摇杆操作的基础。",
+      "sources": []
+    },
+    {
+      "id": "stick_role",
+      "type": "role",
+      "target": "stick",
+      "text": "摇杆在整机中是用户握住摆动的操作杆，绕根部前后左右偏转，把手的动作传递给下方电位器，产生双轴模拟输入。",
+      "sources": []
+    },
+    {
+      "id": "stick_gate_role",
+      "type": "role",
+      "target": "stick",
+      "text": "摇杆在整机中受底座上的限位结构约束，偏转行程被限制在一定角度内，既保证电位器量程匹配，也避免过度摆动损坏内部机构。",
+      "sources": []
+    },
+    {
+      "id": "button_role",
+      "type": "role",
+      "target": "button",
+      "text": "按键在整机中是独立的动作按钮，供用户按压触发开火或确认等游戏操作，产生开关量输入信号。",
+      "sources": []
+    },
+    {
+      "id": "button_return_role",
+      "type": "role",
+      "target": "button",
+      "text": "按键在整机中依靠回弹结构在松开后自动复位，使每一次按压都清晰可靠，是街机式动作键的手感关键。",
+      "sources": []
+    },
+    {
+      "id": "cable_role",
+      "type": "role",
+      "target": "cable",
+      "text": "线缆在整机中把摇杆与按键产生的输入信号从底座引出，经接头接入 Apple II 的 game_port 游戏端口，完成与主机的连接。",
+      "sources": []
+    },
+    {
+      "id": "cable_connector_role",
+      "type": "role",
+      "target": "cable",
+      "text": "线缆在整机中的末端接头负责与 Apple II game_port 对插，把摇杆与按键的信号接入主机，是外设与主机之间的物理接口。",
+      "sources": []
+    },
+    {
+      "id": "base_plate_role",
+      "type": "role",
+      "target": "base_plate",
+      "text": "底板在整机中封闭底座底部，固定内部机构并承托整机重量，提供防滑与稳固的放置面。",
+      "sources": []
+    },
+    {
+      "id": "base_mount_role",
+      "type": "role",
+      "target": "base_plate",
+      "text": "底板在整机中与底座扣合封闭，压住内部走线与机构，是拆解时最后取下、组装时最先安装的结构件。",
+      "sources": []
+    },
+    {
+      "id": "stick_switch_role",
+      "type": "role",
+      "target": "stick_switch",
+      "text": "摇杆开关在整机中把摇杆的偏转转换为双轴模拟量，通过两组电位器的分压变化输出方向与幅度信号。",
+      "sources": []
+    },
+    {
+      "id": "stick_potentiometer_role",
+      "type": "role",
+      "target": "stick_switch",
+      "text": "摇杆开关在整机中的双轴电位器把摇杆的偏转角度转换为电阻分压变化，分别对应左右与前后两个方向，是模拟摇杆的核心换能器件。",
+      "sources": []
+    },
+    {
+      "id": "button_switch_role",
+      "type": "role",
+      "target": "button_switch",
+      "text": "按键开关在整机中把按键的按压转换为通断开关量，按下闭合、松开断开，产生动作键输入信号。",
+      "sources": []
+    },
+    {
+      "id": "button_contact_role",
+      "type": "role",
+      "target": "button_switch",
+      "text": "按键开关在整机中的触点随按压闭合、随松开断开，形成清晰的通断信号，动作简单可靠，适合高速连按的街机游戏操作。",
+      "sources": []
+    },
+    {
+      "id": "cable_wire_role",
+      "type": "role",
+      "target": "cable_wire",
+      "text": "线缆在整机中把摇杆与按键产生的模拟量与开关量从底座传送到 game_port，经接口接入 Apple II 主机。",
+      "sources": []
+    },
+    {
+      "id": "cable_shield_role",
+      "type": "role",
+      "target": "cable_wire",
+      "text": "线缆在整机中的导线负责传输模拟量与开关量信号，外皮与屏蔽结构降低外部干扰，保证输入信号在传输中的稳定。",
+      "sources": []
+    },
+    {
+      "id": "flow_stick_tilt",
+      "type": "flow",
+      "target": "stick",
+      "text": "摇杆操作流程：用户握杆向目标方向偏转，杆体绕根部转动，把位移与方向传递给底座内的电位器机构。",
+      "sources": []
+    },
+    {
+      "id": "flow_axis_measure",
+      "type": "flow",
+      "target": "stick_switch",
+      "text": "模拟量生成流程：电位器随摇杆偏转而改变分压，产生随方向与幅度连续变化的模拟量，分别表达 X 轴与 Y 轴。",
+      "sources": []
+    },
+    {
+      "id": "flow_axis_to_port",
+      "type": "flow",
+      "target": "cable_wire",
+      "text": "信号传输流程：双轴模拟量与按钮开关量沿线缆内导线传导，从底座经接头送入 Apple II game_port。",
+      "sources": []
+    },
+    {
+      "id": "flow_button_press",
+      "type": "flow",
+      "target": "button",
+      "text": "按键按压流程：用户按下按键，键体下沉触发底座内的开关，把按压动作转换为电信号。",
+      "sources": []
+    },
+    {
+      "id": "flow_button_switch",
+      "type": "flow",
+      "target": "button_switch",
+      "text": "开关量生成流程：开关随按键按下而闭合，随松开而断开，形成一次清晰的通断脉冲作为动作键输入。",
+      "sources": []
+    },
+    {
+      "id": "flow_port_handshake",
+      "type": "flow",
+      "target": "base",
+      "text": "接口接入流程：摇杆经线缆接头插入 Apple II 的 game_port，由主机提供参考电平，摇杆回传输入量，完成外设与主机的对接。",
+      "sources": []
+    },
+    {
+      "id": "flow_stick_center",
+      "type": "flow",
+      "target": "stick",
+      "text": "回中流程：用户松手后，回中结构使摇杆回到中立位，双轴模拟量回归中值，对应游戏中的停止或居中状态。",
+      "sources": []
+    },
+    {
+      "id": "flow_button_release",
+      "type": "flow",
+      "target": "button",
+      "text": "按键复位流程：用户松开按键后，回弹结构使键体复位，开关断开，一次按键操作结束。",
+      "sources": []
+    },
+    {
+      "id": "flow_cable_route",
+      "type": "flow",
+      "target": "cable",
+      "text": "线缆走线流程：线缆从底座后侧引出，沿桌面弯曲布放，末端接头插入主机侧 game_port，是外设布线的物理路径。",
+      "sources": []
+    },
+    {
+      "id": "flow_base_mount",
+      "type": "flow",
+      "target": "base_plate",
+      "text": "装配流程：底板与底座扣合，封闭内部机构与走线，使整机成为一个稳固的整体。",
+      "sources": []
+    },
+    {
+      "id": "flow_stick_axis_x",
+      "type": "flow",
+      "target": "stick_switch",
+      "text": "X 轴测量流程：摇杆左右偏转时，X 轴电位器独立分压，输出与左右位移对应的模拟量。",
+      "sources": []
+    },
+    {
+      "id": "flow_stick_axis_y",
+      "type": "flow",
+      "target": "stick_switch",
+      "text": "Y 轴测量流程：摇杆前后偏转时，Y 轴电位器独立分压，输出与前后位移对应的模拟量。",
+      "sources": []
+    },
+    {
+      "id": "anim_stick_swing",
+      "type": "anim",
+      "target": "stick",
+      "text": "摇杆摆动演示：摇杆绕根部按演示路径前后左右摆动，展示双轴偏转的行程与回中动作，配合标注说明模拟量输入的产生过程。",
+      "sources": []
+    },
+    {
+      "id": "anim_button_press",
+      "type": "anim",
+      "target": "button",
+      "text": "按键按压演示：按键按演示节奏下沉并回弹，展示按压行程与开关触发的对应关系。",
+      "sources": []
+    }
+  ]
+}

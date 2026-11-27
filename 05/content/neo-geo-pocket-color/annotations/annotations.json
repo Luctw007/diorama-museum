@@ -1,0 +1,214 @@
+{
+  "annotations": [
+    {
+      "id": "chassis_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "Neo Geo Pocket Color 竖版机身，是 SNK 于 1999 年推出的彩色掌上游戏机的整机主体，在整机中承载屏幕模块、摇杆状十字键、按键区、卡带槽与电池仓，是格斗游戏便携化的载体。",
+      "sources": []
+    },
+    {
+      "id": "screen_module_role",
+      "type": "role",
+      "target": "screen_module",
+      "text": "屏幕模块在整机中位于正面中央，是 160×152 分辨率的彩色液晶屏，负责显示游戏画面，是 NGPC 相较黑白初代 Neo Geo Pocket 的标志性升级。",
+      "sources": []
+    },
+    {
+      "id": "d_pad_role",
+      "type": "role",
+      "target": "d_pad",
+      "text": "摇杆状十字键在整机中位于左侧，是 NGPC 特有的 clicky 微动摇杆式十字键，可八方向微动按压，是掌机格斗游戏精确出招的核心输入件。",
+      "sources": []
+    },
+    {
+      "id": "buttons_role",
+      "type": "role",
+      "target": "buttons",
+      "text": "按键区在整机中位于右侧，包含 A/B 主键与 Option 键，配合摇杆状十字键构成掌机的主要操作方式。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_slot_role",
+      "type": "role",
+      "target": "cartridge_slot",
+      "text": "卡带槽在整机中位于顶部，插入 NGPC 专用卡带后由主机读取游戏程序，是可插拔的识别件。",
+      "sources": []
+    },
+    {
+      "id": "battery_compartment_role",
+      "type": "role",
+      "target": "battery_compartment",
+      "text": "电池仓在整机中位于机身背部，装载电池为掌机供电，是 NGPC 便携续航的基础。",
+      "sources": []
+    },
+    {
+      "id": "cpu_role",
+      "type": "role",
+      "target": "cpu",
+      "text": "CPU 在整机中负责取指译码、执行游戏程序，是 NGPC 的主处理器与运算核心，驱动整机的游戏逻辑与系统运行。",
+      "sources": []
+    },
+    {
+      "id": "gpu_role",
+      "type": "role",
+      "target": "gpu",
+      "text": "GPU 在整机中负责绘制 160×152 彩色画面，把游戏图形数据渲染到彩色液晶屏，是掌机的图形处理核心。",
+      "sources": []
+    },
+    {
+      "id": "ram_role",
+      "type": "role",
+      "target": "ram",
+      "text": "主内存芯片在整机中提供工作内存，暂存运行时的程序与图形数据，是掌机快速读写的中转核心。",
+      "sources": []
+    },
+    {
+      "id": "sound_ic_role",
+      "type": "role",
+      "target": "sound_ic",
+      "text": "音源芯片在整机中合成与输出游戏音效，经扬声器播放，是掌机的音频处理核心。",
+      "sources": []
+    },
+    {
+      "id": "clicky_dpad_role",
+      "type": "role",
+      "target": "d_pad",
+      "text": "clicky 摇杆状十字键在整机中是 NGPC 最标志性的识别件，微动开关带来清脆的段落手感，是格斗游戏精确出招的关键。",
+      "sources": []
+    },
+    {
+      "id": "ab_buttons_role",
+      "type": "role",
+      "target": "buttons",
+      "text": "A/B 键在整机中位于右侧，是掌机的主要动作按键，与摇杆状十字键配合完成游戏操作。",
+      "sources": []
+    },
+    {
+      "id": "color_screen_role",
+      "type": "role",
+      "target": "screen_module",
+      "text": "彩色液晶屏在整机中是 NGPC 相较黑白初代 Neo Geo Pocket 的标志性升级，160×152 的彩色画面让格斗游戏更具表现力。",
+      "sources": []
+    },
+    {
+      "id": "option_btn_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "Option 键在整机中位于按键区上方，是 NGPC 用于系统菜单与功能切换的辅助按键。",
+      "sources": []
+    },
+    {
+      "id": "speaker_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "扬声器在整机中位于机身下部，播放游戏音效，是 NGPC 单声道声音的输出器件。",
+      "sources": []
+    },
+    {
+      "id": "power_switch_role",
+      "type": "role",
+      "target": "chassis",
+      "text": "电源开关在整机中位于机身侧面，滑动式开关控制掌机的通断电。",
+      "sources": []
+    },
+    {
+      "id": "boot_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "开机流程：拨动电源开关，CPU 初始化并读取卡带程序，屏幕点亮进入游戏主循环，音效经扬声器输出。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_flow",
+      "type": "flow",
+      "target": "cartridge_slot",
+      "text": "卡带插拔：把 NGPC 专用卡带插入顶部卡带槽，主机读取卡带程序后启动对应游戏。",
+      "sources": []
+    },
+    {
+      "id": "dpad_input_flow",
+      "type": "flow",
+      "target": "d_pad",
+      "text": "方向输入：摇杆状十字键提供八方向微动输入，玩家用它控制角色移动与出招。",
+      "sources": []
+    },
+    {
+      "id": "ab_input_flow",
+      "type": "flow",
+      "target": "buttons",
+      "text": "动作输入：A/B 键提供拳脚等动作输入，与摇杆十字键配合完成连招操作。",
+      "sources": []
+    },
+    {
+      "id": "battery_flow",
+      "type": "flow",
+      "target": "battery_compartment",
+      "text": "电池供电：电池仓装载电池，为掌机提供便携续航。",
+      "sources": []
+    },
+    {
+      "id": "color_upgrade_flow",
+      "type": "flow",
+      "target": "screen_module",
+      "text": "彩色升级：NGPC 的彩色液晶屏取代了黑白初代的显示，画面表现大幅提升。",
+      "sources": []
+    },
+    {
+      "id": "fighting_portable_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "格斗便携化：NGPC 将《拳皇》《侍魂》等街机格斗游戏搬到掌上，是格斗游戏便携化的代表。",
+      "sources": []
+    },
+    {
+      "id": "eight_dir_flow",
+      "type": "flow",
+      "target": "d_pad",
+      "text": "八方向操作：摇杆状十字键支持八个方向的微动按压，比传统十字键更适合格斗游戏的精确指令。",
+      "sources": []
+    },
+    {
+      "id": "game_library_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "游戏生态：NGPC 游戏库以格斗游戏为强项，覆盖动作、益智等类型，是 SNK 掌机生态的核心。",
+      "sources": []
+    },
+    {
+      "id": "snk_legacy_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "SNK 遗产：NGPC 是 SNK 破产前的最后一代掌机，承载了 SNK 的格斗基因与街机荣光。",
+      "sources": []
+    },
+    {
+      "id": "portable_flow",
+      "type": "flow",
+      "target": "chassis",
+      "text": "便携性：NGPC 小巧轻便，让玩家可以随时随地享受街机品质的格斗游戏。",
+      "sources": []
+    },
+    {
+      "id": "display_flow",
+      "type": "flow",
+      "target": "screen_module",
+      "text": "显示流程：CPU 生成的画面数据经 GPU 处理后输出到彩色液晶屏逐帧显示。",
+      "sources": []
+    },
+    {
+      "id": "cartridge_insert_anim",
+      "type": "anim",
+      "target": "cartridge_slot",
+      "text": "卡带插拔动画：玩家将 NGPC 卡带对准顶部卡带槽插入，卡带沿竖直方向滑入，金手指啮合后主机读取程序，拔出时反向抽出，单次约 1 秒。",
+      "sources": []
+    },
+    {
+      "id": "clicky_dpad_anim",
+      "type": "anim",
+      "target": "d_pad",
+      "text": "clicky 摇杆演示：摇杆状十字键围绕中心轴做八方向微动按压示意，模拟格斗游戏搓招时微动开关的清脆段落反馈。",
+      "sources": []
+    }
+  ]
+}
